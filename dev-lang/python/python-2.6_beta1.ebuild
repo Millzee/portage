@@ -241,16 +241,6 @@ pkg_postinst() {
 		python_mod_optimize -x "(site-packages|test)" \
 							/usr/$(get_libdir)/python${PYVER}
 
-	# workaround possible python-upgrade-breaks-portage situation
-	if [ ! -f ${myroot}/usr/lib/portage/pym/portage.py ]; then
-		if [ -f ${myroot}/usr/lib/python2.3/site-packages/portage.py ]; then
-			einfo "Working around possible python-portage upgrade breakage"
-			mkdir -p ${myroot}/usr/lib/portage/pym
-			cp ${myroot}/usr/lib/python2.4/site-packages/{portage,xpak,output,cvstree,getbinpkg,emergehelp,dispatch_conf}.py ${myroot}/usr/lib/portage/pym
-			python_mod_optimize /usr/lib/portage/pym
-		fi
-	fi
-
 	# Update symlink back to old version.
 	# Remove this after testing is done.
 	eselect python update --ignore ${SLOT}
