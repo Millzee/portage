@@ -253,8 +253,6 @@ pkg_postinst() {
 	ewarn "This version of Python is experimental."
 	ewarn "Thus symlinks haven't been updated."
 	ewarn "/usr/bin/python is still linked to your old Python installation."
-	ewarn "Please don't file bugs related to this Python version to Gentoo bugzilla."
-	ewarn "You can send them to hawking@gentoo.org"
 	ebeep 5
 }
 
