@@ -25,6 +25,9 @@ HOMEPAGE="http://www.python.org/"
 SRC_URI="http://www.python.org/ftp/python/2.6/${MY_P}.tar.bz2
 	http://dev.gentoo.org/~hawking/py3k/patches/python-gentoo-patches-${PV/_b*/}.tar.bz2"
 
+# Remove when testing is done
+RESTRICT="mirror"
+
 LICENSE="PSF-2.2"
 SLOT="2.6"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd"
