@@ -9,7 +9,7 @@
 
 EAPI=1
 
-inherit eutils autotools flag-o-matic python multilib versionator toolchain-funcs alternatives libtool
+inherit eutils autotools flag-o-matic python multilib versionator toolchain-funcs libtool
 
 # we need this so that we don't depends on python.eclass
 PYVER_MAJOR=$(get_major_version)
@@ -23,7 +23,7 @@ S="${WORKDIR}/${MY_P}"
 DESCRIPTION="Python is an interpreted, interactive, object-oriented programming language."
 HOMEPAGE="http://www.python.org/"
 SRC_URI="http://www.python.org/ftp/python/2.6/${MY_P}.tar.bz2
-	http://dev.gentoo.org/~hawking/py3k/patches/python-gentoo-patches-${PV/_b*/}.tar.bz2"
+	http://dev.gentoo.org/~hawking/py3k/patches/python-gentoo-patches-${PV/_b*/}-r1.tar.bz2"
 
 # Remove when testing is done
 RESTRICT="mirror"
