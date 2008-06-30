@@ -182,6 +182,7 @@ src_install() {
 	mv "${D}"/usr/bin/python${PYVER}-config "${D}"/usr/bin/python-config-${PYVER}
 
 	# Fix slotted collisions
+	mv "${D}"/usr/bin/2to3 "${D}"/usr/bin/2to3-${PYVER}
 	mv "${D}"/usr/bin/pydoc "${D}"/usr/bin/pydoc${PYVER}
 	mv "${D}"/usr/bin/idle "${D}"/usr/bin/idle${PYVER}
 	mv "${D}"/usr/share/man/man1/python.1 \
