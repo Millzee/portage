@@ -223,7 +223,7 @@ src_install() {
 }
 
 pkg_postrm() {
-	eselect python update --ignore ${SLOT}
+	eselect python update --ignore ${SLOT} --ignore 3.0
 
 	python_mod_cleanup /usr/lib/python${PYVER}
 	[[ "$(get_libdir)" == "lib" ]] || \
@@ -247,7 +247,7 @@ pkg_postinst() {
 
 	# Update symlink back to old version.
 	# Remove this after testing is done.
-	eselect python update --ignore ${SLOT}
+	eselect python update --ignore ${SLOT} --ignore 3.0
 
 	echo
 	ewarn "WARNING!"
