@@ -23,7 +23,7 @@ S="${WORKDIR}/${MY_P}"
 DESCRIPTION="Python is an interpreted, interactive, object-oriented programming language."
 HOMEPAGE="http://www.python.org/"
 SRC_URI="http://www.python.org/ftp/python/2.6/${MY_P}.tar.bz2
-	http://dev.gentoo.org/~hawking/py3k/patches/python-gentoo-patches-${PV/_b*/}-r1.tar.bz2"
+	http://dev.gentoo.org/~hawking/py3k/patches/python-gentoo-patches-${PV/_b*/}-r2.tar.bz2"
 
 # Remove when testing is done
 RESTRICT="mirror"
