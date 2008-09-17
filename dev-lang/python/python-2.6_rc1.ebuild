@@ -16,14 +16,14 @@ PYVER_MAJOR=$(get_major_version)
 PYVER_MINOR=$(get_version_component_range 2)
 PYVER="${PYVER_MAJOR}.${PYVER_MINOR}"
 
-MY_PV="${PV/_beta/b}"
+MY_PV="${PV/_rc/rc}"
 MY_P="Python-${MY_PV}"
 S="${WORKDIR}/${MY_P}"
 
 DESCRIPTION="Python is an interpreted, interactive, object-oriented programming language."
 HOMEPAGE="http://www.python.org/"
 SRC_URI="http://www.python.org/ftp/python/2.6/${MY_P}.tar.bz2
-	http://dev.gentoo.org/~hawking/py3k/patches/python-gentoo-patches-${PV/_b*/}-r2.tar.bz2"
+	http://dev.gentoo.org/~hawking/py3k/patches/python-gentoo-patches-${PV/_r*/}-r3.tar.bz2"
 
 # Remove when testing is done
 RESTRICT="mirror"
@@ -65,10 +65,10 @@ src_unpack() {
 			die "Crosscompiling requires the same host and build versions."
 		epatch "${FILESDIR}"/python-2.6-test-cross.patch
 	else
-		rm "${WORKDIR}/${PV/_b*/}"/*_all_crosscompile.patch
+		rm "${WORKDIR}/${PV/_r*/}"/*_all_crosscompile.patch
 	fi
 
-	EPATCH_SUFFIX="patch" epatch "${WORKDIR}/${PV/_b*/}"
+	EPATCH_SUFFIX="patch" epatch "${WORKDIR}/${PV/_r*/}"
 	sed -i -e "s:@@GENTOO_LIBDIR@@:$(get_libdir):g" \
 		Lib/distutils/command/install.py \
 		Lib/distutils/sysconfig.py \
