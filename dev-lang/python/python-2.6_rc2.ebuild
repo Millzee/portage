@@ -36,7 +36,7 @@ IUSE="ncurses gdbm ssl readline tk berkdb bootstrap ipv6 build ucs2 sqlite doc +
 # NOTE: dev-python/{elementtree,celementtree,pysqlite,ctypes,cjkcodecs}
 #       do not conflict with the ones in python proper. - liquidx
 
-DEPEND=">=app-admin/eselect-python-20080620
+DEPEND=">=app-admin/eselect-python-20080630
 	>=sys-libs/zlib-1.1.3
 	!build? (
 		sqlite? ( >=dev-db/sqlite-3 )
