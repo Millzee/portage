@@ -129,17 +129,6 @@ src_compile() {
 
 	local myconf
 
-	# super-secret switch. don't use this unless you know what you're
-	# doing. enabling UCS2 support will break your existing python
-	# modules
-	use ucs2 \
-		&& myconf="${myconf} --enable-unicode=ucs2" \
-		|| myconf="${myconf} --enable-unicode=ucs4"
-
-	use threads \
-		&& myconf="${myconf} --with-threads" \
-		|| myconf="${myconf} --without-threads"
-
 	src_configure
 
 	if tc-is-cross-compiler ; then
@@ -166,11 +155,13 @@ src_compile() {
 	econf \
 		--with-fpectl \
 		--enable-shared \
-		`use_enable ipv6` \
+		$(use_enable ipv6) \
+		$(use_with threads) \
+		$(use_with !ucs2 wide-unicode) \
 		--infodir='${prefix}'/share/info \
 		--mandir='${prefix}'/share/man \
 		--with-libc='' \
-		${myconf} || die
+		${myconf}
 	emake || die "Parallel make failed"
 }
 
