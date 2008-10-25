@@ -31,19 +31,18 @@ RESTRICT="mirror"
 LICENSE="PSF-2.2"
 SLOT="3.0"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd"
-IUSE="ncurses gdbm ssl readline tk berkdb ipv6 build ucs2 sqlite doc +threads examples elibc_uclibc wininst"
+IUSE="ncurses gdbm ssl readline tk ipv6 build ucs2 sqlite doc +threads examples elibc_uclibc wininst"
 
 # NOTE: dev-python/{elementtree,celementtree,pysqlite,ctypes,cjkcodecs}
 #       do not conflict with the ones in python proper. - liquidx
 
-DEPEND=">=app-admin/eselect-python-20080630
+DEPEND=">=app-admin/eselect-python-20080925
 	>=sys-libs/zlib-1.1.3
 	!build? (
 		sqlite? ( >=dev-db/sqlite-3 )
 		tk? ( >=dev-lang/tk-8.0 )
 		ncurses? ( >=sys-libs/ncurses-5.2
 					readline? ( >=sys-libs/readline-4.1 ) )
-		berkdb? ( >=sys-libs/db-3.1 )
 		gdbm? ( sys-libs/gdbm )
 		ssl? ( dev-libs/openssl )
 		doc? ( dev-python/python-docs:2.5 )
@@ -96,12 +95,8 @@ src_configure() {
 		export PYTHON_DISABLE_MODULES="readline pyexpat dbm gdbm bsddb _curses _curses_panel _tkinter _sqlite3"
 		export PYTHON_DISABLE_SSL=1
 	else
-		# dbm module can link to berkdb or gdbm
-		# defaults to gdbm when both are enabled, #204343
 		local disable
-		use berkdb   || use gdbm || disable="${disable} dbm"
-		use berkdb   || disable="${disable} bsddb"
-		use gdbm     || disable="${disable} gdbm"
+		use gdbm     || disable="${disable} dbm gdbm"
 		use ncurses  || disable="${disable} _curses _curses_panel"
 		use readline || disable="${disable} readline"
 		use sqlite   || disable="${disable} sqlite3"
@@ -190,7 +185,6 @@ src_install() {
 		rm -rf "${D}"/usr/$(get_libdir)/python${PYVER}/{test,encodings,email,lib-tk,bsddb/test}
 	else
 		use elibc_uclibc && rm -rf "${D}"/usr/$(get_libdir)/python${PYVER}/{test,bsddb/test}
-		use berkdb || rm -rf "${D}"/usr/$(get_libdir)/python${PYVER}/bsddb
 		use tk || rm -rf "${D}"/usr/$(get_libdir)/python${PYVER}/lib-tk
 	fi
 
@@ -214,7 +208,7 @@ src_install() {
 }
 
 pkg_postrm() {
-	eselect python update --ignore ${SLOT} --ignore 2.6
+	eselect python update --ignore ${SLOT}
 
 	python_mod_cleanup /usr/lib/python${PYVER}
 	[[ "$(get_libdir)" == "lib" ]] || \
@@ -238,7 +232,7 @@ pkg_postinst() {
 
 	# Update symlink back to old version.
 	# Remove this after testing is done.
-	eselect python update --ignore ${SLOT} --ignore 2.6
+	eselect python update --ignore ${SLOT}
 
 	echo
 	ewarn "WARNING!"
