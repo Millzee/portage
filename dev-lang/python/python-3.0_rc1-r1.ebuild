@@ -23,7 +23,7 @@ S="${WORKDIR}/${MY_P}"
 DESCRIPTION="Python is an interpreted, interactive, object-oriented programming language."
 HOMEPAGE="http://www.python.org/"
 SRC_URI="http://www.python.org/ftp/python/3.0/${MY_P}.tar.bz2
-	http://dev.gentoo.org/~hawking/py3k/patches/python-gentoo-patches-${PV/_r*/}.tar.bz2"
+	http://dev.gentoo.org/~hawking/py3k/patches/python-gentoo-patches-${PV/_r*/}-r1.tar.bz2"
 
 # Remove when testing is done
 RESTRICT="mirror"
@@ -249,8 +249,9 @@ src_test() {
 		return
 	fi
 
-	# PYTHON_DONTCOMPILE=1 breaks test_import
-	unset PYTHON_DONTCOMPILE
+	# Byte compiling should be enabled here.
+	# Otherwise test_import fails.
+	python_enable_pyc
 
 	#skip all tests that fail during emerge but pass without emerge:
 	#(See bug# 67970)
