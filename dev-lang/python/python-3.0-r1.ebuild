@@ -1,6 +1,6 @@
 # Copyright 1999-2008 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-lang/python/python-2.5.2-r1.ebuild,v 1.1 2008/04/18 22:23:25 hawking Exp $
+# $Header: $
 
 # NOTE about python-portage interactions :
 # - Do not add a pkg_setup() check for a certain version of portage
@@ -30,7 +30,7 @@ RESTRICT="mirror"
 LICENSE="PSF-2.2"
 SLOT="3.0"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd"
-IUSE="build doc elibc_uclibc examples gdbm ipv6 ncurses readline sqlite ssl +threads tk ucs2 wininst"
+IUSE="build doc elibc_uclibc examples +expat gdbm ipv6 ncurses readline sqlite ssl +threads tk ucs2 wininst"
 
 # NOTE: dev-python/{elementtree,celementtree,pysqlite,ctypes,cjkcodecs}
 #       do not conflict with the ones in python proper. - liquidx
@@ -45,7 +45,7 @@ DEPEND=">=app-admin/eselect-python-20080925
 		gdbm? ( sys-libs/gdbm )
 		ssl? ( dev-libs/openssl )
 		doc? ( dev-python/python-docs:2.5 )
-		dev-libs/expat
+        expat? ( dev-libs/expat )
 	)"
 
 # NOTE: changed RDEPEND to PDEPEND to resolve bug 88777. - kloeri
@@ -95,6 +95,7 @@ src_configure() {
 		export PYTHON_DISABLE_SSL=1
 	else
 		local disable
+		use expat    || disable="${disable} pyexpat"
 		use gdbm     || disable="${disable} dbm gdbm"
 		use ncurses  || disable="${disable} _curses _curses_panel"
 		use readline || disable="${disable} readline"
@@ -170,8 +171,6 @@ src_install() {
 	mv "${D}"/usr/bin/2to3 "${D}"/usr/bin/2to3-${PYVER}
 	mv "${D}"/usr/bin/pydoc "${D}"/usr/bin/pydoc${PYVER}
 	mv "${D}"/usr/bin/idle "${D}"/usr/bin/idle${PYVER}
-	mv "${D}"/usr/share/man/man1/python.1 \
-		"${D}"/usr/share/man/man1/python${PYVER}.1
 	rm -f "${D}"/usr/bin/smtpd.py
 
 	# While we're working on the config stuff... Let's fix the OPT var
@@ -198,8 +197,8 @@ src_install() {
 	doins "${S}"/Makefile.pre.in
 
 	if use examples ; then
-		mkdir -p "${D}"/usr/share/doc/${P}/examples
-		cp -r "${S}"/Tools "${D}"/usr/share/doc/${P}/examples
+		insinto /usr/share/doc/${PF}/examples
+		doins -r "${S}"/Tools || die "doins failed"
 	fi
 
 	newinitd "${FILESDIR}/pydoc.init" pydoc-${SLOT}
