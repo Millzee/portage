@@ -44,7 +44,7 @@ DEPEND=">=app-admin/eselect-python-20080925
 					readline? ( >=sys-libs/readline-4.1 ) )
 		gdbm? ( sys-libs/gdbm )
 		ssl? ( dev-libs/openssl )
-		doc? ( dev-python/python-docs:2.5 )
+		doc? ( dev-python/python-docs:3.0 )
         expat? ( dev-libs/expat )
 	)"
 
