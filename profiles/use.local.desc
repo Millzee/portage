@@ -1,6 +1,6 @@
 # Copyright 1999-2008 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/use.local.desc,v 1.4164 2009/01/28 02:52:29 robbat2 Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/use.local.desc,v 1.4167 2009/01/28 19:07:55 robbat2 Exp $
 # This file contains descriptions of local USE flags, and the ebuilds which
 # contain them.
 # Keep it sorted (use "LC_ALL=C sort -t: -k1,1 -k2 | LC_ALL=C sort -s -t/ -k1,1")
@@ -236,7 +236,7 @@ app-emulation/virtualbox-ose:sdk - Enable building of SDK
 app-emulation/vov:gprof - build with profiling support
 app-emulation/wine:gecko - Add support for the Gecko engine when using iexplore
 app-emulation/wine:samba - Add support for NTLM auth. see http://wiki.winehq.org/NtlmAuthSetupGuide and http://wiki.winehq.org/NtlmSigningAndSealing
-app-emulation/wine:win64 - Build a 64bit version of Wine
+app-emulation/wine:win64 - Build a 64bit version of Wine (won't run Win32 binaries)
 app-emulation/xen:acm - Enable the ACM/sHype XSM module from IBM
 app-emulation/xen:custom-cflags - Use CFLAGS from /etc/make.conf rather than the default Xen CFLAGS (not supported)
 app-emulation/xen:flask - Enable the Flask XSM module from NSA
@@ -771,7 +771,6 @@ dev-ruby/ruby-sdl:mixer - Enable media-libs/sdl-mixer support
 dev-ruby/ruby-sdl:sge - Enable sdl-sge support
 dev-ruby/rubygems:server - Install support for the rubygems server
 dev-ruby/sqlite3-ruby:swig - Use dev-lang/swig to generate bindings
-dev-scheme/gambit:big-iron - Use expensive GCC optimizations and compile syntax-case macro system, try only if you have more than 2GB RAM
 dev-scheme/gauche-gl:cg - Enable NVidia Cg binding
 dev-scheme/gauche-gtk:glgd - Enable GL graph draw
 dev-scheme/guile:debug-freelist - Include garbage collector freelist debugging code
@@ -981,6 +980,7 @@ gnustep-base/gnustep-back-cairo:glitz - Build with media-libs/glitz support
 gnustep-base/gnustep-back-cairo:xim - Enable X11 XiM input method
 gnustep-base/gnustep-back-xlib:xim - Enable X11 XiM input method
 gnustep-base/gnustep-base:gcc-libffi - Use dev-libs/libffi from sys-devel/gcc instead of dev-libs/ffcall. Requires sys-devel/gcc built with USE=libffi
+gnustep-base/gnustep-make:native-exceptions - Enables use of the native Objective-C exception support (@try/@catch/@finally) built-in objective-c exceptions with compilers that support it 
 kde-base/akonadi:nepomuk - Enable desktop-wide tagging support
 kde-base/akonadi:opensync - Enables OpenSync data synchronization protocol support.
 kde-base/akonadi:semantic-desktop - Enables desktop-wide tagging support.
