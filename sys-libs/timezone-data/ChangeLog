@@ -8,9 +8,6 @@
   +timezone-data-2009a.ebuild:
   Version bump #255757 by Rodrigo Severo.
 
-  31 Dec 2008; Daniel Robbins <drobbins@funtoo.org>
-  timezone-data-2008i.ebuild: removed pkg_setup junk.
-
   14 Dec 2008; Thomas Anderson <gentoofan23@gentoo.org>
   timezone-data-2008i.ebuild:
   stable amd64, bug 250241
