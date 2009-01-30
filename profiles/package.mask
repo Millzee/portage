@@ -1,5 +1,5 @@
 ####################################################################
-# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.9438 2009/01/29 03:47:14 jmbsvicetto Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/package.mask,v 1.9445 2009/01/30 02:34:14 loki_val Exp $
 #
 # When you add an entry to the top of this file, add your name, the date, and
 # an explanation of why something is getting masked. Please be extremely
@@ -30,6 +30,20 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+
+# Peter Alfredsen <loki_val@gentoo.org> (30 Jan 2009)
+# Nothing uses this anymore, depends on gtk-sharp:1
+# Masked for removal in 30 days.
+dev-dotnet/gtkgl-sharp
+
+# Peter Alfredsen <loki_val@gentoo.org> (30 Jan 2009)
+# No longer maintained upstream, depends on gtk-sharp:1
+# Masked for removal in 30 days.
+dev-dotnet/mcatalog
+
+# Michael Sterrett <mr_bones_@gentoo.org> (29 Jan 2009)
+# Old and unmaintained.  Used games-action/extreme-tuxracer instead.
+games-arcade/ppracer
 
 # Caleb Cushing <xenoterracide@gmail.com> (19 Jan 2008)
 # Mask new versions for caution
@@ -69,6 +83,7 @@ www-misc/zoneminder
 # Ulrich Mueller <ulm@gentoo.org> (25 Jan 2009)
 # Masked for removal in 60 days. Produces segfaults and doesn't work
 # with recent X server due to API changes. Upstream dead. Bug 242462.
+# If you run xorg-server-1.3* then this may still work for you.
 x11-misc/hotkeys
 
 # Rémi Cardona <remi@gentoo.org> (25 Jan 2009)
@@ -236,6 +251,7 @@ x11-base/kdrive
 >=kde-base/kommander-4.1.96
 >=kde-base/kompare-4.1.96
 >=kde-base/konqueror-4.1.96
+>=kde-base/konq-plugins-4.1.96
 >=kde-base/konquest-4.1.96
 >=kde-base/konsole-4.1.96
 >=kde-base/kontactinterfaces-4.1.96
@@ -1243,11 +1259,6 @@ virtual/libffi
 # Peter Alfredsen <loki_val@gentoo.org> (04 Jun 2008)
 # o Fails its own tests in horrendous ways (buuh!)
 =dev-libs/xmlrpc-c-1.15*
-
-# Jurek Bartuszek <jurek@gentoo.org> (01 Jun 2008)
-# Not used by anything anymore
-# Masked for removal in 30 days
-dev-dotnet/jscall-sharp
 
 # Rémi Cardona <remi@gentoo.org> (27 Mai 2008)
 # mildly broken, see bug #156583
