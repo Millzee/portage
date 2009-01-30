@@ -1,12 +1,11 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-inherit eutils flag-o-matic multilib toolchain-funcs java-pkg-2
+inherit flag-o-matic multilib toolchain-funcs java-pkg-2
 
 DESCRIPTION="NativeBigInteger libs for Freenet taken from i2p"
 HOMEPAGE="http://www.i2p2.de"
-SRC_URI="http://dev.gentooexperimental.org/~tommy/distfiles/${P}.tar.bz2"
+SRC_URI="mirror://gentoo/${P}.tar.bz2"
 
 LICENSE="|| ( public-domain BSD MIT )"
 SLOT="0"
