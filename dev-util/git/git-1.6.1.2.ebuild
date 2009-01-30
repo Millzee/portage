@@ -18,7 +18,7 @@ SRC_URI="mirror://kernel/software/scm/git/${MY_P}.tar.bz2
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd"
-IUSE="curl cgi doc emacs gtk iconv mozsha1 perl ppcsha1 tk threads webdav xinetd cvs subversion vim-syntax"
+IUSE="curl cgi doc emacs gtk iconv mozsha1 perl ppcsha1 regentools tk threads webdav xinetd cvs subversion vim-syntax"
 
 DEPEND="
 	!app-misc/git
@@ -98,6 +98,10 @@ src_unpack() {
 	cd "${S}"
 
 	epatch "${FILESDIR}"/20090126-git-1.6.1.1-noperl.patch
+
+	if use regentools ; then
+		epatch "${FILESDIR}"/20090130-git-1.6.1-mergetool-merge-skip-abort-at-prompt.patch
+	fi
 
 	sed -i \
 		-e 's:^\(CFLAGS =\).*$:\1 $(OPTCFLAGS) -Wall:' \
