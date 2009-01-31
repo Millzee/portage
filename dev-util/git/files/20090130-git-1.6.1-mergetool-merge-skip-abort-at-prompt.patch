@@ -1,14 +1,13 @@
 diff --git a/git-mergetool.sh b/git-mergetool.sh
-index d4078a6..fd6211b 100755
+index d4078a6..bdff66c 100755
 --- a/git-mergetool.sh
 +++ b/git-mergetool.sh
-@@ -176,8 +176,26 @@ merge_file () {
+@@ -176,8 +176,24 @@ merge_file () {
      echo "Normal merge conflict for '$MERGED':"
      describe_file "$local_mode" "local" "$LOCAL"
      describe_file "$remote_mode" "remote" "$REMOTE"
 -    printf "Hit return to start merge resolution tool (%s): " "$merge_tool"
 -    read ans
-+    if "$prompt" = true; then
 +	while true; do
 +	    printf "Use (m)erge file or (s)kip file, or (a)bort? (%s): " \
 +	    "$merge_tool"
@@ -27,7 +26,6 @@ index d4078a6..fd6211b 100755
 +		    ;;
 +	    esac
 +	done
-+    fi
  
      case "$merge_tool" in
  	kdiff3)
