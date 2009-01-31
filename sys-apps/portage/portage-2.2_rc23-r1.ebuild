@@ -10,7 +10,7 @@ LICENSE="GPL-2"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd"
 PROVIDE="virtual/portage"
 SLOT="0"
-IUSE="build doc epydoc selinux linguas_pl"
+IUSE="build doc epydoc selinux linguas_pl experimental-git"
 
 python_dep=">=dev-lang/python-2.4"
 
@@ -78,6 +78,9 @@ src_unpack() {
 	einfo "Setting portage.VERSION to ${PVR} ..."
 	sed -i "s/^VERSION=.*/VERSION=\"${PVR}\"/" pym/portage/__init__.py || \
 		die "Failed to patch portage.VERSION"
+	if use experimental-git ; then
+		epatch "${FILESDIR}/experimental-extended-git-support.patch"
+	fi
 }
 
 src_compile() {

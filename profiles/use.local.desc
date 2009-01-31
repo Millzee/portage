@@ -2642,6 +2642,7 @@ sys-apps/pcmcia-cs:xforms - Enable building the xforms based cardinfo binary
 sys-apps/pcmcia-cs-modules:cardbus - Enable 32bit CardBus support
 sys-apps/pcmciautils:staticsocket - Add support for static sockets
 sys-apps/portage:epydoc - Build html API documentation with epydoc.
+sys-apps/portage:experimental-git - Add support for experimental advanced git support.
 sys-apps/qingy:logrotate - Enable app-admin/logrotate support
 sys-apps/qingy:opensslcrypt - Encrypt communications between qingy and its GUI using dev-libs/openssl
 sys-apps/qtparted:jfs - Include JFS support

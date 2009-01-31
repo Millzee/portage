@@ -1,0 +1,92 @@
+diff --git a/pym/_emerge/__init__.py b/pym/_emerge/__init__.py
+index 615b478..c57648e 100644
+--- a/pym/_emerge/__init__.py
++++ b/pym/_emerge/__init__.py
+@@ -12168,11 +12168,12 @@ def action_sync(settings, trees, mtimedb, myopts, myaction):
+ 	if myaction == "metadata":
+ 		print "skipping sync"
+ 		updatecache_flg = True
+-	elif ".git" in vcs_dirs:
+-		# Update existing git repository, and ignore the syncuri. We are
+-		# going to trust the user and assume that the user is in the branch
+-		# that he/she wants updated. We'll let the user manage branches with
+-		# git directly.
++
++	elif syncuri[:6]=="git://":
++		gitmethod = settings.get("PORTAGE_GIT_METHOD", None)
++		gitlocal = settings.get("PORTAGE_GIT_LOCAL", None)
++		gitremote = settings.get("PORTAGE_GIT_REMOTE", None)
++
+ 		if portage.process.find_binary("git") is None:
+ 			msg = ["Command not found: git",
+ 			"Type \"emerge dev-util/git\" to enable git support."]
+@@ -12180,17 +12181,62 @@ def action_sync(settings, trees, mtimedb, myopts, myaction):
+ 				writemsg_level("!!! %s\n" % l,
+ 					level=logging.ERROR, noiselevel=-1)
+ 			return 1
+-		msg = ">>> Starting git pull in %s..." % myportdir
+-		emergelog(xterm_titles, msg )
+-		writemsg_level(msg + "\n")
+-		exitcode = portage.process.spawn_bash("cd %s ; git pull" % \
+-			(portage._shell_quote(myportdir),), **spawn_kwargs)
++
++		if not os.path.exists( myportdir + "/.git"):
++			msg = ">>> Starting git clone in %s..." % myportdir
++			emergelog(xterm_titles, msg )
++			# go through the process of cloning git manually as git is unable 
++			# to clone into existing directories
++			exitcode = portage.process.spawn_bash("cd %s ; \
++				git init ; git remote add origin %s ; git fetch ; \
++				git checkout %s -b %s ;" % (
++				portage._shell_quote(myportdir),
++				portage._shell_quote(syncuri),
++				portage._shell_quote(gitremote),
++				portage._shell_quote(gitlocal),
++				), **spawn_kwargs)
++		else:
++			# fetch all remotes
++			exitcode = portage.process.spawn_bash(
++				"cd %s ; git remote update ;" % ( 
++				portage._shell_quote(myportdir),
++				), **spawn_kwargs )
++			if gitmethod == "merge":
++				msg = ">>> Starting git merge in %s..." % myportdir
++				emergelog(xterm_titles, msg )
++				writemsg_level(msg + "\n")
++				exitcode = portage.process.spawn_bash(
++					"cd %s ; git checkout %s ; git merge %s ;" % (
++					portage._shell_quote(myportdir),
++					portage._shell_quote(gitlocal),
++					portage._shell_quote(gitremote),
++					), **spawn_kwargs)
++			elif gitmethod == "rebase":
++				msg = ">>> Starting git rebase in %s..." % myportdir
++				emergelog(xterm_titles, msg )
++				writemsg_level(msg + "\n")
++				exitcode = portage.process.spawn_bash(
++					"cd %s ; git checkout %s ; git rebase %s ;" % (
++					portage._shell_quote(myportdir),
++					portage._shell_quote(gitlocal),
++					portage._shell_quote(gitremote),
++					), **spawn_kwargs)
++			elif gitmethod == "checkout":
++				msg = ">>> Starting git checkout in %s..." % myportdir
++				emergelog(xterm_titles, msg )
++				writemsg_level(msg + "\n")
++				exitcode = portage.process.spawn_bash(
++					"cd %s ; git checkout %s ;" %  ( 
++					portage._shell_quote(myportdir), 
++					portage._shell_quote(gitremote),
++					), **spawn_kwargs)
++
+ 		if exitcode != os.EX_OK:
+-			msg = "!!! git pull error in %s." % myportdir
++			msg = "!!! git error in %s." % myportdir
+ 			emergelog(xterm_titles, msg)
+ 			writemsg_level(msg + "\n", level=logging.ERROR, noiselevel=-1)
+ 			return exitcode
+-		msg = ">>> Git pull in %s successful" % myportdir
++		msg = ">>> Git in %s successful" % myportdir
+ 		emergelog(xterm_titles, msg)
+ 		writemsg_level(msg + "\n")
+ 		exitcode = git_sync_timestamps(settings, myportdir)
