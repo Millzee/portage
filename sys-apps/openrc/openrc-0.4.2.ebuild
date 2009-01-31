@@ -4,7 +4,7 @@
 
 inherit eutils flag-o-matic multilib toolchain-funcs
 
-SRC_URI="http://roy.marples.name/downloads/openrc/openrc-0.4.0.tar.bz2 ftp://roy.marples.name/downloads/openrc/openrc-0.4.0.tar.bz2"
+SRC_URI="http://roy.marples.name/downloads/openrc/openrc-${PV}.tar.bz2 ftp://roy.marples.name/downloads/openrc/openrc-${PV}.tar.bz2"
 DESCRIPTION="OpenRC manages the services, startup and shutdown of a host"
 HOMEPAGE="http://roy.marples.name/openrc"
 PROVIDE="virtual/baselayout"
@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd"
 IUSE="debug ncurses pam unicode kernel_linux kernel_FreeBSD"
 
-RDEPEND="kernel_linux? ( =sys-apps/sysvinit-2.86-r11 >=sys-apps/module-init-tools-3.2.2-r2 )
+RDEPEND="kernel_linux? ( =sys-apps/sysvinit-2.86-r11 )
 	kernel_FreeBSD? ( virtual/init sys-process/fuser-bsd )
 	elibc_glibc? ( >=sys-libs/glibc-2.5 )
 	ncurses? ( sys-libs/ncurses )
@@ -129,6 +129,9 @@ pkg_preinst() {
 	if [[ -e ${ROOT}/etc/conf.d/clock ]] ; then
 		mv "${ROOT}"/etc/conf.d/clock "${ROOT}"/etc/conf.d/${clock}
 	fi
+	if [[ -e ${ROOT}/etc/init.d/clock ]] ; then
+		rm -f "${ROOT}"/etc/init.d/clock
+	fi
 	if [[ -L ${ROOT}/etc/runlevels/boot/clock ]] ; then
 		rm -f "${ROOT}"/etc/runlevels/boot/clock
 		ln -snf /etc/init.d/${clock} "${ROOT}"/etc/runlevels/boot/${clock}
@@ -144,19 +147,6 @@ pkg_preinst() {
 		elog "Please migrate your settings to /etc/rc.conf as applicable"
 		elog "and delete /etc/conf.d/rc"
 	fi
-
-	# force net init.d scripts into symlinks
-	for f in "${ROOT}"/etc/init.d/net.* ; do
-		[[ -e ${f} ]] || continue # catch net.* not matching anything
-		[[ ${f} == */net.lo ]] && continue # real file now
-		[[ ${f} == *.openrc.bak ]] && continue
-		if [[ ! -L ${f} ]] ; then
-			elog "Moved net service '${f##*/}' to '${f##*/}.openrc.bak' to force a symlink."
-			elog "You should delete '${f##*/}.openrc.bak' if you don't need it."
-			mv "${f}" "${f}.openrc.bak"
-			ln -snf net.lo "${f}"
-		fi
-	done
 
 	has_version sys-apps/baselayout && baselayout_migrate
 }
@@ -256,6 +246,12 @@ pkg_postinst() {
 	done
 
 	[[ -e ${T}/net && ! -e ${ROOT}/etc/conf.d/net ]] && mv "${T}"/net "${ROOT}"/etc/conf.d/net
+
+	# set up symlink to net.example if net.example doesn't exist
+	if [[ ! -e ${ROOT}/etc/conf.d/net.example ]] && [[ -e ${ROOT}/usr/share/doc/openrc-${PVR}/net.example ]]
+	then
+		ln -s /usr/share/doc/openrc-${PVR}/net.example ${ROOT}/etc/conf.d/net.example || die "couldn't create net.example symlink"
+	fi
 
 	# SEE IF WE CAN UPGRADE /etc/inittab automatically
 	# ================================================
