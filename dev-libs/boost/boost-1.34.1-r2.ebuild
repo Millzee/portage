@@ -25,6 +25,8 @@ RDEPEND="${DEPEND}
 
 S=${WORKDIR}/${MY_P}
 
+MAKEOPTS="-j1"
+
 # Maintainer Information
 # ToDo:
 # - write a patch to support /dev/urandom on FreeBSD and OSX (see below)

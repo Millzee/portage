@@ -25,6 +25,8 @@ RDEPEND="${DEPEND}
 
 S=${WORKDIR}/${MY_P}
 
+MAKEOPTS="-j1"
+
 src_unpack() {
 	unpack ${A}
 	cd "${S}"
