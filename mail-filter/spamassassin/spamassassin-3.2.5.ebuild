@@ -4,6 +4,7 @@
 
 inherit perl-module eutils
 
+EAPI="2"
 MY_P=Mail-SpamAssassin-${PV//_/-}
 S=${WORKDIR}/${MY_P}
 DESCRIPTION="SpamAssassin is an extensible email filter which is used to identify spam."
@@ -14,7 +15,7 @@ SRC_TEST="do"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
-IUSE="berkdb qmail ssl doc ldap mysql postgres sqlite tools ipv6"
+IUSE="+bayes berkdb qmail ssl doc ldap mysql postgres sqlite tools ipv6"
 
 DEPEND=">=dev-lang/perl-5.8.2-r1
 	virtual/perl-MIME-Base64
@@ -32,6 +33,9 @@ DEPEND=">=dev-lang/perl-5.8.2-r1
 	ssl? (
 		dev-perl/IO-Socket-SSL
 		dev-libs/openssl
+	)
+	bayes? (
+		virtual/perl-DB_File
 	)
 	berkdb? (
 		virtual/perl-DB_File

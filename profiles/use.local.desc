@@ -1250,6 +1250,7 @@ mail-filter/simscan:regex - Enable regular expression matching
 mail-filter/simscan:spam-auth-user - Turn on spam scanning for authenticated users
 mail-filter/simscan:spamassassin - Use mail-filter/spamassassin for spam checking
 mail-filter/simscan:spamc-user - Set user option to spamc
+mail-filter/spamassassin:bayes - Enables Bayesian learning
 mail-filter/spamassassin:qmail - Build qmail functionality and docs
 mail-filter/spamassassin:tools - Enables tools for spamassassin
 mail-filter/spamassassin-fuzzyocr:amavis - Enable support for mail-filter/amavisd-new
