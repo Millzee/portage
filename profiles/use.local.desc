@@ -1,6 +1,6 @@
 # Copyright 1999-2009 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/use.local.desc,v 1.4180 2009/02/01 21:27:44 robbat2 Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/use.local.desc,v 1.4184 2009/02/03 03:34:15 robbat2 Exp $
 # This file contains descriptions of local USE flags, and the ebuilds which
 # contain them.
 # Keep it sorted (use "LC_ALL=C sort -t: -k1,1 -k2 | LC_ALL=C sort -s -t/ -k1,1")
@@ -653,6 +653,7 @@ dev-lang/php:java-external - Use the external java extension rather than the bun
 dev-lang/php:json - Enable JSON support
 dev-lang/php:ldap-sasl - Add SASL support for the PHP LDAP extension
 dev-lang/php:pdo - Enable the bundled PDO extensions
+dev-lang/php:pic - Force shared modules to build as PIC on x86 (speed tradeoff with memory usage)
 dev-lang/php:reflection - Enable the reflection extension (Reflection API)
 dev-lang/php:suhosin - Add Suhosin support (patch and extension from http://www.suhosin.org/)
 dev-lang/php:xmlreader - Enable XMLReader support
@@ -1075,7 +1076,6 @@ gnustep-base/gnustep-back-xlib:xim - Enable X11 XiM input method
 gnustep-base/gnustep-base:gcc-libffi - Use dev-libs/libffi from sys-devel/gcc instead of dev-libs/ffcall. Requires sys-devel/gcc built with USE=libffi
 gnustep-base/gnustep-make:native-exceptions - Enables use of the native Objective-C exception support (@try/@catch/@finally) built-in objective-c exceptions with compilers that support it 
 kde-base/akonadi:nepomuk - Enable desktop-wide tagging support
-kde-base/akonadi:opensync - Enables OpenSync data synchronization protocol support.
 kde-base/akonadi:semantic-desktop - Enables desktop-wide tagging support.
 kde-base/ark:archive - Enable support for a variety of archive formats through libarchive
 kde-base/ark:zip - Enable zip support through LibZip
@@ -1086,7 +1086,6 @@ kde-base/gwenview:semantic-desktop -  Semantic desktop allows for storage of dig
 kde-base/juk:akode - Support for the aKode audio-decoding frame-work
 kde-base/juk:tunepimp - Provide MusicBrainz tagging in Juk
 kde-base/kaddressbook:gnokii - Address synchronization with mobile phones via app-mobilephone/gnokii
-kde-base/kalzium:cviewer - Enable Kalzium compound viewer
 kde-base/kalzium:editor - Enable the embedded molecule editor/viewer
 kde-base/kalzium:solver - Enable the equation solver
 kde-base/kbugbuster:kcal - Support for kcal (calendar) format
