@@ -37,6 +37,11 @@ src_install() {
 	dodoc README || die "installation of documentation failed"
 }
 
+pkg_preinst() {
+	java-pkg-2_pkg_preinst
+	subversion_pkg_preinst
+}
+
 pkg_postinst () {
 	elog "To load Freemail, go to the plugin page of freenet and enter at"
 	elog "Plugin-URL: plugins/Freemail.jar. This should load the Freemail plugin."

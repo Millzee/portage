@@ -1,6 +1,29 @@
 # ChangeLog for x11-drivers/ati-drivers
-# Copyright 2002-2008 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/x11-drivers/ati-drivers/ChangeLog,v 1.136 2008/11/25 09:49:34 lu_zero Exp $
+# Copyright 2002-2009 Gentoo Foundation; Distributed under the GPL v2
+
+  03 Feb 2009; Gordon Malm <gengor@gentoo.org> ati-drivers-8.542.ebuild:
+  Fix compile with kernel 2.6.28, bug #252695 thanks to Sasha Medvedev.
+
+  03 Feb 2009; Jeff Gardner <je_fro@gentoo.org> ati-drivers-8.573.ebuild:
+  Small cleanup.
+
+  03 Feb 2009; Jeff Gardner <je_fro@gentoo.org> ati-drivers-8.573.ebuild:
+  Make authatieventsd.sh executable to fix bug #242582 thanks to Uros.
+
+  03 Feb 2009; Jeff Gardner <je_fro@gentoo.org> ChangeLog:
+  Bump to latest. Thanks to Tomas Chvatal and Ben Vighy to name a few.
+
+  03 Jan 2009; Luca Barbato <lu_zero@gentoo.org> ati-drivers-8.561.ebuild:
+  Cleanups
+
+*ati-drivers-8.561 (17 Dec 2008)
+
+  17 Dec 2008; Luca Barbato <lu_zero@gentoo.org>
+  +files/8.552/ati-drivers-xen-8.552.patch, ati-drivers-8.542.ebuild,
+  +ati-drivers-8.561.ebuild:
+  Version bump + xen patch from git://github.com/tarsius/tarsius-tree.git
+  see Bug #250590
+
 *ati-drivers-8.561 (11 Dec 2008)
   11 Dec 2008; Mathieu Belanger <admin@korinar.org>
   +ati-drivers-8.561.ebuild
