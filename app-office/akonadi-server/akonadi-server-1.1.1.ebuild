@@ -17,6 +17,7 @@ IUSE="+mysql"
 
 RDEPEND="
 	mysql? ( || (
+		<virtual/mysql-5.1
 		dev-db/mysql-community[innodb]
 		dev-db/mysql[innodb]
 	) )
