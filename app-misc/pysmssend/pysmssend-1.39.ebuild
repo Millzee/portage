@@ -1,6 +1,5 @@
-# Copyright 1999-2008 Gentoo Foundation
+# Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 NEED_PYTHON=2.5
 
@@ -21,14 +20,15 @@ RDEPEND=">dev-python/mechanize-0.1.7b
 src_install() {
 	distutils_src_install
 	if use qt4; then
-		insinto /usr/share/${PN}/Icons
-		doins   Icons/*
-		doicon  Icons/pysmssend.png
+		insinto /usr/share/${PN}/Icons || die "insinto failed"
+		doins   Icons/* || die "doins failed"
+		doicon  Icons/pysmssend.png || die "doicon failed"
 		dobin   pysmssend pysmssendcmd || die "failed to create executables"
-		make_desktop_entry pysmssend pySMSsend pysmssend.png "Applications;Network"
+		make_desktop_entry pysmssend pySMSsend pysmssend.png \
+			"Applications;Network" || die "make_desktop_entry failed"
 	else
 		dobin   pysmssendcmd || die "failed to create executable"
-		dosym   pysmssendcmd /usr/bin/pysmssend
+		dosym   pysmssendcmd /usr/bin/pysmssend || die "dosym failed"
 	fi
 	dodoc README AUTHORS TODO || die "dodoc failed"
 }
