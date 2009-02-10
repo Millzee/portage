@@ -1,7 +1,7 @@
 bluetooth? ( net-wireless/bluez-libs net-wireless/bluez-utils ) x11-libs/libXtst
 bluetooth? ( net-wireless/bluez-libs net-wireless/bluez-utils ) x11-libs/libXtst
 0
-mirror://sourceforge/anyremote/anyremote-4.16.tar.gz
+mirror://sourceforge/anyremote/anyremote-4.17.tar.gz
 
 http://anyremote.sourceforge.net/
 GPL-2
