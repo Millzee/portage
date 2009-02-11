@@ -1,6 +1,6 @@
 # Copyright 1999-2009 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/use.local.desc,v 1.4192 2009/02/09 18:47:45 robbat2 Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/use.local.desc,v 1.4195 2009/02/11 04:07:43 robbat2 Exp $
 # This file contains descriptions of local USE flags, and the ebuilds which
 # contain them.
 # Keep it sorted (use "LC_ALL=C sort -t: -k1,1 -k2 | LC_ALL=C sort -s -t/ -k1,1")
@@ -57,7 +57,6 @@ app-admin/system-tools-backends:policykit - Use sys-auth/policykit to gain privi
 app-admin/testdisk:ntfs - Include the ability to read NTFS filesystems
 app-admin/testdisk:reiserfs - include reiserfs reading ability
 app-admin/ulogd:ip-as-string - Logs IP addresses as stings
-app-admin/ulogd:logrotate - Install support files for logrotate
 app-admin/ulogd:pcap - Build the PCAP plugin. Use the net-libs/libpcap library
 app-admin/vlogger:dbi - Enable support for DBI
 app-admin/webalizer:xtended - Include the 404 extension
@@ -1918,6 +1917,7 @@ net-analyzer/scanlogd:nids - Use net-libs/libnids for packet capturing
 net-analyzer/scanlogd:pcap - Use net-libs/libpcap for packet capturing
 net-analyzer/scapy:pyx - Enable dev-python/pyx support for psdump/pdfdump commands
 net-analyzer/scapy:visual - Enable dev-python/visual support for 3d graphs
+net-analyzer/smokeping:speedy - Use dev-perl/SpeedyCGI instead of perl to speed up cgi scripts
 net-analyzer/snort:aruba - Enable Aruba support
 net-analyzer/snort:community-rules - Include Community rules
 net-analyzer/snort:decoder-preprocessor-rules - 
@@ -2323,7 +2323,6 @@ net-misc/strongswan:nat - Enable NAT traversal with IPsec transport mode
 net-misc/termpkg:uucp -  Adds support for uucp style device locking 
 net-misc/tightvnc:server - Build vncserver. Allows us to only build server on one machine if set, build only viewer otherwise.
 net-misc/tor:bundledlibevent - USE bundled libevent for asynchronous DNS requests (provides a tiny bit more anonymity)
-net-misc/tor:logrotate - Enable logrotate file installation
 net-misc/vnc:server - Build VNC server
 net-misc/vnc:xorgmodule - Build the Xorg module
 net-misc/vpnc:hybrid-auth - Enable hybrid authentication (certificates), only if not redistributed as compiled binary
@@ -2766,7 +2765,6 @@ sys-freebsd/freebsd-usbin:ipfilter - Enable building of ipfilter firewall suppor
 sys-freebsd/freebsd-usbin:ipsec - Enable IPSec support.
 sys-freebsd/freebsd-usbin:isdn - Enable ISDN support.
 sys-freebsd/freebsd-usbin:nat - Enable Network Address Translation support daemon.
->>>>>>> gentoo.org:profiles/use.local.desc
 sys-fs/cryptsetup:dynamic - Build cryptsetup dynamically
 sys-fs/ecryptfs-utils:gpg - Enable app-crypt/gnupg key module
 sys-fs/ecryptfs-utils:openssl - Enable dev-libs/openssl key module
@@ -2780,7 +2778,6 @@ sys-fs/loop-aes:padlock - Use VIA padlock instructions, detected at run time, co
 sys-fs/lvm2:clvm - Allow users to build clustered lvm2
 sys-fs/lvm2:cman - Cman support for clustered lvm
 sys-fs/lvm2:lvm1 - Allow users to build lvm2 with lvm1 support
-sys-fs/lvm2:nolvm1 - Allow supports to build lvm2 without lvm1 support
 sys-fs/lvm2:nolvmstatic - Allow users to build lvm2 dynamically
 sys-fs/ntfsprogs:fuse - Build a FUSE module
 sys-fs/owfs:ftpd - Enable building the OWFS FTP server (owftpd)

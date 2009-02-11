@@ -6,7 +6,7 @@ http://www.mico.org/mico-2.3.13.tar.gz
 http://www.mico.org/
 GPL-2 LGPL-2
 A freely available and fully compliant implementation of the CORBA standard
-~x86
+~alpha ~amd64 ~ppc ~sparc ~x86
 toolchain-funcs multilib portability eutils flag-o-matic
 gtk postgres qt3 ssl tcl threads X
 
