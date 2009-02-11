@@ -30,7 +30,7 @@ RESTRICT="mirror"
 LICENSE="PSF-2.2"
 SLOT="3.0"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd"
-IUSE="build doc elibc_uclibc examples +expat gdbm ipv6 ncurses readline sqlite ssl +threads tk ucs2 wininst"
+IUSE="build doc elibc_uclibc examples gdbm ipv6 ncurses readline sqlite ssl +threads tk ucs2 wininst +xml"
 
 # NOTE: dev-python/{elementtree,celementtree,pysqlite,ctypes,cjkcodecs}
 #       do not conflict with the ones in python proper. - liquidx
@@ -45,7 +45,7 @@ DEPEND=">=app-admin/eselect-python-20080925
 		gdbm? ( sys-libs/gdbm )
 		ssl? ( dev-libs/openssl )
 		doc? ( dev-python/python-docs:3.0 )
-        expat? ( dev-libs/expat )
+        xml? ( dev-libs/expat )
 	)"
 
 # NOTE: changed RDEPEND to PDEPEND to resolve bug 88777. - kloeri
@@ -95,7 +95,7 @@ src_configure() {
 		export PYTHON_DISABLE_SSL=1
 	else
 		local disable
-		use expat    || disable="${disable} pyexpat"
+		use xml      || disable="${disable} pyexpat"
 		use gdbm     || disable="${disable} dbm gdbm"
 		use ncurses  || disable="${disable} _curses _curses_panel"
 		use readline || disable="${disable} readline"
@@ -104,6 +104,13 @@ src_configure() {
 		use tk       || disable="${disable} _tkinter"
 		export PYTHON_DISABLE_MODULES="${disable}"
 	fi
+
+	if use !xml; then
+		ewarn "You have configured Python without XML support."
+		ewarn "This is NOT a recommended configuration as you"
+		ewarn "may face problems parsing any XML documents."
+	fi
+
 	einfo "Disabled modules: $PYTHON_DISABLE_MODULES"
 }
 
