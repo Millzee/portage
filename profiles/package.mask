@@ -31,6 +31,25 @@
 
 #--- END OF EXAMPLES ---
 
+# Caleb Cushing <xenoterracide@gmail.com> (12 Feb 2009)
+# gentoo released an rc version of qt 4.5 masking rc's aren't stable enough 
+# wait 'till final
+=x11-libs/qt-assistant-4.5.0_rc*
+=x11-libs/qt-core-4.5.0_rc*
+=x11-libs/qt-dbus-4.5.0_rc*
+=x11-libs/qt-demo-4.5.0_rc*
+=x11-libs/qt-embedded-4.5.0_rc*
+=x11-libs/qt-gui-4.5.0_rc*
+=x11-libs/qt-opengl-4.5.0_rc*
+=x11-libs/qt-phonon-4.5.0_rc*
+=x11-libs/qt-qt3support-4.5.0_rc*
+=x11-libs/qt-script-4.5.0_rc*
+=x11-libs/qt-sql-4.5.0_rc*
+=x11-libs/qt-svg-4.5.0_rc*
+=x11-libs/qt-test-4.5.0_rc*
+=x11-libs/qt-webkit-4.5.0_rc*
+=x11-libs/qt-xmlpatterns-4.5.0_rc*
+
 # René Nussbaumer <killerfox@gentoo.org> (10 Feb 2009)
 # I gave away maintainership a while ago nobody took it on. Prepare for remove.
 app-emulation/ganeti
