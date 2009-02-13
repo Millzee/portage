@@ -34,6 +34,7 @@
 # Caleb Cushing <xenoterracide@gmail.com> (12 Feb 2009)
 # gentoo released an rc version of qt 4.5 masking rc's aren't stable enough 
 # wait 'till final
+=x11-libs/qt-4.5.0_rc*
 =x11-libs/qt-assistant-4.5.0_rc*
 =x11-libs/qt-core-4.5.0_rc*
 =x11-libs/qt-dbus-4.5.0_rc*
