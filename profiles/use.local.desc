@@ -1,6 +1,6 @@
 # Copyright 1999-2009 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/use.local.desc,v 1.4197 2009/02/12 14:08:09 robbat2 Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/use.local.desc,v 1.4200 2009/02/14 00:47:42 robbat2 Exp $
 # This file contains descriptions of local USE flags, and the ebuilds which
 # contain them.
 # Keep it sorted (use "LC_ALL=C sort -t: -k1,1 -k2 | LC_ALL=C sort -s -t/ -k1,1")
@@ -141,6 +141,7 @@ app-admin/vlogger:dbi - Enable support for DBI
 app-dicts/ktranslator:festival - Enable festival support
 app-dicts/ktranslator:lowmem - Disable optimizations for searches
 app-dicts/ktranslator:ocr - Enable GOCR support
+app-dicts/gwaei:libsexy - Enable support for x11-libs/libsexy
 app-dicts/stardict:espeak - Enable text to speech synthesizer using espeak engine
 app-dicts/stardict:festival - Enable text to speech synthesizer using festival engine
 app-dicts/stardict:gucharmap - Enable gucharmap dictionary plugin
@@ -1302,7 +1303,9 @@ media-gfx/blender:blender-game -  Adds game engine support to blender
 media-gfx/blender:player -  Enable blender player 
 media-gfx/blender:verse -  Adds verse clustering features to blender 
 media-gfx/comix:rar -  Pulls app-arch/unrar for rar file support 
-media-gfx/digikam:nfs -  Create sqlite db within ~/.kde, instead in the albums base directory. 
+media-gfx/digikam:addressbook - Add support for kdepim
+media-gfx/digikam:geolocation - Add support for marble
+media-gfx/digikam:nfs - Create sqlite db within ~/.kde, instead in the albums base directory.
 media-gfx/eog:xmp - Adds support for XMP metadata
 media-gfx/exact-image:agg - Adds Anti-Grain Geometry supportx11-libs/agg
 media-gfx/exact-image:swig - Adds Swig support dev-lang/swig
@@ -2927,6 +2930,7 @@ x11-libs/pdcurses:nextaw - Use neXtaw instead of Xaw
 x11-libs/qt:glib - Enable dev-libs/glib eventloop support
 x11-libs/qt:immqt - Enable binary incompatible version of immodule for Qt
 x11-libs/qt:immqt-bc - Enable binary compatible version of immodule for Qt
+x11-libs/qt:phonon - Enable support for the Phonon multimedia package
 x11-libs/qt:qt3support - Enable the Qt3Support libraries for Qt4
 x11-libs/qt-assistant:webkit -  Enable x11-libs/qt-webkit support, for more sophisticated online help display using webkit's HTML renderer. 
 x11-libs/qt-core:glib - Enable dev-libs/glib eventloop support

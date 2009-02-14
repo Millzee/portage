@@ -1,6 +1,5 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 ETYPE="sources"
 K_WANT_GENPATCHES="base extras"
@@ -16,7 +15,7 @@ HOMEPAGE="http://forums.gentoo.org/viewtopic-p-5342918.html#5342918"
 SRC_URI="${KERNEL_URI} ${GENPATCHES_URI} ${ARCH_URI}
         reiser4? ( http://www.kernel.org/pub/linux/kernel/people/edward/reiser4/reiser4-for-2.6/reiser4-for-${PV}.patch.gz )"
 
-KEYWORDS="-alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="-alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sh ~sparc ~x86"
 
 IUSE="reiser4"
 
