@@ -30,6 +30,9 @@
 ## app-misc/some-package
 
 #--- END OF EXAMPLES ---
+# Caleb Cushing <xenoterracide@gmail.com> (15 Feb 2009)
+# Masking because of bug 258442
+sys-apps/module-init-tools-3.6
 
 # Ben de Groot <yngwin@gentoo.org> (14 Feb 2009)
 # Masking because of build failures, bug 258961
