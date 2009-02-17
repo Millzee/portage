@@ -16,7 +16,7 @@ SRC_URI="mirror://imagemagick/${MY_P2}.tar.bz2
 
 LICENSE="imagemagick"
 SLOT="0"
-KEYWORDS="alpha ~amd64 ~arm hppa ~ia64 ~mips ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd"
+KEYWORDS="alpha ~amd64 ~arm hppa ~ia64 ~mips ppc ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd"
 IUSE="bzip2 +corefonts djvu doc fontconfig fpx graphviz gs hdri jbig jpeg jpeg2k
 	lcms nocxx openexr openmp perl png q8 q32 raw svg tiff truetype X wmf xml zlib"
 
