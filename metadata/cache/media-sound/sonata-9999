@@ -14,7 +14,7 @@ dbus lyrics taglib scrobbler
 
 2
 
-compile install postinst postrm preinst unpack
+compile install postinst postrm preinst prepare unpack
 
 
 
