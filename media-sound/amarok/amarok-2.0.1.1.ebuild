@@ -14,7 +14,7 @@ DESCRIPTION="Advanced audio player based on KDE framework."
 HOMEPAGE="http://amarok.kde.org/"
 
 LICENSE="GPL-2"
-KEYWORDS="~x86"
+KEYWORDS="~amd64 ~x86"
 SLOT="2"
 IUSE="daap debug ifp ipod mp3tunes mp4 mtp njb +semantic-desktop"
 SRC_URI="mirror://kde/stable/${PN}/${PV}/src/${P}.tar.bz2"
