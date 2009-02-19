@@ -1,0 +1,22 @@
+dev-lang/perl >=virtual/perl-Archive-Tar-1.44 >=virtual/perl-Devel-PPPort-3.16 >=virtual/perl-ExtUtils-Install-1.52 >=virtual/perl-ExtUtils-ParseXS-2.19 >=dev-perl/File-Remove-1.42 >=virtual/perl-Module-Build-0.28.08 >=virtual/perl-Module-CoreList-2.17 >=dev-perl/Module-ScanDeps-0.89 >=dev-perl/PAR-Dist-0.29 >=dev-perl/YAML-Tiny-1.36 test? ( >=virtual/perl-Test-Harness-3.13 >=virtual/perl-Test-Simple-0.86 )
+dev-lang/perl >=virtual/perl-Archive-Tar-1.44 >=virtual/perl-Devel-PPPort-3.16 >=virtual/perl-ExtUtils-Install-1.52 >=virtual/perl-ExtUtils-ParseXS-2.19 >=dev-perl/File-Remove-1.42 >=virtual/perl-Module-Build-0.28.08 >=virtual/perl-Module-CoreList-2.17 >=dev-perl/Module-ScanDeps-0.89 >=dev-perl/PAR-Dist-0.29 >=dev-perl/YAML-Tiny-1.36
+0
+mirror://cpan/authors/id/A/AD/ADAMK//Module-Install-0.79.tar.gz
+
+http://search.cpan.org/search?query=Module-Install&mode=dist
+|| ( Artistic GPL-2 )
+Standalone, extensible Perl module installer
+~amd64 ~x86
+toolchain-funcs portability multilib base eutils perl-module
+test
+
+
+
+0
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+
