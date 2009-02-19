@@ -1,0 +1,22 @@
+dev-lang/perl virtual/perl-Module-Build
+dev-lang/perl
+0
+mirror://cpan/authors/id/D/DA/DAGOLDEN//File-pushd-1.00.tar.gz
+
+http://search.cpan.org/search?query=File-pushd&mode=dist
+Apache-2.0
+change directory temporarily for a limited scope
+~amd64 ~x86
+toolchain-funcs portability multilib base eutils perl-module
+
+
+
+
+0
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+
