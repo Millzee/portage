@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/app-benchmarks/bootchart-0.9-r2
 DEFINED_PHASES=compile install postinst preinst setup unpack
 DEPEND=java? ( >=virtual/jdk-1.4 >=dev-java/ant-core-1.4 dev-java/commons-cli source? ( app-arch/zip ) ) java? ( >=dev-java/java-config-2.1.6 ) java? ( >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 )
 DESCRIPTION=Performance analysis and visualization of the system boot process
@@ -12,27 +11,3 @@ SLOT=0
 SRC_URI=mirror://sourceforge/bootchart/bootchart-0.9.tar.bz2
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-opt-2	/home/Funtoo/portage/eclass	1235083217	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082846
-=======
-java? ( >=virtual/jdk-1.4 >=dev-java/ant-core-1.4 dev-java/commons-cli source? ( app-arch/zip ) ) java? ( >=dev-java/java-config-2.1.6 ) java? ( >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 )
-java? ( >=virtual/jdk-1.4 dev-java/commons-cli ) acct? ( sys-process/acct ) java? ( >=dev-java/java-config-2.1.6 )
-0
-mirror://sourceforge/bootchart/bootchart-0.9.tar.bz2
-
-http://www.bootchart.org/
-GPL-2
-Performance analysis and visualization of the system boot process
-amd64 hppa x86
-toolchain-funcs portability java-utils-2 versionator multilib java-pkg-opt-2 eutils java-ant-2
-acct debug doc java source elibc_FreeBSD java elibc_FreeBSD
-
-
-
-
-
-compile install postinst preinst setup unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/app-benchmarks/bootchart-0.9-r2

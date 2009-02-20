@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/app-text/wv2-0.3.0
 DEFINED_PHASES=install
 DEPEND=>=gnome-extra/libgsf-1.8 media-libs/freetype:2 media-libs/libpng media-gfx/imagemagick
 DESCRIPTION=Excellent MS Word filter lib, used in most Office suites
@@ -11,27 +10,3 @@ SLOT=0
 SRC_URI=mirror://sourceforge/wvware/wv2-0.3.0.tar.bz2
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235083217
-=======
->=gnome-extra/libgsf-1.8 media-libs/freetype:2 media-libs/libpng media-gfx/imagemagick
->=gnome-extra/libgsf-1.8 media-libs/freetype:2 media-libs/libpng media-gfx/imagemagick
-0
-mirror://sourceforge/wvware/wv2-0.3.0.tar.bz2
-
-http://wvware.sourceforge.net
-LGPL-2
-Excellent MS Word filter lib, used in most Office suites
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-1
-
-install
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/app-text/wv2-0.3.0

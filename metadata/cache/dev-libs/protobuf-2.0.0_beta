@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/dev-libs/protobuf-2.0.0_beta
 DEFINED_PHASES=compile install postinst postrm preinst setup test unpack
 DEPEND=java? ( >=virtual/jdk-1.5 ) virtual/python java? ( >=dev-java/java-config-2.1.6 )
 DESCRIPTION=Google's Protocol Buffers -- an efficient method of encoding structured data
@@ -12,27 +11,3 @@ SLOT=0
 SRC_URI=http://protobuf.googlecode.com/files/protobuf-2.0.0beta.tar.bz2
 _eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-opt-2	/home/Funtoo/portage/eclass	1235083217	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082854
-=======
-java? ( >=virtual/jdk-1.5 ) virtual/python java? ( >=dev-java/java-config-2.1.6 )
-java? ( >=virtual/jre-1.5 ) java? ( >=dev-java/java-config-2.1.6 )
-0
-http://protobuf.googlecode.com/files/protobuf-2.0.0beta.tar.bz2
-
-http://code.google.com/p/protobuf/
-Apache-2.0
-Google's Protocol Buffers -- an efficient method of encoding structured data
-~amd64 ~x86
-toolchain-funcs portability distutils python java-utils-2 versionator multilib alternatives java-pkg-opt-2 eutils
-examples java python vim-syntax elibc_FreeBSD java
-
-
-
-
-
-compile install postinst postrm preinst setup test unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/dev-libs/protobuf-2.0.0_beta
