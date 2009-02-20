@@ -1,14 +1,22 @@
-DEFINED_PHASES=compile install postinst preinst setup unpack
-DEPEND=selinux? ( sys-libs/libselinux )
-DESCRIPTION=Linux dynamic and persistent device naming support (aka userspace devfs)
-EAPI=0
-HOMEPAGE=http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
-IUSE=selinux
-KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
-LICENSE=GPL-2
-PROVIDE=virtual/dev-manager
-RDEPEND=selinux? ( sys-libs/libselinux ) !sys-apps/coldplug !<sys-fs/device-mapper-1.02.19-r1 >=sys-apps/baselayout-1.12.5
-SLOT=0
-SRC_URI=mirror://kernel/linux/utils/kernel/hotplug/udev-138.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235114496
+selinux? ( sys-libs/libselinux )
+selinux? ( sys-libs/libselinux ) !sys-apps/coldplug !<sys-fs/device-mapper-1.02.19-r1 >=sys-apps/baselayout-1.12.5
+0
+mirror://kernel/linux/utils/kernel/hotplug/udev-138.tar.bz2
+
+http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
+GPL-2
+Linux dynamic and persistent device naming support (aka userspace devfs)
+~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+toolchain-funcs portability flag-o-matic versionator multilib eutils
+selinux
+
+
+virtual/dev-manager
+0
+
+compile install postinst preinst setup unpack
+
+
+
+
+

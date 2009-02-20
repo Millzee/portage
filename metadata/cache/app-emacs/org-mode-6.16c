@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-emacs/org-mode-6.16c
 DEFINED_PHASES=compile install postinst postrm setup unpack
 DEPEND=>=virtual/emacs-21
 DESCRIPTION=An Emacs mode for notes and project planning
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://orgmode.org/org-6.16c.tar.gz
 _eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235114495
+=======
+>=virtual/emacs-21
+>=virtual/emacs-21
+0
+http://orgmode.org/org-6.16c.tar.gz
+
+http://www.orgmode.org/
+GPL-3 FDL-1.2
+An Emacs mode for notes and project planning
+amd64 ppc sparc ~sparc-fbsd x86 ~x86-fbsd
+versionator elisp elisp-common
+
+
+
+
+0
+
+compile install postinst postrm setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-emacs/org-mode-6.16c

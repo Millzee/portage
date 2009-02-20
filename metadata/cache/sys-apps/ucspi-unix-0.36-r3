@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/sys-apps/ucspi-unix-0.36-r3
 DEFINED_PHASES=compile install unpack
 DEPEND=>=dev-libs/bglibs-1.019-r1
 DESCRIPTION=A ucspi implementation for unix sockets
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://untroubled.org/ucspi-unix/archive/ucspi-unix-0.36.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235114495
+=======
+>=dev-libs/bglibs-1.019-r1
+>=dev-libs/bglibs-1.019-r1
+0
+http://untroubled.org/ucspi-unix/archive/ucspi-unix-0.36.tar.gz
+
+http://untroubled.org/ucspi-unix/
+GPL-2
+A ucspi implementation for unix sockets
+amd64 ppc ~sparc x86
+toolchain-funcs multilib portability eutils
+
+
+
+
+0
+
+compile install unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/sys-apps/ucspi-unix-0.36-r3

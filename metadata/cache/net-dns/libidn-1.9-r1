@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/net-dns/libidn-1.9-r1
 DEFINED_PHASES=compile install postinst postrm preinst setup unpack
 DEPEND=emacs? ( virtual/emacs ) mono? ( >=dev-lang/mono-0.95 ) java? ( >=virtual/jdk-1.4 dev-java/gjdoc ) java? ( >=dev-java/java-config-2.1.6 )
 DESCRIPTION=Internationalized Domain Names (IDN) implementation
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=ftp://alpha.gnu.org/pub/gnu/libidn/libidn-1.9.tar.gz
 _eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-opt-2	/home/Funtoo/portage/eclass	1235083217	java-utils-2	/home/Funtoo/portage/eclass	1235084241	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082890
+=======
+emacs? ( virtual/emacs ) mono? ( >=dev-lang/mono-0.95 ) java? ( >=virtual/jdk-1.4 dev-java/gjdoc ) java? ( >=dev-java/java-config-2.1.6 )
+emacs? ( virtual/emacs ) mono? ( >=dev-lang/mono-0.95 ) java? ( >=virtual/jre-1.4 ) java? ( >=dev-java/java-config-2.1.6 )
+0
+ftp://alpha.gnu.org/pub/gnu/libidn/libidn-1.9.tar.gz
+
+http://www.gnu.org/software/libidn/
+LGPL-2.1 GPL-3
+Internationalized Domain Names (IDN) implementation
+~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd
+toolchain-funcs elisp-common portability java-utils-2 versionator multilib java-pkg-opt-2 mono eutils
+java doc emacs mono nls elibc_FreeBSD java
+
+
+
+
+
+compile install postinst postrm preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/net-dns/libidn-1.9-r1

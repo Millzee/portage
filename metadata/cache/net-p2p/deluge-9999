@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/net-p2p/deluge-9999
 DEFINED_PHASES=compile install postinst postrm preinst setup unpack
 DEPEND=>=dev-lang/python-2.5 dev-libs/boost dev-python/setuptools virtual/python dev-util/subversion net-misc/rsync
 DESCRIPTION=BitTorrent client with a client/server model.
@@ -9,3 +10,27 @@ RDEPEND=>=dev-lang/python-2.5 dev-libs/boost dev-python/setuptools dev-python/py
 SLOT=0
 _eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235087058
+=======
+>=dev-lang/python-2.5 dev-libs/boost dev-python/setuptools virtual/python dev-util/subversion net-misc/rsync
+>=dev-lang/python-2.5 dev-libs/boost dev-python/setuptools dev-python/pyxdg dev-python/twisted dev-python/twisted-web dev-python/simplejson dev-python/pyopenssl gtk? ( dev-python/pygobject >=dev-python/pygtk-2 dev-python/pyxdg dev-python/dbus-python gnome-base/librsvg )
+0
+
+
+http://deluge-torrent.org/
+GPL-2
+BitTorrent client with a client/server model.
+
+toolchain-funcs distutils portability flag-o-matic python alternatives multilib subversion eutils
+gtk
+
+
+
+0
+
+compile install postinst postrm preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/net-p2p/deluge-9999

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/sci-chemistry/psi-3.3.0
 DEFINED_PHASES=compile install test unpack
 DEPEND=!sci-visualization/extrema virtual/blas virtual/lapack >=sci-libs/libint-1.1.4 test? ( dev-lang/perl ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
 DESCRIPTION=Suite of ab initio quantum chemistry programs to compute various molecular properties
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/psicode/psi-3.3.0.tar.gz
 _eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235114495
+=======
+!sci-visualization/extrema virtual/blas virtual/lapack >=sci-libs/libint-1.1.4 test? ( dev-lang/perl ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+!sci-visualization/extrema virtual/blas virtual/lapack >=sci-libs/libint-1.1.4
+0
+mirror://sourceforge/psicode/psi-3.3.0.tar.gz
+
+http://www.psicode.org/
+GPL-2
+Suite of ab initio quantum chemistry programs to compute various molecular properties
+~amd64 ~x86
+toolchain-funcs portability multilib libtool autotools eutils
+test
+
+
+
+0
+
+compile install test unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/sci-chemistry/psi-3.3.0

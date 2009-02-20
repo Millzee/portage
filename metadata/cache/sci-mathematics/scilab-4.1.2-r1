@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/sci-mathematics/scilab-4.1.2-r1
 DEFINED_PHASES=compile install postinst preinst setup unpack
 DEPEND=virtual/blas virtual/lapack virtual/cblas sys-libs/ncurses gtk? ( media-libs/jpeg media-libs/libpng sys-libs/zlib >=x11-libs/gtk+-2 x11-libs/vte =gnome-extra/gtkhtml-2* ) >=dev-lang/tk-8.4 >=dev-lang/tcl-8.4 Xaw3d? ( x11-libs/Xaw3d ) ocaml? ( dev-lang/ocaml ) java? ( >=virtual/jdk-1.4 ) app-text/sablotron =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool java? ( >=dev-java/java-config-2.1.6 )
 DESCRIPTION=Scientific software package for numerical computations (Matlab lookalike)
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=http://www.scilab.org/download/4.1.2/scilab-4.1.2-src.tar.gz
 _eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	java-pkg-opt-2	/home/Funtoo/portage/eclass	1235083217	java-utils-2	/home/Funtoo/portage/eclass	1235084241	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082898
+=======
+virtual/blas virtual/lapack virtual/cblas sys-libs/ncurses gtk? ( media-libs/jpeg media-libs/libpng sys-libs/zlib >=x11-libs/gtk+-2 x11-libs/vte =gnome-extra/gtkhtml-2* ) >=dev-lang/tk-8.4 >=dev-lang/tcl-8.4 Xaw3d? ( x11-libs/Xaw3d ) ocaml? ( dev-lang/ocaml ) java? ( >=virtual/jdk-1.4 ) app-text/sablotron =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool java? ( >=dev-java/java-config-2.1.6 )
+virtual/blas virtual/lapack virtual/cblas sys-libs/ncurses gtk? ( media-libs/jpeg media-libs/libpng sys-libs/zlib >=x11-libs/gtk+-2 x11-libs/vte =gnome-extra/gtkhtml-2* ) >=dev-lang/tk-8.4 >=dev-lang/tcl-8.4 Xaw3d? ( x11-libs/Xaw3d ) ocaml? ( dev-lang/ocaml ) java? ( >=virtual/jdk-1.4 ) java? ( >=dev-java/java-config-2.1.6 )
+0
+http://www.scilab.org/download/4.1.2/scilab-4.1.2-src.tar.gz
+
+http://www.scilab.org/
+scilab
+Scientific software package for numerical computations (Matlab lookalike)
+amd64 ppc x86
+toolchain-funcs portability java-utils-2 versionator multilib fortran java-pkg-opt-2 libtool autotools eutils
+ocaml gtk Xaw3d java debug elibc_FreeBSD java
+
+
+
+
+
+compile install postinst preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/sci-mathematics/scilab-4.1.2-r1
