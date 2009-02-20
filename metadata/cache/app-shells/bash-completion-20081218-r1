@@ -1,6 +1,6 @@
-DEFINED_PHASES=install postinst preinst unpack
+DEFINED_PHASES=install postinst preinst prepare
 DESCRIPTION=Programmable Completion for bash
-EAPI=0
+EAPI=2
 HOMEPAGE=http://bash-completion.alioth.debian.org/
 KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86
 LICENSE=GPL-2
@@ -8,4 +8,4 @@ PDEPEND=app-shells/gentoo-bashcomp
 RDEPEND=app-admin/eselect || ( >=app-shells/bash-2.05a app-shells/zsh )
 SLOT=0
 SRC_URI=mirror://gentoo/bash-completion_20081218.tar.gz
-_mtime_=1235082850
+_mtime_=1235139394
