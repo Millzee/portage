@@ -4,10 +4,10 @@ DESCRIPTION=Anonymizing overlay network for TCP
 EAPI=1
 HOMEPAGE=http://tor.eff.org
 IUSE=+bundledlibevent debug
-KEYWORDS=amd64 ~ppc ppc64 sparc x86 ~x86-fbsd
+KEYWORDS=amd64 ppc ppc64 sparc x86 ~x86-fbsd
 LICENSE=BSD
 RDEPEND=dev-libs/openssl >=dev-libs/libevent-1.2 net-proxy/tsocks
 SLOT=0
 SRC_URI=http://tor.eff.org/dist/tor-0.2.0.34.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082895
+_mtime_=1235114495

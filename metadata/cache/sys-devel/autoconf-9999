@@ -8,5 +8,5 @@ LICENSE=GPL-3
 PDEPEND=emacs? ( app-emacs/autoconf-mode )
 RDEPEND=>=sys-apps/texinfo-4.3 >=sys-devel/m4-1.4.6 dev-lang/perl >=sys-devel/autoconf-wrapper-4-r2
 SLOT=2.5
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	git	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	git	/home/Funtoo/portage/eclass	1235114495	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082900
