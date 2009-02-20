@@ -42,9 +42,12 @@
   31 Jan 2009; Tobias Klausmann <klausman@gentoo.org>
   ffmpeg-0.4.9_p20081219.ebuild:
   Stable on alpha, bug #255008
+<<<<<<< HEAD:media-video/ffmpeg/ChangeLog
 
   31 Jan 2009; Daniel Robbins <drobbins@funtoo.org>: enabled some good
   default USE flags for ffmpeg - for encoding but also for video playback.
+=======
+>>>>>>> funtoo/gentoo.org:media-video/ffmpeg/ChangeLog
 
   27 Jan 2009; Alexis Ballier <aballier@gentoo.org> ffmpeg-9999.ebuild:
   no need for local variables when we use them only once

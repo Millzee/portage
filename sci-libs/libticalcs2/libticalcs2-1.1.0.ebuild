@@ -1,5 +1,9 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+<<<<<<< HEAD:sci-libs/libticalcs2/libticalcs2-1.1.0.ebuild
+=======
+# $Header: /var/cvsroot/gentoo-x86/sci-libs/libticalcs2/libticalcs2-1.1.0.ebuild,v 1.1 2009/02/03 14:49:43 bicatali Exp $
+>>>>>>> funtoo/gentoo.org:sci-libs/libticalcs2/libticalcs2-1.1.0.ebuild
 
 EAPI=2
 inherit eutils

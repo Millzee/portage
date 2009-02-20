@@ -3,11 +3,3 @@
 
   07 Feb 2009; weaver <weaver@gentoo.org> ChangeLog:
   New package, ebuild written by me
-
-  15 Mar 2007; AK <gentoo@horizon.ath.cx> blossoc-1.1.1.ebuild:
-  quote ${D}
-
-  15 Mar 2007; AK <gentoo@horizon.ath.cx> +blossoc-1.1.1.ebuild,
-  +metadata.xml:
-  new package (bug 161063)
-

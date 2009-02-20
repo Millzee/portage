@@ -7,12 +7,6 @@
   13 Feb 2009; Ben de Groot <yngwin@gentoo.org> +qt-4.5.0_rc1.ebuild:
   Add meta ebuild, on popular request, see bug 258712.
 
-*qt-4.5.0_rc1 (13 Feb 2009)
-
-  13 Feb 2009; Jeff Mitchell <funtoo@emailgoeshere.com> 
-  +qt-4.5.0_rc1.ebuild:
-  Add ebuild for release candidate
-
   11 Feb 2009; Markos Chandras <hwoarang@gentoo.org> qt-4.4.2.ebuild:
   Remove duplicate x11-libs/qt-test RDEPEND ( see bug #258533 )
 

@@ -56,7 +56,6 @@ src_compile() {
 	fi
 
 	sed -i "/^VERSION[[:space:]]*=/s:=.*:=${PV}:" Makefile
-
 	tc-export CC AR RANLIB
 	echo emake ${MAKE_ARGS}
 	emake ${MAKE_ARGS} || die "emake ${MAKE_ARGS} failed"

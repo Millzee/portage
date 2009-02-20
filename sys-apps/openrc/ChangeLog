@@ -27,6 +27,39 @@
   Version bumped. Fixes a lot of issues. Like clock skew handling.
   wpa_supplicant stuff, openvz handling, s-s-d environment and umask.
 
+  31 Jan 2009; Matthias Schwarzott <zzam@gentoo.org> openrc-0.4.2.ebuild,
+  openrc-9999.ebuild:
+  Sync 0.4.2 and 9999 ebuild. This does not change anything for 0.4.2
+  ebuild.
+
+  28 Jan 2009; Matthias Schwarzott <zzam@gentoo.org> openrc-9999.ebuild:
+  Use specialized svnversion command to get commit version.
+
+  16 Feb 2009; Matthias Schwarzott <zzam@gentoo.org> -openrc-0.4.3.ebuild:
+  Remove version 0.4.3
+
+*openrc-0.4.3-r1 (13 Feb 2009)
+
+  13 Feb 2009; Matthias Schwarzott <zzam@gentoo.org>
+  +files/openrc-0.4.3-fix-is_older_than.patch, +openrc-0.4.3-r1.ebuild:
+  Fix is_older_than, Bug #258688.
+
+  11 Feb 2009; Doug Goldstein <cardoe@gentoo.org>
+  -files/0.4.3/0001-msg-style.patch,
+  -files/0.4.3/0002-useful-functions.patch, -files/0.4.3/0003-KV.patch,
+  openrc-0.4.3.ebuild:
+  0.4.3 patches are identical to 0.4.2. reuse 0.4.2 patches to save cvs
+  space and fix weird rsyncing error
+
+*openrc-0.4.3 (11 Feb 2009)
+
+  11 Feb 2009; Matthias Schwarzott <zzam@gentoo.org>
+  +files/0.4.3/0001-msg-style.patch,
+  +files/0.4.3/0002-useful-functions.patch, +files/0.4.3/0003-KV.patch,
+  +openrc-0.4.3.ebuild:
+  Version bumped. Fixes a lot of issues. Like clock skew handling.
+  wpa_supplicant stuff, openvz handling, s-s-d environment and umask.
+
 *openrc-0.4.2 (01 Feb 2009)
 
   01 Feb 2009; Daniel Robbins <drobbins@funtoo.org> +openrc-0.4.2.ebuild:
