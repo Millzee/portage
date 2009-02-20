@@ -1,6 +1,5 @@
 # Copyright 1999-2008 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-fs/samba/samba-3.2.0_rc2.ebuild,v 1.1 2008/06/12 12:10:25 dev-zero Exp $
 
 inherit eutils pam multilib versionator confutils
 
@@ -8,10 +7,10 @@ MY_P=${PN}-${PV/_/}
 
 DESCRIPTION="A suite of SMB and CIFS client/server programs for UNIX"
 HOMEPAGE="http://www.samba.org/"
-SRC_URI="mirror://samba/${MY_P}.tar.gz"
+SRC_URI="http://samba.org/samba/ftp/stable/${MY_P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE_LINGUAS="linguas_ja linguas_pl"
 IUSE="${IUSE_LINGUAS} acl ads async automount caps cups doc examples ipv6 kernel_linux ldap fam
 	pam quotas readline selinux swat syslog winbind"
