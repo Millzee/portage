@@ -1,22 +1,13 @@
->=sys-libs/readline-4.1 media-libs/alsa-lib media-libs/libsndfile sys-libs/zlib
->=sys-libs/readline-4.1 media-libs/alsa-lib media-libs/libsndfile sys-libs/zlib
-0
-mirror://sourceforge.jp/julius/33146/julius-4.1.tar.gz
-
-http://julius.sourceforge.jp/en_index.php
-julius
-High-performance, two-pass large vocabulary continuous speech recognition
-~x86
-toolchain-funcs multilib portability eutils
-linguas_ja
-
-
-
-1
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=sys-libs/readline-4.1 media-libs/alsa-lib media-libs/libsndfile sys-libs/zlib
+DESCRIPTION=High-performance, two-pass large vocabulary continuous speech recognition
+EAPI=1
+HOMEPAGE=http://julius.sourceforge.jp/en_index.php
+IUSE=linguas_ja
+KEYWORDS=~x86
+LICENSE=julius
+RDEPEND=>=sys-libs/readline-4.1 media-libs/alsa-lib media-libs/libsndfile sys-libs/zlib
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/julius/33146/julius-4.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

@@ -1,22 +1,14 @@
-app-shells/tcsh !app-text/dos2unix =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-app-shells/tcsh !app-text/dos2unix
-0
-cns_solve_1.2_all.tar.gz
-fetch
-http://cns.csb.yale.edu/
-cns
-Crystallography and NMR System
-~ppc ~x86
-toolchain-funcs portability multilib fortran libtool autotools eutils
-debug
-
-
-
-0
-
-compile install nofetch setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch setup test unpack
+DEPEND=app-shells/tcsh !app-text/dos2unix =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Crystallography and NMR System
+EAPI=0
+HOMEPAGE=http://cns.csb.yale.edu/
+IUSE=debug
+KEYWORDS=~ppc ~x86
+LICENSE=cns
+RDEPEND=app-shells/tcsh !app-text/dos2unix
+RESTRICT=fetch
+SLOT=0
+SRC_URI=cns_solve_1.2_all.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

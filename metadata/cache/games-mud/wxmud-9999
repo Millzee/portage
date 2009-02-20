@@ -1,22 +1,12 @@
-=x11-libs/wxGTK-2.8* >=x11-libs/gtk+-2.4 python? ( >=dev-lang/python-2.4 ) dev-util/subversion net-misc/rsync =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-=x11-libs/wxGTK-2.8* >=x11-libs/gtk+-2.4 python? ( >=dev-lang/python-2.4 )
-0
-
-
-http://wxmud.sourceforge.net/
-GPL-2
-Cross-platform MUD client
-~amd64 ~x86
-toolchain-funcs wxwidgets portability flag-o-matic multilib subversion base libtool games autotools eutils
-python
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND==x11-libs/wxGTK-2.8* >=x11-libs/gtk+-2.4 python? ( >=dev-lang/python-2.4 ) dev-util/subversion net-misc/rsync =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Cross-platform MUD client
+EAPI=0
+HOMEPAGE=http://wxmud.sourceforge.net/
+IUSE=python
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/wxGTK-2.8* >=x11-libs/gtk+-2.4 python? ( >=dev-lang/python-2.4 )
+SLOT=0
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

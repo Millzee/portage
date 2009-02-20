@@ -1,22 +1,11 @@
-dev-lang/perl
-dev-lang/perl
-0
-mirror://gentoo/cvs2cl-2.71.pl.bz2
-
-http://www.red-bean.com/cvs2cl/
-GPL-2
-produces a GNU-style ChangeLog for CVS-controlled sources
-~amd64 ~ppc ~sparc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-lang/perl
+DESCRIPTION=produces a GNU-style ChangeLog for CVS-controlled sources
+EAPI=0
+HOMEPAGE=http://www.red-bean.com/cvs2cl/
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=mirror://gentoo/cvs2cl-2.71.pl.bz2
+_mtime_=1235082859

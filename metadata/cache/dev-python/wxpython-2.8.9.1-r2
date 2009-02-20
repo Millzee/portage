@@ -1,22 +1,13 @@
->=x11-libs/wxGTK-2.8.9.1:2.8[opengl?] >=dev-lang/python-2.4 >=x11-libs/gtk+-2.4 >=x11-libs/pango-1.2 >=dev-libs/glib-2.0 media-libs/libpng media-libs/jpeg media-libs/tiff cairo? ( dev-python/pycairo ) opengl? ( >=dev-python/pyopengl-2.0.0.44 ) dev-util/pkgconfig
->=x11-libs/wxGTK-2.8.9.1:2.8[opengl?] >=dev-lang/python-2.4 >=x11-libs/gtk+-2.4 >=x11-libs/pango-1.2 >=dev-libs/glib-2.0 media-libs/libpng media-libs/jpeg media-libs/tiff cairo? ( dev-python/pycairo ) opengl? ( >=dev-python/pyopengl-2.0.0.44 )
-2.8
-mirror://sourceforge/wxpython/wxPython-src-2.8.9.1.tar.bz2
-
-http://www.wxpython.org/
-wxWinLL-3
-A blending of the wxWindows C++ class library with Python
-alpha amd64 ~hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs wxwidgets portability flag-o-matic python alternatives multilib eutils
-cairo opengl
-
-
-
-2
-
-compile configure install postinst postrm prepare setup
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm prepare setup
+DEPEND=>=x11-libs/wxGTK-2.8.9.1:2.8[opengl?] >=dev-lang/python-2.4 >=x11-libs/gtk+-2.4 >=x11-libs/pango-1.2 >=dev-libs/glib-2.0 media-libs/libpng media-libs/jpeg media-libs/tiff cairo? ( dev-python/pycairo ) opengl? ( >=dev-python/pyopengl-2.0.0.44 ) dev-util/pkgconfig
+DESCRIPTION=A blending of the wxWindows C++ class library with Python
+EAPI=2
+HOMEPAGE=http://www.wxpython.org/
+IUSE=cairo opengl
+KEYWORDS=alpha amd64 ~hppa ia64 ppc ppc64 sparc x86
+LICENSE=wxWinLL-3
+RDEPEND=>=x11-libs/wxGTK-2.8.9.1:2.8[opengl?] >=dev-lang/python-2.4 >=x11-libs/gtk+-2.4 >=x11-libs/pango-1.2 >=dev-libs/glib-2.0 media-libs/libpng media-libs/jpeg media-libs/tiff cairo? ( dev-python/pycairo ) opengl? ( >=dev-python/pyopengl-2.0.0.44 )
+SLOT=2.8
+SRC_URI=mirror://sourceforge/wxpython/wxPython-src-2.8.9.1.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

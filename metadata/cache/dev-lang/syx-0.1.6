@@ -1,22 +1,11 @@
-
-gmp? ( dev-libs/gmp ) readline? ( sys-libs/readline ) gtk? ( >=x11-libs/gtk+-2.12 ) X? ( x11-libs/libX11 )
-0
-http://syx.googlecode.com/files/syx-0.1.6.tar.gz
-
-http://syx.googlecode.com
-MIT
-Open source implementation of the Smalltalk-80 programming language.
-~amd64 ~x86
-
-gmp readline gtk X debug profile
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Open source implementation of the Smalltalk-80 programming language.
+EAPI=0
+HOMEPAGE=http://syx.googlecode.com
+IUSE=gmp readline gtk X debug profile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=gmp? ( dev-libs/gmp ) readline? ( sys-libs/readline ) gtk? ( >=x11-libs/gtk+-2.12 ) X? ( x11-libs/libX11 )
+SLOT=0
+SRC_URI=http://syx.googlecode.com/files/syx-0.1.6.tar.gz
+_mtime_=1235082853

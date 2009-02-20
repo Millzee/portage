@@ -1,22 +1,11 @@
-net-analyzer/mrtg
-net-analyzer/mrtg
-0
-ftp://ftp.pwo.de/pub/pwo/mrtg/mrtg-ping-probe/mrtg-ping-probe-2.2.0.tar.gz
-
-http://pwo.de/projects/mrtg/
-GPL-2
-Addon mrtg contrib for stats ping/loss packets
-~x86
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=net-analyzer/mrtg
+DESCRIPTION=Addon mrtg contrib for stats ping/loss packets
+EAPI=0
+HOMEPAGE=http://pwo.de/projects/mrtg/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=net-analyzer/mrtg
+SLOT=0
+SRC_URI=ftp://ftp.pwo.de/pub/pwo/mrtg/mrtg-ping-probe/mrtg-ping-probe-2.2.0.tar.gz
+_mtime_=1235082889

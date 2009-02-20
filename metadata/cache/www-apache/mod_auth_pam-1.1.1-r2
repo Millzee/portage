@@ -1,22 +1,12 @@
-virtual/pam =www-servers/apache-2*
-virtual/pam =www-servers/apache-2*
-0
-http://pam.sourceforge.net/mod_auth_pam/dist/mod_auth_pam-2.0-1.1.1.tar.gz
-
-http://pam.sourceforge.net/mod_auth_pam/
-as-is
-PAM authentication module for Apache.
-~amd64 ~ppc ~sparc ~x86
-apache-module toolchain-funcs portability multilib depend.apache eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/pam =www-servers/apache-2*
+DESCRIPTION=PAM authentication module for Apache.
+EAPI=0
+HOMEPAGE=http://pam.sourceforge.net/mod_auth_pam/
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=as-is
+RDEPEND=virtual/pam =www-servers/apache-2*
+SLOT=0
+SRC_URI=http://pam.sourceforge.net/mod_auth_pam/dist/mod_auth_pam-2.0-1.1.1.tar.gz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

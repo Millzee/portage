@@ -1,22 +1,11 @@
-dev-lisp/cl-arnesi-darcs dev-util/darcs dev-lisp/common-lisp-controller
-dev-lisp/cl-arnesi-darcs
-0
-
-
-http://common-lisp.net/project/bese/yaclml.html
-BSD
-FiveAM is a simple regression testing framework designed for Common Lisp.
-~amd64 ~x86 ~sparc ~ppc
-common-lisp-common darcs toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst unpack
+DEPEND=dev-lisp/cl-arnesi-darcs dev-util/darcs dev-lisp/common-lisp-controller
+DESCRIPTION=FiveAM is a simple regression testing framework designed for Common Lisp.
+EAPI=0
+HOMEPAGE=http://common-lisp.net/project/bese/yaclml.html
+KEYWORDS=~amd64 ~x86 ~sparc ~ppc
+LICENSE=BSD
+RDEPEND=dev-lisp/cl-arnesi-darcs
+SLOT=0
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	darcs	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

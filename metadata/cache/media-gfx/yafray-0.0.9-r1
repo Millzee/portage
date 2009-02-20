@@ -1,22 +1,13 @@
-media-libs/jpeg sys-libs/zlib openexr? ( media-libs/openexr ) dev-util/scons
-media-libs/jpeg sys-libs/zlib openexr? ( media-libs/openexr )
-0
-http://www.yafray.org/sec/2/downloads/yafray-0.0.9.tar.gz
-
-http://www.yafray.org
-LGPL-2.1
-Yet Another Free Raytracer
-~alpha amd64 ppc ppc64 ~sparc x86
-toolchain-funcs portability python alternatives multilib eutils
-openexr
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=media-libs/jpeg sys-libs/zlib openexr? ( media-libs/openexr ) dev-util/scons
+DESCRIPTION=Yet Another Free Raytracer
+EAPI=0
+HOMEPAGE=http://www.yafray.org
+IUSE=openexr
+KEYWORDS=~alpha amd64 ppc ppc64 ~sparc x86
+LICENSE=LGPL-2.1
+RDEPEND=media-libs/jpeg sys-libs/zlib openexr? ( media-libs/openexr )
+SLOT=0
+SRC_URI=http://www.yafray.org/sec/2/downloads/yafray-0.0.9.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

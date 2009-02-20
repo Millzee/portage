@@ -1,22 +1,11 @@
-
-
-0
-amd64? ( http://registrationcenter-download.intel.com/irc_nas/1243/l_ipp_em64t_p_6.0.0.063.tar.gz ) x86? ( http://registrationcenter-download.intel.com/irc_nas/1243/l_ipp_ia32_p_6.0.0.063.tar.gz ) ia64? ( http://registrationcenter-download.intel.com/irc_nas/1243/l_ipp_itanium_p_6.0.0.063.tar.gz )
-strip mirror binchecks
-http://developer.intel.com/software/products/ipp/
-Intel-SDP
-Intel(R) Integrated Performance Primitive library for multimedia and data processing
-~amd64 ~x86 ~ia64
-multilib toolchain-funcs check-reqs portability eutils
-
-
-
-
-0
-
-install setup unpack
-
-
-
-
-
+DEFINED_PHASES=install setup unpack
+DESCRIPTION=Intel(R) Integrated Performance Primitive library for multimedia and data processing
+EAPI=0
+HOMEPAGE=http://developer.intel.com/software/products/ipp/
+KEYWORDS=~amd64 ~x86 ~ia64
+LICENSE=Intel-SDP
+RESTRICT=strip mirror binchecks
+SLOT=0
+SRC_URI=amd64? ( http://registrationcenter-download.intel.com/irc_nas/1243/l_ipp_em64t_p_6.0.0.063.tar.gz ) x86? ( http://registrationcenter-download.intel.com/irc_nas/1243/l_ipp_ia32_p_6.0.0.063.tar.gz ) ia64? ( http://registrationcenter-download.intel.com/irc_nas/1243/l_ipp_itanium_p_6.0.0.063.tar.gz )
+_eclasses_=check-reqs	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

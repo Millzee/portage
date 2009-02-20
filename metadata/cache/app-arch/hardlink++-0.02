@@ -1,22 +1,11 @@
-sys-devel/gcc
-
-0
-http://www.sodarock.com/hardlink//hardlink++-0.02.tgz
-
-http://www.sodarock.com/hardlink/
-GPL-2
-Save disk space by hardlinking identical files.
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-devel/gcc
+DESCRIPTION=Save disk space by hardlinking identical files.
+EAPI=0
+HOMEPAGE=http://www.sodarock.com/hardlink/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.sodarock.com/hardlink//hardlink++-0.02.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

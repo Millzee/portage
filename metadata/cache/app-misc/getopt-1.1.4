@@ -1,22 +1,13 @@
-nls? ( virtual/libintl ) nls? ( sys-devel/gettext )
-nls? ( virtual/libintl )
-0
-http://software.frodo.looijaard.name/getopt/files/getopt-1.1.4.tar.gz
-
-http://software.frodo.looijaard.name/getopt/
-GPL-2
-getopt(1) replacement supporting GNU-style long options
-~sparc-fbsd ~x86-fbsd
-toolchain-funcs multilib portability eutils
-nls
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=nls? ( virtual/libintl ) nls? ( sys-devel/gettext )
+DESCRIPTION=getopt(1) replacement supporting GNU-style long options
+EAPI=0
+HOMEPAGE=http://software.frodo.looijaard.name/getopt/
+IUSE=nls
+KEYWORDS=~sparc-fbsd ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=http://software.frodo.looijaard.name/getopt/files/getopt-1.1.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

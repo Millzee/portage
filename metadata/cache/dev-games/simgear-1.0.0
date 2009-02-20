@@ -1,22 +1,12 @@
->=media-libs/plib-1.8.4 media-libs/openal media-libs/freealut
->=media-libs/plib-1.8.4 media-libs/openal media-libs/freealut
-0
-mirror://simgear/Source/SimGear-1.0.0.tar.gz
-
-http://www.simgear.org/
-GPL-2
-Development library for simulation games
-amd64 ~ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=media-libs/plib-1.8.4 media-libs/openal media-libs/freealut
+DESCRIPTION=Development library for simulation games
+EAPI=0
+HOMEPAGE=http://www.simgear.org/
+KEYWORDS=amd64 ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/plib-1.8.4 media-libs/openal media-libs/freealut
+SLOT=0
+SRC_URI=mirror://simgear/Source/SimGear-1.0.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

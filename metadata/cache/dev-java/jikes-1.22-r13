@@ -1,22 +1,11 @@
-
->=dev-java/java-config-2.0.0
-0
-mirror://sourceforge/jikes/jikes-1.22.tar.bz2
-
-http://jikes.sourceforge.net/
-IBM
-IBM's open source, high performance Java compiler
-~alpha amd64 arm ia64 ppc ppc64 x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=IBM's open source, high performance Java compiler
+EAPI=0
+HOMEPAGE=http://jikes.sourceforge.net/
+KEYWORDS=~alpha amd64 arm ia64 ppc ppc64 x86 ~x86-fbsd
+LICENSE=IBM
+RDEPEND=>=dev-java/java-config-2.0.0
+SLOT=0
+SRC_URI=mirror://sourceforge/jikes/jikes-1.22.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

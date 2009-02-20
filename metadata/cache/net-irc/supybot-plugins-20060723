@@ -1,22 +1,11 @@
-
-net-irc/supybot
-0
-mirror://sourceforge/supybot/Supybot-plugins-20060723.tar.bz2
-
-http://supybot.com
-BSD
-Official set of extra plugins for Supybot
-~x86
-python multilib toolchain-funcs alternatives
-
-
-
-
-0
-
-install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm
+DESCRIPTION=Official set of extra plugins for Supybot
+EAPI=0
+HOMEPAGE=http://supybot.com
+KEYWORDS=~x86
+LICENSE=BSD
+RDEPEND=net-irc/supybot
+SLOT=0
+SRC_URI=mirror://sourceforge/supybot/Supybot-plugins-20060723.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

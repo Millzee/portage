@@ -1,22 +1,14 @@
->=kde-base/libkcal-3.5.10:3.5 >=kde-base/kdepim-kresources-3.5.10:3.5 >=kde-base/libkdepim-3.5.10:3.5 x11-libs/libXScrnSaver x11-proto/scrnsaverproto =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdepim-3.5*
->=kde-base/libkcal-3.5.10:3.5 >=kde-base/kdepim-kresources-3.5.10:3.5 >=kde-base/libkdepim-3.5.10:3.5 x11-libs/libXScrnSaver ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdepim-3.5*
-3.5
-mirror://kde/stable/3.5.10/src/kdepim-3.5.10.tar.bz2
-test
-http://www.kde.org/
-GPL-2
-KDE Time tracker tool
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions kde-meta base libtool autotools eutils
-debug elibc_FreeBSD
-
-
-
-1
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=kde-base/libkcal-3.5.10:3.5 >=kde-base/kdepim-kresources-3.5.10:3.5 >=kde-base/libkdepim-3.5.10:3.5 x11-libs/libXScrnSaver x11-proto/scrnsaverproto =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdepim-3.5*
+DESCRIPTION=KDE Time tracker tool
+EAPI=1
+HOMEPAGE=http://www.kde.org/
+IUSE=debug elibc_FreeBSD
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=kde-base/libkcal-3.5.10:3.5 >=kde-base/kdepim-kresources-3.5.10:3.5 >=kde-base/libkdepim-3.5.10:3.5 x11-libs/libXScrnSaver ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdepim-3.5*
+RESTRICT=test
+SLOT=3.5
+SRC_URI=mirror://kde/stable/3.5.10/src/kdepim-3.5.10.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	kde-meta	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

@@ -1,22 +1,11 @@
-
-
-0
-http://chasen.org/~taku/software/TinySVM/src/TinySVM-0.09.tar.gz
-
-http://chasen.org/~taku/software/TinySVM/
-LGPL-2.1
-TinySVM is an implementation of Support Vector Machines (SVMs) for pattern recognition.
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-perl
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DESCRIPTION=TinySVM is an implementation of Support Vector Machines (SVMs) for pattern recognition.
+EAPI=0
+HOMEPAGE=http://chasen.org/~taku/software/TinySVM/
+IUSE=perl
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://chasen.org/~taku/software/TinySVM/src/TinySVM-0.09.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

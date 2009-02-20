@@ -1,22 +1,12 @@
->=x11-libs/qt-4.1
->=x11-libs/qt-4.1
-0
-mirror://sourceforge/keepassx/KeePassX-0.2.2.tar.gz
-
-http://keepassx.sourceforge.net/
-GPL-2
-Qt password manager compatible with its Win32 and Pocket PC versions
-amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=>=x11-libs/qt-4.1
+DESCRIPTION=Qt password manager compatible with its Win32 and Pocket PC versions
+EAPI=0
+HOMEPAGE=http://keepassx.sourceforge.net/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/qt-4.1
+SLOT=0
+SRC_URI=mirror://sourceforge/keepassx/KeePassX-0.2.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

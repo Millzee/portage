@@ -1,22 +1,13 @@
-media-libs/libsdl media-libs/sdl-net media-libs/libpng media-libs/jpeg dev-libs/expat !dedicated? ( virtual/opengl virtual/glu media-libs/libogg media-libs/libvorbis media-libs/openal media-libs/freealut x11-libs/wxGTK:2.8[X] media-libs/freetype:2 sci-libs/fftw:3.0 ) mysql? ( virtual/mysql ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-media-libs/libsdl media-libs/sdl-net media-libs/libpng media-libs/jpeg dev-libs/expat !dedicated? ( virtual/opengl virtual/glu media-libs/libogg media-libs/libvorbis media-libs/openal media-libs/freealut x11-libs/wxGTK:2.8[X] media-libs/freetype:2 sci-libs/fftw:3.0 ) mysql? ( virtual/mysql )
-0
-mirror://sourceforge/scorched3d/Scorched3D-42-src.tar.gz -> Scorched3D-42-src.tar
-
-http://www.scorched3d.co.uk/
-GPL-2
-Multi-player tank battle in 3D (OpenGL)
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs wxwidgets portability multilib base libtool games autotools eutils
-dedicated mysql
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-net media-libs/libpng media-libs/jpeg dev-libs/expat !dedicated? ( virtual/opengl virtual/glu media-libs/libogg media-libs/libvorbis media-libs/openal media-libs/freealut x11-libs/wxGTK:2.8[X] media-libs/freetype:2 sci-libs/fftw:3.0 ) mysql? ( virtual/mysql ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Multi-player tank battle in 3D (OpenGL)
+EAPI=2
+HOMEPAGE=http://www.scorched3d.co.uk/
+IUSE=dedicated mysql
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-net media-libs/libpng media-libs/jpeg dev-libs/expat !dedicated? ( virtual/opengl virtual/glu media-libs/libogg media-libs/libvorbis media-libs/openal media-libs/freealut x11-libs/wxGTK:2.8[X] media-libs/freetype:2 sci-libs/fftw:3.0 ) mysql? ( virtual/mysql )
+SLOT=0
+SRC_URI=mirror://sourceforge/scorched3d/Scorched3D-42-src.tar.gz -> Scorched3D-42-src.tar
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

@@ -1,22 +1,12 @@
-dev-games/KXL =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-dev-games/KXL media-fonts/font-bitstream-75dpi
-0
-http://kxl.hn.org/download/geki2-KXL-2.0.3.tar.gz mirror://gentoo/geki2-KXL.png
-
-http://kxl.hn.org/
-GPL-2
-2D length scroll shooting game
-amd64 x86
-toolchain-funcs portability multilib base libtool games autotools eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=dev-games/KXL =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=2D length scroll shooting game
+EAPI=0
+HOMEPAGE=http://kxl.hn.org/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-games/KXL media-fonts/font-bitstream-75dpi
+SLOT=0
+SRC_URI=http://kxl.hn.org/download/geki2-KXL-2.0.3.tar.gz mirror://gentoo/geki2-KXL.png
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

@@ -1,22 +1,11 @@
-
-dev-lang/perl sasl? ( dev-perl/Authen-SASL )
-0
-mirror://sourceforge/migas-sbackup/simplebackup-1.8.1.tar.gz
-
-http://migas-sbackup.sourceforge.net/
-GPL-2
-Cross-platform backup program
-~amd64 ~x86
-
-sasl
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Cross-platform backup program
+EAPI=0
+HOMEPAGE=http://migas-sbackup.sourceforge.net/
+IUSE=sasl
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl sasl? ( dev-perl/Authen-SASL )
+SLOT=0
+SRC_URI=mirror://sourceforge/migas-sbackup/simplebackup-1.8.1.tar.gz
+_mtime_=1235082846

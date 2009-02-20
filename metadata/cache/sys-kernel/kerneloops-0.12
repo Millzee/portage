@@ -1,22 +1,12 @@
-net-misc/curl sys-apps/dbus x11-libs/gtk+ x11-libs/libnotify dev-util/desktop-file-utils
-net-misc/curl sys-apps/dbus x11-libs/gtk+ x11-libs/libnotify dev-util/desktop-file-utils
-0
-http://www.kerneloops.org/download/kerneloops-0.12.tar.gz
-
-http://www.kerneloops.org/
-GPL-2
-Tool to automatically collect and submit Linux kernel crash signatures
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=net-misc/curl sys-apps/dbus x11-libs/gtk+ x11-libs/libnotify dev-util/desktop-file-utils
+DESCRIPTION=Tool to automatically collect and submit Linux kernel crash signatures
+EAPI=0
+HOMEPAGE=http://www.kerneloops.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-misc/curl sys-apps/dbus x11-libs/gtk+ x11-libs/libnotify dev-util/desktop-file-utils
+SLOT=0
+SRC_URI=http://www.kerneloops.org/download/kerneloops-0.12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

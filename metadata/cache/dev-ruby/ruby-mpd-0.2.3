@@ -1,22 +1,12 @@
-virtual/ruby
-media-sound/mpd virtual/ruby
-0
-http://rubyforge.org/frs/download.php/8040/mpd-rb-0.2.3.tar.gz
-
-http://www.andsoforth.com/geek/mpd_rb.html
-GPL-2
-Ruby class for communicating with an MPD server
-~amd64 ~x86
-ruby toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/ruby
+DESCRIPTION=Ruby class for communicating with an MPD server
+EAPI=0
+HOMEPAGE=http://www.andsoforth.com/geek/mpd_rb.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-sound/mpd virtual/ruby
+SLOT=0
+SRC_URI=http://rubyforge.org/frs/download.php/8040/mpd-rb-0.2.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

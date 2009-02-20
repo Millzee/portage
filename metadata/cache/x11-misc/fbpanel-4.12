@@ -1,22 +1,12 @@
->=x11-libs/gtk+-2 dev-util/pkgconfig
->=x11-libs/gtk+-2
-0
-mirror://sourceforge/fbpanel/fbpanel-4.12.tgz
-
-http://fbpanel.sourceforge.net/
-as-is
-light-weight X11 desktop panel
-alpha amd64 ppc ~ppc64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2 dev-util/pkgconfig
+DESCRIPTION=light-weight X11 desktop panel
+EAPI=0
+HOMEPAGE=http://fbpanel.sourceforge.net/
+KEYWORDS=alpha amd64 ppc ~ppc64 x86
+LICENSE=as-is
+RDEPEND=>=x11-libs/gtk+-2
+SLOT=0
+SRC_URI=mirror://sourceforge/fbpanel/fbpanel-4.12.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

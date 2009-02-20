@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.10 >=dev-libs/glib-2.12 sys-libs/zlib ofx? ( >=dev-libs/libofx-0.7 ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=x11-libs/gtk+-2.10 >=dev-libs/glib-2.12 sys-libs/zlib ofx? ( >=dev-libs/libofx-0.7 ) gnome-base/librsvg
-0
-http://homebank.free.fr/public/homebank-4.0.1.tar.gz
-
-http://homebank.free.fr/index.php
-GPL-2
-Free, easy, personal accounting for everyone
-~amd64 ~x86
-toolchain-funcs portability multilib libtool fdo-mime autotools eutils
-ofx
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=x11-libs/gtk+-2.10 >=dev-libs/glib-2.12 sys-libs/zlib ofx? ( >=dev-libs/libofx-0.7 ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Free, easy, personal accounting for everyone
+EAPI=0
+HOMEPAGE=http://homebank.free.fr/index.php
+IUSE=ofx
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.10 >=dev-libs/glib-2.12 sys-libs/zlib ofx? ( >=dev-libs/libofx-0.7 ) gnome-base/librsvg
+SLOT=0
+SRC_URI=http://homebank.free.fr/public/homebank-4.0.1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

@@ -1,22 +1,12 @@
-media-libs/libsdl media-libs/sdl-mixer
-media-libs/libsdl media-libs/sdl-mixer
-0
-http://www.ecs.soton.ac.uk/~njh/primateplunge/primateplunge-1.1.tar.gz
-
-http://www.aelius.com/primateplunge
-as-is
-Help poor Monkey navigate his way down through treacherous areas
-amd64 ppc x86 ~x86-fbsd
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-mixer
+DESCRIPTION=Help poor Monkey navigate his way down through treacherous areas
+EAPI=0
+HOMEPAGE=http://www.aelius.com/primateplunge
+KEYWORDS=amd64 ppc x86 ~x86-fbsd
+LICENSE=as-is
+RDEPEND=media-libs/libsdl media-libs/sdl-mixer
+SLOT=0
+SRC_URI=http://www.ecs.soton.ac.uk/~njh/primateplunge/primateplunge-1.1.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

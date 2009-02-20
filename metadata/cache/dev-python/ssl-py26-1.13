@@ -1,22 +1,12 @@
->=dev-libs/openssl-0.9.8 !>=dev-lang/python-2.6 dev-python/setuptools >=dev-lang/python-2.3 virtual/python
->=dev-libs/openssl-0.9.8 !>=dev-lang/python-2.6 >=dev-lang/python-2.3
-0
-http://cheeseshop.python.org/packages/source/s/ssl/ssl-1.13.tar.gz
-
-http://docs.python.org/dev/library/ssl.html
-PYTHON
-Backport of the Python 2.6 ssl module.
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-libs/openssl-0.9.8 !>=dev-lang/python-2.6 dev-python/setuptools >=dev-lang/python-2.3 virtual/python
+DESCRIPTION=Backport of the Python 2.6 ssl module.
+EAPI=0
+HOMEPAGE=http://docs.python.org/dev/library/ssl.html
+KEYWORDS=~amd64 ~x86
+LICENSE=PYTHON
+RDEPEND=>=dev-libs/openssl-0.9.8 !>=dev-lang/python-2.6 >=dev-lang/python-2.3
+SLOT=0
+SRC_URI=http://cheeseshop.python.org/packages/source/s/ssl/ssl-1.13.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

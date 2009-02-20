@@ -1,22 +1,11 @@
-x11-libs/libXext >=media-libs/giblib-1.2.1
-x11-libs/libXext >=media-libs/giblib-1.2.1
-0
-http://www.linuxbrit.co.uk/downloads/gozer-0.7.tar.gz
-
-http://www.linuxbrit.co.uk/
-GPL-2
-tool for rendering arbitrary text as graphics, using ttfs and styles
-~amd64 ppc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=x11-libs/libXext >=media-libs/giblib-1.2.1
+DESCRIPTION=tool for rendering arbitrary text as graphics, using ttfs and styles
+EAPI=0
+HOMEPAGE=http://www.linuxbrit.co.uk/
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXext >=media-libs/giblib-1.2.1
+SLOT=0
+SRC_URI=http://www.linuxbrit.co.uk/downloads/gozer-0.7.tar.gz
+_mtime_=1235082867

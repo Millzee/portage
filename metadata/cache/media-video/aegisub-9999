@@ -1,22 +1,12 @@
-=x11-libs/wxGTK-2.8*[opengl] media-libs/libass media-libs/fontconfig media-libs/freetype alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio ) openal? ( media-libs/openal ) perl? ( dev-lang/perl ) ruby? ( dev-lang/ruby ) lua? ( dev-lang/lua ) spell? ( app-text/hunspell ) ffmpeg? ( media-video/ffmpeg ) dev-util/pkgconfig media-gfx/imagemagick dev-libs/glib dev-util/subversion net-misc/rsync
-=x11-libs/wxGTK-2.8*[opengl] media-libs/libass media-libs/fontconfig media-libs/freetype alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio ) openal? ( media-libs/openal ) perl? ( dev-lang/perl ) ruby? ( dev-lang/ruby ) lua? ( dev-lang/lua ) spell? ( app-text/hunspell ) ffmpeg? ( media-video/ffmpeg )
-0
-
-
-http://malakith.net/aegiwiki/Main_Page
-GPL-2
-Advanced SSA/ASS subtitle editor
-~amd64 ~x86
-toolchain-funcs wxwidgets portability multilib subversion eutils
-alsa debug +ffmpeg lua openal perl pulseaudio spell ruby
-
-
-
-2
-
-configure install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=configure install preinst setup unpack
+DEPEND==x11-libs/wxGTK-2.8*[opengl] media-libs/libass media-libs/fontconfig media-libs/freetype alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio ) openal? ( media-libs/openal ) perl? ( dev-lang/perl ) ruby? ( dev-lang/ruby ) lua? ( dev-lang/lua ) spell? ( app-text/hunspell ) ffmpeg? ( media-video/ffmpeg ) dev-util/pkgconfig media-gfx/imagemagick dev-libs/glib dev-util/subversion net-misc/rsync
+DESCRIPTION=Advanced SSA/ASS subtitle editor
+EAPI=2
+HOMEPAGE=http://malakith.net/aegiwiki/Main_Page
+IUSE=alsa debug +ffmpeg lua openal perl pulseaudio spell ruby
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/wxGTK-2.8*[opengl] media-libs/libass media-libs/fontconfig media-libs/freetype alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio ) openal? ( media-libs/openal ) perl? ( dev-lang/perl ) ruby? ( dev-lang/ruby ) lua? ( dev-lang/lua ) spell? ( app-text/hunspell ) ffmpeg? ( media-video/ffmpeg )
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

@@ -1,22 +1,12 @@
-
-app-shells/tcsh >=sci-chemistry/ccp4-6 sys-apps/gawk >=dev-lang/python-2.4
-0
-arp_warp_7.0.1.tar.gz
-fetch
-http://www.embl-hamburg.de/ARP/
-ArpWarp
-ARP/wARP is a software for improvement and interpretation of crystallographic electron density maps
--* ~amd64 ~x86
-toolchain-funcs portability python alternatives multilib eutils
-
-
-
-
-0
-
-install nofetch postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=install nofetch postinst postrm unpack
+DESCRIPTION=ARP/wARP is a software for improvement and interpretation of crystallographic electron density maps
+EAPI=0
+HOMEPAGE=http://www.embl-hamburg.de/ARP/
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=ArpWarp
+RDEPEND=app-shells/tcsh >=sci-chemistry/ccp4-6 sys-apps/gawk >=dev-lang/python-2.4
+RESTRICT=fetch
+SLOT=0
+SRC_URI=arp_warp_7.0.1.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

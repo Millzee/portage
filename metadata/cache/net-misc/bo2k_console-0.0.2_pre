@@ -1,22 +1,11 @@
->=net-libs/libbo2k-0.1.5_pre
->=net-libs/libbo2k-0.1.5_pre
-0
-mirror://sourceforge/bo2k/bo2k_console-0.0.2pre.tar.gz
-
-http://www.bo2k.com/
-LGPL-2
-Command-line client based on LibBO2K.
-~x86 ~ppc
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=net-libs/libbo2k-0.1.5_pre
+DESCRIPTION=Command-line client based on LibBO2K.
+EAPI=0
+HOMEPAGE=http://www.bo2k.com/
+KEYWORDS=~x86 ~ppc
+LICENSE=LGPL-2
+RDEPEND=>=net-libs/libbo2k-0.1.5_pre
+SLOT=0
+SRC_URI=mirror://sourceforge/bo2k/bo2k_console-0.0.2pre.tar.gz
+_mtime_=1235082894

@@ -1,22 +1,12 @@
-sys-devel/gettext virtual/libintl
-sys-devel/gettext virtual/libintl
-0
-http://www.moria.de/~michael/diction/diction-1.11.tar.gz
-
-http://www.gnu.org/software/diction/diction.html
-GPL-3
-Diction and style checkers for english and german texts
-~amd64 ~mips ~ppc ~sparc ~x86
-
-unicode
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=sys-devel/gettext virtual/libintl
+DESCRIPTION=Diction and style checkers for english and german texts
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/diction/diction.html
+IUSE=unicode
+KEYWORDS=~amd64 ~mips ~ppc ~sparc ~x86
+LICENSE=GPL-3
+RDEPEND=sys-devel/gettext virtual/libintl
+SLOT=0
+SRC_URI=http://www.moria.de/~michael/diction/diction-1.11.tar.gz
+_mtime_=1235082850

@@ -1,22 +1,13 @@
-X? ( x11-libs/libXi x11-libs/libXrender =media-libs/freetype-2* ) ggi? ( media-libs/libggi ) directfb? ( dev-libs/DirectFB ) alsa? ( >=media-libs/alsa-lib-0.5.0 ) sdl? ( >=media-libs/libsdl-1.1.8 ) ncurses? ( sys-libs/ncurses ) X? ( x11-libs/libXft x11-libs/libXt )
-X? ( x11-libs/libXi x11-libs/libXrender =media-libs/freetype-2* ) ggi? ( media-libs/libggi ) directfb? ( dev-libs/DirectFB ) alsa? ( >=media-libs/alsa-lib-0.5.0 ) sdl? ( >=media-libs/libsdl-1.1.8 ) ncurses? ( sys-libs/ncurses )
-0
-http://www-plan.cs.colorado.edu/creichen/freesci/freesci-0.3.5.tar.bz2 http://teksolv.de/~jameson/freesci-0.3.5.tar.bz2
-
-http://freesci.linuxgames.com/
-GPL-2
-Sierra script interpreter for your old Sierra adventures
-x86
-toolchain-funcs portability flag-o-matic multilib base games eutils
-X ggi directfb alsa sdl ncurses
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=X? ( x11-libs/libXi x11-libs/libXrender =media-libs/freetype-2* ) ggi? ( media-libs/libggi ) directfb? ( dev-libs/DirectFB ) alsa? ( >=media-libs/alsa-lib-0.5.0 ) sdl? ( >=media-libs/libsdl-1.1.8 ) ncurses? ( sys-libs/ncurses ) X? ( x11-libs/libXft x11-libs/libXt )
+DESCRIPTION=Sierra script interpreter for your old Sierra adventures
+EAPI=0
+HOMEPAGE=http://freesci.linuxgames.com/
+IUSE=X ggi directfb alsa sdl ncurses
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=X? ( x11-libs/libXi x11-libs/libXrender =media-libs/freetype-2* ) ggi? ( media-libs/libggi ) directfb? ( dev-libs/DirectFB ) alsa? ( >=media-libs/alsa-lib-0.5.0 ) sdl? ( >=media-libs/libsdl-1.1.8 ) ncurses? ( sys-libs/ncurses )
+SLOT=0
+SRC_URI=http://www-plan.cs.colorado.edu/creichen/freesci/freesci-0.3.5.tar.bz2 http://teksolv.de/~jameson/freesci-0.3.5.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

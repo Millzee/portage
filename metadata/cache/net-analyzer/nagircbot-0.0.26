@@ -1,22 +1,10 @@
-
-net-analyzer/nagios-core
-0
-http://www.vanheusden.com/nagircbot/nagircbot-0.0.26.tgz
-
-http://www.vanheusden.com/nagircbot
-GPL-2
-An irc bot that alerts you to nagios changes
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=An irc bot that alerts you to nagios changes
+EAPI=0
+HOMEPAGE=http://www.vanheusden.com/nagircbot
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-analyzer/nagios-core
+SLOT=0
+SRC_URI=http://www.vanheusden.com/nagircbot/nagircbot-0.0.26.tgz
+_mtime_=1235082889

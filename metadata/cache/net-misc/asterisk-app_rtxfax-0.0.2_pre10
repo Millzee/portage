@@ -1,22 +1,12 @@
->=media-libs/spandsp-0.0.2_pre10 >=net-misc/asterisk-1.0.5-r1 !>=net-misc/asterisk-1.1.0
->=media-libs/spandsp-0.0.2_pre10 >=net-misc/asterisk-1.0.5-r1 !>=net-misc/asterisk-1.1.0
-0
-mirror://gentoo/app_rtxfax-0.0.2_pre10.tar.bz2
-
-http://www.opencall.org/
-GPL-2
-Asterisk applications for sending and receiving faxes
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=media-libs/spandsp-0.0.2_pre10 >=net-misc/asterisk-1.0.5-r1 !>=net-misc/asterisk-1.1.0
+DESCRIPTION=Asterisk applications for sending and receiving faxes
+EAPI=0
+HOMEPAGE=http://www.opencall.org/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/spandsp-0.0.2_pre10 >=net-misc/asterisk-1.0.5-r1 !>=net-misc/asterisk-1.1.0
+SLOT=0
+SRC_URI=mirror://gentoo/app_rtxfax-0.0.2_pre10.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

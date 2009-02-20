@@ -1,22 +1,13 @@
->=media-libs/libsdl-1.2.0 opengl? ( virtual/opengl ) sys-libs/zlib >=sys-devel/gcc-3.2.2 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=media-libs/libsdl-1.2.0 opengl? ( virtual/opengl ) sys-libs/zlib
-0
-mirror://gentoo/fceu-0.98.12.src.tar.bz2
-
-http://www.emulator-zone.com/doc.php/nes/fceultra.html
-GPL-2
-A portable NES/Famicom emulator
-amd64 ~ppc x86
-toolchain-funcs portability multilib base libtool games autotools eutils
-opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=media-libs/libsdl-1.2.0 opengl? ( virtual/opengl ) sys-libs/zlib >=sys-devel/gcc-3.2.2 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A portable NES/Famicom emulator
+EAPI=0
+HOMEPAGE=http://www.emulator-zone.com/doc.php/nes/fceultra.html
+IUSE=opengl
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libsdl-1.2.0 opengl? ( virtual/opengl ) sys-libs/zlib
+SLOT=0
+SRC_URI=mirror://gentoo/fceu-0.98.12.src.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

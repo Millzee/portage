@@ -1,22 +1,13 @@
->=dev-lang/perl-5.8.5-r2 >=app-admin/webapp-config-1.50.15
->=dev-lang/perl-5.8.5-r2 >=app-admin/webapp-config-1.50.15
-1.38
-http://www.cs.uu.nl/people/henkp/mirmon/src/mirmon-1.38.tar.gz
-
-http://www.cs.uu.nl/people/henkp/mirmon/
-GPL-2
-Monitor the status of mirrors
-~amd64 ~ppc ~x86
-webapp
-vhosts
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=>=dev-lang/perl-5.8.5-r2 >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Monitor the status of mirrors
+EAPI=0
+HOMEPAGE=http://www.cs.uu.nl/people/henkp/mirmon/
+IUSE=vhosts
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/perl-5.8.5-r2 >=app-admin/webapp-config-1.50.15
+SLOT=1.38
+SRC_URI=http://www.cs.uu.nl/people/henkp/mirmon/src/mirmon-1.38.tar.gz
+_eclasses_=webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

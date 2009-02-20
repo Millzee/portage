@@ -1,22 +1,13 @@
-dev-lang/perl virtual/perl-Time-HiRes test? ( virtual/perl-Test-Simple )
-dev-lang/perl virtual/perl-Time-HiRes
-0
-mirror://cpan/authors/id/M/MS/MSCHILLI//Log-Log4perl-1.20.tar.gz
-
-http://log4perl.sourceforge.net/
-|| ( Artistic GPL-2 )
-Log::Log4perl is a Perl port of the widely popular log4j logging package.
-~amd64 ~ia64 ~ppc ~sparc ~x86
-toolchain-funcs portability multilib base eutils perl-module
-test
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl virtual/perl-Time-HiRes test? ( virtual/perl-Test-Simple )
+DESCRIPTION=Log::Log4perl is a Perl port of the widely popular log4j logging package.
+EAPI=0
+HOMEPAGE=http://log4perl.sourceforge.net/
+IUSE=test
+KEYWORDS=~amd64 ~ia64 ~ppc ~sparc ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-lang/perl virtual/perl-Time-HiRes
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MS/MSCHILLI//Log-Log4perl-1.20.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

@@ -1,22 +1,13 @@
-virtual/pmake virtual/pmake
-
-0
-mirror://gentoo/freebsd-share-6.2.tar.bz2
-strip
-http://www.freebsd.org/
-BSD
-Makefiles definitions used for building and installing libraries and system files
-~amd64 ~sparc-fbsd ~x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic versionator multilib freebsd bsdmk eutils
-profile
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/pmake virtual/pmake
+DESCRIPTION=Makefiles definitions used for building and installing libraries and system files
+EAPI=0
+HOMEPAGE=http://www.freebsd.org/
+IUSE=profile
+KEYWORDS=~amd64 ~sparc-fbsd ~x86 ~x86-fbsd
+LICENSE=BSD
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://gentoo/freebsd-share-6.2.tar.bz2
+_eclasses_=bsdmk	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	freebsd	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082906

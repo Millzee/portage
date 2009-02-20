@@ -1,22 +1,12 @@
->=dev-lang/perl-5.8.0
->=dev-lang/perl-5.8.0
-0
-http://dev.gentoo.org/~spock/portage/distfiles/chaosreader-0.94.bz2
-
-http://users.tpg.com.au/bdgcvb/chaosreader.html
-GPL-2
-A tool to trace TCP/UDP/... sessions and fetch application data from snoop or tcpdump logs.
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-lang/perl-5.8.0
+DESCRIPTION=A tool to trace TCP/UDP/... sessions and fetch application data from snoop or tcpdump logs.
+EAPI=0
+HOMEPAGE=http://users.tpg.com.au/bdgcvb/chaosreader.html
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/perl-5.8.0
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~spock/portage/distfiles/chaosreader-0.94.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082885

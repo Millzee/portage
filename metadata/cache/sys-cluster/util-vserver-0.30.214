@@ -1,22 +1,13 @@
->=dev-libs/dietlibc-0.30-r2 dev-libs/beecrypt net-firewall/iptables net-misc/vconfig sys-apps/iproute2 || ( >=sys-apps/coreutils-6.10-r1 sys-apps/mktemp )
-dev-libs/beecrypt net-firewall/iptables net-misc/vconfig sys-apps/iproute2 || ( >=sys-apps/coreutils-6.10-r1 sys-apps/mktemp ) bash-completion? ( || ( app-admin/eselect app-shells/bash-completion-config ) )
-0
-http://ftp.linux-vserver.org/pub/utils/util-vserver/util-vserver-0.30.214.tar.bz2
-
-http://www.nongnu.org/util-vserver/
-GPL-2
-Linux-VServer admin utilities
-~alpha amd64 ~ppc ~sparc x86
-portability toolchain-funcs multilib eutils bash-completion
-bash-completion
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=dev-libs/dietlibc-0.30-r2 dev-libs/beecrypt net-firewall/iptables net-misc/vconfig sys-apps/iproute2 || ( >=sys-apps/coreutils-6.10-r1 sys-apps/mktemp )
+DESCRIPTION=Linux-VServer admin utilities
+EAPI=0
+HOMEPAGE=http://www.nongnu.org/util-vserver/
+IUSE=bash-completion
+KEYWORDS=~alpha amd64 ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/beecrypt net-firewall/iptables net-misc/vconfig sys-apps/iproute2 || ( >=sys-apps/coreutils-6.10-r1 sys-apps/mktemp ) bash-completion? ( || ( app-admin/eselect app-shells/bash-completion-config ) )
+SLOT=0
+SRC_URI=http://ftp.linux-vserver.org/pub/utils/util-vserver/util-vserver-0.30.214.tar.bz2
+_eclasses_=bash-completion	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

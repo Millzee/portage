@@ -1,22 +1,12 @@
-x11-libs/libX11 x11-libs/libXdmcp x11-libs/libXaw sys-libs/glibc x11-proto/xproto
-x11-libs/libX11 x11-libs/libXdmcp x11-libs/libXaw sys-libs/glibc
-0
-mirror://sourceforge/sourcenav/sourcenav-5.1.4.tar.gz mirror://gentoo/sourcenav-5.1.4-gentoo.diff.gz
-
-http://sourcenav.sourceforge.net
-GPL-2 LGPL-2
-Source-Navigator is a source code analysis and development tool
-amd64 sparc ppc ppc64 x86
-toolchain-funcs portability flag-o-matic multilib libtool eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXdmcp x11-libs/libXaw sys-libs/glibc x11-proto/xproto
+DESCRIPTION=Source-Navigator is a source code analysis and development tool
+EAPI=0
+HOMEPAGE=http://sourcenav.sourceforge.net
+KEYWORDS=amd64 sparc ppc ppc64 x86
+LICENSE=GPL-2 LGPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXdmcp x11-libs/libXaw sys-libs/glibc
+SLOT=0
+SRC_URI=mirror://sourceforge/sourcenav/sourcenav-5.1.4.tar.gz mirror://gentoo/sourcenav-5.1.4-gentoo.diff.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

@@ -1,22 +1,13 @@
-dev-libs/expat >=dev-libs/liblinebreak-1.0 net-misc/curl dev-libs/fribidi app-arch/bzip2 qt4? ( || ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* ) ) qt3? ( =x11-libs/qt-3* ) gtk? ( >=x11-libs/gtk+-2.4 )
-dev-libs/expat >=dev-libs/liblinebreak-1.0 net-misc/curl dev-libs/fribidi app-arch/bzip2 qt4? ( || ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* ) ) qt3? ( =x11-libs/qt-3* ) gtk? ( >=x11-libs/gtk+-2.4 )
-0
-http://www.fbreader.org/fbreader-sources-0.10.3.tgz
-
-http://www.fbreader.org/
-GPL-2
-E-Book Reader. Supports many e-book formats.
-~amd64 ~x86
-confutils toolchain-funcs multilib portability eutils
-qt3 qt4 gtk debug
-
-
-
-2
-
-install prepare setup
-
-
-
-
-
+DEFINED_PHASES=install prepare setup
+DEPEND=dev-libs/expat >=dev-libs/liblinebreak-1.0 net-misc/curl dev-libs/fribidi app-arch/bzip2 qt4? ( || ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* ) ) qt3? ( =x11-libs/qt-3* ) gtk? ( >=x11-libs/gtk+-2.4 )
+DESCRIPTION=E-Book Reader. Supports many e-book formats.
+EAPI=2
+HOMEPAGE=http://www.fbreader.org/
+IUSE=qt3 qt4 gtk debug
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/expat >=dev-libs/liblinebreak-1.0 net-misc/curl dev-libs/fribidi app-arch/bzip2 qt4? ( || ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* ) ) qt3? ( =x11-libs/qt-3* ) gtk? ( >=x11-libs/gtk+-2.4 )
+SLOT=0
+SRC_URI=http://www.fbreader.org/fbreader-sources-0.10.3.tgz
+_eclasses_=confutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

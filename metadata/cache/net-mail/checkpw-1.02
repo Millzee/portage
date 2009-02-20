@@ -1,22 +1,11 @@
-
-
-0
-mirror://sourceforge/checkpw/checkpw-1.02.tar.gz
-
-http://checkpw.sourceforge.net/checkpw/
-public-domain
-an implementation of the checkpassword interface that checks a password
-~x86 ~ppc ~sparc ~alpha ~mips ~hppa ~amd64 ~ia64
-toolchain-funcs multilib portability eutils flag-o-matic
-static
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=an implementation of the checkpassword interface that checks a password
+EAPI=0
+HOMEPAGE=http://checkpw.sourceforge.net/checkpw/
+IUSE=static
+KEYWORDS=~x86 ~ppc ~sparc ~alpha ~mips ~hppa ~amd64 ~ia64
+LICENSE=public-domain
+SLOT=0
+SRC_URI=mirror://sourceforge/checkpw/checkpw-1.02.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

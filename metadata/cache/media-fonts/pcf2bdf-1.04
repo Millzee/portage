@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-http://www.tsg.ne.jp/GANA/S/pcf2bdf/pcf2bdf-1.04.tgz
-
-http://www.tsg.ne.jp/GANA/S/pcf2bdf/
-as-is
-Converts PCF fonts to BDF fonts
-arm ~hppa ia64 ppc s390 sh x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=Converts PCF fonts to BDF fonts
+EAPI=0
+HOMEPAGE=http://www.tsg.ne.jp/GANA/S/pcf2bdf/
+KEYWORDS=arm ~hppa ia64 ppc s390 sh x86
+LICENSE=as-is
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://www.tsg.ne.jp/GANA/S/pcf2bdf/pcf2bdf-1.04.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

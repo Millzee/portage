@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-mirror://sourceforge/plptools/plptools-0.11.tar.gz
-
-http://plptools.sourceforge.net
-as-is
-Libraries and utilities to communicate with a Psion palmtop via serial.
-x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=Libraries and utilities to communicate with a Psion palmtop via serial.
+EAPI=0
+HOMEPAGE=http://plptools.sourceforge.net
+KEYWORDS=x86
+LICENSE=as-is
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/plptools/plptools-0.11.tar.gz
+_mtime_=1235082849

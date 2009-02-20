@@ -1,22 +1,13 @@
-x11-libs/libX11 dev-lang/python media-libs/alsa-lib dev-libs/boost libvisual? ( >=media-libs/libvisual-0.4.0 ) x11-proto/xproto
-x11-libs/libX11 dev-lang/python media-libs/alsa-lib dev-libs/boost libvisual? ( >=media-libs/libvisual-0.4.0 )
-0
-mirror://sourceforge/gizmod/gizmod-3.3.tar.bz2
-
-http://gizmod.sourceforge.net
-Apache-2.0
-Input event scripting utility that has special support for fancy keyboards, mice, USB dials and more
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-libvisual
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=x11-libs/libX11 dev-lang/python media-libs/alsa-lib dev-libs/boost libvisual? ( >=media-libs/libvisual-0.4.0 ) x11-proto/xproto
+DESCRIPTION=Input event scripting utility that has special support for fancy keyboards, mice, USB dials and more
+EAPI=0
+HOMEPAGE=http://gizmod.sourceforge.net
+IUSE=libvisual
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=x11-libs/libX11 dev-lang/python media-libs/alsa-lib dev-libs/boost libvisual? ( >=media-libs/libvisual-0.4.0 )
+SLOT=0
+SRC_URI=mirror://sourceforge/gizmod/gizmod-3.3.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

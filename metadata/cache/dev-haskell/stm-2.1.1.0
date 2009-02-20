@@ -1,22 +1,13 @@
->=dev-lang/ghc-6.8 doc? ( dev-haskell/haddock ) >=dev-haskell/cabal-1.2
->=dev-lang/ghc-6.8 dev-lang/ghc
-0
-http://hackage.haskell.org/packages/archive/stm/2.1.1.0/stm-2.1.1.0.tar.gz
-
-http://haskell.org/ghc/
-BSD
-Software Transactional Memory
-amd64 ~hppa sparc x86
-ghc-package toolchain-funcs versionator multilib haskell-cabal
-doc profile
-
-
-
-0
-
-compile install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup
+DEPEND=>=dev-lang/ghc-6.8 doc? ( dev-haskell/haddock ) >=dev-haskell/cabal-1.2
+DESCRIPTION=Software Transactional Memory
+EAPI=0
+HOMEPAGE=http://haskell.org/ghc/
+IUSE=doc profile
+KEYWORDS=amd64 ~hppa sparc x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-6.8 dev-lang/ghc
+SLOT=0
+SRC_URI=http://hackage.haskell.org/packages/archive/stm/2.1.1.0/stm-2.1.1.0.tar.gz
+_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	haskell-cabal	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

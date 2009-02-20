@@ -1,22 +1,12 @@
-|| ( >=app-editors/vim-7_alpha >=app-editors/gvim-7_alpha )
-|| ( >=app-editors/vim-7_alpha >=app-editors/gvim-7_alpha )
-0
-mirror://gentoo/vim-spell-es-20060208.tar.bz2
-
-http://www.vim.org/
-GPL-2
-vim spell files: Spanish (es)
-~alpha amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils vim-spell
-
-
-
-
-0
-
-install postinst
-
-
-
-
-
+DEFINED_PHASES=install postinst
+DEPEND=|| ( >=app-editors/vim-7_alpha >=app-editors/gvim-7_alpha )
+DESCRIPTION=vim spell files: Spanish (es)
+EAPI=0
+HOMEPAGE=http://www.vim.org/
+KEYWORDS=~alpha amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=|| ( >=app-editors/vim-7_alpha >=app-editors/gvim-7_alpha )
+SLOT=0
+SRC_URI=mirror://gentoo/vim-spell-es-20060208.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	vim-spell	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

@@ -1,22 +1,12 @@
-dev-python/setuptools virtual/python
-
-0
-http://www.makotemplates.org/downloads/Mako-0.1.10.tar.gz
-
-http://www.makotemplates.org/
-MIT
-A python templating language.
-~x86 ~amd64
-toolchain-funcs distutils portability python alternatives multilib eutils
-doc test
-
-
-
-0
-
-compile install postinst postrm test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test unpack
+DEPEND=dev-python/setuptools virtual/python
+DESCRIPTION=A python templating language.
+EAPI=0
+HOMEPAGE=http://www.makotemplates.org/
+IUSE=doc test
+KEYWORDS=~x86 ~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=http://www.makotemplates.org/downloads/Mako-0.1.10.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

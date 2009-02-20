@@ -1,22 +1,12 @@
-app-arch/unzip
-virtual/emacs
-0
-http://casting-spels-emacs.googlecode.com/files/casting-spels-emacs-v19.zip
-
-http://code.google.com/p/casting-spels-emacs/
-GPL-2 FDL-1.2
-Casting SPELs in Lisp - A Comic Book (Emacs Lisp Edition)
-amd64 x86
-portability toolchain-funcs multilib elisp-common eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Casting SPELs in Lisp - A Comic Book (Emacs Lisp Edition)
+EAPI=0
+HOMEPAGE=http://code.google.com/p/casting-spels-emacs/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2 FDL-1.2
+RDEPEND=virtual/emacs
+SLOT=0
+SRC_URI=http://casting-spels-emacs.googlecode.com/files/casting-spels-emacs-v19.zip
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

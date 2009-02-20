@@ -1,22 +1,14 @@
-virtual/pmake virtual/pmake
->=sys-freebsd/freebsd-mk-defs-6.0-r1
-6.2-r5
-mirror://gentoo/freebsd-sys-6.2.tar.bz2
-strip binchecks
-http://www.freebsd.org/
-BSD
-FreeBSD kernel sources
-~sparc-fbsd ~x86-fbsd
-toolchain-funcs portability flag-o-matic versionator multilib freebsd bsdmk eutils
-symlink
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/pmake virtual/pmake
+DESCRIPTION=FreeBSD kernel sources
+EAPI=0
+HOMEPAGE=http://www.freebsd.org/
+IUSE=symlink
+KEYWORDS=~sparc-fbsd ~x86-fbsd
+LICENSE=BSD
+RDEPEND=>=sys-freebsd/freebsd-mk-defs-6.0-r1
+RESTRICT=strip binchecks
+SLOT=6.2-r5
+SRC_URI=mirror://gentoo/freebsd-sys-6.2.tar.bz2
+_eclasses_=bsdmk	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	freebsd	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082906

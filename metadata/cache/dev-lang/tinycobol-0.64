@@ -1,22 +1,12 @@
->=dev-libs/glib-2.0 sys-libs/db sys-devel/flex
->=dev-libs/glib-2.0 sys-libs/db
-0
-mirror://sourceforge/tiny-cobol/tinycobol-0.64.tar.bz2
-
-http://tiny-cobol.sourceforge.net/
-GPL-2 LGPL-2
-COBOL for linux
-~x86 ~ppc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/glib-2.0 sys-libs/db sys-devel/flex
+DESCRIPTION=COBOL for linux
+EAPI=0
+HOMEPAGE=http://tiny-cobol.sourceforge.net/
+KEYWORDS=~x86 ~ppc
+LICENSE=GPL-2 LGPL-2
+RDEPEND=>=dev-libs/glib-2.0 sys-libs/db
+SLOT=0
+SRC_URI=mirror://sourceforge/tiny-cobol/tinycobol-0.64.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

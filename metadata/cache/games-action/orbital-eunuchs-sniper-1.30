@@ -1,22 +1,12 @@
-media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
-0
-http://filesingularity.timedoctor.org/orbital_eunuchs_sniper-1.30.tar.gz
-
-http://icculus.org/oes/
-ZLIB
-Snipe terrorists from your orbital base
-~amd64 ppc x86
-toolchain-funcs portability multilib base libtool games autotools eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Snipe terrorists from your orbital base
+EAPI=0
+HOMEPAGE=http://icculus.org/oes/
+KEYWORDS=~amd64 ppc x86
+LICENSE=ZLIB
+RDEPEND=media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
+SLOT=0
+SRC_URI=http://filesingularity.timedoctor.org/orbital_eunuchs_sniper-1.30.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

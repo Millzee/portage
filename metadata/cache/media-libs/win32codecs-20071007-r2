@@ -1,22 +1,13 @@
-
-real? ( =virtual/libstdc++-3.3* amd64? ( media-video/realplayer ) )
-0
-mirror://mplayer/releases/codecs/all-20071007.tar.bz2
-strip binchecks
-http://www.mplayerhq.hu/
-as-is
-Win32 binary codecs for video and audio playback support
--* ~amd64 x86 ~x86-fbsd
-toolchain-funcs multilib
-real
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DESCRIPTION=Win32 binary codecs for video and audio playback support
+EAPI=0
+HOMEPAGE=http://www.mplayerhq.hu/
+IUSE=real
+KEYWORDS=-* ~amd64 x86 ~x86-fbsd
+LICENSE=as-is
+RDEPEND=real? ( =virtual/libstdc++-3.3* amd64? ( media-video/realplayer ) )
+RESTRICT=strip binchecks
+SLOT=0
+SRC_URI=mirror://mplayer/releases/codecs/all-20071007.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

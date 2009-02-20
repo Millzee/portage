@@ -1,22 +1,12 @@
-
-amd64? ( >=sys-libs/glibc-2.3.4.20041102 )
-0
-ftp://ftp.freenet.de/pub/4players/teamspeak.org/releases/ts2_server_rc2_202319.tar.bz2 mirror://gentoo/server_linux-202401.tar.bz2
-
-http://www.goteamspeak.com/
-as-is
-The Teamspeak Voice Communication Server
--* ~amd64 ~x86
-toolchain-funcs multilib portability eutils
-mysql
-
-
-
-0
-
-install postinst setup
-
-
-
-
-
+DEFINED_PHASES=install postinst setup
+DESCRIPTION=The Teamspeak Voice Communication Server
+EAPI=0
+HOMEPAGE=http://www.goteamspeak.com/
+IUSE=mysql
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=as-is
+RDEPEND=amd64? ( >=sys-libs/glibc-2.3.4.20041102 )
+SLOT=0
+SRC_URI=ftp://ftp.freenet.de/pub/4players/teamspeak.org/releases/ts2_server_rc2_202319.tar.bz2 mirror://gentoo/server_linux-202401.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

@@ -1,22 +1,12 @@
-dev-python/pygtk dev-python/gnome-python-desktop dev-python/gnome-python-extras gnome-extra/yelp media-gfx/imagemagick sys-devel/gettext >=dev-util/intltool-0.35 virtual/python
-dev-python/pygtk dev-python/gnome-python-desktop dev-python/gnome-python-extras gnome-extra/yelp media-gfx/imagemagick
-0
-mirror://sourceforge/startup-manager/startupmanager-1.9.10.tar.gz
-
-http://web.telia.com/~u88005282/sum/index.html
-MIT
-a gui tool for changing settings for Grub, Grub2, Usplash and Splashy
-~amd64
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-python/pygtk dev-python/gnome-python-desktop dev-python/gnome-python-extras gnome-extra/yelp media-gfx/imagemagick sys-devel/gettext >=dev-util/intltool-0.35 virtual/python
+DESCRIPTION=a gui tool for changing settings for Grub, Grub2, Usplash and Splashy
+EAPI=0
+HOMEPAGE=http://web.telia.com/~u88005282/sum/index.html
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-python/pygtk dev-python/gnome-python-desktop dev-python/gnome-python-extras gnome-extra/yelp media-gfx/imagemagick
+SLOT=0
+SRC_URI=mirror://sourceforge/startup-manager/startupmanager-1.9.10.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

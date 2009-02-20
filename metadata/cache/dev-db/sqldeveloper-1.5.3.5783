@@ -1,22 +1,14 @@
-mssql? ( dev-java/jtds ) mysql? ( dev-java/jdbc-mysql ) sybase? ( dev-java/jtds )
->=virtual/jdk-1.5.0 mssql? ( dev-java/jtds ) mysql? ( dev-java/jdbc-mysql ) sybase? ( dev-java/jtds )
-0
-sqldeveloper-5783-no-jre.zip
-fetch
-http://www.oracle.com/technology/products/database/sql_developer/
-OTN
-Oracle SQL Developer is a graphical tool for database development
-~amd64 ~x86
-toolchain-funcs versionator multilib portability eutils
-mssql mysql sybase
-
-
-
-2
-
-configure install nofetch postinst prepare
-
-
-
-
-
+DEFINED_PHASES=configure install nofetch postinst prepare
+DEPEND=mssql? ( dev-java/jtds ) mysql? ( dev-java/jdbc-mysql ) sybase? ( dev-java/jtds )
+DESCRIPTION=Oracle SQL Developer is a graphical tool for database development
+EAPI=2
+HOMEPAGE=http://www.oracle.com/technology/products/database/sql_developer/
+IUSE=mssql mysql sybase
+KEYWORDS=~amd64 ~x86
+LICENSE=OTN
+RDEPEND=>=virtual/jdk-1.5.0 mssql? ( dev-java/jtds ) mysql? ( dev-java/jdbc-mysql ) sybase? ( dev-java/jtds )
+RESTRICT=fetch
+SLOT=0
+SRC_URI=sqldeveloper-5783-no-jre.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

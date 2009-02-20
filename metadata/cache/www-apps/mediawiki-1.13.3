@@ -1,22 +1,14 @@
-math? ( >=dev-lang/ocaml-3.0.6 ) || ( virtual/httpd-cgi virtual/httpd-fastcgi ) virtual/httpd-php >=app-admin/webapp-config-1.50.15
-math? ( >=dev-lang/ocaml-3.0.6 ) math? ( app-text/dvipng virtual/tex-base virtual/ghostscript media-gfx/imagemagick ) imagemagick? ( media-gfx/imagemagick ) virtual/httpd-php >=app-admin/webapp-config-1.50.15
-1.13.3
-http://download.wikimedia.org/mediawiki/1.13/mediawiki-1.13.3.tar.gz
-test
-http://www.mediawiki.org
-GPL-2
-The MediaWiki wiki web application (as used on wikipedia.org)
-~alpha amd64 ppc sparc x86
-toolchain-funcs portability depend.php versionator multilib phpconfutils webapp eutils
-imagemagick math mysql postgres +ocamlopt vhosts
-
-
-
-1
-
-compile install postinst preinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst prerm setup
+DEPEND=math? ( >=dev-lang/ocaml-3.0.6 ) || ( virtual/httpd-cgi virtual/httpd-fastcgi ) virtual/httpd-php >=app-admin/webapp-config-1.50.15
+DESCRIPTION=The MediaWiki wiki web application (as used on wikipedia.org)
+EAPI=1
+HOMEPAGE=http://www.mediawiki.org
+IUSE=imagemagick math mysql postgres +ocamlopt vhosts
+KEYWORDS=~alpha amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=math? ( >=dev-lang/ocaml-3.0.6 ) math? ( app-text/dvipng virtual/tex-base virtual/ghostscript media-gfx/imagemagick ) imagemagick? ( media-gfx/imagemagick ) virtual/httpd-php >=app-admin/webapp-config-1.50.15
+RESTRICT=test
+SLOT=1.13.3
+SRC_URI=http://download.wikimedia.org/mediawiki/1.13/mediawiki-1.13.3.tar.gz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

@@ -1,22 +1,13 @@
->=dev-java/java-config-2.1.6
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6
-0
-http://visualversion.com/profiler/profiler.jar
-
-http://visualversion.com/profiler/
-as-is
-Provides 3D visual representation of file system statistics
-amd64 ppc x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD
-
-
-
-
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=dev-java/java-config-2.1.6
+DESCRIPTION=Provides 3D visual representation of file system statistics
+EAPI=0
+HOMEPAGE=http://visualversion.com/profiler/
+IUSE=elibc_FreeBSD
+KEYWORDS=amd64 ppc x86
+LICENSE=as-is
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=http://visualversion.com/profiler/profiler.jar
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

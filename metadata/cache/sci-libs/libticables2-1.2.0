@@ -1,22 +1,13 @@
->=dev-libs/glib-2 usb? ( dev-libs/libusb ) nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext )
->=dev-libs/glib-2 usb? ( dev-libs/libusb ) nls? ( virtual/libintl )
-0
-mirror://sourceforge/gtktiemu/libticables2-1.2.0.tar.bz2
-
-http://lpg.ticalc.org/prj_tilp/
-GPL-2
-Library to handle different link cables for TI calculators
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-doc nls threads usb
-
-
-
-2
-
-configure install postinst prepare
-
-
-
-
-
+DEFINED_PHASES=configure install postinst prepare
+DEPEND=>=dev-libs/glib-2 usb? ( dev-libs/libusb ) nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext )
+DESCRIPTION=Library to handle different link cables for TI calculators
+EAPI=2
+HOMEPAGE=http://lpg.ticalc.org/prj_tilp/
+IUSE=doc nls threads usb
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2 usb? ( dev-libs/libusb ) nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/gtktiemu/libticables2-1.2.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235087811

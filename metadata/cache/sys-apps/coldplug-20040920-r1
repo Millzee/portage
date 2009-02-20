@@ -1,22 +1,11 @@
->=sys-apps/hotplug-20040920
-!>=sys-fs/udev-089
-0
-
-
-http://linux-hotplug.sourceforge.net
-GPL-2
-coldplug init.d program to load modules at bootime
-alpha amd64 hppa ia64 mips ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=sys-apps/hotplug-20040920
+DESCRIPTION=coldplug init.d program to load modules at bootime
+EAPI=0
+HOMEPAGE=http://linux-hotplug.sourceforge.net
+KEYWORDS=alpha amd64 hppa ia64 mips ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=!>=sys-fs/udev-089
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

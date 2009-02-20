@@ -1,22 +1,13 @@
-virtual/blas virtual/lapack tk? ( dev-lang/tk ) sys-devel/flex dev-lang/perl >=sys-apps/sed-4 doc? ( app-doc/doxygen media-gfx/graphviz ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/blas virtual/lapack tk? ( dev-lang/tk )
-0
-mirror://sourceforge/mpqc/mpqc-2.3.1.tar.bz2
-
-http://www.mpqc.org/
-GPL-2
-The Massively Parallel Quantum Chemistry Program
-amd64 ppc ppc64 x86
-toolchain-funcs portability multilib fortran libtool autotools eutils
-doc threads tk debug
-
-
-
-0
-
-compile install postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test unpack
+DEPEND=virtual/blas virtual/lapack tk? ( dev-lang/tk ) sys-devel/flex dev-lang/perl >=sys-apps/sed-4 doc? ( app-doc/doxygen media-gfx/graphviz ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=The Massively Parallel Quantum Chemistry Program
+EAPI=0
+HOMEPAGE=http://www.mpqc.org/
+IUSE=doc threads tk debug
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=virtual/blas virtual/lapack tk? ( dev-lang/tk )
+SLOT=0
+SRC_URI=mirror://sourceforge/mpqc/mpqc-2.3.1.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

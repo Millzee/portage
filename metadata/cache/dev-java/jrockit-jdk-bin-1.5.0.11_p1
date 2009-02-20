@@ -1,22 +1,14 @@
-app-arch/unzip =dev-java/java-config-2*
-doc? ( =dev-java/java-sdk-docs-1.5.0* ) =dev-java/java-config-2*
-1.5
-ia64? ( ftp://anonymous:dev2dev%40bea%2Ecom@ftpna.bea.com/pub/releases/security/jrockit-jdk1.5.0_11-linux_ia64.tar.gz ) amd64? ( ftp://anonymous:dev2dev%40bea%2Ecom@ftpna.bea.com/pub/releases/security/jrockit-jdk1.5.0_11-linux_x86_64.tar.gz ) x86? ( ftp://anonymous:dev2dev%40bea%2Ecom@ftpna.bea.com/pub/releases/security/jrockit-jdk1.5.0_11-linux_ia32.tar.gz )
-strip mirror
-http://commerce.bea.com/products/weblogicjrockit/jrockit_prod_fam.jsp
-jrockit
-BEA WebLogic's J2SE Development Kit
--* amd64 ia64 x86
-toolchain-funcs portability versionator multilib eutils fdo-mime java-vm-2
-doc examples
-
-
-
-
-
-install postinst postrm prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm prerm setup
+DEPEND=app-arch/unzip =dev-java/java-config-2*
+DESCRIPTION=BEA WebLogic's J2SE Development Kit
+EAPI=0
+HOMEPAGE=http://commerce.bea.com/products/weblogicjrockit/jrockit_prod_fam.jsp
+IUSE=doc examples
+KEYWORDS=-* amd64 ia64 x86
+LICENSE=jrockit
+RDEPEND=doc? ( =dev-java/java-sdk-docs-1.5.0* ) =dev-java/java-config-2*
+RESTRICT=strip mirror
+SLOT=1.5
+SRC_URI=ia64? ( ftp://anonymous:dev2dev%40bea%2Ecom@ftpna.bea.com/pub/releases/security/jrockit-jdk1.5.0_11-linux_ia64.tar.gz ) amd64? ( ftp://anonymous:dev2dev%40bea%2Ecom@ftpna.bea.com/pub/releases/security/jrockit-jdk1.5.0_11-linux_x86_64.tar.gz ) x86? ( ftp://anonymous:dev2dev%40bea%2Ecom@ftpna.bea.com/pub/releases/security/jrockit-jdk1.5.0_11-linux_ia32.tar.gz )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	java-vm-2	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

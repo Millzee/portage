@@ -1,22 +1,12 @@
->=app-i18n/scim-0.99.8 dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=app-i18n/scim-0.99.8
-0
-http://sinhala.sourceforge.net/files/scim-wijesekera-0.3.3.tar.gz
-
-http://sinhala.sourceforge.net/
-GPL-2
-Wijesekara keyboard for Sinhala input using scim
-~amd64 ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=app-i18n/scim-0.99.8 dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Wijesekara keyboard for Sinhala input using scim
+EAPI=0
+HOMEPAGE=http://sinhala.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-i18n/scim-0.99.8
+SLOT=0
+SRC_URI=http://sinhala.sourceforge.net/files/scim-wijesekera-0.3.3.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

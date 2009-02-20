@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 >=app-admin/webapp-config-1.50.15
->=virtual/jre-1.4 >=app-admin/webapp-config-1.50.15
-2.7
-http://www.fastpath.it/products/palantir/pub/palantir-2.7.tgz
-
-http://www.fastpath.it/products/palantir/index.php
-GPL-2
-Transmit live video, audio and data over a TCP/IP network, as well as to control remote devices.
-~x86
-toolchain-funcs portability java-utils-2 versionator multilib webapp eutils
-vhosts elibc_FreeBSD
-
-
-
-0
-
-compile install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup
+DEPEND=>=virtual/jdk-1.4 >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Transmit live video, audio and data over a TCP/IP network, as well as to control remote devices.
+EAPI=0
+HOMEPAGE=http://www.fastpath.it/products/palantir/index.php
+IUSE=vhosts elibc_FreeBSD
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.4 >=app-admin/webapp-config-1.50.15
+SLOT=2.7
+SRC_URI=http://www.fastpath.it/products/palantir/pub/palantir-2.7.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

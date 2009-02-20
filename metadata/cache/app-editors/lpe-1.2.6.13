@@ -1,22 +1,13 @@
->=sys-libs/slang-2.1.3 nls? ( sys-devel/gettext )
->=sys-libs/slang-2.1.3
-0
-mirror://debian/pool/main/l/lpe/lpe_1.2.6.13-0.1.tar.gz
-
-http://packages.qa.debian.org/l/lpe.html
-GPL-2
-a lightweight programmers editor
-amd64 ppc sparc x86
-toolchain-funcs multilib
-nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=sys-libs/slang-2.1.3 nls? ( sys-devel/gettext )
+DESCRIPTION=a lightweight programmers editor
+EAPI=0
+HOMEPAGE=http://packages.qa.debian.org/l/lpe.html
+IUSE=nls
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=sys-libs/slang-2.1.3
+SLOT=0
+SRC_URI=mirror://debian/pool/main/l/lpe/lpe_1.2.6.13-0.1.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

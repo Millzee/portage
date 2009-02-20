@@ -1,22 +1,12 @@
-doc? ( >=app-doc/doxygen-1.2.16 media-gfx/graphviz )
-
-0
-http://download.videolan.org/pub/libdvbpsi/0.1.6/libdvbpsi5-0.1.6.tar.bz2
-
-http://www.videolan.org/libdvbpsi
-GPL-2
-library for MPEG TS/DVB PSI tables decoding and generation
-~arm ~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=doc? ( >=app-doc/doxygen-1.2.16 media-gfx/graphviz )
+DESCRIPTION=library for MPEG TS/DVB PSI tables decoding and generation
+EAPI=0
+HOMEPAGE=http://www.videolan.org/libdvbpsi
+IUSE=doc
+KEYWORDS=~arm ~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://download.videolan.org/pub/libdvbpsi/0.1.6/libdvbpsi5-0.1.6.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

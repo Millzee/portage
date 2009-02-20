@@ -1,22 +1,12 @@
-virtual/libc
->=app-arch/bzip2-0.9 sys-devel/binutils
-0
-ftp://ftp.mondorescue.org/src/mindi-busybox-1.7.3.tar.gz
-
-http://www.mondorescue.org
-GPL-2
-A special version of busybox used by mindi
-~x86 ~ia64 ~amd64
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=A special version of busybox used by mindi
+EAPI=0
+HOMEPAGE=http://www.mondorescue.org
+KEYWORDS=~x86 ~ia64 ~amd64
+LICENSE=GPL-2
+RDEPEND=>=app-arch/bzip2-0.9 sys-devel/binutils
+SLOT=0
+SRC_URI=ftp://ftp.mondorescue.org/src/mindi-busybox-1.7.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

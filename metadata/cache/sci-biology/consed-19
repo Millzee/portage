@@ -1,22 +1,13 @@
-x11-libs/openmotif
-x11-libs/openmotif >=sci-biology/phrap-1.080721
-0
-consed-19-sources.tar.gz consed-19-linux.tar.gz
-fetch
-http://bozeman.mbt.washington.edu/consed/consed.html
-phrap
-Consed: a genome sequence finishing program
-~x86 ~amd64
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install nofetch unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch unpack
+DEPEND=x11-libs/openmotif
+DESCRIPTION=Consed: a genome sequence finishing program
+EAPI=0
+HOMEPAGE=http://bozeman.mbt.washington.edu/consed/consed.html
+KEYWORDS=~x86 ~amd64
+LICENSE=phrap
+RDEPEND=x11-libs/openmotif >=sci-biology/phrap-1.080721
+RESTRICT=fetch
+SLOT=0
+SRC_URI=consed-19-sources.tar.gz consed-19-linux.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

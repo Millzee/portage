@@ -1,22 +1,13 @@
-virtual/linux-sources kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-virtual/linux-sources kernel_linux? ( virtual/modutils )
-0
-http://www-stud.ims.uni-stuttgart.de/~voegelas/pcfclock/pcfclock-0.44.tar.gz
-
-http://www-stud.ims.uni-stuttgart.de/~voegelas/pcf.html
-GPL-2
-driver for the parallel port radio clock sold by Conrad Electronic
-~x86 ~ppc
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=virtual/linux-sources kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=driver for the parallel port radio clock sold by Conrad Electronic
+EAPI=0
+HOMEPAGE=http://www-stud.ims.uni-stuttgart.de/~voegelas/pcf.html
+IUSE=kernel_linux
+KEYWORDS=~x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=virtual/linux-sources kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=http://www-stud.ims.uni-stuttgart.de/~voegelas/pcfclock/pcfclock-0.44.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

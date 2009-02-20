@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-http://dione.ids.pl/~lcamtuf/netsed.tgz http://http.us.debian.org/debian/pool/main/n/netsed/netsed_0.01c-2.diff.gz
-
-http://freshmeat.net/projects/netsed
-LGPL-2
-A small and handful utility designed to alter the contents of packets forwarded thru your network in real time
-amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=A small and handful utility designed to alter the contents of packets forwarded thru your network in real time
+EAPI=0
+HOMEPAGE=http://freshmeat.net/projects/netsed
+KEYWORDS=amd64 ~x86
+LICENSE=LGPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://dione.ids.pl/~lcamtuf/netsed.tgz http://http.us.debian.org/debian/pool/main/n/netsed/netsed_0.01c-2.diff.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

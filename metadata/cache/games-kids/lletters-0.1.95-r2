@@ -1,22 +1,13 @@
-x11-libs/gtk+:2 nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext )
-x11-libs/gtk+:2 nls? ( virtual/libintl )
-0
-mirror://debian/pool/main/l/lletters/lletters_0.1.95+gtk2.orig.tar.gz mirror://debian/pool/main/l/lletters/lletters_0.1.95+gtk2-3.diff.gz mirror://sourceforge/lln/lletters-media-0.1.9a.tar.gz
-
-http://lln.sourceforge.net
-GPL-2
-Game that helps young kids learn their letters and numbers
-amd64 ~ppc x86
-toolchain-funcs portability multilib base games eutils
-nls
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=x11-libs/gtk+:2 nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext )
+DESCRIPTION=Game that helps young kids learn their letters and numbers
+EAPI=2
+HOMEPAGE=http://lln.sourceforge.net
+IUSE=nls
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/gtk+:2 nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/l/lletters/lletters_0.1.95+gtk2.orig.tar.gz mirror://debian/pool/main/l/lletters/lletters_0.1.95+gtk2-3.diff.gz mirror://sourceforge/lln/lletters-media-0.1.9a.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

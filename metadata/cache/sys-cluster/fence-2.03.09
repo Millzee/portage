@@ -1,22 +1,12 @@
-=sys-cluster/ccs-2.03.09* =sys-cluster/openais-0.80.3* =sys-cluster/dlm-lib-2.03.09* =sys-cluster/cman-lib-2.03.09* dev-perl/Net-Telnet dev-perl/Net-SSLeay dev-python/pexpect
-=sys-cluster/ccs-2.03.09* =sys-cluster/openais-0.80.3* =sys-cluster/dlm-lib-2.03.09* =sys-cluster/cman-lib-2.03.09* dev-perl/Net-Telnet dev-perl/Net-SSLeay dev-python/pexpect
-0
-ftp://sources.redhat.com/pub/cluster/releases/cluster-2.03.09.tar.gz
-
-http://sources.redhat.com/cluster/wiki/
-GPL-2
-I/O group fencing system
-amd64 x86
-toolchain-funcs versionator multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==sys-cluster/ccs-2.03.09* =sys-cluster/openais-0.80.3* =sys-cluster/dlm-lib-2.03.09* =sys-cluster/cman-lib-2.03.09* dev-perl/Net-Telnet dev-perl/Net-SSLeay dev-python/pexpect
+DESCRIPTION=I/O group fencing system
+EAPI=0
+HOMEPAGE=http://sources.redhat.com/cluster/wiki/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND==sys-cluster/ccs-2.03.09* =sys-cluster/openais-0.80.3* =sys-cluster/dlm-lib-2.03.09* =sys-cluster/cman-lib-2.03.09* dev-perl/Net-Telnet dev-perl/Net-SSLeay dev-python/pexpect
+SLOT=0
+SRC_URI=ftp://sources.redhat.com/pub/cluster/releases/cluster-2.03.09.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

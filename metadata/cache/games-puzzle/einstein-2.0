@@ -1,22 +1,12 @@
-media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-ttf
-media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-ttf
-0
-http://games.flowix.com/files/einstein/einstein-2.0-src.tar.gz mirror://gentoo/einstein.png http://dev.gentoo.org/~wolf31o2/sources/dump/einstein.png
-
-http://games.flowix.com/en/
-GPL-2
-A puzzle game inspired by Albert Einstein
-amd64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-ttf
+DESCRIPTION=A puzzle game inspired by Albert Einstein
+EAPI=0
+HOMEPAGE=http://games.flowix.com/en/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-ttf
+SLOT=0
+SRC_URI=http://games.flowix.com/files/einstein/einstein-2.0-src.tar.gz mirror://gentoo/einstein.png http://dev.gentoo.org/~wolf31o2/sources/dump/einstein.png
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

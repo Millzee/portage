@@ -1,22 +1,14 @@
-virtual/libc opengl? ( virtual/opengl virtual/glu virtual/glut ) ~app-text/docbook-sgml-dtd-4.2
-virtual/libc opengl? ( virtual/opengl virtual/glu virtual/glut ) ~app-text/docbook-sgml-dtd-4.2
-0
-http://cvs.haskell.org/Hugs/downloads/Nov2003/hugs98-Nov2003.tar.gz
-test
-http://www.haskell.org/hugs/
-as-is
-The HUGS98 Haskell interpreter
-x86 ~sparc ~amd64 ~ppc
-toolchain-funcs portability flag-o-matic multilib base eutils
-opengl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc opengl? ( virtual/opengl virtual/glu virtual/glut ) ~app-text/docbook-sgml-dtd-4.2
+DESCRIPTION=The HUGS98 Haskell interpreter
+EAPI=0
+HOMEPAGE=http://www.haskell.org/hugs/
+IUSE=opengl
+KEYWORDS=x86 ~sparc ~amd64 ~ppc
+LICENSE=as-is
+RDEPEND=virtual/libc opengl? ( virtual/opengl virtual/glu virtual/glut ) ~app-text/docbook-sgml-dtd-4.2
+RESTRICT=test
+SLOT=0
+SRC_URI=http://cvs.haskell.org/Hugs/downloads/Nov2003/hugs98-Nov2003.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

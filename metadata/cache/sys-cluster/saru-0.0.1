@@ -1,22 +1,12 @@
-virtual/libc sys-cluster/ipvsadm dev-libs/popt dev-libs/glib >=dev-libs/vanessa-logger-0.0.6 >=net-libs/vanessa-socket-0.0.7 >=dev-libs/vanessa-adt-0.0.6 >=dev-libs/libip_vs_user_sync-1.0.0 >=sys-cluster/heartbeat-1.0.4 net-firewall/iptables
-virtual/libc sys-cluster/ipvsadm dev-libs/popt dev-libs/glib >=dev-libs/vanessa-logger-0.0.6 >=net-libs/vanessa-socket-0.0.7 >=dev-libs/vanessa-adt-0.0.6 >=dev-libs/libip_vs_user_sync-1.0.0 >=sys-cluster/heartbeat-1.0.4 net-firewall/iptables
-0
-http://www.ultramonkey.org/download/active_active/saru-0.0.1.tar.gz
-
-http://www.ultramonkey.org/download/active_active/
-GPL-2
-Heartbeat application to provide active active load balancers
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/libc sys-cluster/ipvsadm dev-libs/popt dev-libs/glib >=dev-libs/vanessa-logger-0.0.6 >=net-libs/vanessa-socket-0.0.7 >=dev-libs/vanessa-adt-0.0.6 >=dev-libs/libip_vs_user_sync-1.0.0 >=sys-cluster/heartbeat-1.0.4 net-firewall/iptables
+DESCRIPTION=Heartbeat application to provide active active load balancers
+EAPI=0
+HOMEPAGE=http://www.ultramonkey.org/download/active_active/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc sys-cluster/ipvsadm dev-libs/popt dev-libs/glib >=dev-libs/vanessa-logger-0.0.6 >=net-libs/vanessa-socket-0.0.7 >=dev-libs/vanessa-adt-0.0.6 >=dev-libs/libip_vs_user_sync-1.0.0 >=sys-cluster/heartbeat-1.0.4 net-firewall/iptables
+SLOT=0
+SRC_URI=http://www.ultramonkey.org/download/active_active/saru-0.0.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

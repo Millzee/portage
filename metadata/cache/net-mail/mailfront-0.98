@@ -1,22 +1,12 @@
-virtual/libc >=dev-libs/bglibs-1.022 >=net-libs/cvm-0.71
-virtual/libc >=dev-libs/bglibs-1.022 >=net-libs/cvm-0.71 virtual/qmail net-libs/cvm
-0
-http://untroubled.org/mailfront/archive/mailfront-0.98.tar.gz
-
-http://untroubled.org/mailfront/
-GPL-2
-Mail server network protocol front-ends
-~ppc ~sparc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile config install postinst
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst
+DEPEND=virtual/libc >=dev-libs/bglibs-1.022 >=net-libs/cvm-0.71
+DESCRIPTION=Mail server network protocol front-ends
+EAPI=0
+HOMEPAGE=http://untroubled.org/mailfront/
+KEYWORDS=~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc >=dev-libs/bglibs-1.022 >=net-libs/cvm-0.71 virtual/qmail net-libs/cvm
+SLOT=0
+SRC_URI=http://untroubled.org/mailfront/archive/mailfront-0.98.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

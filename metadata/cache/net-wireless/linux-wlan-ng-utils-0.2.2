@@ -1,22 +1,11 @@
-dev-libs/openssl !<net-wireless/linux-wlan-ng-0.2.2
-dev-libs/openssl !<net-wireless/linux-wlan-ng-0.2.2
-0
-ftp://ftp.linux-wlan.org/pub/linux-wlan-ng/linux-wlan-ng-0.2.2.tar.bz2
-
-http://linux-wlan.org
-MPL-1.1
-Key generators from the linux-wlan-ng project.
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/openssl !<net-wireless/linux-wlan-ng-0.2.2
+DESCRIPTION=Key generators from the linux-wlan-ng project.
+EAPI=0
+HOMEPAGE=http://linux-wlan.org
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=MPL-1.1
+RDEPEND=dev-libs/openssl !<net-wireless/linux-wlan-ng-0.2.2
+SLOT=0
+SRC_URI=ftp://ftp.linux-wlan.org/pub/linux-wlan-ng/linux-wlan-ng-0.2.2.tar.bz2
+_mtime_=1235082896

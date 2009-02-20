@@ -1,22 +1,13 @@
-emacs? ( virtual/emacs )
-emacs? ( virtual/emacs ) java? ( virtual/jdk )
-0
-http://www.cmtsite.org/v1r20p20080222/CMTv1r20p20080222.tar.gz
-
-http://www.cmtsite.org/
-CeCILL-2
-Cross platform configuration management environment
-~amd64 ~x86
-toolchain-funcs versionator multilib elisp-common
-emacs java doc
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=emacs? ( virtual/emacs )
+DESCRIPTION=Cross platform configuration management environment
+EAPI=0
+HOMEPAGE=http://www.cmtsite.org/
+IUSE=emacs java doc
+KEYWORDS=~amd64 ~x86
+LICENSE=CeCILL-2
+RDEPEND=emacs? ( virtual/emacs ) java? ( virtual/jdk )
+SLOT=0
+SRC_URI=http://www.cmtsite.org/v1r20p20080222/CMTv1r20p20080222.tar.gz
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

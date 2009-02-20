@@ -1,22 +1,11 @@
->=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/libnotify dev-util/pkgconfig
->=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/libnotify
-0
-mirror://sourceforge/musicpd/gmpc-libnotify-0.17.0.tar.gz
-
-http://gmpcwiki.sarine.nl/index.php/Libnotify
-GPL-2
-This plugin sends an announcement to the notification daemon on song change
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/libnotify dev-util/pkgconfig
+DESCRIPTION=This plugin sends an announcement to the notification daemon on song change
+EAPI=0
+HOMEPAGE=http://gmpcwiki.sarine.nl/index.php/Libnotify
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/libnotify
+SLOT=0
+SRC_URI=mirror://sourceforge/musicpd/gmpc-libnotify-0.17.0.tar.gz
+_mtime_=1235082868

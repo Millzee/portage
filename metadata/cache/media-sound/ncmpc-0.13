@@ -1,22 +1,13 @@
->=dev-libs/glib-2.4 dev-libs/popt sys-libs/ncurses lirc? ( app-misc/lirc ) dev-util/pkgconfig
->=dev-libs/glib-2.4 dev-libs/popt sys-libs/ncurses lirc? ( app-misc/lirc )
-0
-http://downloads.sourceforge.net/musicpd/ncmpc-0.13.tar.bz2
-
-http://mpd.wikia.com/wiki/Client:Ncmpc
-GPL-2
-A ncurses client for the Music Player Daemon (MPD)
-~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs multilib
-artist-screen colors debug +help-screen key-screen lirc lyrics-screen mouse nls search-screen song-screen
-
-
-
-2
-
-configure install
-
-
-
-
-
+DEFINED_PHASES=configure install
+DEPEND=>=dev-libs/glib-2.4 dev-libs/popt sys-libs/ncurses lirc? ( app-misc/lirc ) dev-util/pkgconfig
+DESCRIPTION=A ncurses client for the Music Player Daemon (MPD)
+EAPI=2
+HOMEPAGE=http://mpd.wikia.com/wiki/Client:Ncmpc
+IUSE=artist-screen colors debug +help-screen key-screen lirc lyrics-screen mouse nls search-screen song-screen
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.4 dev-libs/popt sys-libs/ncurses lirc? ( app-misc/lirc )
+SLOT=0
+SRC_URI=http://downloads.sourceforge.net/musicpd/ncmpc-0.13.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

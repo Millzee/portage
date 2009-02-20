@@ -1,22 +1,12 @@
-virtual/perl-Module-Build dev-perl/ImageSize >=dev-perl/Date-Calc-5.0 >=dev-perl/File-MMagic-1.17 >=dev-perl/MIME-Types-1.005 dev-perl/regexp-common >=dev-perl/Perl6-Junction-1.10 dev-perl/Email-Valid
-virtual/perl-Module-Build dev-perl/ImageSize >=dev-perl/Date-Calc-5.0 >=dev-perl/File-MMagic-1.17 >=dev-perl/MIME-Types-1.005 dev-perl/regexp-common >=dev-perl/Perl6-Junction-1.10 dev-perl/Email-Valid
-0
-mirror://cpan/authors/id/M/MA/MARKSTOS//Data-FormValidator-4.61.tar.gz
-
-http://search.cpan.org/search?query=Data-FormValidator&mode=dist
-|| ( Artistic GPL-2 )
-Validates user input (usually from an HTML form) based on input profile.
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-Module-Build dev-perl/ImageSize >=dev-perl/Date-Calc-5.0 >=dev-perl/File-MMagic-1.17 >=dev-perl/MIME-Types-1.005 dev-perl/regexp-common >=dev-perl/Perl6-Junction-1.10 dev-perl/Email-Valid
+DESCRIPTION=Validates user input (usually from an HTML form) based on input profile.
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Data-FormValidator&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-Module-Build dev-perl/ImageSize >=dev-perl/Date-Calc-5.0 >=dev-perl/File-MMagic-1.17 >=dev-perl/MIME-Types-1.005 dev-perl/regexp-common >=dev-perl/Perl6-Junction-1.10 dev-perl/Email-Valid
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MARKSTOS//Data-FormValidator-4.61.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

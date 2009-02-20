@@ -1,22 +1,12 @@
-dev-lang/perl sys-apps/grep sys-apps/miscfiles
-dev-lang/perl sys-apps/grep sys-apps/miscfiles
-0
-http://mackers.com/projects/passook/passook.tar.gz
-
-http://mackers.com/misc/scripts/passook/
-as-is
-Password generator capable of generating pronounceable and/or secure passwords.
-amd64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=dev-lang/perl sys-apps/grep sys-apps/miscfiles
+DESCRIPTION=Password generator capable of generating pronounceable and/or secure passwords.
+EAPI=0
+HOMEPAGE=http://mackers.com/misc/scripts/passook/
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=as-is
+RDEPEND=dev-lang/perl sys-apps/grep sys-apps/miscfiles
+SLOT=0
+SRC_URI=http://mackers.com/projects/passook/passook.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

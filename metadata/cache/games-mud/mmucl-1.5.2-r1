@@ -1,22 +1,13 @@
->=dev-lang/tk-8.4 readline? ( dev-tcltk/tclreadline ) mccp? ( dev-tcltk/tcl-mccp ) gtk? ( dev-tcltk/tcl-gtk )
->=dev-lang/tk-8.4 readline? ( dev-tcltk/tclreadline ) mccp? ( dev-tcltk/tcl-mccp ) gtk? ( dev-tcltk/tcl-gtk )
-0
-mirror://sourceforge/mmucl/mmucl-1.5.2.tar.gz
-
-http://mmucl.sourceforge.net/
-GPL-2
-Marks MUd CLient - A mud client written completely in tcl/tk
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base games eutils
-readline mccp gtk
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=dev-lang/tk-8.4 readline? ( dev-tcltk/tclreadline ) mccp? ( dev-tcltk/tcl-mccp ) gtk? ( dev-tcltk/tcl-gtk )
+DESCRIPTION=Marks MUd CLient - A mud client written completely in tcl/tk
+EAPI=0
+HOMEPAGE=http://mmucl.sourceforge.net/
+IUSE=readline mccp gtk
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/tk-8.4 readline? ( dev-tcltk/tclreadline ) mccp? ( dev-tcltk/tcl-mccp ) gtk? ( dev-tcltk/tcl-gtk )
+SLOT=0
+SRC_URI=mirror://sourceforge/mmucl/mmucl-1.5.2.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

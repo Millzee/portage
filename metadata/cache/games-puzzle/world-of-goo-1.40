@@ -1,22 +1,12 @@
-
-sys-libs/glibc virtual/opengl virtual/glu >=sys-devel/gcc-3.4 amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs )
-0
-WorldOfGooSetup.1.40.tar.gz
-fetch strip
-http://2dboy.com/
-2dboy-EULA
-World of Goo is a puzzle game with a strong emphasis on physics
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install nofetch postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch postinst preinst setup unpack
+DESCRIPTION=World of Goo is a puzzle game with a strong emphasis on physics
+EAPI=0
+HOMEPAGE=http://2dboy.com/
+KEYWORDS=~amd64 ~x86
+LICENSE=2dboy-EULA
+RDEPEND=sys-libs/glibc virtual/opengl virtual/glu >=sys-devel/gcc-3.4 amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs )
+RESTRICT=fetch strip
+SLOT=0
+SRC_URI=WorldOfGooSetup.1.40.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

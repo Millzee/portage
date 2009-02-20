@@ -1,22 +1,12 @@
->=net-zope/zope-2.7
->=net-zope/zope-2.7 net-zope/zope app-admin/zprod-manager
-0
-mirror://sourceforge/zsyncer/ZSyncer-0.6.1.tgz
-
-http://zsyncer.sourceforge.net/
-ZPL
-ZSyncer allows live zope objects to be synchronized from one Zope to another
-~x86
-zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DEPEND=>=net-zope/zope-2.7
+DESCRIPTION=ZSyncer allows live zope objects to be synchronized from one Zope to another
+EAPI=0
+HOMEPAGE=http://zsyncer.sourceforge.net/
+KEYWORDS=~x86
+LICENSE=ZPL
+RDEPEND=>=net-zope/zope-2.7 net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=mirror://sourceforge/zsyncer/ZSyncer-0.6.1.tgz
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

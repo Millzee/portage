@@ -1,22 +1,11 @@
-kernel_linux? ( virtual/linux-sources )
-
-0
-http://linuxvm.org/Patches/s390/cpint116.tgz
-
-http://linuxvm.org/Patches/index.html
-GPL-2
-Linux/390 Interface to z/VM's Control Program
-s390
-linux-info toolchain-funcs multilib versionator
-
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=Linux/390 Interface to z/VM's Control Program
+EAPI=0
+HOMEPAGE=http://linuxvm.org/Patches/index.html
+KEYWORDS=s390
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://linuxvm.org/Patches/s390/cpint116.tgz
+_eclasses_=linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

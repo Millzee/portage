@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 >=sys-apps/sed-4.1.4 app-arch/unzip >=dev-java/java-config-2.1.6
->=virtual/jre-1.4 >=dev-lang/inform-6.21.4 >=games-engines/gargoyle-20051002 >=dev-java/java-config-2.1.6
-0
-http://www.slade.altervista.org/downloads/JIF31_src_RC1.zip
-
-http://www.slade.altervista.org/JIF/
-GPL-2
-JIF is an IDE for the creation of text adventures based on Graham Nelson's Inform standard.
-x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD
-
-
-
-
-
-compile install preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup
+DEPEND=>=virtual/jdk-1.4 >=sys-apps/sed-4.1.4 app-arch/unzip >=dev-java/java-config-2.1.6
+DESCRIPTION=JIF is an IDE for the creation of text adventures based on Graham Nelson's Inform standard.
+EAPI=0
+HOMEPAGE=http://www.slade.altervista.org/JIF/
+IUSE=elibc_FreeBSD
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.4 >=dev-lang/inform-6.21.4 >=games-engines/gargoyle-20051002 >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=http://www.slade.altervista.org/downloads/JIF31_src_RC1.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

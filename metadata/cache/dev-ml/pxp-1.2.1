@@ -1,22 +1,13 @@
->=dev-ml/pcre-ocaml-4.31 >=dev-ml/ulex-0.5 >=dev-ml/ocamlnet-0.98 >=dev-lang/ocaml-3.10.2[ocamlopt?] >=dev-ml/findlib-1.0.4-r1
->=dev-ml/pcre-ocaml-4.31 >=dev-ml/ulex-0.5 >=dev-ml/ocamlnet-0.98 >=dev-lang/ocaml-3.10.2[ocamlopt?]
-0
-http://download.camlcity.org/download/pxp-1.2.1.tar.gz
-
-http://projects.camlcity.org/projects/pxp.html
-as-is
-validating XML parser library for O'Caml
-~amd64 ~ppc ~x86
-findlib toolchain-funcs multilib portability eutils
-examples +ocamlopt
-
-
-
-2
-
-compile configure install
-
-
-
-
-
+DEFINED_PHASES=compile configure install
+DEPEND=>=dev-ml/pcre-ocaml-4.31 >=dev-ml/ulex-0.5 >=dev-ml/ocamlnet-0.98 >=dev-lang/ocaml-3.10.2[ocamlopt?] >=dev-ml/findlib-1.0.4-r1
+DESCRIPTION=validating XML parser library for O'Caml
+EAPI=2
+HOMEPAGE=http://projects.camlcity.org/projects/pxp.html
+IUSE=examples +ocamlopt
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=as-is
+RDEPEND=>=dev-ml/pcre-ocaml-4.31 >=dev-ml/ulex-0.5 >=dev-ml/ocamlnet-0.98 >=dev-lang/ocaml-3.10.2[ocamlopt?]
+SLOT=0
+SRC_URI=http://download.camlcity.org/download/pxp-1.2.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	findlib	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

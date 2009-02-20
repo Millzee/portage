@@ -1,22 +1,12 @@
->=media-libs/alsa-lib-1.0.17 =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=media-libs/alsa-lib-1.0.17
-0
-mirror://alsaproject/oss-lib/alsa-oss-1.0.17.tar.bz2
-
-http://www.alsa-project.org/
-GPL-2
-Advanced Linux Sound Architecture OSS compatibility layer.
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=media-libs/alsa-lib-1.0.17 =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Advanced Linux Sound Architecture OSS compatibility layer.
+EAPI=0
+HOMEPAGE=http://www.alsa-project.org/
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/alsa-lib-1.0.17
+SLOT=0
+SRC_URI=mirror://alsaproject/oss-lib/alsa-oss-1.0.17.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

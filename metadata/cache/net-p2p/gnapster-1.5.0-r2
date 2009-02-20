@@ -1,22 +1,12 @@
-=x11-libs/gtk+-1.2*
-=x11-libs/gtk+-1.2*
-0
-mirror://sourceforge/gnapster/gnapster-1.5.0.tar.gz
-
-http://sourceforge.net/projects/gnapster/
-GPL-2
-A napster client for GTK/GNOME
-x86 ppc amd64
-
-nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND==x11-libs/gtk+-1.2*
+DESCRIPTION=A napster client for GTK/GNOME
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/gnapster/
+IUSE=nls
+KEYWORDS=x86 ppc amd64
+LICENSE=GPL-2
+RDEPEND==x11-libs/gtk+-1.2*
+SLOT=0
+SRC_URI=mirror://sourceforge/gnapster/gnapster-1.5.0.tar.gz
+_mtime_=1235082895

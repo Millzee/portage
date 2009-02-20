@@ -1,22 +1,11 @@
-dev-lang/perl
-dev-lang/perl
-0
-http://udpcast.linux.lu/download/udpcast-20071228.tar.bz2
-
-http://udpcast.linux.lu/
-GPL-2 BSD
-Multicast file transfer tool
-~amd64 x86
-
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=dev-lang/perl
+DESCRIPTION=Multicast file transfer tool
+EAPI=0
+HOMEPAGE=http://udpcast.linux.lu/
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2 BSD
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=http://udpcast.linux.lu/download/udpcast-20071228.tar.bz2
+_mtime_=1235082895

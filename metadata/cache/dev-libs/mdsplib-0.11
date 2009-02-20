@@ -1,22 +1,10 @@
-
-
-0
-http://limulus.net/mdsplib/mdsplib-0.11.tar.gz
-
-http://limulus.net/mdsplib/
-LGPL-2.1
-METAR Decoder Software Package Library
-~x86 ~ppc ~sparc
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=METAR Decoder Software Package Library
+EAPI=0
+HOMEPAGE=http://limulus.net/mdsplib/
+KEYWORDS=~x86 ~ppc ~sparc
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://limulus.net/mdsplib/mdsplib-0.11.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

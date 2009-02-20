@@ -1,22 +1,10 @@
-
->=kde-base/kdeaccessibility-colorschemes-4.2.0:4.2 >=kde-base/kdeaccessibility-iconthemes-4.2.0:4.2 >=kde-base/kmag-4.2.0:4.2 >=kde-base/kmousetool-4.2.0:4.2 >=kde-base/kmouth-4.2.0:4.2 >=kde-base/kttsd-4.2.0:4.2
-4.2
-
-
-http://www.kde.org/
-GPL-2
-kdeaccessibility - merge this to pull in all kdeaccessiblity-derived packages
-~amd64 ~ppc ~ppc64 ~x86
-kde4-functions
-
-
-
-
-2
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=kdeaccessibility - merge this to pull in all kdeaccessiblity-derived packages
+EAPI=2
+HOMEPAGE=http://www.kde.org/
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=kde-base/kdeaccessibility-colorschemes-4.2.0:4.2 >=kde-base/kdeaccessibility-iconthemes-4.2.0:4.2 >=kde-base/kmag-4.2.0:4.2 >=kde-base/kmousetool-4.2.0:4.2 >=kde-base/kmouth-4.2.0:4.2 >=kde-base/kttsd-4.2.0:4.2
+SLOT=4.2
+_eclasses_=kde4-functions	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

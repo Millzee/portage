@@ -1,22 +1,12 @@
->=sys-apps/hal-0.5.10
->=sys-apps/hal-0.5.10
-0
-http://hal.freedesktop.org/releases/hal-info-20080508.tar.gz
-
-http://hal.freedesktop.org/
-GPL-2
-The fdi scripts that HAL uses
-alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=sys-apps/hal-0.5.10
+DESCRIPTION=The fdi scripts that HAL uses
+EAPI=0
+HOMEPAGE=http://hal.freedesktop.org/
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=>=sys-apps/hal-0.5.10
+SLOT=0
+SRC_URI=http://hal.freedesktop.org/releases/hal-info-20080508.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

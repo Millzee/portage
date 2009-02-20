@@ -1,22 +1,12 @@
-sys-libs/ncurses
-sys-libs/ncurses
-0
-ftp://ftp.cs.helsinki.fi/pub/Software/Local/uEmacs-PK/em-4.0.18.tar.gz
-
-ftp://ftp.cs.helsinki.fi/pub/Software/Local/uEmacs-PK
-free-noncomm
-uEmacs/PK is an enhanced version of MicroEMACS
-amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-libs/ncurses
+DESCRIPTION=uEmacs/PK is an enhanced version of MicroEMACS
+EAPI=0
+HOMEPAGE=ftp://ftp.cs.helsinki.fi/pub/Software/Local/uEmacs-PK
+KEYWORDS=amd64 x86
+LICENSE=free-noncomm
+RDEPEND=sys-libs/ncurses
+SLOT=0
+SRC_URI=ftp://ftp.cs.helsinki.fi/pub/Software/Local/uEmacs-PK/em-4.0.18.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

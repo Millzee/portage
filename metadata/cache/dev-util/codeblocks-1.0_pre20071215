@@ -1,22 +1,13 @@
-=x11-libs/wxGTK-2.8* >=sys-devel/autoconf-2.5 >=sys-devel/automake-1.7 >=sys-devel/libtool-1.4 app-arch/zip =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-=x11-libs/wxGTK-2.8*
-0
-mirror://gentoo/codeblocks-1.0_pre20071215.tar.bz2
-
-http://www.codeblocks.org/
-GPL-2
-Code::Blocks - a free cross-platform C/C++ IDE
-~amd64 ~ppc ~x86 ~x86-fbsd
-toolchain-funcs wxwidgets portability multilib libtool autotools eutils
-contrib debug
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND==x11-libs/wxGTK-2.8* >=sys-devel/autoconf-2.5 >=sys-devel/automake-1.7 >=sys-devel/libtool-1.4 app-arch/zip =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Code::Blocks - a free cross-platform C/C++ IDE
+EAPI=0
+HOMEPAGE=http://www.codeblocks.org/
+IUSE=contrib debug
+KEYWORDS=~amd64 ~ppc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND==x11-libs/wxGTK-2.8*
+SLOT=0
+SRC_URI=mirror://gentoo/codeblocks-1.0_pre20071215.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

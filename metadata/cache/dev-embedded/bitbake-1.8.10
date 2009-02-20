@@ -1,22 +1,11 @@
-dev-lang/python dev-python/pysqlite
-dev-lang/python dev-python/pysqlite
-0
-mirror://berlios/bitbake/bitbake-1.8.10.tar.gz
-
-http://developer.berlios.de/projects/bitbake/
-GPL-2
-package management tool for OpenEmbedded
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-lang/python dev-python/pysqlite
+DESCRIPTION=package management tool for OpenEmbedded
+EAPI=0
+HOMEPAGE=http://developer.berlios.de/projects/bitbake/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/python dev-python/pysqlite
+SLOT=0
+SRC_URI=mirror://berlios/bitbake/bitbake-1.8.10.tar.gz
+_mtime_=1235082851

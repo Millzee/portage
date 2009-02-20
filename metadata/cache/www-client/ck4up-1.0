@@ -1,22 +1,10 @@
-
-dev-lang/ruby
-0
-http://jue.li/crux/ck4up/ck4up-1.0.tar.gz
-
-http://jue.li/crux/ck4up/
-GPL-2
-Check for Updates on HTTP pages
-~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Check for Updates on HTTP pages
+EAPI=0
+HOMEPAGE=http://jue.li/crux/ck4up/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/ruby
+SLOT=0
+SRC_URI=http://jue.li/crux/ck4up/ck4up-1.0.tar.gz
+_mtime_=1235082908

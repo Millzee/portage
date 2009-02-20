@@ -1,22 +1,13 @@
-virtual/libc >=sys-libs/ncurses-5.4 ssl? ( >=dev-libs/openssl-0.9.7d ) talkfilters? ( >=app-text/talkfilters-2.3.4 )
-virtual/libc >=sys-libs/ncurses-5.4 ssl? ( >=dev-libs/openssl-0.9.7d ) talkfilters? ( >=app-text/talkfilters-2.3.4 )
-0
-mirror://sourceforge/tmsnc/tmsnc-0.3.2.tar.gz
-
-http://tmsnc.sourceforge.net/
-IRPDL
-TMSNC is a textbased MSN client written in C.
-~amd64 ~hppa ~ppc ~x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-ssl talkfilters
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc >=sys-libs/ncurses-5.4 ssl? ( >=dev-libs/openssl-0.9.7d ) talkfilters? ( >=app-text/talkfilters-2.3.4 )
+DESCRIPTION=TMSNC is a textbased MSN client written in C.
+EAPI=0
+HOMEPAGE=http://tmsnc.sourceforge.net/
+IUSE=ssl talkfilters
+KEYWORDS=~amd64 ~hppa ~ppc ~x86 ~x86-fbsd
+LICENSE=IRPDL
+RDEPEND=virtual/libc >=sys-libs/ncurses-5.4 ssl? ( >=dev-libs/openssl-0.9.7d ) talkfilters? ( >=app-text/talkfilters-2.3.4 )
+SLOT=0
+SRC_URI=mirror://sourceforge/tmsnc/tmsnc-0.3.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

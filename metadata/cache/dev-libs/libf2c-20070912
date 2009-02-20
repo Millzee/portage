@@ -1,22 +1,12 @@
-virtual/libc app-arch/unzip
-virtual/libc
-0
-http://dev.gentoo.org/~dberkholz/distfiles/libf2c-20070912.zip mirror://gentoo/libf2c-20070912.zip
-
-ftp://ftp.netlib.org/f2c/index.html
-libf2c
-Library that converts FORTRAN to C source.
-alpha amd64 ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc app-arch/unzip
+DESCRIPTION=Library that converts FORTRAN to C source.
+EAPI=0
+HOMEPAGE=ftp://ftp.netlib.org/f2c/index.html
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=libf2c
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~dberkholz/distfiles/libf2c-20070912.zip mirror://gentoo/libf2c-20070912.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

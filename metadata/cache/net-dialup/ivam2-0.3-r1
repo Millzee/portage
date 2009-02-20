@@ -1,22 +1,12 @@
-dev-libs/liboop >=dev-libs/libdaemon-0.4 >=dev-lang/python-2.3 net-dialup/isdn4k-utils
-dev-libs/liboop >=dev-libs/libdaemon-0.4 >=dev-lang/python-2.3 net-dialup/isdn4k-utils media-sound/sox media-sound/vorbis-tools || ( net-mail/metamail dev-libs/openssl )
-0
-http://0pointer.de/lennart/projects/ivam2/ivam2-0.3.tar.gz
-
-http://0pointer.de/lennart/projects/ivam2/
-GPL-2
-Automatic phone answering machine software for ISDN
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=dev-libs/liboop >=dev-libs/libdaemon-0.4 >=dev-lang/python-2.3 net-dialup/isdn4k-utils
+DESCRIPTION=Automatic phone answering machine software for ISDN
+EAPI=0
+HOMEPAGE=http://0pointer.de/lennart/projects/ivam2/
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/liboop >=dev-libs/libdaemon-0.4 >=dev-lang/python-2.3 net-dialup/isdn4k-utils media-sound/sox media-sound/vorbis-tools || ( net-mail/metamail dev-libs/openssl )
+SLOT=0
+SRC_URI=http://0pointer.de/lennart/projects/ivam2/ivam2-0.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

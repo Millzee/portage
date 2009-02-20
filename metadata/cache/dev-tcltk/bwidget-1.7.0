@@ -1,22 +1,13 @@
-dev-lang/tk dev-lang/tcl
-dev-lang/tk dev-lang/tcl
-0
-mirror://sourceforge/tcllib/BWidget-1.7.0.tar.gz
-
-http://tcllib.sourceforge.net/
-BWidget
-high-level widget set for Tcl/Tk completely written in Tcl
-x86 ppc sparc alpha amd64
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-lang/tk dev-lang/tcl
+DESCRIPTION=high-level widget set for Tcl/Tk completely written in Tcl
+EAPI=0
+HOMEPAGE=http://tcllib.sourceforge.net/
+IUSE=doc
+KEYWORDS=x86 ppc sparc alpha amd64
+LICENSE=BWidget
+RDEPEND=dev-lang/tk dev-lang/tcl
+SLOT=0
+SRC_URI=mirror://sourceforge/tcllib/BWidget-1.7.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

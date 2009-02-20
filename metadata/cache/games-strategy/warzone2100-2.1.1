@@ -1,22 +1,13 @@
-dev-games/physfs dev-libs/popt media-libs/jpeg media-libs/libogg media-libs/libpng media-libs/libsdl[opengl] media-libs/libvorbis media-libs/openal media-libs/sdl-net media-libs/quesoglc virtual/glu virtual/opengl nls? ( virtual/libintl ) app-arch/zip dev-util/pkgconfig nls? ( sys-devel/gettext )
-dev-games/physfs dev-libs/popt media-libs/jpeg media-libs/libogg media-libs/libpng media-libs/libsdl[opengl] media-libs/libvorbis media-libs/openal media-libs/sdl-net media-libs/quesoglc virtual/glu virtual/opengl nls? ( virtual/libintl ) media-fonts/dejavu
-0
-http://download.gna.org/warzone/releases/2.1/warzone2100-2.1.1.tar.bz2
-
-http://wz2100.net/
-GPL-2 CCPL-Attribution-ShareAlike-3.0 public-domain
-3D real-time strategy game
-~amd64 ~ppc ~x86
-toolchain-funcs portability versionator multilib base games eutils
-debug nls
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=dev-games/physfs dev-libs/popt media-libs/jpeg media-libs/libogg media-libs/libpng media-libs/libsdl[opengl] media-libs/libvorbis media-libs/openal media-libs/sdl-net media-libs/quesoglc virtual/glu virtual/opengl nls? ( virtual/libintl ) app-arch/zip dev-util/pkgconfig nls? ( sys-devel/gettext )
+DESCRIPTION=3D real-time strategy game
+EAPI=2
+HOMEPAGE=http://wz2100.net/
+IUSE=debug nls
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2 CCPL-Attribution-ShareAlike-3.0 public-domain
+RDEPEND=dev-games/physfs dev-libs/popt media-libs/jpeg media-libs/libogg media-libs/libpng media-libs/libsdl[opengl] media-libs/libvorbis media-libs/openal media-libs/sdl-net media-libs/quesoglc virtual/glu virtual/opengl nls? ( virtual/libintl ) media-fonts/dejavu
+SLOT=0
+SRC_URI=http://download.gna.org/warzone/releases/2.1/warzone2100-2.1.1.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

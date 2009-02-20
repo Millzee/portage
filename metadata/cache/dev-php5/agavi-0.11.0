@@ -1,22 +1,13 @@
->=dev-php/PEAR-PEAR-1.6.2-r1 >=dev-php5/phing-2.2.0 dev-php/PEAR-PhpDocumentor =dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
->=dev-php5/phing-2.2.0 !minimal? ( dev-php5/creole dev-php5/propel ) =dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
-0
-http://agavi.org/downloads/releases/0.11.0.tgz
-
-http://www.agavi.org/
-LGPL-2.1 as-is public-domain CCPL-Attribution-ShareAlike-2.5
-PHP5 MVC Application Framework.
-~amd64 ~x86
-toolchain-funcs portability depend.php multilib phpconfutils php-pear-lib-r1 eutils
-minimal
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=>=dev-php/PEAR-PEAR-1.6.2-r1 >=dev-php5/phing-2.2.0 dev-php/PEAR-PhpDocumentor =dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
+DESCRIPTION=PHP5 MVC Application Framework.
+EAPI=0
+HOMEPAGE=http://www.agavi.org/
+IUSE=minimal
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1 as-is public-domain CCPL-Attribution-ShareAlike-2.5
+RDEPEND=>=dev-php5/phing-2.2.0 !minimal? ( dev-php5/creole dev-php5/propel ) =dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
+SLOT=0
+SRC_URI=http://agavi.org/downloads/releases/0.11.0.tgz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	php-pear-lib-r1	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

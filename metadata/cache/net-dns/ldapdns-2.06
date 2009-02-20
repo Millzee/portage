@@ -1,22 +1,12 @@
-virtual/libc >=net-nds/openldap-2
-virtual/libc >=net-nds/openldap-2 >=sys-process/daemontools-0.70 sys-apps/ucspi-tcp
-0
-http://www.nimh.org/dl/ldapdns-2.06.tar.gz
-
-http://www.nimh.org/code/ldapdns/
-GPL-2
-A tiny, fast authoritative nameserver that queries LDAP and can be updated instantly
-~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=virtual/libc >=net-nds/openldap-2
+DESCRIPTION=A tiny, fast authoritative nameserver that queries LDAP and can be updated instantly
+EAPI=0
+HOMEPAGE=http://www.nimh.org/code/ldapdns/
+KEYWORDS=~ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc >=net-nds/openldap-2 >=sys-process/daemontools-0.70 sys-apps/ucspi-tcp
+SLOT=0
+SRC_URI=http://www.nimh.org/dl/ldapdns-2.06.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

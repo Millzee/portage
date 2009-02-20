@@ -1,22 +1,13 @@
-media-libs/libsdl media-libs/sdl-mixer media-sound/timidity++ media-sound/timidity-eawpatches perl? ( dev-lang/perl[-ithreads] ) opengl? ( virtual/opengl ) demo? ( app-arch/unzip ) !pic? ( x86? ( dev-lang/nasm ) )
-media-libs/libsdl media-libs/sdl-mixer media-sound/timidity++ media-sound/timidity-eawpatches perl? ( dev-lang/perl[-ithreads] ) opengl? ( virtual/opengl )
-0
-mirror://gentoo/duke3d-20040817.tar.bz2 demo? ( ftp://ftp.3drealms.com/share/3dduke13.zip ftp://ftp.planetmirror.com/pub/gameworld/downloads/3dduke13.zip )
-
-http://icculus.org/projects/duke3d/
-GPL-2
-Port of the original Duke Nukem 3D
-~hppa ~ppc ~x86
-toolchain-funcs portability flag-o-matic multilib base games eutils
-demo pic perl opengl
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-mixer media-sound/timidity++ media-sound/timidity-eawpatches perl? ( dev-lang/perl[-ithreads] ) opengl? ( virtual/opengl ) demo? ( app-arch/unzip ) !pic? ( x86? ( dev-lang/nasm ) )
+DESCRIPTION=Port of the original Duke Nukem 3D
+EAPI=2
+HOMEPAGE=http://icculus.org/projects/duke3d/
+IUSE=demo pic perl opengl
+KEYWORDS=~hppa ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-mixer media-sound/timidity++ media-sound/timidity-eawpatches perl? ( dev-lang/perl[-ithreads] ) opengl? ( virtual/opengl )
+SLOT=0
+SRC_URI=mirror://gentoo/duke3d-20040817.tar.bz2 demo? ( ftp://ftp.3drealms.com/share/3dduke13.zip ftp://ftp.planetmirror.com/pub/gameworld/downloads/3dduke13.zip )
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

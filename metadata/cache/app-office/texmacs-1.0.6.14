@@ -1,22 +1,13 @@
-virtual/latex-base virtual/ghostscript >=dev-scheme/guile-1.4 media-libs/freetype x11-libs/libXext imlib? ( media-libs/imlib2 ) jpeg? ( || ( media-gfx/imagemagick media-gfx/jpeg2ps ) ) svg? ( || ( media-gfx/inkscape gnome-base/librsvg ) ) netpbm? ( media-libs/netpbm ) spell? ( || ( >=app-text/ispell-3.2 >=app-text/aspell-0.5 ) ) x11-proto/xproto
-virtual/latex-base virtual/ghostscript >=dev-scheme/guile-1.4 media-libs/freetype x11-libs/libXext imlib? ( media-libs/imlib2 ) jpeg? ( || ( media-gfx/imagemagick media-gfx/jpeg2ps ) ) svg? ( || ( media-gfx/inkscape gnome-base/librsvg ) ) netpbm? ( media-libs/netpbm ) spell? ( || ( >=app-text/ispell-3.2 >=app-text/aspell-0.5 ) )
-0
-ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-1.0.6.14-src.tar.gz ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-600dpi-fonts.tar.gz
-
-http://www.texmacs.org/
-GPL-2
-Wysiwyg text processor with high-quality maths
-alpha amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-imlib jpeg svg netpbm spell
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=virtual/latex-base virtual/ghostscript >=dev-scheme/guile-1.4 media-libs/freetype x11-libs/libXext imlib? ( media-libs/imlib2 ) jpeg? ( || ( media-gfx/imagemagick media-gfx/jpeg2ps ) ) svg? ( || ( media-gfx/inkscape gnome-base/librsvg ) ) netpbm? ( media-libs/netpbm ) spell? ( || ( >=app-text/ispell-3.2 >=app-text/aspell-0.5 ) ) x11-proto/xproto
+DESCRIPTION=Wysiwyg text processor with high-quality maths
+EAPI=0
+HOMEPAGE=http://www.texmacs.org/
+IUSE=imlib jpeg svg netpbm spell
+KEYWORDS=alpha amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/latex-base virtual/ghostscript >=dev-scheme/guile-1.4 media-libs/freetype x11-libs/libXext imlib? ( media-libs/imlib2 ) jpeg? ( || ( media-gfx/imagemagick media-gfx/jpeg2ps ) ) svg? ( || ( media-gfx/inkscape gnome-base/librsvg ) ) netpbm? ( media-libs/netpbm ) spell? ( || ( >=app-text/ispell-3.2 >=app-text/aspell-0.5 ) )
+SLOT=0
+SRC_URI=ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-1.0.6.14-src.tar.gz ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-600dpi-fonts.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

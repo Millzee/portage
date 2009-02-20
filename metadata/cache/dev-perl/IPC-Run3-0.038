@@ -1,22 +1,12 @@
->=dev-perl/Test-Pod-1.00 >=dev-perl/Test-Pod-Coverage-1.04 dev-lang/perl
->=dev-perl/Test-Pod-1.00 >=dev-perl/Test-Pod-Coverage-1.04 dev-lang/perl
-0
-mirror://cpan/authors/id/R/RJ/RJBS/IPC-Run3-0.038.tar.gz
-
-http://search.cpan.org/search?module=IPC-Run3
-as-is
-Run a subprocess in batch mode (a la system)
-alpha amd64 ~hppa ia64 ~ppc sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/Test-Pod-1.00 >=dev-perl/Test-Pod-Coverage-1.04 dev-lang/perl
+DESCRIPTION=Run a subprocess in batch mode (a la system)
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?module=IPC-Run3
+KEYWORDS=alpha amd64 ~hppa ia64 ~ppc sparc x86
+LICENSE=as-is
+RDEPEND=>=dev-perl/Test-Pod-1.00 >=dev-perl/Test-Pod-Coverage-1.04 dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/IPC-Run3-0.038.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

@@ -1,22 +1,11 @@
->=media-sound/gmpc-0.17.0 dev-libs/libxml2 dev-util/pkgconfig
->=media-sound/gmpc-0.17.0 dev-libs/libxml2
-0
-mirror://sourceforge/musicpd/gmpc-playlistsort-0.17.0.tar.gz
-
-http://gmpcwiki.sarine.nl/
-GPL-2
-This plugin adds a dialog to sort the current playlist
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=media-sound/gmpc-0.17.0 dev-libs/libxml2 dev-util/pkgconfig
+DESCRIPTION=This plugin adds a dialog to sort the current playlist
+EAPI=0
+HOMEPAGE=http://gmpcwiki.sarine.nl/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-sound/gmpc-0.17.0 dev-libs/libxml2
+SLOT=0
+SRC_URI=mirror://sourceforge/musicpd/gmpc-playlistsort-0.17.0.tar.gz
+_mtime_=1235082868

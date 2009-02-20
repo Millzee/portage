@@ -1,22 +1,14 @@
->=sys-apps/findutils-4.2.26
->=app-emulation/emul-linux-x86-baselibs-20071114 >=app-emulation/emul-linux-x86-xlibs-20071114
-0
-mirror://gentoo/emul-linux-x86-gtklibs-20071118.tar.bz2
-strip
-http://amd64.gentoo.org/emul/content.xml
-GPL-2 LGPL-2 LGPL-2.1 FTL || ( LGPL-2.1 MPL-1.1 )
-Provides precompiled 32bit libraries
--* ~amd64
-emul-linux-x86
-qt3
-
-
-
-0
-
-install postinst preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst preinst unpack
+DEPEND=>=sys-apps/findutils-4.2.26
+DESCRIPTION=Provides precompiled 32bit libraries
+EAPI=0
+HOMEPAGE=http://amd64.gentoo.org/emul/content.xml
+IUSE=qt3
+KEYWORDS=-* ~amd64
+LICENSE=GPL-2 LGPL-2 LGPL-2.1 FTL || ( LGPL-2.1 MPL-1.1 )
+RDEPEND=>=app-emulation/emul-linux-x86-baselibs-20071114 >=app-emulation/emul-linux-x86-xlibs-20071114
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://gentoo/emul-linux-x86-gtklibs-20071118.tar.bz2
+_eclasses_=emul-linux-x86	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

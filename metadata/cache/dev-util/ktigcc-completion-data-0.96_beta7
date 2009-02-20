@@ -1,22 +1,11 @@
-
-~dev-embedded/tigcc-0.96_beta7
-0
-mirror://sourceforge/tigcc-linux/ktigcc-completion-data-0.96b07r1-1.tar.bz2
-
-http://tigcc.ticalc.org/
-GPL-2
-completion data for ktigcc
-~amd64 ~x86
-versionator
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=completion data for ktigcc
+EAPI=0
+HOMEPAGE=http://tigcc.ticalc.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=~dev-embedded/tigcc-0.96_beta7
+SLOT=0
+SRC_URI=mirror://sourceforge/tigcc-linux/ktigcc-completion-data-0.96b07r1-1.tar.bz2
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

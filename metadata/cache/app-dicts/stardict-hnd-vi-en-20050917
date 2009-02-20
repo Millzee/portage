@@ -1,22 +1,13 @@
-app-arch/unzip >=app-dicts/stardict-2.4.2 gzip? ( app-arch/gzip app-text/dictd )
-
-0
-http://james.dyndns.ws/pub/Dictionary/StarDict-James/VietAnh23K.zip
-strip
-http://forum.vnoss.org/viewtopic.php?id=1818
-GPL-2
-Stardict Dictionary Vietnamese to English
-~amd64 ~x86
-stardict
-gzip
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=app-arch/unzip >=app-dicts/stardict-2.4.2 gzip? ( app-arch/gzip app-text/dictd )
+DESCRIPTION=Stardict Dictionary Vietnamese to English
+EAPI=0
+HOMEPAGE=http://forum.vnoss.org/viewtopic.php?id=1818
+IUSE=gzip
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://james.dyndns.ws/pub/Dictionary/StarDict-James/VietAnh23K.zip
+_eclasses_=stardict	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

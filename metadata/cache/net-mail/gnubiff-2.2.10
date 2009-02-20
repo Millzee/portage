@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.4 >=gnome-base/libglade-2.3 dev-libs/popt gnome? ( >=gnome-base/libgnome-2.2 >=gnome-base/libgnomeui-2.2 ) password? ( dev-libs/openssl ) fam? ( virtual/fam ) x11-proto/xproto dev-util/pkgconfig
->=x11-libs/gtk+-2.4 >=gnome-base/libglade-2.3 dev-libs/popt gnome? ( >=gnome-base/libgnome-2.2 >=gnome-base/libgnomeui-2.2 ) password? ( dev-libs/openssl ) fam? ( virtual/fam ) x11-proto/xproto
-0
-mirror://sourceforge/gnubiff/gnubiff-2.2.10.tar.gz
-
-http://gnubiff.sourceforge.net/
-GPL-2
-A mail notification program
-alpha amd64 ~ia64 x86
-toolchain-funcs base multilib portability eutils
-debug fam gnome nls password
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2.4 >=gnome-base/libglade-2.3 dev-libs/popt gnome? ( >=gnome-base/libgnome-2.2 >=gnome-base/libgnomeui-2.2 ) password? ( dev-libs/openssl ) fam? ( virtual/fam ) x11-proto/xproto dev-util/pkgconfig
+DESCRIPTION=A mail notification program
+EAPI=0
+HOMEPAGE=http://gnubiff.sourceforge.net/
+IUSE=debug fam gnome nls password
+KEYWORDS=alpha amd64 ~ia64 x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.4 >=gnome-base/libglade-2.3 dev-libs/popt gnome? ( >=gnome-base/libgnome-2.2 >=gnome-base/libgnomeui-2.2 ) password? ( dev-libs/openssl ) fam? ( virtual/fam ) x11-proto/xproto
+SLOT=0
+SRC_URI=mirror://sourceforge/gnubiff/gnubiff-2.2.10.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

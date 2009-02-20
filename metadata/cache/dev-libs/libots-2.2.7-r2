@@ -1,22 +1,12 @@
-app-arch/rpm2targz >=app-arch/rpm2targz-9.0-r1
-
-0
-ftp://ftp.compaq.com/pub/products/C-CXX/linux/libots-2.2.7-2.alpha.rpm
-strip
-ftp://ftp.compaq.com/pub/products/C-CXX/linux/
-compaq-sdla
-Compaq's Optimized Runtime Library for the Alpha Platform
--* alpha
-rpm toolchain-funcs multilib
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=app-arch/rpm2targz >=app-arch/rpm2targz-9.0-r1
+DESCRIPTION=Compaq's Optimized Runtime Library for the Alpha Platform
+EAPI=0
+HOMEPAGE=ftp://ftp.compaq.com/pub/products/C-CXX/linux/
+KEYWORDS=-* alpha
+LICENSE=compaq-sdla
+RESTRICT=strip
+SLOT=0
+SRC_URI=ftp://ftp.compaq.com/pub/products/C-CXX/linux/libots-2.2.7-2.alpha.rpm
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	rpm	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

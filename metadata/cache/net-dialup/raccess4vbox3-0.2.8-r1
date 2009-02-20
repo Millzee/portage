@@ -1,22 +1,12 @@
-|| ( net-mail/qprint net-mail/metamail app-text/recode app-emacs/vm ) net-dialup/vbox3
-|| ( net-mail/qprint net-mail/metamail app-text/recode app-emacs/vm ) net-dialup/vbox3
-0
-http://smarden.org/pape/vbox3/raccess4vbox3/raccess4vbox3_0.2.8.tar.gz
-
-http://smarden.org/pape/vbox3/raccess4vbox3/
-GPL-2
-DTMF support and utilities for net-dialup/vbox3
-~amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=|| ( net-mail/qprint net-mail/metamail app-text/recode app-emacs/vm ) net-dialup/vbox3
+DESCRIPTION=DTMF support and utilities for net-dialup/vbox3
+EAPI=0
+HOMEPAGE=http://smarden.org/pape/vbox3/raccess4vbox3/
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2
+RDEPEND=|| ( net-mail/qprint net-mail/metamail app-text/recode app-emacs/vm ) net-dialup/vbox3
+SLOT=0
+SRC_URI=http://smarden.org/pape/vbox3/raccess4vbox3/raccess4vbox3_0.2.8.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

@@ -1,22 +1,12 @@
-
-x11-libs/libXext
-0
-http://fms.komkon.org/VGBA/VGBA30-Linux-80x86-bin.tar.Z
-strip
-http://www.komkon.org/fms/VGBA/
-VGBA
-Gameboy Advance (GBA) emulator for Linux
--* ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Gameboy Advance (GBA) emulator for Linux
+EAPI=0
+HOMEPAGE=http://www.komkon.org/fms/VGBA/
+KEYWORDS=-* ~x86
+LICENSE=VGBA
+RDEPEND=x11-libs/libXext
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://fms.komkon.org/VGBA/VGBA30-Linux-80x86-bin.tar.Z
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

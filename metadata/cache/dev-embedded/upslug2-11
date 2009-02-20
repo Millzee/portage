@@ -1,22 +1,10 @@
-
-
-0
-mirror://sourceforge/nslu/upslug2-11.tar.gz
-
-http://www.nslu2-linux.org/wiki/Main/UpSlug2
-as-is
-util for flashing NSLU2 machines remotely
-~amd64 ~arm x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=util for flashing NSLU2 machines remotely
+EAPI=0
+HOMEPAGE=http://www.nslu2-linux.org/wiki/Main/UpSlug2
+KEYWORDS=~amd64 ~arm x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=mirror://sourceforge/nslu/upslug2-11.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

@@ -1,22 +1,11 @@
-
-dev-lang/perl sys-apps/coreutils
-0
-mirror://gentoo/tenshi-0.9.1.tar.gz http://dev.inversepath.com/tenshi/tenshi-0.9.1.tar.gz
-
-http://dev.inversepath.com/trac/tenshi
-ISC
-Log parsing and notification program
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install setup unpack
-
-
-
-
-
+DEFINED_PHASES=install setup unpack
+DESCRIPTION=Log parsing and notification program
+EAPI=0
+HOMEPAGE=http://dev.inversepath.com/trac/tenshi
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=ISC
+RDEPEND=dev-lang/perl sys-apps/coreutils
+SLOT=0
+SRC_URI=mirror://gentoo/tenshi-0.9.1.tar.gz http://dev.inversepath.com/tenshi/tenshi-0.9.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

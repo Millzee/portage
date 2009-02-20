@@ -1,22 +1,13 @@
-berkdb? ( >=sys-libs/db-3.2 )
-berkdb? ( >=sys-libs/db-3.2 )
-0
-mirror://sourceforge/spamprobe/spamprobe-1.4b.tar.gz
-
-http://spamprobe.sourceforge.net/
-QPL
-Fast, intelligent, automatic spam detector using Bayesian analysis.
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-berkdb
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=berkdb? ( >=sys-libs/db-3.2 )
+DESCRIPTION=Fast, intelligent, automatic spam detector using Bayesian analysis.
+EAPI=0
+HOMEPAGE=http://spamprobe.sourceforge.net/
+IUSE=berkdb
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=QPL
+RDEPEND=berkdb? ( >=sys-libs/db-3.2 )
+SLOT=0
+SRC_URI=mirror://sourceforge/spamprobe/spamprobe-1.4b.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

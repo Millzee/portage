@@ -1,22 +1,13 @@
-!games-board/scid dev-lang/tk tb4? ( app-arch/unzip )
-!games-board/scid dev-lang/tk
-0
-mirror://sourceforge/chessdb/ChessDB-3.6.18.tar.gz tb4? ( mirror://sourceforge/chessdb/4-piece-tablebases.zip )
-
-http://chessdb.sourceforge.net/
-GPL-2
-A free Chess Database
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-tb4
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=!games-board/scid dev-lang/tk tb4? ( app-arch/unzip )
+DESCRIPTION=A free Chess Database
+EAPI=0
+HOMEPAGE=http://chessdb.sourceforge.net/
+IUSE=tb4
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=!games-board/scid dev-lang/tk
+SLOT=0
+SRC_URI=mirror://sourceforge/chessdb/ChessDB-3.6.18.tar.gz tb4? ( mirror://sourceforge/chessdb/4-piece-tablebases.zip )
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

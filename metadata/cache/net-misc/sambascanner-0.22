@@ -1,22 +1,13 @@
->=net-fs/samba-3 sys-devel/gettext =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=net-fs/samba-3
-0
-http://www.johannes-bauer.com/sambascanner/SambaScanner-0.22.tar.bz2
-
-http://www.johannes-bauer.com/sambascanner/
-GPL-2
-a tool to search a whole samba network for files
-~amd64 ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-debug linguas_de
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=net-fs/samba-3 sys-devel/gettext =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=a tool to search a whole samba network for files
+EAPI=0
+HOMEPAGE=http://www.johannes-bauer.com/sambascanner/
+IUSE=debug linguas_de
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=net-fs/samba-3
+SLOT=0
+SRC_URI=http://www.johannes-bauer.com/sambascanner/SambaScanner-0.22.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

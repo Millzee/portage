@@ -1,22 +1,13 @@
-tk? ( dev-lang/tk ) sys-devel/autoconf =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-tk? ( dev-lang/tk )
-0
-http://www.fpx.de/fp/Software/UUDeview/download/uudeview-0.5.20.tar.gz
-
-http://www.fpx.de/fp/Software/UUDeview/
-GPL-2
-uu, xx, base64, binhex decoder
-amd64 ppc sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-tk
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=tk? ( dev-lang/tk ) sys-devel/autoconf =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=uu, xx, base64, binhex decoder
+EAPI=0
+HOMEPAGE=http://www.fpx.de/fp/Software/UUDeview/
+IUSE=tk
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=tk? ( dev-lang/tk )
+SLOT=0
+SRC_URI=http://www.fpx.de/fp/Software/UUDeview/download/uudeview-0.5.20.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

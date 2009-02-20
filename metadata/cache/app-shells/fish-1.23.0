@@ -1,22 +1,13 @@
-sys-libs/ncurses sys-devel/bc www-client/htmlview X? ( x11-misc/xsel ) app-doc/doxygen
-sys-libs/ncurses sys-devel/bc www-client/htmlview X? ( x11-misc/xsel )
-0
-http://fishshell.org/files/1.23.0/fish-1.23.0.tar.bz2
-
-http://fishshell.org/
-GPL-2
-fish is the Friendly Interactive SHell
-amd64 ~ppc x86
-toolchain-funcs base multilib portability eutils
-X
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=sys-libs/ncurses sys-devel/bc www-client/htmlview X? ( x11-misc/xsel ) app-doc/doxygen
+DESCRIPTION=fish is the Friendly Interactive SHell
+EAPI=0
+HOMEPAGE=http://fishshell.org/
+IUSE=X
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses sys-devel/bc www-client/htmlview X? ( x11-misc/xsel )
+SLOT=0
+SRC_URI=http://fishshell.org/files/1.23.0/fish-1.23.0.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

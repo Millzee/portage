@@ -1,22 +1,14 @@
->=app-arch/rpm2targz-9.0-r1
-win32codecs? ( >=media-libs/win32codecs-20071007-r4[real] ) x86? ( =virtual/libstdc++-3.3* ) amd64? ( app-emulation/emul-linux-x86-compat ) !<media-video/realplayer-11.0.1.1056-r2
-0
-http://forms.real.com/real/player/download.html?f=unix/RealPlayer11GOLD.rpm
-mirror strip test binchecks
-http://www.real.com/ http://player.helixcommunity.org/
-HBRL
-Real Player audio and video binary codecs
--* ~amd64 ~x86
-rpm toolchain-funcs multilib portability eutils
-win32codecs
-
-
-
-2
-
-install setup unpack
-
-
-
-
-
+DEFINED_PHASES=install setup unpack
+DEPEND=>=app-arch/rpm2targz-9.0-r1
+DESCRIPTION=Real Player audio and video binary codecs
+EAPI=2
+HOMEPAGE=http://www.real.com/ http://player.helixcommunity.org/
+IUSE=win32codecs
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=HBRL
+RDEPEND=win32codecs? ( >=media-libs/win32codecs-20071007-r4[real] ) x86? ( =virtual/libstdc++-3.3* ) amd64? ( app-emulation/emul-linux-x86-compat ) !<media-video/realplayer-11.0.1.1056-r2
+RESTRICT=mirror strip test binchecks
+SLOT=0
+SRC_URI=http://forms.real.com/real/player/download.html?f=unix/RealPlayer11GOLD.rpm
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	rpm	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

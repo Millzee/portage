@@ -1,22 +1,12 @@
->=app-i18n/canna-3.6_p4
->=app-i18n/canna-3.6_p4
-0
-http://dev.gentoo.org/~usata/distfiles/canna-canada-med-20030309.tar.gz
-
-http://spica.onh.go.jp/med_dic/
-canada-med
-Set of medical dictionaries for Canna
-x86 alpha ppc ppc64
-cannadic
-
-
-
-
-0
-
-install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm setup
+DEPEND=>=app-i18n/canna-3.6_p4
+DESCRIPTION=Set of medical dictionaries for Canna
+EAPI=0
+HOMEPAGE=http://spica.onh.go.jp/med_dic/
+KEYWORDS=x86 alpha ppc ppc64
+LICENSE=canada-med
+RDEPEND=>=app-i18n/canna-3.6_p4
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~usata/distfiles/canna-canada-med-20030309.tar.gz
+_eclasses_=cannadic	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

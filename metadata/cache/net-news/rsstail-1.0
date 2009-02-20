@@ -1,22 +1,12 @@
->=net-libs/libmrss-0.17.1
->=net-libs/libmrss-0.17.1
-0
-http://www.vanheusden.com/rsstail/rsstail-1.0.tgz
-
-http://www.vanheusden.com/rsstail/
-GPL-2
-A tail-like RSS-reader
-amd64 x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=net-libs/libmrss-0.17.1
+DESCRIPTION=A tail-like RSS-reader
+EAPI=0
+HOMEPAGE=http://www.vanheusden.com/rsstail/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=net-libs/libmrss-0.17.1
+SLOT=0
+SRC_URI=http://www.vanheusden.com/rsstail/rsstail-1.0.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

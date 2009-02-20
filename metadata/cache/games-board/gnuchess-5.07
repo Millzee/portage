@@ -1,22 +1,13 @@
-readline? ( sys-libs/readline )
-readline? ( sys-libs/readline )
-0
-mirror://gnu/chess/gnuchess-5.07.tar.gz
-
-http://www.gnu.org/software/chess/chess.html
-GPL-2
-Console based chess interface
-alpha amd64 ppc ppc64 sparc x86
-toolchain-funcs portability multilib base games eutils
-readline
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=readline? ( sys-libs/readline )
+DESCRIPTION=Console based chess interface
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/chess/chess.html
+IUSE=readline
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=readline? ( sys-libs/readline )
+SLOT=0
+SRC_URI=mirror://gnu/chess/gnuchess-5.07.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

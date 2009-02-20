@@ -1,22 +1,10 @@
-
-
-0
-http://sw-tools.pdb.org/apps/CIFPARSE-OBJ/source/cifparse-obj-v7.025-prod-src.tar.gz
-
-http://sw-tools.pdb.org/apps/CIFPARSE-OBJ/index.html
-PDB
-Provides an object-oriented application interface to information in mmCIF format
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Provides an object-oriented application interface to information in mmCIF format
+EAPI=0
+HOMEPAGE=http://sw-tools.pdb.org/apps/CIFPARSE-OBJ/index.html
+KEYWORDS=amd64 ppc x86
+LICENSE=PDB
+SLOT=0
+SRC_URI=http://sw-tools.pdb.org/apps/CIFPARSE-OBJ/source/cifparse-obj-v7.025-prod-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2 >=net-libs/loudmouth-0.16 >=gnome-base/libglade-2 spell? ( >=app-text/gtkspell-2.0.4 )
->=x11-libs/gtk+-2 >=net-libs/loudmouth-0.16 >=gnome-base/libglade-2 spell? ( >=app-text/gtkspell-2.0.4 )
-0
-http://files.jabberstudio.org/kf/kf-0.5.4.1.tar.gz
-
-http://kf.jabberstudio.org/
-GPL-2
-kf is a simple Jabber messenger.
-~x86 ~ppc ~sparc
-toolchain-funcs multilib portability eutils
-spell debug
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2 >=net-libs/loudmouth-0.16 >=gnome-base/libglade-2 spell? ( >=app-text/gtkspell-2.0.4 )
+DESCRIPTION=kf is a simple Jabber messenger.
+EAPI=0
+HOMEPAGE=http://kf.jabberstudio.org/
+IUSE=spell debug
+KEYWORDS=~x86 ~ppc ~sparc
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2 >=net-libs/loudmouth-0.16 >=gnome-base/libglade-2 spell? ( >=app-text/gtkspell-2.0.4 )
+SLOT=0
+SRC_URI=http://files.jabberstudio.org/kf/kf-0.5.4.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

@@ -1,22 +1,12 @@
->=app-shells/bash-2.05
->=app-shells/bash-2.05
-0
-mirror://berlios/bashcomp-config/bashcomp-config-0.8.tar.bz2
-
-http://developer.berlios.de/projects/bashcomp-config/
-GPL-2
-Utility to easily add/remove bash-completions to your environment
-alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sh sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install postinst preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst preinst unpack
+DEPEND=>=app-shells/bash-2.05
+DESCRIPTION=Utility to easily add/remove bash-completions to your environment
+EAPI=0
+HOMEPAGE=http://developer.berlios.de/projects/bashcomp-config/
+KEYWORDS=alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sh sparc x86
+LICENSE=GPL-2
+RDEPEND=>=app-shells/bash-2.05
+SLOT=0
+SRC_URI=mirror://berlios/bashcomp-config/bashcomp-config-0.8.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

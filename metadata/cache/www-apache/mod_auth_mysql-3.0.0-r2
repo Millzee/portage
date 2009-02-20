@@ -1,22 +1,12 @@
-virtual/mysql sys-libs/zlib =www-servers/apache-2.2*
-virtual/mysql sys-libs/zlib =www-servers/apache-2.2*
-0
-mirror://sourceforge/modauthmysql/mod_auth_mysql-3.0.0.tar.gz
-
-http://modauthmysql.sourceforge.net/
-Apache-1.1
-Basic authentication for Apache using a MySQL database.
-amd64 x86
-apache-module toolchain-funcs portability multilib depend.apache eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/mysql sys-libs/zlib =www-servers/apache-2.2*
+DESCRIPTION=Basic authentication for Apache using a MySQL database.
+EAPI=0
+HOMEPAGE=http://modauthmysql.sourceforge.net/
+KEYWORDS=amd64 x86
+LICENSE=Apache-1.1
+RDEPEND=virtual/mysql sys-libs/zlib =www-servers/apache-2.2*
+SLOT=0
+SRC_URI=mirror://sourceforge/modauthmysql/mod_auth_mysql-3.0.0.tar.gz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

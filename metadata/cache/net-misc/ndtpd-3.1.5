@@ -1,22 +1,12 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=dev-libs/eb-3
-0
-ftp://ftp.sra.co.jp/pub/net/ndtp/ndtpd/ndtpd-3.1.5.tar.gz
-
-http://www.sra.co.jp/people/m-kasahr/ndtpd/
-GPL-2
-A server for accessing CD-ROM books with NDTP(Network Directory Transfer Protocol)
-x86 ~amd64
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A server for accessing CD-ROM books with NDTP(Network Directory Transfer Protocol)
+EAPI=0
+HOMEPAGE=http://www.sra.co.jp/people/m-kasahr/ndtpd/
+KEYWORDS=x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/eb-3
+SLOT=0
+SRC_URI=ftp://ftp.sra.co.jp/pub/net/ndtp/ndtpd/ndtpd-3.1.5.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

@@ -1,22 +1,12 @@
-=www-servers/apache-2*
-=www-servers/apache-2*
-0
-mirror://gentoo/mod_loadavg-0.0.1.c
-
-http://defunced.de/
-Apache-1.1
-Apache module executing CGI-Requests depending on the load of the server
-~amd64 ~x86
-apache-module toolchain-funcs portability multilib depend.apache eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND==www-servers/apache-2*
+DESCRIPTION=Apache module executing CGI-Requests depending on the load of the server
+EAPI=0
+HOMEPAGE=http://defunced.de/
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-1.1
+RDEPEND==www-servers/apache-2*
+SLOT=0
+SRC_URI=mirror://gentoo/mod_loadavg-0.0.1.c
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

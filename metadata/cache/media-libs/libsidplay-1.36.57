@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-1
-http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/packages/libsidplay-1.36.57.tgz
-
-http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/linux.html
-GPL-2
-C64 SID player library
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=virtual/libc
+DESCRIPTION=C64 SID player library
+EAPI=0
+HOMEPAGE=http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/linux.html
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=1
+SRC_URI=http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/packages/libsidplay-1.36.57.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

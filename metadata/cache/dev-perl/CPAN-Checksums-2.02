@@ -1,22 +1,13 @@
-virtual/perl-Compress-Zlib dev-perl/Compress-Bzip2 dev-perl/Data-Compare virtual/perl-Digest-SHA virtual/perl-Digest-MD5 virtual/perl-File-Temp virtual/perl-IO dev-lang/perl test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage )
-virtual/perl-Compress-Zlib dev-perl/Compress-Bzip2 dev-perl/Data-Compare virtual/perl-Digest-SHA virtual/perl-Digest-MD5 virtual/perl-File-Temp virtual/perl-IO dev-lang/perl
-0
-mirror://cpan/authors/id/A/AN/ANDK//CPAN-Checksums-2.02.tar.gz
-
-http://search.cpan.org/search?query=CPAN-Checksums&mode=dist
-|| ( Artistic GPL-2 )
-Write a CHECKSUMS file for a directory as on CPAN
-~amd64 ~ia64 ~sparc ~x86
-toolchain-funcs portability multilib base eutils perl-module
-test
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-Compress-Zlib dev-perl/Compress-Bzip2 dev-perl/Data-Compare virtual/perl-Digest-SHA virtual/perl-Digest-MD5 virtual/perl-File-Temp virtual/perl-IO dev-lang/perl test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage )
+DESCRIPTION=Write a CHECKSUMS file for a directory as on CPAN
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=CPAN-Checksums&mode=dist
+IUSE=test
+KEYWORDS=~amd64 ~ia64 ~sparc ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-Compress-Zlib dev-perl/Compress-Bzip2 dev-perl/Data-Compare virtual/perl-Digest-SHA virtual/perl-Digest-MD5 virtual/perl-File-Temp virtual/perl-IO dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AN/ANDK//CPAN-Checksums-2.02.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

@@ -1,22 +1,10 @@
-
-dev-lang/perl dev-perl/Net-Netmask dev-perl/TimeDate
-0
-mirror://sourceforge/popbsmtp/pop-before-smtp-1.42.tar.gz
-
-http://popbsmtp.sourceforge.net
-|| ( GPL-2 BSD Artistic )
-a simple daemon to allow email relay control based on successful POP or IMAP logins
-~amd64 ~x86
-
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=a simple daemon to allow email relay control based on successful POP or IMAP logins
+EAPI=0
+HOMEPAGE=http://popbsmtp.sourceforge.net
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 BSD Artistic )
+RDEPEND=dev-lang/perl dev-perl/Net-Netmask dev-perl/TimeDate
+SLOT=0
+SRC_URI=mirror://sourceforge/popbsmtp/pop-before-smtp-1.42.tar.gz
+_mtime_=1235082894

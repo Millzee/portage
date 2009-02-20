@@ -1,22 +1,12 @@
-virtual/python app-crypt/gnupg
-virtual/python app-crypt/gnupg
-0
-http://download.gna.org/geekcredit/gc-0.019.tgz
-
-http://home.gna.org/geekcredit/
-GPL-2
-Digital complementary currency for internet.
-x86 ~ppc
-python multilib toolchain-funcs alternatives
-
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=virtual/python app-crypt/gnupg
+DESCRIPTION=Digital complementary currency for internet.
+EAPI=0
+HOMEPAGE=http://home.gna.org/geekcredit/
+KEYWORDS=x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=virtual/python app-crypt/gnupg
+SLOT=0
+SRC_URI=http://download.gna.org/geekcredit/gc-0.019.tgz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

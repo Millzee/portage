@@ -1,22 +1,13 @@
->=net-nds/openldap-2.1.30-r5 >=sys-apps/sed-4
->=net-nds/openldap-2.1.30-r5
-0
-http://www.padl.com/download/nss_ldap-249.tar.gz
-
-http://www.padl.com/OSS/nss_ldap.html
-LGPL-2
-NSS LDAP Module
-~alpha amd64 hppa mips ppc ppc64 sparc x86
-fixheadtails toolchain-funcs multilib portability eutils
-debug
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=net-nds/openldap-2.1.30-r5 >=sys-apps/sed-4
+DESCRIPTION=NSS LDAP Module
+EAPI=0
+HOMEPAGE=http://www.padl.com/OSS/nss_ldap.html
+IUSE=debug
+KEYWORDS=~alpha amd64 hppa mips ppc ppc64 sparc x86
+LICENSE=LGPL-2
+RDEPEND=>=net-nds/openldap-2.1.30-r5
+SLOT=0
+SRC_URI=http://www.padl.com/download/nss_ldap-249.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

@@ -1,22 +1,13 @@
-virtual/opengl media-libs/libsdl media-libs/sdl-image sound? ( media-libs/sdl-mixer ) dev-libs/mini-xml =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/opengl media-libs/libsdl media-libs/sdl-image sound? ( media-libs/sdl-mixer ) dev-libs/mini-xml
-0
-mirror://berlios/dreamchess/dreamchess-0.2.0.tar.gz sound? ( music? ( mirror://berlios/dreamchess/dreamchess-music-1.0.run.tar ) )
-
-http://www.dreamchess.org/
-GPL-3
-3D OpenGL moderately-strong chess engine
-~amd64
-toolchain-funcs portability multilib base libtool games autotools eutils
-music sound
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/opengl media-libs/libsdl media-libs/sdl-image sound? ( media-libs/sdl-mixer ) dev-libs/mini-xml =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=3D OpenGL moderately-strong chess engine
+EAPI=0
+HOMEPAGE=http://www.dreamchess.org/
+IUSE=music sound
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=virtual/opengl media-libs/libsdl media-libs/sdl-image sound? ( media-libs/sdl-mixer ) dev-libs/mini-xml
+SLOT=0
+SRC_URI=mirror://berlios/dreamchess/dreamchess-0.2.0.tar.gz sound? ( music? ( mirror://berlios/dreamchess/dreamchess-music-1.0.run.tar ) )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,12 @@
-=x11-libs/qt-3*
-=x11-libs/qt-3*
-0
-mirror://sourceforge/icecc/icecc-2.9.tar.bz2
-
-http://icecc.sourceforge.net/
-GPL-2
-IceWM Control Center (only main program, see icewm-tools for the rest)
-x86 ppc ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND==x11-libs/qt-3*
+DESCRIPTION=IceWM Control Center (only main program, see icewm-tools for the rest)
+EAPI=0
+HOMEPAGE=http://icecc.sourceforge.net/
+KEYWORDS=x86 ppc ~amd64
+LICENSE=GPL-2
+RDEPEND==x11-libs/qt-3*
+SLOT=0
+SRC_URI=mirror://sourceforge/icecc/icecc-2.9.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

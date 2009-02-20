@@ -1,22 +1,11 @@
-
-virtual/python >=media-sound/alsa-utils-1.0.14 gtk? ( dev-python/pygtk x11-themes/gnome-icon-theme )
-0
-mirror://ubuntu/pool/main/a/alsa-utils/alsa-utils_1.0.14-1ubuntu4_i386.deb gtk? ( mirror://ubuntu/pool/universe/a/asoundconf-gtk/asoundconf-gtk_1.5.1-0ubuntu2_all.deb )
-
-https://code.launchpad.net/asoundconf-ui
-GPL-2
-Utilities to change your default sound card in ALSA.
-~x86
-
-gtk
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=Utilities to change your default sound card in ALSA.
+EAPI=0
+HOMEPAGE=https://code.launchpad.net/asoundconf-ui
+IUSE=gtk
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/python >=media-sound/alsa-utils-1.0.14 gtk? ( dev-python/pygtk x11-themes/gnome-icon-theme )
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/main/a/alsa-utils/alsa-utils_1.0.14-1ubuntu4_i386.deb gtk? ( mirror://ubuntu/pool/universe/a/asoundconf-gtk/asoundconf-gtk_1.5.1-0ubuntu2_all.deb )
+_mtime_=1235082868

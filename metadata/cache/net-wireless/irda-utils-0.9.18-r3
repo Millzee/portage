@@ -1,22 +1,12 @@
-=dev-libs/glib-2* >=sys-apps/pciutils-2.2.7-r1 sys-process/procps sys-apps/setserial sys-apps/grep sys-fs/udev dev-util/pkgconfig !app-laptop/smcinit
-=dev-libs/glib-2* >=sys-apps/pciutils-2.2.7-r1 sys-process/procps sys-apps/setserial sys-apps/grep sys-fs/udev
-0
-mirror://sourceforge/irda/irda-utils-0.9.18.tar.gz
-
-http://irda.sourceforge.net
-GPL-2
-IrDA management and handling utilities
-~amd64 ~arm ~ppc ~sh ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==dev-libs/glib-2* >=sys-apps/pciutils-2.2.7-r1 sys-process/procps sys-apps/setserial sys-apps/grep sys-fs/udev dev-util/pkgconfig !app-laptop/smcinit
+DESCRIPTION=IrDA management and handling utilities
+EAPI=0
+HOMEPAGE=http://irda.sourceforge.net
+KEYWORDS=~amd64 ~arm ~ppc ~sh ~x86
+LICENSE=GPL-2
+RDEPEND==dev-libs/glib-2* >=sys-apps/pciutils-2.2.7-r1 sys-process/procps sys-apps/setserial sys-apps/grep sys-fs/udev
+SLOT=0
+SRC_URI=mirror://sourceforge/irda/irda-utils-0.9.18.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

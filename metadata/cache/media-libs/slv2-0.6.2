@@ -1,22 +1,13 @@
->=dev-libs/redland-1.0.6 jack? ( >=media-sound/jack-audio-connection-kit-0.107.0 ) media-libs/lv2core doc? ( app-doc/doxygen ) dev-util/pkgconfig
->=dev-libs/redland-1.0.6 jack? ( >=media-sound/jack-audio-connection-kit-0.107.0 ) media-libs/lv2core
-0
-http://download.drobilla.net/slv2-0.6.2.tar.bz2
-
-http://wiki.drobilla.net/SLV2
-GPL-2
-A library to make the use of LV2 plugins as simple as possible for applications
-~amd64 ~x86
-toolchain-funcs multilib
-doc jack
-
-
-
-2
-
-compile configure install
-
-
-
-
-
+DEFINED_PHASES=compile configure install
+DEPEND=>=dev-libs/redland-1.0.6 jack? ( >=media-sound/jack-audio-connection-kit-0.107.0 ) media-libs/lv2core doc? ( app-doc/doxygen ) dev-util/pkgconfig
+DESCRIPTION=A library to make the use of LV2 plugins as simple as possible for applications
+EAPI=2
+HOMEPAGE=http://wiki.drobilla.net/SLV2
+IUSE=doc jack
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/redland-1.0.6 jack? ( >=media-sound/jack-audio-connection-kit-0.107.0 ) media-libs/lv2core
+SLOT=0
+SRC_URI=http://download.drobilla.net/slv2-0.6.2.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

@@ -1,22 +1,12 @@
-media-libs/libsdl media-libs/openal media-libs/freealut =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-media-libs/libsdl media-libs/openal media-libs/freealut
-0
-http://www.fishies.org.uk/apricots-0.2.6.tar.gz
-
-http://www.fishies.org.uk/apricots.html
-GPL-2
-Fly a plane around bomb/shoot the enemy. Port of Planegame from Amiga.
-amd64 ppc ~sparc x86 ~x86-fbsd
-toolchain-funcs portability multilib base libtool games autotools eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/openal media-libs/freealut =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Fly a plane around bomb/shoot the enemy. Port of Planegame from Amiga.
+EAPI=0
+HOMEPAGE=http://www.fishies.org.uk/apricots.html
+KEYWORDS=amd64 ppc ~sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/openal media-libs/freealut
+SLOT=0
+SRC_URI=http://www.fishies.org.uk/apricots-0.2.6.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

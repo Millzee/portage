@@ -1,22 +1,9 @@
-
-
-0
-http://gentoo.mirror.at.stealer.net/files/ed2k_recovermet-0.2_alpha.tar.bz2
-
-http://gentoo.mirror.at.stealer.net/files/
-public-domain
-Tool for recovering eDonkey2000 .part.met files
-x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Tool for recovering eDonkey2000 .part.met files
+EAPI=0
+HOMEPAGE=http://gentoo.mirror.at.stealer.net/files/
+KEYWORDS=x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://gentoo.mirror.at.stealer.net/files/ed2k_recovermet-0.2_alpha.tar.bz2
+_mtime_=1235082895

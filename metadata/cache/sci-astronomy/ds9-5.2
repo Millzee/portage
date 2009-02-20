@@ -1,22 +1,13 @@
-x11-libs/libX11 x11-libs/libXdmcp x11-libs/libXau !x11-libs/xpa app-arch/zip
-x11-libs/libX11 x11-libs/libXdmcp x11-libs/libXau !x11-libs/xpa
-0
-http://hea-www.harvard.edu/saord/download/ds9/source/ds9.5.2.tar.gz
-
-http://hea-www.harvard.edu/RD/ds9
-GPL-2
-Data visualization application for astronomical FITS images
-~amd64 ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXdmcp x11-libs/libXau !x11-libs/xpa app-arch/zip
+DESCRIPTION=Data visualization application for astronomical FITS images
+EAPI=0
+HOMEPAGE=http://hea-www.harvard.edu/RD/ds9
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXdmcp x11-libs/libXau !x11-libs/xpa
+SLOT=0
+SRC_URI=http://hea-www.harvard.edu/saord/download/ds9/source/ds9.5.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

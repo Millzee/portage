@@ -1,22 +1,13 @@
->=dev-python/setuptools-0.6_alpha9 ide? ( !dev-db/daboide ) virtual/python
->=dev-python/wxpython-2.6.1.1 >=dev-db/sqlite-3.0 >=dev-python/pysqlite-2.0 ide? ( dev-python/imaging dev-python/reportlab )
-0
-ftp://dabodev.com/dabo/dabo-0.8.4.tar.gz
-
-http://dabodev.com/
-MIT
-A 3-tier, cross-platform application development framework written in Python/wxPython.
-~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-ide
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-python/setuptools-0.6_alpha9 ide? ( !dev-db/daboide ) virtual/python
+DESCRIPTION=A 3-tier, cross-platform application development framework written in Python/wxPython.
+EAPI=0
+HOMEPAGE=http://dabodev.com/
+IUSE=ide
+KEYWORDS=~x86
+LICENSE=MIT
+RDEPEND=>=dev-python/wxpython-2.6.1.1 >=dev-db/sqlite-3.0 >=dev-python/pysqlite-2.0 ide? ( dev-python/imaging dev-python/reportlab )
+SLOT=0
+SRC_URI=ftp://dabodev.com/dabo/dabo-0.8.4.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

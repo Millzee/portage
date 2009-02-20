@@ -1,22 +1,12 @@
-=dev-libs/glib-2* dev-libs/libxml2 dev-games/libmaitretarot dev-games/libmt_client sys-libs/ncurses
-=dev-libs/glib-2* dev-libs/libxml2 dev-games/libmaitretarot dev-games/libmt_client sys-libs/ncurses
-0
-http://savannah.nongnu.org/download/maitretarot/mt_ncurses_client.pkg/0.1.98/mt_ncurses_client-0.1.98.tar.bz2
-
-http://www.nongnu.org/maitretarot/
-GPL-2
-client for the french tarot game maitretarot
-x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND==dev-libs/glib-2* dev-libs/libxml2 dev-games/libmaitretarot dev-games/libmt_client sys-libs/ncurses
+DESCRIPTION=client for the french tarot game maitretarot
+EAPI=0
+HOMEPAGE=http://www.nongnu.org/maitretarot/
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND==dev-libs/glib-2* dev-libs/libxml2 dev-games/libmaitretarot dev-games/libmt_client sys-libs/ncurses
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/maitretarot/mt_ncurses_client.pkg/0.1.98/mt_ncurses_client-0.1.98.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

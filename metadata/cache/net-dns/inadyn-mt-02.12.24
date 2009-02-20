@@ -1,22 +1,12 @@
-!net-dns/inadyn
-!net-dns/inadyn
-0
-mirror://sourceforge/inadyn-mt/inadyn-mt.v.02.12.24.tar.gz
-
-http://sourceforge.net/projects/inadyn-mt
-GPL-3
-Dynamic DNS (DynDNS) Update daemon in C that supports multiple services
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install postinst setup
-
-
-
-
-
+DEFINED_PHASES=install postinst setup
+DEPEND=!net-dns/inadyn
+DESCRIPTION=Dynamic DNS (DynDNS) Update daemon in C that supports multiple services
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/inadyn-mt
+KEYWORDS=~x86
+LICENSE=GPL-3
+RDEPEND=!net-dns/inadyn
+SLOT=0
+SRC_URI=mirror://sourceforge/inadyn-mt/inadyn-mt.v.02.12.24.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

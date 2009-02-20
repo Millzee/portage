@@ -1,22 +1,13 @@
-dvd? ( media-libs/libdvdread ) media-sound/vorbis-tools
-dvd? ( media-libs/libdvdread ) media-sound/vorbis-tools
-0
-http://www.bunkus.org/videotools/ogmtools/ogmtools-1.5.tar.bz2
-
-http://www.bunkus.org/videotools/ogmtools/
-GPL-2
-These tools allow information about (ogminfo) or extraction from (ogmdemux) or creation of (ogmmerge) OGG media streams
-amd64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-dvd
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dvd? ( media-libs/libdvdread ) media-sound/vorbis-tools
+DESCRIPTION=These tools allow information about (ogminfo) or extraction from (ogmdemux) or creation of (ogmmerge) OGG media streams
+EAPI=0
+HOMEPAGE=http://www.bunkus.org/videotools/ogmtools/
+IUSE=dvd
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=dvd? ( media-libs/libdvdread ) media-sound/vorbis-tools
+SLOT=0
+SRC_URI=http://www.bunkus.org/videotools/ogmtools/ogmtools-1.5.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

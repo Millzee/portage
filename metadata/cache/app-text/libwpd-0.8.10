@@ -1,22 +1,14 @@
->=dev-libs/glib-2 >=gnome-extra/libgsf-1.6 dev-util/pkgconfig doc? ( app-doc/doxygen )
->=dev-libs/glib-2 >=gnome-extra/libgsf-1.6
-0
-mirror://sourceforge/libwpd/libwpd-0.8.10.tar.gz
-test
-http://libwpd.sf.net
-LGPL-2.1
-WordPerfect Document import/export library
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=dev-libs/glib-2 >=gnome-extra/libgsf-1.6 dev-util/pkgconfig doc? ( app-doc/doxygen )
+DESCRIPTION=WordPerfect Document import/export library
+EAPI=0
+HOMEPAGE=http://libwpd.sf.net
+IUSE=doc
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-libs/glib-2 >=gnome-extra/libgsf-1.6
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/libwpd/libwpd-0.8.10.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

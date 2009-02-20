@@ -1,22 +1,12 @@
-!games-misc/wtf !app-misc/banner !games-board/ace sys-libs/ncurses sys-apps/miscfiles sys-devel/flex sys-devel/bison
-!games-misc/wtf !app-misc/banner !games-board/ace sys-libs/ncurses sys-apps/miscfiles
-0
-ftp://metalab.unc.edu/pub/Linux/games/bsd-games-2.17.tar.gz mirror://debian/pool/main/b/bsdgames/bsdgames_2.17-7.diff.gz
-
-http://www.advogato.org/proj/bsd-games/
-BSD
-collection of games from NetBSD
-alpha amd64 ppc sparc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup test unpack
+DEPEND=!games-misc/wtf !app-misc/banner !games-board/ace sys-libs/ncurses sys-apps/miscfiles sys-devel/flex sys-devel/bison
+DESCRIPTION=collection of games from NetBSD
+EAPI=0
+HOMEPAGE=http://www.advogato.org/proj/bsd-games/
+KEYWORDS=alpha amd64 ppc sparc x86
+LICENSE=BSD
+RDEPEND=!games-misc/wtf !app-misc/banner !games-board/ace sys-libs/ncurses sys-apps/miscfiles
+SLOT=0
+SRC_URI=ftp://metalab.unc.edu/pub/Linux/games/bsd-games-2.17.tar.gz mirror://debian/pool/main/b/bsdgames/bsdgames_2.17-7.diff.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

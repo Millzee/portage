@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.4 net-misc/curl app-text/scrollkeeper xiph? ( dev-libs/libxml2 ) >=media-libs/taglib-1.2 python? ( dev-python/pygtk ) x11-misc/xdg-utils dev-util/pkgconfig !media-plugins/streamtuner-xiph !media-plugins/streamtuner-local !media-plugins/streamtuner-live365 !media-plugins/streamtuner-python >=sys-apps/sed-4
->=x11-libs/gtk+-2.4 net-misc/curl app-text/scrollkeeper xiph? ( dev-libs/libxml2 ) >=media-libs/taglib-1.2 python? ( dev-python/pygtk ) x11-misc/xdg-utils
-0
-http://savannah.nongnu.org/download/streamtuner/streamtuner-0.99.99.tar.gz http://savannah.nongnu.org/download/streamtuner/streamtuner-0.99.99-pygtk-2.6.diff
-
-http://www.nongnu.org/streamtuner
-BSD
-Stream directory browser for browsing internet radio streams
-amd64 ~ppc ~sparc x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-python shout xiph
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=>=x11-libs/gtk+-2.4 net-misc/curl app-text/scrollkeeper xiph? ( dev-libs/libxml2 ) >=media-libs/taglib-1.2 python? ( dev-python/pygtk ) x11-misc/xdg-utils dev-util/pkgconfig !media-plugins/streamtuner-xiph !media-plugins/streamtuner-local !media-plugins/streamtuner-live365 !media-plugins/streamtuner-python >=sys-apps/sed-4
+DESCRIPTION=Stream directory browser for browsing internet radio streams
+EAPI=0
+HOMEPAGE=http://www.nongnu.org/streamtuner
+IUSE=python shout xiph
+KEYWORDS=amd64 ~ppc ~sparc x86
+LICENSE=BSD
+RDEPEND=>=x11-libs/gtk+-2.4 net-misc/curl app-text/scrollkeeper xiph? ( dev-libs/libxml2 ) >=media-libs/taglib-1.2 python? ( dev-python/pygtk ) x11-misc/xdg-utils
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/streamtuner/streamtuner-0.99.99.tar.gz http://savannah.nongnu.org/download/streamtuner/streamtuner-0.99.99-pygtk-2.6.diff
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

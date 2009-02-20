@@ -1,22 +1,14 @@
-gtk? ( =x11-libs/gtk+-1.2* ) alsa? ( media-libs/alsa-lib ) kde? ( || ( kde-base/kmid kde-base/kdemultimedia ) )
-gtk? ( =x11-libs/gtk+-1.2* ) alsa? ( media-libs/alsa-lib ) kde? ( || ( kde-base/kmid kde-base/kdemultimedia ) )
-0
-ftp://wolfpack.twu.net/users/wolfpack/yiff-2.14.5.tar.bz2
-strip
-http://wolfpack.twu.net/YIFF/
-GPL-2
-high performance and stable sound server for UNIX games and apps
-amd64 ppc sparc x86
-toolchain-funcs qt3 portability flag-o-matic versionator multilib kde-functions eutils
-alsa gtk kde
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=gtk? ( =x11-libs/gtk+-1.2* ) alsa? ( media-libs/alsa-lib ) kde? ( || ( kde-base/kmid kde-base/kdemultimedia ) )
+DESCRIPTION=high performance and stable sound server for UNIX games and apps
+EAPI=0
+HOMEPAGE=http://wolfpack.twu.net/YIFF/
+IUSE=alsa gtk kde
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=gtk? ( =x11-libs/gtk+-1.2* ) alsa? ( media-libs/alsa-lib ) kde? ( || ( kde-base/kmid kde-base/kdemultimedia ) )
+RESTRICT=strip
+SLOT=0
+SRC_URI=ftp://wolfpack.twu.net/users/wolfpack/yiff-2.14.5.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

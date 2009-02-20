@@ -1,22 +1,13 @@
-dev-lisp/openmcl-build-tools
-dev-lisp/openmcl-build-tools
-0
-mirror://debian/pool/main/o/openmcl/openmcl_0.14.2.p1.o.tar.gz
-
-http://openmcl.clozure.com/ http://packages.debian.org/unstable/devel/openmcl
-LLGPL-2.1
-OpenMCL is a Common Lisp implementation, derived from Digitool's MCL product
-~ppc
-portability toolchain-funcs multilib eutils common-lisp-common-3
-
-
-
-virtual/commonlisp
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-lisp/openmcl-build-tools
+DESCRIPTION=OpenMCL is a Common Lisp implementation, derived from Digitool's MCL product
+EAPI=0
+HOMEPAGE=http://openmcl.clozure.com/ http://packages.debian.org/unstable/devel/openmcl
+KEYWORDS=~ppc
+LICENSE=LLGPL-2.1
+PROVIDE=virtual/commonlisp
+RDEPEND=dev-lisp/openmcl-build-tools
+SLOT=0
+SRC_URI=mirror://debian/pool/main/o/openmcl/openmcl_0.14.2.p1.o.tar.gz
+_eclasses_=common-lisp-common-3	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

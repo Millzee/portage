@@ -1,22 +1,13 @@
-kernel_linux? ( virtual/linux-sources )
-
-0
-!pentium? ( http://files.hamachi.cc/linux/hamachi-0.9.9.9-20-lnx.tar.gz ) pentium? ( http://files.hamachi.cc/linux/hamachi-0.9.9.9-20-lnx-pentium.tar.gz )
-strip mirror
-http://hamachi.cc
-as-is
-Hamachi is a secure mediated peer to peer.
--* ~amd64 ~x86
-toolchain-funcs portability versionator multilib linux-info eutils
-pentium
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=Hamachi is a secure mediated peer to peer.
+EAPI=0
+HOMEPAGE=http://hamachi.cc
+IUSE=pentium
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=as-is
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=!pentium? ( http://files.hamachi.cc/linux/hamachi-0.9.9.9-20-lnx.tar.gz ) pentium? ( http://files.hamachi.cc/linux/hamachi-0.9.9.9-20-lnx-pentium.tar.gz )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

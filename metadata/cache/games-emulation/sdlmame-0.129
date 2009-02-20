@@ -1,22 +1,13 @@
->=media-libs/libsdl-1.2.10[opengl?] dev-libs/expat x11-libs/libXinerama x11-libs/gtk+:2 gnome-base/gconf:2 app-arch/unzip x11-proto/xineramaproto
->=media-libs/libsdl-1.2.10[opengl?] dev-libs/expat x11-libs/libXinerama x11-libs/gtk+:2 gnome-base/gconf:2
-0
-mirror://gentoo/sdlmame0129.zip mirror://gentoo/sdlmame-manpages.tar.gz
-
-http://rbelmont.mameworld.info/?page_id=163
-XMAME
-Multiple Arcade Machine Emulator (SDL)
-~amd64 ~ppc ~x86
-toolchain-funcs portability flag-o-matic multilib base games eutils
-opengl
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=>=media-libs/libsdl-1.2.10[opengl?] dev-libs/expat x11-libs/libXinerama x11-libs/gtk+:2 gnome-base/gconf:2 app-arch/unzip x11-proto/xineramaproto
+DESCRIPTION=Multiple Arcade Machine Emulator (SDL)
+EAPI=2
+HOMEPAGE=http://rbelmont.mameworld.info/?page_id=163
+IUSE=opengl
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=XMAME
+RDEPEND=>=media-libs/libsdl-1.2.10[opengl?] dev-libs/expat x11-libs/libXinerama x11-libs/gtk+:2 gnome-base/gconf:2
+SLOT=0
+SRC_URI=mirror://gentoo/sdlmame0129.zip mirror://gentoo/sdlmame-manpages.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

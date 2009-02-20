@@ -1,22 +1,13 @@
-dev-lang/python !minimal? ( app-crypt/gnupg net-misc/curl ) virtual/python
-dev-lang/python !minimal? ( app-crypt/gnupg net-misc/curl )
-0
-http://handhelds.org/download/packages/ipkg-utils/ipkg-utils-050831.tar.gz
-
-http://www.openembedded.org/
-GPL-2
-Tools for working with the ipkg binary package format
-~amd64 ~arm ~hppa ~mips ~ppc ~x86
-toolchain-funcs distutils portability python alternatives versionator multilib eutils
-minimal
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-lang/python !minimal? ( app-crypt/gnupg net-misc/curl ) virtual/python
+DESCRIPTION=Tools for working with the ipkg binary package format
+EAPI=0
+HOMEPAGE=http://www.openembedded.org/
+IUSE=minimal
+KEYWORDS=~amd64 ~arm ~hppa ~mips ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/python !minimal? ( app-crypt/gnupg net-misc/curl )
+SLOT=0
+SRC_URI=http://handhelds.org/download/packages/ipkg-utils/ipkg-utils-050831.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

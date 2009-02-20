@@ -1,22 +1,12 @@
-dev-libs/libgeier dev-libs/openssl =gnome-extra/gtkhtml-2* gnome-base/libgnomeui sys-devel/gettext dev-scheme/guile
-dev-libs/libgeier dev-libs/openssl =gnome-extra/gtkhtml-2* gnome-base/libgnomeui sys-devel/gettext dev-scheme/guile
-0
-http://www.taxbird.de/download/taxbird/0.12/taxbird-0.12.tar.gz
-
-http://www.taxbird.de/
-GPL-2
-Taxbird provides a GUI to submit tax forms to the german digital tax project ELSTER.
-~amd64 ~x86
-toolchain-funcs fdo-mime multilib portability eutils
-
-
-
-
-0
-
-install postinst setup
-
-
-
-
-
+DEFINED_PHASES=install postinst setup
+DEPEND=dev-libs/libgeier dev-libs/openssl =gnome-extra/gtkhtml-2* gnome-base/libgnomeui sys-devel/gettext dev-scheme/guile
+DESCRIPTION=Taxbird provides a GUI to submit tax forms to the german digital tax project ELSTER.
+EAPI=0
+HOMEPAGE=http://www.taxbird.de/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libgeier dev-libs/openssl =gnome-extra/gtkhtml-2* gnome-base/libgnomeui sys-devel/gettext dev-scheme/guile
+SLOT=0
+SRC_URI=http://www.taxbird.de/download/taxbird/0.12/taxbird-0.12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

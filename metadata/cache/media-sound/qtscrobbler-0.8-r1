@@ -1,22 +1,13 @@
-net-misc/curl qt4? ( || ( x11-libs/qt-gui:4 >=x11-libs/qt-4.3:4 ) )
-net-misc/curl qt4? ( || ( x11-libs/qt-gui:4 >=x11-libs/qt-4.3:4 ) )
-0
-mirror://sourceforge/qtscrob/qtscrob-0.8.tar.bz2
-
-http://qtscrob.sourceforge.net/
-GPL-2
-Updates a last.fm profile using information from a supported portable music player
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib eutils
-cli +qt4
-
-
-
-1
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=net-misc/curl qt4? ( || ( x11-libs/qt-gui:4 >=x11-libs/qt-4.3:4 ) )
+DESCRIPTION=Updates a last.fm profile using information from a supported portable music player
+EAPI=1
+HOMEPAGE=http://qtscrob.sourceforge.net/
+IUSE=cli +qt4
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-misc/curl qt4? ( || ( x11-libs/qt-gui:4 >=x11-libs/qt-4.3:4 ) )
+SLOT=0
+SRC_URI=mirror://sourceforge/qtscrob/qtscrob-0.8.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

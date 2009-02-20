@@ -1,22 +1,13 @@
-virtual/postgresql-server perl? ( dev-perl/DBD-Pg )
-virtual/postgresql-server perl? ( dev-perl/DBD-Pg )
-0
-http://main.slony.info/downloads/1.2/source/slony1-1.2.10.tar.bz2
-
-http://slony.info/
-BSD
-A replication system for the PostgreSQL Database Management System
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-perl
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/postgresql-server perl? ( dev-perl/DBD-Pg )
+DESCRIPTION=A replication system for the PostgreSQL Database Management System
+EAPI=0
+HOMEPAGE=http://slony.info/
+IUSE=perl
+KEYWORDS=amd64 ppc x86
+LICENSE=BSD
+RDEPEND=virtual/postgresql-server perl? ( dev-perl/DBD-Pg )
+SLOT=0
+SRC_URI=http://main.slony.info/downloads/1.2/source/slony1-1.2.10.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

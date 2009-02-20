@@ -1,22 +1,12 @@
->=net-libs/libnet-1.1
->=net-libs/libnet-1.1
-0
-http://sid.rstack.org/arp-sk/files/arp-sk-0.0.16.tgz
-
-http://sid.rstack.org/arp-sk/
-GPL-2
-A swiss knife tool for ARP
-amd64 ppc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=net-libs/libnet-1.1
+DESCRIPTION=A swiss knife tool for ARP
+EAPI=0
+HOMEPAGE=http://sid.rstack.org/arp-sk/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=net-libs/libnet-1.1
+SLOT=0
+SRC_URI=http://sid.rstack.org/arp-sk/files/arp-sk-0.0.16.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082884

@@ -1,22 +1,12 @@
-virtual/libc >=sys-libs/ncurses-5.2
-virtual/libc >=sys-libs/ncurses-5.2
-0
-mirror://gnu/less/less-358.tar.gz http://www25.big.jp/~jam/less/less-358-iso254.patch.gz
-
-http://www.flash.net/~marknu/less/ http://www.io.com/~kazushi/less/
-BSD
-Jam less is an enhancement of less which supports multibyte character
-alpha ~hppa ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc >=sys-libs/ncurses-5.2
+DESCRIPTION=Jam less is an enhancement of less which supports multibyte character
+EAPI=0
+HOMEPAGE=http://www.flash.net/~marknu/less/ http://www.io.com/~kazushi/less/
+KEYWORDS=alpha ~hppa ppc ppc64 sparc x86
+LICENSE=BSD
+RDEPEND=virtual/libc >=sys-libs/ncurses-5.2
+SLOT=0
+SRC_URI=mirror://gnu/less/less-358.tar.gz http://www25.big.jp/~jam/less/less-358-iso254.patch.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

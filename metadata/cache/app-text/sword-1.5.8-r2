@@ -1,22 +1,13 @@
-sys-libs/zlib curl? ( net-misc/curl ) icu? ( dev-libs/icu ) dev-util/pkgconfig
-sys-libs/zlib curl? ( net-misc/curl ) icu? ( dev-libs/icu )
-0
-http://www.crosswire.org/ftpmirror/pub/sword/source/v1.5/sword-1.5.8.tar.gz
-
-http://www.crosswire.org/sword/
-GPL-2
-Library for Bible reading software.
-amd64 ppc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-curl icu debug
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=sys-libs/zlib curl? ( net-misc/curl ) icu? ( dev-libs/icu ) dev-util/pkgconfig
+DESCRIPTION=Library for Bible reading software.
+EAPI=0
+HOMEPAGE=http://www.crosswire.org/sword/
+IUSE=curl icu debug
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib curl? ( net-misc/curl ) icu? ( dev-libs/icu )
+SLOT=0
+SRC_URI=http://www.crosswire.org/ftpmirror/pub/sword/source/v1.5/sword-1.5.8.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

@@ -1,22 +1,12 @@
-dev-lang/perl =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-dev-lang/perl
-0
-mirror://sourceforge/nodebrain/nb-0.6.5-source.tar.gz
-
-http://nodebrain.sourceforge.net/
-GPL-2 LGPL-2
-Nodebrain is a tool to monitor and do event correlation.
-~ppc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=dev-lang/perl =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Nodebrain is a tool to monitor and do event correlation.
+EAPI=0
+HOMEPAGE=http://nodebrain.sourceforge.net/
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2 LGPL-2
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=mirror://sourceforge/nodebrain/nb-0.6.5-source.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

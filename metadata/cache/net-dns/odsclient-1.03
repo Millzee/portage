@@ -1,22 +1,10 @@
-
-
-0
-http://www.ods.org/dl/odsclient-1.03.tar.gz
-
-http://www.ods.org/
-LGPL-2.1
-Client for the Open Domain Server's dynamic dns
-x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=Client for the Open Domain Server's dynamic dns
+EAPI=0
+HOMEPAGE=http://www.ods.org/
+KEYWORDS=x86
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://www.ods.org/dl/odsclient-1.03.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

@@ -1,22 +1,10 @@
-
-
-0
-mirror://sourceforge/igmpproxy/igmpproxy-src-0.1-beta2.tar.gz
-
-http://sourceforge.net/projects/igmpproxy
-GPL-2
-Multicast Routing Daemon using only IGMP signalling (Internet Group Management Protocol)
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Multicast Routing Daemon using only IGMP signalling (Internet Group Management Protocol)
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/igmpproxy
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/igmpproxy/igmpproxy-src-0.1-beta2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

@@ -1,22 +1,12 @@
->=x11-libs/vte-0.16 virtual/python
->=x11-libs/vte-0.16
-0
-http://launchpad.net/terminator/trunk/0.9/+download/terminator_0.9.tar.gz
-
-http://www.tenshu.net/terminator/
-GPL-2
-Multiple GNOME terminals in one window.
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=x11-libs/vte-0.16 virtual/python
+DESCRIPTION=Multiple GNOME terminals in one window.
+EAPI=0
+HOMEPAGE=http://www.tenshu.net/terminator/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/vte-0.16
+SLOT=0
+SRC_URI=http://launchpad.net/terminator/trunk/0.9/+download/terminator_0.9.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

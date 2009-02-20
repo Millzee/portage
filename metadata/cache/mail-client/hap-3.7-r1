@@ -1,22 +1,11 @@
-sys-libs/ncurses sys-devel/autoconf
-sys-libs/ncurses sys-devel/autoconf
-0
-http://www.transbay.net/~enf/hap-3.7.tar
-
-http://www.transbay.net/~enf/sw.html
-GPL-2
-A terminal mail notification program (replacement for biff)
-alpha ppc x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/ncurses sys-devel/autoconf
+DESCRIPTION=A terminal mail notification program (replacement for biff)
+EAPI=0
+HOMEPAGE=http://www.transbay.net/~enf/sw.html
+KEYWORDS=alpha ppc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses sys-devel/autoconf
+SLOT=0
+SRC_URI=http://www.transbay.net/~enf/hap-3.7.tar
+_mtime_=1235082866

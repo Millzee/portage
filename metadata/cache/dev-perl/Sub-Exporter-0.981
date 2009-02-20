@@ -1,22 +1,12 @@
-dev-lang/perl >=dev-perl/Sub-Install-0.92 >=dev-perl/Data-OptList-0.100 >=dev-perl/Params-Util-0.14
-dev-lang/perl >=dev-perl/Sub-Install-0.92 >=dev-perl/Data-OptList-0.100 >=dev-perl/Params-Util-0.14
-0
-mirror://cpan/authors/id/R/RJ/RJBS//Sub-Exporter-0.981.tar.gz
-
-http://search.cpan.org/search?query=Sub-Exporter&mode=dist
-|| ( Artistic GPL-2 )
-A sophisticated exporter for custom-built routines
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl >=dev-perl/Sub-Install-0.92 >=dev-perl/Data-OptList-0.100 >=dev-perl/Params-Util-0.14
+DESCRIPTION=A sophisticated exporter for custom-built routines
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Sub-Exporter&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-lang/perl >=dev-perl/Sub-Install-0.92 >=dev-perl/Data-OptList-0.100 >=dev-perl/Params-Util-0.14
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS//Sub-Exporter-0.981.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

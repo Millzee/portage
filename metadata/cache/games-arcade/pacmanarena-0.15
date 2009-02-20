@@ -1,22 +1,12 @@
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer[vorbis] media-libs/sdl-net app-arch/unzip
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer[vorbis] media-libs/sdl-net
-0
-mirror://sourceforge/pacmanarena/pacman-arena-0.15.tar.bz2 mirror://sourceforge/pacmanarena/pacman-data-0.0.zip
-
-http://pacmanarena.sourceforge.net/
-GPL-2
-a Pacman clone in full 3D with a few surprises. Rockets, bombs and explosions abound.
-alpha amd64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer[vorbis] media-libs/sdl-net app-arch/unzip
+DESCRIPTION=a Pacman clone in full 3D with a few surprises. Rockets, bombs and explosions abound.
+EAPI=2
+HOMEPAGE=http://pacmanarena.sourceforge.net/
+KEYWORDS=alpha amd64 x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer[vorbis] media-libs/sdl-net
+SLOT=0
+SRC_URI=mirror://sourceforge/pacmanarena/pacman-arena-0.15.tar.bz2 mirror://sourceforge/pacmanarena/pacman-data-0.0.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

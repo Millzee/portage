@@ -1,22 +1,10 @@
-
-
-0
-http://www.inmon.com/bin/sflowtool-3.10.tar.gz
-
-http://www.inmon.com/technology/sflowTools.php
-inmon-sflow
-sflowtool is a utility for collecting and processing sFlow data
-ppc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=sflowtool is a utility for collecting and processing sFlow data
+EAPI=0
+HOMEPAGE=http://www.inmon.com/technology/sflowTools.php
+KEYWORDS=ppc x86
+LICENSE=inmon-sflow
+SLOT=0
+SRC_URI=http://www.inmon.com/bin/sflowtool-3.10.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

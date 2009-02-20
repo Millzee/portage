@@ -1,22 +1,12 @@
-dlna? ( media-libs/libdlna ) net-libs/libupnp
-dlna? ( media-libs/libdlna ) net-libs/libupnp
-0
-http://ushare.geexbox.org/releases/ushare-1.1a.tar.bz2
-
-http://ushare.geexbox.org/
-GPL-2
-A free UPnP A/V & DLNA Media Server for Linux
-~x86
-
-dlna nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dlna? ( media-libs/libdlna ) net-libs/libupnp
+DESCRIPTION=A free UPnP A/V & DLNA Media Server for Linux
+EAPI=0
+HOMEPAGE=http://ushare.geexbox.org/
+IUSE=dlna nls
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=dlna? ( media-libs/libdlna ) net-libs/libupnp
+SLOT=0
+SRC_URI=http://ushare.geexbox.org/releases/ushare-1.1a.tar.bz2
+_mtime_=1235082870

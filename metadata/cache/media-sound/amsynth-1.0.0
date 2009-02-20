@@ -1,22 +1,13 @@
-=dev-cpp/gtkmm-1.2* media-libs/libsndfile alsa? ( media-libs/alsa-lib media-sound/alsa-utils ) jack? ( media-sound/jack-audio-connection-kit )
-=dev-cpp/gtkmm-1.2* media-libs/libsndfile alsa? ( media-libs/alsa-lib media-sound/alsa-utils ) jack? ( media-sound/jack-audio-connection-kit )
-0
-mirror://sourceforge/amsynthe/amSynth-1.0.0.tar.gz
-
-http://amsynthe.sourceforge.net/
-GPL-2
-A retro analogue - modelling softsynth
-amd64 ~ppc sparc x86
-toolchain-funcs multilib portability eutils
-oss alsa jack
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND==dev-cpp/gtkmm-1.2* media-libs/libsndfile alsa? ( media-libs/alsa-lib media-sound/alsa-utils ) jack? ( media-sound/jack-audio-connection-kit )
+DESCRIPTION=A retro analogue - modelling softsynth
+EAPI=0
+HOMEPAGE=http://amsynthe.sourceforge.net/
+IUSE=oss alsa jack
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND==dev-cpp/gtkmm-1.2* media-libs/libsndfile alsa? ( media-libs/alsa-lib media-sound/alsa-utils ) jack? ( media-sound/jack-audio-connection-kit )
+SLOT=0
+SRC_URI=mirror://sourceforge/amsynthe/amSynth-1.0.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

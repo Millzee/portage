@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-ftp://ftp.windowmaker.org/pub/libs/libPropList-0.10.1.tar.gz
-
-http://www.windowmaker.org/
-LGPL-2
-libPropList
-x86 ppc sparc amd64 alpha ia64
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=libPropList
+EAPI=0
+HOMEPAGE=http://www.windowmaker.org/
+KEYWORDS=x86 ppc sparc amd64 alpha ia64
+LICENSE=LGPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=ftp://ftp.windowmaker.org/pub/libs/libPropList-0.10.1.tar.gz
+_mtime_=1235082909

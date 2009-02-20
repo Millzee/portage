@@ -1,22 +1,12 @@
->=app-text/tetex-3.0 media-fonts/culmus
->=app-text/tetex-3.0
-0
-mirror://sourceforge/ivritex/tetex-fonts-hebrew-0.2.tar.gz
-
-http://ivritex.sourceforge.net/
-GPL-2
-adds culmus fonts support for hebrew documents in LaTeX.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=>=app-text/tetex-3.0 media-fonts/culmus
+DESCRIPTION=adds culmus fonts support for hebrew documents in LaTeX.
+EAPI=0
+HOMEPAGE=http://ivritex.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-text/tetex-3.0
+SLOT=0
+SRC_URI=mirror://sourceforge/ivritex/tetex-fonts-hebrew-0.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

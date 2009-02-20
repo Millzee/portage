@@ -1,22 +1,12 @@
-|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 ) x11-libs/qt:4[opengl] ) virtual/glu
-|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 ) x11-libs/qt:4[opengl] ) virtual/glu
-0
-mirror://sourceforge/zhu3d/zhu3d-4.1.8.tar.gz
-
-http://sourceforge.net/projects/zhu3d
-GPL-2
-Interactive 3D mathematical function viewer
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib eutils
-
-
-
-
-2
-
-configure install prepare setup
-
-
-
-
-
+DEFINED_PHASES=configure install prepare setup
+DEPEND=|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 ) x11-libs/qt:4[opengl] ) virtual/glu
+DESCRIPTION=Interactive 3D mathematical function viewer
+EAPI=2
+HOMEPAGE=http://sourceforge.net/projects/zhu3d
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 ) x11-libs/qt:4[opengl] ) virtual/glu
+SLOT=0
+SRC_URI=mirror://sourceforge/zhu3d/zhu3d-4.1.8.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

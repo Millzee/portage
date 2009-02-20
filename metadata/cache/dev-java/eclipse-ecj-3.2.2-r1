@@ -1,22 +1,13 @@
->=virtual/jre-1.4 app-admin/eselect-ecj >=virtual/jdk-1.4 dev-java/ant-core >=dev-java/java-config-2.1.6
->=virtual/jre-1.4 app-admin/eselect-ecj >=dev-java/java-config-2.1.6
-3.2
-mirror://gentoo/eclipse-ecj-3.2.2.tar.bz2
-
-http://www.eclipse.org/
-EPL-1.0
-Eclipse Compiler for Java
-amd64 ~ia64 ppc ~ppc64 x86 ~x86-fbsd
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-doc elibc_FreeBSD
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=virtual/jre-1.4 app-admin/eselect-ecj >=virtual/jdk-1.4 dev-java/ant-core >=dev-java/java-config-2.1.6
+DESCRIPTION=Eclipse Compiler for Java
+EAPI=0
+HOMEPAGE=http://www.eclipse.org/
+IUSE=doc elibc_FreeBSD
+KEYWORDS=amd64 ~ia64 ppc ~ppc64 x86 ~x86-fbsd
+LICENSE=EPL-1.0
+RDEPEND=>=virtual/jre-1.4 app-admin/eselect-ecj >=dev-java/java-config-2.1.6
+SLOT=3.2
+SRC_URI=mirror://gentoo/eclipse-ecj-3.2.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

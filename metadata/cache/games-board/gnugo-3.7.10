@@ -1,22 +1,13 @@
->=sys-libs/ncurses-5.2-r3 readline? ( sys-libs/readline )
->=sys-libs/ncurses-5.2-r3 readline? ( sys-libs/readline )
-0
-ftp://sporadic.stanford.edu/pub/gnugo-3.7.10.tar.gz
-
-http://www.gnu.org/software/gnugo/devel.html
-GPL-2
-A Go-playing program
-~alpha ~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base games eutils
-readline
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=sys-libs/ncurses-5.2-r3 readline? ( sys-libs/readline )
+DESCRIPTION=A Go-playing program
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/gnugo/devel.html
+IUSE=readline
+KEYWORDS=~alpha ~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-libs/ncurses-5.2-r3 readline? ( sys-libs/readline )
+SLOT=0
+SRC_URI=ftp://sporadic.stanford.edu/pub/gnugo-3.7.10.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,13 @@
->=virtual/jdk-1.5 media-video/ffmpeg app-text/docbook-sgml-utils dev-util/pkgconfig nls? ( sys-devel/gettext ) dev-java/jupidator >=sys-apps/sed-4 >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.5 >=media-video/ffmpeg-0.4.9_p20080326 mplayer? ( media-video/mplayer[ass] ) spell? ( app-text/aspell >=dev-java/zemberek-2.0[linguas_tr] ) dev-java/jupidator >=dev-java/java-config-2.1.6
-0
-mirror://sourceforge/jubler/Jubler-src-4.0.tar.bz2
-
-http://www.jubler.org/
-GPL-2
-Java subtitle editor
-~amd64 ~x86
-toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib gnome2-utils gnome2 gnome.org fdo-mime libtool eutils java-ant-2
-mplayer nls spell debug elibc_FreeBSD elibc_FreeBSD
-
-
-
-2
-
-compile configure install postinst postrm preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=>=virtual/jdk-1.5 media-video/ffmpeg app-text/docbook-sgml-utils dev-util/pkgconfig nls? ( sys-devel/gettext ) dev-java/jupidator >=sys-apps/sed-4 >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Java subtitle editor
+EAPI=2
+HOMEPAGE=http://www.jubler.org/
+IUSE=mplayer nls spell debug elibc_FreeBSD elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.5 >=media-video/ffmpeg-0.4.9_p20080326 mplayer? ( media-video/mplayer[ass] ) spell? ( app-text/aspell >=dev-java/zemberek-2.0[linguas_tr] ) dev-java/jupidator >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=mirror://sourceforge/jubler/Jubler-src-4.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

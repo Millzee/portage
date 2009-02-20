@@ -1,22 +1,12 @@
-virtual/libc
-dev-lang/ruby
-0
-http://www.badgers-in-foil.co.uk/projects/cvsspam/cvsspam-0.2.11.tar.gz
-
-http://www.badgers-in-foil.co.uk/projects/cvsspam/
-GPL-2
-Utility to send colored HTML CVS-mails
-ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=virtual/libc
+DESCRIPTION=Utility to send colored HTML CVS-mails
+EAPI=0
+HOMEPAGE=http://www.badgers-in-foil.co.uk/projects/cvsspam/
+KEYWORDS=ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/ruby
+SLOT=0
+SRC_URI=http://www.badgers-in-foil.co.uk/projects/cvsspam/cvsspam-0.2.11.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

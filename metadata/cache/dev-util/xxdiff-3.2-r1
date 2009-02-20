@@ -1,22 +1,13 @@
-=x11-libs/qt-3* kde? ( kde-base/kdelibs:3.5 ) sys-devel/flex || ( sys-devel/bison dev-util/yacc ) virtual/python
-=x11-libs/qt-3* kde? ( kde-base/kdelibs:3.5 ) sys-apps/diffutils
-0
-mirror://sourceforge/xxdiff/xxdiff-3.2.tar.bz2
-
-http://xxdiff.sourceforge.net/
-GPL-2
-A graphical file and directories comparator and merge tool.
-alpha amd64 ia64 ppc sparc x86 ~x86-fbsd
-toolchain-funcs distutils portability python alternatives versionator multilib kde-functions eutils qt3
-kde python debug
-
-
-
-1
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND==x11-libs/qt-3* kde? ( kde-base/kdelibs:3.5 ) sys-devel/flex || ( sys-devel/bison dev-util/yacc ) virtual/python
+DESCRIPTION=A graphical file and directories comparator and merge tool.
+EAPI=1
+HOMEPAGE=http://xxdiff.sourceforge.net/
+IUSE=kde python debug
+KEYWORDS=alpha amd64 ia64 ppc sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND==x11-libs/qt-3* kde? ( kde-base/kdelibs:3.5 ) sys-apps/diffutils
+SLOT=0
+SRC_URI=mirror://sourceforge/xxdiff/xxdiff-3.2.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

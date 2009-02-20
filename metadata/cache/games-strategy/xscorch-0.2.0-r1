@@ -1,22 +1,13 @@
-gtk? ( =x11-libs/gtk+-1* ) mikmod? ( media-libs/libmikmod )
-gtk? ( =x11-libs/gtk+-1* ) mikmod? ( media-libs/libmikmod )
-0
-http://xscorch.org./releases/xscorch-0.2.0.tar.gz http://xscorch.org/releases/xscorch-0.2.0-stack-smash.patch.gz http://xscorch.org./releases/xscorch-0.2.0-64bit.patch.gz
-
-http://xscorch.org
-GPL-2
-clone of the classic DOS game, 'Scorched Earth'
-alpha amd64 ppc x86
-toolchain-funcs portability multilib base games eutils
-gtk mikmod
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=gtk? ( =x11-libs/gtk+-1* ) mikmod? ( media-libs/libmikmod )
+DESCRIPTION=clone of the classic DOS game, 'Scorched Earth'
+EAPI=2
+HOMEPAGE=http://xscorch.org
+IUSE=gtk mikmod
+KEYWORDS=alpha amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=gtk? ( =x11-libs/gtk+-1* ) mikmod? ( media-libs/libmikmod )
+SLOT=0
+SRC_URI=http://xscorch.org./releases/xscorch-0.2.0.tar.gz http://xscorch.org/releases/xscorch-0.2.0-stack-smash.patch.gz http://xscorch.org./releases/xscorch-0.2.0-64bit.patch.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

@@ -1,22 +1,14 @@
-dev-lang/perl =www-servers/apache-2* >=app-admin/webapp-config-1.50.15
-=www-servers/apache-2* >=app-admin/webapp-config-1.50.15
-7.0.003
-WebMO.7.0.003.tar.gz
-fetch
-http://webmo.net/
-WebMO
-Web-based interface to computational chemistry packages
-~x86
-toolchain-funcs portability multilib webapp depend.apache eutils
-vhosts
-
-
-
-0
-
-install nofetch postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=install nofetch postinst prerm setup unpack
+DEPEND=dev-lang/perl =www-servers/apache-2* >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Web-based interface to computational chemistry packages
+EAPI=0
+HOMEPAGE=http://webmo.net/
+IUSE=vhosts
+KEYWORDS=~x86
+LICENSE=WebMO
+RDEPEND==www-servers/apache-2* >=app-admin/webapp-config-1.50.15
+RESTRICT=fetch
+SLOT=7.0.003
+SRC_URI=WebMO.7.0.003.tar.gz
+_eclasses_=depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

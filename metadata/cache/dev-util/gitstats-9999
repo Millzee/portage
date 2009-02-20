@@ -1,22 +1,11 @@
->=dev-util/git-1.5
-sci-visualization/gnuplot[gd] dev-util/git
-0
-
-
-http://gitstats.sourceforge.net/
-|| ( GPL-2 GPL-3 )
-statistics generator for git
-~amd64 ~x86
-toolchain-funcs git multilib portability eutils
-
-
-
-
-2
-
-install prepare unpack
-
-
-
-
-
+DEFINED_PHASES=install prepare unpack
+DEPEND=>=dev-util/git-1.5
+DESCRIPTION=statistics generator for git
+EAPI=2
+HOMEPAGE=http://gitstats.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-visualization/gnuplot[gd] dev-util/git
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	git	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

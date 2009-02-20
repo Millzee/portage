@@ -1,22 +1,12 @@
->=mail-client/claws-mail-3.7.0 nls? ( >=sys-devel/gettext-0.12.1 ) dev-util/pkgconfig
->=mail-client/claws-mail-3.7.0 nls? ( >=sys-devel/gettext-0.12.1 )
-0
-http://www.claws-mail.org/downloads/plugins/attachwarner-0.2.15.tar.gz
-
-http://www.claws-mail.org/
-GPL-3
-Warn about missing attachment, if it's mentioned in message body.
-amd64 ~ppc x86
-
-nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=mail-client/claws-mail-3.7.0 nls? ( >=sys-devel/gettext-0.12.1 ) dev-util/pkgconfig
+DESCRIPTION=Warn about missing attachment, if it's mentioned in message body.
+EAPI=0
+HOMEPAGE=http://www.claws-mail.org/
+IUSE=nls
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-3
+RDEPEND=>=mail-client/claws-mail-3.7.0 nls? ( >=sys-devel/gettext-0.12.1 )
+SLOT=0
+SRC_URI=http://www.claws-mail.org/downloads/plugins/attachwarner-0.2.15.tar.gz
+_mtime_=1235082866

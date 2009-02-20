@@ -1,22 +1,12 @@
-dev-libs/dbus-glib >=media-video/gnome-mplayer-0.6.2 || ( =net-libs/xulrunner-1.8* =www-client/mozilla-firefox-2* =www-client/seamonkey-1* www-client/epiphany ) dev-util/pkgconfig sys-devel/gettext >=sys-apps/sed-4
-dev-libs/dbus-glib >=media-video/gnome-mplayer-0.6.2 || ( =net-libs/xulrunner-1.8* =www-client/mozilla-firefox-2* =www-client/seamonkey-1* www-client/epiphany )
-0
-http://gecko-mediaplayer.googlecode.com/files/gecko-mediaplayer-0.6.3.tar.gz
-
-http://code.google.com/p/gecko-mediaplayer
-GPL-2
-A browser plug-in for GNOME MPlayer.
-~amd64 ~x86
-toolchain-funcs multilib gnome2-utils gnome2 gnome.org fdo-mime libtool
-
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=dev-libs/dbus-glib >=media-video/gnome-mplayer-0.6.2 || ( =net-libs/xulrunner-1.8* =www-client/mozilla-firefox-2* =www-client/seamonkey-1* www-client/epiphany ) dev-util/pkgconfig sys-devel/gettext >=sys-apps/sed-4
+DESCRIPTION=A browser plug-in for GNOME MPlayer.
+EAPI=0
+HOMEPAGE=http://code.google.com/p/gecko-mediaplayer
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/dbus-glib >=media-video/gnome-mplayer-0.6.2 || ( =net-libs/xulrunner-1.8* =www-client/mozilla-firefox-2* =www-client/seamonkey-1* www-client/epiphany )
+SLOT=0
+SRC_URI=http://gecko-mediaplayer.googlecode.com/files/gecko-mediaplayer-0.6.3.tar.gz
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

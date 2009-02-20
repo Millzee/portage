@@ -1,22 +1,12 @@
-
-dev-perl/URI virtual/perl-MIME-Base64 dev-perl/libwww-perl dev-perl/Net-SSLeay dev-perl/Crypt-SSLeay dev-perl/HTML-Parser xml? ( dev-perl/XML-Twig )
-0
-mirror://sourceforge/httpush/httpush-0.9b11.tar.gz
-
-http://httpush.sourceforge.net/
-BSD
-Httpush is an intercepting proxy, allowing user to modify HTTP requests on-the-fly
-~x86
-toolchain-funcs multilib portability eutils
-xml
-
-
-
-0
-
-install setup unpack
-
-
-
-
-
+DEFINED_PHASES=install setup unpack
+DESCRIPTION=Httpush is an intercepting proxy, allowing user to modify HTTP requests on-the-fly
+EAPI=0
+HOMEPAGE=http://httpush.sourceforge.net/
+IUSE=xml
+KEYWORDS=~x86
+LICENSE=BSD
+RDEPEND=dev-perl/URI virtual/perl-MIME-Base64 dev-perl/libwww-perl dev-perl/Net-SSLeay dev-perl/Crypt-SSLeay dev-perl/HTML-Parser xml? ( dev-perl/XML-Twig )
+SLOT=0
+SRC_URI=mirror://sourceforge/httpush/httpush-0.9b11.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

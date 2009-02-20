@@ -1,22 +1,13 @@
-www-servers/apache virtual/php >=app-admin/webapp-config-1.50.15
-www-servers/apache virtual/php >=app-admin/webapp-config-1.50.15
-3.3.9
-mirror://sourceforge/sitebar/SiteBar-3.3.9.tar.bz2
-
-http://sitebar.sourceforge.net/
-GPL-2
-The Bookmark Server for Personal and Team Use
-~amd64 ppc ~x86
-toolchain-funcs multilib portability eutils webapp
-vhosts
-
-
-
-0
-
-install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=www-servers/apache virtual/php >=app-admin/webapp-config-1.50.15
+DESCRIPTION=The Bookmark Server for Personal and Team Use
+EAPI=0
+HOMEPAGE=http://sitebar.sourceforge.net/
+IUSE=vhosts
+KEYWORDS=~amd64 ppc ~x86
+LICENSE=GPL-2
+RDEPEND=www-servers/apache virtual/php >=app-admin/webapp-config-1.50.15
+SLOT=3.3.9
+SRC_URI=mirror://sourceforge/sitebar/SiteBar-3.3.9.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

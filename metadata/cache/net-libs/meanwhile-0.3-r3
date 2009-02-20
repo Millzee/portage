@@ -1,22 +1,10 @@
-
-
-0
-mirror://sourceforge/meanwhile/meanwhile-0.3.tar.gz
-
-http://meanwhile.sourceforge.net/
-GPL-2
-Meanwhile (Sametime protocol) library
-x86 ppc ~sparc
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Meanwhile (Sametime protocol) library
+EAPI=0
+HOMEPAGE=http://meanwhile.sourceforge.net/
+KEYWORDS=x86 ppc ~sparc
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/meanwhile/meanwhile-0.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

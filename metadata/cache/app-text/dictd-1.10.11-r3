@@ -1,22 +1,13 @@
-sys-apps/coreutils sys-libs/zlib dbi? ( dev-db/libdbi ) judy? ( dev-libs/judy ) || ( >=sys-apps/coreutils-6.10 sys-apps/mktemp ) sys-apps/sed =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-sys-apps/coreutils sys-libs/zlib dbi? ( dev-db/libdbi ) judy? ( dev-libs/judy ) || ( >=sys-apps/coreutils-6.10 sys-apps/mktemp ) sys-apps/sed >=sys-apps/gawk-3.1.6
-0
-mirror://sourceforge/dict/dictd-1.10.11.tar.gz
-
-http://www.dict.org/
-GPL-2 ISOC-rfc
-Dictionary Client/Server for the DICT protocol
-alpha amd64 ~hppa ia64 ~mips ppc ~ppc64 sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-dbi judy
-
-
-
-0
-
-compile install postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test unpack
+DEPEND=sys-apps/coreutils sys-libs/zlib dbi? ( dev-db/libdbi ) judy? ( dev-libs/judy ) || ( >=sys-apps/coreutils-6.10 sys-apps/mktemp ) sys-apps/sed =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Dictionary Client/Server for the DICT protocol
+EAPI=0
+HOMEPAGE=http://www.dict.org/
+IUSE=dbi judy
+KEYWORDS=alpha amd64 ~hppa ia64 ~mips ppc ~ppc64 sparc x86
+LICENSE=GPL-2 ISOC-rfc
+RDEPEND=sys-apps/coreutils sys-libs/zlib dbi? ( dev-db/libdbi ) judy? ( dev-libs/judy ) || ( >=sys-apps/coreutils-6.10 sys-apps/mktemp ) sys-apps/sed >=sys-apps/gawk-3.1.6
+SLOT=0
+SRC_URI=mirror://sourceforge/dict/dictd-1.10.11.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

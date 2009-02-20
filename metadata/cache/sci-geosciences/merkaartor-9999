@@ -1,22 +1,11 @@
-x11-libs/qt-webkit:4 x11-libs/qt-gui:4 media-gfx/exiv2 dev-util/subversion net-misc/rsync
-x11-libs/qt-webkit:4 x11-libs/qt-gui:4 media-gfx/exiv2
-0
-
-
-http://www.irule.be/bvh/c++/merkaartor/
-GPL-2
-A Qt4 based map editor for the openstreetmap.org project
-
-qt4 toolchain-funcs portability versionator multilib subversion eutils
-nls
-
-
-
-1
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=x11-libs/qt-webkit:4 x11-libs/qt-gui:4 media-gfx/exiv2 dev-util/subversion net-misc/rsync
+DESCRIPTION=A Qt4 based map editor for the openstreetmap.org project
+EAPI=1
+HOMEPAGE=http://www.irule.be/bvh/c++/merkaartor/
+IUSE=nls
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt-webkit:4 x11-libs/qt-gui:4 media-gfx/exiv2
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

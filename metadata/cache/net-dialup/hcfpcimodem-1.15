@@ -1,22 +1,13 @@
-dev-lang/perl app-arch/cpio kernel_linux? ( virtual/linux-sources )
-dev-lang/perl app-arch/cpio
-0
-http://www.linuxant.com/drivers/hcf/full/archive/hcfpcimodem-1.15full/hcfpcimodem-1.15full.tar.gz doc? ( http://www.linuxant.com/drivers/hcf/full/archive/hcfpcimodem-1.15full/100498D_RM_HxF_Released.pdf )
-
-http://www.linuxant.com/drivers/hcf/index.php
-Conexant
-Linuxant's modem driver for Connexant HCF chipset
--* ~x86
-toolchain-funcs portability versionator multilib linux-info eutils
-doc
-
-
-
-0
-
-compile install postinst preinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst prerm setup
+DEPEND=dev-lang/perl app-arch/cpio kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=Linuxant's modem driver for Connexant HCF chipset
+EAPI=0
+HOMEPAGE=http://www.linuxant.com/drivers/hcf/index.php
+IUSE=doc
+KEYWORDS=-* ~x86
+LICENSE=Conexant
+RDEPEND=dev-lang/perl app-arch/cpio
+SLOT=0
+SRC_URI=http://www.linuxant.com/drivers/hcf/full/archive/hcfpcimodem-1.15full/hcfpcimodem-1.15full.tar.gz doc? ( http://www.linuxant.com/drivers/hcf/full/archive/hcfpcimodem-1.15full/100498D_RM_HxF_Released.pdf )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

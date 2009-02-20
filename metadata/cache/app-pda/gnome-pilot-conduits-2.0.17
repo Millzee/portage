@@ -1,22 +1,13 @@
-sys-devel/gettext dev-util/pkgconfig >=gnome-base/libgnome-2.0 >=app-pda/gnome-pilot-2.0.17 >=dev-libs/libxml2-2.5 >=sys-apps/sed-4
->=gnome-base/libgnome-2.0 >=app-pda/gnome-pilot-2.0.17 >=dev-libs/libxml2-2.5
-0
-mirror://gnome/sources/gnome-pilot-conduits/2.0/gnome-pilot-conduits-2.0.17.tar.bz2
-
-http://live.gnome.org/GnomePilot
-GPL-2
-Gnome Pilot Conduits
-~amd64 ~ppc ~sparc ~x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=sys-devel/gettext dev-util/pkgconfig >=gnome-base/libgnome-2.0 >=app-pda/gnome-pilot-2.0.17 >=dev-libs/libxml2-2.5 >=sys-apps/sed-4
+DESCRIPTION=Gnome Pilot Conduits
+EAPI=0
+HOMEPAGE=http://live.gnome.org/GnomePilot
+IUSE=debug
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=gnome-base/libgnome-2.0 >=app-pda/gnome-pilot-2.0.17 >=dev-libs/libxml2-2.5
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnome-pilot-conduits/2.0/gnome-pilot-conduits-2.0.17.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

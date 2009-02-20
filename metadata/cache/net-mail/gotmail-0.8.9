@@ -1,22 +1,12 @@
-virtual/libc net-misc/curl dev-perl/URI virtual/perl-libnet app-arch/gzip
-virtual/libc net-misc/curl dev-perl/URI virtual/perl-libnet app-arch/gzip
-0
-mirror://sourceforge/gotmail/gotmail-0.8.9.tar.gz
-
-http://sourceforge.net/projects/gotmail
-GPL-2
-Utility to download mail from a HotMail account
-~amd64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc net-misc/curl dev-perl/URI virtual/perl-libnet app-arch/gzip
+DESCRIPTION=Utility to download mail from a HotMail account
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/gotmail
+KEYWORDS=~amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc net-misc/curl dev-perl/URI virtual/perl-libnet app-arch/gzip
+SLOT=0
+SRC_URI=mirror://sourceforge/gotmail/gotmail-0.8.9.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

@@ -1,22 +1,11 @@
->=dev-libs/dietlibc-0.23 >=sys-apps/sed-4
->=dev-libs/dietlibc-0.23
-0
-http://dl.fefe.de/libowfat-0.22.tar.bz2
-
-http://www.fefe.de/libowfat/
-GPL-2
-reimplement libdjb - excellent libraries from Dan Bernstein.
-~x86 ~sparc ~ppc ~amd64
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/dietlibc-0.23 >=sys-apps/sed-4
+DESCRIPTION=reimplement libdjb - excellent libraries from Dan Bernstein.
+EAPI=0
+HOMEPAGE=http://www.fefe.de/libowfat/
+KEYWORDS=~x86 ~sparc ~ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/dietlibc-0.23
+SLOT=0
+SRC_URI=http://dl.fefe.de/libowfat-0.22.tar.bz2
+_mtime_=1235082854

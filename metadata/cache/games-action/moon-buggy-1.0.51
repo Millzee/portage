@@ -1,22 +1,13 @@
-esd? ( media-sound/esound ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-esd? ( media-sound/esound )
-0
-http://www.seehuhn.de/data/moon-buggy-1.0.51.tar.gz esd? ( http://www.seehuhn.de/data/moon-buggy-sound-1.0.51.tar.gz )
-
-http://www.seehuhn.de/comp/moon-buggy.html
-GPL-2
-A simple console game, where you drive a car across the moon's surface
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base libtool games autotools eutils
-esd
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=esd? ( media-sound/esound ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A simple console game, where you drive a car across the moon's surface
+EAPI=2
+HOMEPAGE=http://www.seehuhn.de/comp/moon-buggy.html
+IUSE=esd
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=esd? ( media-sound/esound )
+SLOT=0
+SRC_URI=http://www.seehuhn.de/data/moon-buggy-1.0.51.tar.gz esd? ( http://www.seehuhn.de/data/moon-buggy-sound-1.0.51.tar.gz )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

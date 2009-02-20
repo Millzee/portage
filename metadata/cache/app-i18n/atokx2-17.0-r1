@@ -1,22 +1,14 @@
->=x11-libs/gtk+-2.2 ext-iiimf? ( >=dev-libs/libiiimcf-12.1 >=dev-libs/csconv-12.1 >=app-i18n/iiimgcf-12.1 >=dev-libs/libiiimp-12.1 >=app-i18n/iiimsf-12.1 >=app-i18n/iiimxcf-12.1 ) !ext-iiimf? ( !dev-libs/libiiimcf !dev-libs/csconv !app-i18n/iiimgcf !dev-libs/libiiimp !app-i18n/iiimsf !app-i18n/iiimxcf )
->=x11-libs/gtk+-2.2 ext-iiimf? ( >=dev-libs/libiiimcf-12.1 >=dev-libs/csconv-12.1 >=app-i18n/iiimgcf-12.1 >=dev-libs/libiiimp-12.1 >=app-i18n/iiimsf-12.1 >=app-i18n/iiimxcf-12.1 ) !ext-iiimf? ( !dev-libs/libiiimcf !dev-libs/csconv !app-i18n/iiimgcf !dev-libs/libiiimp !app-i18n/iiimsf !app-i18n/iiimxcf )
-0
-
-strip
-http://www.justsystem.co.jp/linux/atok.html
-ATOK X11
-ATOK for Linux - The most famous Japanese Input Method Engine
--* x86
-toolchain-funcs multilib portability eutils
-ext-iiimf
-
-
-
-0
-interactive
-install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=>=x11-libs/gtk+-2.2 ext-iiimf? ( >=dev-libs/libiiimcf-12.1 >=dev-libs/csconv-12.1 >=app-i18n/iiimgcf-12.1 >=dev-libs/libiiimp-12.1 >=app-i18n/iiimsf-12.1 >=app-i18n/iiimxcf-12.1 ) !ext-iiimf? ( !dev-libs/libiiimcf !dev-libs/csconv !app-i18n/iiimgcf !dev-libs/libiiimp !app-i18n/iiimsf !app-i18n/iiimxcf )
+DESCRIPTION=ATOK for Linux - The most famous Japanese Input Method Engine
+EAPI=0
+HOMEPAGE=http://www.justsystem.co.jp/linux/atok.html
+IUSE=ext-iiimf
+KEYWORDS=-* x86
+LICENSE=ATOK X11
+PROPERTIES=interactive
+RDEPEND=>=x11-libs/gtk+-2.2 ext-iiimf? ( >=dev-libs/libiiimcf-12.1 >=dev-libs/csconv-12.1 >=app-i18n/iiimgcf-12.1 >=dev-libs/libiiimp-12.1 >=app-i18n/iiimsf-12.1 >=app-i18n/iiimxcf-12.1 ) !ext-iiimf? ( !dev-libs/libiiimcf !dev-libs/csconv !app-i18n/iiimgcf !dev-libs/libiiimp !app-i18n/iiimsf !app-i18n/iiimxcf )
+RESTRICT=strip
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

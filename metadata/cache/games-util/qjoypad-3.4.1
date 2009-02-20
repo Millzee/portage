@@ -1,22 +1,12 @@
-x11-libs/libXtst x11-libs/qt:3 x11-proto/inputproto x11-proto/xextproto x11-proto/xproto
-x11-libs/libXtst x11-libs/qt:3
-0
-mirror://sourceforge/qjoypad/qjoypad-3.4.1.tgz
-
-http://qjoypad.sourceforge.net/
-GPL-2
-translate gamepad/joystick input into key strokes/mouse actions in X
-amd64 ppc x86
-toolchain-funcs qt3 portability versionator multilib eutils
-
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXtst x11-libs/qt:3 x11-proto/inputproto x11-proto/xextproto x11-proto/xproto
+DESCRIPTION=translate gamepad/joystick input into key strokes/mouse actions in X
+EAPI=1
+HOMEPAGE=http://qjoypad.sourceforge.net/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXtst x11-libs/qt:3
+SLOT=0
+SRC_URI=mirror://sourceforge/qjoypad/qjoypad-3.4.1.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

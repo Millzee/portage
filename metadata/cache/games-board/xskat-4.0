@@ -1,22 +1,12 @@
-x11-libs/libX11 media-fonts/font-misc-misc x11-misc/gccmakedep x11-misc/imake x11-proto/xproto
-x11-libs/libX11 media-fonts/font-misc-misc
-0
-http://www.xskat.de/xskat-4.0.tar.gz
-
-http://www.xskat.de/xskat.html
-freedist
-Famous german card game
-amd64 ppc ppc64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=x11-libs/libX11 media-fonts/font-misc-misc x11-misc/gccmakedep x11-misc/imake x11-proto/xproto
+DESCRIPTION=Famous german card game
+EAPI=0
+HOMEPAGE=http://www.xskat.de/xskat.html
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=freedist
+RDEPEND=x11-libs/libX11 media-fonts/font-misc-misc
+SLOT=0
+SRC_URI=http://www.xskat.de/xskat-4.0.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

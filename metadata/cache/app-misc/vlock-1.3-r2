@@ -1,22 +1,12 @@
-sys-libs/pam
-sys-libs/pam
-0
-ftp://ftp.ibiblio.org/pub/Linux/utils/console/vlock-1.3.tar.gz
-
-ftp://ftp.ibiblio.org/pub/Linux/utils/console/
-GPL-2
-A console screen locker
-alpha amd64 ia64 mips ppc ppc64 sparc x86
-toolchain-funcs multilib pam
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/pam
+DESCRIPTION=A console screen locker
+EAPI=0
+HOMEPAGE=ftp://ftp.ibiblio.org/pub/Linux/utils/console/
+KEYWORDS=alpha amd64 ia64 mips ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/pam
+SLOT=0
+SRC_URI=ftp://ftp.ibiblio.org/pub/Linux/utils/console/vlock-1.3.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

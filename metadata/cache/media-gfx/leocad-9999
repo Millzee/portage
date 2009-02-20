@@ -1,22 +1,12 @@
-virtual/opengl x11-libs/gtk+:2 jpeg? ( media-libs/jpeg ) zlib? ( sys-libs/zlib ) png? ( media-libs/libpng ) dev-util/subversion net-misc/rsync
-virtual/opengl x11-libs/gtk+:2 jpeg? ( media-libs/jpeg ) zlib? ( sys-libs/zlib ) png? ( media-libs/libpng )
-0
-
-
-http://www.leocad.org
-GPL-2
-LeoCAD is a CAD program that uses bricks similar to those found in many toys.
-~amd64
-subversion toolchain-funcs multilib portability eutils
-jpeg zlib png
-
-
-
-1
-
-compile install postinst preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst unpack
+DEPEND=virtual/opengl x11-libs/gtk+:2 jpeg? ( media-libs/jpeg ) zlib? ( sys-libs/zlib ) png? ( media-libs/libpng ) dev-util/subversion net-misc/rsync
+DESCRIPTION=LeoCAD is a CAD program that uses bricks similar to those found in many toys.
+EAPI=1
+HOMEPAGE=http://www.leocad.org
+IUSE=jpeg zlib png
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=virtual/opengl x11-libs/gtk+:2 jpeg? ( media-libs/jpeg ) zlib? ( sys-libs/zlib ) png? ( media-libs/libpng )
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

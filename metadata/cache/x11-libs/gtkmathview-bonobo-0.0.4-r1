@@ -1,22 +1,13 @@
->=x11-libs/gtkmathview-0.6.2[gtk] >=gnome-base/libbonobo-2 >=gnome-base/libbonoboui-2 >=gnome-base/libgnomeui-2 dev-util/pkgconfig >=sys-apps/sed-4
->=x11-libs/gtkmathview-0.6.2[gtk] >=gnome-base/libbonobo-2 >=gnome-base/libbonoboui-2 >=gnome-base/libgnomeui-2
-0
-http://helm.cs.unibo.it/gtkmathview-bonobo/sources/gtkmathview-bonobo-0.0.4.tar.gz
-
-http://helm.cs.unibo.it/gtkmathview-bonobo/
-GPL-2
-Bonobo wrapper for GtkMathView
-~amd64 ~ppc ~x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-debug
-
-
-
-2
-
-compile configure install postinst postrm preinst prepare unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare unpack
+DEPEND=>=x11-libs/gtkmathview-0.6.2[gtk] >=gnome-base/libbonobo-2 >=gnome-base/libbonoboui-2 >=gnome-base/libgnomeui-2 dev-util/pkgconfig >=sys-apps/sed-4
+DESCRIPTION=Bonobo wrapper for GtkMathView
+EAPI=2
+HOMEPAGE=http://helm.cs.unibo.it/gtkmathview-bonobo/
+IUSE=debug
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtkmathview-0.6.2[gtk] >=gnome-base/libbonobo-2 >=gnome-base/libbonoboui-2 >=gnome-base/libgnomeui-2
+SLOT=0
+SRC_URI=http://helm.cs.unibo.it/gtkmathview-bonobo/sources/gtkmathview-bonobo-0.0.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

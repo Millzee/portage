@@ -1,22 +1,12 @@
-sys-apps/groff
-sys-apps/groff
-0
-http://public.activestate.com/gsar/dmake-4.1pl1-src.tar.gz
-
-http://tools.openoffice.org/dmake/
-GPL-1
-Improved make
-~amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-apps/groff
+DESCRIPTION=Improved make
+EAPI=0
+HOMEPAGE=http://tools.openoffice.org/dmake/
+KEYWORDS=~amd64 ppc sparc x86
+LICENSE=GPL-1
+RDEPEND=sys-apps/groff
+SLOT=0
+SRC_URI=http://public.activestate.com/gsar/dmake-4.1pl1-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

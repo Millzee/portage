@@ -1,22 +1,12 @@
-=x11-libs/gtk+-2* >=games-util/qstat-2.11 nls? ( virtual/libintl ) geoip? ( dev-libs/geoip ) bzip2? ( app-arch/bzip2 ) dev-util/pkgconfig nls? ( sys-devel/gettext )
-=x11-libs/gtk+-2* >=games-util/qstat-2.11 nls? ( virtual/libintl ) geoip? ( dev-libs/geoip ) bzip2? ( app-arch/bzip2 )
-0
-mirror://sourceforge/xqf/xqf-1.0.5.tar.gz
-
-http://www.linuxgames.com/xqf/
-GPL-2
-A server browser for many FPS games (frontend for qstat)
-~amd64 ~hppa ~ppc ~x86
-
-bzip2 geoip nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND==x11-libs/gtk+-2* >=games-util/qstat-2.11 nls? ( virtual/libintl ) geoip? ( dev-libs/geoip ) bzip2? ( app-arch/bzip2 ) dev-util/pkgconfig nls? ( sys-devel/gettext )
+DESCRIPTION=A server browser for many FPS games (frontend for qstat)
+EAPI=0
+HOMEPAGE=http://www.linuxgames.com/xqf/
+IUSE=bzip2 geoip nls
+KEYWORDS=~amd64 ~hppa ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/gtk+-2* >=games-util/qstat-2.11 nls? ( virtual/libintl ) geoip? ( dev-libs/geoip ) bzip2? ( app-arch/bzip2 )
+SLOT=0
+SRC_URI=mirror://sourceforge/xqf/xqf-1.0.5.tar.gz
+_mtime_=1235082861

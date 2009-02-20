@@ -1,22 +1,12 @@
->=dev-lisp/cl-trivial-gray-streams-20060925 dev-lisp/common-lisp-controller
->=dev-lisp/cl-trivial-gray-streams-20060925
-0
-http://common-lisp.net/project/portage-overlay/distfiles/flexi-streams_0.6.6.orig.tar.gz
-
-http://weitz.de/flexi-streams/ http://www.cliki.net/flexi-streams
-BSD
-FLEXI-STREAMS implements "virtual" bivalent streams that can be layered atop real binary or bivalent streams.
-~amd64 ~ppc ~sparc ~x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst
+DEPEND=>=dev-lisp/cl-trivial-gray-streams-20060925 dev-lisp/common-lisp-controller
+DESCRIPTION=FLEXI-STREAMS implements "virtual" bivalent streams that can be layered atop real binary or bivalent streams.
+EAPI=0
+HOMEPAGE=http://weitz.de/flexi-streams/ http://www.cliki.net/flexi-streams
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=BSD
+RDEPEND=>=dev-lisp/cl-trivial-gray-streams-20060925
+SLOT=0
+SRC_URI=http://common-lisp.net/project/portage-overlay/distfiles/flexi-streams_0.6.6.orig.tar.gz
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

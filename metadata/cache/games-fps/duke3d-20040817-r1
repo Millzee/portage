@@ -1,22 +1,13 @@
-media-libs/libsdl media-libs/sdl-mixer media-sound/timidity++ media-sound/timidity-eawpatches perl? ( dev-lang/perl ) opengl? ( virtual/opengl ) !pic? ( x86? ( dev-lang/nasm ) )
-media-libs/libsdl media-libs/sdl-mixer media-sound/timidity++ media-sound/timidity-eawpatches perl? ( dev-lang/perl ) opengl? ( virtual/opengl )
-0
-mirror://gentoo/duke3d-20040817.tar.bz2
-
-http://icculus.org/projects/duke3d/
-GPL-2
-port of the original DukeNukem 3D
-hppa ppc x86
-toolchain-funcs portability flag-o-matic multilib base games eutils
-pic perl opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-mixer media-sound/timidity++ media-sound/timidity-eawpatches perl? ( dev-lang/perl ) opengl? ( virtual/opengl ) !pic? ( x86? ( dev-lang/nasm ) )
+DESCRIPTION=port of the original DukeNukem 3D
+EAPI=0
+HOMEPAGE=http://icculus.org/projects/duke3d/
+IUSE=pic perl opengl
+KEYWORDS=hppa ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-mixer media-sound/timidity++ media-sound/timidity-eawpatches perl? ( dev-lang/perl ) opengl? ( virtual/opengl )
+SLOT=0
+SRC_URI=mirror://gentoo/duke3d-20040817.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,13 @@
-sys-libs/zlib test? ( dev-libs/check ) kernel_linux? ( virtual/linux-sources )
-sys-libs/zlib
-0
-http://code.kryo.se/iodine/iodine-0.5.0.tar.gz
-
-http://code.kryo.se/iodine/
-ISC
-IP over DNS tunnel
-~amd64 ~ia64 ~sparc ~x86
-linux-info toolchain-funcs multilib versionator
-test
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DEPEND=sys-libs/zlib test? ( dev-libs/check ) kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=IP over DNS tunnel
+EAPI=0
+HOMEPAGE=http://code.kryo.se/iodine/
+IUSE=test
+KEYWORDS=~amd64 ~ia64 ~sparc ~x86
+LICENSE=ISC
+RDEPEND=sys-libs/zlib
+SLOT=0
+SRC_URI=http://code.kryo.se/iodine/iodine-0.5.0.tar.gz
+_eclasses_=linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

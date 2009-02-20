@@ -1,22 +1,14 @@
-app-arch/unzip
-games-fps/doom3
-0
-mirror://filefront/Doom_III/Supported_Mods/Beta_Releases/Chex_Trek_Beyond_the_Quest/chextrekbeta_0.5.zip
-mirror strip
-http://www.chextrek.xv15mods.com/
-as-is
-Doom III Chex Trek: Beyond the Quest - Green slimeballs mod for kids
--* amd64 x86
-toolchain-funcs portability versionator multilib base games games-mods eutils
-dedicated opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Doom III Chex Trek: Beyond the Quest - Green slimeballs mod for kids
+EAPI=0
+HOMEPAGE=http://www.chextrek.xv15mods.com/
+IUSE=dedicated opengl
+KEYWORDS=-* amd64 x86
+LICENSE=as-is
+RDEPEND=games-fps/doom3
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=mirror://filefront/Doom_III/Supported_Mods/Beta_Releases/Chex_Trek_Beyond_the_Quest/chextrekbeta_0.5.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	games-mods	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

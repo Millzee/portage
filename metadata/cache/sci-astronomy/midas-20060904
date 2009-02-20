@@ -1,22 +1,12 @@
-x11-libs/libXt x11-libs/libX11 x11-libs/openmotif sys-libs/ncurses sys-libs/readline
-x11-libs/libXt x11-libs/libX11 x11-libs/openmotif sys-libs/ncurses sys-libs/readline x11-apps/xwininfo
-0
-ftp://ftphost.hq.eso.org/pub/midaspub/06SEP/sources/06SEPpl1.0.tar.gz
-
-http://www.eso.org/projects/esomidas/
-GPL-2
-general tools for image processing and data reduction with emphasis on astronomical applications
-~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXt x11-libs/libX11 x11-libs/openmotif sys-libs/ncurses sys-libs/readline
+DESCRIPTION=general tools for image processing and data reduction with emphasis on astronomical applications
+EAPI=0
+HOMEPAGE=http://www.eso.org/projects/esomidas/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXt x11-libs/libX11 x11-libs/openmotif sys-libs/ncurses sys-libs/readline x11-apps/xwininfo
+SLOT=0
+SRC_URI=ftp://ftphost.hq.eso.org/pub/midaspub/06SEP/sources/06SEPpl1.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

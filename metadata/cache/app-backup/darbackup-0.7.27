@@ -1,22 +1,11 @@
-dev-util/subversion net-misc/rsync
->=app-backup/dar-2.2.6 || ( dev-util/bdelta dev-util/xdelta ) net-misc/openssh
-0
-
-
-https://faracvs.cs.uni-magdeburg.de/projects/christsc-darbackup/
-GPL-2
-a wrapper script for creating backups using dar
-~amd64 ~x86
-subversion toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=install preinst setup unpack
+DEPEND=dev-util/subversion net-misc/rsync
+DESCRIPTION=a wrapper script for creating backups using dar
+EAPI=0
+HOMEPAGE=https://faracvs.cs.uni-magdeburg.de/projects/christsc-darbackup/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-backup/dar-2.2.6 || ( dev-util/bdelta dev-util/xdelta ) net-misc/openssh
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

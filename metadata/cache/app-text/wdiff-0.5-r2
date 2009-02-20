@@ -1,22 +1,12 @@
-sys-apps/diffutils sys-apps/less
-sys-apps/diffutils sys-apps/less
-0
-mirror://gnu/wdiff/wdiff-0.5.tar.gz mirror://gentoo/wdiff-0.5-gentoo.diff.bz2
-
-http://www.gnu.org/software/wdiff/
-GPL-2
-Create a diff disregarding formatting
-alpha amd64 ~hppa ia64 ~mips ppc ~ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-apps/diffutils sys-apps/less
+DESCRIPTION=Create a diff disregarding formatting
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/wdiff/
+KEYWORDS=alpha amd64 ~hppa ia64 ~mips ppc ~ppc64 sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=sys-apps/diffutils sys-apps/less
+SLOT=0
+SRC_URI=mirror://gnu/wdiff/wdiff-0.5.tar.gz mirror://gentoo/wdiff-0.5-gentoo.diff.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

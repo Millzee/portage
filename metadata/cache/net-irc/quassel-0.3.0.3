@@ -1,22 +1,13 @@
-x11-libs/qt-core:4 server? ( x11-libs/qt-sql:4 x11-libs/qt-script:4 ) X? ( x11-libs/qt-gui:4 ) dbus? ( x11-libs/qt-dbus ) ssl? ( dev-libs/openssl ) >=dev-util/cmake-2.4.7 >=dev-util/cmake-2.4.6
-x11-libs/qt-core:4 server? ( x11-libs/qt-sql:4 x11-libs/qt-script:4 ) X? ( x11-libs/qt-gui:4 ) dbus? ( x11-libs/qt-dbus ) ssl? ( dev-libs/openssl )
-0
-http://quassel-irc.org/pub/quassel-0.3.0.3.tar.bz2
-
-http://quassel-irc.org/
-GPL-3
-Core/client IRC client.
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-+dbus debug +server +ssl +X linguas_nb_NO linguas_da linguas_de linguas_fr
-
-
-
-1
-
-compile install postinst setup test
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test
+DEPEND=x11-libs/qt-core:4 server? ( x11-libs/qt-sql:4 x11-libs/qt-script:4 ) X? ( x11-libs/qt-gui:4 ) dbus? ( x11-libs/qt-dbus ) ssl? ( dev-libs/openssl ) >=dev-util/cmake-2.4.7 >=dev-util/cmake-2.4.6
+DESCRIPTION=Core/client IRC client.
+EAPI=1
+HOMEPAGE=http://quassel-irc.org/
+IUSE=+dbus debug +server +ssl +X linguas_nb_NO linguas_da linguas_de linguas_fr
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=x11-libs/qt-core:4 server? ( x11-libs/qt-sql:4 x11-libs/qt-script:4 ) X? ( x11-libs/qt-gui:4 ) dbus? ( x11-libs/qt-dbus ) ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=http://quassel-irc.org/pub/quassel-0.3.0.3.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

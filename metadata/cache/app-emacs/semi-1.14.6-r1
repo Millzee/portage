@@ -1,22 +1,13 @@
->=app-emacs/apel-10.6 virtual/flim >=virtual/emacs-21
->=app-emacs/apel-10.6 virtual/flim >=virtual/emacs-21
-0
-http://kanji.zinbun.kyoto-u.ac.jp/~tomo/lemi/dist/semi/semi-1.14-for-flim-1.14/semi-1.14.6.tar.gz
-
-http://www.kanji.zinbun.kyoto-u.ac.jp/~tomo/elisp/SEMI/
-GPL-2
-A library to provide MIME feature for GNU Emacs
-alpha amd64 ~ppc sparc x86
-toolchain-funcs elisp-common portability elisp versionator multilib eutils
-linguas_ja
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=app-emacs/apel-10.6 virtual/flim >=virtual/emacs-21
+DESCRIPTION=A library to provide MIME feature for GNU Emacs
+EAPI=0
+HOMEPAGE=http://www.kanji.zinbun.kyoto-u.ac.jp/~tomo/elisp/SEMI/
+IUSE=linguas_ja
+KEYWORDS=alpha amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=app-emacs/apel-10.6 virtual/flim >=virtual/emacs-21
+SLOT=0
+SRC_URI=http://kanji.zinbun.kyoto-u.ac.jp/~tomo/lemi/dist/semi/semi-1.14-for-flim-1.14/semi-1.14.6.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

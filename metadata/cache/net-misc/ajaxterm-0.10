@@ -1,22 +1,10 @@
-
->=dev-lang/python-2.0
-0
-http://antony.lesuisse.org/qweb/files/Ajaxterm-0.10.tar.gz
-
-http://antony.lesuisse.org/qweb/trac/wiki/AjaxTerm
-public-domain LGPL-2
-Ajaxterm is a web based terminal
-~amd64 ~sparc ~x86
-
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=Ajaxterm is a web based terminal
+EAPI=0
+HOMEPAGE=http://antony.lesuisse.org/qweb/trac/wiki/AjaxTerm
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=public-domain LGPL-2
+RDEPEND=>=dev-lang/python-2.0
+SLOT=0
+SRC_URI=http://antony.lesuisse.org/qweb/files/Ajaxterm-0.10.tar.gz
+_mtime_=1235082894

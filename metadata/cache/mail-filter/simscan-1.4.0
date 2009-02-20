@@ -1,22 +1,14 @@
-attachment? ( net-mail/ripmime ) clamav? ( app-antivirus/clamav ) spamassassin? ( mail-filter/spamassassin ) regex? ( dev-libs/libpcre ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
-attachment? ( net-mail/ripmime ) clamav? ( app-antivirus/clamav ) spamassassin? ( mail-filter/spamassassin ) regex? ( dev-libs/libpcre ) virtual/qmail
-0
-mirror://sourceforge/simscan/simscan-1.4.0.tar.gz
-test
-http://inter7.com/?page=simscan
-GPL-2
-Simscan, a qmail scanner
-~x86 ~amd64
-toolchain-funcs portability flag-o-matic multilib fixheadtails libtool autotools eutils
-attachment clamav dropmsg passthru per-domain quarantine regex received spamassassin
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=attachment? ( net-mail/ripmime ) clamav? ( app-antivirus/clamav ) spamassassin? ( mail-filter/spamassassin ) regex? ( dev-libs/libpcre ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
+DESCRIPTION=Simscan, a qmail scanner
+EAPI=0
+HOMEPAGE=http://inter7.com/?page=simscan
+IUSE=attachment clamav dropmsg passthru per-domain quarantine regex received spamassassin
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=attachment? ( net-mail/ripmime ) clamav? ( app-antivirus/clamav ) spamassassin? ( mail-filter/spamassassin ) regex? ( dev-libs/libpcre ) virtual/qmail
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/simscan/simscan-1.4.0.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

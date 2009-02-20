@@ -1,22 +1,12 @@
-doc? ( app-doc/doxygen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-http://seal.web.cern.ch/seal/MathLibs/Minuit2/Minuit2-5.22.00.tar.gz doc? ( http://seal.cern.ch/documents/minuit/mnusersguide.pdf http://seal.cern.ch/documents/minuit/mntutorial.pdf )
-
-http://seal.web.cern.ch/seal/MathLibs/Minuit2/html/index.html
-GPL-2
-A C++ physics analysis tool for function minimization
-~x86 ~amd64
-toolchain-funcs portability flag-o-matic multilib libtool autotools eutils
-doc openmp
-
-
-
-2
-
-compile install prepare setup test
-
-
-
-
-
+DEFINED_PHASES=compile install prepare setup test
+DEPEND=doc? ( app-doc/doxygen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A C++ physics analysis tool for function minimization
+EAPI=2
+HOMEPAGE=http://seal.web.cern.ch/seal/MathLibs/Minuit2/html/index.html
+IUSE=doc openmp
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://seal.web.cern.ch/seal/MathLibs/Minuit2/Minuit2-5.22.00.tar.gz doc? ( http://seal.cern.ch/documents/minuit/mnusersguide.pdf http://seal.cern.ch/documents/minuit/mntutorial.pdf )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,14 @@
->=dev-util/cmake-2.4 !app-cdr/cdrtools kernel_linux? ( sys-libs/libcap ) unicode? ( virtual/libiconv ) hfs? ( sys-apps/file )
-unicode? ( virtual/libiconv ) kernel_linux? ( sys-libs/libcap )
-0
-http://cdrkit.org/releases/cdrkit-1.1.9.tar.gz
-
-http://cdrkit.org/
-GPL-2 LGPL-2.1
-A set of tools for CD/DVD reading and recording, including cdrecord
-~alpha amd64 hppa ia64 ppc ppc64 s390 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-hfs unicode kernel_linux kernel_FreeBSD
-
-
-virtual/cdrtools
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=dev-util/cmake-2.4 !app-cdr/cdrtools kernel_linux? ( sys-libs/libcap ) unicode? ( virtual/libiconv ) hfs? ( sys-apps/file )
+DESCRIPTION=A set of tools for CD/DVD reading and recording, including cdrecord
+EAPI=0
+HOMEPAGE=http://cdrkit.org/
+IUSE=hfs unicode kernel_linux kernel_FreeBSD
+KEYWORDS=~alpha amd64 hppa ia64 ppc ppc64 s390 sparc x86 ~x86-fbsd
+LICENSE=GPL-2 LGPL-2.1
+PROVIDE=virtual/cdrtools
+RDEPEND=unicode? ( virtual/libiconv ) kernel_linux? ( sys-libs/libcap )
+SLOT=0
+SRC_URI=http://cdrkit.org/releases/cdrkit-1.1.9.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

@@ -1,22 +1,13 @@
-x11-libs/wxGTK:2.8 >=sys-libs/db-3.1 spell? ( >=app-text/gtkspell-2.0.0 )
-x11-libs/wxGTK:2.8 >=sys-libs/db-3.1 spell? ( >=app-text/gtkspell-2.0.0 )
-0
-mirror://sourceforge/poedit/poedit-1.4.2.tar.gz
-
-http://poedit.sourceforge.net/
-MIT
-Cross-platform gettext catalogs (.po files) editor.
-amd64 hppa ppc sparc x86
-toolchain-funcs wxwidgets portability flag-o-matic multilib fdo-mime eutils
-spell
-
-
-
-1
-
-compile install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup
+DEPEND=x11-libs/wxGTK:2.8 >=sys-libs/db-3.1 spell? ( >=app-text/gtkspell-2.0.0 )
+DESCRIPTION=Cross-platform gettext catalogs (.po files) editor.
+EAPI=1
+HOMEPAGE=http://poedit.sourceforge.net/
+IUSE=spell
+KEYWORDS=amd64 hppa ppc sparc x86
+LICENSE=MIT
+RDEPEND=x11-libs/wxGTK:2.8 >=sys-libs/db-3.1 spell? ( >=app-text/gtkspell-2.0.0 )
+SLOT=0
+SRC_URI=mirror://sourceforge/poedit/poedit-1.4.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

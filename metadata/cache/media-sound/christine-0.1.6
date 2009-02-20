@@ -1,22 +1,13 @@
-readline? ( sys-libs/readline ) libnotify? ( dev-python/notify-python ) >=dev-python/pygtk-2 >=dev-python/gconf-python-2 >=dev-python/gst-python-0.10 >=media-plugins/gst-plugins-meta-0.10 media-libs/mutagen dev-perl/XML-Parser dev-util/pkgconfig sys-devel/gettext dev-util/intltool
-readline? ( sys-libs/readline ) libnotify? ( dev-python/notify-python ) >=dev-python/pygtk-2 >=dev-python/gconf-python-2 >=dev-python/gst-python-0.10 >=media-plugins/gst-plugins-meta-0.10 media-libs/mutagen
-0
-mirror://sourceforge/christine/christine-0.1.6-1.tar.bz2
-
-http://christine-project.org
-GPL-2
-Python, GTK+ and GStreamer based media player (audio and video)
-~amd64 ~sparc ~x86
-python multilib toolchain-funcs alternatives
-+libnotify readline
-
-
-
-1
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=readline? ( sys-libs/readline ) libnotify? ( dev-python/notify-python ) >=dev-python/pygtk-2 >=dev-python/gconf-python-2 >=dev-python/gst-python-0.10 >=media-plugins/gst-plugins-meta-0.10 media-libs/mutagen dev-perl/XML-Parser dev-util/pkgconfig sys-devel/gettext dev-util/intltool
+DESCRIPTION=Python, GTK+ and GStreamer based media player (audio and video)
+EAPI=1
+HOMEPAGE=http://christine-project.org
+IUSE=+libnotify readline
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=readline? ( sys-libs/readline ) libnotify? ( dev-python/notify-python ) >=dev-python/pygtk-2 >=dev-python/gconf-python-2 >=dev-python/gst-python-0.10 >=media-plugins/gst-plugins-meta-0.10 media-libs/mutagen
+SLOT=0
+SRC_URI=mirror://sourceforge/christine/christine-0.1.6-1.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

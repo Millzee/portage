@@ -1,22 +1,12 @@
->=sys-apps/sed-4 sys-apps/gawk sys-libs/ncurses
-virtual/skkserv
-0
-http://homepage2.nifty.com/aito/skkfep/skkfep-0.87.tar.gz
-
-http://homepage2.nifty.com/aito/soft.html
-GPL-2
-A SKK-like Japanese input method for console
-~x86 ~ppc ~sparc ~alpha
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=>=sys-apps/sed-4 sys-apps/gawk sys-libs/ncurses
+DESCRIPTION=A SKK-like Japanese input method for console
+EAPI=0
+HOMEPAGE=http://homepage2.nifty.com/aito/soft.html
+KEYWORDS=~x86 ~ppc ~sparc ~alpha
+LICENSE=GPL-2
+RDEPEND=virtual/skkserv
+SLOT=0
+SRC_URI=http://homepage2.nifty.com/aito/skkfep/skkfep-0.87.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

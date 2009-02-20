@@ -1,22 +1,12 @@
-ssl? ( >=dev-libs/openssl-0.9.6e ) X? ( >=x11-libs/fltk-1.0.11 )
-ssl? ( >=dev-libs/openssl-0.9.6e ) X? ( >=x11-libs/fltk-1.0.11 )
-0
-ftp://ftp.easysw.com/pub/htmldoc/1.8.23/htmldoc-1.8.23-source.tar.bz2
-
-http://www.easysw.com/htmldoc/
-GPL-2
-Convert HTML pages into a PDF document
-x86 sparc ppc alpha
-
-X ssl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=ssl? ( >=dev-libs/openssl-0.9.6e ) X? ( >=x11-libs/fltk-1.0.11 )
+DESCRIPTION=Convert HTML pages into a PDF document
+EAPI=0
+HOMEPAGE=http://www.easysw.com/htmldoc/
+IUSE=X ssl
+KEYWORDS=x86 sparc ppc alpha
+LICENSE=GPL-2
+RDEPEND=ssl? ( >=dev-libs/openssl-0.9.6e ) X? ( >=x11-libs/fltk-1.0.11 )
+SLOT=0
+SRC_URI=ftp://ftp.easysw.com/pub/htmldoc/1.8.23/htmldoc-1.8.23-source.tar.bz2
+_mtime_=1235082850

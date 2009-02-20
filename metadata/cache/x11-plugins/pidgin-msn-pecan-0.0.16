@@ -1,22 +1,12 @@
-dev-util/pkgconfig net-im/pidgin
-net-im/pidgin
-0
-http://msn-pecan.googlecode.com/files/msn-pecan-0.0.16.tar.bz2
-
-http://code.google.com/p/msn-pecan/
-GPL-2
-Alternative MSN protocol plugin for libpurple
-~amd64 ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=dev-util/pkgconfig net-im/pidgin
+DESCRIPTION=Alternative MSN protocol plugin for libpurple
+EAPI=0
+HOMEPAGE=http://code.google.com/p/msn-pecan/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-im/pidgin
+SLOT=0
+SRC_URI=http://msn-pecan.googlecode.com/files/msn-pecan-0.0.16.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

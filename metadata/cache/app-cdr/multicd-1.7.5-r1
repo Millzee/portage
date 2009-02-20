@@ -1,22 +1,10 @@
-
->=dev-lang/perl-5.8.6 virtual/cdrtools
-0
-http://danborn.net/multicd/multicd-1.7.5.tar.gz
-
-http://danborn.net/multicd/
-GPL-2
-Tool for making direct copies of your files to multiple cd's
-amd64 ~ppc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Tool for making direct copies of your files to multiple cd's
+EAPI=0
+HOMEPAGE=http://danborn.net/multicd/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/perl-5.8.6 virtual/cdrtools
+SLOT=0
+SRC_URI=http://danborn.net/multicd/multicd-1.7.5.tar.gz
+_mtime_=1235082846

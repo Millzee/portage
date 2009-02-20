@@ -1,22 +1,13 @@
-virtual/libc dev-libs/gmp
-virtual/libc dev-libs/gmp
-0
-http://www.mlton.org/download/mlton-20040227-1.i386-linux.tgz
-
-http://www.mlton.org
-GPL-2
-Standard ML optimizing compiler and libraries
--* ~x86
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=virtual/libc dev-libs/gmp
+DESCRIPTION=Standard ML optimizing compiler and libraries
+EAPI=0
+HOMEPAGE=http://www.mlton.org
+IUSE=doc
+KEYWORDS=-* ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc dev-libs/gmp
+SLOT=0
+SRC_URI=http://www.mlton.org/download/mlton-20040227-1.i386-linux.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

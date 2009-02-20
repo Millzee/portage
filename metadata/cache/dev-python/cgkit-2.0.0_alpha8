@@ -1,22 +1,13 @@
-dev-lang/python dev-python/pyrex dev-libs/boost dev-python/pyprotocols dev-python/pyopengl dev-python/pygame dev-python/imaging 3ds? ( media-libs/lib3ds ) dev-util/scons virtual/python
-dev-lang/python dev-python/pyrex dev-libs/boost dev-python/pyprotocols dev-python/pyopengl dev-python/pygame dev-python/imaging 3ds? ( media-libs/lib3ds )
-0
-mirror://sourceforge/cgkit/cgkit-2.0.0alpha8.tar.gz
-
-http://cgkit.sourceforge.net
-LGPL-2.1 MPL-1.1 GPL-2
-Python library for creating 3D images
-~amd64 ~ppc x86
-toolchain-funcs distutils portability flag-o-matic python alternatives multilib eutils
-3ds
-
-
-
-0
-
-compile install postinst postrm test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test unpack
+DEPEND=dev-lang/python dev-python/pyrex dev-libs/boost dev-python/pyprotocols dev-python/pyopengl dev-python/pygame dev-python/imaging 3ds? ( media-libs/lib3ds ) dev-util/scons virtual/python
+DESCRIPTION=Python library for creating 3D images
+EAPI=0
+HOMEPAGE=http://cgkit.sourceforge.net
+IUSE=3ds
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=LGPL-2.1 MPL-1.1 GPL-2
+RDEPEND=dev-lang/python dev-python/pyrex dev-libs/boost dev-python/pyprotocols dev-python/pyopengl dev-python/pygame dev-python/imaging 3ds? ( media-libs/lib3ds )
+SLOT=0
+SRC_URI=mirror://sourceforge/cgkit/cgkit-2.0.0alpha8.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

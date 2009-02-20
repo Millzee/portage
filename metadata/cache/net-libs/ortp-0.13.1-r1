@@ -1,22 +1,11 @@
-doc? ( app-doc/doxygen )
-
-0
-http://download.savannah.nongnu.org/releases/linphone/ortp/sources/ortp-0.13.1.tar.gz
-
-http://www.linphone.org/index.php/eng/code_review/ortp/
-LGPL-2.1
-Open Real-time Transport Protocol (RTP, RFC3550) stack
-~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-
-debug doc ipv6
-
-
-
-2
-
-configure install prepare
-
-
-
-
-
+DEFINED_PHASES=configure install prepare
+DEPEND=doc? ( app-doc/doxygen )
+DESCRIPTION=Open Real-time Transport Protocol (RTP, RFC3550) stack
+EAPI=2
+HOMEPAGE=http://www.linphone.org/index.php/eng/code_review/ortp/
+IUSE=debug doc ipv6
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://download.savannah.nongnu.org/releases/linphone/ortp/sources/ortp-0.13.1.tar.gz
+_mtime_=1235082894

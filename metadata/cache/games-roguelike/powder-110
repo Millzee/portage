@@ -1,22 +1,12 @@
-media-libs/libsdl
-media-libs/libsdl
-0
-http://www.zincland.com/powder/release/powder110_src.tar.gz
-
-http://www.zincland.com/powder/
-powder_license
-A game in the genre of Rogue, Nethack, and Diablo. Emphasis is on tactical play.
-~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl
+DESCRIPTION=A game in the genre of Rogue, Nethack, and Diablo. Emphasis is on tactical play.
+EAPI=0
+HOMEPAGE=http://www.zincland.com/powder/
+KEYWORDS=~x86
+LICENSE=powder_license
+RDEPEND=media-libs/libsdl
+SLOT=0
+SRC_URI=http://www.zincland.com/powder/release/powder110_src.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

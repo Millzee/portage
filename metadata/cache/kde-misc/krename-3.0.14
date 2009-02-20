@@ -1,22 +1,13 @@
-=kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts )
-=kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts )
-0
-mirror://sourceforge/krename/krename-3.0.14.tar.bz2 doc? ( mirror://sourceforge/krename/krename-3.0.12.pdf )
-
-http://www.krename.net/
-GPL-2
-KRename - a very powerful batch file renamer.
-amd64 ppc ppc64 sparc x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-doc linguas_bs linguas_de linguas_es linguas_fr linguas_hu linguas_it linguas_ja linguas_nl linguas_pl linguas_pt_BR linguas_ru linguas_sl linguas_sv linguas_tr linguas_zh_CN linguas_zh_TW debug elibc_FreeBSD arts xinerama
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND==kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts )
+DESCRIPTION=KRename - a very powerful batch file renamer.
+EAPI=0
+HOMEPAGE=http://www.krename.net/
+IUSE=doc linguas_bs linguas_de linguas_es linguas_fr linguas_hu linguas_it linguas_ja linguas_nl linguas_pl linguas_pt_BR linguas_ru linguas_sl linguas_sv linguas_tr linguas_zh_CN linguas_zh_TW debug elibc_FreeBSD arts xinerama
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND==kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts )
+SLOT=0
+SRC_URI=mirror://sourceforge/krename/krename-3.0.14.tar.bz2 doc? ( mirror://sourceforge/krename/krename-3.0.12.pdf )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082865

@@ -1,22 +1,13 @@
->=xfce-base/libxfcegui4-4.4.0 >=xfce-base/xfce-mcs-manager-4.4.0 >=dev-python/pygtk-2.6 >=sys-apps/sed-4 dev-util/pkgconfig
->=xfce-base/libxfcegui4-4.4.0 >=xfce-base/xfce-mcs-manager-4.4.0 >=dev-python/pygtk-2.6
-0
-http://pyxfce.xfce.org/pyxfce-4.4.0.tar.gz
-
-http://pyxfce.xfce.org
-as-is
-Python bindings for Xfce4 desktop enviroment
-~x86
-xfce44 fdo-mime gnome2-utils
-debug
-
-
-
-0
-
-compile install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst
+DEPEND=>=xfce-base/libxfcegui4-4.4.0 >=xfce-base/xfce-mcs-manager-4.4.0 >=dev-python/pygtk-2.6 >=sys-apps/sed-4 dev-util/pkgconfig
+DESCRIPTION=Python bindings for Xfce4 desktop enviroment
+EAPI=0
+HOMEPAGE=http://pyxfce.xfce.org
+IUSE=debug
+KEYWORDS=~x86
+LICENSE=as-is
+RDEPEND=>=xfce-base/libxfcegui4-4.4.0 >=xfce-base/xfce-mcs-manager-4.4.0 >=dev-python/pygtk-2.6
+SLOT=0
+SRC_URI=http://pyxfce.xfce.org/pyxfce-4.4.0.tar.gz
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	xfce44	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

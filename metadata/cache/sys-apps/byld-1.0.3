@@ -1,22 +1,11 @@
-
-sys-apps/util-linux
-0
-mirror://sourceforge/byld/byld-1_0_3.tgz
-strip
-http://byld.sourceforge.net/
-GPL-2
-build a Linux distribution on a single floppy
-x86
-
-
-
-
-
-0
-
-install postinst
-
-
-
-
-
+DEFINED_PHASES=install postinst
+DESCRIPTION=build a Linux distribution on a single floppy
+EAPI=0
+HOMEPAGE=http://byld.sourceforge.net/
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=sys-apps/util-linux
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/byld/byld-1_0_3.tgz
+_mtime_=1235082899

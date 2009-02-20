@@ -1,22 +1,11 @@
-
->=sec-policy/selinux-base-policy-20050618 >=sec-policy/selinux-base-policy-20030729
-0
-mirror://gentoo/selinux-wireshark-20060720.tar.bz2
-
-http://www.gentoo.org/proj/en/hardened/selinux/
-GPL-2
-SELinux policy for wireshark
-amd64 mips ppc sparc x86
-toolchain-funcs selinux-policy multilib portability eutils
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=SELinux policy for wireshark
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/hardened/selinux/
+KEYWORDS=amd64 mips ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=sec-policy/selinux-base-policy-20050618 >=sec-policy/selinux-base-policy-20030729
+SLOT=0
+SRC_URI=mirror://gentoo/selinux-wireshark-20060720.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	selinux-policy	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

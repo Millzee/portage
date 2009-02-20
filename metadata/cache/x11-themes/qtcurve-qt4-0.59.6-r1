@@ -1,22 +1,13 @@
-|| ( x11-libs/qt-gui:4 <x11-libs/qt-4.4:4 ) amd64? ( kde? ( >=kde-base/kwin-4.1.0 x11-libs/qt-gui:4 ) ) x86? ( kde? ( >=kde-base/kwin-4.1.0 x11-libs/qt-gui:4 ) ) >=dev-util/cmake-2.4.6
-|| ( x11-libs/qt-gui:4 <x11-libs/qt-4.4:4 ) amd64? ( kde? ( >=kde-base/kwin-4.1.0 x11-libs/qt-gui:4 ) ) x86? ( kde? ( >=kde-base/kwin-4.1.0 x11-libs/qt-gui:4 ) )
-0
-http://home.freeuk.com/cpdrummond/QtCurve-KDE4-0.59.6.tar.bz2
-
-http://www.kde-look.org/content/show.php?content=40492
-GPL-2
-A set of widget styles for Qt4 based apps, also available for KDE3 and GTK2
-~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-kde
-
-
-
-1
-
-compile install test
-
-
-
-
-
+DEFINED_PHASES=compile install test
+DEPEND=|| ( x11-libs/qt-gui:4 <x11-libs/qt-4.4:4 ) amd64? ( kde? ( >=kde-base/kwin-4.1.0 x11-libs/qt-gui:4 ) ) x86? ( kde? ( >=kde-base/kwin-4.1.0 x11-libs/qt-gui:4 ) ) >=dev-util/cmake-2.4.6
+DESCRIPTION=A set of widget styles for Qt4 based apps, also available for KDE3 and GTK2
+EAPI=1
+HOMEPAGE=http://www.kde-look.org/content/show.php?content=40492
+IUSE=kde
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( x11-libs/qt-gui:4 <x11-libs/qt-4.4:4 ) amd64? ( kde? ( >=kde-base/kwin-4.1.0 x11-libs/qt-gui:4 ) ) x86? ( kde? ( >=kde-base/kwin-4.1.0 x11-libs/qt-gui:4 ) )
+SLOT=0
+SRC_URI=http://home.freeuk.com/cpdrummond/QtCurve-KDE4-0.59.6.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

@@ -1,22 +1,12 @@
-debug? ( libcwd? ( dev-cpp/libcwd ) )
-
-0
-http://ext3grep.googlecode.com/files/ext3grep-0.10.0.tar.gz
-
-http://www.xs4all.nl/~carlo17/howto/undelete_ext3.html
-GPL-2
-recover deleted files on an ext3 file system
-~x86
-toolchain-funcs multilib portability eutils
-debug largefile libcwd mmap pch
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=debug? ( libcwd? ( dev-cpp/libcwd ) )
+DESCRIPTION=recover deleted files on an ext3 file system
+EAPI=0
+HOMEPAGE=http://www.xs4all.nl/~carlo17/howto/undelete_ext3.html
+IUSE=debug largefile libcwd mmap pch
+KEYWORDS=~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://ext3grep.googlecode.com/files/ext3grep-0.10.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

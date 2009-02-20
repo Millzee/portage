@@ -1,22 +1,12 @@
-dev-libs/openssl dev-libs/expat dev-util/pkgconfig
-dev-libs/openssl dev-libs/expat
-0
-mirror://sourceforge/tapioca-voip/libjingle-0.3.11.tar.gz
-
-http://tapioca-voip.sourceforge.net/
-BSD
-Google's jabber voice extension library modified by Tapioca
-~alpha ~amd64 ~ia64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-2
-
-install prepare
-
-
-
-
-
+DEFINED_PHASES=install prepare
+DEPEND=dev-libs/openssl dev-libs/expat dev-util/pkgconfig
+DESCRIPTION=Google's jabber voice extension library modified by Tapioca
+EAPI=2
+HOMEPAGE=http://tapioca-voip.sourceforge.net/
+KEYWORDS=~alpha ~amd64 ~ia64 ~sparc ~x86
+LICENSE=BSD
+RDEPEND=dev-libs/openssl dev-libs/expat
+SLOT=0
+SRC_URI=mirror://sourceforge/tapioca-voip/libjingle-0.3.11.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

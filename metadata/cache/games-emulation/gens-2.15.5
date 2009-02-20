@@ -1,22 +1,12 @@
-virtual/opengl >=media-libs/libsdl-1.2 >=x11-libs/gtk+-2.4 >=dev-lang/nasm-0.98
-virtual/opengl >=media-libs/libsdl-1.2 >=x11-libs/gtk+-2.4
-0
-mirror://sourceforge/gens/gens-2.15.5.tar.gz
-
-http://gens.consolemul.com/
-GPL-2
-A Sega Genesis/CD/32X emulator
-~x86
-toolchain-funcs portability flag-o-matic multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=virtual/opengl >=media-libs/libsdl-1.2 >=x11-libs/gtk+-2.4 >=dev-lang/nasm-0.98
+DESCRIPTION=A Sega Genesis/CD/32X emulator
+EAPI=2
+HOMEPAGE=http://gens.consolemul.com/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl >=media-libs/libsdl-1.2 >=x11-libs/gtk+-2.4
+SLOT=0
+SRC_URI=mirror://sourceforge/gens/gens-2.15.5.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

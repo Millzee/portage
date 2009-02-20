@@ -1,22 +1,10 @@
-~dev-java/ant-core-1.7.0 ~dev-java/ant-tasks-1.7.0
-~dev-java/ant-core-1.7.0 ~dev-java/ant-tasks-1.7.0
-0
-
-
-http://ant.apache.org/
-Apache-2.0
-Java-based build tool similar to 'make' that uses XML configuration files.
-amd64 ~ia64 ppc ppc64 x86 ~x86-fbsd
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DEPEND=~dev-java/ant-core-1.7.0 ~dev-java/ant-tasks-1.7.0
+DESCRIPTION=Java-based build tool similar to 'make' that uses XML configuration files.
+EAPI=0
+HOMEPAGE=http://ant.apache.org/
+KEYWORDS=amd64 ~ia64 ppc ppc64 x86 ~x86-fbsd
+LICENSE=Apache-2.0
+RDEPEND=~dev-java/ant-core-1.7.0 ~dev-java/ant-tasks-1.7.0
+SLOT=0
+_mtime_=1235082852

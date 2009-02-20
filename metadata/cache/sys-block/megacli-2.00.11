@@ -1,22 +1,13 @@
-app-arch/unzip >=app-arch/rpm2targz-9.0-r1
-app-arch/unzip
-0
-http://www.lsi.com/support/downloads/megaraid/miscellaneous/2.00.11_Linux_MegaCLI.zip
-strip mirror test
-http://www.lsi.com/
-LSI
-LSI Logic MegaRAID Command Line Interface management tool
-~amd64 ~x86
-rpm
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=app-arch/unzip >=app-arch/rpm2targz-9.0-r1
+DESCRIPTION=LSI Logic MegaRAID Command Line Interface management tool
+EAPI=0
+HOMEPAGE=http://www.lsi.com/
+KEYWORDS=~amd64 ~x86
+LICENSE=LSI
+RDEPEND=app-arch/unzip
+RESTRICT=strip mirror test
+SLOT=0
+SRC_URI=http://www.lsi.com/support/downloads/megaraid/miscellaneous/2.00.11_Linux_MegaCLI.zip
+_eclasses_=rpm	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

@@ -1,22 +1,12 @@
-media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
-media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
-0
-mirror://gentoo/io000311.tar.gz
-
-http://members.fortunecity.com/rivalentertainment/iox.html
-GPL-2
-Help West Muldune escape from a futuristic mental hospital
-~amd64 ~ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
+DESCRIPTION=Help West Muldune escape from a futuristic mental hospital
+EAPI=0
+HOMEPAGE=http://members.fortunecity.com/rivalentertainment/iox.html
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
+SLOT=0
+SRC_URI=mirror://gentoo/io000311.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

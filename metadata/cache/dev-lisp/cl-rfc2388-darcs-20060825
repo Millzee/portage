@@ -1,22 +1,11 @@
-virtual/commonlisp dev-lisp/common-lisp-controller dev-util/darcs dev-lisp/common-lisp-controller
-virtual/commonlisp dev-lisp/common-lisp-controller
-0
-
-
-http://common-lisp.net/project/ucw/
-BSD
-An implementation of RFC2388 for Common Lisp
-~amd64 ~x86 ~sparc ~ppc
-common-lisp-common darcs toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst unpack
+DEPEND=virtual/commonlisp dev-lisp/common-lisp-controller dev-util/darcs dev-lisp/common-lisp-controller
+DESCRIPTION=An implementation of RFC2388 for Common Lisp
+EAPI=0
+HOMEPAGE=http://common-lisp.net/project/ucw/
+KEYWORDS=~amd64 ~x86 ~sparc ~ppc
+LICENSE=BSD
+RDEPEND=virtual/commonlisp dev-lisp/common-lisp-controller
+SLOT=0
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	darcs	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

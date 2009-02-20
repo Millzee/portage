@@ -1,22 +1,12 @@
-dev-lisp/common-lisp-controller dev-lisp/cl-kmrcl dev-lisp/cl-rt dev-lisp/cl-sql virtual/commonlisp dev-lisp/common-lisp-controller
-dev-lisp/common-lisp-controller dev-lisp/cl-kmrcl dev-lisp/cl-rt dev-lisp/cl-sql virtual/commonlisp
-0
-http://files.b9.com/hyperobject/hyperobject-2.10.0.tar.gz
-
-http://hyperobject.b9.com/ http://www.cliki.net/hyperobject
-BSD
-Hyperobject is a Common Lisp library for representing objects.
-~amd64 ~ppc ~sparc ~x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst
+DEPEND=dev-lisp/common-lisp-controller dev-lisp/cl-kmrcl dev-lisp/cl-rt dev-lisp/cl-sql virtual/commonlisp dev-lisp/common-lisp-controller
+DESCRIPTION=Hyperobject is a Common Lisp library for representing objects.
+EAPI=0
+HOMEPAGE=http://hyperobject.b9.com/ http://www.cliki.net/hyperobject
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=BSD
+RDEPEND=dev-lisp/common-lisp-controller dev-lisp/cl-kmrcl dev-lisp/cl-rt dev-lisp/cl-sql virtual/commonlisp
+SLOT=0
+SRC_URI=http://files.b9.com/hyperobject/hyperobject-2.10.0.tar.gz
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

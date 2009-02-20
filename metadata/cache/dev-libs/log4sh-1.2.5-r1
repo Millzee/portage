@@ -1,22 +1,11 @@
-
-app-shells/bash
-0
-http://forestent.com/dist/log4sh/log4sh-1.2.5.tgz
-
-http://forestent.com/products/log4sh/
-LGPL-2.1
-A flexible logging framework for shell scripts
-~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install postinst test unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst test unpack
+DESCRIPTION=A flexible logging framework for shell scripts
+EAPI=0
+HOMEPAGE=http://forestent.com/products/log4sh/
+KEYWORDS=~ppc x86
+LICENSE=LGPL-2.1
+RDEPEND=app-shells/bash
+SLOT=0
+SRC_URI=http://forestent.com/dist/log4sh/log4sh-1.2.5.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

@@ -1,22 +1,14 @@
-!net-mail/vimap !virtual/imap-c-client virtual/libc >=sys-libs/pam-0.72 >=net-mail/mailbase-0.00-r8 ssl? ( dev-libs/openssl ) kerberos? ( virtual/krb5 )
-!net-mail/vimap !virtual/imap-c-client virtual/libc >=sys-libs/pam-0.72 >=net-mail/mailbase-0.00-r8 ssl? ( dev-libs/openssl ) kerberos? ( virtual/krb5 ) >=net-mail/uw-mailutils-2007b sys-apps/xinetd !virtual/imapd
-0
-ftp://ftp.cac.washington.edu/imap/imap-2007b.tar.Z
-
-http://www.washington.edu/imap/
-Apache-2.0
-UW server daemons for IMAP and POP network mail protocols.
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-ipv6 ssl kerberos clearpasswd
-
-
-virtual/imapd virtual/imap-c-client
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=!net-mail/vimap !virtual/imap-c-client virtual/libc >=sys-libs/pam-0.72 >=net-mail/mailbase-0.00-r8 ssl? ( dev-libs/openssl ) kerberos? ( virtual/krb5 )
+DESCRIPTION=UW server daemons for IMAP and POP network mail protocols.
+EAPI=0
+HOMEPAGE=http://www.washington.edu/imap/
+IUSE=ipv6 ssl kerberos clearpasswd
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=Apache-2.0
+PROVIDE=virtual/imapd virtual/imap-c-client
+RDEPEND=!net-mail/vimap !virtual/imap-c-client virtual/libc >=sys-libs/pam-0.72 >=net-mail/mailbase-0.00-r8 ssl? ( dev-libs/openssl ) kerberos? ( virtual/krb5 ) >=net-mail/uw-mailutils-2007b sys-apps/xinetd !virtual/imapd
+SLOT=0
+SRC_URI=ftp://ftp.cac.washington.edu/imap/imap-2007b.tar.Z
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

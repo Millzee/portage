@@ -1,22 +1,12 @@
-sys-libs/zlib app-arch/lzma-utils
-sys-libs/zlib
-1.2
-mirror://sourceforge/libpng/libpng-1.2.34.tar.lzma
-
-http://www.libpng.org/
-as-is
-Portable Network Graphics library
-alpha amd64 arm hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd
-multilib toolchain-funcs libtool portability eutils
-
-
-
-
-0
-
-install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst unpack
+DEPEND=sys-libs/zlib app-arch/lzma-utils
+DESCRIPTION=Portable Network Graphics library
+EAPI=0
+HOMEPAGE=http://www.libpng.org/
+KEYWORDS=alpha amd64 arm hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd
+LICENSE=as-is
+RDEPEND=sys-libs/zlib
+SLOT=1.2
+SRC_URI=mirror://sourceforge/libpng/libpng-1.2.34.tar.lzma
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

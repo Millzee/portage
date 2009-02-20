@@ -1,22 +1,13 @@
-jpeg? ( media-libs/jpeg ) opengl? ( virtual/opengl virtual/glut ) app-arch/unzip
-jpeg? ( media-libs/jpeg ) opengl? ( virtual/opengl virtual/glut )
-0
-http://www.ece.uvic.ca/~mdadams/jasper/software/jasper-1.900.1.zip
-
-http://www.ece.uvic.ca/~mdadams/jasper/
-JasPer2.0
-software-based implementation of the codec specified in the JPEG-2000 Part-1 standard
-alpha amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd
-multilib toolchain-funcs libtool portability eutils
-opengl jpeg
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=jpeg? ( media-libs/jpeg ) opengl? ( virtual/opengl virtual/glut ) app-arch/unzip
+DESCRIPTION=software-based implementation of the codec specified in the JPEG-2000 Part-1 standard
+EAPI=0
+HOMEPAGE=http://www.ece.uvic.ca/~mdadams/jasper/
+IUSE=opengl jpeg
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd
+LICENSE=JasPer2.0
+RDEPEND=jpeg? ( media-libs/jpeg ) opengl? ( virtual/opengl virtual/glut )
+SLOT=0
+SRC_URI=http://www.ece.uvic.ca/~mdadams/jasper/software/jasper-1.900.1.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

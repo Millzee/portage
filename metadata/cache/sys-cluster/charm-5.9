@@ -1,22 +1,14 @@
-doc? ( app-text/poppler dev-tex/latex2html virtual/latex-base || ( ( dev-texlive/texlive-genericrecommended dev-texlive/texlive-latexextra ) app-text/tetex app-text/ptex ) )
-doc? ( app-text/poppler dev-tex/latex2html virtual/latex-base || ( ( dev-texlive/texlive-genericrecommended dev-texlive/texlive-latexextra ) app-text/tetex app-text/ptex ) )
-0
-charm-5.9.tar.gz
-fetch
-http://charm.cs.uiuc.edu/
-charm
-Charm++ is a message-passing parallel language and runtime system.
-~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-cmkopt tcp smp doc
-
-
-
-0
-
-compile install nofetch postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch postinst unpack
+DEPEND=doc? ( app-text/poppler dev-tex/latex2html virtual/latex-base || ( ( dev-texlive/texlive-genericrecommended dev-texlive/texlive-latexextra ) app-text/tetex app-text/ptex ) )
+DESCRIPTION=Charm++ is a message-passing parallel language and runtime system.
+EAPI=0
+HOMEPAGE=http://charm.cs.uiuc.edu/
+IUSE=cmkopt tcp smp doc
+KEYWORDS=~x86
+LICENSE=charm
+RDEPEND=doc? ( app-text/poppler dev-tex/latex2html virtual/latex-base || ( ( dev-texlive/texlive-genericrecommended dev-texlive/texlive-latexextra ) app-text/tetex app-text/ptex ) )
+RESTRICT=fetch
+SLOT=0
+SRC_URI=charm-5.9.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

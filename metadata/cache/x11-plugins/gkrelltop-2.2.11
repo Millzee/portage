@@ -1,22 +1,13 @@
-=dev-libs/glib-2* X? ( =x11-libs/gtk+-2* ) =app-admin/gkrellm-2* dev-util/pkgconfig
-=dev-libs/glib-2* X? ( =x11-libs/gtk+-2* ) =app-admin/gkrellm-2*
-0
-mirror://sourceforge/gkrelltop/gkrelltop_2.2.11.orig.tar.gz
-
-http://sourceforge.net/projects/gkrelltop
-GPL-2
-a GKrellM2 plugin which displays the top three processes
-~alpha ~amd64 ~ppc ~sparc ~x86
-multilib toolchain-funcs gkrellm-plugin portability eutils
-X
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND==dev-libs/glib-2* X? ( =x11-libs/gtk+-2* ) =app-admin/gkrellm-2* dev-util/pkgconfig
+DESCRIPTION=a GKrellM2 plugin which displays the top three processes
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/gkrelltop
+IUSE=X
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND==dev-libs/glib-2* X? ( =x11-libs/gtk+-2* ) =app-admin/gkrellm-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/gkrelltop/gkrelltop_2.2.11.orig.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	gkrellm-plugin	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

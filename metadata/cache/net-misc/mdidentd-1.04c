@@ -1,22 +1,13 @@
-ssl? ( dev-libs/openssl )
-ssl? ( dev-libs/openssl )
-0
-http://druglord.freelsd.org/ezbounce/files/ezbounce-1.04c.tar.gz
-
-http://druglord.freelsd.org/ezbounce/
-GPL-2
-This is an identd with provides registering of idents
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-ssl
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=ssl? ( dev-libs/openssl )
+DESCRIPTION=This is an identd with provides registering of idents
+EAPI=0
+HOMEPAGE=http://druglord.freelsd.org/ezbounce/
+IUSE=ssl
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=http://druglord.freelsd.org/ezbounce/files/ezbounce-1.04c.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

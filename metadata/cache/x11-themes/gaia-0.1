@@ -1,22 +1,13 @@
-|| ( kde-base/kwin:3.5 kde-base/kdebase:3.5 ) =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
-|| ( kde-base/kwin:3.5 kde-base/kdebase:3.5 ) xinerama? ( x11-libs/libXinerama )
-0
-http://works13.com/downloads/GAIA_KWin-0.1.tar.gz
-
-http://works13.com/works/gaia-for-kdekwin3x.htm
-GPL-2
-Gaia KDE Native Window Decoration style
-~amd64 ~x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-debug elibc_FreeBSD xinerama
-
-
-
-1
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=|| ( kde-base/kwin:3.5 kde-base/kdebase:3.5 ) =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
+DESCRIPTION=Gaia KDE Native Window Decoration style
+EAPI=1
+HOMEPAGE=http://works13.com/works/gaia-for-kdekwin3x.htm
+IUSE=debug elibc_FreeBSD xinerama
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( kde-base/kwin:3.5 kde-base/kdebase:3.5 ) xinerama? ( x11-libs/libXinerama )
+SLOT=0
+SRC_URI=http://works13.com/downloads/GAIA_KWin-0.1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

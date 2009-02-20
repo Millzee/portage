@@ -1,22 +1,12 @@
->=sys-fs/cryptsetup-1.0.5 >=dev-python/pygtk-2.8.0 >=sys-apps/hal-0.5 dev-util/pkgconfig
->=sys-fs/cryptsetup-1.0.5 >=dev-python/pygtk-2.8.0 >=sys-apps/hal-0.5
-0
-http://www.flyn.org/projects/luks-tools/luks-tools-0.0.12.tar.gz
-
-http://www.flyn.org/projects/luks-tools/
-GPL-2
-GUI frontend for dm-crypt/luks.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-fs/cryptsetup-1.0.5 >=dev-python/pygtk-2.8.0 >=sys-apps/hal-0.5 dev-util/pkgconfig
+DESCRIPTION=GUI frontend for dm-crypt/luks.
+EAPI=0
+HOMEPAGE=http://www.flyn.org/projects/luks-tools/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-fs/cryptsetup-1.0.5 >=dev-python/pygtk-2.8.0 >=sys-apps/hal-0.5
+SLOT=0
+SRC_URI=http://www.flyn.org/projects/luks-tools/luks-tools-0.0.12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

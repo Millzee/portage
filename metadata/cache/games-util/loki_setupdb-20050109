@@ -1,22 +1,12 @@
-dev-libs/libxml
-dev-libs/libxml
-0
-http://dev.gentoo.org/~wolf31o2/sources/loki_setupdb/loki_setupdb-20050109.tar.bz2
-
-http://icculus.org/loki_setup
-GPL-2
-Loki Software product registry database
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/libxml
+DESCRIPTION=Loki Software product registry database
+EAPI=0
+HOMEPAGE=http://icculus.org/loki_setup
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libxml
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~wolf31o2/sources/loki_setupdb/loki_setupdb-20050109.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

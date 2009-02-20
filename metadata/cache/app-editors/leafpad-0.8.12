@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.10 sys-devel/gettext >=dev-util/intltool-0.31 >=dev-util/pkgconfig-0.9
->=x11-libs/gtk+-2.10
-0
-http://savannah.nongnu.org/download/leafpad/leafpad-0.8.12.tar.gz
-
-http://tarot.freeshell.org/leafpad/
-GPL-2
-Simple GTK+ Text Editor
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-emacs
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=x11-libs/gtk+-2.10 sys-devel/gettext >=dev-util/intltool-0.31 >=dev-util/pkgconfig-0.9
+DESCRIPTION=Simple GTK+ Text Editor
+EAPI=0
+HOMEPAGE=http://tarot.freeshell.org/leafpad/
+IUSE=emacs
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.10
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/leafpad/leafpad-0.8.12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

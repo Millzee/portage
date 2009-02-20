@@ -1,22 +1,12 @@
-dev-lang/perl media-gfx/graphviz dev-perl/IPC-Run >=virtual/perl-Module-Build-0.28
-dev-lang/perl media-gfx/graphviz dev-perl/IPC-Run
-0
-mirror://cpan/authors/id/L/LB/LBROCARD//GraphViz-2.02.tar.gz
-
-http://search.cpan.org/search?query=GraphViz&mode=dist
-|| ( Artistic GPL-2 )
-GraphViz - Interface to the GraphViz graphing tool
-amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl media-gfx/graphviz dev-perl/IPC-Run >=virtual/perl-Module-Build-0.28
+DESCRIPTION=GraphViz - Interface to the GraphViz graphing tool
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=GraphViz&mode=dist
+KEYWORDS=amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-lang/perl media-gfx/graphviz dev-perl/IPC-Run
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LB/LBROCARD//GraphViz-2.02.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

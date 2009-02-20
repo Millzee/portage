@@ -1,22 +1,12 @@
->=dev-lang/tcl-8.3 >=dev-lang/tk-8.3
->=dev-lang/tcl-8.3 >=dev-lang/tk-8.3
-0
-http://laurent.riesterer.free.fr/regexp/visual_regexp-3.0.tar.gz
-
-http://laurent.riesterer.free.fr/regexp/
-GPL-2
-software that allows you to type the regexp, and visualize it on a sample of your choice
-~x86 ~ppc ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-lang/tcl-8.3 >=dev-lang/tk-8.3
+DESCRIPTION=software that allows you to type the regexp, and visualize it on a sample of your choice
+EAPI=0
+HOMEPAGE=http://laurent.riesterer.free.fr/regexp/
+KEYWORDS=~x86 ~ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/tcl-8.3 >=dev-lang/tk-8.3
+SLOT=0
+SRC_URI=http://laurent.riesterer.free.fr/regexp/visual_regexp-3.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

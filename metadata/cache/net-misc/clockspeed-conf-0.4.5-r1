@@ -1,22 +1,12 @@
-net-misc/clockspeed sys-process/daemontools
-net-misc/clockspeed sys-process/daemontools
-0
-http://foo42.de/distfiles/clockspeed-conf-0.4.5.tar.gz
-
-http://foo42.de/devel/sysutils/clockspeed-conf/
-BSD
-scripts to setup a clockspeed client and/or a taiclockd server
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=net-misc/clockspeed sys-process/daemontools
+DESCRIPTION=scripts to setup a clockspeed client and/or a taiclockd server
+EAPI=0
+HOMEPAGE=http://foo42.de/devel/sysutils/clockspeed-conf/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=net-misc/clockspeed sys-process/daemontools
+SLOT=0
+SRC_URI=http://foo42.de/distfiles/clockspeed-conf-0.4.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

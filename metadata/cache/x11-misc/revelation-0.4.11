@@ -1,22 +1,13 @@
-dev-python/gnome-python-desktop dev-python/pygtk dev-python/pycrypto sys-libs/cracklib dev-python/gnome-python-extras >=sys-apps/sed-4
-dev-python/gnome-python-desktop dev-python/pygtk dev-python/pycrypto sys-libs/cracklib dev-python/gnome-python-extras
-0
-ftp://oss.codepoet.no/revelation/revelation-0.4.11.tar.bz2
-
-http://oss.codepoet.no/revelation/
-GPL-2
-A password manager for GNOME
-amd64 ppc x86
-toolchain-funcs python multilib alternatives gnome2-utils gnome2 gnome.org fdo-mime libtool
-debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=dev-python/gnome-python-desktop dev-python/pygtk dev-python/pycrypto sys-libs/cracklib dev-python/gnome-python-extras >=sys-apps/sed-4
+DESCRIPTION=A password manager for GNOME
+EAPI=0
+HOMEPAGE=http://oss.codepoet.no/revelation/
+IUSE=debug
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-python/gnome-python-desktop dev-python/pygtk dev-python/pycrypto sys-libs/cracklib dev-python/gnome-python-extras
+SLOT=0
+SRC_URI=ftp://oss.codepoet.no/revelation/revelation-0.4.11.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

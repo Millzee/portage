@@ -1,22 +1,13 @@
-net-libs/libpcap sys-libs/ncurses slang? ( >=sys-libs/slang-1.4 )
-net-libs/libpcap sys-libs/ncurses slang? ( >=sys-libs/slang-1.4 )
-3
-ftp://ftp.nsk.su/pub/RinetSoftware/trafshow-5.2.3.tgz
-
-http://soft.risp.ru/trafshow/index_en.shtml
-as-is
-Full screen visualization of the network traffic
-amd64 ~hppa ~ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-slang
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=net-libs/libpcap sys-libs/ncurses slang? ( >=sys-libs/slang-1.4 )
+DESCRIPTION=Full screen visualization of the network traffic
+EAPI=0
+HOMEPAGE=http://soft.risp.ru/trafshow/index_en.shtml
+IUSE=slang
+KEYWORDS=amd64 ~hppa ~ppc ppc64 sparc x86
+LICENSE=as-is
+RDEPEND=net-libs/libpcap sys-libs/ncurses slang? ( >=sys-libs/slang-1.4 )
+SLOT=3
+SRC_URI=ftp://ftp.nsk.su/pub/RinetSoftware/trafshow-5.2.3.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

@@ -1,22 +1,13 @@
->=dev-libs/xerces-c-2.7.0 doc? ( app-doc/doxygen )
->=dev-libs/xerces-c-2.7.0
-0
-ftp://apache.mirrors.pair.com/xml/xalan-c/Xalan-C_1_10_0-src.tar.gz http://apache.mirrors.hoobly.com/xml/xalan-c/Xalan-C_1_10_0-src.tar.gz http://www.tux.org/pub/net/apache/dist/xml/xalan-c/Xalan-C_1_10_0-src.tar.gz
-
-http://xml.apache.org/xalan-c/
-Apache-2.0
-XSLT processor for transforming XML into HTML, text, or other XML types
-amd64 ~ppc sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/xerces-c-2.7.0 doc? ( app-doc/doxygen )
+DESCRIPTION=XSLT processor for transforming XML into HTML, text, or other XML types
+EAPI=0
+HOMEPAGE=http://xml.apache.org/xalan-c/
+IUSE=doc
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=Apache-2.0
+RDEPEND=>=dev-libs/xerces-c-2.7.0
+SLOT=0
+SRC_URI=ftp://apache.mirrors.pair.com/xml/xalan-c/Xalan-C_1_10_0-src.tar.gz http://apache.mirrors.hoobly.com/xml/xalan-c/Xalan-C_1_10_0-src.tar.gz http://www.tux.org/pub/net/apache/dist/xml/xalan-c/Xalan-C_1_10_0-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

@@ -1,22 +1,11 @@
-
-
-0
-systemc-2.2.05jun06.tgz
-fetch test
-http://www.systemc.org/
-SOPLA-2.3
-A C++ based modeling platform for VLSI and system-level co-design
-~amd64 x86
-toolchain-funcs versionator multilib
-
-
-
-
-0
-
-compile install nofetch postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch postinst unpack
+DESCRIPTION=A C++ based modeling platform for VLSI and system-level co-design
+EAPI=0
+HOMEPAGE=http://www.systemc.org/
+KEYWORDS=~amd64 x86
+LICENSE=SOPLA-2.3
+RESTRICT=fetch test
+SLOT=0
+SRC_URI=systemc-2.2.05jun06.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

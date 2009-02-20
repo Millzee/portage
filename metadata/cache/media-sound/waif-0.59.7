@@ -1,22 +1,13 @@
-dev-lang/tcl dev-tcltk/expect
-dev-tcltk/expect virtual/mpg123 media-sound/takcd media-sound/aumix media-libs/id3lib media-sound/id3v2 media-sound/id3ed ogg? ( media-sound/vorbis-tools )
-0
-http://www.eds.org/~straycat/waif-0.59.7.tar.gz
-
-http://eds.org/~straycat/waif.html
-as-is
-Why Another Infernal Frontend -- console front end for various media-players
-~ppc x86 sparc amd64
-toolchain-funcs multilib portability eutils
-ogg
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-lang/tcl dev-tcltk/expect
+DESCRIPTION=Why Another Infernal Frontend -- console front end for various media-players
+EAPI=0
+HOMEPAGE=http://eds.org/~straycat/waif.html
+IUSE=ogg
+KEYWORDS=~ppc x86 sparc amd64
+LICENSE=as-is
+RDEPEND=dev-tcltk/expect virtual/mpg123 media-sound/takcd media-sound/aumix media-libs/id3lib media-sound/id3v2 media-sound/id3ed ogg? ( media-sound/vorbis-tools )
+SLOT=0
+SRC_URI=http://www.eds.org/~straycat/waif-0.59.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

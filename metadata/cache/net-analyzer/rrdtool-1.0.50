@@ -1,22 +1,13 @@
-perl? ( dev-lang/perl ) sys-apps/gawk >=media-libs/gd-1.8.3
-tcl? ( dev-lang/tcl )
-0
-ftp://ftp.bit.nl/mirror/rrdtool/rrdtool-1.0.50.tar.gz
-
-http://oss.oetiker.ch/rrdtool/
-GPL-2
-A system to store and display time-series data
-alpha amd64 hppa ia64 ppc sparc x86
-toolchain-funcs portability flag-o-matic multilib base eutils perl-module
-perl tcl
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=perl? ( dev-lang/perl ) sys-apps/gawk >=media-libs/gd-1.8.3
+DESCRIPTION=A system to store and display time-series data
+EAPI=0
+HOMEPAGE=http://oss.oetiker.ch/rrdtool/
+IUSE=perl tcl
+KEYWORDS=alpha amd64 hppa ia64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=tcl? ( dev-lang/tcl )
+SLOT=0
+SRC_URI=ftp://ftp.bit.nl/mirror/rrdtool/rrdtool-1.0.50.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

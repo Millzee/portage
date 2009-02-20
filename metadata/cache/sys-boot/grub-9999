@@ -1,22 +1,12 @@
->=sys-libs/ncurses-5.2-r5 dev-libs/lzo dev-util/subversion net-misc/rsync
->=sys-libs/ncurses-5.2-r5 dev-libs/lzo
-0
-
-
-http://www.gnu.org/software/grub/
-GPL-3
-GNU GRUB 2 boot loader
-
-mount-boot toolchain-funcs portability flag-o-matic multilib subversion eutils
-custom-cflags multislot static
-
-
-virtual/bootloader
-0
-
-compile install postinst preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst unpack
+DEPEND=>=sys-libs/ncurses-5.2-r5 dev-libs/lzo dev-util/subversion net-misc/rsync
+DESCRIPTION=GNU GRUB 2 boot loader
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/grub/
+IUSE=custom-cflags multislot static
+LICENSE=GPL-3
+PROVIDE=virtual/bootloader
+RDEPEND=>=sys-libs/ncurses-5.2-r5 dev-libs/lzo
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	mount-boot	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

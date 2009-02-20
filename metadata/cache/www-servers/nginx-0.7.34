@@ -1,22 +1,13 @@
-dev-lang/perl pcre? ( >=dev-libs/libpcre-4.2 ) ssl? ( dev-libs/openssl ) zlib? ( sys-libs/zlib ) perl? ( >=dev-lang/perl-5.8 ) ssl? ( dev-libs/openssl )
-dev-lang/perl pcre? ( >=dev-libs/libpcre-4.2 ) ssl? ( dev-libs/openssl ) zlib? ( sys-libs/zlib ) perl? ( >=dev-lang/perl-5.8 )
-0
-http://sysoev.ru/nginx/nginx-0.7.34.tar.gz
-
-http://nginx.net/
-BSD
-Robust, small and high performance http and reverse proxy server
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils ssl-cert
-addition debug fastcgi flv imap pcre perl ssl status sub webdav zlib ssl
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=dev-lang/perl pcre? ( >=dev-libs/libpcre-4.2 ) ssl? ( dev-libs/openssl ) zlib? ( sys-libs/zlib ) perl? ( >=dev-lang/perl-5.8 ) ssl? ( dev-libs/openssl )
+DESCRIPTION=Robust, small and high performance http and reverse proxy server
+EAPI=0
+HOMEPAGE=http://nginx.net/
+IUSE=addition debug fastcgi flv imap pcre perl ssl status sub webdav zlib ssl
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=BSD
+RDEPEND=dev-lang/perl pcre? ( >=dev-libs/libpcre-4.2 ) ssl? ( dev-libs/openssl ) zlib? ( sys-libs/zlib ) perl? ( >=dev-lang/perl-5.8 )
+SLOT=0
+SRC_URI=http://sysoev.ru/nginx/nginx-0.7.34.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ssl-cert	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

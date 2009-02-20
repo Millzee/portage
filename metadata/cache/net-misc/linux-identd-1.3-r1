@@ -1,22 +1,12 @@
-virtual/libc
-xinetd? ( sys-apps/xinetd )
-0
-http://www.fukt.bth.se/~per/identd/linux-identd-1.3.tar.gz
-
-http://www.fukt.bth.se/~per/identd
-GPL-2
-A real IDENT daemon for linux.
-alpha ~amd64 ~hppa ia64 ~mips ~ppc sparc x86
-
-xinetd
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=A real IDENT daemon for linux.
+EAPI=0
+HOMEPAGE=http://www.fukt.bth.se/~per/identd
+IUSE=xinetd
+KEYWORDS=alpha ~amd64 ~hppa ia64 ~mips ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=xinetd? ( sys-apps/xinetd )
+SLOT=0
+SRC_URI=http://www.fukt.bth.se/~per/identd/linux-identd-1.3.tar.gz
+_mtime_=1235082894

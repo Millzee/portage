@@ -1,22 +1,12 @@
-
-gnupl? ( dev-lang/gprolog ) qupl? ( !amd64? ( dev-lang/qu-prolog ) ) swipl? ( dev-lang/swi-prolog ) xsbpl? ( x86? ( dev-lang/xsb ) ) yappl? ( dev-lang/yap )
-0
-http://logtalk.org/files/lgt2341.tar.bz2
-
-http://logtalk.org
-Artistic-2
-Open source object-oriented logic programming language.
-~amd64 ~ppc ~x86
-toolchain-funcs versionator multilib portability eutils
-gnupl qupl swipl xsbpl yappl
-
-
-
-0
-
-install postinst
-
-
-
-
-
+DEFINED_PHASES=install postinst
+DESCRIPTION=Open source object-oriented logic programming language.
+EAPI=0
+HOMEPAGE=http://logtalk.org
+IUSE=gnupl qupl swipl xsbpl yappl
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=Artistic-2
+RDEPEND=gnupl? ( dev-lang/gprolog ) qupl? ( !amd64? ( dev-lang/qu-prolog ) ) swipl? ( dev-lang/swi-prolog ) xsbpl? ( x86? ( dev-lang/xsb ) ) yappl? ( dev-lang/yap )
+SLOT=0
+SRC_URI=http://logtalk.org/files/lgt2341.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

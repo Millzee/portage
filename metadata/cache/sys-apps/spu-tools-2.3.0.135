@@ -1,22 +1,11 @@
-sys-libs/ncurses sys-apps/help2man
-sys-libs/ncurses
-0
-mirror://sourceforge/libspe/spu-tools-2.3.0.135.tar.gz
-
-http://sourceforge/projects/libspe
-GPL-2
-CELL spu ps and top alike utilities
-~ppc ~ppc64
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/ncurses sys-apps/help2man
+DESCRIPTION=CELL spu ps and top alike utilities
+EAPI=0
+HOMEPAGE=http://sourceforge/projects/libspe
+KEYWORDS=~ppc ~ppc64
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses
+SLOT=0
+SRC_URI=mirror://sourceforge/libspe/spu-tools-2.3.0.135.tar.gz
+_mtime_=1235082899

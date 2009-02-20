@@ -1,22 +1,11 @@
-doc? ( www-client/lynx )
-
-0
-http://0pointer.de/lennart/projects/keyfuzz/keyfuzz-0.2.tar.gz
-
-http://0pointer.de/lennart/projects/keyfuzz/
-|| ( GPL-2 GPL-3 )
-Utility for manipulating the scancode/keycode translation tables of keyboard drivers
-~x86
-
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=doc? ( www-client/lynx )
+DESCRIPTION=Utility for manipulating the scancode/keycode translation tables of keyboard drivers
+EAPI=0
+HOMEPAGE=http://0pointer.de/lennart/projects/keyfuzz/
+IUSE=doc
+KEYWORDS=~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+SLOT=0
+SRC_URI=http://0pointer.de/lennart/projects/keyfuzz/keyfuzz-0.2.tar.gz
+_mtime_=1235082899

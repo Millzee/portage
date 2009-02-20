@@ -1,22 +1,13 @@
-virtual/libc =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/libc
-0
-mirror://sourceforge/zthread/ZThread-2.3.1.tar.gz
-
-http://www.cs.buffalo.edu/~crahen/projects/zthread/
-LGPL-2.1
-a platform-independent object-oriented threading architecture
-~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
-toolchain-funcs portability flag-o-matic multilib libtool autotools eutils
-debug
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=a platform-independent object-oriented threading architecture
+EAPI=0
+HOMEPAGE=http://www.cs.buffalo.edu/~crahen/projects/zthread/
+IUSE=debug
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/zthread/ZThread-2.3.1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

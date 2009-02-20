@@ -1,22 +1,13 @@
->=net-wireless/bluez-libs-3.28 !net-wireless/bluez alsa? ( media-libs/alsa-lib ) gstreamer? ( >=media-libs/gstreamer-0.10 >=media-libs/gst-plugins-base-0.10 ) hal? ( sys-apps/hal ) usb? ( dev-libs/libusb ) cups? ( net-print/cups ) sys-fs/udev dev-libs/glib sys-apps/dbus =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=net-wireless/bluez-libs-3.28 !net-wireless/bluez alsa? ( media-libs/alsa-lib ) gstreamer? ( >=media-libs/gstreamer-0.10 >=media-libs/gst-plugins-base-0.10 ) hal? ( sys-apps/hal ) usb? ( dev-libs/libusb ) cups? ( net-print/cups ) sys-fs/udev dev-libs/glib sys-apps/dbus
-0
-http://bluez.sourceforge.net/download/bluez-utils-3.28.tar.gz
-
-http://bluez.sourceforge.net/
-GPL-2
-Bluetooth Tools and System Daemons for Linux
-~amd64 ~arm ~hppa ~ppc ~ppc64 ~sh ~sparc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-alsa cups debug examples gstreamer hal old-daemons test-programs usb
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=net-wireless/bluez-libs-3.28 !net-wireless/bluez alsa? ( media-libs/alsa-lib ) gstreamer? ( >=media-libs/gstreamer-0.10 >=media-libs/gst-plugins-base-0.10 ) hal? ( sys-apps/hal ) usb? ( dev-libs/libusb ) cups? ( net-print/cups ) sys-fs/udev dev-libs/glib sys-apps/dbus =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Bluetooth Tools and System Daemons for Linux
+EAPI=0
+HOMEPAGE=http://bluez.sourceforge.net/
+IUSE=alsa cups debug examples gstreamer hal old-daemons test-programs usb
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~ppc64 ~sh ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=net-wireless/bluez-libs-3.28 !net-wireless/bluez alsa? ( media-libs/alsa-lib ) gstreamer? ( >=media-libs/gstreamer-0.10 >=media-libs/gst-plugins-base-0.10 ) hal? ( sys-apps/hal ) usb? ( dev-libs/libusb ) cups? ( net-print/cups ) sys-fs/udev dev-libs/glib sys-apps/dbus
+SLOT=0
+SRC_URI=http://bluez.sourceforge.net/download/bluez-utils-3.28.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

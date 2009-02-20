@@ -1,22 +1,13 @@
-app-arch/unzip
-doomsday? ( games-fps/doomsday )
-0
-mirror://sourceforge/freedoom/freedoom-demo-0.6.2.zip mirror://sourceforge/freedoom/freedoom-iwad-0.6.2.zip mirror://sourceforge/freedoom/freedm-0.6.2.zip
-
-http://freedoom.sourceforge.net/
-BSD
-Freedoom - Open Source Doom resources
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs portability multilib base games eutils
-doomsday
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Freedoom - Open Source Doom resources
+EAPI=0
+HOMEPAGE=http://freedoom.sourceforge.net/
+IUSE=doomsday
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=BSD
+RDEPEND=doomsday? ( games-fps/doomsday )
+SLOT=0
+SRC_URI=mirror://sourceforge/freedoom/freedoom-demo-0.6.2.zip mirror://sourceforge/freedoom/freedoom-iwad-0.6.2.zip mirror://sourceforge/freedoom/freedm-0.6.2.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

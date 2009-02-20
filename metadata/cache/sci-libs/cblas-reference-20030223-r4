@@ -1,22 +1,13 @@
-virtual/blas app-admin/eselect-cblas dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/blas app-admin/eselect-cblas
-0
-http://www.netlib.org/blas/blast-forum/cblas.tgz
-
-http://www.netlib.org/blas/
-public-domain
-C wrapper interface to the F77 reference BLAS implementation
-alpha amd64 hppa ppc ppc64 s390 sparc x86 ~x86-fbsd
-toolchain-funcs portability multilib fortran libtool autotools eutils
-debug
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=virtual/blas app-admin/eselect-cblas dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=C wrapper interface to the F77 reference BLAS implementation
+EAPI=0
+HOMEPAGE=http://www.netlib.org/blas/
+IUSE=debug
+KEYWORDS=alpha amd64 hppa ppc ppc64 s390 sparc x86 ~x86-fbsd
+LICENSE=public-domain
+RDEPEND=virtual/blas app-admin/eselect-cblas
+SLOT=0
+SRC_URI=http://www.netlib.org/blas/blast-forum/cblas.tgz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

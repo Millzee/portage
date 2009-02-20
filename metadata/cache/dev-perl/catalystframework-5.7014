@@ -1,22 +1,10 @@
->=dev-perl/Task-Catalyst-2.0001 dev-perl/Catalyst-Manual
->=dev-perl/Task-Catalyst-2.0001 dev-perl/Catalyst-Manual
-0
-
-
-http://www.catalystframework.org/
-|| ( Artistic GPL-2 )
-Meta package for Catalyst - The Elegant MVC Web Application Framework, and all the plugins you need to get started
-~amd64 ~x86
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/Task-Catalyst-2.0001 dev-perl/Catalyst-Manual
+DESCRIPTION=Meta package for Catalyst - The Elegant MVC Web Application Framework, and all the plugins you need to get started
+EAPI=0
+HOMEPAGE=http://www.catalystframework.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Task-Catalyst-2.0001 dev-perl/Catalyst-Manual
+SLOT=0
+_mtime_=1235082856

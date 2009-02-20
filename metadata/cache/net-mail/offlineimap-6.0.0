@@ -1,22 +1,11 @@
-virtual/python
-
-0
-mirror://debian/pool/main/o/offlineimap/offlineimap_6.0.0.tar.gz
-
-http://software.complete.org/offlineimap
-GPL-2
-Powerful IMAP/Maildir synchronization and reader support
-~alpha ~amd64 ~ia64 ~ppc ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/python
+DESCRIPTION=Powerful IMAP/Maildir synchronization and reader support
+EAPI=0
+HOMEPAGE=http://software.complete.org/offlineimap
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://debian/pool/main/o/offlineimap/offlineimap_6.0.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

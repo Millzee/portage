@@ -1,22 +1,12 @@
-
-app-shells/bash bash-completion? ( || ( app-admin/eselect app-shells/bash-completion-config ) )
-0
-mirror://sourceforge/nanoblogger/nanoblogger-3.2.3.tar.gz
-
-http://nanoblogger.sourceforge.net/
-GPL-2
-Small and simple weblog engine written in Bash for the command-line
-alpha amd64 ~hppa ia64 mips ppc x86
-bash-completion
-bash-completion
-
-
-
-0
-
-install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=Small and simple weblog engine written in Bash for the command-line
+EAPI=0
+HOMEPAGE=http://nanoblogger.sourceforge.net/
+IUSE=bash-completion
+KEYWORDS=alpha amd64 ~hppa ia64 mips ppc x86
+LICENSE=GPL-2
+RDEPEND=app-shells/bash bash-completion? ( || ( app-admin/eselect app-shells/bash-completion-config ) )
+SLOT=0
+SRC_URI=mirror://sourceforge/nanoblogger/nanoblogger-3.2.3.tar.gz
+_eclasses_=bash-completion	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

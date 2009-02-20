@@ -1,22 +1,13 @@
-=gnome-extra/gtkhtml-3.12* =app-text/sword-1.5.8* >=x11-libs/gtk+-2 >=gnome-base/libgnomeui-2 dev-libs/libxml2 virtual/libc spell? ( app-text/gnome-spell >=gnome-base/libbonoboui-2 ) >=dev-util/pkgconfig-0.12 >=dev-util/intltool-0.29 >=app-text/scrollkeeper-0.3.14 >=sys-apps/sed-4
-=gnome-extra/gtkhtml-3.12* =app-text/sword-1.5.8* >=x11-libs/gtk+-2 >=gnome-base/libgnomeui-2 dev-libs/libxml2 virtual/libc spell? ( app-text/gnome-spell >=gnome-base/libbonoboui-2 )
-0
-mirror://sourceforge/gnomesword/gnomesword-2.1.7.tar.gz
-
-http://gnomesword.sf.net/
-GPL-2
-Gnome Bible study software
-amd64 ppc ~x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-spell debug
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND==gnome-extra/gtkhtml-3.12* =app-text/sword-1.5.8* >=x11-libs/gtk+-2 >=gnome-base/libgnomeui-2 dev-libs/libxml2 virtual/libc spell? ( app-text/gnome-spell >=gnome-base/libbonoboui-2 ) >=dev-util/pkgconfig-0.12 >=dev-util/intltool-0.29 >=app-text/scrollkeeper-0.3.14 >=sys-apps/sed-4
+DESCRIPTION=Gnome Bible study software
+EAPI=0
+HOMEPAGE=http://gnomesword.sf.net/
+IUSE=spell debug
+KEYWORDS=amd64 ppc ~x86
+LICENSE=GPL-2
+RDEPEND==gnome-extra/gtkhtml-3.12* =app-text/sword-1.5.8* >=x11-libs/gtk+-2 >=gnome-base/libgnomeui-2 dev-libs/libxml2 virtual/libc spell? ( app-text/gnome-spell >=gnome-base/libbonoboui-2 )
+SLOT=0
+SRC_URI=mirror://sourceforge/gnomesword/gnomesword-2.1.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

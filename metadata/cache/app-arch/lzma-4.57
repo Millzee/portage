@@ -1,22 +1,12 @@
-
-!app-arch/lzma-utils
-0
-mirror://sourceforge/sevenzip/lzma457.tar.bz2
-
-http://www.7-zip.org/sdk.html
-LGPL-2.1
-LZMA Stream Compressor from the SDK
-~arm ~amd64 ~ia64 ~mips ~sparc ~x86
-toolchain-funcs multilib
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=LZMA Stream Compressor from the SDK
+EAPI=0
+HOMEPAGE=http://www.7-zip.org/sdk.html
+IUSE=doc
+KEYWORDS=~arm ~amd64 ~ia64 ~mips ~sparc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=!app-arch/lzma-utils
+SLOT=0
+SRC_URI=mirror://sourceforge/sevenzip/lzma457.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

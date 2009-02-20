@@ -1,22 +1,9 @@
-
-~perl-core/Params-Check-0.26
-0
-
-
-http://www.gentoo.org/proj/en/perl/
-GPL-2
-A generic input parsing/checking mechanism
-~amd64 ~x86
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=A generic input parsing/checking mechanism
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/perl/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=~perl-core/Params-Check-0.26
+SLOT=0
+_mtime_=1235082908

@@ -1,22 +1,13 @@
-capi? ( net-dialup/capi4k-utils ) slang? ( >=sys-libs/slang-1.4 ) lua? ( dev-lang/lua ) lua? ( dev-util/pkgconfig )
-capi? ( net-dialup/capi4k-utils ) slang? ( >=sys-libs/slang-1.4 ) lua? ( dev-lang/lua )
-0
-capi? ( ftp://ftp.melware.net/capi4yaps/yaps-0.96.c3.tgz ) !capi? ( ftp://sunsite.unc.edu/pub/Linux/apps/serialcomm/machines/yaps-0.96.tar.gz )
-
-ftp://sunsite.unc.edu/pub/Linux/apps/serialcomm/machines/
-GPL-2
-Yet Another Pager Software (optional with CAPI support)
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-capi lua slang unicode
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=capi? ( net-dialup/capi4k-utils ) slang? ( >=sys-libs/slang-1.4 ) lua? ( dev-lang/lua ) lua? ( dev-util/pkgconfig )
+DESCRIPTION=Yet Another Pager Software (optional with CAPI support)
+EAPI=0
+HOMEPAGE=ftp://sunsite.unc.edu/pub/Linux/apps/serialcomm/machines/
+IUSE=capi lua slang unicode
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=capi? ( net-dialup/capi4k-utils ) slang? ( >=sys-libs/slang-1.4 ) lua? ( dev-lang/lua )
+SLOT=0
+SRC_URI=capi? ( ftp://ftp.melware.net/capi4yaps/yaps-0.96.c3.tgz ) !capi? ( ftp://sunsite.unc.edu/pub/Linux/apps/serialcomm/machines/yaps-0.96.tar.gz )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

@@ -1,22 +1,13 @@
-virtual/python tk? ( dev-lang/tk ) emacs? ( virtual/emacs )
-virtual/python tk? ( dev-lang/tk ) emacs? ( virtual/emacs )
-0
-mirror://sourceforge/txt2tags/txt2tags-2.3.tgz
-
-http://txt2tags.sourceforge.net/
-GPL-2
-A tool for generating marked up documents (HTML, SGML, ...) from a plain text file with markup
-amd64 ppc sparc x86
-elisp-common
-emacs tk
-
-
-
-0
-
-compile install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup
+DEPEND=virtual/python tk? ( dev-lang/tk ) emacs? ( virtual/emacs )
+DESCRIPTION=A tool for generating marked up documents (HTML, SGML, ...) from a plain text file with markup
+EAPI=0
+HOMEPAGE=http://txt2tags.sourceforge.net/
+IUSE=emacs tk
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/python tk? ( dev-lang/tk ) emacs? ( virtual/emacs )
+SLOT=0
+SRC_URI=mirror://sourceforge/txt2tags/txt2tags-2.3.tgz
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

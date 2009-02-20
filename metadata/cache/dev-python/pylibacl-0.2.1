@@ -1,22 +1,12 @@
-virtual/python sys-apps/acl virtual/python
-virtual/python sys-apps/acl
-0
-mirror://sourceforge/pylibacl/pylibacl-0.2.1.tar.gz
-
-http://sourceforge.net/projects/pylibacl/
-GPL-2
-Python interface to libacl
-amd64 arm ~hppa ia64 ppc ppc64 sh sparc x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/python sys-apps/acl virtual/python
+DESCRIPTION=Python interface to libacl
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/pylibacl/
+KEYWORDS=amd64 arm ~hppa ia64 ppc ppc64 sh sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/python sys-apps/acl
+SLOT=0
+SRC_URI=mirror://sourceforge/pylibacl/pylibacl-0.2.1.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

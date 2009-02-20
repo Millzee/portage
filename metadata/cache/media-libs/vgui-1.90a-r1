@@ -1,22 +1,11 @@
-media-libs/glut x11-libs/libXaw virtual/opengl virtual/glut virtual/libc x11-proto/xextproto x11-proto/xproto
-media-libs/glut x11-libs/libXaw virtual/opengl virtual/glut virtual/libc
-0
-mirror://sourceforge/vgui/v-1.90.tar.gz mirror://sourceforge/vgui/v-1.90a-patch.tar.gz
-
-http://vgui.sf.net/
-LGPL-2
-V is a free portable C++ GUI Framework
-~x86 ~ppc
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/glut x11-libs/libXaw virtual/opengl virtual/glut virtual/libc x11-proto/xextproto x11-proto/xproto
+DESCRIPTION=V is a free portable C++ GUI Framework
+EAPI=0
+HOMEPAGE=http://vgui.sf.net/
+KEYWORDS=~x86 ~ppc
+LICENSE=LGPL-2
+RDEPEND=media-libs/glut x11-libs/libXaw virtual/opengl virtual/glut virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/vgui/v-1.90.tar.gz mirror://sourceforge/vgui/v-1.90a-patch.tar.gz
+_mtime_=1235082868

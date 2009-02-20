@@ -1,22 +1,12 @@
->=dev-lang/python-2.3 >=dev-python/pyxml-0.8.1 virtual/python
->=dev-lang/python-2.3 >=dev-python/pyxml-0.8.1
-0
-http://plone.org/products/i18ndude/releases/2.0/i18ndude-2.0.tar.gz
-
-http://plone.org/products/i18ndude
-GPL-2
-i18ndude is the swiss army knife for zope/plone/products translators
-~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-lang/python-2.3 >=dev-python/pyxml-0.8.1 virtual/python
+DESCRIPTION=i18ndude is the swiss army knife for zope/plone/products translators
+EAPI=0
+HOMEPAGE=http://plone.org/products/i18ndude
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/python-2.3 >=dev-python/pyxml-0.8.1
+SLOT=0
+SRC_URI=http://plone.org/products/i18ndude/releases/2.0/i18ndude-2.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

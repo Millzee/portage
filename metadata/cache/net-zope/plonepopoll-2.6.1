@@ -1,22 +1,12 @@
-=net-zope/plone-2.5*
-=net-zope/plone-2.5* net-zope/zope app-admin/zprod-manager
-0
-http://plone.org/products/plonepopoll/releases/2.6.1/plonepopoll-2-6-1.tgz
-
-http://plone.org/products/plonepopoll/
-GPL-2
-Plone product which provides multiple choice polls
-~amd64 ~x86
-versionator zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DEPEND==net-zope/plone-2.5*
+DESCRIPTION=Plone product which provides multiple choice polls
+EAPI=0
+HOMEPAGE=http://plone.org/products/plonepopoll/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND==net-zope/plone-2.5* net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://plone.org/products/plonepopoll/releases/2.6.1/plonepopoll-2-6-1.tgz
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859	zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

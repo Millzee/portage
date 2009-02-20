@@ -1,22 +1,12 @@
-sys-apps/gawk sys-libs/ncurses sys-libs/zlib doc? ( app-doc/doxygen dev-texlive/texlive-latex app-text/texlive-core ) dev-lang/perl tcpwrapper? ( sys-apps/tcp-wrappers ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-sys-apps/gawk sys-libs/ncurses sys-libs/zlib doc? ( app-doc/doxygen dev-texlive/texlive-latex app-text/texlive-core ) dev-lang/perl tcpwrapper? ( sys-apps/tcp-wrappers )
-0
-http://mirrors.24-7-solutions.net/pub/mysql/Downloads/MySQL-6.0/mysql-6.0.9-alpha.tar.gz
-
-http://dev.mysql.com/doc/refman/6.0/en/mysql-nutshell.html
-GPL-2
-The world's most popular open source database.
-
-toolchain-funcs portability versionator multilib libtool autotools eutils
-+utf8 -doc +community +ssl -tcpwrapper +libevent -innodb +falcon -federated -maria -cluster -test
-
-
-
-0
-
-compile config install postinst preinst test unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst preinst test unpack
+DEPEND=sys-apps/gawk sys-libs/ncurses sys-libs/zlib doc? ( app-doc/doxygen dev-texlive/texlive-latex app-text/texlive-core ) dev-lang/perl tcpwrapper? ( sys-apps/tcp-wrappers ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=The world's most popular open source database.
+EAPI=0
+HOMEPAGE=http://dev.mysql.com/doc/refman/6.0/en/mysql-nutshell.html
+IUSE=+utf8 -doc +community +ssl -tcpwrapper +libevent -innodb +falcon -federated -maria -cluster -test
+LICENSE=GPL-2
+RDEPEND=sys-apps/gawk sys-libs/ncurses sys-libs/zlib doc? ( app-doc/doxygen dev-texlive/texlive-latex app-text/texlive-core ) dev-lang/perl tcpwrapper? ( sys-apps/tcp-wrappers )
+SLOT=0
+SRC_URI=http://mirrors.24-7-solutions.net/pub/mysql/Downloads/MySQL-6.0/mysql-6.0.9-alpha.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

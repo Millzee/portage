@@ -1,22 +1,12 @@
-
->=dev-python/wxpython-2.6.3.2:2.6 >=x11-libs/wxGTK-2.6.3.3:2.6 zope? ( net-zope/zope ) || ( ( dev-python/elementtree >=dev-lang/python-2.4 ) >=dev-lang/python-2.5 ) net-zope/zope app-admin/zprod-manager
-0
-mirror://berlios/cctools/ccPublisher-2.2.1.tar.gz
-
-http://wiki.creativecommons.org/CcPublisher
-GPL-2
-Tool to tag and upload CC-licensed media files
-~x86
-toolchain-funcs wxwidgets portability python alternatives multilib eutils zproduct
-zope
-
-
-
-1
-
-config install postinst postrm prerm setup
-
-
-
-
-
+DEFINED_PHASES=config install postinst postrm prerm setup
+DESCRIPTION=Tool to tag and upload CC-licensed media files
+EAPI=1
+HOMEPAGE=http://wiki.creativecommons.org/CcPublisher
+IUSE=zope
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-python/wxpython-2.6.3.2:2.6 >=x11-libs/wxGTK-2.6.3.3:2.6 zope? ( net-zope/zope ) || ( ( dev-python/elementtree >=dev-lang/python-2.4 ) >=dev-lang/python-2.5 ) net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=mirror://berlios/cctools/ccPublisher-2.2.1.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859	zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

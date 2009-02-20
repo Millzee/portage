@@ -1,22 +1,9 @@
-
-
-0
-mirror://sourceforge/puf/puf-1.0.0.tar.gz
-
-http://puf.sourceforge.net/
-GPL-2
-A download tool for UNIX-like systems.
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=A download tool for UNIX-like systems.
+EAPI=0
+HOMEPAGE=http://puf.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/puf/puf-1.0.0.tar.gz
+_mtime_=1235082895

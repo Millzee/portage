@@ -1,22 +1,13 @@
-kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-kernel_linux? ( virtual/modutils )
-0
-mirror://debian/pool/main/c/cloop/cloop_2.04-1+eb.1-7.tar.gz
-
-http://packages.debian.org/unstable/source/cloop http://www.knopper.net/knoppix
-GPL-2
-Compressed filesystem loopback kernel module
-~amd64 x86
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=Compressed filesystem loopback kernel module
+EAPI=0
+HOMEPAGE=http://packages.debian.org/unstable/source/cloop http://www.knopper.net/knoppix
+IUSE=kernel_linux
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2
+RDEPEND=kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/cloop/cloop_2.04-1+eb.1-7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

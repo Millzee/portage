@@ -1,22 +1,12 @@
-media-libs/libmad media-libs/libvorbis media-libs/libogg media-libs/libid3tag =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-media-libs/libmad media-libs/libvorbis media-libs/libogg media-libs/libid3tag
-0
-mirror://sourceforge/mp3splt/libmp3splt-0.5.tar.gz
-
-http://mp3splt.sourceforge.net
-GPL-2
-a library for mp3splt to split mp3 and ogg files without decoding.
-~alpha ~amd64 ~hppa ~ppc64 ~sparc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=media-libs/libmad media-libs/libvorbis media-libs/libogg media-libs/libid3tag =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=a library for mp3splt to split mp3 and ogg files without decoding.
+EAPI=0
+HOMEPAGE=http://mp3splt.sourceforge.net
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libmad media-libs/libvorbis media-libs/libogg media-libs/libid3tag
+SLOT=0
+SRC_URI=mirror://sourceforge/mp3splt/libmp3splt-0.5.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

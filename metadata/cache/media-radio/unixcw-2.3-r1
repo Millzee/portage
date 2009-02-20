@@ -1,22 +1,13 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-ncurses? ( sys-libs/ncurses ) qt3? ( =x11-libs/qt-3* )
-0
-ftp://metalab.unc.edu/pub/Linux/apps/ham/morse/unixcw-2.3.tgz
-
-http://radio.linux.org.au/?sectpat=morse
-GPL-2
-A package of programs that fit together to form a morse code tutor program.
-~x86 ~amd64
-toolchain-funcs portability multilib libtool autotools eutils
-ncurses qt3
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A package of programs that fit together to form a morse code tutor program.
+EAPI=0
+HOMEPAGE=http://radio.linux.org.au/?sectpat=morse
+IUSE=ncurses qt3
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=ncurses? ( sys-libs/ncurses ) qt3? ( =x11-libs/qt-3* )
+SLOT=0
+SRC_URI=ftp://metalab.unc.edu/pub/Linux/apps/ham/morse/unixcw-2.3.tgz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

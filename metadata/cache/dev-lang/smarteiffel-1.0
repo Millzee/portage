@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-ftp://ftp.loria.fr/pub/loria/SmartEiffel/se-1.0.tgz
-
-http://smarteiffel.loria.fr/
-GPL-2
-GNU Eiffel compiler
-x86 ppc ~alpha ~sparc
-
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=GNU Eiffel compiler
+EAPI=0
+HOMEPAGE=http://smarteiffel.loria.fr/
+IUSE=doc
+KEYWORDS=x86 ppc ~alpha ~sparc
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=ftp://ftp.loria.fr/pub/loria/SmartEiffel/se-1.0.tgz
+_mtime_=1235082853

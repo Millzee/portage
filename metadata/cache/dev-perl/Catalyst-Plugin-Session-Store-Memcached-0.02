@@ -1,22 +1,12 @@
->=dev-perl/Catalyst-Plugin-Session-0.01 dev-perl/Cache-Memcached-Managed
->=dev-perl/Catalyst-Plugin-Session-0.01 dev-perl/Cache-Memcached-Managed
-0
-mirror://cpan/authors/id/N/NU/NUFFIN//Catalyst-Plugin-Session-Store-Memcached-0.02.tar.gz
-
-http://search.cpan.org/dist/Catalyst-Plugin-Session-Store-Memcached-0.02/
-|| ( Artistic GPL-2 )
-Memcached storage backend for session data.
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/Catalyst-Plugin-Session-0.01 dev-perl/Cache-Memcached-Managed
+DESCRIPTION=Memcached storage backend for session data.
+EAPI=0
+HOMEPAGE=http://search.cpan.org/dist/Catalyst-Plugin-Session-Store-Memcached-0.02/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Catalyst-Plugin-Session-0.01 dev-perl/Cache-Memcached-Managed
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NU/NUFFIN//Catalyst-Plugin-Session-Store-Memcached-0.02.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

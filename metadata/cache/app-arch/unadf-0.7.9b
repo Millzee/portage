@@ -1,22 +1,11 @@
-app-arch/unzip x11-misc/makedepend
-
-0
-http://perso.club-internet.fr/lclevy/adflib/adflib.zip
-
-http://perso.club-internet.fr/lclevy/adflib/adflib.html
-GPL-2
-Extract files from Amiga adf disk images
-hppa ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=app-arch/unzip x11-misc/makedepend
+DESCRIPTION=Extract files from Amiga adf disk images
+EAPI=0
+HOMEPAGE=http://perso.club-internet.fr/lclevy/adflib/adflib.html
+KEYWORDS=hppa ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://perso.club-internet.fr/lclevy/adflib/adflib.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

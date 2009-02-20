@@ -1,22 +1,10 @@
-
-
-0
-http://www.willwap.co.uk/Downloads/vbrfixc-0.24.tar.gz
-
-http://www.willwap.co.uk/Programs/vbrfix.php
-GPL-2
-Vbrfix fixes MP3s and re-constructs VBR headers
-amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=Vbrfix fixes MP3s and re-constructs VBR headers
+EAPI=0
+HOMEPAGE=http://www.willwap.co.uk/Programs/vbrfix.php
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.willwap.co.uk/Downloads/vbrfixc-0.24.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

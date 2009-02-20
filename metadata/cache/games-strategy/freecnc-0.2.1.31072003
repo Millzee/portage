@@ -1,22 +1,13 @@
-media-libs/libsdl media-libs/sdl-net app-arch/unzip
-media-libs/libsdl media-libs/sdl-net
-0
-mirror://gentoo/freecnc++-0.2.1.31072003-src.tar.bz2 nocd? ( ftp://ftp.westwood.com/pub/cc1/previews/demo/cc1demo1.zip ) nocd? ( ftp://ftp.westwood.com/pub/cc1/previews/demo/cc1demo2.zip )
-
-http://www.freecnc.org/
-GPL-2
-SDL-rewrite of the classical real time strategy hit Command & Conquer
-~ppc x86
-toolchain-funcs portability flag-o-matic multilib base games eutils
-nocd
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-net app-arch/unzip
+DESCRIPTION=SDL-rewrite of the classical real time strategy hit Command & Conquer
+EAPI=0
+HOMEPAGE=http://www.freecnc.org/
+IUSE=nocd
+KEYWORDS=~ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-net
+SLOT=0
+SRC_URI=mirror://gentoo/freecnc++-0.2.1.31072003-src.tar.bz2 nocd? ( ftp://ftp.westwood.com/pub/cc1/previews/demo/cc1demo1.zip ) nocd? ( ftp://ftp.westwood.com/pub/cc1/previews/demo/cc1demo2.zip )
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

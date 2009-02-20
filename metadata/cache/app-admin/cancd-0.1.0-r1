@@ -1,22 +1,10 @@
-
-
-0
-http://oss.oracle.com/projects/cancd/dist/files/source/cancd-0.1.0.tar.gz
-
-http://oss.oracle.com/projects/cancd/
-GPL-2
-the CA NetConsole Daemon, a daemon to receive output from the Linux netconsole driver
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=the CA NetConsole Daemon, a daemon to receive output from the Linux netconsole driver
+EAPI=0
+HOMEPAGE=http://oss.oracle.com/projects/cancd/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://oss.oracle.com/projects/cancd/dist/files/source/cancd-0.1.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

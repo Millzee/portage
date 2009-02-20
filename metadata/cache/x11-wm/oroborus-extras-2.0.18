@@ -1,22 +1,12 @@
-x11-wm/oroborus >=x11-libs/gtk+-2 dev-util/pkgconfig
-x11-wm/oroborus >=x11-libs/gtk+-2
-0
-http://www.oroborus.org/debian/dists/sid/main/source/x11/keylaunch_1.3.3.tar.gz http://www.oroborus.org/debian/dists/sid/main/source/x11/deskmenu_1.4.2.tar.gz http://www.oroborus.org/debian/dists/sid/main/source/x11/desklaunch_1.1.5.tar.gz
-
-http://www.oroborus.org/
-GPL-2
-Other stuff for oroborus
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=x11-wm/oroborus >=x11-libs/gtk+-2 dev-util/pkgconfig
+DESCRIPTION=Other stuff for oroborus
+EAPI=0
+HOMEPAGE=http://www.oroborus.org/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-wm/oroborus >=x11-libs/gtk+-2
+SLOT=0
+SRC_URI=http://www.oroborus.org/debian/dists/sid/main/source/x11/keylaunch_1.3.3.tar.gz http://www.oroborus.org/debian/dists/sid/main/source/x11/deskmenu_1.4.2.tar.gz http://www.oroborus.org/debian/dists/sid/main/source/x11/desklaunch_1.1.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

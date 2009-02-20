@@ -1,22 +1,13 @@
-x11-libs/libXxf86vm virtual/opengl x11-proto/xf86vidmodeproto
-x11-libs/libXxf86vm virtual/opengl
-0
-mirror://sourceforge/glfw/glfw-2.5.0.tar.bz2
-
-http://glfw.sourceforge.net/
-ZLIB
-The Portable OpenGL FrameWork
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-examples
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXxf86vm virtual/opengl x11-proto/xf86vidmodeproto
+DESCRIPTION=The Portable OpenGL FrameWork
+EAPI=0
+HOMEPAGE=http://glfw.sourceforge.net/
+IUSE=examples
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+RDEPEND=x11-libs/libXxf86vm virtual/opengl
+SLOT=0
+SRC_URI=mirror://sourceforge/glfw/glfw-2.5.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

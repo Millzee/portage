@@ -1,22 +1,12 @@
->=net-wireless/bluez-libs-2.10 >=net-misc/asterisk-1.0.5-r1 !>=net-misc/asterisk-1.1.0
->=net-wireless/bluez-libs-2.10 >=net-misc/asterisk-1.0.5-r1 !>=net-misc/asterisk-1.1.0
-0
-mirror://gentoo/chan_bluetooth-0.0.1_pre20050212.tar.gz
-
-http://www.crazygreek.co.uk/content/chan_bluetooth
-GPL-2
-Asterisk channel plugin for bluetooth HandsFree Profile
-~x86 ~ppc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=net-wireless/bluez-libs-2.10 >=net-misc/asterisk-1.0.5-r1 !>=net-misc/asterisk-1.1.0
+DESCRIPTION=Asterisk channel plugin for bluetooth HandsFree Profile
+EAPI=0
+HOMEPAGE=http://www.crazygreek.co.uk/content/chan_bluetooth
+KEYWORDS=~x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=>=net-wireless/bluez-libs-2.10 >=net-misc/asterisk-1.0.5-r1 !>=net-misc/asterisk-1.1.0
+SLOT=0
+SRC_URI=mirror://gentoo/chan_bluetooth-0.0.1_pre20050212.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

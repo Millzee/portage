@@ -1,22 +1,10 @@
-
-
-0
-http://www.physik3.uni-rostock.de/tim/kernel/utils/acct/acct-6.3.5-ts02-12.tar.gz
-
-http://www.gnu.org/directory/acct.html
-GPL-2
-GNU system accounting utilities
-~alpha ~amd64 ~hppa ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=GNU system accounting utilities
+EAPI=0
+HOMEPAGE=http://www.gnu.org/directory/acct.html
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.physik3.uni-rostock.de/tim/kernel/utils/acct/acct-6.3.5-ts02-12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

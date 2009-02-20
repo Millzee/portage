@@ -1,22 +1,13 @@
-sdl? ( >=media-libs/libsdl-1.2.0 ) !sdl? ( x11-libs/libX11 ) !sdl? ( x11-libs/libXt x11-libs/libX11 x11-proto/xextproto x11-proto/xproto ) app-arch/unzip
-sdl? ( >=media-libs/libsdl-1.2.0 ) !sdl? ( x11-libs/libX11 )
-0
-mirror://sourceforge/atari800/atari800-2.0.3.tar.gz mirror://sourceforge/atari800/xf25.zip
-
-http://atari800.sourceforge.net/
-GPL-2
-Atari 800 emulator
-alpha ~amd64 ppc sparc x86
-toolchain-funcs portability multilib base games eutils
-sdl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=sdl? ( >=media-libs/libsdl-1.2.0 ) !sdl? ( x11-libs/libX11 ) !sdl? ( x11-libs/libXt x11-libs/libX11 x11-proto/xextproto x11-proto/xproto ) app-arch/unzip
+DESCRIPTION=Atari 800 emulator
+EAPI=0
+HOMEPAGE=http://atari800.sourceforge.net/
+IUSE=sdl
+KEYWORDS=alpha ~amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=sdl? ( >=media-libs/libsdl-1.2.0 ) !sdl? ( x11-libs/libX11 )
+SLOT=0
+SRC_URI=mirror://sourceforge/atari800/atari800-2.0.3.tar.gz mirror://sourceforge/atari800/xf25.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

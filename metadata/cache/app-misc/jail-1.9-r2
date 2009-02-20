@@ -1,22 +1,12 @@
-virtual/libc >=sys-apps/sed-4
-dev-lang/perl dev-util/strace
-0
-mirror://sourceforge/jail/jail_1.9.tar.gz
-
-http://www.jmcresearch.com/projects/jail/
-GPL-2
-a tool that builds a chroot and configures all the required files, directories and libraries
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc >=sys-apps/sed-4
+DESCRIPTION=a tool that builds a chroot and configures all the required files, directories and libraries
+EAPI=0
+HOMEPAGE=http://www.jmcresearch.com/projects/jail/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl dev-util/strace
+SLOT=0
+SRC_URI=mirror://sourceforge/jail/jail_1.9.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

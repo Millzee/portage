@@ -1,22 +1,12 @@
-virtual/pam !<sys-libs/pam-0.99
-virtual/pam !<sys-libs/pam-0.99
-0
-mirror://sourceforge/pam-chroot/pam_chroot-0.9.1.tar.bz2
-
-http://sourceforge.net/projects/pam-chroot/
-GPL-2
-Linux-PAM module that allows a user to be chrooted in auth, account, or session.
-~alpha ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability flag-o-matic multilib pam eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/pam !<sys-libs/pam-0.99
+DESCRIPTION=Linux-PAM module that allows a user to be chrooted in auth, account, or session.
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/pam-chroot/
+KEYWORDS=~alpha ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/pam !<sys-libs/pam-0.99
+SLOT=0
+SRC_URI=mirror://sourceforge/pam-chroot/pam_chroot-0.9.1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

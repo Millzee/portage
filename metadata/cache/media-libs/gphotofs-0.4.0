@@ -1,22 +1,11 @@
->media-libs/libgphoto2-2.4.0 >=dev-libs/glib-2.6 >=sys-fs/fuse-2.5
->media-libs/libgphoto2-2.4.0 >=dev-libs/glib-2.6 >=sys-fs/fuse-2.5
-0
-mirror://sourceforge/gphoto/gphotofs-0.4.0.tar.bz2
-
-http://www.gphoto.org/
-GPL-2
-FUSE based filesystem for gphoto2
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>media-libs/libgphoto2-2.4.0 >=dev-libs/glib-2.6 >=sys-fs/fuse-2.5
+DESCRIPTION=FUSE based filesystem for gphoto2
+EAPI=0
+HOMEPAGE=http://www.gphoto.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>media-libs/libgphoto2-2.4.0 >=dev-libs/glib-2.6 >=sys-fs/fuse-2.5
+SLOT=0
+SRC_URI=mirror://sourceforge/gphoto/gphotofs-0.4.0.tar.bz2
+_mtime_=1235082867

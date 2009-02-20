@@ -1,22 +1,12 @@
-!sci-chemistry/babel dev-libs/libxml2 dev-libs/boost dev-lang/perl
-!sci-chemistry/babel dev-libs/libxml2
-0
-mirror://sourceforge/openbabel/openbabel-2.2.0.tar.gz
-
-http://openbabel.sourceforge.net/
-GPL-2
-interconverts file formats used in molecular modeling
-~amd64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=!sci-chemistry/babel dev-libs/libxml2 dev-libs/boost dev-lang/perl
+DESCRIPTION=interconverts file formats used in molecular modeling
+EAPI=0
+HOMEPAGE=http://openbabel.sourceforge.net/
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=!sci-chemistry/babel dev-libs/libxml2
+SLOT=0
+SRC_URI=mirror://sourceforge/openbabel/openbabel-2.2.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

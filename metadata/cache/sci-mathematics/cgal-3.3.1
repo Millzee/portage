@@ -1,22 +1,13 @@
-dev-libs/boost dev-libs/mpfr lapack? ( virtual/lapack ) opengl? ( virtual/opengl ) qt3? ( x11-libs/qt:3 ) taucs? ( sci-libs/taucs ) X? ( x11-libs/libX11 ) zlib? ( sys-libs/zlib ) lapack? ( dev-util/pkgconfig )
-dev-libs/boost dev-libs/mpfr lapack? ( virtual/lapack ) opengl? ( virtual/opengl ) qt3? ( x11-libs/qt:3 ) taucs? ( sci-libs/taucs ) X? ( x11-libs/libX11 ) zlib? ( sys-libs/zlib )
-0
-ftp://ftp.mpi-sb.mpg.de/pub/outgoing/CGAL/CGAL-3.3.1.tar.gz
-
-http://www.cgal.org/
-LGPL-2.1 QPL
-C++ library for geometric algorithms and data structures
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-examples gmp lapack opengl qt3 taucs X zlib
-
-
-
-2
-
-compile configure install prepare test
-
-
-
-
-
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/boost dev-libs/mpfr lapack? ( virtual/lapack ) opengl? ( virtual/opengl ) qt3? ( x11-libs/qt:3 ) taucs? ( sci-libs/taucs ) X? ( x11-libs/libX11 ) zlib? ( sys-libs/zlib ) lapack? ( dev-util/pkgconfig )
+DESCRIPTION=C++ library for geometric algorithms and data structures
+EAPI=2
+HOMEPAGE=http://www.cgal.org/
+IUSE=examples gmp lapack opengl qt3 taucs X zlib
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1 QPL
+RDEPEND=dev-libs/boost dev-libs/mpfr lapack? ( virtual/lapack ) opengl? ( virtual/opengl ) qt3? ( x11-libs/qt:3 ) taucs? ( sci-libs/taucs ) X? ( x11-libs/libX11 ) zlib? ( sys-libs/zlib )
+SLOT=0
+SRC_URI=ftp://ftp.mpi-sb.mpg.de/pub/outgoing/CGAL/CGAL-3.3.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

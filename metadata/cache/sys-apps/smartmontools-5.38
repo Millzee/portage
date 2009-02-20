@@ -1,22 +1,11 @@
-
-
-0
-mirror://sourceforge/smartmontools/smartmontools-5.38.tar.gz
-
-http://smartmontools.sourceforge.net/
-GPL-2
-control and monitor storage systems using the Self-Monitoring, Analysis and Reporting Technology System (S.M.A.R.T.)
-alpha amd64 hppa ia64 ppc sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils flag-o-matic
-static minimal
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=control and monitor storage systems using the Self-Monitoring, Analysis and Reporting Technology System (S.M.A.R.T.)
+EAPI=0
+HOMEPAGE=http://smartmontools.sourceforge.net/
+IUSE=static minimal
+KEYWORDS=alpha amd64 hppa ia64 ppc sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/smartmontools/smartmontools-5.38.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

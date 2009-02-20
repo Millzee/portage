@@ -1,22 +1,13 @@
-=sys-devel/scratchbox-1.0*
-=sys-devel/scratchbox-1.0*
-0
-arm? ( http://scratchbox.org/download/files/sbox-releases/stable/tarball/scratchbox-toolchain-cs2005q3.2-glibc-arm-1.0.5-i386.tar.gz ) i386? ( http://scratchbox.org/download/files/sbox-releases/stable/tarball/scratchbox-toolchain-cs2005q3.2-glibc-i386-1.0.5-i386.tar.gz )
-strip
-http://www.scratchbox.org/
-GPL-2
-A cross-compilation toolkit designed to make embedded Linux application development easier.
-~x86
-
-arm i386
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DEPEND==sys-devel/scratchbox-1.0*
+DESCRIPTION=A cross-compilation toolkit designed to make embedded Linux application development easier.
+EAPI=0
+HOMEPAGE=http://www.scratchbox.org/
+IUSE=arm i386
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND==sys-devel/scratchbox-1.0*
+RESTRICT=strip
+SLOT=0
+SRC_URI=arm? ( http://scratchbox.org/download/files/sbox-releases/stable/tarball/scratchbox-toolchain-cs2005q3.2-glibc-arm-1.0.5-i386.tar.gz ) i386? ( http://scratchbox.org/download/files/sbox-releases/stable/tarball/scratchbox-toolchain-cs2005q3.2-glibc-i386-1.0.5-i386.tar.gz )
+_mtime_=1235082906

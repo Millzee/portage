@@ -1,22 +1,12 @@
-dev-libs/libdbf app-arch/unzip dev-perl/XML-Parser doc? ( app-text/docbook-sgml-utils ) dev-util/pkgconfig
-dev-libs/libdbf
-0
-mirror://berlios/dbf/dbf-core-0.9.0.src.zip
-
-http://developer.berlios.de/projects/dbf/
-LGPL-2
-Command line tool to convert dBASE (III, IV, 5.0) files to CSV or SQL
-~x86
-
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/libdbf app-arch/unzip dev-perl/XML-Parser doc? ( app-text/docbook-sgml-utils ) dev-util/pkgconfig
+DESCRIPTION=Command line tool to convert dBASE (III, IV, 5.0) files to CSV or SQL
+EAPI=0
+HOMEPAGE=http://developer.berlios.de/projects/dbf/
+IUSE=doc
+KEYWORDS=~x86
+LICENSE=LGPL-2
+RDEPEND=dev-libs/libdbf
+SLOT=0
+SRC_URI=mirror://berlios/dbf/dbf-core-0.9.0.src.zip
+_mtime_=1235082851

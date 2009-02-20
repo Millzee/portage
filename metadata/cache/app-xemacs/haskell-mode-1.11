@@ -1,22 +1,12 @@
-virtual/xemacs
-app-xemacs/dired app-xemacs/mail-lib app-xemacs/xemacs-base app-xemacs/edit-utils
-0
-http://ftp.xemacs.org/pub/xemacs/packages/haskell-mode-1.11-pkg.tar.gz
-
-http://xemacs.org/
-GPL-2
-Haskell editing support.
-alpha amd64 ppc ppc64 sparc x86
-xemacs-packages
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/xemacs
+DESCRIPTION=Haskell editing support.
+EAPI=0
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=app-xemacs/dired app-xemacs/mail-lib app-xemacs/xemacs-base app-xemacs/edit-utils
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/haskell-mode-1.11-pkg.tar.gz
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

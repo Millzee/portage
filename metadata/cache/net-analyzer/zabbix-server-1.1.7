@@ -1,22 +1,13 @@
-virtual/libc snmp? ( net-analyzer/net-snmp ) ldap? ( net-nds/openldap ) mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base )
-net-analyzer/fping
-0
-mirror://sourceforge/zabbix/zabbix-1.1.7.tar.gz
-
-http://www.zabbix.com/
-GPL-2
-ZABBIX is software for monitoring of your applications, network and servers. Server part.
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils
-ldap mysql oracle postgres snmp
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=virtual/libc snmp? ( net-analyzer/net-snmp ) ldap? ( net-nds/openldap ) mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base )
+DESCRIPTION=ZABBIX is software for monitoring of your applications, network and servers. Server part.
+EAPI=0
+HOMEPAGE=http://www.zabbix.com/
+IUSE=ldap mysql oracle postgres snmp
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=net-analyzer/fping
+SLOT=0
+SRC_URI=mirror://sourceforge/zabbix/zabbix-1.1.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

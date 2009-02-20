@@ -1,22 +1,13 @@
-virtual/libc
-virtual/libc
-0
-mirror://sourceforge/zthread/ZThread-2.3.1.tar.gz
-
-http://www.cs.buffalo.edu/~crahen/projects/zthread/
-LGPL-2.1
-a platform-independent object-oriented threading architecture
-x86 sparc ppc alpha ~mips ~hppa amd64
-toolchain-funcs multilib portability eutils flag-o-matic
-debug
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=a platform-independent object-oriented threading architecture
+EAPI=0
+HOMEPAGE=http://www.cs.buffalo.edu/~crahen/projects/zthread/
+IUSE=debug
+KEYWORDS=x86 sparc ppc alpha ~mips ~hppa amd64
+LICENSE=LGPL-2.1
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/zthread/ZThread-2.3.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

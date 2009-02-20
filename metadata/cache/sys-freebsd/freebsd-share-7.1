@@ -1,22 +1,13 @@
-=sys-freebsd/freebsd-mk-defs-7.1* virtual/pmake virtual/pmake
-
-0
-mirror://gentoo/freebsd-share-7.1.tar.bz2 mirror://gentoo/freebsd-contrib-7.1.tar.bz2 mirror://gentoo/freebsd-gnu-7.1.tar.bz2 mirror://gentoo/freebsd-ubin-7.1.tar.bz2 mirror://gentoo/freebsd-usbin-7.1.tar.bz2 mirror://gentoo/freebsd-sbin-7.1.tar.bz2 mirror://gentoo/freebsd-bin-7.1.tar.bz2 mirror://gentoo/freebsd-lib-7.1.tar.bz2 mirror://gentoo/freebsd-etc-7.1.tar.bz2
-strip
-http://www.freebsd.org/
-BSD
-FreeBSD shared tools/files
-~sparc-fbsd ~x86-fbsd
-toolchain-funcs portability flag-o-matic versionator multilib freebsd bsdmk eutils
-doc isdn
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND==sys-freebsd/freebsd-mk-defs-7.1* virtual/pmake virtual/pmake
+DESCRIPTION=FreeBSD shared tools/files
+EAPI=0
+HOMEPAGE=http://www.freebsd.org/
+IUSE=doc isdn
+KEYWORDS=~sparc-fbsd ~x86-fbsd
+LICENSE=BSD
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://gentoo/freebsd-share-7.1.tar.bz2 mirror://gentoo/freebsd-contrib-7.1.tar.bz2 mirror://gentoo/freebsd-gnu-7.1.tar.bz2 mirror://gentoo/freebsd-ubin-7.1.tar.bz2 mirror://gentoo/freebsd-usbin-7.1.tar.bz2 mirror://gentoo/freebsd-sbin-7.1.tar.bz2 mirror://gentoo/freebsd-bin-7.1.tar.bz2 mirror://gentoo/freebsd-lib-7.1.tar.bz2 mirror://gentoo/freebsd-etc-7.1.tar.bz2
+_eclasses_=bsdmk	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	freebsd	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082906

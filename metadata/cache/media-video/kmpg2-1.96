@@ -1,22 +1,13 @@
-=kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts )
-|| ( kde-base/kommander:3.5 kde-base/kdewebdev:3.5 ) media-video/ffmpeg media-video/transcode media-sound/sox media-video/y4mscaler >=media-video/mjpegtools-1.8.0 =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts )
-0
-mirror://sourceforge/kmpg2/KmPg2-1.96.tar.bz2
-
-http://sourceforge.net/projects/kmpg2
-GPL-2
-A graphical MPEG2 encoder frontend, for producing 100% DVD compatible MPEG2 streams.
-~x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-debug elibc_FreeBSD arts xinerama
-
-
-
-1
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND==kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts )
+DESCRIPTION=A graphical MPEG2 encoder frontend, for producing 100% DVD compatible MPEG2 streams.
+EAPI=1
+HOMEPAGE=http://sourceforge.net/projects/kmpg2
+IUSE=debug elibc_FreeBSD arts xinerama
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=|| ( kde-base/kommander:3.5 kde-base/kdewebdev:3.5 ) media-video/ffmpeg media-video/transcode media-sound/sox media-video/y4mscaler >=media-video/mjpegtools-1.8.0 =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts )
+SLOT=0
+SRC_URI=mirror://sourceforge/kmpg2/KmPg2-1.96.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

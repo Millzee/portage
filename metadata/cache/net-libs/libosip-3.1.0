@@ -1,22 +1,9 @@
-
-
-2
-mirror://gnu/osip/libosip2-3.1.0.tar.gz
-
-http://www.gnu.org/software/osip/
-LGPL-2
-a simple way to support the Session Initiation Protocol
-amd64 ppc ~sparc x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=a simple way to support the Session Initiation Protocol
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/osip/
+KEYWORDS=amd64 ppc ~sparc x86
+LICENSE=LGPL-2
+SLOT=2
+SRC_URI=mirror://gnu/osip/libosip2-3.1.0.tar.gz
+_mtime_=1235082894

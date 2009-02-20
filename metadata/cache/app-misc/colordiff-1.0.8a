@@ -1,22 +1,11 @@
-sys-apps/diffutils
-sys-apps/diffutils
-0
-http://colordiff.sourceforge.net/colordiff-1.0.8a.tar.gz
-
-http://colordiff.sourceforge.net/
-GPL-2
-Colorizes output of diff
-~alpha ~amd64 ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-apps/diffutils
+DESCRIPTION=Colorizes output of diff
+EAPI=0
+HOMEPAGE=http://colordiff.sourceforge.net/
+KEYWORDS=~alpha ~amd64 ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=sys-apps/diffutils
+SLOT=0
+SRC_URI=http://colordiff.sourceforge.net/colordiff-1.0.8a.tar.gz
+_mtime_=1235082849

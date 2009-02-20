@@ -1,22 +1,13 @@
-
-virtual/opengl x86? ( media-libs/libogg media-libs/openal media-libs/libvorbis media-libs/smpeg dev-libs/glib x11-libs/libX11 x11-libs/libXext ) amd64? ( app-emulation/emul-linux-x86-sdl app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-medialibs )
-0
-http://updatefiles.linuxgamepublishing.com/coldwar/coldwar-1.0-1.0.1-x86.run
-strip
-http://linuxgamepublishing.com/info.php?id=coldwar
-as-is
-Third-person sneaker like Splinter Cell
-~amd64 ~x86
-toolchain-funcs portability versionator multilib base games eutils
-linguas_de linguas_fr linguas_ru
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Third-person sneaker like Splinter Cell
+EAPI=0
+HOMEPAGE=http://linuxgamepublishing.com/info.php?id=coldwar
+IUSE=linguas_de linguas_fr linguas_ru
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+RDEPEND=virtual/opengl x86? ( media-libs/libogg media-libs/openal media-libs/libvorbis media-libs/smpeg dev-libs/glib x11-libs/libX11 x11-libs/libXext ) amd64? ( app-emulation/emul-linux-x86-sdl app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-medialibs )
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://updatefiles.linuxgamepublishing.com/coldwar/coldwar-1.0-1.0.1-x86.run
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

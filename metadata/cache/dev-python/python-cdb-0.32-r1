@@ -1,22 +1,12 @@
->=dev-lang/python-2.2 dev-db/cdb virtual/python
->=dev-lang/python-2.2 dev-db/cdb
-0
-http://pilcrow.madison.wi.us/python-cdb/python-cdb-0.32.tar.gz
-
-http://pilcrow.madison.wi.us/#pycdb
-GPL-2
-A Python extension module for cdb
-amd64 arm ia64 ppc sparc x86 ~x86-fbsd
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test unpack
+DEPEND=>=dev-lang/python-2.2 dev-db/cdb virtual/python
+DESCRIPTION=A Python extension module for cdb
+EAPI=0
+HOMEPAGE=http://pilcrow.madison.wi.us/#pycdb
+KEYWORDS=amd64 arm ia64 ppc sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/python-2.2 dev-db/cdb
+SLOT=0
+SRC_URI=http://pilcrow.madison.wi.us/python-cdb/python-cdb-0.32.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

@@ -1,22 +1,13 @@
-doc? ( app-doc/doxygen ) dev-util/pkgconfig >=dev-cpp/gtkmm-2.10.0
->=dev-cpp/gtkmm-2.10.0
-0
-http://download.savannah.gnu.org/releases/gtkmm-utils/0.3/gtkmm-utils-0.3.2.tar.bz2
-
-http://live.gnome.org/gtkmm_utils
-LGPL-2
-Utility functions, classes and widgets written on top of gtkmm and glibmm.
-~x86
-versionator
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=doc? ( app-doc/doxygen ) dev-util/pkgconfig >=dev-cpp/gtkmm-2.10.0
+DESCRIPTION=Utility functions, classes and widgets written on top of gtkmm and glibmm.
+EAPI=0
+HOMEPAGE=http://live.gnome.org/gtkmm_utils
+IUSE=doc
+KEYWORDS=~x86
+LICENSE=LGPL-2
+RDEPEND=>=dev-cpp/gtkmm-2.10.0
+SLOT=0
+SRC_URI=http://download.savannah.gnu.org/releases/gtkmm-utils/0.3/gtkmm-utils-0.3.2.tar.bz2
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

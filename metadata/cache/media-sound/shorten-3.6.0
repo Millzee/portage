@@ -1,22 +1,10 @@
-
-
-0
-http://etree.org/shnutils/shorten/source/shorten-3.6.0.tar.gz
-
-http://etree.org/shnutils/shorten/
-as-is
-fast, low complexity waveform coder (i.e. audio compressor)
-alpha amd64 ~ppc sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=fast, low complexity waveform coder (i.e. audio compressor)
+EAPI=0
+HOMEPAGE=http://etree.org/shnutils/shorten/
+KEYWORDS=alpha amd64 ~ppc sparc x86 ~x86-fbsd
+LICENSE=as-is
+SLOT=0
+SRC_URI=http://etree.org/shnutils/shorten/source/shorten-3.6.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

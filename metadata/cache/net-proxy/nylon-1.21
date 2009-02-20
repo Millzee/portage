@@ -1,22 +1,11 @@
->=dev-libs/libevent-0.6
->=dev-libs/libevent-0.6
-0
-http://monkey.org/~marius/nylon/nylon-1.21.tar.gz
-
-http://monkey.org/~marius/nylon/
-BSD
-A lightweight SOCKS proxy server
-amd64 ppc sparc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=dev-libs/libevent-0.6
+DESCRIPTION=A lightweight SOCKS proxy server
+EAPI=0
+HOMEPAGE=http://monkey.org/~marius/nylon/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=BSD
+RDEPEND=>=dev-libs/libevent-0.6
+SLOT=0
+SRC_URI=http://monkey.org/~marius/nylon/nylon-1.21.tar.gz
+_mtime_=1235082896

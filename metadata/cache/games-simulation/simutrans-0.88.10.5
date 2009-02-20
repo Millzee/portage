@@ -1,22 +1,13 @@
-app-arch/unzip
-media-libs/libsdl amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-sdl )
-0
-http://64.simutrans.com/simulinux-88-10-5.zip http://64.simutrans.com/simupak64-88-10-5.zip http://64.simutrans.com/factory-food64-88-10-4.zip http://64.simutrans.com/waste64-86-03.zip
-strip
-http://www.simutrans.com/
-as-is
-A free Transport Tycoon clone
--* ~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=A free Transport Tycoon clone
+EAPI=0
+HOMEPAGE=http://www.simutrans.com/
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=as-is
+RDEPEND=media-libs/libsdl amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-sdl )
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://64.simutrans.com/simulinux-88-10-5.zip http://64.simutrans.com/simupak64-88-10-5.zip http://64.simutrans.com/factory-food64-88-10-4.zip http://64.simutrans.com/waste64-86-03.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

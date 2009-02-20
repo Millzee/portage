@@ -1,22 +1,13 @@
-x11-libs/fltk:1.1 media-libs/libsndfile media-libs/liblrdf alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) media-libs/ladspa-sdk
-x11-libs/fltk:1.1 media-libs/libsndfile media-libs/liblrdf alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) media-libs/ladspa-sdk
-0
-mirror://sourceforge/spiralmodular/spiralmodular-0.2.2a.tar.bz2
-
-http://www.pawfal.org/Software/SSM/
-GPL-2
-SSM is a object oriented modular softsynth/ sequencer/ sampler.
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-alsa jack
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/fltk:1.1 media-libs/libsndfile media-libs/liblrdf alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) media-libs/ladspa-sdk
+DESCRIPTION=SSM is a object oriented modular softsynth/ sequencer/ sampler.
+EAPI=1
+HOMEPAGE=http://www.pawfal.org/Software/SSM/
+IUSE=alsa jack
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/fltk:1.1 media-libs/libsndfile media-libs/liblrdf alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) media-libs/ladspa-sdk
+SLOT=0
+SRC_URI=mirror://sourceforge/spiralmodular/spiralmodular-0.2.2a.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

@@ -1,22 +1,12 @@
-sys-apps/groff >=sys-apps/sed-4
-sys-apps/groff
-0
-http://cr.yp.to/software/fastforward-0.51.tar.gz
-
-http://cr.yp.to/fastforward.html
-as-is
-handle qmail forwarding according to a cdb database
-x86 sparc ~ppc
-fixheadtails toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-apps/groff >=sys-apps/sed-4
+DESCRIPTION=handle qmail forwarding according to a cdb database
+EAPI=0
+HOMEPAGE=http://cr.yp.to/fastforward.html
+KEYWORDS=x86 sparc ~ppc
+LICENSE=as-is
+RDEPEND=sys-apps/groff
+SLOT=0
+SRC_URI=http://cr.yp.to/software/fastforward-0.51.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

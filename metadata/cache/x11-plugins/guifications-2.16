@@ -1,22 +1,13 @@
-dev-util/pkgconfig
-net-im/pidgin >=x11-libs/gtk+-2
-0
-http://downloads.guifications.org/plugins//Guifications2/pidgin-guifications-2.16.tar.bz2
-
-http://plugins.guifications.org/
-GPL-2
-Guifications is a graphical notification plugin for the open source instant message client pidgin
-amd64 hppa ppc sparc x86
-toolchain-funcs multilib portability eutils
-debug nls
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=dev-util/pkgconfig
+DESCRIPTION=Guifications is a graphical notification plugin for the open source instant message client pidgin
+EAPI=0
+HOMEPAGE=http://plugins.guifications.org/
+IUSE=debug nls
+KEYWORDS=amd64 hppa ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=net-im/pidgin >=x11-libs/gtk+-2
+SLOT=0
+SRC_URI=http://downloads.guifications.org/plugins//Guifications2/pidgin-guifications-2.16.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

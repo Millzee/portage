@@ -1,22 +1,12 @@
-media-libs/allegro app-arch/unzip
-media-libs/allegro
-0
-http://www.pineight.com/pc/wintod.zip
-
-http://www.pineight.com/tod/
-GPL-2
-Tetanus On Drugs simulates playing a Tetris clone under the influence of hallucinogenic drugs
-~amd64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/allegro app-arch/unzip
+DESCRIPTION=Tetanus On Drugs simulates playing a Tetris clone under the influence of hallucinogenic drugs
+EAPI=0
+HOMEPAGE=http://www.pineight.com/tod/
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/allegro
+SLOT=0
+SRC_URI=http://www.pineight.com/pc/wintod.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

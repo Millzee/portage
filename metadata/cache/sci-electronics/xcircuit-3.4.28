@@ -1,22 +1,12 @@
-virtual/ghostscript dev-lang/tk x11-libs/libXt
-virtual/ghostscript dev-lang/tk x11-libs/libXt
-0
-http://opencircuitdesign.com/xcircuit/archive/xcircuit-3.4.28.tgz
-test
-http://opencircuitdesign.com/xcircuit
-GPL-2
-Circuit drawing and schematic capture program.
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/ghostscript dev-lang/tk x11-libs/libXt
+DESCRIPTION=Circuit drawing and schematic capture program.
+EAPI=0
+HOMEPAGE=http://opencircuitdesign.com/xcircuit
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/ghostscript dev-lang/tk x11-libs/libXt
+RESTRICT=test
+SLOT=0
+SRC_URI=http://opencircuitdesign.com/xcircuit/archive/xcircuit-3.4.28.tgz
+_mtime_=1235082898

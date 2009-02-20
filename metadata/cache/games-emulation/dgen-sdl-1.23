@@ -1,22 +1,13 @@
-media-libs/libsdl opengl? ( virtual/opengl ) X? ( x11-misc/imake ) dev-lang/nasm
-media-libs/libsdl opengl? ( virtual/opengl )
-0
-http://www.pknet.com/~joe/dgen-sdl-1.23.tar.gz
-
-http://www.pknet.com/~joe/dgen-sdl.html
-dgen-sdl
-A Linux/SDL-Port of the famous DGen MegaDrive/Genesis-Emulator
-x86
-toolchain-funcs portability multilib base games eutils
-X mmx opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl opengl? ( virtual/opengl ) X? ( x11-misc/imake ) dev-lang/nasm
+DESCRIPTION=A Linux/SDL-Port of the famous DGen MegaDrive/Genesis-Emulator
+EAPI=0
+HOMEPAGE=http://www.pknet.com/~joe/dgen-sdl.html
+IUSE=X mmx opengl
+KEYWORDS=x86
+LICENSE=dgen-sdl
+RDEPEND=media-libs/libsdl opengl? ( virtual/opengl )
+SLOT=0
+SRC_URI=http://www.pknet.com/~joe/dgen-sdl-1.23.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

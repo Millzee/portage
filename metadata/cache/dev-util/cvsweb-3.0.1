@@ -1,22 +1,13 @@
->=app-admin/webapp-config-1.50.15
->=dev-lang/perl-5.8 >=dev-util/cvs-1.11 >=app-text/rcs-5.7 >=dev-perl/URI-1.28 dev-perl/IPC-Run dev-perl/MIME-Types dev-perl/String-Ediff >=dev-util/cvsgraph-1.4.0 >=app-text/enscript-1.6.3 >=app-admin/webapp-config-1.50.15
-3.0.1
-ftp://ftp.freebsd.org/pub/FreeBSD/ports/local-distfiles/scop/cvsweb-3.0.1.tar.gz
-
-http://www.freebsd.org/projects/cvsweb.html
-BSD
-WWW interface to a CVS tree
-~x86 ~sparc ~ppc
-webapp
-vhosts
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=>=app-admin/webapp-config-1.50.15
+DESCRIPTION=WWW interface to a CVS tree
+EAPI=0
+HOMEPAGE=http://www.freebsd.org/projects/cvsweb.html
+IUSE=vhosts
+KEYWORDS=~x86 ~sparc ~ppc
+LICENSE=BSD
+RDEPEND=>=dev-lang/perl-5.8 >=dev-util/cvs-1.11 >=app-text/rcs-5.7 >=dev-perl/URI-1.28 dev-perl/IPC-Run dev-perl/MIME-Types dev-perl/String-Ediff >=dev-util/cvsgraph-1.4.0 >=app-text/enscript-1.6.3 >=app-admin/webapp-config-1.50.15
+SLOT=3.0.1
+SRC_URI=ftp://ftp.freebsd.org/pub/FreeBSD/ports/local-distfiles/scop/cvsweb-3.0.1.tar.gz
+_eclasses_=webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

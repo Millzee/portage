@@ -1,22 +1,10 @@
-app-doc/doxygen
-
-0
-mirror://sourceforge/libnova/libnova-0.7.0.tar.gz
-
-http://libnova.sourceforge.net/
-LGPL-2
-Celestial Mechanics and Astronomical Calculation Library
-x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=app-doc/doxygen
+DESCRIPTION=Celestial Mechanics and Astronomical Calculation Library
+EAPI=0
+HOMEPAGE=http://libnova.sourceforge.net/
+KEYWORDS=x86
+LICENSE=LGPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/libnova/libnova-0.7.0.tar.gz
+_mtime_=1235082898

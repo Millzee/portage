@@ -1,22 +1,14 @@
-app-arch/unzip
-games-fps/doom3
-0
-mirror://filefront/Doom_III/Maps/Single_Player/event_horizon_1.2.zip
-mirror strip
-http://doom3.filefront.com/file/Event_Horizon;57651
-as-is
-Doom III Event Horizon - single-player mission based on the Event Horizon film
--* amd64 x86
-toolchain-funcs portability multilib base games games-mods eutils
-dedicated opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Doom III Event Horizon - single-player mission based on the Event Horizon film
+EAPI=0
+HOMEPAGE=http://doom3.filefront.com/file/Event_Horizon;57651
+IUSE=dedicated opengl
+KEYWORDS=-* amd64 x86
+LICENSE=as-is
+RDEPEND=games-fps/doom3
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=mirror://filefront/Doom_III/Maps/Single_Player/event_horizon_1.2.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	games-mods	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

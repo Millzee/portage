@@ -1,22 +1,12 @@
-
-virtual/opengl
-0
-http://demos.linuxgamepublishing.com/mindrover/mindrover_demo.run
-strip
-http://www.linuxgamepublishing.com/info.php?id=9
-as-is
-Control a robot as it races across Europa
-x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Control a robot as it races across Europa
+EAPI=0
+HOMEPAGE=http://www.linuxgamepublishing.com/info.php?id=9
+KEYWORDS=x86
+LICENSE=as-is
+RDEPEND=virtual/opengl
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://demos.linuxgamepublishing.com/mindrover/mindrover_demo.run
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

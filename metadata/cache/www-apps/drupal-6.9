@@ -1,22 +1,13 @@
-|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) virtual/httpd-php >=app-admin/webapp-config-1.50.15
-virtual/httpd-php >=app-admin/webapp-config-1.50.15
-6.9
-http://drupal.org/files/projects/drupal-6.9.tar.gz
-
-http://drupal.org/
-GPL-2
-PHP-based open-source platform and content management system
-~alpha ~amd64 ~ppc ~x86
-toolchain-funcs portability depend.php multilib phpconfutils webapp eutils
-vhosts
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) virtual/httpd-php >=app-admin/webapp-config-1.50.15
+DESCRIPTION=PHP-based open-source platform and content management system
+EAPI=0
+HOMEPAGE=http://drupal.org/
+IUSE=vhosts
+KEYWORDS=~alpha ~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/httpd-php >=app-admin/webapp-config-1.50.15
+SLOT=6.9
+SRC_URI=http://drupal.org/files/projects/drupal-6.9.tar.gz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

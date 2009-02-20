@@ -1,22 +1,10 @@
-
-
-0
-x86? ( http://dl.hyperic.net/2.5/hyperic-hq-agent-2.5.15-x86-linux.tgz ) amd64? ( http://dl.hyperic.net/2.5/hyperic-hq-agent-2.5.15-amd64-linux.tgz )
-
-http://www.hyperic.com/
-hyperic
-Agent for HQ Monitoring Software by Hyperic LLC
-x86 amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install postinst preinst
-
-
-
-
-
+DEFINED_PHASES=install postinst preinst
+DESCRIPTION=Agent for HQ Monitoring Software by Hyperic LLC
+EAPI=0
+HOMEPAGE=http://www.hyperic.com/
+KEYWORDS=x86 amd64
+LICENSE=hyperic
+SLOT=0
+SRC_URI=x86? ( http://dl.hyperic.net/2.5/hyperic-hq-agent-2.5.15-x86-linux.tgz ) amd64? ( http://dl.hyperic.net/2.5/hyperic-hq-agent-2.5.15-amd64-linux.tgz )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082885

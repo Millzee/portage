@@ -1,22 +1,14 @@
->=x11-libs/gtk+-2.6 dev-util/pkgconfig
->=x11-libs/gtk+-2.6
-0
-mirror://sourceforge/notecase/notecase-1.9.8_src.tar.gz
-test
-http://notecase.sourceforge.net/
-BSD
-Hierarchical note manager written using GTK+ and C++
-~amd64 ~ppc ~x86
-toolchain-funcs fdo-mime multilib portability eutils
-gnome nls
-
-
-
-0
-
-install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=>=x11-libs/gtk+-2.6 dev-util/pkgconfig
+DESCRIPTION=Hierarchical note manager written using GTK+ and C++
+EAPI=0
+HOMEPAGE=http://notecase.sourceforge.net/
+IUSE=gnome nls
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=BSD
+RDEPEND=>=x11-libs/gtk+-2.6
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/notecase/notecase-1.9.8_src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

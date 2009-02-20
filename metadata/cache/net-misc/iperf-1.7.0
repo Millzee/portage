@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-http://dast.nlanr.net/Projects/Iperf/iperf-1.7.0-source.tar.gz
-
-http://dast.nlanr.net/Projects/Iperf
-GPL-2
-tool to measure IP bandwidth using UDP or TCP
-~ppc ~ppc64 x86
-
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc
+DESCRIPTION=tool to measure IP bandwidth using UDP or TCP
+EAPI=0
+HOMEPAGE=http://dast.nlanr.net/Projects/Iperf
+KEYWORDS=~ppc ~ppc64 x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://dast.nlanr.net/Projects/Iperf/iperf-1.7.0-source.tar.gz
+_mtime_=1235082894

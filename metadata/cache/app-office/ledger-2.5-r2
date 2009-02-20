@@ -1,22 +1,13 @@
-dev-libs/gmp dev-libs/libpcre ofx? ( >=dev-libs/libofx-0.7 ) xml? ( dev-libs/expat ) emacs? ( virtual/emacs ) gnuplot? ( sci-visualization/gnuplot )
-dev-libs/gmp dev-libs/libpcre ofx? ( >=dev-libs/libofx-0.7 ) xml? ( dev-libs/expat ) emacs? ( virtual/emacs ) gnuplot? ( sci-visualization/gnuplot )
-0
-mirror://sourceforge/ledger/ledger-2.5.tar.gz
-
-http://www.newartisans.com/software.html
-NewArtisans
-A command-line accounting tool that provides double-entry accounting with a minimum of frills, and yet with a maximum of expressiveness and flexibility.
-~amd64 ~x86
-portability toolchain-funcs multilib elisp-common eutils
-emacs debug gnuplot ofx xml
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=dev-libs/gmp dev-libs/libpcre ofx? ( >=dev-libs/libofx-0.7 ) xml? ( dev-libs/expat ) emacs? ( virtual/emacs ) gnuplot? ( sci-visualization/gnuplot )
+DESCRIPTION=A command-line accounting tool that provides double-entry accounting with a minimum of frills, and yet with a maximum of expressiveness and flexibility.
+EAPI=0
+HOMEPAGE=http://www.newartisans.com/software.html
+IUSE=emacs debug gnuplot ofx xml
+KEYWORDS=~amd64 ~x86
+LICENSE=NewArtisans
+RDEPEND=dev-libs/gmp dev-libs/libpcre ofx? ( >=dev-libs/libofx-0.7 ) xml? ( dev-libs/expat ) emacs? ( virtual/emacs ) gnuplot? ( sci-visualization/gnuplot )
+SLOT=0
+SRC_URI=mirror://sourceforge/ledger/ledger-2.5.tar.gz
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

@@ -1,22 +1,12 @@
-dev-lang/python dev-python/pygame
-dev-lang/python dev-python/pygame
-0
-http://www.jwhitham.org.uk/20kly/lightyears-1.3a.tar.gz
-
-http://www.jwhitham.org.uk/20kly/
-GPL-2
-a single-player game with a science-fiction theme
-~amd64 ~x86
-toolchain-funcs portability python multilib alternatives base games eutils
-
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=dev-lang/python dev-python/pygame
+DESCRIPTION=a single-player game with a science-fiction theme
+EAPI=0
+HOMEPAGE=http://www.jwhitham.org.uk/20kly/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/python dev-python/pygame
+SLOT=0
+SRC_URI=http://www.jwhitham.org.uk/20kly/lightyears-1.3a.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

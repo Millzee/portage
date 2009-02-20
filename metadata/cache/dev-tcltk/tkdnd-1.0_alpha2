@@ -1,22 +1,13 @@
->=dev-lang/tcl-8.4 >=dev-lang/tk-8.4
->=dev-lang/tcl-8.4 >=dev-lang/tk-8.4
-0
-mirror://sourceforge/tkdnd/tkdnd-1.0a2.tar.gz
-test
-http://www.iit.demokritos.gr/~petasis/Tcl/
-BSD
-TkDnD is an extension that adds native drag & drop capabilities to the tk toolkit.
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-lang/tcl-8.4 >=dev-lang/tk-8.4
+DESCRIPTION=TkDnD is an extension that adds native drag & drop capabilities to the tk toolkit.
+EAPI=0
+HOMEPAGE=http://www.iit.demokritos.gr/~petasis/Tcl/
+KEYWORDS=~x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/tcl-8.4 >=dev-lang/tk-8.4
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/tkdnd/tkdnd-1.0a2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

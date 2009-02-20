@@ -1,22 +1,11 @@
-
-~kde-base/kdelibs-3.5.10 >=kde-base/kdeaddons-meta-3.5.10:3.5 >=kde-base/kdeadmin-meta-3.5.10:3.5 >=kde-base/kdebase-meta-3.5.10:3.5 >=kde-base/kdeedu-meta-3.5.10:3.5 >=kde-base/kdegames-meta-3.5.10:3.5 >=kde-base/kdegraphics-meta-3.5.10:3.5 >=kde-base/kdemultimedia-meta-3.5.10:3.5 >=kde-base/kdenetwork-meta-3.5.10:3.5 >=kde-base/kdepim-meta-3.5.10:3.5 >=kde-base/kdetoys-meta-3.5.10:3.5 >=kde-base/kdeutils-meta-3.5.10:3.5 >=kde-base/kdeartwork-meta-3.5.10:3.5 >=kde-base/kdewebdev-meta-3.5.10:3.5 accessibility? ( >=kde-base/kdeaccessibility-meta-3.5.10:3.5 ) nls? ( >=kde-base/kde-i18n-3.5.10:3.5 ) !kde-base/kde:3.5
-3.5
-
-
-http://www.kde.org/
-GPL-2
-kde - merge this to pull in all kde packages
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs qt3 portability versionator multilib kde-functions eutils
-accessibility nls
-
-
-
-1
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=kde - merge this to pull in all kde packages
+EAPI=1
+HOMEPAGE=http://www.kde.org/
+IUSE=accessibility nls
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=~kde-base/kdelibs-3.5.10 >=kde-base/kdeaddons-meta-3.5.10:3.5 >=kde-base/kdeadmin-meta-3.5.10:3.5 >=kde-base/kdebase-meta-3.5.10:3.5 >=kde-base/kdeedu-meta-3.5.10:3.5 >=kde-base/kdegames-meta-3.5.10:3.5 >=kde-base/kdegraphics-meta-3.5.10:3.5 >=kde-base/kdemultimedia-meta-3.5.10:3.5 >=kde-base/kdenetwork-meta-3.5.10:3.5 >=kde-base/kdepim-meta-3.5.10:3.5 >=kde-base/kdetoys-meta-3.5.10:3.5 >=kde-base/kdeutils-meta-3.5.10:3.5 >=kde-base/kdeartwork-meta-3.5.10:3.5 >=kde-base/kdewebdev-meta-3.5.10:3.5 accessibility? ( >=kde-base/kdeaccessibility-meta-3.5.10:3.5 ) nls? ( >=kde-base/kde-i18n-3.5.10:3.5 ) !kde-base/kde:3.5
+SLOT=3.5
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

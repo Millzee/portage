@@ -1,22 +1,12 @@
-x11-libs/libX11 x11-libs/libXext x11-libs/libXpm x11-proto/xextproto
-x11-libs/libX11 x11-libs/libXext x11-libs/libXpm
-0
-http://lancre.ribbrock.org/binabit/wmSMPmon/src/wmSMPmon-3.1.tar.gz
-
-http://lancre.ribbrock.org/binabit/wmSMPmon/
-GPL-2
-SMP system monitor dockapp
-amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm x11-proto/xextproto
+DESCRIPTION=SMP system monitor dockapp
+EAPI=0
+HOMEPAGE=http://lancre.ribbrock.org/binabit/wmSMPmon/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm
+SLOT=0
+SRC_URI=http://lancre.ribbrock.org/binabit/wmSMPmon/src/wmSMPmon-3.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

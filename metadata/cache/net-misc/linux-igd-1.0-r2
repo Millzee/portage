@@ -1,22 +1,12 @@
->=net-libs/libupnp-1.4.1
->=net-libs/libupnp-1.4.1 net-firewall/iptables
-0
-mirror://sourceforge/linux-igd/linuxigd-1.0.tar.gz
-
-http://linux-igd.sourceforge.net/
-GPL-2
-Deamon that emulates Microsoft's Internet Connection Sharing (ICS) for UPnP-aware clients
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=net-libs/libupnp-1.4.1
+DESCRIPTION=Deamon that emulates Microsoft's Internet Connection Sharing (ICS) for UPnP-aware clients
+EAPI=0
+HOMEPAGE=http://linux-igd.sourceforge.net/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=net-libs/libupnp-1.4.1 net-firewall/iptables
+SLOT=0
+SRC_URI=mirror://sourceforge/linux-igd/linuxigd-1.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

@@ -1,22 +1,11 @@
-virtual/libiconv sci-misc/lttoolbox
-virtual/libiconv sci-misc/lttoolbox
-0
-mirror://sourceforge/apertium/apertium-3.1.0.tar.gz
-
-http://apertium.sourceforge.net/
-GPL-2
-Apertium - An open-source shallow-transfer machine Translation engine and toolbox
-~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=virtual/libiconv sci-misc/lttoolbox
+DESCRIPTION=Apertium - An open-source shallow-transfer machine Translation engine and toolbox
+EAPI=0
+HOMEPAGE=http://apertium.sourceforge.net/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libiconv sci-misc/lttoolbox
+SLOT=0
+SRC_URI=mirror://sourceforge/apertium/apertium-3.1.0.tar.gz
+_mtime_=1235082898

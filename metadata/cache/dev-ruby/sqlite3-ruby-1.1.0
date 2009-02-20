@@ -1,22 +1,13 @@
-=dev-db/sqlite-3* virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
-=dev-db/sqlite-3* virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
-0
-http://gems.rubyforge.org/gems/sqlite3-ruby-1.1.0.gem
-
-http://rubyforge.org/projects/sqlite-ruby/
-BSD
-An extension library to access a SQLite database from Ruby
-amd64 ia64 ppc sparc x86 ~x86-fbsd
-gems toolchain-funcs portability multilib ruby eutils
-doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==dev-db/sqlite-3* virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
+DESCRIPTION=An extension library to access a SQLite database from Ruby
+EAPI=0
+HOMEPAGE=http://rubyforge.org/projects/sqlite-ruby/
+IUSE=doc
+KEYWORDS=amd64 ia64 ppc sparc x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND==dev-db/sqlite-3* virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
+SLOT=0
+SRC_URI=http://gems.rubyforge.org/gems/sqlite3-ruby-1.1.0.gem
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	gems	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

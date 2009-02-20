@@ -1,22 +1,13 @@
-dev-libs/libxml2 >=media-sound/esound-0.2.5 >=gnome-base/gconf-2 >=gnome-base/libgnome-2[esd] >=gnome-base/libgnomeui-2 nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext ) >=sys-apps/sed-4
-dev-libs/libxml2 >=media-sound/esound-0.2.5 >=gnome-base/gconf-2 >=gnome-base/libgnome-2[esd] >=gnome-base/libgnomeui-2 nls? ( virtual/libintl )
-0
-mirror://gnome/sources/gtetrinet/0.7/gtetrinet-0.7.11.tar.bz2 mirror://gentoo/gtetrinet-gentoo-theme-0.1.tbz2
-
-http://gtetrinet.sourceforge.net/
-GPL-2
-Tetrinet Clone for GNOME 2
-amd64 ppc sparc x86
-toolchain-funcs games portability multilib gnome2-utils base gnome2 gnome.org fdo-mime libtool eutils
-nls ipv6 debug
-
-
-
-2
-
-compile configure install postinst postrm preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=dev-libs/libxml2 >=media-sound/esound-0.2.5 >=gnome-base/gconf-2 >=gnome-base/libgnome-2[esd] >=gnome-base/libgnomeui-2 nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext ) >=sys-apps/sed-4
+DESCRIPTION=Tetrinet Clone for GNOME 2
+EAPI=2
+HOMEPAGE=http://gtetrinet.sourceforge.net/
+IUSE=nls ipv6 debug
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libxml2 >=media-sound/esound-0.2.5 >=gnome-base/gconf-2 >=gnome-base/libgnome-2[esd] >=gnome-base/libgnomeui-2 nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://gnome/sources/gtetrinet/0.7/gtetrinet-0.7.11.tar.bz2 mirror://gentoo/gtetrinet-gentoo-theme-0.1.tbz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

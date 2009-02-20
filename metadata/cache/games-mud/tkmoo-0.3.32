@@ -1,22 +1,12 @@
->=dev-lang/tcl-8.3.3 >=dev-lang/tk-8.3.3
->=dev-lang/tcl-8.3.3 >=dev-lang/tk-8.3.3
-0
-http://www.awns.com/tkMOO-light/Source/tkMOO-light-0.3.32.tar.gz
-
-http://www.awns.com/tkMOO-light/
-tkMOO
-MOO Client written in Tcl/Tk
-x86 ~amd64 ppc
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=dev-lang/tcl-8.3.3 >=dev-lang/tk-8.3.3
+DESCRIPTION=MOO Client written in Tcl/Tk
+EAPI=0
+HOMEPAGE=http://www.awns.com/tkMOO-light/
+KEYWORDS=x86 ~amd64 ppc
+LICENSE=tkMOO
+RDEPEND=>=dev-lang/tcl-8.3.3 >=dev-lang/tk-8.3.3
+SLOT=0
+SRC_URI=http://www.awns.com/tkMOO-light/Source/tkMOO-light-0.3.32.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

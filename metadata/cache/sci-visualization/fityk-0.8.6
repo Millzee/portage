@@ -1,22 +1,13 @@
-sci-libs/xylib readline? ( sys-libs/readline ) wxwindows? ( x11-libs/wxGTK:2.8 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-sci-libs/xylib readline? ( sys-libs/readline ) wxwindows? ( x11-libs/wxGTK:2.8 ) gnuplot? ( sci-visualization/gnuplot )
-0
-mirror://sourceforge/fityk/fityk-0.8.6.tar.bz2
-
-http://www.unipress.waw.pl/fityk/
-GPL-2
-General-purpose nonlinear curve fitting and data analysis
-~amd64 ~x86
-toolchain-funcs wxwidgets portability flag-o-matic multilib libtool autotools eutils
-doc examples gnuplot readline wxwindows
-
-
-
-1
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=sci-libs/xylib readline? ( sys-libs/readline ) wxwindows? ( x11-libs/wxGTK:2.8 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=General-purpose nonlinear curve fitting and data analysis
+EAPI=1
+HOMEPAGE=http://www.unipress.waw.pl/fityk/
+IUSE=doc examples gnuplot readline wxwindows
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-libs/xylib readline? ( sys-libs/readline ) wxwindows? ( x11-libs/wxGTK:2.8 ) gnuplot? ( sci-visualization/gnuplot )
+SLOT=0
+SRC_URI=mirror://sourceforge/fityk/fityk-0.8.6.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,12 @@
->=x11-libs/qt-4.1:4 >=dev-util/cmake-2.4.6
->=x11-libs/qt-4.1:4 app-emulation/qemu
-0
-mirror://sourceforge/qtemu/qtemu-1.0.5.tar.bz2
-
-http://qtemu.sourceforge.net/
-GPL-2 LGPL-2.1 CCPL-Attribution-3.0
-A graphical user interface for QEMU written in Qt4.
-~amd64 ~x86
-qt4 toolchain-funcs portability flag-o-matic versionator multilib cmake-utils eutils
-
-
-
-
-1
-
-compile install setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup test unpack
+DEPEND=>=x11-libs/qt-4.1:4 >=dev-util/cmake-2.4.6
+DESCRIPTION=A graphical user interface for QEMU written in Qt4.
+EAPI=1
+HOMEPAGE=http://qtemu.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 LGPL-2.1 CCPL-Attribution-3.0
+RDEPEND=>=x11-libs/qt-4.1:4 app-emulation/qemu
+SLOT=0
+SRC_URI=mirror://sourceforge/qtemu/qtemu-1.0.5.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

@@ -1,22 +1,13 @@
-games-util/loki_patch
-virtual/opengl amd64? ( app-emulation/emul-linux-x86-xlibs )
-0
-mirror://lokigames/heretic2/heretic2-1.06b-unified-x86.run mirror://lokigames/heretic2/heretic2-1.06c-unified-x86.run mirror://lokigames/heretic2/heretic2-maps-1.0.run
-strip
-http://lokigames.com/products/heretic2/ http://www.ravensoft.com/heretic2.html
-LOKI-EULA
-Third-person classic magical action-adventure game
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=games-util/loki_patch
+DESCRIPTION=Third-person classic magical action-adventure game
+EAPI=0
+HOMEPAGE=http://lokigames.com/products/heretic2/ http://www.ravensoft.com/heretic2.html
+KEYWORDS=~amd64 ~x86
+LICENSE=LOKI-EULA
+RDEPEND=virtual/opengl amd64? ( app-emulation/emul-linux-x86-xlibs )
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://lokigames/heretic2/heretic2-1.06b-unified-x86.run mirror://lokigames/heretic2/heretic2-1.06c-unified-x86.run mirror://lokigames/heretic2/heretic2-maps-1.0.run
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

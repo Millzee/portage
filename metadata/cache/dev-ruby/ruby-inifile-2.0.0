@@ -1,22 +1,12 @@
-virtual/ruby
-virtual/ruby
-0
-http://gregoire.lejeune.free.fr/ruby-inifile_2.0.0.tar.gz
-
-http://raa.ruby-lang.org/project/ruby-inifile/
-Ruby
-Small library to parse INI-files in Ruby
-~x86 ~amd64
-ruby toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/ruby
+DESCRIPTION=Small library to parse INI-files in Ruby
+EAPI=0
+HOMEPAGE=http://raa.ruby-lang.org/project/ruby-inifile/
+KEYWORDS=~x86 ~amd64
+LICENSE=Ruby
+RDEPEND=virtual/ruby
+SLOT=0
+SRC_URI=http://gregoire.lejeune.free.fr/ruby-inifile_2.0.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

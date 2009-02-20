@@ -1,22 +1,13 @@
-dev-perl/File-Which virtual/perl-Module-Build virtual/logger virtual/mysql avahi? ( net-dns/avahi ) ogg? ( media-sound/sox )
-dev-perl/File-Which virtual/perl-Module-Build virtual/logger virtual/mysql avahi? ( net-dns/avahi ) ogg? ( media-sound/sox ) >=dev-lang/perl-5.8.8 >=dev-perl/GD-2.35 >=app-admin/sudo-1.6.8 alac? ( media-sound/alac_decoder ) lame? ( media-sound/lame ) wavpack? ( media-sound/wavpack ) bonjour? ( net-misc/mDNSResponder ) flac? ( media-libs/flac ) musepack? ( media-sound/musepack-tools )
-0
-http://www.slimdevices.com/downloads/SqueezeCenter_v7.1.0/squeezecenter-7.1-noCPAN.tgz
-
-http://www.slimdevices.com/pi_features.html
-GPL-2
-Logitech SqueezeCenter music server
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-lame wavpack musepack alac ogg bonjour flac avahi
-
-
-
-0
-
-compile config install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst preinst setup unpack
+DEPEND=dev-perl/File-Which virtual/perl-Module-Build virtual/logger virtual/mysql avahi? ( net-dns/avahi ) ogg? ( media-sound/sox )
+DESCRIPTION=Logitech SqueezeCenter music server
+EAPI=0
+HOMEPAGE=http://www.slimdevices.com/pi_features.html
+IUSE=lame wavpack musepack alac ogg bonjour flac avahi
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-perl/File-Which virtual/perl-Module-Build virtual/logger virtual/mysql avahi? ( net-dns/avahi ) ogg? ( media-sound/sox ) >=dev-lang/perl-5.8.8 >=dev-perl/GD-2.35 >=app-admin/sudo-1.6.8 alac? ( media-sound/alac_decoder ) lame? ( media-sound/lame ) wavpack? ( media-sound/wavpack ) bonjour? ( net-misc/mDNSResponder ) flac? ( media-libs/flac ) musepack? ( media-sound/musepack-tools )
+SLOT=0
+SRC_URI=http://www.slimdevices.com/downloads/SqueezeCenter_v7.1.0/squeezecenter-7.1-noCPAN.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

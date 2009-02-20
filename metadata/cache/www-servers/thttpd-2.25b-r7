@@ -1,22 +1,11 @@
-
-
-0
-http://www.acme.com/software/thttpd/thttpd-2.25b.tar.gz
-
-http://www.acme.com/software/thttpd/
-BSD
-Small and fast multiplexing webserver.
-amd64 ~hppa ~mips ppc sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils flag-o-matic
-static
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DESCRIPTION=Small and fast multiplexing webserver.
+EAPI=0
+HOMEPAGE=http://www.acme.com/software/thttpd/
+IUSE=static
+KEYWORDS=amd64 ~hppa ~mips ppc sparc x86 ~x86-fbsd
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://www.acme.com/software/thttpd/thttpd-2.25b.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

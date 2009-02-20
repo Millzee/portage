@@ -1,22 +1,13 @@
-sasl? ( net-libs/libgsasl ) ssl? ( net-libs/gnutls ) virtual/libiconv doc? ( app-doc/doxygen )
-sasl? ( net-libs/libgsasl ) ssl? ( net-libs/gnutls ) virtual/libiconv
-0
-mirror://sourceforge/vmime/libvmime-0.9.0.tar.bz2
-
-http://www.vmime.org/
-GPL-2
-A powerful C++ class library for working with MIME messages and services like IMAP, POP or SMTP.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-debug doc examples sasl ssl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sasl? ( net-libs/libgsasl ) ssl? ( net-libs/gnutls ) virtual/libiconv doc? ( app-doc/doxygen )
+DESCRIPTION=A powerful C++ class library for working with MIME messages and services like IMAP, POP or SMTP.
+EAPI=0
+HOMEPAGE=http://www.vmime.org/
+IUSE=debug doc examples sasl ssl
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sasl? ( net-libs/libgsasl ) ssl? ( net-libs/gnutls ) virtual/libiconv
+SLOT=0
+SRC_URI=mirror://sourceforge/vmime/libvmime-0.9.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

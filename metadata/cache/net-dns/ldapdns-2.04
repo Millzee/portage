@@ -1,22 +1,11 @@
-virtual/libc >=net-nds/openldap-2
-virtual/libc >=net-nds/openldap-2 >=sys-process/daemontools-0.70 sys-apps/ucspi-tcp
-0
-http://www.nimh.org/dl/ldapdns-2.04.tar.gz
-
-http://www.nimh.org/code/ldapdns/
-GPL-2
-A tiny, fast authoritative nameserver that queries LDAP and can be updated instantly
-x86
-
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/libc >=net-nds/openldap-2
+DESCRIPTION=A tiny, fast authoritative nameserver that queries LDAP and can be updated instantly
+EAPI=0
+HOMEPAGE=http://www.nimh.org/code/ldapdns/
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc >=net-nds/openldap-2 >=sys-process/daemontools-0.70 sys-apps/ucspi-tcp
+SLOT=0
+SRC_URI=http://www.nimh.org/dl/ldapdns-2.04.tar.gz
+_mtime_=1235082890

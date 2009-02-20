@@ -1,22 +1,13 @@
-sys-libs/ncurses X? ( x11-libs/libX11 x11-libs/libICE x11-libs/libSM )
-sys-libs/ncurses X? ( x11-libs/libX11 x11-libs/libICE x11-libs/libSM )
-0
-http://www.eligis.com/emacs/emact-2.53.0.tar.gz
-
-http://www.eligis.com/emacs/
-GPL-2
-EmACT, a fork of Conroy's MicroEmacs
-amd64 x86
-toolchain-funcs multilib
-X
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/ncurses X? ( x11-libs/libX11 x11-libs/libICE x11-libs/libSM )
+DESCRIPTION=EmACT, a fork of Conroy's MicroEmacs
+EAPI=0
+HOMEPAGE=http://www.eligis.com/emacs/
+IUSE=X
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses X? ( x11-libs/libX11 x11-libs/libICE x11-libs/libSM )
+SLOT=0
+SRC_URI=http://www.eligis.com/emacs/emact-2.53.0.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

@@ -1,22 +1,14 @@
->=virtual/emacs-21
->=virtual/emacs-21
-0
-http://savannah.nongnu.org/download/riece/riece-5.0.0.tar.gz
-test
-http://www.nongnu.org/riece/
-GPL-3 FDL-1.1
-A redesign of Liece IRC client
-alpha amd64 ppc ppc64 x86
-versionator elisp elisp-common
-linguas_ja
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-21
+DESCRIPTION=A redesign of Liece IRC client
+EAPI=0
+HOMEPAGE=http://www.nongnu.org/riece/
+IUSE=linguas_ja
+KEYWORDS=alpha amd64 ppc ppc64 x86
+LICENSE=GPL-3 FDL-1.1
+RDEPEND=>=virtual/emacs-21
+RESTRICT=test
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/riece/riece-5.0.0.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

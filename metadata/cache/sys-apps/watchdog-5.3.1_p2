@@ -1,22 +1,10 @@
-
-
-0
-mirror://debian/pool/main/w/watchdog/watchdog_5.3.1.orig.tar.gz mirror://debian/pool/main/w/watchdog/watchdog_5.3.1-2.diff.gz
-
-http://www.ibiblio.org/pub/Linux/system/daemons/watchdog/
-GPL-2
-A software watchdog
-~amd64 ~arm ~m68k ~mips ~ppc ~s390 ~sh ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=A software watchdog
+EAPI=0
+HOMEPAGE=http://www.ibiblio.org/pub/Linux/system/daemons/watchdog/
+KEYWORDS=~amd64 ~arm ~m68k ~mips ~ppc ~s390 ~sh ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://debian/pool/main/w/watchdog/watchdog_5.3.1.orig.tar.gz mirror://debian/pool/main/w/watchdog/watchdog_5.3.1-2.diff.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

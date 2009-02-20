@@ -1,22 +1,13 @@
->=dev-libs/libevent-0.6 perl? ( dev-perl/Cache-Memcached )
->=dev-libs/libevent-0.6 perl? ( dev-perl/Cache-Memcached )
-0
-http://www.danga.com/memcached/dist/memcached-1.1.12.tar.gz
-
-http://www.danga.com/memcached/
-BSD
-memcached is a high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
-amd64 arm ~hppa ia64 ~mips ppc ppc64 sh sparc x86
-toolchain-funcs multilib portability eutils
-static perl doc
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=>=dev-libs/libevent-0.6 perl? ( dev-perl/Cache-Memcached )
+DESCRIPTION=memcached is a high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
+EAPI=0
+HOMEPAGE=http://www.danga.com/memcached/
+IUSE=static perl doc
+KEYWORDS=amd64 arm ~hppa ia64 ~mips ppc ppc64 sh sparc x86
+LICENSE=BSD
+RDEPEND=>=dev-libs/libevent-0.6 perl? ( dev-perl/Cache-Memcached )
+SLOT=0
+SRC_URI=http://www.danga.com/memcached/dist/memcached-1.1.12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

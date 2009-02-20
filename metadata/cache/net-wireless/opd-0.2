@@ -1,22 +1,12 @@
-virtual/libc dev-libs/openobex net-wireless/bluez-libs
-virtual/libc dev-libs/openobex net-wireless/bluez-libs
-0
-http://oss.bdit.de/download/opd-v0.2-2003-03-18.tgz
-
-http://oss.bdit.de/opd.html
-as-is
-OBEX Push daemon for BlueZ and IrDA.
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/libc dev-libs/openobex net-wireless/bluez-libs
+DESCRIPTION=OBEX Push daemon for BlueZ and IrDA.
+EAPI=0
+HOMEPAGE=http://oss.bdit.de/opd.html
+KEYWORDS=~x86
+LICENSE=as-is
+RDEPEND=virtual/libc dev-libs/openobex net-wireless/bluez-libs
+SLOT=0
+SRC_URI=http://oss.bdit.de/download/opd-v0.2-2003-03-18.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

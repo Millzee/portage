@@ -1,22 +1,11 @@
-sys-devel/bison
-
-0
-mirror://sourceforge/lambdamoo/LambdaMOO-1.8.1.tar.gz
-
-http://sourceforge.net/projects/lambdamoo/
-as-is
-networked mud that can be used for different types of collaborative software
-~x86 ~sparc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-devel/bison
+DESCRIPTION=networked mud that can be used for different types of collaborative software
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/lambdamoo/
+KEYWORDS=~x86 ~sparc
+LICENSE=as-is
+SLOT=0
+SRC_URI=mirror://sourceforge/lambdamoo/LambdaMOO-1.8.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

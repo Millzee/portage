@@ -1,22 +1,13 @@
-svga? ( media-libs/svgalib ) !svga? ( x11-libs/libX11 x11-libs/libXext media-fonts/font-schumacher-misc ) tk? ( dev-lang/tk dev-lang/tcl ) !tk? ( dev-util/dialog ) !svga? ( x11-proto/xextproto x11-proto/xproto x11-misc/gccmakedep x11-misc/imake app-text/rman )
-svga? ( media-libs/svgalib ) !svga? ( x11-libs/libX11 x11-libs/libXext media-fonts/font-schumacher-misc ) tk? ( dev-lang/tk dev-lang/tcl ) !tk? ( dev-util/dialog )
-0
-http://www.ucw.cz/~hubicka/koules/packages/koules1.4-src.tar.gz mirror://gentoo/koules-1.4-gcc3.patch.bz2
-
-http://www.ucw.cz/~hubicka/koules/English/
-GPL-2
-fast action arcade-style game w/sound and network support
-~alpha ~amd64 ppc x86
-toolchain-funcs portability multilib base games eutils
-joystick svga tk
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=svga? ( media-libs/svgalib ) !svga? ( x11-libs/libX11 x11-libs/libXext media-fonts/font-schumacher-misc ) tk? ( dev-lang/tk dev-lang/tcl ) !tk? ( dev-util/dialog ) !svga? ( x11-proto/xextproto x11-proto/xproto x11-misc/gccmakedep x11-misc/imake app-text/rman )
+DESCRIPTION=fast action arcade-style game w/sound and network support
+EAPI=0
+HOMEPAGE=http://www.ucw.cz/~hubicka/koules/English/
+IUSE=joystick svga tk
+KEYWORDS=~alpha ~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=svga? ( media-libs/svgalib ) !svga? ( x11-libs/libX11 x11-libs/libXext media-fonts/font-schumacher-misc ) tk? ( dev-lang/tk dev-lang/tcl ) !tk? ( dev-util/dialog )
+SLOT=0
+SRC_URI=http://www.ucw.cz/~hubicka/koules/packages/koules1.4-src.tar.gz mirror://gentoo/koules-1.4-gcc3.patch.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

@@ -1,22 +1,12 @@
-|| ( >=app-editors/vim-7.0 >=app-editors/gvim-7.0 )
-|| ( >=app-editors/vim-7.0 >=app-editors/gvim-7.0 )
-0
-mirror://gentoo/dbext-6.20.tar.bz2
-
-http://www.vim.org/scripts/script.php?script_id=356
-GPL-2
-vim plugin: easy access to databases
-~alpha ~amd64 ~ia64 ~mips ~ppc ~sparc ~x86
-toolchain-funcs portability vim-plugin multilib vim-doc eutils
-
-
-
-
-0
-
-install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm
+DEPEND=|| ( >=app-editors/vim-7.0 >=app-editors/gvim-7.0 )
+DESCRIPTION=vim plugin: easy access to databases
+EAPI=0
+HOMEPAGE=http://www.vim.org/scripts/script.php?script_id=356
+KEYWORDS=~alpha ~amd64 ~ia64 ~mips ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( >=app-editors/vim-7.0 >=app-editors/gvim-7.0 )
+SLOT=0
+SRC_URI=mirror://gentoo/dbext-6.20.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	vim-doc	/home/Funtoo/portage/eclass	1235082859	vim-plugin	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

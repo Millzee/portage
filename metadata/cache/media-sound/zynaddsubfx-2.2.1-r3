@@ -1,22 +1,13 @@
->=x11-libs/fltk-1.1.2:1.1 =sci-libs/fftw-3* jack? ( media-sound/jack-audio-connection-kit ) >=dev-libs/mini-xml-2.2.1
->=x11-libs/fltk-1.1.2:1.1 =sci-libs/fftw-3* jack? ( media-sound/jack-audio-connection-kit ) >=dev-libs/mini-xml-2.2.1
-0
-mirror://sourceforge/zynaddsubfx/ZynAddSubFX-2.2.1.tar.bz2
-
-http://zynaddsubfx.sourceforge.net/
-GPL-2
-ZynAddSubFX is an opensource software synthesizer.
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-oss alsa jack
-
-
-
-1
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=>=x11-libs/fltk-1.1.2:1.1 =sci-libs/fftw-3* jack? ( media-sound/jack-audio-connection-kit ) >=dev-libs/mini-xml-2.2.1
+DESCRIPTION=ZynAddSubFX is an opensource software synthesizer.
+EAPI=1
+HOMEPAGE=http://zynaddsubfx.sourceforge.net/
+IUSE=oss alsa jack
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/fltk-1.1.2:1.1 =sci-libs/fftw-3* jack? ( media-sound/jack-audio-connection-kit ) >=dev-libs/mini-xml-2.2.1
+SLOT=0
+SRC_URI=mirror://sourceforge/zynaddsubfx/ZynAddSubFX-2.2.1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

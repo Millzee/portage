@@ -1,22 +1,13 @@
-postgres? ( virtual/postgresql-server ) !postgres? ( sqlite? ( =dev-db/sqlite-2* ) !sqlite? ( sys-libs/gdbm ) ) sys-devel/bison sys-devel/flex
-postgres? ( virtual/postgresql-server ) !postgres? ( sqlite? ( =dev-db/sqlite-2* ) !sqlite? ( sys-libs/gdbm ) ) net-firewall/iptables virtual/cron dev-lang/perl gd? ( dev-perl/GD ) virtual/logger
-0
-mirror://sourceforge/ipac-ng/ipac-ng-1.31.tar.bz2 mirror://gentoo/ipac-ng-1.31-patches.tar.bz2
-
-http://sourceforge.net/projects/ipac-ng/
-GPL-2
-ip accounting suite for 2.4 and 2.6 series kernels with text and PNG image output like mrtg
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-gd sqlite postgres
-
-
-
-0
-
-compile install postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test unpack
+DEPEND=postgres? ( virtual/postgresql-server ) !postgres? ( sqlite? ( =dev-db/sqlite-2* ) !sqlite? ( sys-libs/gdbm ) ) sys-devel/bison sys-devel/flex
+DESCRIPTION=ip accounting suite for 2.4 and 2.6 series kernels with text and PNG image output like mrtg
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/ipac-ng/
+IUSE=gd sqlite postgres
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=postgres? ( virtual/postgresql-server ) !postgres? ( sqlite? ( =dev-db/sqlite-2* ) !sqlite? ( sys-libs/gdbm ) ) net-firewall/iptables virtual/cron dev-lang/perl gd? ( dev-perl/GD ) virtual/logger
+SLOT=0
+SRC_URI=mirror://sourceforge/ipac-ng/ipac-ng-1.31.tar.bz2 mirror://gentoo/ipac-ng-1.31-patches.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

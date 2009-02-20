@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.8 x11-libs/pango >=gnome-base/gconf-2 >=dev-libs/libxml2-2.6.27 >=dev-libs/libxslt-1.1.19 >=dev-libs/glib-2 xulrunner? ( =net-libs/xulrunner-1.8* ) !xulrunner? ( firefox? ( =www-client/mozilla-firefox-2* ) ) !xulrunner? ( !firefox? ( seamonkey? ( =www-client/seamonkey-1* ) ) ) !amd64? ( !xulrunner? ( !firefox? ( !seamonkey? ( =gnome-extra/gtkhtml-2* ) ) ) ) !amd64? ( gtkhtml? ( =gnome-extra/gtkhtml-2* ) ) dbus? ( >=dev-libs/dbus-glib-0.71 ) libnotify? ( >=x11-libs/libnotify-0.3.2 ) networkmanager? ( net-misc/networkmanager ) lua? ( >=dev-lang/lua-5.1 ) gnutls? ( net-libs/gnutls ) dev-util/pkgconfig >=dev-util/intltool-0.35 >=sys-apps/sed-4 =sys-devel/automake-1.7* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=x11-libs/gtk+-2.8 x11-libs/pango >=gnome-base/gconf-2 >=dev-libs/libxml2-2.6.27 >=dev-libs/libxslt-1.1.19 >=dev-libs/glib-2 xulrunner? ( =net-libs/xulrunner-1.8* ) !xulrunner? ( firefox? ( =www-client/mozilla-firefox-2* ) ) !xulrunner? ( !firefox? ( seamonkey? ( =www-client/seamonkey-1* ) ) ) !amd64? ( !xulrunner? ( !firefox? ( !seamonkey? ( =gnome-extra/gtkhtml-2* ) ) ) ) !amd64? ( gtkhtml? ( =gnome-extra/gtkhtml-2* ) ) dbus? ( >=dev-libs/dbus-glib-0.71 ) libnotify? ( >=x11-libs/libnotify-0.3.2 ) networkmanager? ( net-misc/networkmanager ) lua? ( >=dev-lang/lua-5.1 ) gnutls? ( net-libs/gnutls )
-0
-mirror://sourceforge/liferea/liferea-1.2.23.tar.gz
-
-http://liferea.sourceforge.net/
-GPL-2
-News Aggregator for RDF/RSS/CDF/Atom/Echo/etc feeds
-amd64 ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic multilib gnome2-utils gnome2 gnome.org fdo-mime autotools libtool eutils
-dbus firefox gtkhtml gnutls libnotify lua networkmanager seamonkey xulrunner debug
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=x11-libs/gtk+-2.8 x11-libs/pango >=gnome-base/gconf-2 >=dev-libs/libxml2-2.6.27 >=dev-libs/libxslt-1.1.19 >=dev-libs/glib-2 xulrunner? ( =net-libs/xulrunner-1.8* ) !xulrunner? ( firefox? ( =www-client/mozilla-firefox-2* ) ) !xulrunner? ( !firefox? ( seamonkey? ( =www-client/seamonkey-1* ) ) ) !amd64? ( !xulrunner? ( !firefox? ( !seamonkey? ( =gnome-extra/gtkhtml-2* ) ) ) ) !amd64? ( gtkhtml? ( =gnome-extra/gtkhtml-2* ) ) dbus? ( >=dev-libs/dbus-glib-0.71 ) libnotify? ( >=x11-libs/libnotify-0.3.2 ) networkmanager? ( net-misc/networkmanager ) lua? ( >=dev-lang/lua-5.1 ) gnutls? ( net-libs/gnutls ) dev-util/pkgconfig >=dev-util/intltool-0.35 >=sys-apps/sed-4 =sys-devel/automake-1.7* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=News Aggregator for RDF/RSS/CDF/Atom/Echo/etc feeds
+EAPI=0
+HOMEPAGE=http://liferea.sourceforge.net/
+IUSE=dbus firefox gtkhtml gnutls libnotify lua networkmanager seamonkey xulrunner debug
+KEYWORDS=amd64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.8 x11-libs/pango >=gnome-base/gconf-2 >=dev-libs/libxml2-2.6.27 >=dev-libs/libxslt-1.1.19 >=dev-libs/glib-2 xulrunner? ( =net-libs/xulrunner-1.8* ) !xulrunner? ( firefox? ( =www-client/mozilla-firefox-2* ) ) !xulrunner? ( !firefox? ( seamonkey? ( =www-client/seamonkey-1* ) ) ) !amd64? ( !xulrunner? ( !firefox? ( !seamonkey? ( =gnome-extra/gtkhtml-2* ) ) ) ) !amd64? ( gtkhtml? ( =gnome-extra/gtkhtml-2* ) ) dbus? ( >=dev-libs/dbus-glib-0.71 ) libnotify? ( >=x11-libs/libnotify-0.3.2 ) networkmanager? ( net-misc/networkmanager ) lua? ( >=dev-lang/lua-5.1 ) gnutls? ( net-libs/gnutls )
+SLOT=0
+SRC_URI=mirror://sourceforge/liferea/liferea-1.2.23.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

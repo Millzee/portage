@@ -1,22 +1,12 @@
-virtual/glu virtual/opengl >=media-libs/freetype-2 media-libs/libsdl media-libs/sdl-net media-libs/sdl-mixer media-libs/sdl-ttf virtual/libintl sys-devel/gettext
-virtual/glu virtual/opengl >=media-libs/freetype-2 media-libs/libsdl media-libs/sdl-net media-libs/sdl-mixer media-libs/sdl-ttf virtual/libintl
-0
-mirror://sourceforge/scourge/scourge-0.21.1.src.tar.gz mirror://sourceforge/scourge/scourge-0.21.1.data.tar.gz
-
-http://scourgeweb.org/
-GPL-2
-A graphical rogue-like adventure game
-~amd64 ~ppc ~x86
-toolchain-funcs wxwidgets portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/glu virtual/opengl >=media-libs/freetype-2 media-libs/libsdl media-libs/sdl-net media-libs/sdl-mixer media-libs/sdl-ttf virtual/libintl sys-devel/gettext
+DESCRIPTION=A graphical rogue-like adventure game
+EAPI=0
+HOMEPAGE=http://scourgeweb.org/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/glu virtual/opengl >=media-libs/freetype-2 media-libs/libsdl media-libs/sdl-net media-libs/sdl-mixer media-libs/sdl-ttf virtual/libintl
+SLOT=0
+SRC_URI=mirror://sourceforge/scourge/scourge-0.21.1.src.tar.gz mirror://sourceforge/scourge/scourge-0.21.1.data.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

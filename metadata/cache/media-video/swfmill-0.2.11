@@ -1,22 +1,11 @@
-dev-libs/libxml2 dev-libs/libxslt media-libs/freetype media-libs/libpng dev-util/pkgconfig
-dev-libs/libxml2 dev-libs/libxslt media-libs/freetype media-libs/libpng
-0
-http://swfmill.org/releases/swfmill-0.2.11.tar.gz
-
-http://swfmill.org
-GPL-2
-swfmill is an xml2swf and swf2xml processor with import functionalities
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-libs/libxml2 dev-libs/libxslt media-libs/freetype media-libs/libpng dev-util/pkgconfig
+DESCRIPTION=swfmill is an xml2swf and swf2xml processor with import functionalities
+EAPI=0
+HOMEPAGE=http://swfmill.org
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libxml2 dev-libs/libxslt media-libs/freetype media-libs/libpng
+SLOT=0
+SRC_URI=http://swfmill.org/releases/swfmill-0.2.11.tar.gz
+_mtime_=1235082870

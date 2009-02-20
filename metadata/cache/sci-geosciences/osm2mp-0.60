@@ -1,22 +1,11 @@
-dev-perl/Template-Toolkit virtual/perl-Getopt-Long
-dev-perl/Template-Toolkit virtual/perl-Getopt-Long
-0
-http://garminmapsearch.com/osm/osm2mp_v060.zip
-
-http://forum.openstreetmap.org/viewtopic.php?id=1162
-GPL-2
-Converts openstreetmap data to mp format (used e. g. by mkgmap)
-~amd64 ~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-perl/Template-Toolkit virtual/perl-Getopt-Long
+DESCRIPTION=Converts openstreetmap data to mp format (used e. g. by mkgmap)
+EAPI=0
+HOMEPAGE=http://forum.openstreetmap.org/viewtopic.php?id=1162
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-perl/Template-Toolkit virtual/perl-Getopt-Long
+SLOT=0
+SRC_URI=http://garminmapsearch.com/osm/osm2mp_v060.zip
+_mtime_=1235082898

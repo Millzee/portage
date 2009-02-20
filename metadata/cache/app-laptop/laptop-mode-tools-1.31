@@ -1,22 +1,13 @@
-acpi? ( sys-power/acpid ) apm? ( sys-apps/apmd ) >=sys-apps/sed-4 kernel_linux? ( virtual/linux-sources )
-acpi? ( sys-power/acpid ) apm? ( sys-apps/apmd )
-0
-http://www.samwel.tk/laptop_mode/tools/downloads/laptop-mode-tools_1.31.tar.gz
-
-http://www.samwel.tk/laptop_mode/
-GPL-2
-Linux kernel laptop_mode user-space utilities
-amd64 ~ppc x86
-fixheadtails linux-info toolchain-funcs multilib versionator
-acpi apm
-
-
-
-0
-
-install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst setup unpack
+DEPEND=acpi? ( sys-power/acpid ) apm? ( sys-apps/apmd ) >=sys-apps/sed-4 kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=Linux kernel laptop_mode user-space utilities
+EAPI=0
+HOMEPAGE=http://www.samwel.tk/laptop_mode/
+IUSE=acpi apm
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=acpi? ( sys-power/acpid ) apm? ( sys-apps/apmd )
+SLOT=0
+SRC_URI=http://www.samwel.tk/laptop_mode/tools/downloads/laptop-mode-tools_1.31.tar.gz
+_eclasses_=fixheadtails	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

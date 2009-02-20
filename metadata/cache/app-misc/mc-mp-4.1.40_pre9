@@ -1,22 +1,13 @@
-kernel_linux? ( >=sys-fs/e2fsprogs-1.19 ) ncurses? ( >=sys-libs/ncurses-5.2-r5 ) pam? ( >=sys-libs/pam-0.78-r3 net-nds/portmap ) gpm? ( >=sys-libs/gpm-1.19.3 ) slang? ( sys-libs/slang ) >=app-arch/p7zip-4.16 !app-misc/mc dev-util/pkgconfig
-kernel_linux? ( >=sys-fs/e2fsprogs-1.19 ) ncurses? ( >=sys-libs/ncurses-5.2-r5 ) pam? ( >=sys-libs/pam-0.78-r3 net-nds/portmap ) gpm? ( >=sys-libs/gpm-1.19.3 ) slang? ( sys-libs/slang ) >=app-arch/p7zip-4.16 !app-misc/mc
-0
-http://mc.linuxinside.com/Releases/mc-4.1.40-pre9.tar.bz2
-
-http://mc.linuxinside.com/cgi-bin/dir.cgi
-GPL-2
-GNU Midnight Commander cli-based file manager. 4.1.x branch
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic multilib pam eutils
-gpm nls ncurses pam slang
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=kernel_linux? ( >=sys-fs/e2fsprogs-1.19 ) ncurses? ( >=sys-libs/ncurses-5.2-r5 ) pam? ( >=sys-libs/pam-0.78-r3 net-nds/portmap ) gpm? ( >=sys-libs/gpm-1.19.3 ) slang? ( sys-libs/slang ) >=app-arch/p7zip-4.16 !app-misc/mc dev-util/pkgconfig
+DESCRIPTION=GNU Midnight Commander cli-based file manager. 4.1.x branch
+EAPI=0
+HOMEPAGE=http://mc.linuxinside.com/cgi-bin/dir.cgi
+IUSE=gpm nls ncurses pam slang
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=kernel_linux? ( >=sys-fs/e2fsprogs-1.19 ) ncurses? ( >=sys-libs/ncurses-5.2-r5 ) pam? ( >=sys-libs/pam-0.78-r3 net-nds/portmap ) gpm? ( >=sys-libs/gpm-1.19.3 ) slang? ( sys-libs/slang ) >=app-arch/p7zip-4.16 !app-misc/mc
+SLOT=0
+SRC_URI=http://mc.linuxinside.com/Releases/mc-4.1.40-pre9.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

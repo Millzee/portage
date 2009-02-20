@@ -1,22 +1,13 @@
-dev-python/numpy virtual/python
-dev-python/numpy dev-python/PyQt4 fits? ( dev-python/pyfits )
-0
-http://download.gna.org/veusz/veusz-1.2.1.tar.gz
-
-http://home.gna.org/veusz/
-GPL-2
-Qt based scientific plotting package with good Postscript output
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-doc examples fits
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-python/numpy virtual/python
+DESCRIPTION=Qt based scientific plotting package with good Postscript output
+EAPI=0
+HOMEPAGE=http://home.gna.org/veusz/
+IUSE=doc examples fits
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-python/numpy dev-python/PyQt4 fits? ( dev-python/pyfits )
+SLOT=0
+SRC_URI=http://download.gna.org/veusz/veusz-1.2.1.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

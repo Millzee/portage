@@ -1,22 +1,13 @@
-=x11-libs/wxGTK-2.6* =dev-db/sqlite-3*
-=x11-libs/wxGTK-2.6* =dev-db/sqlite-3*
-0
-mirror://sourceforge/wxcode/wxsqlite3-1.6.0.tar.gz
-
-http://wxcode.sourceforge.net/components/wxsqlite3/
-wxWinLL-3
-a C++ wrapper around the public domain SQLite 3.x database
-~x86
-toolchain-funcs multilib portability eutils wxwidgets
-unicode
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND==x11-libs/wxGTK-2.6* =dev-db/sqlite-3*
+DESCRIPTION=a C++ wrapper around the public domain SQLite 3.x database
+EAPI=0
+HOMEPAGE=http://wxcode.sourceforge.net/components/wxsqlite3/
+IUSE=unicode
+KEYWORDS=~x86
+LICENSE=wxWinLL-3
+RDEPEND==x11-libs/wxGTK-2.6* =dev-db/sqlite-3*
+SLOT=0
+SRC_URI=mirror://sourceforge/wxcode/wxsqlite3-1.6.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

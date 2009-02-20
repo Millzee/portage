@@ -1,22 +1,12 @@
-
-virtual/opengl amd64? ( >=app-emulation/emul-linux-x86-xlibs-1.0-r1 )
-0
-mirror://gentoo/JN2_1_FREE_LIN.tar.gz
-strip
-http://www.jardinains2.com
-jardinains
-Arkanoid with Gnomes
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Arkanoid with Gnomes
+EAPI=0
+HOMEPAGE=http://www.jardinains2.com
+KEYWORDS=~amd64 ~x86
+LICENSE=jardinains
+RDEPEND=virtual/opengl amd64? ( >=app-emulation/emul-linux-x86-xlibs-1.0-r1 )
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://gentoo/JN2_1_FREE_LIN.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

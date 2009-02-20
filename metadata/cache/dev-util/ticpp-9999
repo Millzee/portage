@@ -1,22 +1,11 @@
-dev-util/premake doc? ( app-doc/doxygen sys-apps/sed ) dev-util/subversion net-misc/rsync
-
-0
-
-
-http://code.google.com/p/ticpp/
-GPL-2
-A completely new interface to TinyXML that uses MANY of the C++ strengths
-~x86
-subversion toolchain-funcs multilib portability eutils
-debug doc
-
-
-
-0
-
-compile install preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst unpack
+DEPEND=dev-util/premake doc? ( app-doc/doxygen sys-apps/sed ) dev-util/subversion net-misc/rsync
+DESCRIPTION=A completely new interface to TinyXML that uses MANY of the C++ strengths
+EAPI=0
+HOMEPAGE=http://code.google.com/p/ticpp/
+IUSE=debug doc
+KEYWORDS=~x86
+LICENSE=GPL-2
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

@@ -1,22 +1,13 @@
->=sys-libs/ncurses-5 X? ( x11-libs/libX11 ) X? ( x11-libs/libXt )
->=sys-libs/ncurses-5 X? ( x11-libs/libX11 )
-0
-mirror://sourceforge.jp/hengband/10331/hengband-1.6.2.tar.bz2 mirror://gentoo/hengband-1.6.2-mispellings.patch.gz
-
-http://hengband.sourceforge.jp/en/
-Moria
-An Angband variant, with a Japanese/fantasy theme
-ppc x86 ~x86-fbsd
-toolchain-funcs portability multilib base games eutils
-X linguas_ja
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=sys-libs/ncurses-5 X? ( x11-libs/libX11 ) X? ( x11-libs/libXt )
+DESCRIPTION=An Angband variant, with a Japanese/fantasy theme
+EAPI=0
+HOMEPAGE=http://hengband.sourceforge.jp/en/
+IUSE=X linguas_ja
+KEYWORDS=ppc x86 ~x86-fbsd
+LICENSE=Moria
+RDEPEND=>=sys-libs/ncurses-5 X? ( x11-libs/libX11 )
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/hengband/10331/hengband-1.6.2.tar.bz2 mirror://gentoo/hengband-1.6.2-mispellings.patch.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,10 @@
-
->=app-text/dictd-1.5.5
-0
-ftp://ftp.dict.org/pub/dict/pre/dict-vera-1.9-pre.tar.gz
-
-http://www.dict.org/
-GPL-2
-V.E.R.A. -- Virtual Entity of Relevant Acronyms for dict
-~x86 ~ppc ~sparc amd64
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=V.E.R.A. -- Virtual Entity of Relevant Acronyms for dict
+EAPI=0
+HOMEPAGE=http://www.dict.org/
+KEYWORDS=~x86 ~ppc ~sparc amd64
+LICENSE=GPL-2
+RDEPEND=>=app-text/dictd-1.5.5
+SLOT=0
+SRC_URI=ftp://ftp.dict.org/pub/dict/pre/dict-vera-1.9-pre.tar.gz
+_mtime_=1235082847

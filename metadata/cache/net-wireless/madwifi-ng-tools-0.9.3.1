@@ -1,22 +1,12 @@
-virtual/libc
-!net-wireless/madwifi-old-tools virtual/libc
-0
-mirror://sourceforge/madwifi/madwifi-0.9.3.1.tar.bz2
-
-http://www.madwifi-project.org/
-|| ( BSD GPL-2 )
-Next Generation tools for configuration of Atheros based IEEE 802.11a/b/g wireless LAN cards
-amd64 ppc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc
+DESCRIPTION=Next Generation tools for configuration of Atheros based IEEE 802.11a/b/g wireless LAN cards
+EAPI=0
+HOMEPAGE=http://www.madwifi-project.org/
+KEYWORDS=amd64 ppc x86
+LICENSE=|| ( BSD GPL-2 )
+RDEPEND=!net-wireless/madwifi-old-tools virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/madwifi/madwifi-0.9.3.1.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

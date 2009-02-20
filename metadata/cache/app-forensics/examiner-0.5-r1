@@ -1,22 +1,12 @@
-dev-lang/perl
-dev-lang/perl
-0
-http://www.academicunderground.org/examiner/examiner-0.5.tar.gz
-
-http://www.academicunderground.org/examiner/
-GPL-2
-Examiner is an application that utilizes the objdump command to disassemble and comment foreign executable binaries
-x86 ppc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-lang/perl
+DESCRIPTION=Examiner is an application that utilizes the objdump command to disassemble and comment foreign executable binaries
+EAPI=0
+HOMEPAGE=http://www.academicunderground.org/examiner/
+KEYWORDS=x86 ppc
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=http://www.academicunderground.org/examiner/examiner-0.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

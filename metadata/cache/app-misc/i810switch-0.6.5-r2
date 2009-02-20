@@ -1,22 +1,11 @@
-
-sys-apps/pciutils
-0
-http://www16.plala.or.jp/mano-a-mano/i810switch/i810switch-0.6.5.tar.gz
-
-http://www16.plala.or.jp/mano-a-mano/i810switch.html
-GPL-2
-A utility for switching the LCD and external VGA displays on and off
--* x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=A utility for switching the LCD and external VGA displays on and off
+EAPI=0
+HOMEPAGE=http://www16.plala.or.jp/mano-a-mano/i810switch.html
+KEYWORDS=-* x86
+LICENSE=GPL-2
+RDEPEND=sys-apps/pciutils
+SLOT=0
+SRC_URI=http://www16.plala.or.jp/mano-a-mano/i810switch/i810switch-0.6.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

@@ -1,22 +1,11 @@
-x11-libs/libX11 dev-util/mercurial net-misc/rsync
-x11-libs/libX11
-0
-
-
-http://tools.suckless.org/view/x+tools
-MIT
-simple pointer warp
-~amd64 ~x86
-mercurial toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 dev-util/mercurial net-misc/rsync
+DESCRIPTION=simple pointer warp
+EAPI=0
+HOMEPAGE=http://tools.suckless.org/view/x+tools
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=x11-libs/libX11
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	mercurial	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

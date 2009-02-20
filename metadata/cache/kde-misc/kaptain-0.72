@@ -1,22 +1,12 @@
-=x11-libs/qt-3*
-=x11-libs/qt-3*
-0
-mirror://sourceforge/kaptain/kaptain-0.72.tar.gz
-
-http://kaptain.sourceforge.net/
-GPL-2
-A universal graphical front-end for command line programs
-~amd64 ppc ~sparc x86
-toolchain-funcs qt3 portability versionator multilib kde-functions eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND==x11-libs/qt-3*
+DESCRIPTION=A universal graphical front-end for command line programs
+EAPI=0
+HOMEPAGE=http://kaptain.sourceforge.net/
+KEYWORDS=~amd64 ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/qt-3*
+SLOT=0
+SRC_URI=mirror://sourceforge/kaptain/kaptain-0.72.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082862

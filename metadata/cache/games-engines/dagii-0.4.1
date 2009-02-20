@@ -1,22 +1,13 @@
-png? ( >=media-libs/libpng-1.2.8 ) >=media-libs/libsdl-1.2.9 >=sys-libs/zlib-1.2.0
-png? ( >=media-libs/libpng-1.2.8 ) >=media-libs/libsdl-1.2.9 >=sys-libs/zlib-1.2.0
-0
-http://www.dagii.org/dist/dagii-0.4.1.tar.bz2
-
-http://www.dagii.org/
-GPL-2
-a reimplementation of Sierra's Adventure Game Interpreter
-~ppc ~x86 ~x86-fbsd
-toolchain-funcs portability multilib base games eutils
-png
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=png? ( >=media-libs/libpng-1.2.8 ) >=media-libs/libsdl-1.2.9 >=sys-libs/zlib-1.2.0
+DESCRIPTION=a reimplementation of Sierra's Adventure Game Interpreter
+EAPI=0
+HOMEPAGE=http://www.dagii.org/
+IUSE=png
+KEYWORDS=~ppc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=png? ( >=media-libs/libpng-1.2.8 ) >=media-libs/libsdl-1.2.9 >=sys-libs/zlib-1.2.0
+SLOT=0
+SRC_URI=http://www.dagii.org/dist/dagii-0.4.1.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

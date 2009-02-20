@@ -1,22 +1,12 @@
-dev-libs/libf2c
-dev-libs/libf2c
-0
-mirror://gentoo/f2c-20060507.tar.bz2
-
-http://www.netlib.org/f2c
-libf2c
-Fortran to C converter
-alpha amd64 ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/libf2c
+DESCRIPTION=Fortran to C converter
+EAPI=0
+HOMEPAGE=http://www.netlib.org/f2c
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=libf2c
+RDEPEND=dev-libs/libf2c
+SLOT=0
+SRC_URI=mirror://gentoo/f2c-20060507.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

@@ -1,22 +1,14 @@
-dev-lisp/gentoo-init >=dev-libs/libsigsegv-2.4 fastcgi? ( dev-libs/fcgi ) gdbm? ( sys-libs/gdbm ) gtk? ( >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2.6 ) postgres? ( >=virtual/postgresql-server-8.0 ) readline? ( sys-libs/readline ) pcre? ( dev-libs/libpcre ) svm? ( sci-libs/libsvm ) zlib? ( sys-libs/zlib ) X? ( new-clx? ( x11-libs/libXpm ) ) X? ( new-clx? ( x11-misc/imake x11-proto/xextproto ) )
-dev-lisp/gentoo-init >=dev-libs/libsigsegv-2.4 fastcgi? ( dev-libs/fcgi ) gdbm? ( sys-libs/gdbm ) gtk? ( >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2.6 ) postgres? ( >=virtual/postgresql-server-8.0 ) readline? ( sys-libs/readline ) pcre? ( dev-libs/libpcre ) svm? ( sci-libs/libsvm ) zlib? ( sys-libs/zlib ) X? ( new-clx? ( x11-libs/libXpm ) )
-2
-mirror://sourceforge/clisp/clisp-2.43.tar.bz2
-
-http://clisp.sourceforge.net/
-GPL-2
-A portable, bytecode-compiled implementation of Common Lisp
-amd64 ppc ~ppc64 -sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-X new-clx fastcgi gdbm gtk pcre postgres readline svm zlib
-
-
-virtual/commonlisp
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-lisp/gentoo-init >=dev-libs/libsigsegv-2.4 fastcgi? ( dev-libs/fcgi ) gdbm? ( sys-libs/gdbm ) gtk? ( >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2.6 ) postgres? ( >=virtual/postgresql-server-8.0 ) readline? ( sys-libs/readline ) pcre? ( dev-libs/libpcre ) svm? ( sci-libs/libsvm ) zlib? ( sys-libs/zlib ) X? ( new-clx? ( x11-libs/libXpm ) ) X? ( new-clx? ( x11-misc/imake x11-proto/xextproto ) )
+DESCRIPTION=A portable, bytecode-compiled implementation of Common Lisp
+EAPI=0
+HOMEPAGE=http://clisp.sourceforge.net/
+IUSE=X new-clx fastcgi gdbm gtk pcre postgres readline svm zlib
+KEYWORDS=amd64 ppc ~ppc64 -sparc x86
+LICENSE=GPL-2
+PROVIDE=virtual/commonlisp
+RDEPEND=dev-lisp/gentoo-init >=dev-libs/libsigsegv-2.4 fastcgi? ( dev-libs/fcgi ) gdbm? ( sys-libs/gdbm ) gtk? ( >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2.6 ) postgres? ( >=virtual/postgresql-server-8.0 ) readline? ( sys-libs/readline ) pcre? ( dev-libs/libpcre ) svm? ( sci-libs/libsvm ) zlib? ( sys-libs/zlib ) X? ( new-clx? ( x11-libs/libXpm ) )
+SLOT=2
+SRC_URI=mirror://sourceforge/clisp/clisp-2.43.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

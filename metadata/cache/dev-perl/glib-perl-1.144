@@ -1,22 +1,13 @@
->=dev-libs/glib-2 dev-lang/perl xml? ( dev-perl/XML-Writer dev-perl/XML-Parser ) dev-util/pkgconfig >=dev-perl/extutils-depends-0.205 >=dev-perl/extutils-pkgconfig-1.07
->=dev-libs/glib-2 dev-lang/perl xml? ( dev-perl/XML-Writer dev-perl/XML-Parser )
-0
-mirror://cpan/authors/id/T/TS/TSCH/Glib-1.144.tar.gz
-
-http://gtk2-perl.sf.net/
-GPL-2
-Glib - Perl wrappers for the GLib utility and Object libraries
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-xml
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-libs/glib-2 dev-lang/perl xml? ( dev-perl/XML-Writer dev-perl/XML-Parser ) dev-util/pkgconfig >=dev-perl/extutils-depends-0.205 >=dev-perl/extutils-pkgconfig-1.07
+DESCRIPTION=Glib - Perl wrappers for the GLib utility and Object libraries
+EAPI=0
+HOMEPAGE=http://gtk2-perl.sf.net/
+IUSE=xml
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2 dev-lang/perl xml? ( dev-perl/XML-Writer dev-perl/XML-Parser )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TS/TSCH/Glib-1.144.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

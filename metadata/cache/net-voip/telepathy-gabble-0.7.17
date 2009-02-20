@@ -1,22 +1,13 @@
->=dev-libs/glib-2.16 >=sys-apps/dbus-1.1.0 >=dev-libs/dbus-glib-0.78 >=net-libs/telepathy-glib-0.7.18 >=net-libs/loudmouth-1.3.2 dev-libs/libxslt dev-lang/python test? ( dev-python/twisted dev-python/twisted-words )
->=dev-libs/glib-2.16 >=sys-apps/dbus-1.1.0 >=dev-libs/dbus-glib-0.78 >=net-libs/telepathy-glib-0.7.18 >=net-libs/loudmouth-1.3.2
-0
-http://telepathy.freedesktop.org/releases/telepathy-gabble/telepathy-gabble-0.7.17.tar.gz
-
-http://telepathy.freedesktop.org
-LGPL-2.1
-A Jabber/XMPP connection manager, this handles single and multi user chats and voice calls.
-~alpha ~amd64 ~ia64 ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-debug test
-
-
-
-0
-
-compile install setup test
-
-
-
-
-
+DEFINED_PHASES=compile install setup test
+DEPEND=>=dev-libs/glib-2.16 >=sys-apps/dbus-1.1.0 >=dev-libs/dbus-glib-0.78 >=net-libs/telepathy-glib-0.7.18 >=net-libs/loudmouth-1.3.2 dev-libs/libxslt dev-lang/python test? ( dev-python/twisted dev-python/twisted-words )
+DESCRIPTION=A Jabber/XMPP connection manager, this handles single and multi user chats and voice calls.
+EAPI=0
+HOMEPAGE=http://telepathy.freedesktop.org
+IUSE=debug test
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc64 ~sparc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-libs/glib-2.16 >=sys-apps/dbus-1.1.0 >=dev-libs/dbus-glib-0.78 >=net-libs/telepathy-glib-0.7.18 >=net-libs/loudmouth-1.3.2
+SLOT=0
+SRC_URI=http://telepathy.freedesktop.org/releases/telepathy-gabble/telepathy-gabble-0.7.17.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

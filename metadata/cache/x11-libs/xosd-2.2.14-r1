@@ -1,22 +1,13 @@
-x11-libs/libX11 x11-libs/libXext x11-libs/libXt xinerama? ( x11-proto/xineramaproto ) x11-proto/xextproto x11-proto/xproto dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-x11-libs/libX11 x11-libs/libXext x11-libs/libXt
-0
-mirror://debian/pool/main/x/xosd/xosd_2.2.14.orig.tar.gz mirror://debian/pool/main/x/xosd/xosd_2.2.14-1.diff.gz http://digilander.libero.it/dgp85/gentoo/xosd-gentoo-m4-1.tar.bz2
-
-https://sourceforge.net/projects/libxosd/
-GPL-2
-Library for overlaying text/glyphs in X-Windows X-On-Screen-Display plus binary for sending text from command line
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-xinerama
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXt xinerama? ( x11-proto/xineramaproto ) x11-proto/xextproto x11-proto/xproto dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Library for overlaying text/glyphs in X-Windows X-On-Screen-Display plus binary for sending text from command line
+EAPI=0
+HOMEPAGE=https://sourceforge.net/projects/libxosd/
+IUSE=xinerama
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXt
+SLOT=0
+SRC_URI=mirror://debian/pool/main/x/xosd/xosd_2.2.14.orig.tar.gz mirror://debian/pool/main/x/xosd/xosd_2.2.14-1.diff.gz http://digilander.libero.it/dgp85/gentoo/xosd-gentoo-m4-1.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

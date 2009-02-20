@@ -1,22 +1,9 @@
-
-
-0
-http://sreadahead.googlecode.com/files/sreadahead-0.04.tar.gz
-
-http://code.google.com/p/sreadahead/
-GPL-2
-A readahead implementation optimized for solid state discs
-~amd64
-
-
-
-
-
-2
-
-install postinst
-
-
-
-
-
+DEFINED_PHASES=install postinst
+DESCRIPTION=A readahead implementation optimized for solid state discs
+EAPI=2
+HOMEPAGE=http://code.google.com/p/sreadahead/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://sreadahead.googlecode.com/files/sreadahead-0.04.tar.gz
+_mtime_=1235082899

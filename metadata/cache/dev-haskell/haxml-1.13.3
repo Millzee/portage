@@ -1,22 +1,13 @@
->=dev-lang/ghc-6.2 doc? ( dev-haskell/haddock ) >=dev-haskell/cabal-1.1.4
->=dev-lang/ghc-6.2 dev-lang/ghc
-0
-http://hackage.haskell.org/packages/archive/HaXml/1.13.3/HaXml-1.13.3.tar.gz
-
-http://www.cs.york.ac.uk/fp/HaXml/
-LGPL-2.1
-Utilities for manipulating XML documents
-~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
-ghc-package toolchain-funcs versionator multilib haskell-cabal
-doc profile
-
-
-
-0
-
-compile install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup unpack
+DEPEND=>=dev-lang/ghc-6.2 doc? ( dev-haskell/haddock ) >=dev-haskell/cabal-1.1.4
+DESCRIPTION=Utilities for manipulating XML documents
+EAPI=0
+HOMEPAGE=http://www.cs.york.ac.uk/fp/HaXml/
+IUSE=doc profile
+KEYWORDS=~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-lang/ghc-6.2 dev-lang/ghc
+SLOT=0
+SRC_URI=http://hackage.haskell.org/packages/archive/HaXml/1.13.3/HaXml-1.13.3.tar.gz
+_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	haskell-cabal	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

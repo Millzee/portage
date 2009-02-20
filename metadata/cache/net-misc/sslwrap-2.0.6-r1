@@ -1,22 +1,12 @@
->=dev-libs/openssl-0.9.6
->=dev-libs/openssl-0.9.6
-0
-http://quiltaholic.com/rickk/sslwrap/sslwrap206.tar.gz mirror://gentoo/sslwrap-gentoo.tar.bz2
-
-http://quiltaholic.com/rickk/sslwrap/
-sslwrap
-TSL/SSL - Port Wrapper
-sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-libs/openssl-0.9.6
+DESCRIPTION=TSL/SSL - Port Wrapper
+EAPI=0
+HOMEPAGE=http://quiltaholic.com/rickk/sslwrap/
+KEYWORDS=sparc x86
+LICENSE=sslwrap
+RDEPEND=>=dev-libs/openssl-0.9.6
+SLOT=0
+SRC_URI=http://quiltaholic.com/rickk/sslwrap/sslwrap206.tar.gz mirror://gentoo/sslwrap-gentoo.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

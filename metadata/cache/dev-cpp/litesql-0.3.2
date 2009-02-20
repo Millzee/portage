@@ -1,22 +1,13 @@
-mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) sqlite? ( =dev-db/sqlite-3* ) !mysql? ( !postgres? ( !sqlite? ( =dev-db/sqlite-3* ) ) ) doc? ( app-doc/doxygen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) sqlite? ( =dev-db/sqlite-3* ) !mysql? ( !postgres? ( !sqlite? ( =dev-db/sqlite-3* ) ) )
-0
-mirror://sourceforge/litesql/litesql-0.3.2.tar.gz
-
-http://litesql.sourceforge.net/
-BSD
-Integrates C++ objects tightly to relational database and thus provides an object persistence layer.
-~amd64 ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-doc examples mysql postgres sqlite
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) sqlite? ( =dev-db/sqlite-3* ) !mysql? ( !postgres? ( !sqlite? ( =dev-db/sqlite-3* ) ) ) doc? ( app-doc/doxygen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Integrates C++ objects tightly to relational database and thus provides an object persistence layer.
+EAPI=0
+HOMEPAGE=http://litesql.sourceforge.net/
+IUSE=doc examples mysql postgres sqlite
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) sqlite? ( =dev-db/sqlite-3* ) !mysql? ( !postgres? ( !sqlite? ( =dev-db/sqlite-3* ) ) )
+SLOT=0
+SRC_URI=mirror://sourceforge/litesql/litesql-0.3.2.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

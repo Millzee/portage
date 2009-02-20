@@ -1,22 +1,13 @@
->=dev-perl/libwww-perl-5.801 >=dev-perl/XML-LibXML-1.58 >=dev-perl/XML-Parser-2.31 dev-perl/net-server dev-lang/perl test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage )
->=dev-perl/libwww-perl-5.801 >=dev-perl/XML-LibXML-1.58 >=dev-perl/XML-Parser-2.31 dev-perl/net-server dev-lang/perl
-0
-mirror://cpan/authors/id/R/RJ/RJRAY//RPC-XML-0.64.tar.gz
-
-http://search.cpan.org/search?query=RPC-XML&mode=dist
-|| ( Artistic-2 LGPL-2.1 )
-An implementation of XML-RPC
-~alpha ~amd64 ~ia64 ~ppc ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability multilib base eutils perl-module
-test
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/libwww-perl-5.801 >=dev-perl/XML-LibXML-1.58 >=dev-perl/XML-Parser-2.31 dev-perl/net-server dev-lang/perl test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage )
+DESCRIPTION=An implementation of XML-RPC
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=RPC-XML&mode=dist
+IUSE=test
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~sparc ~x86 ~x86-fbsd
+LICENSE=|| ( Artistic-2 LGPL-2.1 )
+RDEPEND=>=dev-perl/libwww-perl-5.801 >=dev-perl/XML-LibXML-1.58 >=dev-perl/XML-Parser-2.31 dev-perl/net-server dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJRAY//RPC-XML-0.64.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

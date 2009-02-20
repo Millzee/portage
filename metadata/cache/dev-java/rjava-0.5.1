@@ -1,22 +1,13 @@
->=virtual/jdk-1.5 >=dev-lang/R-2.5.0 >=dev-java/java-config-2.1.6
->=virtual/jre-1.5 >=dev-lang/R-2.5.0 >=dev-java/java-config-2.1.6
-0
-http://www.rforge.net/rJava/snapshot/rJava_0.5-1.tar.gz
-
-http://www.rforge.net/rJava/
-GPL-2
-The current rJava interface (also includes JRI)
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD examples
-
-
-
-
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=virtual/jdk-1.5 >=dev-lang/R-2.5.0 >=dev-java/java-config-2.1.6
+DESCRIPTION=The current rJava interface (also includes JRI)
+EAPI=0
+HOMEPAGE=http://www.rforge.net/rJava/
+IUSE=elibc_FreeBSD examples
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.5 >=dev-lang/R-2.5.0 >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=http://www.rforge.net/rJava/snapshot/rJava_0.5-1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

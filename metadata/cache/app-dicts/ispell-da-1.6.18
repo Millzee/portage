@@ -1,22 +1,12 @@
-app-text/ispell
-app-text/ispell
-0
-http://da.speling.org/filer/ispell-da-1.6.18.tar.gz
-
-http://da.speling.org/
-GPL-2
-A danish dictionary for ispell
-~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=app-text/ispell
+DESCRIPTION=A danish dictionary for ispell
+EAPI=0
+HOMEPAGE=http://da.speling.org/
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=app-text/ispell
+SLOT=0
+SRC_URI=http://da.speling.org/filer/ispell-da-1.6.18.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

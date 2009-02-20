@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.10 >=gnome-base/gconf-2.0 >=gnome-base/libbonobo-2.0 >=gnome-base/libglade-2.0 >=gnome-base/libgnomeui-2.0 dev-libs/libxml2 >=mail-client/evolution-2.11 >=gnome-extra/evolution-data-server-1.11 >=net-libs/libsoup-2.2.96:2.2 >=net-nds/openldap-2.1.30-r2 >=dev-util/intltool-0.35.5 dev-util/pkgconfig doc? ( >=dev-util/gtk-doc-1 ) >=sys-apps/sed-4
->=x11-libs/gtk+-2.10 >=gnome-base/gconf-2.0 >=gnome-base/libbonobo-2.0 >=gnome-base/libglade-2.0 >=gnome-base/libgnomeui-2.0 dev-libs/libxml2 >=mail-client/evolution-2.11 >=gnome-extra/evolution-data-server-1.11 >=net-libs/libsoup-2.2.96:2.2 >=net-nds/openldap-2.1.30-r2
-2.0
-mirror://gnome/sources/evolution-exchange/2.12/evolution-exchange-2.12.3.tar.bz2
-
-http://www.novell.com/products/desktop/features/evolution.html
-GPL-2
-Evolution module for connecting to Microsoft Exchange
-amd64 hppa ppc sparc x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-debug doc static debug
-
-
-
-1
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=x11-libs/gtk+-2.10 >=gnome-base/gconf-2.0 >=gnome-base/libbonobo-2.0 >=gnome-base/libglade-2.0 >=gnome-base/libgnomeui-2.0 dev-libs/libxml2 >=mail-client/evolution-2.11 >=gnome-extra/evolution-data-server-1.11 >=net-libs/libsoup-2.2.96:2.2 >=net-nds/openldap-2.1.30-r2 >=dev-util/intltool-0.35.5 dev-util/pkgconfig doc? ( >=dev-util/gtk-doc-1 ) >=sys-apps/sed-4
+DESCRIPTION=Evolution module for connecting to Microsoft Exchange
+EAPI=1
+HOMEPAGE=http://www.novell.com/products/desktop/features/evolution.html
+IUSE=debug doc static debug
+KEYWORDS=amd64 hppa ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.10 >=gnome-base/gconf-2.0 >=gnome-base/libbonobo-2.0 >=gnome-base/libglade-2.0 >=gnome-base/libgnomeui-2.0 dev-libs/libxml2 >=mail-client/evolution-2.11 >=gnome-extra/evolution-data-server-1.11 >=net-libs/libsoup-2.2.96:2.2 >=net-nds/openldap-2.1.30-r2
+SLOT=2.0
+SRC_URI=mirror://gnome/sources/evolution-exchange/2.12/evolution-exchange-2.12.3.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

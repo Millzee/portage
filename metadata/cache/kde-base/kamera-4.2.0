@@ -1,22 +1,13 @@
-media-libs/libgphoto2 >=dev-util/cmake-2.4.6 x11-libs/qt-core:4[qt3support,ssl] x11-libs/qt-gui:4[accessibility,dbus] x11-libs/qt-qt3support:4[accessibility] x11-libs/qt-script:4 x11-libs/qt-sql:4[qt3support] x11-libs/qt-svg:4 x11-libs/qt-test:4 x11-libs/qt-webkit:4 >=dev-util/cmake-2.6.2 dev-util/pkgconfig x11-libs/libXt x11-proto/xf86vidmodeproto !kdeprefix? ( !kde-base/kamera:kde-4[-kdeprefix] ) !kdeprefix? ( !kde-base/kamera:4.1[-kdeprefix] ) kdeprefix? ( >=kde-base/kdelibs-4.2.0:4.2[kdeprefix] ) !kdeprefix? ( >=kde-base/kdelibs-4.2.0[-kdeprefix] ) kdeprefix? ( >=kde-base/kdepimlibs-4.2.0:4.2[kdeprefix] ) !kdeprefix? ( >=kde-base/kdepimlibs-4.2.0[-kdeprefix] )
-media-libs/libgphoto2 x11-libs/qt-core:4[qt3support,ssl] x11-libs/qt-gui:4[accessibility,dbus] x11-libs/qt-qt3support:4[accessibility] x11-libs/qt-script:4 x11-libs/qt-sql:4[qt3support] x11-libs/qt-svg:4 x11-libs/qt-test:4 x11-libs/qt-webkit:4 !kdeprefix? ( !kde-base/kamera:kde-4[-kdeprefix] ) !kdeprefix? ( !kde-base/kamera:4.1[-kdeprefix] ) kdeprefix? ( >=kde-base/kdelibs-4.2.0:4.2[kdeprefix] ) !kdeprefix? ( >=kde-base/kdelibs-4.2.0[-kdeprefix] ) kdeprefix? ( >=kde-base/kdepimlibs-4.2.0:4.2[kdeprefix] ) !kdeprefix? ( >=kde-base/kdepimlibs-4.2.0[-kdeprefix] ) kdeprefix? ( >=kde-base/kdebase-data-4.2.0:4.2[kdeprefix] ) !kdeprefix? ( >=kde-base/kdebase-data-4.2.0[-kdeprefix] )
-4.2
-mirror://kde/stable/4.2.0/src/kdegraphics-4.2.0.tar.bz2
-
-http://www.kde.org/
-GPL-2
-KDE digital camera manager
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs kde4-base portability flag-o-matic versionator multilib kde4-functions base kde4-meta cmake-utils eutils
-debug htmlhandbook kdeprefix
-
-
-
-2
-
-compile configure install postinst postrm prepare setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEPEND=media-libs/libgphoto2 >=dev-util/cmake-2.4.6 x11-libs/qt-core:4[qt3support,ssl] x11-libs/qt-gui:4[accessibility,dbus] x11-libs/qt-qt3support:4[accessibility] x11-libs/qt-script:4 x11-libs/qt-sql:4[qt3support] x11-libs/qt-svg:4 x11-libs/qt-test:4 x11-libs/qt-webkit:4 >=dev-util/cmake-2.6.2 dev-util/pkgconfig x11-libs/libXt x11-proto/xf86vidmodeproto !kdeprefix? ( !kde-base/kamera:kde-4[-kdeprefix] ) !kdeprefix? ( !kde-base/kamera:4.1[-kdeprefix] ) kdeprefix? ( >=kde-base/kdelibs-4.2.0:4.2[kdeprefix] ) !kdeprefix? ( >=kde-base/kdelibs-4.2.0[-kdeprefix] ) kdeprefix? ( >=kde-base/kdepimlibs-4.2.0:4.2[kdeprefix] ) !kdeprefix? ( >=kde-base/kdepimlibs-4.2.0[-kdeprefix] )
+DESCRIPTION=KDE digital camera manager
+EAPI=2
+HOMEPAGE=http://www.kde.org/
+IUSE=debug htmlhandbook kdeprefix
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libgphoto2 x11-libs/qt-core:4[qt3support,ssl] x11-libs/qt-gui:4[accessibility,dbus] x11-libs/qt-qt3support:4[accessibility] x11-libs/qt-script:4 x11-libs/qt-sql:4[qt3support] x11-libs/qt-svg:4 x11-libs/qt-test:4 x11-libs/qt-webkit:4 !kdeprefix? ( !kde-base/kamera:kde-4[-kdeprefix] ) !kdeprefix? ( !kde-base/kamera:4.1[-kdeprefix] ) kdeprefix? ( >=kde-base/kdelibs-4.2.0:4.2[kdeprefix] ) !kdeprefix? ( >=kde-base/kdelibs-4.2.0[-kdeprefix] ) kdeprefix? ( >=kde-base/kdepimlibs-4.2.0:4.2[kdeprefix] ) !kdeprefix? ( >=kde-base/kdepimlibs-4.2.0[-kdeprefix] ) kdeprefix? ( >=kde-base/kdebase-data-4.2.0:4.2[kdeprefix] ) !kdeprefix? ( >=kde-base/kdebase-data-4.2.0[-kdeprefix] )
+SLOT=4.2
+SRC_URI=mirror://kde/stable/4.2.0/src/kdegraphics-4.2.0.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde4-base	/home/Funtoo/portage/eclass	1235082859	kde4-functions	/home/Funtoo/portage/eclass	1235082859	kde4-meta	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

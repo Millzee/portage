@@ -1,22 +1,13 @@
->=gnustep-libs/netclasses-1.05 >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back
->=gnustep-libs/netclasses-1.05 >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back debug? ( >=sys-devel/gdb-6.0 )
-0
-mirror://sourceforge/talksoup/TalkSoup-1.0alpha.tar.bz2
-
-http://talksoup.aeruder.net/
-GPL-1
-IRC client for GNUstep
-amd64 ppc x86
-gnustep-base gnustep-2 toolchain-funcs portability flag-o-matic multilib eutils
-debug doc
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=>=gnustep-libs/netclasses-1.05 >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back
+DESCRIPTION=IRC client for GNUstep
+EAPI=0
+HOMEPAGE=http://talksoup.aeruder.net/
+IUSE=debug doc
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-1
+RDEPEND=>=gnustep-libs/netclasses-1.05 >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back debug? ( >=sys-devel/gdb-6.0 )
+SLOT=0
+SRC_URI=mirror://sourceforge/talksoup/TalkSoup-1.0alpha.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	gnustep-2	/home/Funtoo/portage/eclass	1235082859	gnustep-base	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

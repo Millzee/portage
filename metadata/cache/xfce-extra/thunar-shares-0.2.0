@@ -1,22 +1,12 @@
->=dev-libs/glib-2.12:2 >=x11-libs/gtk+-2.10:2 xfce-base/thunar dev-util/intltool >=sys-apps/sed-4 dev-util/pkgconfig
->=dev-libs/glib-2.12:2 >=x11-libs/gtk+-2.10:2 xfce-base/thunar
-0
-http://goodies.xfce.org/releases/thunar-shares-plugin/thunar-shares-plugin-0.2.0.tar.gz
-
-http://code.google.com/p/thunar-shares/
-GPL-2
-Thunar plugin to share files using Samba
-~amd64 ~x86
-xfce44 fdo-mime gnome2-utils
-
-
-
-
-1
-
-compile install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst
+DEPEND=>=dev-libs/glib-2.12:2 >=x11-libs/gtk+-2.10:2 xfce-base/thunar dev-util/intltool >=sys-apps/sed-4 dev-util/pkgconfig
+DESCRIPTION=Thunar plugin to share files using Samba
+EAPI=1
+HOMEPAGE=http://code.google.com/p/thunar-shares/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.12:2 >=x11-libs/gtk+-2.10:2 xfce-base/thunar
+SLOT=0
+SRC_URI=http://goodies.xfce.org/releases/thunar-shares-plugin/thunar-shares-plugin-0.2.0.tar.gz
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	xfce44	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082913

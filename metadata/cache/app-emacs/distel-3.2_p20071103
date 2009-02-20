@@ -1,22 +1,12 @@
->=dev-lang/erlang-11.2.5 >=virtual/emacs-21
->=dev-lang/erlang-11.2.5 >=virtual/emacs-21
-0
-mirror://gentoo/distel-3.2_p20071103.tar.bz2
-
-http://fresh.homeunix.net/~luke/distel/
-BSD
-Distributed Emacs Lisp for Erlang
-~amd64 ~x86
-toolchain-funcs elisp-common portability elisp versionator multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=dev-lang/erlang-11.2.5 >=virtual/emacs-21
+DESCRIPTION=Distributed Emacs Lisp for Erlang
+EAPI=0
+HOMEPAGE=http://fresh.homeunix.net/~luke/distel/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/erlang-11.2.5 >=virtual/emacs-21
+SLOT=0
+SRC_URI=mirror://gentoo/distel-3.2_p20071103.tar.bz2
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

@@ -1,22 +1,13 @@
-esd? ( media-sound/esound ) arts? ( kde-base/arts ) esd? ( dev-util/pkgconfig )
-esd? ( media-sound/esound ) arts? ( kde-base/arts )
-0
-http://kadu.net/download/additions/powiedz-1.0.tgz
-
-http://kadu.net/index.php?page=download&lang=en
-GPL-1
-Polish speech synthesizer based on rsynth
-amd64 ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-arts esd
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=esd? ( media-sound/esound ) arts? ( kde-base/arts ) esd? ( dev-util/pkgconfig )
+DESCRIPTION=Polish speech synthesizer based on rsynth
+EAPI=0
+HOMEPAGE=http://kadu.net/index.php?page=download&lang=en
+IUSE=arts esd
+KEYWORDS=amd64 ppc ~sparc x86
+LICENSE=GPL-1
+RDEPEND=esd? ( media-sound/esound ) arts? ( kde-base/arts )
+SLOT=0
+SRC_URI=http://kadu.net/download/additions/powiedz-1.0.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

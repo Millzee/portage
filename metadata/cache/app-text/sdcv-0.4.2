@@ -1,22 +1,13 @@
-sys-libs/zlib sys-libs/readline >=dev-libs/glib-2.6.1 test? ( app-dicts/stardict-quick-ru-en ) nls? ( >=sys-devel/gettext-0.14.1 )
-sys-libs/zlib sys-libs/readline >=dev-libs/glib-2.6.1
-0
-mirror://sourceforge/sdcv/sdcv-0.4.2.tar.bz2
-
-http://sdcv.sourceforge.net
-GPL-2
-Console version of Stardict program
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-nls test
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=sys-libs/zlib sys-libs/readline >=dev-libs/glib-2.6.1 test? ( app-dicts/stardict-quick-ru-en ) nls? ( >=sys-devel/gettext-0.14.1 )
+DESCRIPTION=Console version of Stardict program
+EAPI=0
+HOMEPAGE=http://sdcv.sourceforge.net
+IUSE=nls test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib sys-libs/readline >=dev-libs/glib-2.6.1
+SLOT=0
+SRC_URI=mirror://sourceforge/sdcv/sdcv-0.4.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

@@ -1,22 +1,13 @@
-x11-libs/qt-core:4[ssl] x11-libs/qt-dbus:4 || ( x11-libs/qt-sql:4[sqlite] x11-libs/qt-sql:4[mysql] ) ice? ( dev-cpp/Ice dev-libs/boost ) logrotate? ( app-admin/logrotate )
-x11-libs/qt-core:4[ssl] x11-libs/qt-dbus:4 || ( x11-libs/qt-sql:4[sqlite] x11-libs/qt-sql:4[mysql] ) ice? ( dev-cpp/Ice dev-libs/boost ) logrotate? ( app-admin/logrotate )
-0
-mirror://sourceforge/mumble/mumble-1.1.7.tar.gz
-
-http://mumble.sourceforge.net/
-BSD
-Voice chat software for gaming written in Qt4 (server).
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib eutils
-debug +ice logrotate pch
-
-
-
-2
-
-configure install postinst prepare setup
-
-
-
-
-
+DEFINED_PHASES=configure install postinst prepare setup
+DEPEND=x11-libs/qt-core:4[ssl] x11-libs/qt-dbus:4 || ( x11-libs/qt-sql:4[sqlite] x11-libs/qt-sql:4[mysql] ) ice? ( dev-cpp/Ice dev-libs/boost ) logrotate? ( app-admin/logrotate )
+DESCRIPTION=Voice chat software for gaming written in Qt4 (server).
+EAPI=2
+HOMEPAGE=http://mumble.sourceforge.net/
+IUSE=debug +ice logrotate pch
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=x11-libs/qt-core:4[ssl] x11-libs/qt-dbus:4 || ( x11-libs/qt-sql:4[sqlite] x11-libs/qt-sql:4[mysql] ) ice? ( dev-cpp/Ice dev-libs/boost ) logrotate? ( app-admin/logrotate )
+SLOT=0
+SRC_URI=mirror://sourceforge/mumble/mumble-1.1.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

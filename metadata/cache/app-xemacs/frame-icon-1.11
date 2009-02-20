@@ -1,22 +1,11 @@
-virtual/xemacs
-
-0
-http://ftp.xemacs.org/pub/xemacs/packages/frame-icon-1.11-pkg.tar.gz
-
-http://xemacs.org/
-GPL-2
-Set up mode-specific icons for each frame under XEmacs
-alpha amd64 ppc ppc64 sparc x86
-xemacs-packages
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/xemacs
+DESCRIPTION=Set up mode-specific icons for each frame under XEmacs
+EAPI=0
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/frame-icon-1.11-pkg.tar.gz
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

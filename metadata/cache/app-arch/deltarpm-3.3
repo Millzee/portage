@@ -1,22 +1,12 @@
-app-arch/bzip2 app-arch/rpm
-app-arch/bzip2 app-arch/rpm
-0
-mirror://opensuse/tools/drpmsync/src/deltarpm-3.3.tar.bz2
-
-ftp://ftp.suse.com/pub/projects/deltarpm/
-BSD
-tools to create and apply deltarpms
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=app-arch/bzip2 app-arch/rpm
+DESCRIPTION=tools to create and apply deltarpms
+EAPI=0
+HOMEPAGE=ftp://ftp.suse.com/pub/projects/deltarpm/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=app-arch/bzip2 app-arch/rpm
+SLOT=0
+SRC_URI=mirror://opensuse/tools/drpmsync/src/deltarpm-3.3.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

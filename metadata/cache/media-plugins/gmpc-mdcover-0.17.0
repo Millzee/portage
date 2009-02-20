@@ -1,22 +1,11 @@
->=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/gtk+:2[jpeg] dev-util/pkgconfig
->=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/gtk+:2[jpeg]
-0
-mirror://sourceforge/musicpd/gmpc-mdcover-0.17.0.tar.gz
-
-http://gmpcwiki.sarine.nl/index.php/Mdcover
-GPL-2
-This plugin fetches cover art, artist art, album and artist information from the file system
-~amd64 ~ppc ~sparc ~x86
-
-
-
-
-
-2
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/gtk+:2[jpeg] dev-util/pkgconfig
+DESCRIPTION=This plugin fetches cover art, artist art, album and artist information from the file system
+EAPI=2
+HOMEPAGE=http://gmpcwiki.sarine.nl/index.php/Mdcover
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/gtk+:2[jpeg]
+SLOT=0
+SRC_URI=mirror://sourceforge/musicpd/gmpc-mdcover-0.17.0.tar.gz
+_mtime_=1235082868

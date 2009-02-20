@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-http://www.nfluid.com/download/src/phlib-1.20.tgz
-
-http://www.nfluid.com/
-GPL-2
-phlib is a collection of support functions and classes used by Goldwater and the DGEE
-x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=phlib is a collection of support functions and classes used by Goldwater and the DGEE
+EAPI=0
+HOMEPAGE=http://www.nfluid.com/
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://www.nfluid.com/download/src/phlib-1.20.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

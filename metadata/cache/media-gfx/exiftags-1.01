@@ -1,22 +1,10 @@
-
-
-0
-http://johnst.org/sw/exiftags/exiftags-1.01.tar.gz
-
-http://johnst.org/sw/exiftags/
-BSD
-Extracts JPEG EXIF headers from digital camera photos
-amd64 ppc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Extracts JPEG EXIF headers from digital camera photos
+EAPI=0
+HOMEPAGE=http://johnst.org/sw/exiftags/
+KEYWORDS=amd64 ppc x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://johnst.org/sw/exiftags/exiftags-1.01.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

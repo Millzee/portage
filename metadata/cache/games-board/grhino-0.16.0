@@ -1,22 +1,13 @@
-gnome? ( =gnome-base/libgnomeui-2* ) nls? ( virtual/libintl ) nls? ( sys-devel/gettext )
-gnome? ( =gnome-base/libgnomeui-2* ) nls? ( virtual/libintl )
-0
-mirror://sourceforge/rhino/grhino-0.16.0.tar.gz
-
-http://rhino.sourceforge.net/
-GPL-2
-Reversi game for GNOME, supporting the Go/Game Text Protocol
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-gnome gtp nls
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=gnome? ( =gnome-base/libgnomeui-2* ) nls? ( virtual/libintl ) nls? ( sys-devel/gettext )
+DESCRIPTION=Reversi game for GNOME, supporting the Go/Game Text Protocol
+EAPI=0
+HOMEPAGE=http://rhino.sourceforge.net/
+IUSE=gnome gtp nls
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=gnome? ( =gnome-base/libgnomeui-2* ) nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/rhino/grhino-0.16.0.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,12 @@
-virtual/ghostscript >=app-arch/bzip2-1.0.1-r4 >=app-arch/gzip-1.2.4a-r6 sys-apps/file
-virtual/ghostscript >=app-arch/bzip2-1.0.1-r4 >=app-arch/gzip-1.2.4a-r6 sys-apps/file virtual/lpr
-0
-http://www.pell.portland.or.us/~orc/Code/magicfilter/magicfilter-2.3.a.tar.gz
-
-http://www.pell.portland.or.us/~orc/Code/magicfilter/
-BSD GPL-2
-Customizable, extensible automatic printer filter
-x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/ghostscript >=app-arch/bzip2-1.0.1-r4 >=app-arch/gzip-1.2.4a-r6 sys-apps/file
+DESCRIPTION=Customizable, extensible automatic printer filter
+EAPI=0
+HOMEPAGE=http://www.pell.portland.or.us/~orc/Code/magicfilter/
+KEYWORDS=x86
+LICENSE=BSD GPL-2
+RDEPEND=virtual/ghostscript >=app-arch/bzip2-1.0.1-r4 >=app-arch/gzip-1.2.4a-r6 sys-apps/file virtual/lpr
+SLOT=0
+SRC_URI=http://www.pell.portland.or.us/~orc/Code/magicfilter/magicfilter-2.3.a.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

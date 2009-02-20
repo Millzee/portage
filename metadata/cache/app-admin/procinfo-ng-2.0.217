@@ -1,22 +1,12 @@
-sys-libs/ncurses =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-sys-libs/ncurses !app-admin/procinfo
-0
-mirror://sourceforge/procinfo-ng/procinfo-ng-2.0.217.tar.bz2
-
-http://sourceforge.net/projects/procinfo-ng/
-|| ( GPL-2 LGPL-2.1 )
-Completely rewrite of the old system monitoring app procinfo.
-~amd64 ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-libs/ncurses =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Completely rewrite of the old system monitoring app procinfo.
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/procinfo-ng/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 LGPL-2.1 )
+RDEPEND=sys-libs/ncurses !app-admin/procinfo
+SLOT=0
+SRC_URI=mirror://sourceforge/procinfo-ng/procinfo-ng-2.0.217.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

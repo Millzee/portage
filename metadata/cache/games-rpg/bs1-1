@@ -1,22 +1,13 @@
-app-arch/unzip
->=games-engines/scummvm-0.10.0
-0
-mirror://sourceforge/scummvm/Sword1_DXA_Cutscenes.zip http://gentooexperimental.org/~unlord/Sword1_DXA_Cutscenes.zip
-strip
-http://www.revolution.co.uk/_display.php?id=14
-freedist
-Broken Sword 1: The Shadow of the Templars
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Broken Sword 1: The Shadow of the Templars
+EAPI=0
+HOMEPAGE=http://www.revolution.co.uk/_display.php?id=14
+KEYWORDS=~amd64 ~x86
+LICENSE=freedist
+RDEPEND=>=games-engines/scummvm-0.10.0
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/scummvm/Sword1_DXA_Cutscenes.zip http://gentooexperimental.org/~unlord/Sword1_DXA_Cutscenes.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

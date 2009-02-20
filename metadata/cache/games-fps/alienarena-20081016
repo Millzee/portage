@@ -1,22 +1,13 @@
-opengl? ( media-libs/jpeg virtual/glu virtual/opengl x11-libs/libXxf86dga x11-libs/libXxf86vm sdl? ( media-libs/libsdl ) ) !opengl? ( !dedicated? ( media-libs/jpeg virtual/glu virtual/opengl x11-libs/libXxf86dga x11-libs/libXxf86vm sdl? ( media-libs/libsdl ) ) ) net-misc/curl opengl? ( x11-proto/xf86dgaproto x11-proto/xf86vidmodeproto ) !opengl? ( !dedicated? ( x11-proto/xf86dgaproto x11-proto/xf86vidmodeproto ) ) app-arch/unzip
-opengl? ( media-libs/jpeg virtual/glu virtual/opengl x11-libs/libXxf86dga x11-libs/libXxf86vm sdl? ( media-libs/libsdl ) ) !opengl? ( !dedicated? ( media-libs/jpeg virtual/glu virtual/opengl x11-libs/libXxf86dga x11-libs/libXxf86vm sdl? ( media-libs/libsdl ) ) ) net-misc/curl
-0
-http://icculus.org/alienarena/Files/alienarena2008-linux20081016.zip
-
-http://red.planetarena.org/
-GPL-2 free-noncomm
-Fast-paced multiplayer deathmatch game
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-dedicated opengl sdl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=opengl? ( media-libs/jpeg virtual/glu virtual/opengl x11-libs/libXxf86dga x11-libs/libXxf86vm sdl? ( media-libs/libsdl ) ) !opengl? ( !dedicated? ( media-libs/jpeg virtual/glu virtual/opengl x11-libs/libXxf86dga x11-libs/libXxf86vm sdl? ( media-libs/libsdl ) ) ) net-misc/curl opengl? ( x11-proto/xf86dgaproto x11-proto/xf86vidmodeproto ) !opengl? ( !dedicated? ( x11-proto/xf86dgaproto x11-proto/xf86vidmodeproto ) ) app-arch/unzip
+DESCRIPTION=Fast-paced multiplayer deathmatch game
+EAPI=0
+HOMEPAGE=http://red.planetarena.org/
+IUSE=dedicated opengl sdl
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 free-noncomm
+RDEPEND=opengl? ( media-libs/jpeg virtual/glu virtual/opengl x11-libs/libXxf86dga x11-libs/libXxf86vm sdl? ( media-libs/libsdl ) ) !opengl? ( !dedicated? ( media-libs/jpeg virtual/glu virtual/opengl x11-libs/libXxf86dga x11-libs/libXxf86vm sdl? ( media-libs/libsdl ) ) ) net-misc/curl
+SLOT=0
+SRC_URI=http://icculus.org/alienarena/Files/alienarena2008-linux20081016.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,12 @@
->=sys-fs/fuse-2.2 >=gnome-base/gnome-vfs-2.6.1.1 =sys-devel/automake-1.7* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=sys-fs/fuse-2.2 >=gnome-base/gnome-vfs-2.6.1.1
-0
-http://primates.ximian.com/~sandino/gnomevfs-mount/files/gnomevfs-mount-0.2.0.tar.bz2
-
-http://primates.ximian.com/~sandino/gnomevfs-mount/
-GPL-2
-A program for mounting gnome-vfs-uris onto the linux filesystem.
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic multilib libtool autotools eutils
-
-
-
-
-0
-
-install setup unpack
-
-
-
-
-
+DEFINED_PHASES=install setup unpack
+DEPEND=>=sys-fs/fuse-2.2 >=gnome-base/gnome-vfs-2.6.1.1 =sys-devel/automake-1.7* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A program for mounting gnome-vfs-uris onto the linux filesystem.
+EAPI=0
+HOMEPAGE=http://primates.ximian.com/~sandino/gnomevfs-mount/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-fs/fuse-2.2 >=gnome-base/gnome-vfs-2.6.1.1
+SLOT=0
+SRC_URI=http://primates.ximian.com/~sandino/gnomevfs-mount/files/gnomevfs-mount-0.2.0.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

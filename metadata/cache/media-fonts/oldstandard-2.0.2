@@ -1,22 +1,13 @@
-app-arch/unzip X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
-app-arch/unzip
-0
-http://www.thessalonica.org.ru/downloads/oldstandard-2.0.2.otf.zip http://www.thessalonica.org.ru/downloads/oldstandard-2.0.2.ttf.zip
-
-http://www.thessalonica.org.ru/en/fonts.html
-OFL
-Old Standard - font with wide range of Latin, Greek and Cyrillic characters
-~amd64 ~x86
-toolchain-funcs font multilib portability eutils
-X
-
-
-
-0
-
-install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm setup
+DEPEND=app-arch/unzip X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
+DESCRIPTION=Old Standard - font with wide range of Latin, Greek and Cyrillic characters
+EAPI=0
+HOMEPAGE=http://www.thessalonica.org.ru/en/fonts.html
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL
+RDEPEND=app-arch/unzip
+SLOT=0
+SRC_URI=http://www.thessalonica.org.ru/downloads/oldstandard-2.0.2.otf.zip http://www.thessalonica.org.ru/downloads/oldstandard-2.0.2.ttf.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	font	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

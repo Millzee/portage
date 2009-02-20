@@ -1,22 +1,11 @@
-app-arch/unzip
-
-0
-http://kinemage.biochem.duke.edu/downloads/software/reduce31/reduce.3.13.080428.src.tgz
-
-http://kinemage.biochem.duke.edu/software/reduce.php
-richardson
-Adds hydrogens to a Protein Data Bank (PDB) molecule structure file
-~ppc ~x86 ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile info install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile info install postinst unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Adds hydrogens to a Protein Data Bank (PDB) molecule structure file
+EAPI=0
+HOMEPAGE=http://kinemage.biochem.duke.edu/software/reduce.php
+KEYWORDS=~ppc ~x86 ~amd64
+LICENSE=richardson
+SLOT=0
+SRC_URI=http://kinemage.biochem.duke.edu/downloads/software/reduce31/reduce.3.13.080428.src.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

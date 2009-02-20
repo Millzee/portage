@@ -1,22 +1,10 @@
-app-arch/tar app-arch/gzip
-
-0
-ftp://manual.gimp.org/pub/manual/GimpUsersManual_SecondEdition-HTML_Search.tar.gz ftp://manual.gimp.org/pub/manual/GimpUsersManual_SecondEdition-HTML_Color.tar.gz
-
-http://manual.gimp.org
-OPL
-A user manual for GIMP
-amd64 mips ppc sparc x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=app-arch/tar app-arch/gzip
+DESCRIPTION=A user manual for GIMP
+EAPI=0
+HOMEPAGE=http://manual.gimp.org
+KEYWORDS=amd64 mips ppc sparc x86
+LICENSE=OPL
+SLOT=0
+SRC_URI=ftp://manual.gimp.org/pub/manual/GimpUsersManual_SecondEdition-HTML_Search.tar.gz ftp://manual.gimp.org/pub/manual/GimpUsersManual_SecondEdition-HTML_Color.tar.gz
+_mtime_=1235082847

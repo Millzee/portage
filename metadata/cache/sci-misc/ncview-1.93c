@@ -1,22 +1,13 @@
-sci-libs/netcdf media-libs/netpbm x11-libs/libXaw udunits? ( sci-libs/udunits )
-sci-libs/netcdf media-libs/netpbm x11-libs/libXaw udunits? ( sci-libs/udunits )
-0
-ftp://cirrus.ucsd.edu/pub/ncview/ncview-1.93c.tar.gz
-
-http://meteora.ucsd.edu/~pierce/ncview_home_page.html
-GPL-2
-X-based viewer for netCDF files
-~x86 ~amd64 ~ppc
-toolchain-funcs multilib
-udunits
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sci-libs/netcdf media-libs/netpbm x11-libs/libXaw udunits? ( sci-libs/udunits )
+DESCRIPTION=X-based viewer for netCDF files
+EAPI=0
+HOMEPAGE=http://meteora.ucsd.edu/~pierce/ncview_home_page.html
+IUSE=udunits
+KEYWORDS=~x86 ~amd64 ~ppc
+LICENSE=GPL-2
+RDEPEND=sci-libs/netcdf media-libs/netpbm x11-libs/libXaw udunits? ( sci-libs/udunits )
+SLOT=0
+SRC_URI=ftp://cirrus.ucsd.edu/pub/ncview/ncview-1.93c.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

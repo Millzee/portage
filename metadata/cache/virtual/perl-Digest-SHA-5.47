@@ -1,22 +1,9 @@
-
-~perl-core/Digest-SHA-5.47
-0
-
-
-http://www.gentoo.org/proj/en/perl/
-GPL-2
-Perl extension for SHA-1/224/256/384/512
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=Perl extension for SHA-1/224/256/384/512
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/perl/
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=~perl-core/Digest-SHA-5.47
+SLOT=0
+_mtime_=1235082908

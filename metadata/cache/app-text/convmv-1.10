@@ -1,22 +1,12 @@
-dev-lang/perl
-dev-lang/perl
-0
-http://j3e.de/linux/convmv/convmv-1.10.tar.gz
-
-http://j3e.de/linux/convmv
-GPL-2
-convert filenames to utf8 or any other charset
-alpha amd64 hppa ia64 mips ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install test
-
-
-
-
-
+DEFINED_PHASES=compile install test
+DEPEND=dev-lang/perl
+DESCRIPTION=convert filenames to utf8 or any other charset
+EAPI=0
+HOMEPAGE=http://j3e.de/linux/convmv
+KEYWORDS=alpha amd64 hppa ia64 mips ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=http://j3e.de/linux/convmv/convmv-1.10.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

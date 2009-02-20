@@ -1,22 +1,13 @@
-app-arch/unzip virtual/httpd-php || ( virtual/httpd-cgi virtual/httpd-fastcgi ) >=app-admin/webapp-config-1.50.15
-virtual/httpd-php >=app-admin/webapp-config-1.50.15
-0
-http://omploader.org/vejZx/phpMyProxy_1.0.3.zip
-
-http://www.phpmyproxy.com/
-GPL-3
-phpMyProxy is a web-based proxy script in PHP
-~x86
-toolchain-funcs portability depend.php multilib phpconfutils webapp eutils
-vhosts
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=app-arch/unzip virtual/httpd-php || ( virtual/httpd-cgi virtual/httpd-fastcgi ) >=app-admin/webapp-config-1.50.15
+DESCRIPTION=phpMyProxy is a web-based proxy script in PHP
+EAPI=0
+HOMEPAGE=http://www.phpmyproxy.com/
+IUSE=vhosts
+KEYWORDS=~x86
+LICENSE=GPL-3
+RDEPEND=virtual/httpd-php >=app-admin/webapp-config-1.50.15
+SLOT=0
+SRC_URI=http://omploader.org/vejZx/phpMyProxy_1.0.3.zip
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

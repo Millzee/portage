@@ -1,22 +1,13 @@
-x11-libs/libX11 x11-libs/libXrandr x11-libs/libXext x11-libs/libXpm x11-libs/libXrender x11-libs/libXft x11-libs/libSM x11-libs/libICE xinerama? ( x11-libs/libXinerama ) esd? ( media-sound/esound ) imlib? ( >=media-libs/imlib-1.9.10-r1 ) nls? ( sys-devel/gettext ) truetype? ( >=media-libs/freetype-2.0.9 ) media-libs/giflib x11-proto/xproto x11-proto/xextproto xinerama? ( x11-proto/xineramaproto ) >=sys-apps/sed-4
-x11-libs/libX11 x11-libs/libXrandr x11-libs/libXext x11-libs/libXpm x11-libs/libXrender x11-libs/libXft x11-libs/libSM x11-libs/libICE xinerama? ( x11-libs/libXinerama ) esd? ( media-sound/esound ) imlib? ( >=media-libs/imlib-1.9.10-r1 ) nls? ( sys-devel/gettext ) truetype? ( >=media-libs/freetype-2.0.9 ) media-libs/giflib
-0
-mirror://sourceforge/icewm/icewm-1.2.35.tar.gz
-
-http://www.icewm.org/
-GPL-2
-Ice Window Manager with Themes
-~amd64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-esd imlib nls spell truetype xinerama minimal debug uclibc
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=x11-libs/libX11 x11-libs/libXrandr x11-libs/libXext x11-libs/libXpm x11-libs/libXrender x11-libs/libXft x11-libs/libSM x11-libs/libICE xinerama? ( x11-libs/libXinerama ) esd? ( media-sound/esound ) imlib? ( >=media-libs/imlib-1.9.10-r1 ) nls? ( sys-devel/gettext ) truetype? ( >=media-libs/freetype-2.0.9 ) media-libs/giflib x11-proto/xproto x11-proto/xextproto xinerama? ( x11-proto/xineramaproto ) >=sys-apps/sed-4
+DESCRIPTION=Ice Window Manager with Themes
+EAPI=0
+HOMEPAGE=http://www.icewm.org/
+IUSE=esd imlib nls spell truetype xinerama minimal debug uclibc
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXrandr x11-libs/libXext x11-libs/libXpm x11-libs/libXrender x11-libs/libXft x11-libs/libSM x11-libs/libICE xinerama? ( x11-libs/libXinerama ) esd? ( media-sound/esound ) imlib? ( >=media-libs/imlib-1.9.10-r1 ) nls? ( sys-devel/gettext ) truetype? ( >=media-libs/freetype-2.0.9 ) media-libs/giflib
+SLOT=0
+SRC_URI=mirror://sourceforge/icewm/icewm-1.2.35.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

@@ -1,22 +1,12 @@
-virtual/opengl virtual/glu
-virtual/opengl virtual/glu
-0
-http://evlweb.eecs.uic.edu/aej/BATTALION/battalion1.4b.tar.bz2
-
-http://evlweb.eecs.uic.edu/aej/AndyBattalion.html
-as-is
-Be a rampaging monster and destroy the city.
-ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/opengl virtual/glu
+DESCRIPTION=Be a rampaging monster and destroy the city.
+EAPI=0
+HOMEPAGE=http://evlweb.eecs.uic.edu/aej/AndyBattalion.html
+KEYWORDS=ppc x86
+LICENSE=as-is
+RDEPEND=virtual/opengl virtual/glu
+SLOT=0
+SRC_URI=http://evlweb.eecs.uic.edu/aej/BATTALION/battalion1.4b.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

@@ -1,22 +1,9 @@
-
-
-0
-mirror://gentoo/skk-jisyo-cdb-200507.tar.gz http://dev.gentoo.org/~usata/distfiles/skk-jisyo-cdb-200507.tar.gz
-
-http://openlab.ring.gr.jp/skk/dic.html
-GPL-2
-Dictionary files for the SKK Japanese-input software in CDB format
-~alpha ~amd64 ~ppc ~sparc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Dictionary files for the SKK Japanese-input software in CDB format
+EAPI=0
+HOMEPAGE=http://openlab.ring.gr.jp/skk/dic.html
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://gentoo/skk-jisyo-cdb-200507.tar.gz http://dev.gentoo.org/~usata/distfiles/skk-jisyo-cdb-200507.tar.gz
+_mtime_=1235082848

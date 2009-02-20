@@ -1,22 +1,13 @@
-dev-libs/openssl dev-util/pkgconfig
-dev-libs/openssl
-0
-mirror://sourceforge/proxytunnel/proxytunnel-1.8.0.tgz
-
-http://proxytunnel.sourceforge.net/
-GPL-2
-program that connects stdin and stdout to a server somewhere on the network, through a standard HTTPS proxy
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-static
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/openssl dev-util/pkgconfig
+DESCRIPTION=program that connects stdin and stdout to a server somewhere on the network, through a standard HTTPS proxy
+EAPI=0
+HOMEPAGE=http://proxytunnel.sourceforge.net/
+IUSE=static
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/openssl
+SLOT=0
+SRC_URI=mirror://sourceforge/proxytunnel/proxytunnel-1.8.0.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

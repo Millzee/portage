@@ -1,22 +1,13 @@
-opengl? ( virtual/glut virtual/opengl ) x11-libs/libXmu virtual/libc =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-opengl? ( virtual/glut virtual/opengl ) x11-libs/libXmu
-0
-ftp://ftp.cmbi.kun.nl/pub/molgraph/molden/molden4.4.tar.Z
-
-http://www.cmbi.kun.nl/~schaft/molden/molden.html
-as-is
-Display molecular density from GAMESS-UK, GAMESS-US, GAUSSIAN and Mopac/Ampac.
-alpha amd64 ia64 x86
-toolchain-funcs portability flag-o-matic multilib fortran libtool autotools eutils
-opengl debug
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=opengl? ( virtual/glut virtual/opengl ) x11-libs/libXmu virtual/libc =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Display molecular density from GAMESS-UK, GAMESS-US, GAUSSIAN and Mopac/Ampac.
+EAPI=0
+HOMEPAGE=http://www.cmbi.kun.nl/~schaft/molden/molden.html
+IUSE=opengl debug
+KEYWORDS=alpha amd64 ia64 x86
+LICENSE=as-is
+RDEPEND=opengl? ( virtual/glut virtual/opengl ) x11-libs/libXmu
+SLOT=0
+SRC_URI=ftp://ftp.cmbi.kun.nl/pub/molgraph/molden/molden4.4.tar.Z
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

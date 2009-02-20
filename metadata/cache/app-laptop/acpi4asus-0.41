@@ -1,22 +1,13 @@
-kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-sys-power/acpid kernel_linux? ( virtual/modutils )
-0
-mirror://sourceforge/acpi4asus/acpi4asus-0.41.tar.bz2
-
-http://sourceforge.net/projects/acpi4asus
-GPL-2
-Acpi daemon and kernel module to control ASUS Laptop Hotkeys
-~x86 ~amd64
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=Acpi daemon and kernel module to control ASUS Laptop Hotkeys
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/acpi4asus
+IUSE=kernel_linux
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=sys-power/acpid kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=mirror://sourceforge/acpi4asus/acpi4asus-0.41.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

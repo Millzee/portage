@@ -1,22 +1,13 @@
-=dev-libs/glib-2* app-text/linuxdoc-tools dev-libs/popt sys-libs/pam sys-libs/system-config-base dev-lang/python sys-apps/shadow ldap? ( net-nds/openldap ) sasl? ( dev-libs/cyrus-sasl ) >=app-arch/rpm2targz-9.0-r1
-=dev-libs/glib-2* app-text/linuxdoc-tools dev-libs/popt sys-libs/pam sys-libs/system-config-base dev-lang/python sys-apps/shadow ldap? ( net-nds/openldap ) sasl? ( dev-libs/cyrus-sasl )
-0
-mirror://fedora-dev/development/source/SRPMS/libuser-0.56.5-1.src.rpm
-
-http://fedoraproject.org/wiki/SystemConfig/
-LGPL-2.1
-A user and group account administration library
-~ppc ~x86
-rpm toolchain-funcs multilib portability eutils
-ldap sasl selinux quotas
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==dev-libs/glib-2* app-text/linuxdoc-tools dev-libs/popt sys-libs/pam sys-libs/system-config-base dev-lang/python sys-apps/shadow ldap? ( net-nds/openldap ) sasl? ( dev-libs/cyrus-sasl ) >=app-arch/rpm2targz-9.0-r1
+DESCRIPTION=A user and group account administration library
+EAPI=0
+HOMEPAGE=http://fedoraproject.org/wiki/SystemConfig/
+IUSE=ldap sasl selinux quotas
+KEYWORDS=~ppc ~x86
+LICENSE=LGPL-2.1
+RDEPEND==dev-libs/glib-2* app-text/linuxdoc-tools dev-libs/popt sys-libs/pam sys-libs/system-config-base dev-lang/python sys-apps/shadow ldap? ( net-nds/openldap ) sasl? ( dev-libs/cyrus-sasl )
+SLOT=0
+SRC_URI=mirror://fedora-dev/development/source/SRPMS/libuser-0.56.5-1.src.rpm
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	rpm	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

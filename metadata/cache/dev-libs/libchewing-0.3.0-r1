@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-http://chewing.csie.net/download/libchewing/libchewing-0.3.0.tar.gz http://gentoo-china-overlay.googlecode.com/svn/distfiles/libchewing-0.3.0-fc9-patches.tar.bz2
-
-http://chewing.csie.net/
-GPL-2
-Library for Chinese Phonetic input method
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst unpack
+DEPEND=virtual/libc
+DESCRIPTION=Library for Chinese Phonetic input method
+EAPI=0
+HOMEPAGE=http://chewing.csie.net/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://chewing.csie.net/download/libchewing/libchewing-0.3.0.tar.gz http://gentoo-china-overlay.googlecode.com/svn/distfiles/libchewing-0.3.0-fc9-patches.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

@@ -1,22 +1,12 @@
-virtual/libc nls? ( sys-devel/gettext ) sys-devel/bison
-virtual/libc nls? ( sys-devel/gettext )
-0
-http://nico.hibou.free.fr/hibnet/gentoo/distfiles/libtifiles-0.6.6.tar.gz
-
-http://tilp.info/
-GPL-2
-Various TI file formats support for the TiLP calculator linking program
-~x86 ~ppc ~amd64
-
-nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc nls? ( sys-devel/gettext ) sys-devel/bison
+DESCRIPTION=Various TI file formats support for the TiLP calculator linking program
+EAPI=0
+HOMEPAGE=http://tilp.info/
+IUSE=nls
+KEYWORDS=~x86 ~ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=virtual/libc nls? ( sys-devel/gettext )
+SLOT=0
+SRC_URI=http://nico.hibou.free.fr/hibnet/gentoo/distfiles/libtifiles-0.6.6.tar.gz
+_mtime_=1235082898

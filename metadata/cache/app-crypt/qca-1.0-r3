@@ -1,22 +1,12 @@
-x11-libs/qt:3
-x11-libs/qt:3
-0
-http://delta.affinix.com/download/qca/qca-1.0.tar.bz2
-
-http://delta.affinix.com/qca/
-GPL-2
-Qt Cryptographic Architecture (QCA)
-alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs qt3 portability versionator multilib eutils
-
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/qt:3
+DESCRIPTION=Qt Cryptographic Architecture (QCA)
+EAPI=1
+HOMEPAGE=http://delta.affinix.com/qca/
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt:3
+SLOT=0
+SRC_URI=http://delta.affinix.com/download/qca/qca-1.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

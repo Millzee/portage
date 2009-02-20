@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-http://www.vanheusden.com/Linux/scsiping-0.0.1.tgz
-
-http://www.vanheusden.com/Linux/
-GPL-2
-SCSIPing pings a host on the SCSI-chain
-amd64 ppc x86
-
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc
+DESCRIPTION=SCSIPing pings a host on the SCSI-chain
+EAPI=0
+HOMEPAGE=http://www.vanheusden.com/Linux/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://www.vanheusden.com/Linux/scsiping-0.0.1.tgz
+_mtime_=1235082900

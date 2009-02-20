@@ -1,22 +1,10 @@
-
-
-0
-ftp://ftp.electron.me.uk/postsync-0.2_alpha.tar.bz2
-
-http://www.electron.me.uk/postsync.html
-GPL-2
-Package for controlling post emerge --sync operations
-~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm
+DESCRIPTION=Package for controlling post emerge --sync operations
+EAPI=0
+HOMEPAGE=http://www.electron.me.uk/postsync.html
+KEYWORDS=~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=ftp://ftp.electron.me.uk/postsync-0.2_alpha.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

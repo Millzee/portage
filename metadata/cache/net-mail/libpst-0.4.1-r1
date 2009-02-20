@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-mirror://gentoo/libpst_0.4.1.tgz
-
-http://sourceforge.net/projects/ol2mbox
-GPL-2
-Tools and library for reading Outlook files (.pst format)
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=virtual/libc
+DESCRIPTION=Tools and library for reading Outlook files (.pst format)
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/ol2mbox
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://gentoo/libpst_0.4.1.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

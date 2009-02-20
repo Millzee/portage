@@ -1,22 +1,12 @@
->=net-libs/libnet-1.0.2a-r3 <net-libs/libnet-1.1 net-libs/libpcap
->=net-libs/libnet-1.0.2a-r3 <net-libs/libnet-1.1 net-libs/libpcap
-0
-ftp://ftp.dementia.org/pub/net-tools/rarpd-1.1.tar.gz
-
-ftp://ftp.dementia.org/pub/net-tools
-as-is
-Reverse Address Resolution Protocol Daemon
-~amd64 ~hppa ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=net-libs/libnet-1.0.2a-r3 <net-libs/libnet-1.1 net-libs/libpcap
+DESCRIPTION=Reverse Address Resolution Protocol Daemon
+EAPI=0
+HOMEPAGE=ftp://ftp.dementia.org/pub/net-tools
+KEYWORDS=~amd64 ~hppa ppc ppc64 sparc x86
+LICENSE=as-is
+RDEPEND=>=net-libs/libnet-1.0.2a-r3 <net-libs/libnet-1.1 net-libs/libpcap
+SLOT=0
+SRC_URI=ftp://ftp.dementia.org/pub/net-tools/rarpd-1.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

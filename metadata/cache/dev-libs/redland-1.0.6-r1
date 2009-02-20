@@ -1,22 +1,13 @@
-mysql? ( virtual/mysql ) sqlite? ( =dev-db/sqlite-3* ) berkdb? ( sys-libs/db ) dev-libs/libxml2 ssl? ( dev-libs/openssl ) >=media-libs/raptor-1.4.4 >=dev-libs/rasqal-0.9.14 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-mysql? ( virtual/mysql ) sqlite? ( =dev-db/sqlite-3* ) berkdb? ( sys-libs/db ) dev-libs/libxml2 ssl? ( dev-libs/openssl ) >=media-libs/raptor-1.4.4 >=dev-libs/rasqal-0.9.14
-0
-http://download.librdf.org/source/redland-1.0.6.tar.gz
-
-http://librdf.org/
-LGPL-2.1 Apache-2.0
-High-level interface for the Resource Description Framework
-~amd64 ~ia64 ~ppc ~ppc64 ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-berkdb mysql sqlite ssl threads
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=mysql? ( virtual/mysql ) sqlite? ( =dev-db/sqlite-3* ) berkdb? ( sys-libs/db ) dev-libs/libxml2 ssl? ( dev-libs/openssl ) >=media-libs/raptor-1.4.4 >=dev-libs/rasqal-0.9.14 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=High-level interface for the Resource Description Framework
+EAPI=0
+HOMEPAGE=http://librdf.org/
+IUSE=berkdb mysql sqlite ssl threads
+KEYWORDS=~amd64 ~ia64 ~ppc ~ppc64 ~x86
+LICENSE=LGPL-2.1 Apache-2.0
+RDEPEND=mysql? ( virtual/mysql ) sqlite? ( =dev-db/sqlite-3* ) berkdb? ( sys-libs/db ) dev-libs/libxml2 ssl? ( dev-libs/openssl ) >=media-libs/raptor-1.4.4 >=dev-libs/rasqal-0.9.14
+SLOT=0
+SRC_URI=http://download.librdf.org/source/redland-1.0.6.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

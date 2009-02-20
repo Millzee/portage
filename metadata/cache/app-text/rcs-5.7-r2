@@ -1,22 +1,12 @@
-virtual/libc
-sys-apps/diffutils
-0
-mirror://gnu/rcs/rcs-5.7.tar.gz
-
-http://www.gnu.org/software/rcs/
-GPL-2
-Revision Control System
-x86 ppc sparc alpha hppa ia64 amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=Revision Control System
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/rcs/
+KEYWORDS=x86 ppc sparc alpha hppa ia64 amd64
+LICENSE=GPL-2
+RDEPEND=sys-apps/diffutils
+SLOT=0
+SRC_URI=mirror://gnu/rcs/rcs-5.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

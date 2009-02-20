@@ -1,22 +1,11 @@
->=sys-apps/sed-4
-
-0
-http://overlay.uberpenguin.net/icons-xfce-gant-3.9-6.tar.bz2
-
-http://www.xfce-look.org/content/show.php/GANT?content=23297
-GPL-2
-The amazing Gant icon set for Xfce 4.x
-~amd64 ~x86
-versionator gnome2-utils gnome2 gnome.org fdo-mime libtool
-
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=>=sys-apps/sed-4
+DESCRIPTION=The amazing Gant icon set for Xfce 4.x
+EAPI=0
+HOMEPAGE=http://www.xfce-look.org/content/show.php/GANT?content=23297
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://overlay.uberpenguin.net/icons-xfce-gant-3.9-6.tar.bz2
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

@@ -1,22 +1,10 @@
-dev-lang/python dev-python/pysqlite dev-util/subversion net-misc/rsync
-dev-lang/python dev-python/pysqlite
-0
-
-
-http://developer.berlios.de/projects/bitbake/
-GPL-2
-package management tool for OpenEmbedded
-
-subversion toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install preinst unpack
+DEPEND=dev-lang/python dev-python/pysqlite dev-util/subversion net-misc/rsync
+DESCRIPTION=package management tool for OpenEmbedded
+EAPI=0
+HOMEPAGE=http://developer.berlios.de/projects/bitbake/
+LICENSE=GPL-2
+RDEPEND=dev-lang/python dev-python/pysqlite
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

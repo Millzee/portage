@@ -1,22 +1,12 @@
-x11-libs/qt-gui:4
-sci-biology/clustalw:2
-0
-ftp://ftp.ebi.ac.uk/pub/software/clustalw2/2.0.9/clustalx-2.0.9-src.tar.gz
-
-http://www.ebi.ac.uk/tools/clustalw2/
-clustalw
-Graphical interface for the ClustalW multiple alignment program
-~x86 ~amd64
-qt4 toolchain-funcs portability versionator multilib eutils
-
-
-
-
-1
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=x11-libs/qt-gui:4
+DESCRIPTION=Graphical interface for the ClustalW multiple alignment program
+EAPI=1
+HOMEPAGE=http://www.ebi.ac.uk/tools/clustalw2/
+KEYWORDS=~x86 ~amd64
+LICENSE=clustalw
+RDEPEND=sci-biology/clustalw:2
+SLOT=0
+SRC_URI=ftp://ftp.ebi.ac.uk/pub/software/clustalw2/2.0.9/clustalx-2.0.9-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

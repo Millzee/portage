@@ -1,22 +1,10 @@
-
-
-0
-http://atrey.karlin.mff.cuni.cz/~sanda/mirror/words-1.97Ed-linux.tar.gz
-
-http://users.erols.com/whitaker/words.htm
-words
-Latin--English dictionary.
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=Latin--English dictionary.
+EAPI=0
+HOMEPAGE=http://users.erols.com/whitaker/words.htm
+KEYWORDS=~x86
+LICENSE=words
+SLOT=0
+SRC_URI=http://atrey.karlin.mff.cuni.cz/~sanda/mirror/words-1.97Ed-linux.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

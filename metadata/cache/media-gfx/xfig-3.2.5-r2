@@ -1,22 +1,12 @@
-x11-libs/libXaw x11-libs/libXp x11-libs/Xaw3d media-libs/jpeg media-libs/libpng >=media-gfx/transfig-3.2.5-r1 media-libs/netpbm x11-misc/imake app-text/rman x11-proto/xproto x11-proto/inputproto x11-libs/libXi
-x11-libs/libXaw x11-libs/libXp x11-libs/Xaw3d media-libs/jpeg media-libs/libpng >=media-gfx/transfig-3.2.5-r1 media-libs/netpbm
-0
-http://www.xfig.org/software/xfig/3.2.5/xfig.3.2.5.full.tar.gz
-
-http://www.xfig.org
-BSD
-A menu-driven tool to draw and manipulate objects interactively in an X window.
-~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXaw x11-libs/libXp x11-libs/Xaw3d media-libs/jpeg media-libs/libpng >=media-gfx/transfig-3.2.5-r1 media-libs/netpbm x11-misc/imake app-text/rman x11-proto/xproto x11-proto/inputproto x11-libs/libXi
+DESCRIPTION=A menu-driven tool to draw and manipulate objects interactively in an X window.
+EAPI=0
+HOMEPAGE=http://www.xfig.org
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+LICENSE=BSD
+RDEPEND=x11-libs/libXaw x11-libs/libXp x11-libs/Xaw3d media-libs/jpeg media-libs/libpng >=media-gfx/transfig-3.2.5-r1 media-libs/netpbm
+SLOT=0
+SRC_URI=http://www.xfig.org/software/xfig/3.2.5/xfig.3.2.5.full.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

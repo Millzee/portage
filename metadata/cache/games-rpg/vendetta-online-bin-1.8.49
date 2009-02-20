@@ -1,22 +1,12 @@
-
-virtual/opengl >=x11-libs/gtk+-2
-0
-amd64? ( http://mirror.cle.vendetta-online.com/vendetta-linux-amd64-installer.sh http://mirror.milw.vendetta-online.com/vendetta-linux-amd64-installer.sh ) x86? ( http://mirror.cle.vendetta-online.com/vendetta-linux-ia32-installer.sh http://mirror.milw.vendetta-online.com/vendetta-linux-ia32-installer.sh )
-mirror strip
-http://www.vendetta-online.com/
-guild
-Space-based MMORPG
--* ~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Space-based MMORPG
+EAPI=0
+HOMEPAGE=http://www.vendetta-online.com/
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=guild
+RDEPEND=virtual/opengl >=x11-libs/gtk+-2
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=amd64? ( http://mirror.cle.vendetta-online.com/vendetta-linux-amd64-installer.sh http://mirror.milw.vendetta-online.com/vendetta-linux-amd64-installer.sh ) x86? ( http://mirror.cle.vendetta-online.com/vendetta-linux-ia32-installer.sh http://mirror.milw.vendetta-online.com/vendetta-linux-ia32-installer.sh )
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

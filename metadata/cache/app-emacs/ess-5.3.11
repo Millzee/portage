@@ -1,22 +1,12 @@
-app-text/texi2html virtual/latex-base >=virtual/emacs-21
->=virtual/emacs-21
-0
-http://ess.r-project.org/downloads/ess/ess-5.3.11.tgz
-
-http://ess.r-project.org/
-GPL-2
-Emacs Speaks Statistics
-~alpha ~amd64 ~ppc ~sparc ~x86
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=app-text/texi2html virtual/latex-base >=virtual/emacs-21
+DESCRIPTION=Emacs Speaks Statistics
+EAPI=0
+HOMEPAGE=http://ess.r-project.org/
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/emacs-21
+SLOT=0
+SRC_URI=http://ess.r-project.org/downloads/ess/ess-5.3.11.tgz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

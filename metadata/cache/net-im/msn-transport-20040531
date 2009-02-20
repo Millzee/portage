@@ -1,22 +1,11 @@
-|| ( net-im/jabberd net-im/jabberd2 ) net-misc/curl
-|| ( net-im/jabberd net-im/jabberd2 ) net-misc/curl
-0
-http://msn-transport.jabberstudio.org/msn-transport-2004-05-31.tar.gz
-
-http://msn-transport.jabberstudio.org/
-GPL-2
-MSN transport for jabberd
-~hppa ~ppc ~sparc x86
-
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=|| ( net-im/jabberd net-im/jabberd2 ) net-misc/curl
+DESCRIPTION=MSN transport for jabberd
+EAPI=0
+HOMEPAGE=http://msn-transport.jabberstudio.org/
+KEYWORDS=~hppa ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=|| ( net-im/jabberd net-im/jabberd2 ) net-misc/curl
+SLOT=0
+SRC_URI=http://msn-transport.jabberstudio.org/msn-transport-2004-05-31.tar.gz
+_mtime_=1235082890

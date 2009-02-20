@@ -1,22 +1,9 @@
-
-
-0
-ftp://ftp.denx.de/pub/u-boot/u-boot-2008.10.tar.bz2
-
-http://www.denx.de/wiki/U-Boot/WebHome
-GPL-2
-utilities for working with Das U-Boot
-~amd64 arm ~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=utilities for working with Das U-Boot
+EAPI=0
+HOMEPAGE=http://www.denx.de/wiki/U-Boot/WebHome
+KEYWORDS=~amd64 arm ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=ftp://ftp.denx.de/pub/u-boot/u-boot-2008.10.tar.bz2
+_mtime_=1235082852

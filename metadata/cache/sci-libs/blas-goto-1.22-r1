@@ -1,22 +1,14 @@
-app-admin/eselect-blas >=sys-devel/binutils-2.17 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-app-admin/eselect-blas doc? ( app-doc/blas-docs )
-0
-http://www.tacc.utexas.edu/resources/software/login/gotoblas/GotoBLAS-1.22.tar.gz
-mirror
-http://www.tacc.utexas.edu/resources/software/software.php
-tacc
-Fast implementations of the Basic Linear Algebra Subroutines
-amd64 x86
-toolchain-funcs portability flag-o-matic multilib fortran libtool autotools eutils
-int64 threads doc debug
-
-
-
-0
-
-compile install postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test unpack
+DEPEND=app-admin/eselect-blas >=sys-devel/binutils-2.17 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Fast implementations of the Basic Linear Algebra Subroutines
+EAPI=0
+HOMEPAGE=http://www.tacc.utexas.edu/resources/software/software.php
+IUSE=int64 threads doc debug
+KEYWORDS=amd64 x86
+LICENSE=tacc
+RDEPEND=app-admin/eselect-blas doc? ( app-doc/blas-docs )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://www.tacc.utexas.edu/resources/software/login/gotoblas/GotoBLAS-1.22.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

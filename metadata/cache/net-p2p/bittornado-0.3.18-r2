@@ -1,22 +1,13 @@
-gtk? ( =dev-python/wxpython-2.6* ) >=dev-lang/python-2.1 dev-python/pycrypto app-arch/unzip >=sys-apps/sed-4.0.5 virtual/python
-gtk? ( =dev-python/wxpython-2.6* ) >=dev-lang/python-2.1 dev-python/pycrypto
-0
-http://download2.bittornado.com/download/BitTornado-0.3.18.tar.gz
-
-http://www.bittornado.com/
-MIT
-TheShad0w's experimental BitTorrent client
-alpha amd64 ppc ppc64 ~sparc x86 ~x86-fbsd
-toolchain-funcs distutils portability python alternatives multilib eutils
-gtk
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=gtk? ( =dev-python/wxpython-2.6* ) >=dev-lang/python-2.1 dev-python/pycrypto app-arch/unzip >=sys-apps/sed-4.0.5 virtual/python
+DESCRIPTION=TheShad0w's experimental BitTorrent client
+EAPI=0
+HOMEPAGE=http://www.bittornado.com/
+IUSE=gtk
+KEYWORDS=alpha amd64 ppc ppc64 ~sparc x86 ~x86-fbsd
+LICENSE=MIT
+RDEPEND=gtk? ( =dev-python/wxpython-2.6* ) >=dev-lang/python-2.1 dev-python/pycrypto
+SLOT=0
+SRC_URI=http://download2.bittornado.com/download/BitTornado-0.3.18.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

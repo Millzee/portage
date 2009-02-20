@@ -1,22 +1,10 @@
-
-|| ( dev-lang/mono dev-dotnet/pnet )
-0
-
-
-http://www.kernel.org/
-GPL-2
-PE Format binfmt_misc entry
-amd64 ppc ~sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=PE Format binfmt_misc entry
+EAPI=0
+HOMEPAGE=http://www.kernel.org/
+KEYWORDS=amd64 ppc ~sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=|| ( dev-lang/mono dev-dotnet/pnet )
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

@@ -1,22 +1,13 @@
->=sys-libs/db-4.2.52 cracklib? ( sys-libs/cracklib ) pam? ( virtual/pam ) ssl? ( dev-libs/openssl ) tcpd? ( sys-apps/tcp-wrappers ) slp? ( net-libs/openslp ) cups? ( net-print/cups ) kerberos? ( virtual/krb5 ) krb4? ( virtual/krb5 ) xfs? ( sys-fs/xfsprogs <sys-kernel/linux-headers-2.6.16 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=sys-libs/db-4.2.52 cracklib? ( sys-libs/cracklib ) pam? ( virtual/pam ) ssl? ( dev-libs/openssl ) tcpd? ( sys-apps/tcp-wrappers ) slp? ( net-libs/openslp ) cups? ( net-print/cups ) kerberos? ( virtual/krb5 ) krb4? ( virtual/krb5 )
-0
-mirror://sourceforge/netatalk/netatalk-2.0.3.tar.bz2
-
-http://netatalk.sourceforge.net
-BSD
-Kernel level implementation of the AppleTalk Protocol Suite
-~amd64 ~ppc ~ppc64 ~sh ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic multilib libtool autotools pam eutils
-ssl pam tcpd slp cups kerberos krb4 debug cracklib xfs
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-libs/db-4.2.52 cracklib? ( sys-libs/cracklib ) pam? ( virtual/pam ) ssl? ( dev-libs/openssl ) tcpd? ( sys-apps/tcp-wrappers ) slp? ( net-libs/openslp ) cups? ( net-print/cups ) kerberos? ( virtual/krb5 ) krb4? ( virtual/krb5 ) xfs? ( sys-fs/xfsprogs <sys-kernel/linux-headers-2.6.16 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Kernel level implementation of the AppleTalk Protocol Suite
+EAPI=0
+HOMEPAGE=http://netatalk.sourceforge.net
+IUSE=ssl pam tcpd slp cups kerberos krb4 debug cracklib xfs
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sh ~sparc ~x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND=>=sys-libs/db-4.2.52 cracklib? ( sys-libs/cracklib ) pam? ( virtual/pam ) ssl? ( dev-libs/openssl ) tcpd? ( sys-apps/tcp-wrappers ) slp? ( net-libs/openslp ) cups? ( net-print/cups ) kerberos? ( virtual/krb5 ) krb4? ( virtual/krb5 )
+SLOT=0
+SRC_URI=mirror://sourceforge/netatalk/netatalk-2.0.3.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

@@ -1,22 +1,11 @@
->=dev-lang/ghc-6
-
-0
-http://repetae.net/john/computer/haskell/DrIFT/drop/DrIFT-2.2.0.tar.gz
-
-http://repetae.net/john/computer/haskell/DrIFT/
-MIT
-Preprocessor for automatic derivation of Haskell class instances
-amd64 ppc ppc64 sparc x86
-ghc-package versionator
-
-
-
-
-0
-
-compile install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup
+DEPEND=>=dev-lang/ghc-6
+DESCRIPTION=Preprocessor for automatic derivation of Haskell class instances
+EAPI=0
+HOMEPAGE=http://repetae.net/john/computer/haskell/DrIFT/
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=http://repetae.net/john/computer/haskell/DrIFT/drop/DrIFT-2.2.0.tar.gz
+_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

@@ -1,22 +1,13 @@
-odbc? ( dev-db/unixODBC ) >=sys-apps/sed-4 app-arch/unzip
-odbc? ( dev-db/unixODBC )
-0
-ftp://ftp.franken.de/pub/crypt/cryptlib/cl33.zip doc? ( mirror://gentoo/cryptlib-3.3.0-manual.pdf.bz2 )
-
-http://www.cs.auckland.ac.nz/~pgut001/cryptlib/
-Sleepycat
-Powerful security toolkit for adding encryption to software
-~amd64 ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc odbc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=odbc? ( dev-db/unixODBC ) >=sys-apps/sed-4 app-arch/unzip
+DESCRIPTION=Powerful security toolkit for adding encryption to software
+EAPI=0
+HOMEPAGE=http://www.cs.auckland.ac.nz/~pgut001/cryptlib/
+IUSE=doc odbc
+KEYWORDS=~amd64 ~x86
+LICENSE=Sleepycat
+RDEPEND=odbc? ( dev-db/unixODBC )
+SLOT=0
+SRC_URI=ftp://ftp.franken.de/pub/crypt/cryptlib/cl33.zip doc? ( mirror://gentoo/cryptlib-3.3.0-manual.pdf.bz2 )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

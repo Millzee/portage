@@ -1,22 +1,13 @@
-media-libs/sdl-net media-libs/sdl-image media-libs/libsdl alsa? ( media-libs/alsa-lib ) mad? ( media-libs/libmad ) mpeg? ( media-libs/smpeg ) opengl? ( virtual/opengl ) sndfile? ( media-libs/libsndfile ) speex? ( media-libs/speex ) truetype? ( media-libs/sdl-ttf ) vorbis? ( media-libs/libvorbis ) dev-libs/boost
-media-libs/sdl-net media-libs/sdl-image media-libs/libsdl alsa? ( media-libs/alsa-lib ) mad? ( media-libs/libmad ) mpeg? ( media-libs/smpeg ) opengl? ( virtual/opengl ) sndfile? ( media-libs/libsndfile ) speex? ( media-libs/speex ) truetype? ( media-libs/sdl-ttf ) vorbis? ( media-libs/libvorbis )
-0
-mirror://sourceforge/marathon/AlephOne-20080721.tar.bz2
-
-http://source.bungie.org/
-GPL-2
-An enhanced version of the game engine from the classic Mac game, Marathon
-amd64 ~ppc64 x86
-toolchain-funcs portability multilib base games eutils
-alsa mad mpeg opengl sndfile speex truetype vorbis
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/sdl-net media-libs/sdl-image media-libs/libsdl alsa? ( media-libs/alsa-lib ) mad? ( media-libs/libmad ) mpeg? ( media-libs/smpeg ) opengl? ( virtual/opengl ) sndfile? ( media-libs/libsndfile ) speex? ( media-libs/speex ) truetype? ( media-libs/sdl-ttf ) vorbis? ( media-libs/libvorbis ) dev-libs/boost
+DESCRIPTION=An enhanced version of the game engine from the classic Mac game, Marathon
+EAPI=0
+HOMEPAGE=http://source.bungie.org/
+IUSE=alsa mad mpeg opengl sndfile speex truetype vorbis
+KEYWORDS=amd64 ~ppc64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/sdl-net media-libs/sdl-image media-libs/libsdl alsa? ( media-libs/alsa-lib ) mad? ( media-libs/libmad ) mpeg? ( media-libs/smpeg ) opengl? ( virtual/opengl ) sndfile? ( media-libs/libsndfile ) speex? ( media-libs/speex ) truetype? ( media-libs/sdl-ttf ) vorbis? ( media-libs/libvorbis )
+SLOT=0
+SRC_URI=mirror://sourceforge/marathon/AlephOne-20080721.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

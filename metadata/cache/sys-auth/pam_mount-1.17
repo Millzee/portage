@@ -1,22 +1,13 @@
->=sys-libs/pam-0.99 dev-libs/openssl >=sys-libs/libhx-2.2 dev-libs/libxml2 dev-util/pkgconfig
->=sys-libs/pam-0.99 dev-libs/openssl >=sys-libs/libhx-2.2 dev-libs/libxml2 >=sys-fs/cryptsetup-1.0.5 sys-process/lsof
-0
-mirror://sourceforge/pam-mount/pam_mount-1.17.tar.bz2
-
-http://pam-mount.sourceforge.net
-GPL-3
-A PAM module that can mount volumes for a user session
-~amd64 ~ppc ~x86
-toolchain-funcs multilib
-crypt
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=sys-libs/pam-0.99 dev-libs/openssl >=sys-libs/libhx-2.2 dev-libs/libxml2 dev-util/pkgconfig
+DESCRIPTION=A PAM module that can mount volumes for a user session
+EAPI=0
+HOMEPAGE=http://pam-mount.sourceforge.net
+IUSE=crypt
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-3
+RDEPEND=>=sys-libs/pam-0.99 dev-libs/openssl >=sys-libs/libhx-2.2 dev-libs/libxml2 >=sys-fs/cryptsetup-1.0.5 sys-process/lsof
+SLOT=0
+SRC_URI=mirror://sourceforge/pam-mount/pam_mount-1.17.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

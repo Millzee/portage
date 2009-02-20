@@ -1,22 +1,12 @@
-!dev-util/par !app-arch/par
-!dev-util/par !app-arch/par
-0
-http://www.nicemice.net/par/Par152.tar.gz
-
-http://www.nicemice.net/par/
-freedist
-a paragraph reformatter, vaguely similar to fmt, but better
-~amd64 ~mips ~sparc ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=!dev-util/par !app-arch/par
+DESCRIPTION=a paragraph reformatter, vaguely similar to fmt, but better
+EAPI=0
+HOMEPAGE=http://www.nicemice.net/par/
+KEYWORDS=~amd64 ~mips ~sparc ~x86
+LICENSE=freedist
+RDEPEND=!dev-util/par !app-arch/par
+SLOT=0
+SRC_URI=http://www.nicemice.net/par/Par152.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

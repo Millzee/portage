@@ -1,22 +1,10 @@
-
-dev-lang/perl !<app-editors/mp-5 !dev-lang/qu-prolog !dev-util/mpatch
-0
-http://ftp.suse.com/pub/people/mason/rej/rej-0.16.tar.gz
-
-http://ftp.suse.com/pub/people/mason/rej/
-GPL-2
-A utility for solving diff/patch rejects
-x86 ~ppc amd64
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=A utility for solving diff/patch rejects
+EAPI=0
+HOMEPAGE=http://ftp.suse.com/pub/people/mason/rej/
+KEYWORDS=x86 ~ppc amd64
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl !<app-editors/mp-5 !dev-lang/qu-prolog !dev-util/mpatch
+SLOT=0
+SRC_URI=http://ftp.suse.com/pub/people/mason/rej/rej-0.16.tar.gz
+_mtime_=1235082859

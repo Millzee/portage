@@ -1,22 +1,13 @@
-app-arch/unzip !test? ( || ( =virtual/jdk-1.5* =virtual/jdk-1.4* ) ) test? ( =virtual/jdk-1.4* dev-java/ant-junit dev-java/ant-trax ) =dev-java/junit-3* >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.4 =dev-java/junit-3* >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-1
-mirror://sourceforge/xmlunit/xmlunit1.0.zip
-
-http://xmlunit.sourceforge.net/
-BSD
-XMLUnit extends JUnit and NUnit to enable unit testing of XML.
-amd64 ~ppc x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD doc source test elibc_FreeBSD
-
-
-
-
-
-compile install postinst preinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup test unpack
+DEPEND=app-arch/unzip !test? ( || ( =virtual/jdk-1.5* =virtual/jdk-1.4* ) ) test? ( =virtual/jdk-1.4* dev-java/ant-junit dev-java/ant-trax ) =dev-java/junit-3* >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=XMLUnit extends JUnit and NUnit to enable unit testing of XML.
+EAPI=0
+HOMEPAGE=http://xmlunit.sourceforge.net/
+IUSE=elibc_FreeBSD doc source test elibc_FreeBSD
+KEYWORDS=amd64 ~ppc x86
+LICENSE=BSD
+RDEPEND=>=virtual/jre-1.4 =dev-java/junit-3* >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=1
+SRC_URI=mirror://sourceforge/xmlunit/xmlunit1.0.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

@@ -1,22 +1,12 @@
-
-sys-libs/glibc x86? ( x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/openssl media-libs/freetype media-libs/libogg media-libs/libsdl media-libs/libvorbis net-libs/gnutls net-misc/curl sys-libs/zlib virtual/glu virtual/opengl ) amd64? ( app-emulation/emul-linux-x86-sdl app-emulation/emul-linux-x86-gtklibs )
-0
-http://release-candidate-secondlife-com.s3.amazonaws.com/SecondLife-i686-1.22.9.110075.tar.bz2
-mirror strip
-http://secondlife.com/
-GPL-2-with-Linden-Lab-FLOSS-exception
-The Second Life (an online, 3D virtual world) viewer
-~x86
-toolchain-funcs portability versionator multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=The Second Life (an online, 3D virtual world) viewer
+EAPI=0
+HOMEPAGE=http://secondlife.com/
+KEYWORDS=~x86
+LICENSE=GPL-2-with-Linden-Lab-FLOSS-exception
+RDEPEND=sys-libs/glibc x86? ( x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/openssl media-libs/freetype media-libs/libogg media-libs/libsdl media-libs/libvorbis net-libs/gnutls net-misc/curl sys-libs/zlib virtual/glu virtual/opengl ) amd64? ( app-emulation/emul-linux-x86-sdl app-emulation/emul-linux-x86-gtklibs )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=http://release-candidate-secondlife-com.s3.amazonaws.com/SecondLife-i686-1.22.9.110075.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

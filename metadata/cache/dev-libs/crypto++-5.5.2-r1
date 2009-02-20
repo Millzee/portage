@@ -1,22 +1,12 @@
-app-arch/unzip
-
-0
-mirror://sourceforge/cryptopp/cryptopp552.zip
-
-http://cryptopp.com
-cryptopp
-Crypto++ is a C++ class library of cryptographic schemes
-alpha amd64 hppa ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-sse3
-
-
-
-0
-
-compile install test
-
-
-
-
-
+DEFINED_PHASES=compile install test
+DEPEND=app-arch/unzip
+DESCRIPTION=Crypto++ is a C++ class library of cryptographic schemes
+EAPI=0
+HOMEPAGE=http://cryptopp.com
+IUSE=sse3
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86
+LICENSE=cryptopp
+SLOT=0
+SRC_URI=mirror://sourceforge/cryptopp/cryptopp552.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

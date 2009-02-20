@@ -1,22 +1,9 @@
-
-|| ( sys-apps/pcmcia-cs sys-apps/pcmciautils )
-0
-
-
-http://www.gentoo.org/proj/en/base/
-GPL-2
-Virtual for PCMCIA userspace tools
-amd64 arm ppc sh x86
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for PCMCIA userspace tools
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/base/
+KEYWORDS=amd64 arm ppc sh x86
+LICENSE=GPL-2
+RDEPEND=|| ( sys-apps/pcmcia-cs sys-apps/pcmciautils )
+SLOT=0
+_mtime_=1235082908

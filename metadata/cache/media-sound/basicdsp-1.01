@@ -1,22 +1,13 @@
->=x11-libs/wxGTK-2.6.3
->=x11-libs/wxGTK-2.6.3
-0
-http://wwwhome.cs.utwente.nl/~ptdeboer/ham/basicdsp/basicdsp-1.01.tgz doc? ( http://wwwhome.cs.utwente.nl/~ptdeboer/ham/basicdsp/BasicDSP_SPRAT.pdf )
-
-http://wwwhome.cs.utwente.nl/~ptdeboer/ham/basicdsp/
-GPL-2
-A program for experimenting with simple audio DSP algorithms
-~x86
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=x11-libs/wxGTK-2.6.3
+DESCRIPTION=A program for experimenting with simple audio DSP algorithms
+EAPI=0
+HOMEPAGE=http://wwwhome.cs.utwente.nl/~ptdeboer/ham/basicdsp/
+IUSE=doc
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/wxGTK-2.6.3
+SLOT=0
+SRC_URI=http://wwwhome.cs.utwente.nl/~ptdeboer/ham/basicdsp/basicdsp-1.01.tgz doc? ( http://wwwhome.cs.utwente.nl/~ptdeboer/ham/basicdsp/BasicDSP_SPRAT.pdf )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

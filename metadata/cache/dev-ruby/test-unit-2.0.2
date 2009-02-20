@@ -1,22 +1,13 @@
-doc? ( dev-ruby/rake dev-ruby/hoe ) virtual/ruby
-virtual/ruby
-0
-mirror://rubyforge/test-unit/test-unit-2.0.2.tgz
-
-http://test-unit.rubyforge.org/
-MIT
-Test::Unit for Ruby 1.9
-~amd64 ~x86
-ruby toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=doc? ( dev-ruby/rake dev-ruby/hoe ) virtual/ruby
+DESCRIPTION=Test::Unit for Ruby 1.9
+EAPI=0
+HOMEPAGE=http://test-unit.rubyforge.org/
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=virtual/ruby
+SLOT=0
+SRC_URI=mirror://rubyforge/test-unit/test-unit-2.0.2.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

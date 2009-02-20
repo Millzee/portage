@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-mirror://sourceforge/fondu/fondu_src-040925.tgz
-
-http://fondu.sourceforge.net/
-BSD
-Utilities for converting between and manipulating mac fonts and unix fonts
-x86 ppc
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=Utilities for converting between and manipulating mac fonts and unix fonts
+EAPI=0
+HOMEPAGE=http://fondu.sourceforge.net/
+KEYWORDS=x86 ppc
+LICENSE=BSD
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/fondu/fondu_src-040925.tgz
+_mtime_=1235082867

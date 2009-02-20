@@ -1,22 +1,13 @@
-sci-libs/pgplot x11-libs/libX11 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-sci-libs/pgplot x11-libs/libX11
-0
-ftp://ftp.ornl.gov/pub/ortep/src/ortep.f
-
-http://www.ornl.gov/sci/ortep/
-public-domain
-Thermal ellipsoid plot program for crystal structure illustrations
-~x86
-toolchain-funcs portability multilib fortran libtool autotools eutils
-debug
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=sci-libs/pgplot x11-libs/libX11 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Thermal ellipsoid plot program for crystal structure illustrations
+EAPI=0
+HOMEPAGE=http://www.ornl.gov/sci/ortep/
+IUSE=debug
+KEYWORDS=~x86
+LICENSE=public-domain
+RDEPEND=sci-libs/pgplot x11-libs/libX11
+SLOT=0
+SRC_URI=ftp://ftp.ornl.gov/pub/ortep/src/ortep.f
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

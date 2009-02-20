@@ -1,22 +1,12 @@
-
-virtual/opengl x11-libs/gtk+:1
-0
-http://www.pbernert.com/gpupetemesagl176.tar.gz
-strip
-http://www.pbernert.com/
-freedist
-PSEmu MesaGL GPU
-x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-1
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=PSEmu MesaGL GPU
+EAPI=1
+HOMEPAGE=http://www.pbernert.com/
+KEYWORDS=x86
+LICENSE=freedist
+RDEPEND=virtual/opengl x11-libs/gtk+:1
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://www.pbernert.com/gpupetemesagl176.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

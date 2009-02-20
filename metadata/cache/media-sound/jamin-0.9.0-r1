@@ -1,22 +1,12 @@
->=media-sound/jack-audio-connection-kit-0.80.0 >=media-plugins/swh-plugins-0.4.6 media-libs/ladspa-sdk >=sci-libs/fftw-3.0.1 media-libs/libsndfile >=media-libs/alsa-lib-0.9.0 >=dev-libs/libxml2-2.5.0 >=x11-libs/gtk+-2.0.0
->=media-sound/jack-audio-connection-kit-0.80.0 >=media-plugins/swh-plugins-0.4.6 media-libs/ladspa-sdk >=sci-libs/fftw-3.0.1 media-libs/libsndfile >=media-libs/alsa-lib-0.9.0 >=dev-libs/libxml2-2.5.0 >=x11-libs/gtk+-2.0.0
-0
-mirror://sourceforge/jamin/jamin-0.9.0.tar.gz
-
-http://jamin.sourceforge.net
-GPL-2
-JAMin is the JACK Audio Connection Kit (JACK) Audio Mastering interface
-x86 amd64 ~ppc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=media-sound/jack-audio-connection-kit-0.80.0 >=media-plugins/swh-plugins-0.4.6 media-libs/ladspa-sdk >=sci-libs/fftw-3.0.1 media-libs/libsndfile >=media-libs/alsa-lib-0.9.0 >=dev-libs/libxml2-2.5.0 >=x11-libs/gtk+-2.0.0
+DESCRIPTION=JAMin is the JACK Audio Connection Kit (JACK) Audio Mastering interface
+EAPI=0
+HOMEPAGE=http://jamin.sourceforge.net
+KEYWORDS=x86 amd64 ~ppc
+LICENSE=GPL-2
+RDEPEND=>=media-sound/jack-audio-connection-kit-0.80.0 >=media-plugins/swh-plugins-0.4.6 media-libs/ladspa-sdk >=sci-libs/fftw-3.0.1 media-libs/libsndfile >=media-libs/alsa-lib-0.9.0 >=dev-libs/libxml2-2.5.0 >=x11-libs/gtk+-2.0.0
+SLOT=0
+SRC_URI=mirror://sourceforge/jamin/jamin-0.9.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

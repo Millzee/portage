@@ -1,22 +1,13 @@
-x11-libs/fltk:2[-cairo,jpeg=,png=] sys-libs/zlib jpeg? ( media-libs/jpeg ) png? ( media-libs/libpng ) ssl? ( dev-libs/openssl ) doc? ( app-doc/doxygen )
-x11-libs/fltk:2[-cairo,jpeg=,png=] sys-libs/zlib jpeg? ( media-libs/jpeg ) png? ( media-libs/libpng ) ssl? ( dev-libs/openssl )
-0
-http://www.dillo.org/download/dillo-2.0.tar.bz2
-
-http://www.dillo.org/
-GPL-3
-Lean FLTK2-based web browser
-~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils
-doc +gif ipv6 +jpeg +png ssl
-
-
-
-2
-
-compile configure install prepare
-
-
-
-
-
+DEFINED_PHASES=compile configure install prepare
+DEPEND=x11-libs/fltk:2[-cairo,jpeg=,png=] sys-libs/zlib jpeg? ( media-libs/jpeg ) png? ( media-libs/libpng ) ssl? ( dev-libs/openssl ) doc? ( app-doc/doxygen )
+DESCRIPTION=Lean FLTK2-based web browser
+EAPI=2
+HOMEPAGE=http://www.dillo.org/
+IUSE=doc +gif ipv6 +jpeg +png ssl
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
+LICENSE=GPL-3
+RDEPEND=x11-libs/fltk:2[-cairo,jpeg=,png=] sys-libs/zlib jpeg? ( media-libs/jpeg ) png? ( media-libs/libpng ) ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=http://www.dillo.org/download/dillo-2.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

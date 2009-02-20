@@ -1,22 +1,9 @@
-
-|| ( sys-cluster/openmpi sys-cluster/mpich2 sys-cluster/lam-mpi sys-cluster/mpich )
-0
-
-
-http://www.gentoo.org/proj/en/cluster/
-GPL-2
-Virtual for Message Passing Interface (MPI) implementation
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Message Passing Interface (MPI) implementation
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/cluster/
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=|| ( sys-cluster/openmpi sys-cluster/mpich2 sys-cluster/lam-mpi sys-cluster/mpich )
+SLOT=0
+_mtime_=1235082908

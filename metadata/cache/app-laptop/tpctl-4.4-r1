@@ -1,22 +1,13 @@
->=app-laptop/thinkpad-4.3 ncurses? ( sys-libs/ncurses )
->=app-laptop/thinkpad-4.3 ncurses? ( sys-libs/ncurses ) perl? ( dev-lang/perl )
-0
-mirror://sourceforge/tpctl/tpctl_4.4.tar.gz
-
-http://tpctl.sourceforge.net/tpctlhome.htm
-GPL-2
-Thinkpad system control user space programs
--* x86
-toolchain-funcs multilib portability eutils
-ncurses tpctlir perl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=app-laptop/thinkpad-4.3 ncurses? ( sys-libs/ncurses )
+DESCRIPTION=Thinkpad system control user space programs
+EAPI=0
+HOMEPAGE=http://tpctl.sourceforge.net/tpctlhome.htm
+IUSE=ncurses tpctlir perl
+KEYWORDS=-* x86
+LICENSE=GPL-2
+RDEPEND=>=app-laptop/thinkpad-4.3 ncurses? ( sys-libs/ncurses ) perl? ( dev-lang/perl )
+SLOT=0
+SRC_URI=mirror://sourceforge/tpctl/tpctl_4.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

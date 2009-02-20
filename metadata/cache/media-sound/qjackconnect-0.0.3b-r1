@@ -1,22 +1,12 @@
-x11-libs/qt:3 media-sound/jack-audio-connection-kit media-libs/alsa-lib
-x11-libs/qt:3 media-sound/jack-audio-connection-kit media-libs/alsa-lib
-0
-ftp://ftp.suse.com/pub/people/mana/qjackconnect-0.0.3b.tar.bz2
-
-http://www.suse.de/~mana/jack.html
-GPL-2
-A QT based patchbay for the JACK Audio Connection Kit
-amd64 ~ppc sparc x86
-toolchain-funcs qt3 portability versionator multilib eutils
-
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/qt:3 media-sound/jack-audio-connection-kit media-libs/alsa-lib
+DESCRIPTION=A QT based patchbay for the JACK Audio Connection Kit
+EAPI=1
+HOMEPAGE=http://www.suse.de/~mana/jack.html
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt:3 media-sound/jack-audio-connection-kit media-libs/alsa-lib
+SLOT=0
+SRC_URI=ftp://ftp.suse.com/pub/people/mana/qjackconnect-0.0.3b.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

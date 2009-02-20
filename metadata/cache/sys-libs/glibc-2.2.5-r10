@@ -1,22 +1,14 @@
-virtual/os-headers nls? ( sys-devel/gettext )
-
-2.2
-ftp://sources.redhat.com/pub/glibc/releases/glibc-2.2.5.tar.bz2 ftp://sources.redhat.com/pub/glibc/releases/glibc-linuxthreads-2.2.5.tar.bz2 mirror://gentoo/glibc-2.2.5-patches-1.0.tar.bz2 mirror://gentoo/glibc-2.2.5-manpages.tar.bz2
-strip
-http://www.gnu.org/software/libc/libc.html
-LGPL-2
-GNU libc6 (also called glibc2) C library
-alpha ppc sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-nls
-
-
-virtual/libc
-0
-
-compile install postinst test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst test unpack
+DEPEND=virtual/os-headers nls? ( sys-devel/gettext )
+DESCRIPTION=GNU libc6 (also called glibc2) C library
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/libc/libc.html
+IUSE=nls
+KEYWORDS=alpha ppc sparc x86
+LICENSE=LGPL-2
+PROVIDE=virtual/libc
+RESTRICT=strip
+SLOT=2.2
+SRC_URI=ftp://sources.redhat.com/pub/glibc/releases/glibc-2.2.5.tar.bz2 ftp://sources.redhat.com/pub/glibc/releases/glibc-linuxthreads-2.2.5.tar.bz2 mirror://gentoo/glibc-2.2.5-patches-1.0.tar.bz2 mirror://gentoo/glibc-2.2.5-manpages.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

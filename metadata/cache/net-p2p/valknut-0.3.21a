@@ -1,22 +1,13 @@
-x11-libs/qt:3 >=dev-libs/libxml2-2.4.22 ~net-p2p/dclib-0.3.21 ssl? ( dev-libs/openssl ) dev-util/pkgconfig
-x11-libs/qt:3 >=dev-libs/libxml2-2.4.22 ~net-p2p/dclib-0.3.21 ssl? ( dev-libs/openssl )
-0
-mirror://sourceforge/wxdcgui/valknut-0.3.21a.tar.bz2
-
-http://sourceforge.net/projects/wxdcgui/
-GPL-2
-Qt based client for DirectConnect
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~x86
-toolchain-funcs qt3 portability versionator multilib eutils
-ssl
-
-
-
-1
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/qt:3 >=dev-libs/libxml2-2.4.22 ~net-p2p/dclib-0.3.21 ssl? ( dev-libs/openssl ) dev-util/pkgconfig
+DESCRIPTION=Qt based client for DirectConnect
+EAPI=1
+HOMEPAGE=http://sourceforge.net/projects/wxdcgui/
+IUSE=ssl
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt:3 >=dev-libs/libxml2-2.4.22 ~net-p2p/dclib-0.3.21 ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=mirror://sourceforge/wxdcgui/valknut-0.3.21a.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

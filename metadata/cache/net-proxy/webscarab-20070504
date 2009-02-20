@@ -1,22 +1,10 @@
-
->=virtual/jre-1.5
-0
-mirror://sourceforge/owasp/webscarab-selfcontained-20070504-1631.jar
-
-http://www.owasp.org/software/webscarab.html
-GPL-2
-A framework for analysing applications that communicate using the HTTP and HTTPS protocols
-amd64 ~ppc x86
-
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=A framework for analysing applications that communicate using the HTTP and HTTPS protocols
+EAPI=0
+HOMEPAGE=http://www.owasp.org/software/webscarab.html
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.5
+SLOT=0
+SRC_URI=mirror://sourceforge/owasp/webscarab-selfcontained-20070504-1631.jar
+_mtime_=1235082896

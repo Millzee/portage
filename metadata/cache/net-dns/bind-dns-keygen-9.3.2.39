@@ -1,22 +1,11 @@
->=app-arch/rpm2targz-9.0-r1
-
-0
-mirror://fedora/development/source/SRPMS/bind-9.3.2-39.fc6.src.rpm
-
-http://fedora.redhat.com/projects/config-tools/
-as-is
-A simple BIND key generator
-~ppc ~x86
-rpm toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=app-arch/rpm2targz-9.0-r1
+DESCRIPTION=A simple BIND key generator
+EAPI=0
+HOMEPAGE=http://fedora.redhat.com/projects/config-tools/
+KEYWORDS=~ppc ~x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=mirror://fedora/development/source/SRPMS/bind-9.3.2-39.fc6.src.rpm
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	rpm	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

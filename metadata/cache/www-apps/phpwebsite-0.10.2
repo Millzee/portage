@@ -1,22 +1,13 @@
->=app-admin/webapp-config-1.50.15
-virtual/httpd-php >=app-admin/webapp-config-1.50.15
-0.10.2
-mirror://sourceforge/phpwebsite/phpwebsite-0.10.2-full.tar.gz http://phpwebsite.appstate.edu/downloads/security/phpws_patch_20060419.2.tgz
-
-http://phpwebsite.appstate.edu
-LGPL-2.1
-phpWebSite Content Management System
-alpha ppc sparc x86
-webapp
-vhosts
-
-
-
-0
-
-install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=>=app-admin/webapp-config-1.50.15
+DESCRIPTION=phpWebSite Content Management System
+EAPI=0
+HOMEPAGE=http://phpwebsite.appstate.edu
+IUSE=vhosts
+KEYWORDS=alpha ppc sparc x86
+LICENSE=LGPL-2.1
+RDEPEND=virtual/httpd-php >=app-admin/webapp-config-1.50.15
+SLOT=0.10.2
+SRC_URI=mirror://sourceforge/phpwebsite/phpwebsite-0.10.2-full.tar.gz http://phpwebsite.appstate.edu/downloads/security/phpws_patch_20060419.2.tgz
+_eclasses_=webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

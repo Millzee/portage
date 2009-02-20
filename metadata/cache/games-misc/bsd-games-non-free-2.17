@@ -1,22 +1,12 @@
-sys-libs/ncurses sys-devel/bison sys-devel/flex
-sys-libs/ncurses
-0
-ftp://metalab.unc.edu/pub/Linux/games/bsd-games-non-free-2.17.tar.gz
-
-http://www.advogato.org/proj/bsd-games/
-|| ( BSD free-noncomm )
-collection of games from NetBSD
-amd64 ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=sys-libs/ncurses sys-devel/bison sys-devel/flex
+DESCRIPTION=collection of games from NetBSD
+EAPI=2
+HOMEPAGE=http://www.advogato.org/proj/bsd-games/
+KEYWORDS=amd64 ppc x86
+LICENSE=|| ( BSD free-noncomm )
+RDEPEND=sys-libs/ncurses
+SLOT=0
+SRC_URI=ftp://metalab.unc.edu/pub/Linux/games/bsd-games-non-free-2.17.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

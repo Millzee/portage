@@ -1,22 +1,13 @@
-virtual/libc >=sys-fs/sysfsutils-1.0 >=sys-libs/openipmi-0.26 <sys-libs/openipmi-1.4 snmp? ( >=net-analyzer/net-snmp-5.07 ) virtual/os-headers
-virtual/libc >=sys-fs/sysfsutils-1.0 >=sys-libs/openipmi-0.26 <sys-libs/openipmi-1.4 snmp? ( >=net-analyzer/net-snmp-5.07 )
-0
-mirror://sourceforge/openhpi/openhpi-2.0.3-1.tar.gz
-
-http://openhpi.sourceforge.net/
-BSD
-OpenHPI is an open implementation of the SA Forum's HPI spec
-~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-snmp examples
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc >=sys-fs/sysfsutils-1.0 >=sys-libs/openipmi-0.26 <sys-libs/openipmi-1.4 snmp? ( >=net-analyzer/net-snmp-5.07 ) virtual/os-headers
+DESCRIPTION=OpenHPI is an open implementation of the SA Forum's HPI spec
+EAPI=0
+HOMEPAGE=http://openhpi.sourceforge.net/
+IUSE=snmp examples
+KEYWORDS=~x86
+LICENSE=BSD
+RDEPEND=virtual/libc >=sys-fs/sysfsutils-1.0 >=sys-libs/openipmi-0.26 <sys-libs/openipmi-1.4 snmp? ( >=net-analyzer/net-snmp-5.07 )
+SLOT=0
+SRC_URI=mirror://sourceforge/openhpi/openhpi-2.0.3-1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

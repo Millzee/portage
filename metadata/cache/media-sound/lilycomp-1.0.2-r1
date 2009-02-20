@@ -1,22 +1,12 @@
-dev-lang/python[tk]
-dev-lang/python[tk]
-0
-mirror://sourceforge/lilycomp/lilycomp.1.0.2.tar.gz
-
-http://lilycomp.sourceforge.net/
-GPL-2
-graphical note entry program for use with LilyPond
-~amd64 ~ppc ~sparc ~x86
-python multilib toolchain-funcs alternatives
-
-
-
-
-2
-
-install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm
+DEPEND=dev-lang/python[tk]
+DESCRIPTION=graphical note entry program for use with LilyPond
+EAPI=2
+HOMEPAGE=http://lilycomp.sourceforge.net/
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/python[tk]
+SLOT=0
+SRC_URI=mirror://sourceforge/lilycomp/lilycomp.1.0.2.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

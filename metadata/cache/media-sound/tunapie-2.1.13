@@ -1,22 +1,12 @@
-
-=dev-python/wxpython-2.6*
-0
-mirror://sourceforge/tunapie/tunapie-2.1.13.tar.gz
-
-http://tunapie.sourceforge.net
-GPL-2
-Directory browser for Radio and TV streams
-~amd64 ~x86
-toolchain-funcs portability python alternatives multilib eutils
-offensive
-
-
-
-0
-
-install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm unpack
+DESCRIPTION=Directory browser for Radio and TV streams
+EAPI=0
+HOMEPAGE=http://tunapie.sourceforge.net
+IUSE=offensive
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND==dev-python/wxpython-2.6*
+SLOT=0
+SRC_URI=mirror://sourceforge/tunapie/tunapie-2.1.13.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

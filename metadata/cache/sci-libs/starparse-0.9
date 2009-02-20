@@ -1,22 +1,13 @@
-guile? ( dev-scheme/guile ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-guile? ( dev-scheme/guile )
-0
-mirror://sourceforge/burrow-owl/starparse-0.9.tar.gz
-
-http://burrow-owl.sourceforge.net/
-GPL-2
-Library for parsing NMR star files (peak-list format) and CIF files
-~amd64
-toolchain-funcs portability multilib libtool autotools eutils
-guile
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=guile? ( dev-scheme/guile ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Library for parsing NMR star files (peak-list format) and CIF files
+EAPI=0
+HOMEPAGE=http://burrow-owl.sourceforge.net/
+IUSE=guile
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=guile? ( dev-scheme/guile )
+SLOT=0
+SRC_URI=mirror://sourceforge/burrow-owl/starparse-0.9.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

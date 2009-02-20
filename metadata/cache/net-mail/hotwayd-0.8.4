@@ -1,22 +1,14 @@
-virtual/inetd dev-libs/libxml2 smtp? ( >=dev-libs/cyrus-sasl-2 )
-virtual/inetd dev-libs/libxml2 smtp? ( >=dev-libs/cyrus-sasl-2 )
-0
-mirror://sourceforge/hotwayd/hotwayd-0.8.4.tar.bz2
-mirror
-http://hotwayd.sourceforge.net/
-GPL-2
-Hotmail to pop3 daemon
-~amd64 ~ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-smtp
-
-
-
-0
-
-install postinst setup
-
-
-
-
-
+DEFINED_PHASES=install postinst setup
+DEPEND=virtual/inetd dev-libs/libxml2 smtp? ( >=dev-libs/cyrus-sasl-2 )
+DESCRIPTION=Hotmail to pop3 daemon
+EAPI=0
+HOMEPAGE=http://hotwayd.sourceforge.net/
+IUSE=smtp
+KEYWORDS=~amd64 ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/inetd dev-libs/libxml2 smtp? ( >=dev-libs/cyrus-sasl-2 )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sourceforge/hotwayd/hotwayd-0.8.4.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

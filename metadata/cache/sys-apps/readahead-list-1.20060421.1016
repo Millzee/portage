@@ -1,22 +1,13 @@
-virtual/libc virtual/os-headers
-virtual/libc
-0
-mirror://gentoo/readahead-list-1.20060421.1016.tar.bz2
-
-http://www.orbis-terrarum.net
-GPL-2
-Preloads files into the page cache to accelerate program loading.
-amd64 ppc x86
-toolchain-funcs base multilib portability eutils
-doc
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc virtual/os-headers
+DESCRIPTION=Preloads files into the page cache to accelerate program loading.
+EAPI=0
+HOMEPAGE=http://www.orbis-terrarum.net
+IUSE=doc
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://gentoo/readahead-list-1.20060421.1016.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

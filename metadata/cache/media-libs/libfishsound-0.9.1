@@ -1,22 +1,12 @@
-vorbis? ( media-libs/libvorbis media-libs/libogg ) media-libs/speex doc? ( app-doc/doxygen virtual/latex-base )
-vorbis? ( media-libs/libvorbis media-libs/libogg ) media-libs/speex
-0
-http://www.annodex.net/software/libfishsound/download/libfishsound-0.9.1.tar.gz
-
-http://www.annodex.net/software/libfishsound/html/
-BSD
-Simple programming interface for decoding and encoding audio data using Xiph.Org codecs (Vorbis and Speex)
-~amd64 ~x86
-
-doc vorbis
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=vorbis? ( media-libs/libvorbis media-libs/libogg ) media-libs/speex doc? ( app-doc/doxygen virtual/latex-base )
+DESCRIPTION=Simple programming interface for decoding and encoding audio data using Xiph.Org codecs (Vorbis and Speex)
+EAPI=0
+HOMEPAGE=http://www.annodex.net/software/libfishsound/html/
+IUSE=doc vorbis
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=vorbis? ( media-libs/libvorbis media-libs/libogg ) media-libs/speex
+SLOT=0
+SRC_URI=http://www.annodex.net/software/libfishsound/download/libfishsound-0.9.1.tar.gz
+_mtime_=1235082867

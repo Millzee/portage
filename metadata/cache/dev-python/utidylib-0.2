@@ -1,22 +1,13 @@
->=dev-lang/python-2.3 app-text/htmltidy dev-python/ctypes app-arch/unzip doc? ( dev-python/epydoc ) test? ( dev-python/twisted ) virtual/python
->=dev-lang/python-2.3 app-text/htmltidy dev-python/ctypes
-0
-mirror://berlios/utidylib/uTidylib-0.2.zip
-
-http://utidylib.berlios.de/
-MIT
-TidyLib Python wrapper
-~amd64 ~ppc64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-doc test
-
-
-
-0
-
-compile install postinst postrm test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test unpack
+DEPEND=>=dev-lang/python-2.3 app-text/htmltidy dev-python/ctypes app-arch/unzip doc? ( dev-python/epydoc ) test? ( dev-python/twisted ) virtual/python
+DESCRIPTION=TidyLib Python wrapper
+EAPI=0
+HOMEPAGE=http://utidylib.berlios.de/
+IUSE=doc test
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/python-2.3 app-text/htmltidy dev-python/ctypes
+SLOT=0
+SRC_URI=mirror://berlios/utidylib/uTidylib-0.2.zip
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

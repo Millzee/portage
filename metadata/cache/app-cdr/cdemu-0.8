@@ -1,22 +1,14 @@
-virtual/linux-sources kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-dev-lang/python kernel_linux? ( virtual/modutils )
-0
-mirror://sourceforge/cdemu/cdemu-0.8.tar.bz2
-test
-http://cdemu.org/
-GPL-2
-mount bin/cue cd images
-amd64 hppa ppc x86
-toolchain-funcs portability python alternatives versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup
+DEPEND=virtual/linux-sources kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=mount bin/cue cd images
+EAPI=0
+HOMEPAGE=http://cdemu.org/
+IUSE=kernel_linux
+KEYWORDS=amd64 hppa ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/python kernel_linux? ( virtual/modutils )
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/cdemu/cdemu-0.8.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

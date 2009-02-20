@@ -1,22 +1,13 @@
-alsa? ( media-libs/alsa-lib ) >=dev-util/cmake-2.4.6
-alsa? ( media-libs/alsa-lib )
-0
-http://kcat.strangesoft.net/openal-releases/openal-soft-1.5.304.tar.bz2
-
-http://kcat.strangesoft.net/openal.html
-LGPL-2
-A software implementation of the OpenAL 3D audio API
-alpha amd64 hppa ~ppc ~ppc64 ~sparc x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-alsa oss debug
-
-
-
-0
-
-compile install postinst test
-
-
-
-
-
+DEFINED_PHASES=compile install postinst test
+DEPEND=alsa? ( media-libs/alsa-lib ) >=dev-util/cmake-2.4.6
+DESCRIPTION=A software implementation of the OpenAL 3D audio API
+EAPI=0
+HOMEPAGE=http://kcat.strangesoft.net/openal.html
+IUSE=alsa oss debug
+KEYWORDS=alpha amd64 hppa ~ppc ~ppc64 ~sparc x86 ~x86-fbsd
+LICENSE=LGPL-2
+RDEPEND=alsa? ( media-libs/alsa-lib )
+SLOT=0
+SRC_URI=http://kcat.strangesoft.net/openal-releases/openal-soft-1.5.304.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

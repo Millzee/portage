@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2 >=gnome-base/libgnome-2 >=gnome-base/libgnomeui-2 >=gnome-base/libglade-2 >=dev-libs/libxml2-2 dev-util/pkgconfig =sys-devel/automake-1.7* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
->=x11-libs/gtk+-2 >=gnome-base/libgnome-2 >=gnome-base/libgnomeui-2 >=gnome-base/libglade-2 >=dev-libs/libxml2-2
-0
-mirror://sourceforge/downman/downman-0.0.5.tar.gz
-
-http://downman.sourceforge.net
-GPL-2
-Suite of programs to download files.
-~x86 ppc ~sparc alpha amd64
-toolchain-funcs portability multilib gnome2-utils gnome2 gnome.org fdo-mime autotools libtool eutils
-debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=>=x11-libs/gtk+-2 >=gnome-base/libgnome-2 >=gnome-base/libgnomeui-2 >=gnome-base/libglade-2 >=dev-libs/libxml2-2 dev-util/pkgconfig =sys-devel/automake-1.7* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
+DESCRIPTION=Suite of programs to download files.
+EAPI=0
+HOMEPAGE=http://downman.sourceforge.net
+IUSE=debug
+KEYWORDS=~x86 ppc ~sparc alpha amd64
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2 >=gnome-base/libgnome-2 >=gnome-base/libgnomeui-2 >=gnome-base/libglade-2 >=dev-libs/libxml2-2
+SLOT=0
+SRC_URI=mirror://sourceforge/downman/downman-0.0.5.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

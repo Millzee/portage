@@ -1,22 +1,13 @@
->=dev-db/sqlite-3.1 >=dev-lang/python-2.3 virtual/python
->=dev-db/sqlite-3.1 >=dev-lang/python-2.3
-2
-http://initd.org/pub/software/pysqlite/releases/2.4/2.4.1/pysqlite-2.4.1.tar.gz
-
-http://pysqlite.org/
-pysqlite
-Python wrapper for the local database Sqlite
-~alpha amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc x86 ~x86-fbsd
-toolchain-funcs distutils portability python alternatives multilib eutils
-examples
-
-
-
-0
-
-compile install postinst postrm test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test unpack
+DEPEND=>=dev-db/sqlite-3.1 >=dev-lang/python-2.3 virtual/python
+DESCRIPTION=Python wrapper for the local database Sqlite
+EAPI=0
+HOMEPAGE=http://pysqlite.org/
+IUSE=examples
+KEYWORDS=~alpha amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc x86 ~x86-fbsd
+LICENSE=pysqlite
+RDEPEND=>=dev-db/sqlite-3.1 >=dev-lang/python-2.3
+SLOT=2
+SRC_URI=http://initd.org/pub/software/pysqlite/releases/2.4/2.4.1/pysqlite-2.4.1.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

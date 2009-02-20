@@ -1,22 +1,13 @@
-!dev-libs/mpatrol !dev-util/mono-debugger readline? ( sys-libs/readline )
-!dev-libs/mpatrol !dev-util/mono-debugger readline? ( sys-libs/readline )
-0
-ftp://ftp.mercury.cs.mu.oz.au/pub/mercury/mercury-compiler-0.13.1.tar.gz test? ( ftp://ftp.mercury.cs.mu.oz.au/pub/mercury/mercury-tests-0.13.1.tar.gz )
-
-http://www.cs.mu.oz.au/research/mercury/index.html
-GPL-2
-Mercury is a modern general-purpose logic/functional programming language
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-debug minimal readline test threads
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=!dev-libs/mpatrol !dev-util/mono-debugger readline? ( sys-libs/readline )
+DESCRIPTION=Mercury is a modern general-purpose logic/functional programming language
+EAPI=0
+HOMEPAGE=http://www.cs.mu.oz.au/research/mercury/index.html
+IUSE=debug minimal readline test threads
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=!dev-libs/mpatrol !dev-util/mono-debugger readline? ( sys-libs/readline )
+SLOT=0
+SRC_URI=ftp://ftp.mercury.cs.mu.oz.au/pub/mercury/mercury-compiler-0.13.1.tar.gz test? ( ftp://ftp.mercury.cs.mu.oz.au/pub/mercury/mercury-tests-0.13.1.tar.gz )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

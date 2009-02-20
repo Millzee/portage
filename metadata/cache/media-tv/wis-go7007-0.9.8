@@ -1,22 +1,13 @@
-|| ( >=sys-fs/udev-103 sys-apps/hotplug ) sys-apps/hotplug-base sys-apps/fxload kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-|| ( >=sys-fs/udev-103 sys-apps/hotplug ) sys-apps/hotplug-base sys-apps/fxload kernel_linux? ( virtual/modutils )
-0
-http://oss.wischip.com/wis-go7007-linux-0.9.8.tar.bz2
-
-http://oss.wischip.com/
-GPL-2
-Linux drivers for go7007 chipsets (Plextor ConvertX PVR)
-~amd64 ~x86
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-alsa kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup
+DEPEND=|| ( >=sys-fs/udev-103 sys-apps/hotplug ) sys-apps/hotplug-base sys-apps/fxload kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=Linux drivers for go7007 chipsets (Plextor ConvertX PVR)
+EAPI=0
+HOMEPAGE=http://oss.wischip.com/
+IUSE=alsa kernel_linux
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( >=sys-fs/udev-103 sys-apps/hotplug ) sys-apps/hotplug-base sys-apps/fxload kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=http://oss.wischip.com/wis-go7007-linux-0.9.8.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

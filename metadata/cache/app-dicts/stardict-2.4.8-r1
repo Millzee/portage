@@ -1,22 +1,14 @@
-gnome? ( >=gnome-base/libbonobo-2.2.0 >=gnome-base/libgnome-2.2.0 >=gnome-base/libgnomeui-2.2.0 >=gnome-base/gconf-2 >=gnome-base/orbit-2.6 app-text/scrollkeeper ) >=sys-libs/zlib-1.1.4 >=dev-libs/popt-1.7 >=x11-libs/gtk+-2.6 >=dev-util/intltool-0.22 dev-util/pkgconfig >=sys-apps/sed-4
-gnome? ( >=gnome-base/libbonobo-2.2.0 >=gnome-base/libgnome-2.2.0 >=gnome-base/libgnomeui-2.2.0 >=gnome-base/gconf-2 >=gnome-base/orbit-2.6 app-text/scrollkeeper ) >=sys-libs/zlib-1.1.4 >=dev-libs/popt-1.7 >=x11-libs/gtk+-2.6
-0
-mirror://sourceforge/stardict/stardict-2.4.8.tar.bz2
-test
-http://stardict.sourceforge.net/ http://cosoft.org.cn/projects/stardict/
-GPL-2
-A GNOME2 international dictionary supporting fuzzy and glob style matching
-~amd64 ppc ~ppc64 ~sparc x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-gnome debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=gnome? ( >=gnome-base/libbonobo-2.2.0 >=gnome-base/libgnome-2.2.0 >=gnome-base/libgnomeui-2.2.0 >=gnome-base/gconf-2 >=gnome-base/orbit-2.6 app-text/scrollkeeper ) >=sys-libs/zlib-1.1.4 >=dev-libs/popt-1.7 >=x11-libs/gtk+-2.6 >=dev-util/intltool-0.22 dev-util/pkgconfig >=sys-apps/sed-4
+DESCRIPTION=A GNOME2 international dictionary supporting fuzzy and glob style matching
+EAPI=0
+HOMEPAGE=http://stardict.sourceforge.net/ http://cosoft.org.cn/projects/stardict/
+IUSE=gnome debug
+KEYWORDS=~amd64 ppc ~ppc64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=gnome? ( >=gnome-base/libbonobo-2.2.0 >=gnome-base/libgnome-2.2.0 >=gnome-base/libgnomeui-2.2.0 >=gnome-base/gconf-2 >=gnome-base/orbit-2.6 app-text/scrollkeeper ) >=sys-libs/zlib-1.1.4 >=dev-libs/popt-1.7 >=x11-libs/gtk+-2.6
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/stardict/stardict-2.4.8.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

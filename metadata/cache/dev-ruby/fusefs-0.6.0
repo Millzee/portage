@@ -1,22 +1,12 @@
->=dev-lang/ruby-1.8 >=sys-fs/fuse-2.3 virtual/ruby
->=dev-lang/ruby-1.8 >=sys-fs/fuse-2.3 virtual/ruby
-0
-http://rubyforge.org/frs/download.php/7830/fusefs-0.6.0.tar.gz
-
-http://rubyforge.org/projects/fusefs/
-MIT
-Define file systems right in Ruby
-~amd64 ~ia64 ppc64 x86
-ruby toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/ruby-1.8 >=sys-fs/fuse-2.3 virtual/ruby
+DESCRIPTION=Define file systems right in Ruby
+EAPI=0
+HOMEPAGE=http://rubyforge.org/projects/fusefs/
+KEYWORDS=~amd64 ~ia64 ppc64 x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/ruby-1.8 >=sys-fs/fuse-2.3 virtual/ruby
+SLOT=0
+SRC_URI=http://rubyforge.org/frs/download.php/7830/fusefs-0.6.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

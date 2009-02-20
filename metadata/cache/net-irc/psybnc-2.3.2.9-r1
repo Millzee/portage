@@ -1,22 +1,13 @@
-ssl? ( >=dev-libs/openssl-0.9.7d ) oidentd? ( >=net-misc/oidentd-2.0 )
-ssl? ( >=dev-libs/openssl-0.9.7d ) oidentd? ( >=net-misc/oidentd-2.0 )
-0
-http://www.psybnc.at/download/beta/psyBNC-2.3.2-9.tar.gz
-
-http://www.psybnc.at/index.html
-GPL-2
-psyBNC is a multi-user and multi-server gateway to IRC networks
-~amd64 ~sparc ~x86
-toolchain-funcs portability flag-o-matic versionator multilib eutils
-ipv6 ssl oidentd scripting
-
-
-
-0
-
-compile config install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst setup unpack
+DEPEND=ssl? ( >=dev-libs/openssl-0.9.7d ) oidentd? ( >=net-misc/oidentd-2.0 )
+DESCRIPTION=psyBNC is a multi-user and multi-server gateway to IRC networks
+EAPI=0
+HOMEPAGE=http://www.psybnc.at/index.html
+IUSE=ipv6 ssl oidentd scripting
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=ssl? ( >=dev-libs/openssl-0.9.7d ) oidentd? ( >=net-misc/oidentd-2.0 )
+SLOT=0
+SRC_URI=http://www.psybnc.at/download/beta/psyBNC-2.3.2-9.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

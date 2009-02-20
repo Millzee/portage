@@ -1,22 +1,13 @@
-virtual/libc
-virtual/libc
-0
-http://devresources.linux-foundation.org/dev/openais/downloads/openais-0.82/openais-0.82.tar.gz
-
-http://www.openais.org/
-BSD public-domain
-Open Application Interface Specification cluster framework
-~amd64 ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-debug
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=virtual/libc
+DESCRIPTION=Open Application Interface Specification cluster framework
+EAPI=0
+HOMEPAGE=http://www.openais.org/
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD public-domain
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://devresources.linux-foundation.org/dev/openais/downloads/openais-0.82/openais-0.82.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

@@ -1,22 +1,13 @@
-dev-libs/openssl pcre? ( dev-libs/libpcre ) tdb? ( dev-libs/tdb )
-dev-libs/openssl pcre? ( dev-libs/libpcre ) tdb? ( dev-libs/tdb )
-0
-mirror://sourceforge/fdm/fdm-1.5.tar.gz
-
-http://fdm.sourceforge.net
-BSD
-fetch, filter and deliver mail
-~x86
-toolchain-funcs multilib portability eutils
-pcre tdb
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=dev-libs/openssl pcre? ( dev-libs/libpcre ) tdb? ( dev-libs/tdb )
+DESCRIPTION=fetch, filter and deliver mail
+EAPI=0
+HOMEPAGE=http://fdm.sourceforge.net
+IUSE=pcre tdb
+KEYWORDS=~x86
+LICENSE=BSD
+RDEPEND=dev-libs/openssl pcre? ( dev-libs/libpcre ) tdb? ( dev-libs/tdb )
+SLOT=0
+SRC_URI=mirror://sourceforge/fdm/fdm-1.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

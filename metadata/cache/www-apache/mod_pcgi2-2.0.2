@@ -1,22 +1,12 @@
-www-apps/pcgi =www-servers/apache-2*
-www-apps/pcgi =www-servers/apache-2*
-0
-http://zope.org/Members/phd/mod_pcgi2/mod_pcgi2/mod_pcgi2-2.0.2-src.tar.gz
-
-http://www.zope.org/Members/phd/mod_pcgi2/
-GPL-2
-An Apache module to talk to Zope Corporation's PCGI.
-~ppc ~x86
-toolchain-funcs apache-module depend.apache multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=www-apps/pcgi =www-servers/apache-2*
+DESCRIPTION=An Apache module to talk to Zope Corporation's PCGI.
+EAPI=0
+HOMEPAGE=http://www.zope.org/Members/phd/mod_pcgi2/
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=www-apps/pcgi =www-servers/apache-2*
+SLOT=0
+SRC_URI=http://zope.org/Members/phd/mod_pcgi2/mod_pcgi2/mod_pcgi2-2.0.2-src.tar.gz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

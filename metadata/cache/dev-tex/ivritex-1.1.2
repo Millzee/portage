@@ -1,22 +1,13 @@
-virtual/latex-base >=sys-apps/texinfo-4.2-r5
-virtual/latex-base
-0
-mirror://sourceforge/ivritex/ivritex-1.1.2.tar.gz
-mirror
-http://ivritex.sourceforge.net/
-LPPL-1.2
-Hebrew support for TeX
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs latex-package portability multilib base eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/latex-base >=sys-apps/texinfo-4.2-r5
+DESCRIPTION=Hebrew support for TeX
+EAPI=0
+HOMEPAGE=http://ivritex.sourceforge.net/
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=LPPL-1.2
+RDEPEND=virtual/latex-base
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sourceforge/ivritex/ivritex-1.1.2.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	latex-package	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

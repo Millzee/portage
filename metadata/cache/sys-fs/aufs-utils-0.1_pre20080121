@@ -1,22 +1,11 @@
-dev-util/cvs
-!sys-fs/aufs
-0
-
-
-http://aufs.sourceforge.net/
-GPL-2
-Userspace utilities for aufs.
-~x86
-portability toolchain-funcs multilib cvs eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-util/cvs
+DESCRIPTION=Userspace utilities for aufs.
+EAPI=0
+HOMEPAGE=http://aufs.sourceforge.net/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=!sys-fs/aufs
+SLOT=0
+_eclasses_=cvs	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

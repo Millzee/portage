@@ -1,22 +1,13 @@
-doomsday? ( games-fps/doomsday ) !<=games-fps/freedoom-0.4.1
-doomsday? ( games-fps/doomsday ) !<=games-fps/freedoom-0.4.1
-0
-mirror://gentoo/doom1.wad.bz2
-
-http://www.idsoftware.com/
-freedist
-collection of doom wad files from id
-amd64 ppc sparc x86
-toolchain-funcs portability multilib base games eutils
-doomsday
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=doomsday? ( games-fps/doomsday ) !<=games-fps/freedoom-0.4.1
+DESCRIPTION=collection of doom wad files from id
+EAPI=0
+HOMEPAGE=http://www.idsoftware.com/
+IUSE=doomsday
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=freedist
+RDEPEND=doomsday? ( games-fps/doomsday ) !<=games-fps/freedoom-0.4.1
+SLOT=0
+SRC_URI=mirror://gentoo/doom1.wad.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

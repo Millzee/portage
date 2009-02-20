@@ -1,22 +1,10 @@
-
-
-0
-mirror://berlios/fatsort/fatsort-0.9.10-187.tar.gz
-
-http://fatsort.berlios.de/
-GPL-2
-Sorts files on FAT16/32 partitions, ideal for basic audio players.
-~amd64 ~x86
-toolchain-funcs versionator multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Sorts files on FAT16/32 partitions, ideal for basic audio players.
+EAPI=0
+HOMEPAGE=http://fatsort.berlios.de/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://berlios/fatsort/fatsort-0.9.10-187.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

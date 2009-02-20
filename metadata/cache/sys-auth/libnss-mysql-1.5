@@ -1,22 +1,12 @@
-virtual/mysql
-virtual/mysql
-0
-mirror://sourceforge/libnss-mysql/libnss-mysql-1.5.tar.gz
-
-http://libnss-mysql.sourceforge.net/
-GPL-2
-NSS MySQL Library.
-amd64 ppc ~sparc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-install postinst
-
-
-
-
-
+DEFINED_PHASES=install postinst
+DEPEND=virtual/mysql
+DESCRIPTION=NSS MySQL Library.
+EAPI=0
+HOMEPAGE=http://libnss-mysql.sourceforge.net/
+KEYWORDS=amd64 ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/mysql
+SLOT=0
+SRC_URI=mirror://sourceforge/libnss-mysql/libnss-mysql-1.5.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

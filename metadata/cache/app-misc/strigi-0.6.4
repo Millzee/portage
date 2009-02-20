@@ -1,22 +1,13 @@
-dev-libs/libxml2 virtual/libiconv clucene? ( >=dev-cpp/clucene-0.9.19[-debug] ) dbus? ( sys-apps/dbus || ( ( x11-libs/qt-dbus:4 x11-libs/qt-gui:4 ) =x11-libs/qt-4.3*:4[dbus] ) ) exif? ( >=media-gfx/exiv2-0.17 ) fam? ( virtual/fam ) hyperestraier? ( app-text/hyperestraier ) log? ( >=dev-libs/log4cxx-0.9.7 ) qt4? ( || ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 x11-libs/qt-dbus:4 ) =x11-libs/qt-4.3*:4[dbus] ) ) !clucene? ( !hyperestraier? ( >=dev-cpp/clucene-0.9.19[-debug] ) ) test? ( dev-util/cppunit ) >=dev-util/cmake-2.4.6
-dev-libs/libxml2 virtual/libiconv clucene? ( >=dev-cpp/clucene-0.9.19[-debug] ) dbus? ( sys-apps/dbus || ( ( x11-libs/qt-dbus:4 x11-libs/qt-gui:4 ) =x11-libs/qt-4.3*:4[dbus] ) ) exif? ( >=media-gfx/exiv2-0.17 ) fam? ( virtual/fam ) hyperestraier? ( app-text/hyperestraier ) log? ( >=dev-libs/log4cxx-0.9.7 ) qt4? ( || ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 x11-libs/qt-dbus:4 ) =x11-libs/qt-4.3*:4[dbus] ) ) !clucene? ( !hyperestraier? ( >=dev-cpp/clucene-0.9.19[-debug] ) )
-0
-http://www.vandenoever.info/software/strigi/strigi-0.6.4.tar.bz2
-
-http://www.vandenoever.info/software/strigi
-GPL-2
-Fast crawling desktop search engine with Qt4 GUI
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-+clucene +dbus debug exif fam hyperestraier inotify log +qt4 test
-
-
-
-2
-
-compile configure install postinst test
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst test
+DEPEND=dev-libs/libxml2 virtual/libiconv clucene? ( >=dev-cpp/clucene-0.9.19[-debug] ) dbus? ( sys-apps/dbus || ( ( x11-libs/qt-dbus:4 x11-libs/qt-gui:4 ) =x11-libs/qt-4.3*:4[dbus] ) ) exif? ( >=media-gfx/exiv2-0.17 ) fam? ( virtual/fam ) hyperestraier? ( app-text/hyperestraier ) log? ( >=dev-libs/log4cxx-0.9.7 ) qt4? ( || ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 x11-libs/qt-dbus:4 ) =x11-libs/qt-4.3*:4[dbus] ) ) !clucene? ( !hyperestraier? ( >=dev-cpp/clucene-0.9.19[-debug] ) ) test? ( dev-util/cppunit ) >=dev-util/cmake-2.4.6
+DESCRIPTION=Fast crawling desktop search engine with Qt4 GUI
+EAPI=2
+HOMEPAGE=http://www.vandenoever.info/software/strigi
+IUSE=+clucene +dbus debug exif fam hyperestraier inotify log +qt4 test
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libxml2 virtual/libiconv clucene? ( >=dev-cpp/clucene-0.9.19[-debug] ) dbus? ( sys-apps/dbus || ( ( x11-libs/qt-dbus:4 x11-libs/qt-gui:4 ) =x11-libs/qt-4.3*:4[dbus] ) ) exif? ( >=media-gfx/exiv2-0.17 ) fam? ( virtual/fam ) hyperestraier? ( app-text/hyperestraier ) log? ( >=dev-libs/log4cxx-0.9.7 ) qt4? ( || ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 x11-libs/qt-dbus:4 ) =x11-libs/qt-4.3*:4[dbus] ) ) !clucene? ( !hyperestraier? ( >=dev-cpp/clucene-0.9.19[-debug] ) )
+SLOT=0
+SRC_URI=http://www.vandenoever.info/software/strigi/strigi-0.6.4.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

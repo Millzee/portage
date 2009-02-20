@@ -1,22 +1,12 @@
-kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed dev-util/mercurial net-misc/rsync
-kernel_linux? ( virtual/modutils )
-0
-
-
-http://mcentral.de/
-GPL-2
-next generation em28xx driver including dvb support
-~amd64 ~x86
-toolchain-funcs portability mercurial versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed dev-util/mercurial net-misc/rsync
+DESCRIPTION=next generation em28xx driver including dvb support
+EAPI=0
+HOMEPAGE=http://mcentral.de/
+IUSE=kernel_linux
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=kernel_linux? ( virtual/modutils )
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	mercurial	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

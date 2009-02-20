@@ -1,22 +1,12 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=rox-base/rox-2.1.0 >=rox-base/rox-lib-1.9.13
-0
-http://absorb.it/RETicker/RETicker_0.4.5k.tgz
-
-http://absorb.it/tikiwiki/tiki-index.php?page=RETicker
-GPL-2
-RETicker - an RSS/RDF reader for ROX
-amd64 x86
-toolchain-funcs portability python multilib alternatives rox libtool autotools eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=RETicker - an RSS/RDF reader for ROX
+EAPI=0
+HOMEPAGE=http://absorb.it/tikiwiki/tiki-index.php?page=RETicker
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=rox-base/rox-2.1.0 >=rox-base/rox-lib-1.9.13
+SLOT=0
+SRC_URI=http://absorb.it/RETicker/RETicker_0.4.5k.tgz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	rox	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

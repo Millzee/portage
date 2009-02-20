@@ -1,22 +1,12 @@
->=dev-lang/python-2.3 virtual/python
->=dev-python/pygtk-1.99.16 >=dev-lang/python-2.3
-0
-http://www.pythoncad.org/releases/PythonCAD-DS1-R36.tar.bz2
-
-http://www.pythoncad.org/
-GPL-2
-CAD program written in PyGTK
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives versionator multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-lang/python-2.3 virtual/python
+DESCRIPTION=CAD program written in PyGTK
+EAPI=0
+HOMEPAGE=http://www.pythoncad.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-python/pygtk-1.99.16 >=dev-lang/python-2.3
+SLOT=0
+SRC_URI=http://www.pythoncad.org/releases/PythonCAD-DS1-R36.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

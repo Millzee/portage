@@ -1,22 +1,13 @@
-virtual/libc
-virtual/libc perl? ( dev-lang/perl )
-0
-mirror://sourceforge/booksync/bookmarksync-0.3.3.tar.gz
-mirror
-http://sourceforge.net/projects/booksync/
-GPL-2
-bookmarksync synchronizes various browser bookmark files
-~x86
-
-perl
-
-
-
-0
-
-install postinst
-
-
-
-
-
+DEFINED_PHASES=install postinst
+DEPEND=virtual/libc
+DESCRIPTION=bookmarksync synchronizes various browser bookmark files
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/booksync/
+IUSE=perl
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc perl? ( dev-lang/perl )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sourceforge/booksync/bookmarksync-0.3.3.tar.gz
+_mtime_=1235082908

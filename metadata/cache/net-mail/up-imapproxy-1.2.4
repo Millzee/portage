@@ -1,22 +1,13 @@
->=sys-libs/ncurses-5.1 kerberos? ( virtual/krb5 ) ssl? ( >=dev-libs/openssl-0.9.6 ) tcpd? ( >=sys-apps/tcp-wrappers-7.6 )
->=sys-libs/ncurses-5.1 kerberos? ( virtual/krb5 ) ssl? ( >=dev-libs/openssl-0.9.6 ) tcpd? ( >=sys-apps/tcp-wrappers-7.6 )
-0
-http://www.imapproxy.org/downloads/up-imapproxy-1.2.4.tar.gz
-
-http://www.imapproxy.org/
-GPL-2
-Proxy IMAP transactions between an IMAP client and an IMAP server.
-amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-kerberos ssl tcpd
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-libs/ncurses-5.1 kerberos? ( virtual/krb5 ) ssl? ( >=dev-libs/openssl-0.9.6 ) tcpd? ( >=sys-apps/tcp-wrappers-7.6 )
+DESCRIPTION=Proxy IMAP transactions between an IMAP client and an IMAP server.
+EAPI=0
+HOMEPAGE=http://www.imapproxy.org/
+IUSE=kerberos ssl tcpd
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=sys-libs/ncurses-5.1 kerberos? ( virtual/krb5 ) ssl? ( >=dev-libs/openssl-0.9.6 ) tcpd? ( >=sys-apps/tcp-wrappers-7.6 )
+SLOT=0
+SRC_URI=http://www.imapproxy.org/downloads/up-imapproxy-1.2.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

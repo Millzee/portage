@@ -1,22 +1,12 @@
-
-sys-libs/ncurses
-0
-http://www.ibiblio.org/pub/linux/apps/editors/tty/teco.tar.gz doc? ( mirror://gentoo/tecolore.txt.gz mirror://gentoo/tech.txt.gz mirror://gentoo/teco.doc.gz mirror://gentoo/tecoprog.doc.gz )
-
-http://www.ibiblio.org/pub/linux/apps/editors/tty/ http://www.ibiblio.org/pub/academic/computer-science/history/pdp-11/teco
-freedist
-Classic TECO editor, Predecessor to EMACS
-alpha ~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Classic TECO editor, Predecessor to EMACS
+EAPI=0
+HOMEPAGE=http://www.ibiblio.org/pub/linux/apps/editors/tty/ http://www.ibiblio.org/pub/academic/computer-science/history/pdp-11/teco
+IUSE=doc
+KEYWORDS=alpha ~amd64 ~ppc x86
+LICENSE=freedist
+RDEPEND=sys-libs/ncurses
+SLOT=0
+SRC_URI=http://www.ibiblio.org/pub/linux/apps/editors/tty/teco.tar.gz doc? ( mirror://gentoo/tecolore.txt.gz mirror://gentoo/tech.txt.gz mirror://gentoo/teco.doc.gz mirror://gentoo/tecoprog.doc.gz )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

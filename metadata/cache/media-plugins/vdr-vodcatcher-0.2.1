@@ -1,22 +1,12 @@
-net-misc/curl media-video/vdr || ( media-plugins/vdr-mplayer media-plugins/vdr-xineliboutput ) >=media-tv/gentoo-vdr-scripts-0.4.2 media-tv/linuxtv-dvb-headers
-net-misc/curl media-video/vdr || ( media-plugins/vdr-mplayer media-plugins/vdr-xineliboutput ) >=media-tv/gentoo-vdr-scripts-0.4.2 >=app-admin/eselect-vdr-0.0.2
-0
-http://www.e-tobi.net/blog/files/vdr-vodcatcher-0.2.1.tar.gz
-
-http://www.e-tobi.net/blog/pages/vdr-vodcatcher
-GPL-2
-VDR plugin: Downloads rss-feeds and passes video enclosures to the mplayer plugin
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic multilib vdr-plugin base eutils
-
-
-
-
-0
-
-compile config install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst postrm setup unpack
+DEPEND=net-misc/curl media-video/vdr || ( media-plugins/vdr-mplayer media-plugins/vdr-xineliboutput ) >=media-tv/gentoo-vdr-scripts-0.4.2 media-tv/linuxtv-dvb-headers
+DESCRIPTION=VDR plugin: Downloads rss-feeds and passes video enclosures to the mplayer plugin
+EAPI=0
+HOMEPAGE=http://www.e-tobi.net/blog/pages/vdr-vodcatcher
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-misc/curl media-video/vdr || ( media-plugins/vdr-mplayer media-plugins/vdr-xineliboutput ) >=media-tv/gentoo-vdr-scripts-0.4.2 >=app-admin/eselect-vdr-0.0.2
+SLOT=0
+SRC_URI=http://www.e-tobi.net/blog/files/vdr-vodcatcher-0.2.1.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	vdr-plugin	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

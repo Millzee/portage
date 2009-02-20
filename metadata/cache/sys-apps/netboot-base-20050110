@@ -1,22 +1,10 @@
-
-
-0
-http://dev.gentoo.org/~vapier/netboot-base-20050110.tar.bz2 mirror://gentoo/netboot-base-20050110.tar.bz2
-
-http://www.gentoo.org/
-GPL-2
-Baselayout for netboot systems
-alpha arm hppa mips ppc sh sparc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install postinst preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup
+DESCRIPTION=Baselayout for netboot systems
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/
+KEYWORDS=alpha arm hppa mips ppc sh sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~vapier/netboot-base-20050110.tar.bz2 mirror://gentoo/netboot-base-20050110.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

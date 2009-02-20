@@ -1,22 +1,9 @@
-
-
-0
-mirror://sourceforge/tabler/tabler-2.tar.gz
-
-http://sourceforge.net/projects/tabler/
-GPL-2
-A utility to create text art tables from delimited input
-amd64 ppc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=A utility to create text art tables from delimited input
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/tabler/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/tabler/tabler-2.tar.gz
+_mtime_=1235082850

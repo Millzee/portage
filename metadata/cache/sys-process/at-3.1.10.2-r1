@@ -1,22 +1,13 @@
-virtual/mta >=sys-devel/flex-2.5.4a pam? ( virtual/pam ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/mta virtual/logger
-0
-mirror://debian/pool/main/a/at/at_3.1.10.2.tar.gz
-
-http://packages.qa.debian.org/a/at.html
-GPL-2
-Queues jobs for later execution
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability flag-o-matic multilib libtool autotools pam eutils
-pam
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=virtual/mta >=sys-devel/flex-2.5.4a pam? ( virtual/pam ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Queues jobs for later execution
+EAPI=0
+HOMEPAGE=http://packages.qa.debian.org/a/at.html
+IUSE=pam
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/mta virtual/logger
+SLOT=0
+SRC_URI=mirror://debian/pool/main/a/at/at_3.1.10.2.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

@@ -1,22 +1,12 @@
->=dev-perl/URI-1.0.9 >=dev-perl/libwww-perl-5.64-r1 >=virtual/perl-MIME-Base64-2.12
->=dev-perl/URI-1.0.9 >=dev-perl/libwww-perl-5.64-r1 >=virtual/perl-MIME-Base64-2.12
-0
-http://langfeldt.net/w3mir/w3mir-1.0.10.tar.gz
-
-http://langfeldt.net/w3mir/
-Artistic
-w3mir is a all purpose HTTP copying and mirroring tool
-alpha ~amd64 ppc ~sparc x86
-toolchain-funcs perl-app portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/URI-1.0.9 >=dev-perl/libwww-perl-5.64-r1 >=virtual/perl-MIME-Base64-2.12
+DESCRIPTION=w3mir is a all purpose HTTP copying and mirroring tool
+EAPI=0
+HOMEPAGE=http://langfeldt.net/w3mir/
+KEYWORDS=alpha ~amd64 ppc ~sparc x86
+LICENSE=Artistic
+RDEPEND=>=dev-perl/URI-1.0.9 >=dev-perl/libwww-perl-5.64-r1 >=virtual/perl-MIME-Base64-2.12
+SLOT=0
+SRC_URI=http://langfeldt.net/w3mir/w3mir-1.0.10.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-app	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

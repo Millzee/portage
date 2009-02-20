@@ -1,22 +1,13 @@
-x11-libs/libX11 >=dev-lang/lua-5 media-libs/libpng media-libs/libsdl mikmod? ( media-libs/libmikmod ) mng? ( media-libs/libmng ) opengl? ( virtual/opengl ) theora? ( media-libs/libtheora ) vorbis? ( media-libs/libvorbis ) doc? ( app-doc/doxygen )
-x11-libs/libX11 >=dev-lang/lua-5 media-libs/libpng media-libs/libsdl mikmod? ( media-libs/libmikmod ) mng? ( media-libs/libmng ) opengl? ( virtual/opengl ) theora? ( media-libs/libtheora ) vorbis? ( media-libs/libvorbis )
-0
-mirror://sourceforge/stratagus/stratagus-2.2.4-src.tar.gz
-
-http://www.stratagus.org/
-GPL-2
-A realtime strategy game engine
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base games eutils
-bzip2 debug doc mikmod mng opengl theora vorbis
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=x11-libs/libX11 >=dev-lang/lua-5 media-libs/libpng media-libs/libsdl mikmod? ( media-libs/libmikmod ) mng? ( media-libs/libmng ) opengl? ( virtual/opengl ) theora? ( media-libs/libtheora ) vorbis? ( media-libs/libvorbis ) doc? ( app-doc/doxygen )
+DESCRIPTION=A realtime strategy game engine
+EAPI=0
+HOMEPAGE=http://www.stratagus.org/
+IUSE=bzip2 debug doc mikmod mng opengl theora vorbis
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 >=dev-lang/lua-5 media-libs/libpng media-libs/libsdl mikmod? ( media-libs/libmikmod ) mng? ( media-libs/libmng ) opengl? ( virtual/opengl ) theora? ( media-libs/libtheora ) vorbis? ( media-libs/libvorbis )
+SLOT=0
+SRC_URI=mirror://sourceforge/stratagus/stratagus-2.2.4-src.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

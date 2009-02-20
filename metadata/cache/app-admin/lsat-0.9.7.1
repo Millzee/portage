@@ -1,22 +1,13 @@
-dev-lang/perl
-!minimal? ( app-portage/portage-utils net-analyzer/nmap sys-apps/iproute2 sys-apps/which sys-process/lsof )
-0
-http://usat.sourceforge.net/code/lsat-0.9.7.1.tgz
-
-http://usat.sourceforge.net/
-GPL-2
-The Linux Security Auditing Tool
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-minimal
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/perl
+DESCRIPTION=The Linux Security Auditing Tool
+EAPI=0
+HOMEPAGE=http://usat.sourceforge.net/
+IUSE=minimal
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=!minimal? ( app-portage/portage-utils net-analyzer/nmap sys-apps/iproute2 sys-apps/which sys-process/lsof )
+SLOT=0
+SRC_URI=http://usat.sourceforge.net/code/lsat-0.9.7.1.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

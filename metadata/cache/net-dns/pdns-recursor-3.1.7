@@ -1,22 +1,13 @@
->=dev-libs/boost-1.33.1 lua? ( >=dev-lang/lua-5.1 )
->=dev-libs/boost-1.33.1 lua? ( >=dev-lang/lua-5.1 ) !<net-dns/pdns-2.9.20-r1
-0
-http://downloads.powerdns.com/releases/pdns-recursor-3.1.7.tar.bz2
-
-http://www.powerdns.com/
-GPL-2
-The PowerDNS Recursor
-~amd64 ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-lua
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=>=dev-libs/boost-1.33.1 lua? ( >=dev-lang/lua-5.1 )
+DESCRIPTION=The PowerDNS Recursor
+EAPI=0
+HOMEPAGE=http://www.powerdns.com/
+IUSE=lua
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/boost-1.33.1 lua? ( >=dev-lang/lua-5.1 ) !<net-dns/pdns-2.9.20-r1
+SLOT=0
+SRC_URI=http://downloads.powerdns.com/releases/pdns-recursor-3.1.7.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

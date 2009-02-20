@@ -1,22 +1,11 @@
-alsa? ( media-libs/alsa-lib ) opengl? ( virtual/opengl virtual/glu ) sdl? ( media-libs/libsdl ) media-libs/jpeg media-libs/libogg media-libs/libpng media-libs/libvorbis x11-libs/libX11 x11-libs/libXext x11-libs/libXxf86dga x11-libs/libXxf86vm dev-util/subversion net-misc/rsync
-alsa? ( media-libs/alsa-lib ) opengl? ( virtual/opengl virtual/glu ) sdl? ( media-libs/libsdl ) media-libs/jpeg media-libs/libogg media-libs/libpng media-libs/libvorbis x11-libs/libX11 x11-libs/libXext x11-libs/libXxf86dga x11-libs/libXxf86vm cdinstall? ( games-fps/quake2-data ) demo? ( games-fps/quake2-demodata ) textures? ( games-fps/quake2-textures )
-0
-
-
-http://qudos.quakedev.com/
-GPL-2
-Enhanced Quake 2 engine
-
-toolchain-funcs portability multilib subversion base games eutils
-alsa cdinstall debug dedicated demo dga ipv6 joystick mods opengl qmax oss sdl textures
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=alsa? ( media-libs/alsa-lib ) opengl? ( virtual/opengl virtual/glu ) sdl? ( media-libs/libsdl ) media-libs/jpeg media-libs/libogg media-libs/libpng media-libs/libvorbis x11-libs/libX11 x11-libs/libXext x11-libs/libXxf86dga x11-libs/libXxf86vm dev-util/subversion net-misc/rsync
+DESCRIPTION=Enhanced Quake 2 engine
+EAPI=0
+HOMEPAGE=http://qudos.quakedev.com/
+IUSE=alsa cdinstall debug dedicated demo dga ipv6 joystick mods opengl qmax oss sdl textures
+LICENSE=GPL-2
+RDEPEND=alsa? ( media-libs/alsa-lib ) opengl? ( virtual/opengl virtual/glu ) sdl? ( media-libs/libsdl ) media-libs/jpeg media-libs/libogg media-libs/libpng media-libs/libvorbis x11-libs/libX11 x11-libs/libXext x11-libs/libXxf86dga x11-libs/libXxf86vm cdinstall? ( games-fps/quake2-data ) demo? ( games-fps/quake2-demodata ) textures? ( games-fps/quake2-textures )
+SLOT=0
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

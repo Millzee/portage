@@ -1,22 +1,12 @@
->=net-libs/libnfnetlink-0.0.30 dev-util/pkgconfig kernel_linux? ( virtual/linux-sources )
->=net-libs/libnfnetlink-0.0.30
-0
-http://www.netfilter.org/projects/libnetfilter_queue/files/libnetfilter_queue-0.0.15.tar.bz2
-
-http://www.netfilter.org/projects/libnetfilter_queue/
-GPL-2
-API to packets that have been queued by the kernel packet filter
-amd64 ~sparc x86
-linux-info toolchain-funcs multilib versionator
-
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DEPEND=>=net-libs/libnfnetlink-0.0.30 dev-util/pkgconfig kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=API to packets that have been queued by the kernel packet filter
+EAPI=0
+HOMEPAGE=http://www.netfilter.org/projects/libnetfilter_queue/
+KEYWORDS=amd64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=>=net-libs/libnfnetlink-0.0.30
+SLOT=0
+SRC_URI=http://www.netfilter.org/projects/libnetfilter_queue/files/libnetfilter_queue-0.0.15.tar.bz2
+_eclasses_=linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

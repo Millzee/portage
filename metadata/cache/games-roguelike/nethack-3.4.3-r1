@@ -1,22 +1,13 @@
-virtual/libc >=sys-libs/ncurses-5.2-r5 X? ( x11-libs/libXaw x11-libs/libXpm x11-libs/libXt ) qt3? ( =x11-libs/qt-3* ) X? ( x11-proto/xproto x11-apps/bdftopcf x11-apps/mkfontdir )
-virtual/libc >=sys-libs/ncurses-5.2-r5 X? ( x11-libs/libXaw x11-libs/libXpm x11-libs/libXt ) qt3? ( =x11-libs/qt-3* )
-0
-mirror://sourceforge/nethack/nethack-343-src.tgz
-
-http://www.nethack.org/
-nethack
-The ultimate old-school single player dungeon exploration game
-amd64 hppa ppc sparc x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic multilib base games eutils
-X qt3
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/libc >=sys-libs/ncurses-5.2-r5 X? ( x11-libs/libXaw x11-libs/libXpm x11-libs/libXt ) qt3? ( =x11-libs/qt-3* ) X? ( x11-proto/xproto x11-apps/bdftopcf x11-apps/mkfontdir )
+DESCRIPTION=The ultimate old-school single player dungeon exploration game
+EAPI=0
+HOMEPAGE=http://www.nethack.org/
+IUSE=X qt3
+KEYWORDS=amd64 hppa ppc sparc x86 ~x86-fbsd
+LICENSE=nethack
+RDEPEND=virtual/libc >=sys-libs/ncurses-5.2-r5 X? ( x11-libs/libXaw x11-libs/libXpm x11-libs/libXt ) qt3? ( =x11-libs/qt-3* )
+SLOT=0
+SRC_URI=mirror://sourceforge/nethack/nethack-343-src.tgz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

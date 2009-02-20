@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-http://aboleo.net/software/portmon/downloads/portmon-2.0.tar.gz
-
-http://aboleo.net/software/portmon/
-GPL-2
-Portmon is a network service monitoring daemon.
-~amd64 ~ppc x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=Portmon is a network service monitoring daemon.
+EAPI=0
+HOMEPAGE=http://aboleo.net/software/portmon/
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://aboleo.net/software/portmon/downloads/portmon-2.0.tar.gz
+_mtime_=1235082889

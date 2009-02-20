@@ -1,22 +1,13 @@
-app-admin/webapp-config app-text/bibutils =www-servers/apache-2* dev-lang/php >=app-admin/webapp-config-1.50.15
-=www-servers/apache-2* dev-lang/php >=app-admin/webapp-config-1.50.15
-0.9.0
-mirror://sourceforge/refbase/refbase-0.9.0.tar.gz
-
-http://www.refbase.net/
-GPL-2
-Web-based solution for managing scientific literature, references and citations
-~x86 ~amd64
-toolchain-funcs portability depend.php multilib phpconfutils webapp depend.apache eutils
-vhosts
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=app-admin/webapp-config app-text/bibutils =www-servers/apache-2* dev-lang/php >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Web-based solution for managing scientific literature, references and citations
+EAPI=0
+HOMEPAGE=http://www.refbase.net/
+IUSE=vhosts
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND==www-servers/apache-2* dev-lang/php >=app-admin/webapp-config-1.50.15
+SLOT=0.9.0
+SRC_URI=mirror://sourceforge/refbase/refbase-0.9.0.tar.gz
+_eclasses_=depend.apache	/home/Funtoo/portage/eclass	1235082859	depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

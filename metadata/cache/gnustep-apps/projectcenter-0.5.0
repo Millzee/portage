@@ -1,22 +1,13 @@
->=gnustep-base/gnustep-make-2.0 virtual/gnustep-back
->=sys-devel/gdb-6.0 >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back debug? ( >=sys-devel/gdb-6.0 )
-0
-http://ftpmain.gnustep.org/pub/gnustep/dev-apps/ProjectCenter-0.5.0.tar.gz
-
-http://www.gnustep.org/experience/ProjectCenter.html
-GPL-2
-An IDE for GNUstep.
-~amd64 ~ppc ~x86 ~x86-fbsd
-gnustep-base gnustep-2 toolchain-funcs portability flag-o-matic multilib eutils
-debug doc
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=>=gnustep-base/gnustep-make-2.0 virtual/gnustep-back
+DESCRIPTION=An IDE for GNUstep.
+EAPI=0
+HOMEPAGE=http://www.gnustep.org/experience/ProjectCenter.html
+IUSE=debug doc
+KEYWORDS=~amd64 ~ppc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=sys-devel/gdb-6.0 >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back debug? ( >=sys-devel/gdb-6.0 )
+SLOT=0
+SRC_URI=http://ftpmain.gnustep.org/pub/gnustep/dev-apps/ProjectCenter-0.5.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	gnustep-2	/home/Funtoo/portage/eclass	1235082859	gnustep-base	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

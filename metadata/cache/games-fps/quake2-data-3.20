@@ -1,22 +1,13 @@
-app-arch/unzip
-
-0
-mirror://idsoftware/quake2/q2-3.20-x86-full-ctf.exe
-
-http://www.idsoftware.com/
-Q2EULA
-iD Software's Quake 2 ... the data files
-~alpha amd64 ppc sparc x86 ~x86-fbsd
-toolchain-funcs portability multilib base games eutils
-videos
-
-
-
-0
-interactive
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=iD Software's Quake 2 ... the data files
+EAPI=0
+HOMEPAGE=http://www.idsoftware.com/
+IUSE=videos
+KEYWORDS=~alpha amd64 ppc sparc x86 ~x86-fbsd
+LICENSE=Q2EULA
+PROPERTIES=interactive
+SLOT=0
+SRC_URI=mirror://idsoftware/quake2/q2-3.20-x86-full-ctf.exe
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

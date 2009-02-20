@@ -1,22 +1,11 @@
-
-dev-lang/python
-0
-http://matt.immute.net/src/mtail/mtail-1.1.1.tgz http://matt.immute.net/src/mtail/mtailrc-syslog.sample
-
-http://matt.immute.net/src/mtail/
-as-is
-tail workalike, that performs output colourising
-alpha amd64 mips ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=tail workalike, that performs output colourising
+EAPI=0
+HOMEPAGE=http://matt.immute.net/src/mtail/
+KEYWORDS=alpha amd64 mips ppc sparc x86
+LICENSE=as-is
+RDEPEND=dev-lang/python
+SLOT=0
+SRC_URI=http://matt.immute.net/src/mtail/mtail-1.1.1.tgz http://matt.immute.net/src/mtail/mtailrc-syslog.sample
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

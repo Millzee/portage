@@ -1,22 +1,12 @@
-dev-libs/libusb dev-libs/openssl
-dev-libs/libusb dev-libs/openssl
-0
-mirror://sourceforge/barry/barry-0.11.tar.bz2
-
-http://www.netdirect.ca/software/packages/barry/
-GPL-2
-Barry is an Open Source Linux application that will allow synchronization, backup, restore, program management, and charging for BlackBerry devices
-~amd64 ~x86
-toolchain-funcs base multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/libusb dev-libs/openssl
+DESCRIPTION=Barry is an Open Source Linux application that will allow synchronization, backup, restore, program management, and charging for BlackBerry devices
+EAPI=0
+HOMEPAGE=http://www.netdirect.ca/software/packages/barry/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libusb dev-libs/openssl
+SLOT=0
+SRC_URI=mirror://sourceforge/barry/barry-0.11.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

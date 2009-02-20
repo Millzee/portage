@@ -1,22 +1,13 @@
-virtual/blas virtual/lapack metis? ( || ( sci-libs/metis sci-libs/parmetis ) ) cilk? ( dev-lang/cilk ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/blas virtual/lapack metis? ( || ( sci-libs/metis sci-libs/parmetis ) ) cilk? ( dev-lang/cilk )
-0
-http://www.tau.ac.il/~stoledo/taucs/2.2/taucs.tgz -> taucs-2.2.tgz
-
-http://www.tau.ac.il/~stoledo/taucs/
-LGPL-2.1
-C library of sparse linear solvers
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic multilib fortran libtool autotools eutils
-cilk doc +metis debug
-
-
-
-2
-
-compile configure install setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install setup test unpack
+DEPEND=virtual/blas virtual/lapack metis? ( || ( sci-libs/metis sci-libs/parmetis ) ) cilk? ( dev-lang/cilk ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=C library of sparse linear solvers
+EAPI=2
+HOMEPAGE=http://www.tau.ac.il/~stoledo/taucs/
+IUSE=cilk doc +metis debug
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=virtual/blas virtual/lapack metis? ( || ( sci-libs/metis sci-libs/parmetis ) ) cilk? ( dev-lang/cilk )
+SLOT=0
+SRC_URI=http://www.tau.ac.il/~stoledo/taucs/2.2/taucs.tgz -> taucs-2.2.tgz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

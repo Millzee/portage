@@ -1,22 +1,12 @@
-virtual/krb5 virtual/pam
-virtual/krb5 virtual/pam
-0
-http://archives.eyrie.org/software/afs/pam-afs-session-1.6.tar.gz
-
-http://www.eyrie.org/~eagle/software/pam-afs-session/
-as-is
-OpenAFS PAM Module
-~amd64 ~x86
-toolchain-funcs multilib pam
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/krb5 virtual/pam
+DESCRIPTION=OpenAFS PAM Module
+EAPI=0
+HOMEPAGE=http://www.eyrie.org/~eagle/software/pam-afs-session/
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+RDEPEND=virtual/krb5 virtual/pam
+SLOT=0
+SRC_URI=http://archives.eyrie.org/software/afs/pam-afs-session-1.6.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

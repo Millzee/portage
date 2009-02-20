@@ -1,22 +1,14 @@
-x11-misc/gccmakedep x11-misc/imake
-dev-tcltk/expect media-fonts/font-misc-misc media-fonts/font-cursor-misc net-analyzer/gnu-netcat >=net-misc/nx-2.1.0 sys-apps/gawk virtual/ssh x11-apps/xauth x11-apps/xrdb x11-apps/sessreg arts? ( kde-base/arts ) cups? ( net-print/cups ) esd? ( media-sound/esound ) nxclient? ( net-misc/nxclient ) !nxclient? ( !net-misc/nxclient || ( x11-misc/xdialog x11-apps/xmessage ) ) !net-misc/nxserver-freeedition !net-misc/nxserver-2xterminalserver
-0
-mirror://berlios/freenx/freenx-server-0.7.3.tar.gz
-strip
-http://freenx.berlios.de/
-GPL-2
-Free Software Implementation of the NX Server
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-arts cups esd +nxclient
-
-
-
-1
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=x11-misc/gccmakedep x11-misc/imake
+DESCRIPTION=Free Software Implementation of the NX Server
+EAPI=1
+HOMEPAGE=http://freenx.berlios.de/
+IUSE=arts cups esd +nxclient
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-tcltk/expect media-fonts/font-misc-misc media-fonts/font-cursor-misc net-analyzer/gnu-netcat >=net-misc/nx-2.1.0 sys-apps/gawk virtual/ssh x11-apps/xauth x11-apps/xrdb x11-apps/sessreg arts? ( kde-base/arts ) cups? ( net-print/cups ) esd? ( media-sound/esound ) nxclient? ( net-misc/nxclient ) !nxclient? ( !net-misc/nxclient || ( x11-misc/xdialog x11-apps/xmessage ) ) !net-misc/nxserver-freeedition !net-misc/nxserver-2xterminalserver
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://berlios/freenx/freenx-server-0.7.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

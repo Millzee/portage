@@ -1,22 +1,13 @@
->=app-admin/webapp-config-1.50.15
-virtual/httpd-cgi >=virtual/mysql-4.1 || ( dev-lang/php:5[mysql] dev-lang/php:5[mysqli] ) >=app-admin/webapp-config-1.50.15
-0.9.6.2
-http://www.modxcms.com/assets/snippets/filedownload/download.php?path=YnVpbGRz&fileName=modx-0.9.6.2.tar.gz -> modx-0.9.6.2.tar.gz
-
-http://www.modxcms.com/
-GPL-2
-The Ajax CMS for today. And tomorrow.
-~amd64 ~x86
-webapp
-vhosts
-
-
-
-2
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=>=app-admin/webapp-config-1.50.15
+DESCRIPTION=The Ajax CMS for today. And tomorrow.
+EAPI=2
+HOMEPAGE=http://www.modxcms.com/
+IUSE=vhosts
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/httpd-cgi >=virtual/mysql-4.1 || ( dev-lang/php:5[mysql] dev-lang/php:5[mysqli] ) >=app-admin/webapp-config-1.50.15
+SLOT=0.9.6.2
+SRC_URI=http://www.modxcms.com/assets/snippets/filedownload/download.php?path=YnVpbGRz&fileName=modx-0.9.6.2.tar.gz -> modx-0.9.6.2.tar.gz
+_eclasses_=webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

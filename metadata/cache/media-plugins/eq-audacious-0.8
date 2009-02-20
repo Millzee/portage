@@ -1,22 +1,12 @@
-dev-util/pkgconfig media-sound/audacious
-media-sound/audacious
-0
-http://audacious-media-player.org/~nenolod/audacious/plugins/eq-audacious-0.8.tgz
-
-http://audacious-media-player.org/~nenolod/audacious/plugins.php
-GPL-2
-31-band equalizer for Audacious
-~x86
-
-debug mmx sse sse2
-
-
-
-0
-
-config install
-
-
-
-
-
+DEFINED_PHASES=config install
+DEPEND=dev-util/pkgconfig media-sound/audacious
+DESCRIPTION=31-band equalizer for Audacious
+EAPI=0
+HOMEPAGE=http://audacious-media-player.org/~nenolod/audacious/plugins.php
+IUSE=debug mmx sse sse2
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=media-sound/audacious
+SLOT=0
+SRC_URI=http://audacious-media-player.org/~nenolod/audacious/plugins/eq-audacious-0.8.tgz
+_mtime_=1235082868

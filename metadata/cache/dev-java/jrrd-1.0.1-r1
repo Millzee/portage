@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 net-analyzer/rrdtool =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
->=virtual/jre-1.4 net-analyzer/rrdtool >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-mirror://sourceforge/opennms/jrrd-1.0.1.tar.gz
-
-http://www.opennms.org/
-GPL-2
-Java Interface to Tobias Oetiker's RRDtool
-~amd64 ~x86
-toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib base libtool autotools eutils
-elibc_FreeBSD doc source
-
-
-
-
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 net-analyzer/rrdtool =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+DESCRIPTION=Java Interface to Tobias Oetiker's RRDtool
+EAPI=0
+HOMEPAGE=http://www.opennms.org/
+IUSE=elibc_FreeBSD doc source
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.4 net-analyzer/rrdtool >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=mirror://sourceforge/opennms/jrrd-1.0.1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

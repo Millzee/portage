@@ -1,22 +1,13 @@
-x11-libs/qt:3
-x11-libs/qt:3
-0
-mirror://sourceforge/qwt/qwt-4.2.0.tar.bz2
-
-http://qwt.sourceforge.net/
-qwt
-2D plotting library for Qt
-~amd64 ~ia64 ~ppc ~ppc64 ~x86
-toolchain-funcs qt3 portability versionator multilib eutils
-doc examples
-
-
-
-1
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/qt:3
+DESCRIPTION=2D plotting library for Qt
+EAPI=1
+HOMEPAGE=http://qwt.sourceforge.net/
+IUSE=doc examples
+KEYWORDS=~amd64 ~ia64 ~ppc ~ppc64 ~x86
+LICENSE=qwt
+RDEPEND=x11-libs/qt:3
+SLOT=0
+SRC_URI=mirror://sourceforge/qwt/qwt-4.2.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

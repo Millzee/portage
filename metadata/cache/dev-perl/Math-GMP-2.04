@@ -1,22 +1,12 @@
-dev-libs/gmp dev-lang/perl
-dev-libs/gmp dev-lang/perl
-0
-mirror://cpan/authors/id/C/CH/CHIPT/Math-GMP-2.04.tar.gz
-
-http://search.cpan.org/~chipt/
-|| ( Artistic GPL-2 )
-High speed arbitrary size integer math
-alpha amd64 hppa ia64 ~mips ppc sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-libs/gmp dev-lang/perl
+DESCRIPTION=High speed arbitrary size integer math
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~chipt/
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc sparc x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-libs/gmp dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHIPT/Math-GMP-2.04.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

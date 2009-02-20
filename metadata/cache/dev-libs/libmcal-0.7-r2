@@ -1,22 +1,13 @@
-pam? ( sys-libs/pam )
-pam? ( sys-libs/pam )
-0
-mirror://sourceforge/libmcal/libmcal-0.7.tar.gz mirror://sourceforge/libmcal/mcaldrivers-0.9.tar.gz
-
-http://mcal.chek.com/
-GPL-2
-Modular Calendar Access Library
-x86 ~ppc ~sparc ~mips ~alpha arm ~hppa ~amd64 ~ia64 ~s390
-toolchain-funcs multilib portability eutils
-pam
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=pam? ( sys-libs/pam )
+DESCRIPTION=Modular Calendar Access Library
+EAPI=0
+HOMEPAGE=http://mcal.chek.com/
+IUSE=pam
+KEYWORDS=x86 ~ppc ~sparc ~mips ~alpha arm ~hppa ~amd64 ~ia64 ~s390
+LICENSE=GPL-2
+RDEPEND=pam? ( sys-libs/pam )
+SLOT=0
+SRC_URI=mirror://sourceforge/libmcal/libmcal-0.7.tar.gz mirror://sourceforge/libmcal/mcaldrivers-0.9.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

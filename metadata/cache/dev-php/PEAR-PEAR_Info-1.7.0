@@ -1,22 +1,12 @@
-dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
-dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
-0
-http://pear.php.net/get/PEAR_Info-1.7.0.tgz
-
-http://pear.php.net/PEAR_Info
-PHP-3 BSD
-Show Information about your PEAR install and its packages
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs php-pear-r1 multilib
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
+DESCRIPTION=Show Information about your PEAR install and its packages
+EAPI=0
+HOMEPAGE=http://pear.php.net/PEAR_Info
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=PHP-3 BSD
+RDEPEND=dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
+SLOT=0
+SRC_URI=http://pear.php.net/get/PEAR_Info-1.7.0.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	php-pear-r1	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

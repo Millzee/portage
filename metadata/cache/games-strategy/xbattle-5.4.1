@@ -1,22 +1,12 @@
-x11-libs/libXext x11-libs/libX11 !games-strategy/xbattleai x11-proto/xproto app-text/rman x11-misc/imake
-x11-libs/libXext x11-libs/libX11 !games-strategy/xbattleai
-0
-ftp://cns-ftp.bu.edu/pub/xbattle/xbattle-5.4.1.tar.gz
-
-http://www.cgl.uwaterloo.ca/~jdsteele/xbattle.html
-xbattle
-A multi-player game of strategy and coordination
-alpha amd64 hppa ia64 mips ppc sparc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=x11-libs/libXext x11-libs/libX11 !games-strategy/xbattleai x11-proto/xproto app-text/rman x11-misc/imake
+DESCRIPTION=A multi-player game of strategy and coordination
+EAPI=0
+HOMEPAGE=http://www.cgl.uwaterloo.ca/~jdsteele/xbattle.html
+KEYWORDS=alpha amd64 hppa ia64 mips ppc sparc x86
+LICENSE=xbattle
+RDEPEND=x11-libs/libXext x11-libs/libX11 !games-strategy/xbattleai
+SLOT=0
+SRC_URI=ftp://cns-ftp.bu.edu/pub/xbattle/xbattle-5.4.1.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

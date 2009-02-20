@@ -1,22 +1,14 @@
->=virtual/ruby-1.8.2 >=sys-libs/db-4.2 >=dev-ruby/ruby-bdb-0.5.2 dev-ruby/ruby-progressbar ocaml? ( dev-lang/ocaml ) perl? ( dev-perl/PPI ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool virtual/ruby
->=virtual/ruby-1.8.2 >=sys-libs/db-4.2 >=dev-ruby/ruby-bdb-0.5.2 dev-ruby/ruby-progressbar ocaml? ( dev-lang/ocaml ) perl? ( dev-perl/PPI ) virtual/ruby
-0
-mirror://sourceforge/gonzui/gonzui-1.2.tar.gz
-test
-http://gonzui.sourceforge.net/
-GPL-2
-source code search engine
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib libtool autotools ruby eutils
-ocaml perl
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=virtual/ruby-1.8.2 >=sys-libs/db-4.2 >=dev-ruby/ruby-bdb-0.5.2 dev-ruby/ruby-progressbar ocaml? ( dev-lang/ocaml ) perl? ( dev-perl/PPI ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool virtual/ruby
+DESCRIPTION=source code search engine
+EAPI=0
+HOMEPAGE=http://gonzui.sourceforge.net/
+IUSE=ocaml perl
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/ruby-1.8.2 >=sys-libs/db-4.2 >=dev-ruby/ruby-bdb-0.5.2 dev-ruby/ruby-progressbar ocaml? ( dev-lang/ocaml ) perl? ( dev-perl/PPI ) virtual/ruby
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/gonzui/gonzui-1.2.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

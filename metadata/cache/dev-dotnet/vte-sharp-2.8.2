@@ -1,22 +1,13 @@
->=x11-libs/vte-0.11.10 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =dev-dotnet/gtk-sharp-2.8* >=sys-apps/sed-4
->=x11-libs/vte-0.11.10
-2
-http://www.go-mono.com/sources/gtk-sharp-2.8//gtk-sharp-2.8.2.tar.gz mirror://gentoo/gtk-sharp-2.8.2-configurable.diff.gz
-test
-http://gtk-sharp.sourceforge.net/
-LGPL-2.1
-vte component of gtk-sharp
-amd64 ppc ~x86
-toolchain-funcs portability mono multilib gtk-sharp-component libtool autotools eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/vte-0.11.10 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =dev-dotnet/gtk-sharp-2.8* >=sys-apps/sed-4
+DESCRIPTION=vte component of gtk-sharp
+EAPI=0
+HOMEPAGE=http://gtk-sharp.sourceforge.net/
+KEYWORDS=amd64 ppc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=>=x11-libs/vte-0.11.10
+RESTRICT=test
+SLOT=2
+SRC_URI=http://www.go-mono.com/sources/gtk-sharp-2.8//gtk-sharp-2.8.2.tar.gz mirror://gentoo/gtk-sharp-2.8.2-configurable.diff.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	gtk-sharp-component	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

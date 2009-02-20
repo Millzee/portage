@@ -1,22 +1,12 @@
->=app-text/tetex-3.0
-app-text/xdvipdfmx >=app-text/tetex-3.0
-0
-http://scripts.sil.org/svn-view/xetex/TAGS/xetex-0.995.tar.gz
-
-http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=xetex
-XeTeX
-Unicode version of tex with other enhancements.
-amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=>=app-text/tetex-3.0
+DESCRIPTION=Unicode version of tex with other enhancements.
+EAPI=0
+HOMEPAGE=http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=xetex
+KEYWORDS=amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=XeTeX
+RDEPEND=app-text/xdvipdfmx >=app-text/tetex-3.0
+SLOT=0
+SRC_URI=http://scripts.sil.org/svn-view/xetex/TAGS/xetex-0.995.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

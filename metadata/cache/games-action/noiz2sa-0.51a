@@ -1,22 +1,12 @@
-media-libs/sdl-mixer >=dev-libs/libbulletml-0.0.3 virtual/opengl
-media-libs/sdl-mixer >=dev-libs/libbulletml-0.0.3 virtual/opengl
-0
-mirror://sourceforge/noiz2sa/noiz2sa-0.51a.tar.gz
-
-http://www.asahi-net.or.jp/~cs8k-cyu/windows/noiz2sa_e.html http://sourceforge.net/projects/noiz2sa/
-BSD
-Abstract Shooting Game
-amd64 ~ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/sdl-mixer >=dev-libs/libbulletml-0.0.3 virtual/opengl
+DESCRIPTION=Abstract Shooting Game
+EAPI=0
+HOMEPAGE=http://www.asahi-net.or.jp/~cs8k-cyu/windows/noiz2sa_e.html http://sourceforge.net/projects/noiz2sa/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=BSD
+RDEPEND=media-libs/sdl-mixer >=dev-libs/libbulletml-0.0.3 virtual/opengl
+SLOT=0
+SRC_URI=mirror://sourceforge/noiz2sa/noiz2sa-0.51a.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

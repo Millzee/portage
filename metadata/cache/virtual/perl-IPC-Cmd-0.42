@@ -1,22 +1,9 @@
-
-~perl-core/IPC-Cmd-0.42
-0
-
-
-http://www.gentoo.org/proj/en/perl/
-GPL-2
-finding and running system commands made easy
-~amd64 ~x86
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=finding and running system commands made easy
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/perl/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=~perl-core/IPC-Cmd-0.42
+SLOT=0
+_mtime_=1235082908

@@ -1,22 +1,13 @@
-openssl? ( >=dev-libs/openssl-0.9.7d ) gnutls? ( >=net-libs/gnutls-1.3.0 )
-openssl? ( >=dev-libs/openssl-0.9.7d ) gnutls? ( >=net-libs/gnutls-1.3.0 )
-0
-mirror://sourceforge/inspircd/InspIRCd-1.0.7.tar.bz2
-
-http://www.inspircd.org
-GPL-2
-InspIRCd - The Modular C++ IRC Daemon
-~amd64 ppc x86
-toolchain-funcs multilib portability eutils
-openssl gnutls
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=openssl? ( >=dev-libs/openssl-0.9.7d ) gnutls? ( >=net-libs/gnutls-1.3.0 )
+DESCRIPTION=InspIRCd - The Modular C++ IRC Daemon
+EAPI=0
+HOMEPAGE=http://www.inspircd.org
+IUSE=openssl gnutls
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=openssl? ( >=dev-libs/openssl-0.9.7d ) gnutls? ( >=net-libs/gnutls-1.3.0 )
+SLOT=0
+SRC_URI=mirror://sourceforge/inspircd/InspIRCd-1.0.7.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

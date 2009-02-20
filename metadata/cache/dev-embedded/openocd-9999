@@ -1,22 +1,12 @@
-usb? ( dev-libs/libusb ) presto? ( dev-embedded/libftd2xx ) ft2232? ( || ( ftdi? ( dev-embedded/libftdi ) dev-embedded/libftd2xx ) ) dev-util/subversion net-misc/rsync =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-usb? ( dev-libs/libusb ) presto? ( dev-embedded/libftd2xx ) ft2232? ( || ( ftdi? ( dev-embedded/libftdi ) dev-embedded/libftd2xx ) )
-0
-
-strip
-http://openocd.berlios.de/web/
-GPL-2
-OpenOCD - Open On-Chip Debugger
-
-toolchain-funcs portability multilib subversion libtool autotools eutils
-ft2232 ftdi parport presto usb
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=usb? ( dev-libs/libusb ) presto? ( dev-embedded/libftd2xx ) ft2232? ( || ( ftdi? ( dev-embedded/libftdi ) dev-embedded/libftd2xx ) ) dev-util/subversion net-misc/rsync =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=OpenOCD - Open On-Chip Debugger
+EAPI=0
+HOMEPAGE=http://openocd.berlios.de/web/
+IUSE=ft2232 ftdi parport presto usb
+LICENSE=GPL-2
+RDEPEND=usb? ( dev-libs/libusb ) presto? ( dev-embedded/libftd2xx ) ft2232? ( || ( ftdi? ( dev-embedded/libftdi ) dev-embedded/libftd2xx ) )
+RESTRICT=strip
+SLOT=0
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

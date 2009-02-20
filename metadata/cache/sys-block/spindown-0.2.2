@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc sys-apps/sg3_utils
-0
-http://spindown.googlecode.com/files/spindown-0.2.2.tar.gz
-
-http://code.google.com/p/spindown
-GPL-3
-Spindown is a daemon that can spin down idle disks
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc
+DESCRIPTION=Spindown is a daemon that can spin down idle disks
+EAPI=0
+HOMEPAGE=http://code.google.com/p/spindown
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=virtual/libc sys-apps/sg3_utils
+SLOT=0
+SRC_URI=http://spindown.googlecode.com/files/spindown-0.2.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

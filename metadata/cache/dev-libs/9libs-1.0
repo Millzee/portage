@@ -1,22 +1,11 @@
->=x11-proto/xproto-7.0.4 >=x11-libs/libX11-1.0.0 >=x11-libs/libXt-1.0.0
->=x11-proto/xproto-7.0.4 >=x11-libs/libX11-1.0.0 >=x11-libs/libXt-1.0.0
-0
-ftp://www.netlib.org/research/9libs/9libs-1.0.tar.bz2
-
-http://www.netlib.org/research/9libs/9libs-1.0.README
-PLAN9
-A package of Plan 9 compatibility libraries
-sparc x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=x11-proto/xproto-7.0.4 >=x11-libs/libX11-1.0.0 >=x11-libs/libXt-1.0.0
+DESCRIPTION=A package of Plan 9 compatibility libraries
+EAPI=0
+HOMEPAGE=http://www.netlib.org/research/9libs/9libs-1.0.README
+KEYWORDS=sparc x86
+LICENSE=PLAN9
+RDEPEND=>=x11-proto/xproto-7.0.4 >=x11-libs/libX11-1.0.0 >=x11-libs/libXt-1.0.0
+SLOT=0
+SRC_URI=ftp://www.netlib.org/research/9libs/9libs-1.0.tar.bz2
+_mtime_=1235082853

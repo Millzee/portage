@@ -1,22 +1,13 @@
-
-sys-libs/glibc virtual/opengl sys-libs/lib-compat-loki x86? ( x11-libs/libX11 x11-libs/libXext =media-libs/libsdl-1.2* ) amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-sdl >=sys-libs/lib-compat-loki-0.2 )
-0
-mirror://lokigames/descent3/descent3-1.4.0a-x86.run mirror://lokigames/descent3/descent3-1.4.0b-x86.run
-strip
-http://www.lokigames.com/products/descent3/
-LOKI-EULA
-Descent 3 - 3-Dimensional indoor/outdoor spaceship combat
-amd64 x86
-toolchain-funcs portability multilib base games eutils
-nocd videos
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Descent 3 - 3-Dimensional indoor/outdoor spaceship combat
+EAPI=0
+HOMEPAGE=http://www.lokigames.com/products/descent3/
+IUSE=nocd videos
+KEYWORDS=amd64 x86
+LICENSE=LOKI-EULA
+RDEPEND=sys-libs/glibc virtual/opengl sys-libs/lib-compat-loki x86? ( x11-libs/libX11 x11-libs/libXext =media-libs/libsdl-1.2* ) amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-sdl >=sys-libs/lib-compat-loki-0.2 )
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://lokigames/descent3/descent3-1.4.0a-x86.run mirror://lokigames/descent3/descent3-1.4.0b-x86.run
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

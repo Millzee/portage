@@ -1,22 +1,11 @@
-
-dev-util/quilt >=dev-python/pygtk-2
-0
-mirror://sourceforge/gquilt/gquilt-0.20.tar.gz
-
-http://users.bigpond.net.au/Peter-Williams/
-GPL-2
-A Python/GTK wrapper for quilt
-~amd64 ~ppc ~x86
-python multilib toolchain-funcs alternatives
-
-
-
-
-0
-
-install postinst postrm prerm unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm prerm unpack
+DESCRIPTION=A Python/GTK wrapper for quilt
+EAPI=0
+HOMEPAGE=http://users.bigpond.net.au/Peter-Williams/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-util/quilt >=dev-python/pygtk-2
+SLOT=0
+SRC_URI=mirror://sourceforge/gquilt/gquilt-0.20.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

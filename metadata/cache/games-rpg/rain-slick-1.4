@@ -1,22 +1,12 @@
-
-sys-libs/glibc virtual/opengl x11-libs/libXrandr x11-libs/libX11 x11-libs/libXext amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs )
-1
-http://files.playgreenhouse.com/rainslickep1_linux_r4.tgz
-strip
-http://www.playgreenhouse.com/game/HOTHG-000001-01/
-as-is
-On the Rain-Slick Precipice of Darkness, Episode One
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=On the Rain-Slick Precipice of Darkness, Episode One
+EAPI=0
+HOMEPAGE=http://www.playgreenhouse.com/game/HOTHG-000001-01/
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+RDEPEND=sys-libs/glibc virtual/opengl x11-libs/libXrandr x11-libs/libX11 x11-libs/libXext amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs )
+RESTRICT=strip
+SLOT=1
+SRC_URI=http://files.playgreenhouse.com/rainslickep1_linux_r4.tgz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

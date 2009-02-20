@@ -1,22 +1,12 @@
->=app-text/mecab-0.97 dev-lang/perl
->=app-text/mecab-0.97 dev-lang/perl
-0
-mirror://sourceforge/mecab/mecab-perl-0.97.tar.gz
-
-http://mecab.sourceforge.net/
-|| ( BSD LGPL-2.1 GPL-2 )
-Perl binding for MeCab
-amd64 ~ia64 x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=app-text/mecab-0.97 dev-lang/perl
+DESCRIPTION=Perl binding for MeCab
+EAPI=0
+HOMEPAGE=http://mecab.sourceforge.net/
+KEYWORDS=amd64 ~ia64 x86
+LICENSE=|| ( BSD LGPL-2.1 GPL-2 )
+RDEPEND=>=app-text/mecab-0.97 dev-lang/perl
+SLOT=0
+SRC_URI=mirror://sourceforge/mecab/mecab-perl-0.97.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

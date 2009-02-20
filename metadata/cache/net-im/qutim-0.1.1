@@ -1,22 +1,13 @@
-|| ( x11-libs/qt-gui x11-libs/qt:4 )
-|| ( x11-libs/qt-gui x11-libs/qt:4 )
-0
-http://qutim.org/download/qutim_0.1.1.tar.gz
-
-http://www.qutim.org
-GPL-2
-New Qt4-based Instant Messenger (ICQ).
-~amd64 ~x86
-qt4 toolchain-funcs portability flag-o-matic versionator multilib eutils
-debug
-
-
-
-1
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=|| ( x11-libs/qt-gui x11-libs/qt:4 )
+DESCRIPTION=New Qt4-based Instant Messenger (ICQ).
+EAPI=1
+HOMEPAGE=http://www.qutim.org
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( x11-libs/qt-gui x11-libs/qt:4 )
+SLOT=0
+SRC_URI=http://qutim.org/download/qutim_0.1.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

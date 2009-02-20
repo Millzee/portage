@@ -1,22 +1,12 @@
-sys-devel/gettext
-dev-lang/python vorbis? ( media-sound/vorbis-tools ) mp3? ( || ( virtual/mpg123 media-sound/madplay media-sound/splay ) )
-0
-http://mask.tf.hut.fi/~flu/cplay/cplay-1.49.tar.gz
-
-http://mask.tf.hut.fi/~flu/hacks/cplay/
-GPL-2
-A Curses front-end for various audio players.
-amd64 hppa ~ppc ppc64 sparc x86
-
-mp3 vorbis
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=sys-devel/gettext
+DESCRIPTION=A Curses front-end for various audio players.
+EAPI=0
+HOMEPAGE=http://mask.tf.hut.fi/~flu/hacks/cplay/
+IUSE=mp3 vorbis
+KEYWORDS=amd64 hppa ~ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/python vorbis? ( media-sound/vorbis-tools ) mp3? ( || ( virtual/mpg123 media-sound/madplay media-sound/splay ) )
+SLOT=0
+SRC_URI=http://mask.tf.hut.fi/~flu/cplay/cplay-1.49.tar.gz
+_mtime_=1235082868

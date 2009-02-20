@@ -1,22 +1,12 @@
->=dev-lang/python-2.2.2 >=sys-apps/sed-4 virtual/ghostscript virtual/python
->=dev-lang/python-2.2.2 >=sys-apps/sed-4 virtual/ghostscript
-0
-http://download.gna.org/pychart/PyChart-1.37.tar.gz
-
-http://home.gna.org/pychart/
-GPL-2
-Python library for creating charts
-x86 ~ppc
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-lang/python-2.2.2 >=sys-apps/sed-4 virtual/ghostscript virtual/python
+DESCRIPTION=Python library for creating charts
+EAPI=0
+HOMEPAGE=http://home.gna.org/pychart/
+KEYWORDS=x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/python-2.2.2 >=sys-apps/sed-4 virtual/ghostscript
+SLOT=0
+SRC_URI=http://download.gna.org/pychart/PyChart-1.37.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

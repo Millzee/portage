@@ -1,22 +1,11 @@
->=dev-libs/dietlibc-0.22
->=dev-libs/dietlibc-0.22
-0
-http://www.fefe.de/libowfat/libowfat-0.16.tar.bz2
-
-http://www.fefe.de/libowfat/
-GPL-2
-reimplement libdjb - excellent libraries from Dan Bernstein.
-x86 sparc ppc
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/dietlibc-0.22
+DESCRIPTION=reimplement libdjb - excellent libraries from Dan Bernstein.
+EAPI=0
+HOMEPAGE=http://www.fefe.de/libowfat/
+KEYWORDS=x86 sparc ppc
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/dietlibc-0.22
+SLOT=0
+SRC_URI=http://www.fefe.de/libowfat/libowfat-0.16.tar.bz2
+_mtime_=1235082854

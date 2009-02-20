@@ -1,22 +1,13 @@
-~dev-libs/pwlib-1.10.10 >=media-video/ffmpeg-0.4.7
-~dev-libs/pwlib-1.10.10 >=media-video/ffmpeg-0.4.7
-0
-http://www.ekiga.org/admin/downloads/latest/sources/sources/opal-2.2.11.tar.gz
-
-http://www.ekiga.org
-MPL-1.1
-OPAL library, used by Ekiga
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-novideo noaudio debug
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=~dev-libs/pwlib-1.10.10 >=media-video/ffmpeg-0.4.7
+DESCRIPTION=OPAL library, used by Ekiga
+EAPI=0
+HOMEPAGE=http://www.ekiga.org
+IUSE=novideo noaudio debug
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=MPL-1.1
+RDEPEND=~dev-libs/pwlib-1.10.10 >=media-video/ffmpeg-0.4.7
+SLOT=0
+SRC_URI=http://www.ekiga.org/admin/downloads/latest/sources/sources/opal-2.2.11.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

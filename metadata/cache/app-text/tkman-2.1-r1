@@ -1,22 +1,12 @@
->=app-text/rman-3.0.9 >=dev-lang/tcl-8.3.3 >=dev-lang/tk-8.3.3
->=app-text/rman-3.0.9 >=dev-lang/tcl-8.3.3 >=dev-lang/tk-8.3.3
-0
-http://tkman.sourceforge.net/tkman.tar.gz
-
-http://tkman.sourceforge.net/
-Artistic
-TkMan man and info page browser
-x86 ppc sparc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=app-text/rman-3.0.9 >=dev-lang/tcl-8.3.3 >=dev-lang/tk-8.3.3
+DESCRIPTION=TkMan man and info page browser
+EAPI=0
+HOMEPAGE=http://tkman.sourceforge.net/
+KEYWORDS=x86 ppc sparc
+LICENSE=Artistic
+RDEPEND=>=app-text/rman-3.0.9 >=dev-lang/tcl-8.3.3 >=dev-lang/tk-8.3.3
+SLOT=0
+SRC_URI=http://tkman.sourceforge.net/tkman.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

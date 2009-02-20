@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-mirror://sourceforge/cdctl/cdctl-0.15.tar.gz
-
-http://cdctl.sourceforge.net/
-free-noncomm
-Utility to control your cd/dvd drive
-x86 ppc amd64 ppc64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=Utility to control your cd/dvd drive
+EAPI=0
+HOMEPAGE=http://cdctl.sourceforge.net/
+KEYWORDS=x86 ppc amd64 ppc64
+LICENSE=free-noncomm
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/cdctl/cdctl-0.15.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

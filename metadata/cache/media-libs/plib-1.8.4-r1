@@ -1,22 +1,12 @@
-virtual/glut virtual/opengl media-libs/libsdl
-virtual/glut virtual/opengl media-libs/libsdl
-0
-http://plib.sourceforge.net/dist/plib-1.8.4.tar.gz
-
-http://plib.sourceforge.net/
-LGPL-2
-multimedia library used by many games
-alpha ~amd64 ~hppa ppc ~sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=virtual/glut virtual/opengl media-libs/libsdl
+DESCRIPTION=multimedia library used by many games
+EAPI=0
+HOMEPAGE=http://plib.sourceforge.net/
+KEYWORDS=alpha ~amd64 ~hppa ppc ~sparc x86
+LICENSE=LGPL-2
+RDEPEND=virtual/glut virtual/opengl media-libs/libsdl
+SLOT=0
+SRC_URI=http://plib.sourceforge.net/dist/plib-1.8.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

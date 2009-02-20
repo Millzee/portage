@@ -1,22 +1,13 @@
-x11-libs/libX11 x11-libs/libXpm x11-libs/libXrender x11-libs/libXt xft? ( x11-libs/libXft ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-x11-libs/libX11 x11-libs/libXpm x11-libs/libXrender x11-libs/libXt xft? ( x11-libs/libXft )
-0
-http://fcitx.googlecode.com/files/fcitx-3.6.0-rc.tar.bz2
-
-http://fcitx.googlecode.com
-GPL-2
-Free Chinese Input Toy for X. Another Chinese XIM Input Method
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-xft
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=x11-libs/libX11 x11-libs/libXpm x11-libs/libXrender x11-libs/libXt xft? ( x11-libs/libXft ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Free Chinese Input Toy for X. Another Chinese XIM Input Method
+EAPI=0
+HOMEPAGE=http://fcitx.googlecode.com
+IUSE=xft
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXpm x11-libs/libXrender x11-libs/libXt xft? ( x11-libs/libXft )
+SLOT=0
+SRC_URI=http://fcitx.googlecode.com/files/fcitx-3.6.0-rc.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

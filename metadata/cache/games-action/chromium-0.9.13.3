@@ -1,22 +1,13 @@
-media-fonts/dejavu >=media-libs/ftgl-2.1.3_rc5 media-libs/glpng virtual/opengl virtual/glu x11-libs/libXmu mixer? ( media-libs/sdl-mixer ) !mixer? ( media-libs/freealut media-libs/openal ) sdl? ( media-libs/libsdl ) !sdl? ( virtual/glut )
-media-fonts/dejavu >=media-libs/ftgl-2.1.3_rc5 media-libs/glpng virtual/opengl virtual/glu x11-libs/libXmu mixer? ( media-libs/sdl-mixer ) !mixer? ( media-libs/freealut media-libs/openal ) sdl? ( media-libs/libsdl ) !sdl? ( virtual/glut )
-0
-mirror://sourceforge/chromium-bsu/chromium-0.9.13.3.tar.gz
-
-http://chromium-bsu.sourceforge.net/
-Artistic
-Chromium B.S.U. - an arcade game
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base games eutils
-mixer sdl
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-fonts/dejavu >=media-libs/ftgl-2.1.3_rc5 media-libs/glpng virtual/opengl virtual/glu x11-libs/libXmu mixer? ( media-libs/sdl-mixer ) !mixer? ( media-libs/freealut media-libs/openal ) sdl? ( media-libs/libsdl ) !sdl? ( virtual/glut )
+DESCRIPTION=Chromium B.S.U. - an arcade game
+EAPI=2
+HOMEPAGE=http://chromium-bsu.sourceforge.net/
+IUSE=mixer sdl
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=Artistic
+RDEPEND=media-fonts/dejavu >=media-libs/ftgl-2.1.3_rc5 media-libs/glpng virtual/opengl virtual/glu x11-libs/libXmu mixer? ( media-libs/sdl-mixer ) !mixer? ( media-libs/freealut media-libs/openal ) sdl? ( media-libs/libsdl ) !sdl? ( virtual/glut )
+SLOT=0
+SRC_URI=mirror://sourceforge/chromium-bsu/chromium-0.9.13.3.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

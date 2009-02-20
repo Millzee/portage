@@ -1,22 +1,13 @@
-virtual/php dev-perl/DateManip sys-apps/findutils >=net-dialup/freeradius-1.1.6 >=app-admin/webapp-config-1.50.15
-virtual/php dev-perl/DateManip sys-apps/findutils >=net-dialup/freeradius-1.1.6 >=app-admin/webapp-config-1.50.15
-1.70.3
-ftp://ftp.freeradius.org/pub/radius/freeradius-1.1.6.tar.gz
-
-http://www.freeradius.org/dialupadmin.html
-GPL-2
-Web administration interface of freeradius server
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils webapp
-vhosts
-
-
-
-0
-
-install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=virtual/php dev-perl/DateManip sys-apps/findutils >=net-dialup/freeradius-1.1.6 >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Web administration interface of freeradius server
+EAPI=0
+HOMEPAGE=http://www.freeradius.org/dialupadmin.html
+IUSE=vhosts
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/php dev-perl/DateManip sys-apps/findutils >=net-dialup/freeradius-1.1.6 >=app-admin/webapp-config-1.50.15
+SLOT=1.70.3
+SRC_URI=ftp://ftp.freeradius.org/pub/radius/freeradius-1.1.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

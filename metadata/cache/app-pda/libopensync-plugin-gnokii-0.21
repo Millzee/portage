@@ -1,22 +1,11 @@
-=app-pda/libopensync-0.21* >=app-mobilephone/gnokii-0.6.14
-=app-pda/libopensync-0.21* >=app-mobilephone/gnokii-0.6.14
-0
-http://dev.gentooexperimental.org/~peper/distfiles/libopensync-plugin-gnokii-0.21.tar.bz2
-
-http://www.opensync.org/
-GPL-2
-OpenSync Gnokii Plugin
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND==app-pda/libopensync-0.21* >=app-mobilephone/gnokii-0.6.14
+DESCRIPTION=OpenSync Gnokii Plugin
+EAPI=0
+HOMEPAGE=http://www.opensync.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND==app-pda/libopensync-0.21* >=app-mobilephone/gnokii-0.6.14
+SLOT=0
+SRC_URI=http://dev.gentooexperimental.org/~peper/distfiles/libopensync-plugin-gnokii-0.21.tar.bz2
+_mtime_=1235082849

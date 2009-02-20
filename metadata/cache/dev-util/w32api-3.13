@@ -1,22 +1,12 @@
-
-
-0
-mirror://sourceforge/mingw/w32api-3.13-mingw32-src.tar.gz
-strip
-http://www.mingw.org/
-BSD
-Free Win32 runtime and import library definitions
-amd64 ~ppc ~sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-crosscompile_opts_headers-only
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DESCRIPTION=Free Win32 runtime and import library definitions
+EAPI=0
+HOMEPAGE=http://www.mingw.org/
+IUSE=crosscompile_opts_headers-only
+KEYWORDS=amd64 ~ppc ~sparc x86
+LICENSE=BSD
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/mingw/w32api-3.13-mingw32-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

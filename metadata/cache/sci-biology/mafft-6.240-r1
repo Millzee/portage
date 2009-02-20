@@ -1,22 +1,10 @@
-
-
-0
-http://align.bmr.kyushu-u.ac.jp/mafft/software/mafft-6.240-src.tgz
-
-http://align.bmr.kyushu-u.ac.jp/mafft/software/
-free-noncomm
-Multiple sequence alignments using a variety of algorithms
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Multiple sequence alignments using a variety of algorithms
+EAPI=0
+HOMEPAGE=http://align.bmr.kyushu-u.ac.jp/mafft/software/
+KEYWORDS=~x86
+LICENSE=free-noncomm
+SLOT=0
+SRC_URI=http://align.bmr.kyushu-u.ac.jp/mafft/software/mafft-6.240-src.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

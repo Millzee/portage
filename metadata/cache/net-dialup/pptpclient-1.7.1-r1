@@ -1,22 +1,14 @@
->=net-dialup/ppp-2.4.2 dev-lang/perl tk? ( dev-perl/perl-tk )
->=net-dialup/ppp-2.4.2 dev-lang/perl tk? ( dev-perl/perl-tk )
-0
-mirror://sourceforge/pptpclient/pptp-1.7.1.tar.gz mirror://gentoo/pptp-command-20050401.gz
-test
-http://pptpclient.sourceforge.net/
-GPL-2
-Linux client for PPTP
-alpha amd64 ppc ppc64 x86
-toolchain-funcs multilib portability eutils
-tk
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=net-dialup/ppp-2.4.2 dev-lang/perl tk? ( dev-perl/perl-tk )
+DESCRIPTION=Linux client for PPTP
+EAPI=0
+HOMEPAGE=http://pptpclient.sourceforge.net/
+IUSE=tk
+KEYWORDS=alpha amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=>=net-dialup/ppp-2.4.2 dev-lang/perl tk? ( dev-perl/perl-tk )
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/pptpclient/pptp-1.7.1.tar.gz mirror://gentoo/pptp-command-20050401.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

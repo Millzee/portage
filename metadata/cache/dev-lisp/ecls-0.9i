@@ -1,22 +1,14 @@
-=dev-libs/gmp-4* app-text/texi2html
-=dev-libs/gmp-4* app-text/texi2html
-0
-mirror://sourceforge/ecls/ecl-0.9i.tgz
-
-http://ecls.sourceforge.net/
-BSD LGPL-2
-ECL is an embeddable Common Lisp implementation.
-~x86 ~ppc ~amd64 ~sparc
-toolchain-funcs multilib portability eutils
-X
-
-
-virtual/commonlisp
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==dev-libs/gmp-4* app-text/texi2html
+DESCRIPTION=ECL is an embeddable Common Lisp implementation.
+EAPI=0
+HOMEPAGE=http://ecls.sourceforge.net/
+IUSE=X
+KEYWORDS=~x86 ~ppc ~amd64 ~sparc
+LICENSE=BSD LGPL-2
+PROVIDE=virtual/commonlisp
+RDEPEND==dev-libs/gmp-4* app-text/texi2html
+SLOT=0
+SRC_URI=mirror://sourceforge/ecls/ecl-0.9i.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

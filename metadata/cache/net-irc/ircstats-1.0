@@ -1,22 +1,10 @@
-
-
-0
-http://humdi.net/ircstats/IRCStats-1.0.tgz
-
-http://humdi.net/ircstats/
-GPL-2
-IRCStats tries to be a log analyzer for Linux similar to mIRCStats
-~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=IRCStats tries to be a log analyzer for Linux similar to mIRCStats
+EAPI=0
+HOMEPAGE=http://humdi.net/ircstats/
+KEYWORDS=~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://humdi.net/ircstats/IRCStats-1.0.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

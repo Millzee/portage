@@ -1,22 +1,12 @@
-=x11-libs/wxGTK-2.6* x11-base/xorg-server
-=x11-libs/wxGTK-2.6* x11-base/xorg-server
-0
-mirror://sourceforge/xorg-edit/xorg-edit_07.06.15_src.tar.bz2
-
-http://www.deesaster.org/progxorg.php
-GPL-2
-GUI to edit XServer-file xorg.conf easily
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils wxwidgets
-
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND==x11-libs/wxGTK-2.6* x11-base/xorg-server
+DESCRIPTION=GUI to edit XServer-file xorg.conf easily
+EAPI=0
+HOMEPAGE=http://www.deesaster.org/progxorg.php
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/wxGTK-2.6* x11-base/xorg-server
+SLOT=0
+SRC_URI=mirror://sourceforge/xorg-edit/xorg-edit_07.06.15_src.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

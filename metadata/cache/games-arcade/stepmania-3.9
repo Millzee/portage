@@ -1,22 +1,14 @@
-gtk? ( >=x11-libs/gtk+-2 ) mad? ( media-libs/libmad ) >=dev-lang/lua-5 media-libs/libsdl[opengl] jpeg? ( media-libs/jpeg ) media-libs/libpng ffmpeg? ( >=media-video/ffmpeg-0.4.9_p20080326 ) vorbis? ( media-libs/libvorbis ) virtual/opengl virtual/glu dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-gtk? ( >=x11-libs/gtk+-2 ) mad? ( media-libs/libmad ) >=dev-lang/lua-5 media-libs/libsdl[opengl] jpeg? ( media-libs/jpeg ) media-libs/libpng ffmpeg? ( >=media-video/ffmpeg-0.4.9_p20080326 ) vorbis? ( media-libs/libvorbis ) virtual/opengl virtual/glu
-0
-mirror://sourceforge/stepmania/StepMania-3.9-src.tar.gz mirror://sourceforge/stepmania/StepMania-3.9-linux.tar.gz mirror://gentoo/stepmania-patches-3.tar.bz2
-test
-http://www.stepmania.com/stepmania/
-MIT
-An advanced DDR simulator
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base libtool games autotools eutils
-debug gtk jpeg mad ffmpeg vorbis force-oss
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=gtk? ( >=x11-libs/gtk+-2 ) mad? ( media-libs/libmad ) >=dev-lang/lua-5 media-libs/libsdl[opengl] jpeg? ( media-libs/jpeg ) media-libs/libpng ffmpeg? ( >=media-video/ffmpeg-0.4.9_p20080326 ) vorbis? ( media-libs/libvorbis ) virtual/opengl virtual/glu dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=An advanced DDR simulator
+EAPI=2
+HOMEPAGE=http://www.stepmania.com/stepmania/
+IUSE=debug gtk jpeg mad ffmpeg vorbis force-oss
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=MIT
+RDEPEND=gtk? ( >=x11-libs/gtk+-2 ) mad? ( media-libs/libmad ) >=dev-lang/lua-5 media-libs/libsdl[opengl] jpeg? ( media-libs/jpeg ) media-libs/libpng ffmpeg? ( >=media-video/ffmpeg-0.4.9_p20080326 ) vorbis? ( media-libs/libvorbis ) virtual/opengl virtual/glu
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/stepmania/StepMania-3.9-src.tar.gz mirror://sourceforge/stepmania/StepMania-3.9-linux.tar.gz mirror://gentoo/stepmania-patches-3.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

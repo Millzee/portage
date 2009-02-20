@@ -1,22 +1,13 @@
-virtual/libc virtual/libiconv xattr? ( sys-apps/attr ) fam? ( virtual/fam ) >=dev-util/pkgconfig-0.16 >=sys-devel/gettext-0.11
-virtual/libc virtual/libiconv xattr? ( sys-apps/attr ) fam? ( virtual/fam )
-2
-mirror://gnome/sources/glib/2.16/glib-2.16.5.tar.bz2
-
-http://www.gtk.org/
-LGPL-2
-The GLib library of C routines
-m68k ppc ppc64
-toolchain-funcs portability flag-o-matic multilib libtool gnome.org eutils
-debug fam hardened selinux xattr
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc virtual/libiconv xattr? ( sys-apps/attr ) fam? ( virtual/fam ) >=dev-util/pkgconfig-0.16 >=sys-devel/gettext-0.11
+DESCRIPTION=The GLib library of C routines
+EAPI=0
+HOMEPAGE=http://www.gtk.org/
+IUSE=debug fam hardened selinux xattr
+KEYWORDS=m68k ppc ppc64
+LICENSE=LGPL-2
+RDEPEND=virtual/libc virtual/libiconv xattr? ( sys-apps/attr ) fam? ( virtual/fam )
+SLOT=2
+SRC_URI=mirror://gnome/sources/glib/2.16/glib-2.16.5.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

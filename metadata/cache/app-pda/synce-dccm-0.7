@@ -1,22 +1,11 @@
-virtual/libc app-pda/synce-libsynce
-virtual/libc app-pda/synce-libsynce
-0
-mirror://sourceforge/synce/synce-dccm-0.7.tar.gz
-
-http://sourceforge.net/projects/synce/
-GPL-2
-Synchronize Windows CE devices with computers running GNU/Linux, like MS ActiveSync.
-x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc app-pda/synce-libsynce
+DESCRIPTION=Synchronize Windows CE devices with computers running GNU/Linux, like MS ActiveSync.
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/synce/
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc app-pda/synce-libsynce
+SLOT=0
+SRC_URI=mirror://sourceforge/synce/synce-dccm-0.7.tar.gz
+_mtime_=1235082849

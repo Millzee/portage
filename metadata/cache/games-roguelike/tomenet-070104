@@ -1,22 +1,13 @@
-X? ( x11-libs/libX11 ) Xaw3d? ( x11-libs/libXaw )
-X? ( x11-libs/libX11 ) Xaw3d? ( x11-libs/libXaw )
-0
-http://angband.oook.cz/tomenet-nightly/tomenet-cvs-snapshot-070104.tar.bz2
-
-http://www.tomenet.net/
-Moria
-A MMORPG based on the works of J.R.R. Tolkien
-~x86
-toolchain-funcs portability multilib base games eutils
-X Xaw3d
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=X? ( x11-libs/libX11 ) Xaw3d? ( x11-libs/libXaw )
+DESCRIPTION=A MMORPG based on the works of J.R.R. Tolkien
+EAPI=2
+HOMEPAGE=http://www.tomenet.net/
+IUSE=X Xaw3d
+KEYWORDS=~x86
+LICENSE=Moria
+RDEPEND=X? ( x11-libs/libX11 ) Xaw3d? ( x11-libs/libXaw )
+SLOT=0
+SRC_URI=http://angband.oook.cz/tomenet-nightly/tomenet-cvs-snapshot-070104.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

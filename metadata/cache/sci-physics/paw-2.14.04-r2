@@ -1,22 +1,13 @@
-sci-physics/cernlib x11-libs/libXaw x11-libs/openmotif x11-libs/xbae dev-lang/cfortran virtual/latex-base x11-misc/imake x11-misc/makedepend =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-sci-physics/cernlib x11-libs/libXaw x11-libs/openmotif x11-libs/xbae
-0
-mirror://debian/pool/main/p/paw/paw_2.14.04.dfsg.2.orig.tar.gz mirror://debian/pool/main/p/paw/paw_2.14.04.dfsg.2-6.diff.gz
-
-http://wwwasd.web.cern.ch/wwwasd/paw/index.html
-GPL-2 LGPL-2 BSD
-CERN's Physics Analysis Workstation data analysis program
-~amd64 ~hppa ~sparc ~x86
-toolchain-funcs portability multilib fortran libtool autotools eutils
-debug
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=sci-physics/cernlib x11-libs/libXaw x11-libs/openmotif x11-libs/xbae dev-lang/cfortran virtual/latex-base x11-misc/imake x11-misc/makedepend =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=CERN's Physics Analysis Workstation data analysis program
+EAPI=0
+HOMEPAGE=http://wwwasd.web.cern.ch/wwwasd/paw/index.html
+IUSE=debug
+KEYWORDS=~amd64 ~hppa ~sparc ~x86
+LICENSE=GPL-2 LGPL-2 BSD
+RDEPEND=sci-physics/cernlib x11-libs/libXaw x11-libs/openmotif x11-libs/xbae
+SLOT=0
+SRC_URI=mirror://debian/pool/main/p/paw/paw_2.14.04.dfsg.2.orig.tar.gz mirror://debian/pool/main/p/paw/paw_2.14.04.dfsg.2-6.diff.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

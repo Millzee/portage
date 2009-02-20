@@ -1,22 +1,12 @@
-virtual/libpcap
-virtual/libpcap
-0
-ftp://ftp.ucarp.org/pub/ucarp/ucarp-1.5.tar.gz
-
-http://www.ucarp.org
-GPL-2
-Portable userland implementation of Common Address Redundancy Protocol (CARP).
-~x86 ~amd64 ~ppc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libpcap
+DESCRIPTION=Portable userland implementation of Common Address Redundancy Protocol (CARP).
+EAPI=0
+HOMEPAGE=http://www.ucarp.org
+KEYWORDS=~x86 ~amd64 ~ppc
+LICENSE=GPL-2
+RDEPEND=virtual/libpcap
+SLOT=0
+SRC_URI=ftp://ftp.ucarp.org/pub/ucarp/ucarp-1.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

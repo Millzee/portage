@@ -1,22 +1,12 @@
-x11-libs/libX11 x11-libs/libXext x11-libs/libXpm media-libs/libpng media-libs/jpeg x11-proto/xproto app-text/rman x11-misc/imake
-x11-libs/libX11 x11-libs/libXext x11-libs/libXpm media-libs/libpng media-libs/jpeg
-0
-ftp://ftp.ac-grenoble.fr/ge/Xutils/xsnap-1.4.3.tar.bz2
-
-ftp://ftp.ac-grenoble.fr/ge/Xutils/
-as-is
-Program to interactively take a 'snapshot' of a region of the screen
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm media-libs/libpng media-libs/jpeg x11-proto/xproto app-text/rman x11-misc/imake
+DESCRIPTION=Program to interactively take a 'snapshot' of a region of the screen
+EAPI=0
+HOMEPAGE=ftp://ftp.ac-grenoble.fr/ge/Xutils/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=as-is
+RDEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm media-libs/libpng media-libs/jpeg
+SLOT=0
+SRC_URI=ftp://ftp.ac-grenoble.fr/ge/Xutils/xsnap-1.4.3.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

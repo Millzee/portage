@@ -1,22 +1,13 @@
-berkdb? ( =sys-libs/db-4* ) ldap? ( net-nds/openldap ) mysql? ( virtual/mysql ) pam? ( virtual/pam ) postgres? ( virtual/postgresql-server ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-berkdb? ( =sys-libs/db-4* ) ldap? ( net-nds/openldap ) mysql? ( virtual/mysql ) pam? ( virtual/pam ) postgres? ( virtual/postgresql-server )
-0
-mirror://sourceforge/pll/libhome-0.10.1.tar.gz
-
-http://pll.sourceforge.net
-LGPL-2
-libhome is a library providing a getpwnam() emulation
-~amd64 ~x86
-toolchain-funcs portability versionator multilib libtool db-use autotools eutils
-berkdb ldap mysql pam postgres
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=berkdb? ( =sys-libs/db-4* ) ldap? ( net-nds/openldap ) mysql? ( virtual/mysql ) pam? ( virtual/pam ) postgres? ( virtual/postgresql-server ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=libhome is a library providing a getpwnam() emulation
+EAPI=0
+HOMEPAGE=http://pll.sourceforge.net
+IUSE=berkdb ldap mysql pam postgres
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2
+RDEPEND=berkdb? ( =sys-libs/db-4* ) ldap? ( net-nds/openldap ) mysql? ( virtual/mysql ) pam? ( virtual/pam ) postgres? ( virtual/postgresql-server )
+SLOT=0
+SRC_URI=mirror://sourceforge/pll/libhome-0.10.1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	db-use	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

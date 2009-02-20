@@ -1,22 +1,12 @@
-virtual/xemacs
-app-xemacs/fsf-compat app-xemacs/xemacs-base app-xemacs/mail-lib
-0
-http://ftp.xemacs.org/pub/xemacs/packages/idlwave-1.32-pkg.tar.gz
-
-http://xemacs.org/
-GPL-2
-Editing and Shell mode for the Interactive Data Language
-alpha amd64 ppc ppc64 sparc x86
-xemacs-packages
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/xemacs
+DESCRIPTION=Editing and Shell mode for the Interactive Data Language
+EAPI=0
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=app-xemacs/fsf-compat app-xemacs/xemacs-base app-xemacs/mail-lib
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/idlwave-1.32-pkg.tar.gz
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

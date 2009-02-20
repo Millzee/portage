@@ -1,22 +1,12 @@
-sys-libs/pam
-sys-libs/pam
-0
-http://cpbotha.net/files/pam_pwdfile/pam_pwdfile-0.99.tar.gz
-
-http://cpbotha.net/pam_pwdfile.html
-GPL-2
-PAM module for authenticating against passwd-like files.
-~amd64 ppc x86
-toolchain-funcs portability flag-o-matic multilib pam eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/pam
+DESCRIPTION=PAM module for authenticating against passwd-like files.
+EAPI=0
+HOMEPAGE=http://cpbotha.net/pam_pwdfile.html
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/pam
+SLOT=0
+SRC_URI=http://cpbotha.net/files/pam_pwdfile/pam_pwdfile-0.99.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

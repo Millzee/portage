@@ -1,22 +1,12 @@
-virtual/perl-Test-Simple dev-lang/perl
-virtual/perl-Test-Simple dev-lang/perl
-0
-mirror://cpan/authors/id/A/AB/ABW/AppConfig-1.56.tar.gz
-
-http://search.cpan.org/~abw/
-|| ( Artistic GPL-2 )
-Perl5 module for reading configuration files and parsing command line arguments.
-alpha amd64 ia64 ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-Test-Simple dev-lang/perl
+DESCRIPTION=Perl5 module for reading configuration files and parsing command line arguments.
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~abw/
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-Test-Simple dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AB/ABW/AppConfig-1.56.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

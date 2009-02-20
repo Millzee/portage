@@ -1,22 +1,12 @@
-virtual/php
-app-misc/lirc media-video/mplayer virtual/php
-0
-http://spaceparanoids.org/downloads/mplayer-resume/mplayer-resume-1.5.tar.gz
-
-http://www.spaceparanoids.org/trac/bend/wiki/mplayer-resume
-public-domain
-MPlayer wrapper script to save/resume playback position
-~amd64 ~x86
-toolchain-funcs portability depend.php multilib phpconfutils eutils
-
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=virtual/php
+DESCRIPTION=MPlayer wrapper script to save/resume playback position
+EAPI=0
+HOMEPAGE=http://www.spaceparanoids.org/trac/bend/wiki/mplayer-resume
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=app-misc/lirc media-video/mplayer virtual/php
+SLOT=0
+SRC_URI=http://spaceparanoids.org/downloads/mplayer-resume/mplayer-resume-1.5.tar.gz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

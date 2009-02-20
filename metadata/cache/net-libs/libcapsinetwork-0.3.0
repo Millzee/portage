@@ -1,22 +1,11 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-http://unixcode.org/downloads/libcapsinetwork/libcapsinetwork-0.3.0.tar.bz2
-
-http://unixcode.org/libcapsinetwork
-LGPL-2.1
-C++ network library to allow fast development of server daemon processes
-~amd64 ppc sparc x86
-toolchain-funcs portability flag-o-matic multilib libtool autotools eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=C++ network library to allow fast development of server daemon processes
+EAPI=0
+HOMEPAGE=http://unixcode.org/libcapsinetwork
+KEYWORDS=~amd64 ppc sparc x86
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://unixcode.org/downloads/libcapsinetwork/libcapsinetwork-0.3.0.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

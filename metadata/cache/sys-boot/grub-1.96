@@ -1,22 +1,13 @@
->=sys-libs/ncurses-5.2-r5 dev-libs/lzo
->=sys-libs/ncurses-5.2-r5 dev-libs/lzo
-0
-ftp://alpha.gnu.org/gnu/grub/grub-1.96.tar.gz mirror://gentoo/grub-1.96.tar.gz
-
-http://www.gnu.org/software/grub/
-GPL-3
-GNU GRUB 2 boot loader
-
-mount-boot toolchain-funcs portability flag-o-matic multilib eutils
-custom-cflags multislot static
-
-
-virtual/bootloader
-0
-
-compile install postinst preinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst
+DEPEND=>=sys-libs/ncurses-5.2-r5 dev-libs/lzo
+DESCRIPTION=GNU GRUB 2 boot loader
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/grub/
+IUSE=custom-cflags multislot static
+LICENSE=GPL-3
+PROVIDE=virtual/bootloader
+RDEPEND=>=sys-libs/ncurses-5.2-r5 dev-libs/lzo
+SLOT=0
+SRC_URI=ftp://alpha.gnu.org/gnu/grub/grub-1.96.tar.gz mirror://gentoo/grub-1.96.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	mount-boot	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

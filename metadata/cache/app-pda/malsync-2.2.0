@@ -1,22 +1,12 @@
-~app-pda/pilot-link-0.11.8 !=dev-libs/libmal-0.44
-~app-pda/pilot-link-0.11.8 !=dev-libs/libmal-0.44
-0
-http://www.tomw.org/malsync/malsync_2.2.0.src.tar.gz
-
-http://www.tomw.org/malsync/
-MPL-1.0
-A command line tool that allows Palm Pilots to synchronize to the AvantGo.com server
-~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=~app-pda/pilot-link-0.11.8 !=dev-libs/libmal-0.44
+DESCRIPTION=A command line tool that allows Palm Pilots to synchronize to the AvantGo.com server
+EAPI=0
+HOMEPAGE=http://www.tomw.org/malsync/
+KEYWORDS=~ppc ~x86
+LICENSE=MPL-1.0
+RDEPEND=~app-pda/pilot-link-0.11.8 !=dev-libs/libmal-0.44
+SLOT=0
+SRC_URI=http://www.tomw.org/malsync/malsync_2.2.0.src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

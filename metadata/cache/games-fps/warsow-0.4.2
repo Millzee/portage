@@ -1,22 +1,13 @@
-opengl? ( media-libs/jpeg media-libs/libvorbis media-libs/libsdl net-misc/curl virtual/opengl x11-libs/libXinerama x11-libs/libXxf86dga x11-libs/libXxf86vm openal? ( media-libs/openal ) ) !opengl? ( !dedicated? ( media-libs/jpeg media-libs/libvorbis media-libs/libsdl net-misc/curl virtual/opengl x11-libs/libXinerama x11-libs/libXxf86dga x11-libs/libXxf86vm openal? ( media-libs/openal ) ) ) app-arch/unzip x11-misc/makedepend opengl? ( x11-proto/xineramaproto x11-proto/xf86dgaproto x11-proto/xf86vidmodeproto ) !opengl? ( !dedicated? ( x11-proto/xineramaproto x11-proto/xf86dgaproto x11-proto/xf86vidmodeproto ) )
-opengl? ( media-libs/jpeg media-libs/libvorbis media-libs/libsdl net-misc/curl virtual/opengl x11-libs/libXinerama x11-libs/libXxf86dga x11-libs/libXxf86vm openal? ( media-libs/openal ) ) !opengl? ( !dedicated? ( media-libs/jpeg media-libs/libvorbis media-libs/libsdl net-misc/curl virtual/opengl x11-libs/libXinerama x11-libs/libXxf86dga x11-libs/libXxf86vm openal? ( media-libs/openal ) ) )
-0
-http://tastyspleen.net/quake/downloads/mods/warsow/warsow_0.42_unified.zip http://tastyspleen.net/quake/downloads/mods/warsow/warsow_0.42_sdk.zip mirror://gentoo/warsow.png
-
-http://www.warsow.net/
-GPL-2 warsow
-Multiplayer FPS based on the QFusion engine (evolved from Quake 2)
-amd64 x86
-toolchain-funcs portability versionator multilib base games eutils
-debug dedicated irc openal opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=opengl? ( media-libs/jpeg media-libs/libvorbis media-libs/libsdl net-misc/curl virtual/opengl x11-libs/libXinerama x11-libs/libXxf86dga x11-libs/libXxf86vm openal? ( media-libs/openal ) ) !opengl? ( !dedicated? ( media-libs/jpeg media-libs/libvorbis media-libs/libsdl net-misc/curl virtual/opengl x11-libs/libXinerama x11-libs/libXxf86dga x11-libs/libXxf86vm openal? ( media-libs/openal ) ) ) app-arch/unzip x11-misc/makedepend opengl? ( x11-proto/xineramaproto x11-proto/xf86dgaproto x11-proto/xf86vidmodeproto ) !opengl? ( !dedicated? ( x11-proto/xineramaproto x11-proto/xf86dgaproto x11-proto/xf86vidmodeproto ) )
+DESCRIPTION=Multiplayer FPS based on the QFusion engine (evolved from Quake 2)
+EAPI=0
+HOMEPAGE=http://www.warsow.net/
+IUSE=debug dedicated irc openal opengl
+KEYWORDS=amd64 x86
+LICENSE=GPL-2 warsow
+RDEPEND=opengl? ( media-libs/jpeg media-libs/libvorbis media-libs/libsdl net-misc/curl virtual/opengl x11-libs/libXinerama x11-libs/libXxf86dga x11-libs/libXxf86vm openal? ( media-libs/openal ) ) !opengl? ( !dedicated? ( media-libs/jpeg media-libs/libvorbis media-libs/libsdl net-misc/curl virtual/opengl x11-libs/libXinerama x11-libs/libXxf86dga x11-libs/libXxf86vm openal? ( media-libs/openal ) ) )
+SLOT=0
+SRC_URI=http://tastyspleen.net/quake/downloads/mods/warsow/warsow_0.42_unified.zip http://tastyspleen.net/quake/downloads/mods/warsow/warsow_0.42_sdk.zip mirror://gentoo/warsow.png
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

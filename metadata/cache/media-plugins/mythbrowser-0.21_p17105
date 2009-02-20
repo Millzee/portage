@@ -1,22 +1,13 @@
->=kde-base/kdelibs-3.1 dev-util/subversion net-misc/rsync dev-util/subversion net-misc/rsync =media-tv/mythtv-0.21* >=sys-apps/sed-4
->=kde-base/kdelibs-3.1 =media-tv/mythtv-0.21*
-0
-
-strip
-http://www.mythtv.org
-GPL-2
-Web browser module for MythTV.
-amd64 ppc x86
-toolchain-funcs mythtv portability versionator multilib subversion mythtv-plugins kde-functions eutils qt3
-debug mmx
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=kde-base/kdelibs-3.1 dev-util/subversion net-misc/rsync dev-util/subversion net-misc/rsync =media-tv/mythtv-0.21* >=sys-apps/sed-4
+DESCRIPTION=Web browser module for MythTV.
+EAPI=0
+HOMEPAGE=http://www.mythtv.org
+IUSE=debug mmx
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=kde-base/kdelibs-3.1 =media-tv/mythtv-0.21*
+RESTRICT=strip
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	mythtv	/home/Funtoo/portage/eclass	1235082859	mythtv-plugins	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

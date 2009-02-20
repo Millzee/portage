@@ -1,22 +1,12 @@
-x11-libs/libXext x11-proto/xextproto
-x11-libs/libXext
-0
-http://www2.giganet.net/~nakayama/xfreecell-1.0.5b.tgz http://www2.giganet.net/~nakayama/MSNumbers.gz
-
-http://www2.giganet.net/~nakayama/
-as-is
-A freecell game for X
-amd64 ~ppc ppc64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=x11-libs/libXext x11-proto/xextproto
+DESCRIPTION=A freecell game for X
+EAPI=0
+HOMEPAGE=http://www2.giganet.net/~nakayama/
+KEYWORDS=amd64 ~ppc ppc64 x86
+LICENSE=as-is
+RDEPEND=x11-libs/libXext
+SLOT=0
+SRC_URI=http://www2.giganet.net/~nakayama/xfreecell-1.0.5b.tgz http://www2.giganet.net/~nakayama/MSNumbers.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,12 @@
-|| ( x11-libs/qt-gui:4 x11-libs/qt:4 )
-|| ( x11-libs/qt-gui:4 x11-libs/qt:4 ) sys-fs/fuse sys-fs/fuseiso || ( kde-base/dolphin kde-base/kdebase kde-base/konqueror gnome-base/nautilus ) >=app-crypt/gnupg-2 app-crypt/pinentry
-0
-mirror://sourceforge/acetoneiso2/acetoneiso2_2.0.2_source.tar.bz2
-
-http://www.acetoneteam.org/
-GPL-3
-Graphical tool to do a lot things with image files like extracting, mounting, encrypting.
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib eutils
-
-
-
-
-2
-
-configure install prepare setup
-
-
-
-
-
+DEFINED_PHASES=configure install prepare setup
+DEPEND=|| ( x11-libs/qt-gui:4 x11-libs/qt:4 )
+DESCRIPTION=Graphical tool to do a lot things with image files like extracting, mounting, encrypting.
+EAPI=2
+HOMEPAGE=http://www.acetoneteam.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=|| ( x11-libs/qt-gui:4 x11-libs/qt:4 ) sys-fs/fuse sys-fs/fuseiso || ( kde-base/dolphin kde-base/kdebase kde-base/konqueror gnome-base/nautilus ) >=app-crypt/gnupg-2 app-crypt/pinentry
+SLOT=0
+SRC_URI=mirror://sourceforge/acetoneiso2/acetoneiso2_2.0.2_source.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

@@ -1,22 +1,12 @@
-net-print/cups virtual/ghostscript
-net-print/cups virtual/ghostscript
-0
-http://cip.physik.uni-wuerzburg.de/~vrbehr/cups-pdf/src/cups-pdf_2.4.5.tar.gz
-
-http://cip.physik.uni-wuerzburg.de/~vrbehr/cups-pdf/
-GPL-2
-Provides a virtual printer for CUPS to produce PDF files.
-~amd64 ~ppc sparc ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=net-print/cups virtual/ghostscript
+DESCRIPTION=Provides a virtual printer for CUPS to produce PDF files.
+EAPI=0
+HOMEPAGE=http://cip.physik.uni-wuerzburg.de/~vrbehr/cups-pdf/
+KEYWORDS=~amd64 ~ppc sparc ~x86
+LICENSE=GPL-2
+RDEPEND=net-print/cups virtual/ghostscript
+SLOT=0
+SRC_URI=http://cip.physik.uni-wuerzburg.de/~vrbehr/cups-pdf/src/cups-pdf_2.4.5.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

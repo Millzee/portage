@@ -1,22 +1,14 @@
-app-arch/unzip
-games-fps/doom3
-0
-http://ducttape.glenmurphy.com/ducttape0006.zip
-mirror strip
-http://ducttape.glenmurphy.com/
-as-is
-Doom III Duct Tape - sticks flashlights to your machinegun and shotgun
--* amd64 x86
-toolchain-funcs portability multilib base games games-mods eutils
-dedicated opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Doom III Duct Tape - sticks flashlights to your machinegun and shotgun
+EAPI=0
+HOMEPAGE=http://ducttape.glenmurphy.com/
+IUSE=dedicated opengl
+KEYWORDS=-* amd64 x86
+LICENSE=as-is
+RDEPEND=games-fps/doom3
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=http://ducttape.glenmurphy.com/ducttape0006.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	games-mods	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

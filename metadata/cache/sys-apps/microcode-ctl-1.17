@@ -1,22 +1,10 @@
-
-
-0
-http://www.urbanmyth.org/microcode/microcode_ctl-1.17.tar.gz
-
-http://www.urbanmyth.org/microcode
-GPL-2
-Intel processor microcode update utility
--* amd64 x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=Intel processor microcode update utility
+EAPI=0
+HOMEPAGE=http://www.urbanmyth.org/microcode
+KEYWORDS=-* amd64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.urbanmyth.org/microcode/microcode_ctl-1.17.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

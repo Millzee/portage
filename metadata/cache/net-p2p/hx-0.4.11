@@ -1,22 +1,13 @@
-ssl? ( >=dev-libs/openssl-0.9.6d ) >=sys-libs/zlib-1.1.4 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-ssl? ( >=dev-libs/openssl-0.9.6d ) >=sys-libs/zlib-1.1.4
-0
-http://projects.acidbeats.de/mhxd-0.4.11.tar.bz2
-
-http://hotlinex.sf.net/
-GPL-2
-This is a Hotline 1.5+ compatible *nix Hotline Client in CLI. It supports IRC compatibility.
-ppc ~sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-ssl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=ssl? ( >=dev-libs/openssl-0.9.6d ) >=sys-libs/zlib-1.1.4 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=This is a Hotline 1.5+ compatible *nix Hotline Client in CLI. It supports IRC compatibility.
+EAPI=0
+HOMEPAGE=http://hotlinex.sf.net/
+IUSE=ssl
+KEYWORDS=ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=ssl? ( >=dev-libs/openssl-0.9.6d ) >=sys-libs/zlib-1.1.4
+SLOT=0
+SRC_URI=http://projects.acidbeats.de/mhxd-0.4.11.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

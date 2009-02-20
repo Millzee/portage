@@ -1,22 +1,12 @@
-media-libs/libpng
-media-libs/libpng
-0
-http://hem.bredband.net/gmogmo/fbgrab/fbgrab-1.0.tar.gz
-
-http://hem.bredband.net/gmogmo/fbgrab/
-GPL-2
-Framebuffer screenshot utility
-amd64 arm ~hppa ppc ~sparc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/libpng
+DESCRIPTION=Framebuffer screenshot utility
+EAPI=0
+HOMEPAGE=http://hem.bredband.net/gmogmo/fbgrab/
+KEYWORDS=amd64 arm ~hppa ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng
+SLOT=0
+SRC_URI=http://hem.bredband.net/gmogmo/fbgrab/fbgrab-1.0.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

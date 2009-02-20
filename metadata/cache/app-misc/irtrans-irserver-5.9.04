@@ -1,22 +1,12 @@
-
-virtual/libc
-0
-http://ftp.mars.arge.at/irtrans/irserver-src-5.9.04.tar.gz
-strip
-http://www.irtrans.de
-BSD
-IRTrans Server
-~x86 ~amd64
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=IRTrans Server
+EAPI=0
+HOMEPAGE=http://www.irtrans.de
+KEYWORDS=~x86 ~amd64
+LICENSE=BSD
+RDEPEND=virtual/libc
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://ftp.mars.arge.at/irtrans/irserver-src-5.9.04.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

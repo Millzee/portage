@@ -1,22 +1,13 @@
-dev-util/pkgconfig dev-util/intltool >=sys-apps/sed-4
->=x11-libs/gtk+-2.6 >=x11-libs/pango-1.6 >=gnome-base/libgnomeui-2 >=gnome-base/gnome-panel-2 >=dev-python/gconf-python-2.14 >=dev-python/gnome-keyring-python-2.14 >=dev-python/gnome-applets-python-2.14 >=dev-python/dbus-python-0.80 >=dev-libs/dbus-glib-0.71 >=dev-python/pygtk-2.6 dev-python/pygobject libnotify? ( dev-python/notify-python )
-0
-http://www.kuliniewicz.org/music-applet/downloads/music-applet-2.5.1.tar.gz
-
-http://www.kuliniewicz.org/music-applet
-GPL-2
-GNOME applet to control various music players
-~amd64 ~x86
-toolchain-funcs portability python multilib alternatives gnome2-utils gnome2 gnome.org fdo-mime libtool eutils
-libnotify debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=dev-util/pkgconfig dev-util/intltool >=sys-apps/sed-4
+DESCRIPTION=GNOME applet to control various music players
+EAPI=0
+HOMEPAGE=http://www.kuliniewicz.org/music-applet
+IUSE=libnotify debug
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.6 >=x11-libs/pango-1.6 >=gnome-base/libgnomeui-2 >=gnome-base/gnome-panel-2 >=dev-python/gconf-python-2.14 >=dev-python/gnome-keyring-python-2.14 >=dev-python/gnome-applets-python-2.14 >=dev-python/dbus-python-0.80 >=dev-libs/dbus-glib-0.71 >=dev-python/pygtk-2.6 dev-python/pygobject libnotify? ( dev-python/notify-python )
+SLOT=0
+SRC_URI=http://www.kuliniewicz.org/music-applet/downloads/music-applet-2.5.1.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

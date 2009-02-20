@@ -1,22 +1,12 @@
-dev-libs/libusb
-dev-libs/libusb
-0
-mirror://sourceforge/rioutil/rioutil-1.5.0.tar.gz
-
-http://rioutil.sourceforge.net/
-LGPL-2.1
-Command line tool for transfering mp3s to and from a Rio 600, 800, Rio Riot, and Nike PSA/Play
-amd64 ~ppc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-libs/libusb
+DESCRIPTION=Command line tool for transfering mp3s to and from a Rio 600, 800, Rio Riot, and Nike PSA/Play
+EAPI=0
+HOMEPAGE=http://rioutil.sourceforge.net/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-libs/libusb
+SLOT=0
+SRC_URI=mirror://sourceforge/rioutil/rioutil-1.5.0.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

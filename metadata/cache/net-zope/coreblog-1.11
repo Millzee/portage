@@ -1,22 +1,11 @@
-
-net-zope/zope app-admin/zprod-manager
-0
-http://coreblog.org//junk/COREBlog111.tgz
-
-http://coreblog.org/
-GPL-2
-Blog/Weblog/Web Nikki system for Zope
-~ppc ~x86
-zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DESCRIPTION=Blog/Weblog/Web Nikki system for Zope
+EAPI=0
+HOMEPAGE=http://coreblog.org/
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://coreblog.org//junk/COREBlog111.tgz
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

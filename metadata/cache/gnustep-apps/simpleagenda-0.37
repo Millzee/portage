@@ -1,22 +1,13 @@
-dev-libs/libical >=virtual/gnustep-back-0.13.0 >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back
-dev-libs/libical >=virtual/gnustep-back-0.13.0 >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back debug? ( >=sys-devel/gdb-6.0 )
-0
-http://coyote.octets.fr/pub/gnustep/SimpleAgenda-0.37.tar.gz
-
-http://coyote.octets.fr/pub/gnustep/
-GPL-2
-a simple calender and agenda application
-~amd64 ~ppc ~x86
-gnustep-base gnustep-2 toolchain-funcs portability flag-o-matic multilib eutils
-debug doc
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=dev-libs/libical >=virtual/gnustep-back-0.13.0 >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back
+DESCRIPTION=a simple calender and agenda application
+EAPI=0
+HOMEPAGE=http://coyote.octets.fr/pub/gnustep/
+IUSE=debug doc
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libical >=virtual/gnustep-back-0.13.0 >=gnustep-base/gnustep-make-2.0 virtual/gnustep-back debug? ( >=sys-devel/gdb-6.0 )
+SLOT=0
+SRC_URI=http://coyote.octets.fr/pub/gnustep/SimpleAgenda-0.37.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	gnustep-2	/home/Funtoo/portage/eclass	1235082859	gnustep-base	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

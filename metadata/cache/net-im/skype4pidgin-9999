@@ -1,22 +1,12 @@
-net-im/pidgin dbus? ( >sys-apps/dbus-1.0 ) net-im/skype >dev-libs/glib-2.0 dev-util/subversion net-misc/rsync
-net-im/pidgin dbus? ( >sys-apps/dbus-1.0 ) net-im/skype
-0
-
-
-http://myjobspace.co.nz/images/pidgin/
-GPL-2 CCPL-Attribution-ShareAlike-NonCommercial-3.0
-Skype API PLugin for Pidgin
-~amd64 ~x86
-subversion toolchain-funcs multilib portability eutils
-dbus nls
-
-
-
-0
-
-compile install preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst unpack
+DEPEND=net-im/pidgin dbus? ( >sys-apps/dbus-1.0 ) net-im/skype >dev-libs/glib-2.0 dev-util/subversion net-misc/rsync
+DESCRIPTION=Skype API PLugin for Pidgin
+EAPI=0
+HOMEPAGE=http://myjobspace.co.nz/images/pidgin/
+IUSE=dbus nls
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 CCPL-Attribution-ShareAlike-NonCommercial-3.0
+RDEPEND=net-im/pidgin dbus? ( >sys-apps/dbus-1.0 ) net-im/skype
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

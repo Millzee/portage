@@ -1,22 +1,12 @@
->=net-zope/plone-2.1
->=net-zope/plone-2.1 net-zope/zope app-admin/zprod-manager
-0
-http://plone.org/products/simpleportlet/releases/1.1.1/SimplePortlet-1.1.1.tar.gz
-
-http://plone.org/products/simpleportlet
-GPL-2
-Product that lets the user to create portlets in Plone like any other content type
-~x86
-toolchain-funcs multilib portability eutils zproduct
-
-
-
-
-0
-
-config install postinst prerm unpack
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm unpack
+DEPEND=>=net-zope/plone-2.1
+DESCRIPTION=Product that lets the user to create portlets in Plone like any other content type
+EAPI=0
+HOMEPAGE=http://plone.org/products/simpleportlet
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=net-zope/plone-2.1 net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://plone.org/products/simpleportlet/releases/1.1.1/SimplePortlet-1.1.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

@@ -1,22 +1,12 @@
-net-libs/libpcap
-net-firewall/iptables net-libs/libpcap
-0
-http://www.zeroflux.org/knock/files/knock-0.5.tar.gz
-
-http://www.zeroflux.org/cgi-bin/cvstrac.cgi/knock/wiki
-GPL-2
-A simple port-knocking daemon
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=net-libs/libpcap
+DESCRIPTION=A simple port-knocking daemon
+EAPI=0
+HOMEPAGE=http://www.zeroflux.org/cgi-bin/cvstrac.cgi/knock/wiki
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=net-firewall/iptables net-libs/libpcap
+SLOT=0
+SRC_URI=http://www.zeroflux.org/knock/files/knock-0.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

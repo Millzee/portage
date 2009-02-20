@@ -1,22 +1,13 @@
-selinux? ( sys-libs/libselinux ) acl? ( sys-apps/acl ) xattr? ( sys-apps/attr ) nls? ( >=sys-devel/gettext-0.15 ) !<sys-apps/util-linux-2.13 !sys-apps/stat !net-mail/base64 !sys-apps/mktemp >=sys-libs/ncurses-5.3-r5 app-arch/lzma-utils >=sys-devel/automake-1.10.1 >=sys-devel/autoconf-2.61 >=sys-devel/m4-1.4-r1 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-selinux? ( sys-libs/libselinux ) acl? ( sys-apps/acl ) xattr? ( sys-apps/attr ) nls? ( >=sys-devel/gettext-0.15 ) !<sys-apps/util-linux-2.13 !sys-apps/stat !net-mail/base64 !sys-apps/mktemp >=sys-libs/ncurses-5.3-r5
-0
-ftp://alpha.gnu.org/gnu/coreutils/coreutils-6.12.tar.lzma mirror://gnu/coreutils/coreutils-6.12.tar.lzma mirror://gentoo/coreutils-6.12.tar.lzma mirror://gentoo/coreutils-6.12-patches-1.0.tar.lzma http://dev.gentoo.org/~vapier/dist/coreutils-6.12-patches-1.0.tar.lzma
-
-http://www.gnu.org/software/coreutils/
-GPL-3
-Standard GNU file utilities (chmod, cp, dd, dir, ls...), text utilities (sort, tr, head, wc..), and shell utilities (whoami, who,...)
-~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
-toolchain-funcs portability flag-o-matic multilib libtool autotools eutils
-acl nls selinux static xattr vanilla
-
-
-
-0
-
-compile install postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test unpack
+DEPEND=selinux? ( sys-libs/libselinux ) acl? ( sys-apps/acl ) xattr? ( sys-apps/attr ) nls? ( >=sys-devel/gettext-0.15 ) !<sys-apps/util-linux-2.13 !sys-apps/stat !net-mail/base64 !sys-apps/mktemp >=sys-libs/ncurses-5.3-r5 app-arch/lzma-utils >=sys-devel/automake-1.10.1 >=sys-devel/autoconf-2.61 >=sys-devel/m4-1.4-r1 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Standard GNU file utilities (chmod, cp, dd, dir, ls...), text utilities (sort, tr, head, wc..), and shell utilities (whoami, who,...)
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/coreutils/
+IUSE=acl nls selinux static xattr vanilla
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+LICENSE=GPL-3
+RDEPEND=selinux? ( sys-libs/libselinux ) acl? ( sys-apps/acl ) xattr? ( sys-apps/attr ) nls? ( >=sys-devel/gettext-0.15 ) !<sys-apps/util-linux-2.13 !sys-apps/stat !net-mail/base64 !sys-apps/mktemp >=sys-libs/ncurses-5.3-r5
+SLOT=0
+SRC_URI=ftp://alpha.gnu.org/gnu/coreutils/coreutils-6.12.tar.lzma mirror://gnu/coreutils/coreutils-6.12.tar.lzma mirror://gentoo/coreutils-6.12.tar.lzma mirror://gentoo/coreutils-6.12-patches-1.0.tar.lzma http://dev.gentoo.org/~vapier/dist/coreutils-6.12-patches-1.0.tar.lzma
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

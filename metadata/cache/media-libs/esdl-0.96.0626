@@ -1,22 +1,12 @@
->=dev-lang/erlang-9b >=media-libs/libsdl-1.2.5 >=sys-apps/sed-4
->=dev-lang/erlang-9b >=media-libs/libsdl-1.2.5
-0
-mirror://sourceforge/esdl/esdl-0.96.0626.src.tar.gz
-
-http://esdl.sourceforge.net/
-BSD
-Erlang bindings for the SDL library
-~alpha ~amd64 ppc ~ppc64 x86
-fixheadtails toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=>=dev-lang/erlang-9b >=media-libs/libsdl-1.2.5 >=sys-apps/sed-4
+DESCRIPTION=Erlang bindings for the SDL library
+EAPI=0
+HOMEPAGE=http://esdl.sourceforge.net/
+KEYWORDS=~alpha ~amd64 ppc ~ppc64 x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/erlang-9b >=media-libs/libsdl-1.2.5
+SLOT=0
+SRC_URI=mirror://sourceforge/esdl/esdl-0.96.0626.src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

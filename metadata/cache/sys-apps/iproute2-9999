@@ -1,22 +1,11 @@
-!net-misc/arpd !minimal? ( berkdb? ( sys-libs/db ) ) atm? ( net-dialup/linux-atm ) elibc_glibc? ( >=sys-libs/glibc-2.7 ) >=virtual/os-headers-2.6.25 >=dev-util/git-1.5
-!net-misc/arpd !minimal? ( berkdb? ( sys-libs/db ) ) atm? ( net-dialup/linux-atm )
-0
-
-
-http://linux-net.osdl.org/index.php/Iproute2
-GPL-2
-kernel routing and traffic control utilities
-
-toolchain-funcs git multilib portability eutils
-atm berkdb minimal
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=!net-misc/arpd !minimal? ( berkdb? ( sys-libs/db ) ) atm? ( net-dialup/linux-atm ) elibc_glibc? ( >=sys-libs/glibc-2.7 ) >=virtual/os-headers-2.6.25 >=dev-util/git-1.5
+DESCRIPTION=kernel routing and traffic control utilities
+EAPI=0
+HOMEPAGE=http://linux-net.osdl.org/index.php/Iproute2
+IUSE=atm berkdb minimal
+LICENSE=GPL-2
+RDEPEND=!net-misc/arpd !minimal? ( berkdb? ( sys-libs/db ) ) atm? ( net-dialup/linux-atm )
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	git	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

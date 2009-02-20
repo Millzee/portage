@@ -1,22 +1,13 @@
->=sys-apps/sed-4 >=dev-lang/tk-8.4 x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp
->=sys-apps/sed-4 >=dev-lang/tk-8.4 x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp
-0
-mirror://sourceforge/tix/Tix8.4.2-src.tar.gz
-test
-http://tix.sourceforge.net/
-BSD
-A widget library for Tcl/Tk. Has been ported to Python and Perl, too.
-amd64 ~ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=sys-apps/sed-4 >=dev-lang/tk-8.4 x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp
+DESCRIPTION=A widget library for Tcl/Tk. Has been ported to Python and Perl, too.
+EAPI=0
+HOMEPAGE=http://tix.sourceforge.net/
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=BSD
+RDEPEND=>=sys-apps/sed-4 >=dev-lang/tk-8.4 x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/tix/Tix8.4.2-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

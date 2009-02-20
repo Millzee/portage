@@ -1,22 +1,12 @@
-sys-libs/glibc
-sys-libs/glibc
-0
-mirror://sourceforge/nipper/nipper-0.10.10.tgz
-
-http://www.sourceforge.net/projects/nipper
-GPL-2
-Script to parse and report on Cisco config errors
-~x86 ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/glibc
+DESCRIPTION=Script to parse and report on Cisco config errors
+EAPI=0
+HOMEPAGE=http://www.sourceforge.net/projects/nipper
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=sys-libs/glibc
+SLOT=0
+SRC_URI=mirror://sourceforge/nipper/nipper-0.10.10.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

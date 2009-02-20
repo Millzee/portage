@@ -1,22 +1,11 @@
->=sys-apps/sed-4
-
-0
-mirror://gnu/uucp/uucp-1.07.tar.gz
-
-http://www.airs.com/ian/uucp.html
-GPL-2
-Taylor UUCP
-alpha amd64 ia64 ppc sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst unpack
+DEPEND=>=sys-apps/sed-4
+DESCRIPTION=Taylor UUCP
+EAPI=0
+HOMEPAGE=http://www.airs.com/ian/uucp.html
+KEYWORDS=alpha amd64 ia64 ppc sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://gnu/uucp/uucp-1.07.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

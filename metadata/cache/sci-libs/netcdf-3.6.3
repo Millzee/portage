@@ -1,22 +1,12 @@
->=sys-devel/libtool-2.2 doc? ( virtual/latex-base ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-3.6.3.tar.gz
-
-http://www.unidata.ucar.edu/software/netcdf/
-UCAR-Unidata
-Scientific library and interface for array oriented data access
-~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability flag-o-matic multilib fortran libtool autotools eutils
-fortran debug doc debug
-
-
-
-2
-
-configure install prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=configure install prepare setup unpack
+DEPEND=>=sys-devel/libtool-2.2 doc? ( virtual/latex-base ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Scientific library and interface for array oriented data access
+EAPI=2
+HOMEPAGE=http://www.unidata.ucar.edu/software/netcdf/
+IUSE=fortran debug doc debug
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
+LICENSE=UCAR-Unidata
+SLOT=0
+SRC_URI=ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-3.6.3.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,13 @@
->=sys-libs/ncurses-5
->=sys-libs/ncurses-5
-0
-http://tetrinet.or.cz/download/tetrinet-0.11.tar.bz2
-
-http://tetrinet.or.cz/
-as-is
-console based tetrinet inc. standalone server
-~amd64 ppc x86
-toolchain-funcs portability flag-o-matic multilib base games eutils
-ipv6
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=>=sys-libs/ncurses-5
+DESCRIPTION=console based tetrinet inc. standalone server
+EAPI=2
+HOMEPAGE=http://tetrinet.or.cz/
+IUSE=ipv6
+KEYWORDS=~amd64 ppc x86
+LICENSE=as-is
+RDEPEND=>=sys-libs/ncurses-5
+SLOT=0
+SRC_URI=http://tetrinet.or.cz/download/tetrinet-0.11.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

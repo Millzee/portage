@@ -1,22 +1,12 @@
-sys-libs/ncurses
-sys-libs/ncurses
-0
-mirror://gentoo/wavemon-0.4.0b.tar.gz
-
-http://www.janmorgenstern.de/projects-software.html
-GPL-2
-ncurses based monitor util for your wavelan cards
-x86 ppc sparc ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=sys-libs/ncurses
+DESCRIPTION=ncurses based monitor util for your wavelan cards
+EAPI=0
+HOMEPAGE=http://www.janmorgenstern.de/projects-software.html
+KEYWORDS=x86 ppc sparc ~amd64
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses
+SLOT=0
+SRC_URI=mirror://gentoo/wavemon-0.4.0b.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

@@ -1,22 +1,13 @@
-x11-libs/qt:3
-x11-libs/qt:3
-0
-ftp://ftp.trolltech.com/qsa/source/qsa-x11-free-1.1.5.tar.gz
-
-http://www.trolltech.com/
-GPL-2
-Qt Script for Applications, a ECMAScript based scripting toolkit for making customizable Qt/C++ applications.
-~amd64 ~ppc ~x86
-toolchain-funcs qt3 portability versionator multilib eutils
-doc examples ide threads
-
-
-
-1
-
-compile install postinst prerm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm unpack
+DEPEND=x11-libs/qt:3
+DESCRIPTION=Qt Script for Applications, a ECMAScript based scripting toolkit for making customizable Qt/C++ applications.
+EAPI=1
+HOMEPAGE=http://www.trolltech.com/
+IUSE=doc examples ide threads
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt:3
+SLOT=0
+SRC_URI=ftp://ftp.trolltech.com/qsa/source/qsa-x11-free-1.1.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

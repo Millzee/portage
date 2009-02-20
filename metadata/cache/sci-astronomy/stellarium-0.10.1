@@ -1,22 +1,13 @@
-virtual/opengl virtual/glu media-libs/libpng media-libs/freetype:2 dev-libs/boost media-libs/jpeg || ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 x11-libs/qt-script:4 x11-libs/qt-opengl:4 ) >=x11-libs/qt-4.4.2:4[opengl] ) nls? ( virtual/libintl ) >=dev-util/cmake-2.4.7 nls? ( sys-devel/gettext ) x11-libs/libXt >=dev-util/cmake-2.4.6
-virtual/opengl virtual/glu media-libs/libpng media-libs/freetype:2 dev-libs/boost media-libs/jpeg || ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 x11-libs/qt-script:4 x11-libs/qt-opengl:4 ) >=x11-libs/qt-4.4.2:4[opengl] ) nls? ( virtual/libintl )
-0
-mirror://sourceforge/stellarium/stellarium-0.10.1.tar.gz
-
-http://www.stellarium.org/
-GPL-2 BitstreamVera
-Stellarium renders 3D photo-realistic skies in real time.
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-nls
-
-
-
-2
-
-compile configure install test
-
-
-
-
-
+DEFINED_PHASES=compile configure install test
+DEPEND=virtual/opengl virtual/glu media-libs/libpng media-libs/freetype:2 dev-libs/boost media-libs/jpeg || ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 x11-libs/qt-script:4 x11-libs/qt-opengl:4 ) >=x11-libs/qt-4.4.2:4[opengl] ) nls? ( virtual/libintl ) >=dev-util/cmake-2.4.7 nls? ( sys-devel/gettext ) x11-libs/libXt >=dev-util/cmake-2.4.6
+DESCRIPTION=Stellarium renders 3D photo-realistic skies in real time.
+EAPI=2
+HOMEPAGE=http://www.stellarium.org/
+IUSE=nls
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2 BitstreamVera
+RDEPEND=virtual/opengl virtual/glu media-libs/libpng media-libs/freetype:2 dev-libs/boost media-libs/jpeg || ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 x11-libs/qt-script:4 x11-libs/qt-opengl:4 ) >=x11-libs/qt-4.4.2:4[opengl] ) nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/stellarium/stellarium-0.10.1.tar.gz
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

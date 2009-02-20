@@ -1,22 +1,12 @@
-doc? ( app-doc/doxygen ) test? ( dev-util/cppunit )
-
-0
-mirror://sourceforge/tvmet/tvmet-1.7.2.tar.bz2
-
-http://tvmet.sourceforge.net/
-LGPL-2.1
-Tiny Vector Matrix library using Expression Templates
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-debug doc test
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=doc? ( app-doc/doxygen ) test? ( dev-util/cppunit )
+DESCRIPTION=Tiny Vector Matrix library using Expression Templates
+EAPI=0
+HOMEPAGE=http://tvmet.sourceforge.net/
+IUSE=debug doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=mirror://sourceforge/tvmet/tvmet-1.7.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

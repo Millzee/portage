@@ -1,22 +1,12 @@
->=virtual/perl-Module-Build-0.28 virtual/perl-File-Spec dev-lang/perl
-dev-lang/perl
-0
-mirror://cpan/authors/id/D/DR/DROLSKY/Devel-StackTrace-1.18.tar.gz
-
-http://search.perl.com/~drolsky/
-|| ( Artistic GPL-2 )
-Devel-StackTrace module for perl
-alpha ~amd64 ~hppa ia64 ~ppc sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=virtual/perl-Module-Build-0.28 virtual/perl-File-Spec dev-lang/perl
+DESCRIPTION=Devel-StackTrace module for perl
+EAPI=0
+HOMEPAGE=http://search.perl.com/~drolsky/
+KEYWORDS=alpha ~amd64 ~hppa ia64 ~ppc sparc x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DR/DROLSKY/Devel-StackTrace-1.18.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

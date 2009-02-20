@@ -1,22 +1,12 @@
-doc? ( app-text/texi2html virtual/latex-base sys-apps/texinfo ) sys-devel/bison sys-devel/flex sys-libs/readline sys-libs/ncurses dev-libs/libusb
-sys-libs/readline sys-libs/ncurses dev-libs/libusb
-0
-http://savannah.nongnu.org/download/avrdude/avrdude-5.4.tar.gz
-
-http://savannah.nongnu.org/projects/avrdude
-GPL-2
-AVR Downloader/UploaDEr
-~amd64 ppc ppc64 x86
-
-doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=doc? ( app-text/texi2html virtual/latex-base sys-apps/texinfo ) sys-devel/bison sys-devel/flex sys-libs/readline sys-libs/ncurses dev-libs/libusb
+DESCRIPTION=AVR Downloader/UploaDEr
+EAPI=0
+HOMEPAGE=http://savannah.nongnu.org/projects/avrdude
+IUSE=doc
+KEYWORDS=~amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/readline sys-libs/ncurses dev-libs/libusb
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/avrdude/avrdude-5.4.tar.gz
+_mtime_=1235082851

@@ -1,22 +1,13 @@
-app-shells/tcsh x11-libs/libXft virtual/opengl x11-libs/fltk:1.1 >=dev-lang/tcl-8.4 >=dev-lang/tk-8.4 >=dev-lang/python-2.3 sci-biology/stride sci-libs/netcdf
-app-shells/tcsh x11-libs/libXft virtual/opengl x11-libs/fltk:1.1 >=dev-lang/tcl-8.4 >=dev-lang/tk-8.4 >=dev-lang/python-2.3 sci-biology/stride sci-libs/netcdf
-0
-vmd-1.8.6.src.tar.gz
-fetch
-http://www.ks.uiuc.edu/Research/vmd/
-vmd
-Visual Molecular Dynamics
-~amd64 ~ppc ~x86
-toolchain-funcs portability python alternatives multilib eutils
-
-
-
-
-1
-
-compile install nofetch postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch postinst postrm unpack
+DEPEND=app-shells/tcsh x11-libs/libXft virtual/opengl x11-libs/fltk:1.1 >=dev-lang/tcl-8.4 >=dev-lang/tk-8.4 >=dev-lang/python-2.3 sci-biology/stride sci-libs/netcdf
+DESCRIPTION=Visual Molecular Dynamics
+EAPI=1
+HOMEPAGE=http://www.ks.uiuc.edu/Research/vmd/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=vmd
+RDEPEND=app-shells/tcsh x11-libs/libXft virtual/opengl x11-libs/fltk:1.1 >=dev-lang/tcl-8.4 >=dev-lang/tk-8.4 >=dev-lang/python-2.3 sci-biology/stride sci-libs/netcdf
+RESTRICT=fetch
+SLOT=0
+SRC_URI=vmd-1.8.6.src.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

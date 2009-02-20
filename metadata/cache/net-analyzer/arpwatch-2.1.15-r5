@@ -1,22 +1,13 @@
-virtual/libpcap sys-libs/ncurses
-virtual/libpcap sys-libs/ncurses selinux? ( sec-policy/selinux-arpwatch )
-0
-ftp://ftp.ee.lbl.gov/arpwatch-2.1a15.tar.gz mirror://gentoo/arpwatch-patchset-0.4.tbz2
-
-http://www-nrg.ee.lbl.gov/
-BSD
-An ethernet monitor program that keeps track of ethernet/ip address pairings
-amd64 hppa ppc sparc x86
-toolchain-funcs versionator multilib portability eutils
-selinux
-
-
-
-0
-
-install postinst preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst preinst unpack
+DEPEND=virtual/libpcap sys-libs/ncurses
+DESCRIPTION=An ethernet monitor program that keeps track of ethernet/ip address pairings
+EAPI=0
+HOMEPAGE=http://www-nrg.ee.lbl.gov/
+IUSE=selinux
+KEYWORDS=amd64 hppa ppc sparc x86
+LICENSE=BSD
+RDEPEND=virtual/libpcap sys-libs/ncurses selinux? ( sec-policy/selinux-arpwatch )
+SLOT=0
+SRC_URI=ftp://ftp.ee.lbl.gov/arpwatch-2.1a15.tar.gz mirror://gentoo/arpwatch-patchset-0.4.tbz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082885

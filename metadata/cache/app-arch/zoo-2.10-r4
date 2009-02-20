@@ -1,22 +1,10 @@
-
-
-0
-ftp://ftp.kiarchive.ru/pub/unix/arcers/zoo-2.10pl1.tar.gz mirror://gentoo/zoo-2.10-gcc-issues-fix.patch
-
-ftp://ftp.kiarchive.ru/pub/unix/arcers
-zoo
-Manipulate archives of files in compressed form.
-alpha amd64 hppa ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Manipulate archives of files in compressed form.
+EAPI=0
+HOMEPAGE=ftp://ftp.kiarchive.ru/pub/unix/arcers
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=zoo
+SLOT=0
+SRC_URI=ftp://ftp.kiarchive.ru/pub/unix/arcers/zoo-2.10pl1.tar.gz mirror://gentoo/zoo-2.10-gcc-issues-fix.patch
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

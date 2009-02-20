@@ -1,22 +1,12 @@
->=sys-apps/sed-4 >=app-emacs/apel-10.6 >=virtual/emacs-21
->=app-emacs/apel-10.6 || ( virtual/skkserv app-i18n/skk-jisyo ) >=virtual/emacs-21
-0
-mirror://gentoo/ddskk-12.2.0.tar.bz2
-
-http://openlab.ring.gr.jp/skk/
-GPL-2
-SKK is one of Japanese input methods on Emacs
-x86 alpha sparc ppc
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=sys-apps/sed-4 >=app-emacs/apel-10.6 >=virtual/emacs-21
+DESCRIPTION=SKK is one of Japanese input methods on Emacs
+EAPI=0
+HOMEPAGE=http://openlab.ring.gr.jp/skk/
+KEYWORDS=x86 alpha sparc ppc
+LICENSE=GPL-2
+RDEPEND=>=app-emacs/apel-10.6 || ( virtual/skkserv app-i18n/skk-jisyo ) >=virtual/emacs-21
+SLOT=0
+SRC_URI=mirror://gentoo/ddskk-12.2.0.tar.bz2
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

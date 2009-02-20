@@ -1,22 +1,13 @@
-sys-libs/zlib media-libs/jpeg dev-libs/openssl java? ( virtual/jre ) x11-libs/libICE x11-libs/libSM x11-libs/libXaw x11-libs/libX11 x11-libs/libXext x11-libs/libXmu x11-libs/libXp x11-libs/libXpm x11-libs/libXt java? ( virtual/jdk ) x11-misc/imake
-sys-libs/zlib media-libs/jpeg dev-libs/openssl java? ( virtual/jre ) x11-libs/libICE x11-libs/libSM x11-libs/libXaw x11-libs/libX11 x11-libs/libXext x11-libs/libXmu x11-libs/libXp x11-libs/libXpm x11-libs/libXt
-0
-mirror://sourceforge/ssvnc/ssvnc-1.0.22.src.tar.gz
-
-http://www.karlrunge.com/x11vnc/ssvnc.html
-GPL-2
-VNC viewer that adds encryption security to VNC connections
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-java
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-libs/zlib media-libs/jpeg dev-libs/openssl java? ( virtual/jre ) x11-libs/libICE x11-libs/libSM x11-libs/libXaw x11-libs/libX11 x11-libs/libXext x11-libs/libXmu x11-libs/libXp x11-libs/libXpm x11-libs/libXt java? ( virtual/jdk ) x11-misc/imake
+DESCRIPTION=VNC viewer that adds encryption security to VNC connections
+EAPI=0
+HOMEPAGE=http://www.karlrunge.com/x11vnc/ssvnc.html
+IUSE=java
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib media-libs/jpeg dev-libs/openssl java? ( virtual/jre ) x11-libs/libICE x11-libs/libSM x11-libs/libXaw x11-libs/libX11 x11-libs/libXext x11-libs/libXmu x11-libs/libXp x11-libs/libXpm x11-libs/libXt
+SLOT=0
+SRC_URI=mirror://sourceforge/ssvnc/ssvnc-1.0.22.src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

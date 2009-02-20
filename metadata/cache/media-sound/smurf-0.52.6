@@ -1,22 +1,13 @@
-=x11-libs/gtk+-1.2* >=media-libs/audiofile-0.2.3-r1 nls? ( virtual/libintl ) alsa? ( media-libs/alsa-lib ) png? ( >=media-libs/libpng-1.2.5-r4 ) nls? ( >=sys-devel/gettext-0.11.5-r1 )
-=x11-libs/gtk+-1.2* >=media-libs/audiofile-0.2.3-r1 nls? ( virtual/libintl ) alsa? ( media-libs/alsa-lib ) png? ( >=media-libs/libpng-1.2.5-r4 )
-0
-mirror://sourceforge/smurf/smurf-0.52.6.tar.gz
-
-http://smurf.sourceforge.net/
-GPL-2
-The Smurf Sound Font Editor
-amd64 ~ppc sparc x86
-toolchain-funcs multilib portability eutils
-nls debug alsa oss png
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND==x11-libs/gtk+-1.2* >=media-libs/audiofile-0.2.3-r1 nls? ( virtual/libintl ) alsa? ( media-libs/alsa-lib ) png? ( >=media-libs/libpng-1.2.5-r4 ) nls? ( >=sys-devel/gettext-0.11.5-r1 )
+DESCRIPTION=The Smurf Sound Font Editor
+EAPI=0
+HOMEPAGE=http://smurf.sourceforge.net/
+IUSE=nls debug alsa oss png
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/gtk+-1.2* >=media-libs/audiofile-0.2.3-r1 nls? ( virtual/libintl ) alsa? ( media-libs/alsa-lib ) png? ( >=media-libs/libpng-1.2.5-r4 )
+SLOT=0
+SRC_URI=mirror://sourceforge/smurf/smurf-0.52.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

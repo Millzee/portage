@@ -1,22 +1,13 @@
-dev-util/pkgconfig doc? ( www-client/lynx ) >=dev-libs/libdaemon-0.5
->=dev-libs/libdaemon-0.5 >=sys-apps/baselayout-1.12
-0
-http://0pointer.de/lennart/projects/ifplugd/ifplugd-0.28.tar.gz
-
-http://0pointer.de/lennart/projects/ifplugd/
-GPL-2
-Brings up/down ethernet ports automatically with cable detection
-amd64 hppa ppc x86
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=dev-util/pkgconfig doc? ( www-client/lynx ) >=dev-libs/libdaemon-0.5
+DESCRIPTION=Brings up/down ethernet ports automatically with cable detection
+EAPI=0
+HOMEPAGE=http://0pointer.de/lennart/projects/ifplugd/
+IUSE=doc
+KEYWORDS=amd64 hppa ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libdaemon-0.5 >=sys-apps/baselayout-1.12
+SLOT=0
+SRC_URI=http://0pointer.de/lennart/projects/ifplugd/ifplugd-0.28.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

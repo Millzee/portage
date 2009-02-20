@@ -1,22 +1,12 @@
-( || ( dev-lang/gwydion-dylan-bin dev-lang/gwydion-dylan ) ) >=dev-libs/boehm-gc-6.4 emacs? ( virtual/emacs ) gtk? ( =x11-libs/gtk+-1.2* )
-
-0
-http://www.gwydiondylan.org/downloads/src/tar/gwydion-dylan-2.4.0.tar.gz
-
-http://www.gwydiondylan.org/
-MIT
-The Dylan Programming Language Compiler
-~x86
-portability toolchain-funcs multilib elisp-common eutils
-gtk emacs
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=( || ( dev-lang/gwydion-dylan-bin dev-lang/gwydion-dylan ) ) >=dev-libs/boehm-gc-6.4 emacs? ( virtual/emacs ) gtk? ( =x11-libs/gtk+-1.2* )
+DESCRIPTION=The Dylan Programming Language Compiler
+EAPI=0
+HOMEPAGE=http://www.gwydiondylan.org/
+IUSE=gtk emacs
+KEYWORDS=~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=http://www.gwydiondylan.org/downloads/src/tar/gwydion-dylan-2.4.0.tar.gz
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

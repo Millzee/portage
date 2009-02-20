@@ -1,22 +1,11 @@
-!net-misc/mknbi sys-devel/autoconf
-!net-misc/mknbi
-0
-mirror://sourceforge/netboot/netboot-0.9.8.tar.gz
-
-http://netboot.sourceforge.net/
-GPL-2
-x86 specific netbooting utility
--* x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=!net-misc/mknbi sys-devel/autoconf
+DESCRIPTION=x86 specific netbooting utility
+EAPI=0
+HOMEPAGE=http://netboot.sourceforge.net/
+KEYWORDS=-* x86
+LICENSE=GPL-2
+RDEPEND=!net-misc/mknbi
+SLOT=0
+SRC_URI=mirror://sourceforge/netboot/netboot-0.9.8.tar.gz
+_mtime_=1235082900

@@ -1,22 +1,13 @@
-virtual/libiconv media-libs/taglib mono? ( dev-lang/mono ) dev-libs/libusb
-virtual/libiconv media-libs/taglib mono? ( dev-lang/mono ) dev-libs/libusb
-0
-http://www.freakysoft.de/html/libkarma/libkarma-0.0.6.tar.gz
-
-http://www.freakysoft.de/html/libkarma/
-GPL-2
-Support library for using Rio devices with mtp
-~amd64 ~ppc ~ppc64 ~x86
-mono toolchain-funcs multilib portability eutils
-mono
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libiconv media-libs/taglib mono? ( dev-lang/mono ) dev-libs/libusb
+DESCRIPTION=Support library for using Rio devices with mtp
+EAPI=0
+HOMEPAGE=http://www.freakysoft.de/html/libkarma/
+IUSE=mono
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libiconv media-libs/taglib mono? ( dev-lang/mono ) dev-libs/libusb
+SLOT=0
+SRC_URI=http://www.freakysoft.de/html/libkarma/libkarma-0.0.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

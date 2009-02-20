@@ -1,22 +1,11 @@
->=virtual/emacs-21 dev-util/cvs
-!app-emacs/gnus !app-emacs/gnus-cvs >=virtual/emacs-21
-0
-
-
-http://gnus.org/
-GPL-3 FDL-1.2
-Current alpha branch of the Gnus news- and mail-reader
-~alpha ~amd64 ~ppc ~sparc ~x86
-toolchain-funcs elisp-common portability elisp versionator multilib cvs eutils
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-21 dev-util/cvs
+DESCRIPTION=Current alpha branch of the Gnus news- and mail-reader
+EAPI=0
+HOMEPAGE=http://gnus.org/
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-3 FDL-1.2
+RDEPEND=!app-emacs/gnus !app-emacs/gnus-cvs >=virtual/emacs-21
+SLOT=0
+_eclasses_=cvs	/home/Funtoo/portage/eclass	1235082859	elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

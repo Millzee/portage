@@ -1,22 +1,12 @@
->=dev-python/pygtk-2 x11-misc/devilspie virtual/python
->=dev-python/pygtk-2 x11-misc/devilspie
-0
-http://gdevilspie.googlecode.com/files/gdevilspie-0.31.tar.bz2
-
-http://code.google.com/p/gdevilspie/
-GPL-2
-A user friendly interface to the devilspie window matching daemon, to create rules easily.
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-python/pygtk-2 x11-misc/devilspie virtual/python
+DESCRIPTION=A user friendly interface to the devilspie window matching daemon, to create rules easily.
+EAPI=0
+HOMEPAGE=http://code.google.com/p/gdevilspie/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-python/pygtk-2 x11-misc/devilspie
+SLOT=0
+SRC_URI=http://gdevilspie.googlecode.com/files/gdevilspie-0.31.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

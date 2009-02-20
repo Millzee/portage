@@ -1,22 +1,13 @@
->=app-text/mecab-0.91
->=app-text/mecab-0.91 sys-apps/xinetd
-0
-http://chasen.org/~taku/software/mecab-skkserv/mecab-skkserv-0.03.tar.gz
-
-http://chasen.org/~taku/software/mecab-skkserv/
-GPL-2 ipadic
-mecab-skkserv is a Kana-Kanji conversion server using MeCab.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-virtual/skkserv
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=app-text/mecab-0.91
+DESCRIPTION=mecab-skkserv is a Kana-Kanji conversion server using MeCab.
+EAPI=0
+HOMEPAGE=http://chasen.org/~taku/software/mecab-skkserv/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 ipadic
+PROVIDE=virtual/skkserv
+RDEPEND=>=app-text/mecab-0.91 sys-apps/xinetd
+SLOT=0
+SRC_URI=http://chasen.org/~taku/software/mecab-skkserv/mecab-skkserv-0.03.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

@@ -1,22 +1,11 @@
-dev-libs/libdnet net-libs/libnet:1.1 net-libs/libpcap
-dev-libs/libdnet net-libs/libnet:1.1 net-libs/libpcap
-0
-mirror://sourceforge/arpon/ArpON-1.90.tar.gz
-
-http://arpon.sourceforge.net/
-BSD
-ArpON (Arp handler inspectiON) is a portable Arp handler.
-~amd64 ~sparc ~x86
-
-
-
-
-
-1
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/libdnet net-libs/libnet:1.1 net-libs/libpcap
+DESCRIPTION=ArpON (Arp handler inspectiON) is a portable Arp handler.
+EAPI=1
+HOMEPAGE=http://arpon.sourceforge.net/
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=BSD
+RDEPEND=dev-libs/libdnet net-libs/libnet:1.1 net-libs/libpcap
+SLOT=0
+SRC_URI=mirror://sourceforge/arpon/ArpON-1.90.tar.gz
+_mtime_=1235082880

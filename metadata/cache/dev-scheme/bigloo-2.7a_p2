@@ -1,22 +1,13 @@
->=sys-apps/sed-4 emacs? ( virtual/emacs ) java? ( virtual/jdk app-arch/zip )
->=sys-apps/sed-4 emacs? ( virtual/emacs ) java? ( virtual/jdk app-arch/zip )
-0
-ftp://ftp-sop.inria.fr/mimosa/fp/Bigloo/bigloo2.7a-r2.tar.gz
-
-http://www-sop.inria.fr/mimosa/fp/Bigloo/bigloo.html
-GPL-2
-Bigloo is a Scheme implementation.
-amd64 x86
-elisp-common
-java emacs
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=>=sys-apps/sed-4 emacs? ( virtual/emacs ) java? ( virtual/jdk app-arch/zip )
+DESCRIPTION=Bigloo is a Scheme implementation.
+EAPI=0
+HOMEPAGE=http://www-sop.inria.fr/mimosa/fp/Bigloo/bigloo.html
+IUSE=java emacs
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=sys-apps/sed-4 emacs? ( virtual/emacs ) java? ( virtual/jdk app-arch/zip )
+SLOT=0
+SRC_URI=ftp://ftp-sop.inria.fr/mimosa/fp/Bigloo/bigloo2.7a-r2.tar.gz
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

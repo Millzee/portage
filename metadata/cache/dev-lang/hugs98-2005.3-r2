@@ -1,22 +1,14 @@
-X? ( x11-libs/libX11 ) opengl? ( virtual/opengl virtual/glu virtual/glut ) openal? ( media-libs/openal ) opengl? ( app-admin/eselect-opengl ) ~app-text/docbook-sgml-dtd-4.2
-X? ( x11-libs/libX11 ) opengl? ( virtual/opengl virtual/glu virtual/glut ) openal? ( media-libs/openal )
-0
-http://cvs.haskell.org/Hugs/downloads/Mar2005/hugs98-Mar2005.tar.gz http://cvs.haskell.org/Hugs/downloads/Mar2005/hugs98-Mar2005-patch.gz
-test
-http://www.haskell.org/hugs/
-as-is
-The Hugs98 Haskell interpreter
-alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic versionator multilib base eutils
-X opengl openal
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=X? ( x11-libs/libX11 ) opengl? ( virtual/opengl virtual/glu virtual/glut ) openal? ( media-libs/openal ) opengl? ( app-admin/eselect-opengl ) ~app-text/docbook-sgml-dtd-4.2
+DESCRIPTION=The Hugs98 Haskell interpreter
+EAPI=0
+HOMEPAGE=http://www.haskell.org/hugs/
+IUSE=X opengl openal
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=as-is
+RDEPEND=X? ( x11-libs/libX11 ) opengl? ( virtual/opengl virtual/glu virtual/glut ) openal? ( media-libs/openal )
+RESTRICT=test
+SLOT=0
+SRC_URI=http://cvs.haskell.org/Hugs/downloads/Mar2005/hugs98-Mar2005.tar.gz http://cvs.haskell.org/Hugs/downloads/Mar2005/hugs98-Mar2005-patch.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

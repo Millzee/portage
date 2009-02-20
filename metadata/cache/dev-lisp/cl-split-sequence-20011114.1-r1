@@ -1,22 +1,11 @@
-dev-lisp/common-lisp-controller
-
-0
-mirror://gentoo/cl-split-sequence_20011114.1.orig.tar.gz mirror://gentoo/cl-split-sequence_20011114.1-1.diff.gz
-
-http://www.cliki.net/SPLIT-SEQUENCE http://packages.debian.org/unstable/devel/cl-split-sequence
-public-domain
-Functions to partition a Common Lisp sequence into multiple result sequences
-~amd64 ppc ~sparc x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst unpack
+DEPEND=dev-lisp/common-lisp-controller
+DESCRIPTION=Functions to partition a Common Lisp sequence into multiple result sequences
+EAPI=0
+HOMEPAGE=http://www.cliki.net/SPLIT-SEQUENCE http://packages.debian.org/unstable/devel/cl-split-sequence
+KEYWORDS=~amd64 ppc ~sparc x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=mirror://gentoo/cl-split-sequence_20011114.1.orig.tar.gz mirror://gentoo/cl-split-sequence_20011114.1-1.diff.gz
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

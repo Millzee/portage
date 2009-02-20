@@ -1,22 +1,13 @@
-virtual/perl-locale-maketext dev-lang/perl test? ( dev-perl/Test-Pod )
-virtual/perl-locale-maketext dev-lang/perl
-0
-mirror://cpan/authors/id/D/DR/DRTECH//Locale-Maketext-Lexicon-0.77.tar.gz
-
-http://search.cpan.org/search?query=Locale-Maketext-Lexicon&mode=dist
-MIT
-Use other catalog formats in Maketext
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~sparc ~x86
-toolchain-funcs portability multilib base eutils perl-module
-test
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-locale-maketext dev-lang/perl test? ( dev-perl/Test-Pod )
+DESCRIPTION=Use other catalog formats in Maketext
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Locale-Maketext-Lexicon&mode=dist
+IUSE=test
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~sparc ~x86
+LICENSE=MIT
+RDEPEND=virtual/perl-locale-maketext dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DR/DRTECH//Locale-Maketext-Lexicon-0.77.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

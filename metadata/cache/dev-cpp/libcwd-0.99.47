@@ -1,22 +1,12 @@
-doc? ( app-doc/doxygen )
-
-0
-mirror://sourceforge/libcwd/libcwd-0.99.47.tar.gz
-
-http://libcwd.sourceforge.net/
-QPL
-A library to support C++ developers with debugging their applications
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-debug doc examples pch
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=doc? ( app-doc/doxygen )
+DESCRIPTION=A library to support C++ developers with debugging their applications
+EAPI=0
+HOMEPAGE=http://libcwd.sourceforge.net/
+IUSE=debug doc examples pch
+KEYWORDS=~amd64 ~x86
+LICENSE=QPL
+SLOT=0
+SRC_URI=mirror://sourceforge/libcwd/libcwd-0.99.47.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

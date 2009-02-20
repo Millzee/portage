@@ -1,22 +1,12 @@
-x11-libs/fltk:1.1 x11-libs/libXpm media-libs/libsndfile media-libs/alsa-lib media-sound/alsa-utils media-sound/jack-audio-connection-kit dev-util/pkgconfig
-x11-libs/fltk:1.1 x11-libs/libXpm media-libs/libsndfile media-libs/alsa-lib media-sound/alsa-utils media-sound/jack-audio-connection-kit
-0
-mirror://berlios/horgand/horgand-1.14.tar.gz
-
-http://horgand.berlios.de
-GPL-2
-Horgand is an opensource software organ.
-amd64 ~ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-1
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/fltk:1.1 x11-libs/libXpm media-libs/libsndfile media-libs/alsa-lib media-sound/alsa-utils media-sound/jack-audio-connection-kit dev-util/pkgconfig
+DESCRIPTION=Horgand is an opensource software organ.
+EAPI=1
+HOMEPAGE=http://horgand.berlios.de
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/fltk:1.1 x11-libs/libXpm media-libs/libsndfile media-libs/alsa-lib media-sound/alsa-utils media-sound/jack-audio-connection-kit
+SLOT=0
+SRC_URI=mirror://berlios/horgand/horgand-1.14.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

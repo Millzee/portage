@@ -1,22 +1,11 @@
-
-
-0
-ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/netkit-base-0.17.tar.gz
-
-ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
-BSD
-Old-style inetd
-alpha amd64 hppa ia64 mips ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-virtual/inetd
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Old-style inetd
+EAPI=0
+HOMEPAGE=ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
+KEYWORDS=alpha amd64 hppa ia64 mips ppc ppc64 sparc x86
+LICENSE=BSD
+PROVIDE=virtual/inetd
+SLOT=0
+SRC_URI=ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/netkit-base-0.17.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

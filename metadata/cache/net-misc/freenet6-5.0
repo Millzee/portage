@@ -1,22 +1,12 @@
-dev-libs/openssl
-dev-libs/openssl
-0
-mirror://gentoo/gw6c-5_0-RELEASE-src.tar.gz
-
-http://www.freenet6.net/
-VPL-1.0
-Client to configure an IPv6 tunnel to freenet6
-amd64 hppa sparc x86
-toolchain-funcs versionator multilib portability eutils
-
-
-
-
-0
-
-compile install postinst preinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst
+DEPEND=dev-libs/openssl
+DESCRIPTION=Client to configure an IPv6 tunnel to freenet6
+EAPI=0
+HOMEPAGE=http://www.freenet6.net/
+KEYWORDS=amd64 hppa sparc x86
+LICENSE=VPL-1.0
+RDEPEND=dev-libs/openssl
+SLOT=0
+SRC_URI=mirror://gentoo/gw6c-5_0-RELEASE-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

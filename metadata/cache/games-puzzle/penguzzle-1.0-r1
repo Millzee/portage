@@ -1,22 +1,12 @@
-app-arch/unzip
-dev-lang/tk dev-tcltk/tclx
-0
-http://www.naskita.com/linux/penguzzle/penguzzle.zip
-
-http://www.naskita.com/linux/penguzzle/penguzzle.shtml
-penguzzle
-Tcl/Tk variant of the well-known 15-puzzle game
-amd64 ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Tcl/Tk variant of the well-known 15-puzzle game
+EAPI=0
+HOMEPAGE=http://www.naskita.com/linux/penguzzle/penguzzle.shtml
+KEYWORDS=amd64 ppc x86
+LICENSE=penguzzle
+RDEPEND=dev-lang/tk dev-tcltk/tclx
+SLOT=0
+SRC_URI=http://www.naskita.com/linux/penguzzle/penguzzle.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

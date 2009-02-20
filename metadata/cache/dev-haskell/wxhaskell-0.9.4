@@ -1,22 +1,13 @@
-<dev-lang/ghc-6.6 =x11-libs/wxGTK-2.6* app-arch/unzip doc? ( >=dev-haskell/haddock-0.6-r2 )
-<dev-lang/ghc-6.6 =x11-libs/wxGTK-2.6*
-0
-mirror://sourceforge/wxhaskell/wxhaskell-src-0.9.4.zip
-
-http://wxhaskell.sourceforge.net/
-wxWinLL-3
-a portable and native GUI library for Haskell
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs wxwidgets portability flag-o-matic versionator multilib ghc-package eutils
-doc
-
-
-
-0
-
-compile install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup unpack
+DEPEND=<dev-lang/ghc-6.6 =x11-libs/wxGTK-2.6* app-arch/unzip doc? ( >=dev-haskell/haddock-0.6-r2 )
+DESCRIPTION=a portable and native GUI library for Haskell
+EAPI=0
+HOMEPAGE=http://wxhaskell.sourceforge.net/
+IUSE=doc
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=wxWinLL-3
+RDEPEND=<dev-lang/ghc-6.6 =x11-libs/wxGTK-2.6*
+SLOT=0
+SRC_URI=mirror://sourceforge/wxhaskell/wxhaskell-src-0.9.4.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	ghc-package	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

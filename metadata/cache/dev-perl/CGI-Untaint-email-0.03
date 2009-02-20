@@ -1,22 +1,12 @@
->=dev-perl/CGI-Untaint-1.26 >=dev-perl/Email-Valid-0.179 >=dev-perl/MailTools-1.77
->=dev-perl/CGI-Untaint-1.26 >=dev-perl/Email-Valid-0.179 >=dev-perl/MailTools-1.77
-0
-mirror://cpan/authors/id/M/MI/MIYAGAWA//CGI-Untaint-email-0.03.tar.gz
-
-http://search.cpan.org/search?query=CGI-Untaint-email&mode=dist
-|| ( Artistic GPL-2 )
-Plugin for CGI::Untaint for email
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/CGI-Untaint-1.26 >=dev-perl/Email-Valid-0.179 >=dev-perl/MailTools-1.77
+DESCRIPTION=Plugin for CGI::Untaint for email
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=CGI-Untaint-email&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/CGI-Untaint-1.26 >=dev-perl/Email-Valid-0.179 >=dev-perl/MailTools-1.77
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MI/MIYAGAWA//CGI-Untaint-email-0.03.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

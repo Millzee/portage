@@ -1,22 +1,13 @@
-kernel_linux? ( virtual/linux-sources )
-net-wireless/wireless-tools net-libs/libpcap ncurses? ( sys-libs/ncurses )
-0
-http://www.kismetwireless.net/code/kismet-2007-10-R1.tar.gz
-
-http://www.kismetwireless.net/
-GPL-2
-IEEE 802.11 wireless LAN sniffer
-amd64 ppc x86
-toolchain-funcs portability versionator multilib linux-info eutils
-ncurses
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=IEEE 802.11 wireless LAN sniffer
+EAPI=0
+HOMEPAGE=http://www.kismetwireless.net/
+IUSE=ncurses
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=net-wireless/wireless-tools net-libs/libpcap ncurses? ( sys-libs/ncurses )
+SLOT=0
+SRC_URI=http://www.kismetwireless.net/code/kismet-2007-10-R1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

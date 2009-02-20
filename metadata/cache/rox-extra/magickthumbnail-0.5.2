@@ -1,22 +1,13 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-media-gfx/imagemagick xcf? ( media-gfx/gimp ) >=rox-base/rox-2.1.0
-0
-http://rox.maczewski.dyndns.org/prog/MagickThumbnail-0.5.2.tar.bz2
-
-http://rox.maczewski.dyndns.org/
-GPL-2
-MagickThumbnail can generate thumbnails of many files many types in your ROX-Filer window.
-amd64 x86
-toolchain-funcs portability python multilib alternatives rox libtool autotools eutils
-xcf
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=MagickThumbnail can generate thumbnails of many files many types in your ROX-Filer window.
+EAPI=0
+HOMEPAGE=http://rox.maczewski.dyndns.org/
+IUSE=xcf
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=media-gfx/imagemagick xcf? ( media-gfx/gimp ) >=rox-base/rox-2.1.0
+SLOT=0
+SRC_URI=http://rox.maczewski.dyndns.org/prog/MagickThumbnail-0.5.2.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	rox	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

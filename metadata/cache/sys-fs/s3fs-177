@@ -1,22 +1,11 @@
->=net-misc/curl-7.17.1 >=sys-fs/fuse-2.6.0 dev-libs/libxml2 dev-libs/openssl
->=net-misc/curl-7.17.1 >=sys-fs/fuse-2.6.0 dev-libs/libxml2 dev-libs/openssl
-0
-http://s3fs.googlecode.com/files/s3fs-r177-source.tar.gz
-
-http://s3fs.googlecode.com/
-GPL-2
-Amazon mounting S3 via fuse
-~amd64 ~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=net-misc/curl-7.17.1 >=sys-fs/fuse-2.6.0 dev-libs/libxml2 dev-libs/openssl
+DESCRIPTION=Amazon mounting S3 via fuse
+EAPI=0
+HOMEPAGE=http://s3fs.googlecode.com/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=net-misc/curl-7.17.1 >=sys-fs/fuse-2.6.0 dev-libs/libxml2 dev-libs/openssl
+SLOT=0
+SRC_URI=http://s3fs.googlecode.com/files/s3fs-r177-source.tar.gz
+_mtime_=1235082907

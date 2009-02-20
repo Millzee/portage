@@ -1,22 +1,13 @@
-virtual/fam x11-libs/cairo x11-libs/gtk+:2 x11-misc/shared-mime-info x11-themes/gnome-icon-theme x11-libs/startup-notification hal? ( sys-apps/hal ) dev-util/pkgconfig sys-devel/gettext
-virtual/fam x11-libs/cairo x11-libs/gtk+:2 x11-misc/shared-mime-info x11-themes/gnome-icon-theme x11-libs/startup-notification hal? ( sys-apps/hal )
-0
-mirror://sourceforge/pcmanfm/pcmanfm-0.5.tar.gz
-
-http://pcmanfm.sourceforge.net/
-GPL-2
-Extremely fast and lightweight tabbed file manager
-~amd64 ~x86
-toolchain-funcs fdo-mime multilib portability eutils
-hal
-
-
-
-1
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=virtual/fam x11-libs/cairo x11-libs/gtk+:2 x11-misc/shared-mime-info x11-themes/gnome-icon-theme x11-libs/startup-notification hal? ( sys-apps/hal ) dev-util/pkgconfig sys-devel/gettext
+DESCRIPTION=Extremely fast and lightweight tabbed file manager
+EAPI=1
+HOMEPAGE=http://pcmanfm.sourceforge.net/
+IUSE=hal
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/fam x11-libs/cairo x11-libs/gtk+:2 x11-misc/shared-mime-info x11-themes/gnome-icon-theme x11-libs/startup-notification hal? ( sys-apps/hal )
+SLOT=0
+SRC_URI=mirror://sourceforge/pcmanfm/pcmanfm-0.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

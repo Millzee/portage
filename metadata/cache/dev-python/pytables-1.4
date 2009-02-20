@@ -1,22 +1,13 @@
-sci-libs/hdf5 >=dev-python/numarray-1.5.2 >=dev-lang/python-2.2 virtual/python
-sci-libs/hdf5 >=dev-python/numarray-1.5.2 >=dev-lang/python-2.2
-0
-mirror://sourceforge/pytables/pytables-1.4.tar.gz
-
-http://pytables.sourceforge.net/
-BSD
-Module for Python that use HDF5
-~amd64 ~ia64 ~ppc ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-doc examples
-
-
-
-0
-
-compile install postinst postrm test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test unpack
+DEPEND=sci-libs/hdf5 >=dev-python/numarray-1.5.2 >=dev-lang/python-2.2 virtual/python
+DESCRIPTION=Module for Python that use HDF5
+EAPI=0
+HOMEPAGE=http://pytables.sourceforge.net/
+IUSE=doc examples
+KEYWORDS=~amd64 ~ia64 ~ppc ~x86
+LICENSE=BSD
+RDEPEND=sci-libs/hdf5 >=dev-python/numarray-1.5.2 >=dev-lang/python-2.2
+SLOT=0
+SRC_URI=mirror://sourceforge/pytables/pytables-1.4.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

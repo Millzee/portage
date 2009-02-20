@@ -1,22 +1,13 @@
-ssl? ( >=dev-libs/openssl-0.9.6b )
-ssl? ( >=dev-libs/openssl-0.9.6b )
-0
-http://www.stafford.uklinux.net/libesmtp/libesmtp-1.0.4.tar.bz2
-
-http://www.stafford.uklinux.net/libesmtp/
-LGPL-2.1 GPL-2
-lib that implements the client side of the SMTP protocol
-alpha amd64 ia64 ppc ~ppc64 sparc x86
-multilib toolchain-funcs libtool portability eutils
-ssl debug
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=ssl? ( >=dev-libs/openssl-0.9.6b )
+DESCRIPTION=lib that implements the client side of the SMTP protocol
+EAPI=0
+HOMEPAGE=http://www.stafford.uklinux.net/libesmtp/
+IUSE=ssl debug
+KEYWORDS=alpha amd64 ia64 ppc ~ppc64 sparc x86
+LICENSE=LGPL-2.1 GPL-2
+RDEPEND=ssl? ( >=dev-libs/openssl-0.9.6b )
+SLOT=0
+SRC_URI=http://www.stafford.uklinux.net/libesmtp/libesmtp-1.0.4.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

@@ -1,22 +1,12 @@
->=media-libs/libsdl-1.2.7-r2 >=media-libs/sdl-image-1.2.3-r1 >=media-libs/netpbm-10.28 >=sys-apps/sed-4.1.4
->=media-libs/libsdl-1.2.7-r2 >=media-libs/sdl-image-1.2.3-r1
-0
-http://www.brouhaha.com/~eric/software/lcdtest/download/lcdtest-1.08.tar.gz
-
-http://www.brouhaha.com/~eric/software/lcdtest/
-GPL-2
-Displays test patterns to spot dead/hot pixels on LCD screens
-amd64 ppc ppc64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=media-libs/libsdl-1.2.7-r2 >=media-libs/sdl-image-1.2.3-r1 >=media-libs/netpbm-10.28 >=sys-apps/sed-4.1.4
+DESCRIPTION=Displays test patterns to spot dead/hot pixels on LCD screens
+EAPI=0
+HOMEPAGE=http://www.brouhaha.com/~eric/software/lcdtest/
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libsdl-1.2.7-r2 >=media-libs/sdl-image-1.2.3-r1
+SLOT=0
+SRC_URI=http://www.brouhaha.com/~eric/software/lcdtest/download/lcdtest-1.08.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

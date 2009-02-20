@@ -1,22 +1,12 @@
-=app-admin/gkrellm-2* dev-util/pkgconfig
-=app-admin/gkrellm-2*
-0
-http://tripie.sweb.cz/gkrellm/xkb/dist/gkrellm-xkb-1.05.tar.gz
-
-http://tripie.sweb.cz/gkrellm/xkb/
-GPL-2
-XKB keyboard switcher for gkrellm2
-amd64 x86
-multilib toolchain-funcs gkrellm-plugin portability eutils
-
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DEPEND==app-admin/gkrellm-2* dev-util/pkgconfig
+DESCRIPTION=XKB keyboard switcher for gkrellm2
+EAPI=0
+HOMEPAGE=http://tripie.sweb.cz/gkrellm/xkb/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND==app-admin/gkrellm-2*
+SLOT=0
+SRC_URI=http://tripie.sweb.cz/gkrellm/xkb/dist/gkrellm-xkb-1.05.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	gkrellm-plugin	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

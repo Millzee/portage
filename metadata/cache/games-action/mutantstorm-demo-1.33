@@ -1,22 +1,12 @@
-
-virtual/opengl amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-soundlibs app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-sdl ) x86? ( x11-libs/libX11 x11-libs/libXext )
-0
-ftp://ggdev-1.homelan.com/mutantstorm/MutantStormDemo_1_33.sh.bin
-strip
-http://www.pompomgames.com/
-POMPOM
-shoot through crazy psychedelic 3D environments
--* amd64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=shoot through crazy psychedelic 3D environments
+EAPI=0
+HOMEPAGE=http://www.pompomgames.com/
+KEYWORDS=-* amd64 x86
+LICENSE=POMPOM
+RDEPEND=virtual/opengl amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-soundlibs app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-sdl ) x86? ( x11-libs/libX11 x11-libs/libXext )
+RESTRICT=strip
+SLOT=0
+SRC_URI=ftp://ggdev-1.homelan.com/mutantstorm/MutantStormDemo_1_33.sh.bin
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

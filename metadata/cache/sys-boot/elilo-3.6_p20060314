@@ -1,22 +1,13 @@
->=sys-boot/gnu-efi-3.0 sys-devel/patch dev-util/patchutils
-sys-boot/efibootmgr sys-fs/dosfstools
-0
-http://elilo.sourceforge.net/nightlies/elilo-nightly_2006-03-14.tgz mirror://debian/pool/main/e/elilo/elilo_3.6-1.diff.gz
-
-http://elilo.sourceforge.net/
-GPL-2
-Linux boot loader for EFI-based systems such as IA-64
-ia64
-toolchain-funcs multilib portability eutils
-
-
-
-virtual/bootloader
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-boot/gnu-efi-3.0 sys-devel/patch dev-util/patchutils
+DESCRIPTION=Linux boot loader for EFI-based systems such as IA-64
+EAPI=0
+HOMEPAGE=http://elilo.sourceforge.net/
+KEYWORDS=ia64
+LICENSE=GPL-2
+PROVIDE=virtual/bootloader
+RDEPEND=sys-boot/efibootmgr sys-fs/dosfstools
+SLOT=0
+SRC_URI=http://elilo.sourceforge.net/nightlies/elilo-nightly_2006-03-14.tgz mirror://debian/pool/main/e/elilo/elilo_3.6-1.diff.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

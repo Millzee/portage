@@ -1,22 +1,11 @@
-
-net-zope/zope app-admin/zprod-manager
-0
-http://hathaway.freezope.org/Software/BTreeFolder2/BTreeFolder2-1.0.tar.gz
-
-http://hathaway.freezope.org/Software/BTreeFolder2/
-ZPL
-Acts like a Zope folder but can store many more items
-~ppc ~x86
-zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DESCRIPTION=Acts like a Zope folder but can store many more items
+EAPI=0
+HOMEPAGE=http://hathaway.freezope.org/Software/BTreeFolder2/
+KEYWORDS=~ppc ~x86
+LICENSE=ZPL
+RDEPEND=net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://hathaway.freezope.org/Software/BTreeFolder2/BTreeFolder2-1.0.tar.gz
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

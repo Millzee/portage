@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-mirror://gentoo/leave-20041016.tar.gz
-
-http://www.freebsd.org/cgi/cvsweb.cgi/src/usr.bin/leave/
-BSD
-Command-line tool from FreeBSD that reminds you when its time to leave
-ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=Command-line tool from FreeBSD that reminds you when its time to leave
+EAPI=0
+HOMEPAGE=http://www.freebsd.org/cgi/cvsweb.cgi/src/usr.bin/leave/
+KEYWORDS=ppc x86
+LICENSE=BSD
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://gentoo/leave-20041016.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

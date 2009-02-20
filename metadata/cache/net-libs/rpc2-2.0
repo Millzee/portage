@@ -1,22 +1,11 @@
->=sys-libs/lwp-2.1 sys-apps/gawk sys-apps/sed sys-apps/grep sys-devel/libtool
->=sys-libs/lwp-2.1
-1
-http://www.coda.cs.cmu.edu/pub/rpc2/src/rpc2-2.0.tar.gz
-
-http://www.coda.cs.cmu.edu/
-LGPL-2.1
-Remote procedure call package for IP/UDP (used by Coda)
-~alpha ~amd64 ~hppa ia64 ~mips ~ppc ~sparc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=sys-libs/lwp-2.1 sys-apps/gawk sys-apps/sed sys-apps/grep sys-devel/libtool
+DESCRIPTION=Remote procedure call package for IP/UDP (used by Coda)
+EAPI=0
+HOMEPAGE=http://www.coda.cs.cmu.edu/
+KEYWORDS=~alpha ~amd64 ~hppa ia64 ~mips ~ppc ~sparc x86
+LICENSE=LGPL-2.1
+RDEPEND=>=sys-libs/lwp-2.1
+SLOT=1
+SRC_URI=http://www.coda.cs.cmu.edu/pub/rpc2/src/rpc2-2.0.tar.gz
+_mtime_=1235082894

@@ -1,22 +1,13 @@
-canna? ( app-i18n/canna )
-canna? ( app-i18n/canna )
-0
-mirror://gentoo/canna-2ch-20030827.tar.gz
-
-http://omaemona.sourceforge.net/packages/Canna/
-public-domain
-Japanese Canna dictionary for 2channelers
-alpha ~amd64 ppc ppc64 sparc x86
-toolchain-funcs cannadic multilib portability eutils
-canna
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=canna? ( app-i18n/canna )
+DESCRIPTION=Japanese Canna dictionary for 2channelers
+EAPI=0
+HOMEPAGE=http://omaemona.sourceforge.net/packages/Canna/
+IUSE=canna
+KEYWORDS=alpha ~amd64 ppc ppc64 sparc x86
+LICENSE=public-domain
+RDEPEND=canna? ( app-i18n/canna )
+SLOT=0
+SRC_URI=mirror://gentoo/canna-2ch-20030827.tar.gz
+_eclasses_=cannadic	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

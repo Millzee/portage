@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2 sox? ( media-sound/sox ) x11-misc/makedepend dev-util/pkgconfig
->=x11-libs/gtk+-2 sox? ( media-sound/sox )
-0
-http://muth.org/Robert/Trommler/trommler.3.8.tar.gz
-
-http://muth.org/Robert/Trommler
-GPL-2
-GTK+ based drum machine.
-~alpha ~amd64 ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils
-+sox
-
-
-
-1
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=x11-libs/gtk+-2 sox? ( media-sound/sox ) x11-misc/makedepend dev-util/pkgconfig
+DESCRIPTION=GTK+ based drum machine.
+EAPI=1
+HOMEPAGE=http://muth.org/Robert/Trommler
+IUSE=+sox
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2 sox? ( media-sound/sox )
+SLOT=0
+SRC_URI=http://muth.org/Robert/Trommler/trommler.3.8.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

@@ -1,22 +1,11 @@
-
-net-zope/zope app-admin/zprod-manager
-0
-http://www.zope.org/Members/NIP/SimpleUserFolder/0.9.0/SimpleUserFolder-0-9-0.tar.gz
-
-http://www.zope.org/Members/NIP/SimpleUserFolder
-GPL-2
-A User Folder replacement that will let you customize the source of users and roles
-~x86
-zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DESCRIPTION=A User Folder replacement that will let you customize the source of users and roles
+EAPI=0
+HOMEPAGE=http://www.zope.org/Members/NIP/SimpleUserFolder
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://www.zope.org/Members/NIP/SimpleUserFolder/0.9.0/SimpleUserFolder-0-9-0.tar.gz
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

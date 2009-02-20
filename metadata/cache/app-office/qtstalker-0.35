@@ -1,22 +1,12 @@
-x11-libs/qt:3 >=sci-libs/ta-lib-0.4.0 >=sys-libs/db-4.3
-x11-libs/qt:3 >=sci-libs/ta-lib-0.4.0 >=sys-libs/db-4.3
-0
-mirror://sourceforge/qtstalker/qtstalker-0.35.tar.gz
-
-http://qtstalker.sourceforge.net
-GPL-2
-Commodity and stock market charting and technical analysis
-~amd64 ~x86
-toolchain-funcs qt3 portability versionator multilib eutils
-
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/qt:3 >=sci-libs/ta-lib-0.4.0 >=sys-libs/db-4.3
+DESCRIPTION=Commodity and stock market charting and technical analysis
+EAPI=1
+HOMEPAGE=http://qtstalker.sourceforge.net
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt:3 >=sci-libs/ta-lib-0.4.0 >=sys-libs/db-4.3
+SLOT=0
+SRC_URI=mirror://sourceforge/qtstalker/qtstalker-0.35.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

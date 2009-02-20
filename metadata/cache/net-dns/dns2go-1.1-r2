@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-http://home.planetinternet.be/~felixdv/d2gsetup.tar.gz
-
-http://www.dns2go.com/
-DNS2GO
-Dns2Go Linux Client v1.1
-x86 amd64 -* s390
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=virtual/libc
+DESCRIPTION=Dns2Go Linux Client v1.1
+EAPI=0
+HOMEPAGE=http://www.dns2go.com/
+KEYWORDS=x86 amd64 -* s390
+LICENSE=DNS2GO
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://home.planetinternet.be/~felixdv/d2gsetup.tar.gz
+_mtime_=1235082890

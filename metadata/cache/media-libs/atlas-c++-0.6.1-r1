@@ -1,22 +1,12 @@
-doc? ( app-doc/doxygen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-mirror://sourceforge/worldforge/Atlas-C++-0.6.1.tar.bz2
-
-http://www.worldforge.org/dev/eng/libraries/atlas_cpp
-LGPL-2.1
-Atlas protocol, used in role playing games at worldforge.
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-bzip2 doc zlib
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=doc? ( app-doc/doxygen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Atlas protocol, used in role playing games at worldforge.
+EAPI=0
+HOMEPAGE=http://www.worldforge.org/dev/eng/libraries/atlas_cpp
+IUSE=bzip2 doc zlib
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=mirror://sourceforge/worldforge/Atlas-C++-0.6.1.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

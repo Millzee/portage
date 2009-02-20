@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.2 dev-util/pkgconfig nls? ( sys-devel/gettext ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=x11-libs/gtk+-2.2
-0
-http://thgodef.nerim.net/xdialog/Xdialog-2.3.1.tar.bz2
-
-http://xdialog.dyns.net/
-GPL-2
-drop-in replacement for cdialog using GTK
-alpha amd64 ~hppa ppc x86
-toolchain-funcs portability multilib libtool autotools eutils
-doc examples nls
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2.2 dev-util/pkgconfig nls? ( sys-devel/gettext ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=drop-in replacement for cdialog using GTK
+EAPI=0
+HOMEPAGE=http://xdialog.dyns.net/
+IUSE=doc examples nls
+KEYWORDS=alpha amd64 ~hppa ppc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.2
+SLOT=0
+SRC_URI=http://thgodef.nerim.net/xdialog/Xdialog-2.3.1.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

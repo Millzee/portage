@@ -1,22 +1,11 @@
->=media-libs/alsa-lib-1
->=media-libs/alsa-lib-1
-0
-http://ftp.suse.com/pub/people/tiwai/awesfx/awesfx-0.5.1c.tar.bz2
-
-http://ftp.suse.com/pub/people/tiwai/awesfx
-GPL-2
-AWE32 Sound Driver Utility Programs
-~amd64 ~ppc ~sparc ~x86
-
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=>=media-libs/alsa-lib-1
+DESCRIPTION=AWE32 Sound Driver Utility Programs
+EAPI=0
+HOMEPAGE=http://ftp.suse.com/pub/people/tiwai/awesfx
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/alsa-lib-1
+SLOT=0
+SRC_URI=http://ftp.suse.com/pub/people/tiwai/awesfx/awesfx-0.5.1c.tar.bz2
+_mtime_=1235082868

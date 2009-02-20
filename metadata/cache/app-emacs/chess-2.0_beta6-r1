@@ -1,22 +1,12 @@
->=virtual/emacs-21
-|| ( games-board/gnuchess games-board/crafty games-board/phalanx games-board/sjeng ) >=virtual/emacs-21
-0
-mirror://sourceforge/emacs-chess/chess-2.0b6.tar.gz mirror://gentoo/emacs-chess-sounds-2.0.tar.bz2 mirror://gentoo/emacs-chess-pieces-2.0.tar.bz2
-
-http://emacs-chess.sourceforge.net/
-GPL-2 FDL-1.1
-A chess client and library for Emacs
-amd64 ppc x86
-toolchain-funcs elisp-common portability elisp versionator multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-21
+DESCRIPTION=A chess client and library for Emacs
+EAPI=0
+HOMEPAGE=http://emacs-chess.sourceforge.net/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2 FDL-1.1
+RDEPEND=|| ( games-board/gnuchess games-board/crafty games-board/phalanx games-board/sjeng ) >=virtual/emacs-21
+SLOT=0
+SRC_URI=mirror://sourceforge/emacs-chess/chess-2.0b6.tar.gz mirror://gentoo/emacs-chess-sounds-2.0.tar.bz2 mirror://gentoo/emacs-chess-pieces-2.0.tar.bz2
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

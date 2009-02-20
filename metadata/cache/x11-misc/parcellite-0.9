@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.10 >=dev-libs/glib-2.14 dev-util/pkgconfig nls? ( sys-devel/gettext dev-util/intltool )
->=x11-libs/gtk+-2.10 >=dev-libs/glib-2.14
-0
-mirror://sourceforge/parcellite/parcellite-0.9.tar.gz
-
-http://parcellite.sourceforge.net/
-GPL-2
-A lightweight GTK+ based clipboard manager.
-~amd64 ~x86
-fdo-mime
-nls
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=>=x11-libs/gtk+-2.10 >=dev-libs/glib-2.14 dev-util/pkgconfig nls? ( sys-devel/gettext dev-util/intltool )
+DESCRIPTION=A lightweight GTK+ based clipboard manager.
+EAPI=0
+HOMEPAGE=http://parcellite.sourceforge.net/
+IUSE=nls
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.10 >=dev-libs/glib-2.14
+SLOT=0
+SRC_URI=mirror://sourceforge/parcellite/parcellite-0.9.tar.gz
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

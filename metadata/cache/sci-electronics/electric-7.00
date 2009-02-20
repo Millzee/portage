@@ -1,22 +1,13 @@
-virtual/libc !qt3? ( x11-libs/openmotif ) qt3? ( x11-libs/qt:3 )
-virtual/libc !qt3? ( x11-libs/openmotif ) qt3? ( x11-libs/qt:3 )
-0
-http://ftp.gnu.org/pub/gnu/electric/electric-7.00.tar.gz
-
-http://www.gnu.org/software/electric/electric.html
-GPL-2
-Electric is a sophisticated electrical CAD system that can handle many forms of circuit design
-amd64 ppc x86
-toolchain-funcs qt3 portability versionator multilib eutils
-qt3
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc !qt3? ( x11-libs/openmotif ) qt3? ( x11-libs/qt:3 )
+DESCRIPTION=Electric is a sophisticated electrical CAD system that can handle many forms of circuit design
+EAPI=1
+HOMEPAGE=http://www.gnu.org/software/electric/electric.html
+IUSE=qt3
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc !qt3? ( x11-libs/openmotif ) qt3? ( x11-libs/qt:3 )
+SLOT=0
+SRC_URI=http://ftp.gnu.org/pub/gnu/electric/electric-7.00.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

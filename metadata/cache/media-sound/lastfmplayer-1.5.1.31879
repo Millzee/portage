@@ -1,22 +1,13 @@
-|| ( ( x11-libs/qt-gui:4 x11-libs/qt-sql:4 ) =x11-libs/qt-4.3* ) media-libs/libsamplerate sci-libs/fftw media-libs/libmad >=media-libs/libgpod-0.5.2 media-libs/alsa-lib app-arch/sharutils
-|| ( ( x11-libs/qt-gui:4 x11-libs/qt-sql:4 ) =x11-libs/qt-4.3* ) media-libs/libsamplerate sci-libs/fftw media-libs/libmad >=media-libs/libgpod-0.5.2 media-libs/alsa-lib
-0
-mirror://debian/pool/main/l/lastfm/lastfm_1.5.1.31879.dfsg.orig.tar.gz mirror://debian/pool/main/l/lastfm/lastfm_1.5.1.31879.dfsg-1.diff.gz
-mirror
-http://www.last.fm/help/player
-GPL-2
-The player allows you to listen to last.fm radio streams
-~amd64 ~ppc ~x86
-qt4 toolchain-funcs portability versionator multilib eutils
-
-
-
-
-1
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=|| ( ( x11-libs/qt-gui:4 x11-libs/qt-sql:4 ) =x11-libs/qt-4.3* ) media-libs/libsamplerate sci-libs/fftw media-libs/libmad >=media-libs/libgpod-0.5.2 media-libs/alsa-lib app-arch/sharutils
+DESCRIPTION=The player allows you to listen to last.fm radio streams
+EAPI=1
+HOMEPAGE=http://www.last.fm/help/player
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( ( x11-libs/qt-gui:4 x11-libs/qt-sql:4 ) =x11-libs/qt-4.3* ) media-libs/libsamplerate sci-libs/fftw media-libs/libmad >=media-libs/libgpod-0.5.2 media-libs/alsa-lib
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://debian/pool/main/l/lastfm/lastfm_1.5.1.31879.dfsg.orig.tar.gz mirror://debian/pool/main/l/lastfm/lastfm_1.5.1.31879.dfsg-1.diff.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

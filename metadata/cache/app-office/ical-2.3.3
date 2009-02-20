@@ -1,22 +1,13 @@
-dev-lang/tcl dev-lang/tk =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-dev-lang/tcl dev-lang/tk
-0
-http://annexia.org/_file/ical-2.3.3.tar.gz
-test
-http://www.fnal.gov/docs/products/tktools/ical.html
-as-is GPL-2
-Tk-based Calendar program
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/tcl dev-lang/tk =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Tk-based Calendar program
+EAPI=0
+HOMEPAGE=http://www.fnal.gov/docs/products/tktools/ical.html
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=as-is GPL-2
+RDEPEND=dev-lang/tcl dev-lang/tk
+RESTRICT=test
+SLOT=0
+SRC_URI=http://annexia.org/_file/ical-2.3.3.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

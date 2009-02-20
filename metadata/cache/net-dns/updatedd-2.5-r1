@@ -1,22 +1,11 @@
-
-virtual/libc
-0
-http://savannah.nongnu.org/download/updatedd/updatedd_2.5.tar.gz
-
-http://savannah.nongnu.org/projects/updatedd/
-GPL-2
-Dynamic DNS client with plugins for several dynamic dns services
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=Dynamic DNS client with plugins for several dynamic dns services
+EAPI=0
+HOMEPAGE=http://savannah.nongnu.org/projects/updatedd/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/updatedd/updatedd_2.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

@@ -1,22 +1,12 @@
-gtk? ( =x11-libs/gtk+-2* sys-libs/readline sys-libs/ncurses ) media-libs/alsa-lib >=media-libs/dssi-0.4 >=media-libs/liblo-0.12 media-libs/ladspa-sdk dev-util/pkgconfig
-gtk? ( =x11-libs/gtk+-2* sys-libs/readline sys-libs/ncurses ) media-libs/alsa-lib >=media-libs/dssi-0.4 >=media-libs/liblo-0.12
-0
-mirror://sourceforge/dssi/hexter-0.6.2.tar.gz
-
-http://dssi.sourceforge.net/hexter.html
-GPL-2
-Yamaha DX7 modeling DSSI plugin
-~amd64
-
-gtk
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=gtk? ( =x11-libs/gtk+-2* sys-libs/readline sys-libs/ncurses ) media-libs/alsa-lib >=media-libs/dssi-0.4 >=media-libs/liblo-0.12 media-libs/ladspa-sdk dev-util/pkgconfig
+DESCRIPTION=Yamaha DX7 modeling DSSI plugin
+EAPI=0
+HOMEPAGE=http://dssi.sourceforge.net/hexter.html
+IUSE=gtk
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=gtk? ( =x11-libs/gtk+-2* sys-libs/readline sys-libs/ncurses ) media-libs/alsa-lib >=media-libs/dssi-0.4 >=media-libs/liblo-0.12
+SLOT=0
+SRC_URI=mirror://sourceforge/dssi/hexter-0.6.2.tar.gz
+_mtime_=1235082868

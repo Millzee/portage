@@ -1,22 +1,12 @@
-virtual/libc >=sys-apps/sed-4
-virtual/libc >=sys-apps/sed-4
-0
-http://cr.yp.to/software/mess822-0.58.tar.gz
-
-http://cr.yp.to/mess822.html
-as-is
-Collection of utilities for parsing Internet mail messages.
-amd64 ppc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc >=sys-apps/sed-4
+DESCRIPTION=Collection of utilities for parsing Internet mail messages.
+EAPI=0
+HOMEPAGE=http://cr.yp.to/mess822.html
+KEYWORDS=amd64 ppc x86
+LICENSE=as-is
+RDEPEND=virtual/libc >=sys-apps/sed-4
+SLOT=0
+SRC_URI=http://cr.yp.to/software/mess822-0.58.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

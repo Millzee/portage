@@ -1,22 +1,12 @@
-=x11-libs/wxGTK-2.6* =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-=x11-libs/wxGTK-2.6*
-0
-mirror://sourceforge/dfast/wxdfast_0.6.0.tar.gz
-
-http://dfast.sourceforge.net
-GPL-2
-A multi-treaded cross-platform download manager
-~x86
-toolchain-funcs wxwidgets portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install setup unpack
-
-
-
-
-
+DEFINED_PHASES=install setup unpack
+DEPEND==x11-libs/wxGTK-2.6* =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A multi-treaded cross-platform download manager
+EAPI=0
+HOMEPAGE=http://dfast.sourceforge.net
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/wxGTK-2.6*
+SLOT=0
+SRC_URI=mirror://sourceforge/dfast/wxdfast_0.6.0.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

@@ -1,22 +1,12 @@
-app-arch/unzip
-virtual/libc
-0
-http://shibatch.sf.net/download/ssrc-1.29.zip
-
-http://shibatch.sourceforge.net
-LGPL-2.1
-A fast and high quality sampling rate converter
-x86 -amd64 -sparc
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=app-arch/unzip
+DESCRIPTION=A fast and high quality sampling rate converter
+EAPI=0
+HOMEPAGE=http://shibatch.sourceforge.net
+KEYWORDS=x86 -amd64 -sparc
+LICENSE=LGPL-2.1
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://shibatch.sf.net/download/ssrc-1.29.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

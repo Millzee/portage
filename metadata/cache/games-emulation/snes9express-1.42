@@ -1,22 +1,12 @@
-=x11-libs/gtk+-2* dev-util/pkgconfig
-=x11-libs/gtk+-2* games-emulation/snes9x
-0
-mirror://sourceforge/snes9express/snes9express-1.42.tar.gz
-
-http://www.linuxgames.com/snes9express/
-GPL-2
-A graphical interface for the X11 versions of snes9x
-amd64 ~ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND==x11-libs/gtk+-2* dev-util/pkgconfig
+DESCRIPTION=A graphical interface for the X11 versions of snes9x
+EAPI=2
+HOMEPAGE=http://www.linuxgames.com/snes9express/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/gtk+-2* games-emulation/snes9x
+SLOT=0
+SRC_URI=mirror://sourceforge/snes9express/snes9express-1.42.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

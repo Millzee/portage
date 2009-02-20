@@ -1,22 +1,11 @@
-x11-libs/qt:3 =media-tv/mythtv-0.21* dev-util/subversion net-misc/rsync
-x11-libs/qt:3 =media-tv/mythtv-0.21*
-0
-
-
-http://www.mythtv.org
-GPL-2
-A collection of themes for the MythTV project.
-~amd64 ~ppc ~x86
-toolchain-funcs mythtv portability versionator multilib subversion eutils qt3
-
-
-
-
-1
-
-compile install preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst unpack
+DEPEND=x11-libs/qt:3 =media-tv/mythtv-0.21* dev-util/subversion net-misc/rsync
+DESCRIPTION=A collection of themes for the MythTV project.
+EAPI=1
+HOMEPAGE=http://www.mythtv.org
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt:3 =media-tv/mythtv-0.21*
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	mythtv	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

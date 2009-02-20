@@ -1,22 +1,11 @@
-virtual/libc media-libs/imlib
-virtual/libc media-libs/imlib
-0
-mirror://sourceforge/enlightenment/fnlib-0.5.tar.gz
-
-http://www.enlightenment.org/
-GPL-2
-Font Library
-x86 ppc sparc alpha hppa amd64 ia64
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc media-libs/imlib
+DESCRIPTION=Font Library
+EAPI=0
+HOMEPAGE=http://www.enlightenment.org/
+KEYWORDS=x86 ppc sparc alpha hppa amd64 ia64
+LICENSE=GPL-2
+RDEPEND=virtual/libc media-libs/imlib
+SLOT=0
+SRC_URI=mirror://sourceforge/enlightenment/fnlib-0.5.tar.gz
+_mtime_=1235082867

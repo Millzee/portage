@@ -1,22 +1,13 @@
-sys-fs/device-mapper selinux? ( sys-libs/libselinux sys-libs/libsepol ) kernel_linux? ( virtual/linux-sources )
-sys-fs/device-mapper selinux? ( sys-libs/libselinux sys-libs/libsepol )
-0
-http://people.redhat.com/~heinzm/sw/dmraid/src/dmraid-1.0.0.rc14.tar.bz2
-
-http://people.redhat.com/~heinzm/sw/dmraid/
-GPL-2
-Device-mapper RAID tool and library
-amd64 x86
-toolchain-funcs portability flag-o-matic versionator multilib linux-info eutils
-static selinux
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=sys-fs/device-mapper selinux? ( sys-libs/libselinux sys-libs/libsepol ) kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=Device-mapper RAID tool and library
+EAPI=0
+HOMEPAGE=http://people.redhat.com/~heinzm/sw/dmraid/
+IUSE=static selinux
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=sys-fs/device-mapper selinux? ( sys-libs/libselinux sys-libs/libsepol )
+SLOT=0
+SRC_URI=http://people.redhat.com/~heinzm/sw/dmraid/src/dmraid-1.0.0.rc14.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

@@ -1,22 +1,12 @@
->=dev-perl/TimeDate-1.16 dev-perl/XML-Elemental >=dev-perl/XML-RSS-Parser-4 dev-perl/Class-XPath dev-lang/perl
->=dev-perl/TimeDate-1.16 dev-perl/XML-Elemental >=dev-perl/XML-RSS-Parser-4 dev-perl/Class-XPath dev-lang/perl
-0
-mirror://cpan/authors/id/T/TI/TIMA/XML-RAI-1.301.tar.gz
-
-http://search.cpan.org/~tima/
-Artistic
-RSS Abstraction Interface.
-amd64 ia64 sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/TimeDate-1.16 dev-perl/XML-Elemental >=dev-perl/XML-RSS-Parser-4 dev-perl/Class-XPath dev-lang/perl
+DESCRIPTION=RSS Abstraction Interface.
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~tima/
+KEYWORDS=amd64 ia64 sparc x86
+LICENSE=Artistic
+RDEPEND=>=dev-perl/TimeDate-1.16 dev-perl/XML-Elemental >=dev-perl/XML-RSS-Parser-4 dev-perl/Class-XPath dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TI/TIMA/XML-RAI-1.301.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

@@ -1,22 +1,12 @@
-dev-libs/libusb doc? ( app-doc/doxygen )
-dev-libs/libusb
-0
-mirror://sourceforge/libmtp/libmtp-0.3.6.tar.gz
-
-http://libmtp.sourceforge.net
-LGPL-2.1
-An implementation of Microsoft's Media Transfer Protocol (MTP).
-~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-
-doc examples
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/libusb doc? ( app-doc/doxygen )
+DESCRIPTION=An implementation of Microsoft's Media Transfer Protocol (MTP).
+EAPI=0
+HOMEPAGE=http://libmtp.sourceforge.net
+IUSE=doc examples
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-libs/libusb
+SLOT=0
+SRC_URI=mirror://sourceforge/libmtp/libmtp-0.3.6.tar.gz
+_mtime_=1235082867

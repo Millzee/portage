@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-ftp://math.feld.cvut.cz/pub/cstex/base/csindex-19980713.tar.gz
-
-http://math.feld.cvut.cz/olsak/cstex/
-MakeIndex
-Utility for creating Czech/Slovak-sorted LaTeX index-files
-x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=Utility for creating Czech/Slovak-sorted LaTeX index-files
+EAPI=0
+HOMEPAGE=http://math.feld.cvut.cz/olsak/cstex/
+KEYWORDS=x86
+LICENSE=MakeIndex
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=ftp://math.feld.cvut.cz/pub/cstex/base/csindex-19980713.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

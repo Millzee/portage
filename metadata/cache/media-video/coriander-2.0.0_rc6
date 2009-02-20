@@ -1,22 +1,12 @@
->=media-libs/libdc1394-2.0.0 media-libs/libsdl gnome-base/libgnomeui gnome-base/libbonoboui gnome-base/libgnomecanvas gnome-base/libgnome gnome-base/orbit dev-util/pkgconfig
->=media-libs/libdc1394-2.0.0 media-libs/libsdl gnome-base/libgnomeui gnome-base/libbonoboui gnome-base/libgnomecanvas gnome-base/libgnome gnome-base/orbit
-0
-mirror://sourceforge/coriander/coriander-2.0.0-rc6.tar.gz
-
-http://sourceforge.net/projects/coriander/
-GPL-2
-A Gnome2 GUI for firewire camera control and capture
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=media-libs/libdc1394-2.0.0 media-libs/libsdl gnome-base/libgnomeui gnome-base/libbonoboui gnome-base/libgnomecanvas gnome-base/libgnome gnome-base/orbit dev-util/pkgconfig
+DESCRIPTION=A Gnome2 GUI for firewire camera control and capture
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/coriander/
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libdc1394-2.0.0 media-libs/libsdl gnome-base/libgnomeui gnome-base/libbonoboui gnome-base/libgnomecanvas gnome-base/libgnome gnome-base/orbit
+SLOT=0
+SRC_URI=mirror://sourceforge/coriander/coriander-2.0.0-rc6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

@@ -1,22 +1,12 @@
->=sys-fs/fuse-2.6.0_pre3 >=dev-libs/glib-2.4.2
->=sys-fs/fuse-2.6.0_pre3 >=dev-libs/glib-2.4.2 >=net-misc/openssh-4.3
-0
-mirror://sourceforge/fuse/sshfs-fuse-2.1.tar.gz
-
-http://fuse.sourceforge.net/sshfs.html
-GPL-2
-Fuse-filesystem utilizing the sftp service.
-~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=sys-fs/fuse-2.6.0_pre3 >=dev-libs/glib-2.4.2
+DESCRIPTION=Fuse-filesystem utilizing the sftp service.
+EAPI=0
+HOMEPAGE=http://fuse.sourceforge.net/sshfs.html
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=sys-fs/fuse-2.6.0_pre3 >=dev-libs/glib-2.4.2 >=net-misc/openssh-4.3
+SLOT=0
+SRC_URI=mirror://sourceforge/fuse/sshfs-fuse-2.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

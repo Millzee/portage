@@ -1,22 +1,12 @@
-virtual/perl-Test-Simple virtual/perl-File-Spec dev-perl/Number-Compare dev-perl/Text-Glob dev-lang/perl virtual/perl-Module-Build
-virtual/perl-Test-Simple virtual/perl-File-Spec dev-perl/Number-Compare dev-perl/Text-Glob dev-lang/perl
-0
-mirror://cpan/authors/id/R/RC/RCLAMP/File-Find-Rule-0.30.tar.gz
-
-http://www.cpan.org/modules/by-authors/id/R/RC/RCLAMP/File-Find-Rule-0.30.readme
-|| ( Artistic GPL-2 )
-Alternative interface to File::Find
-alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-Test-Simple virtual/perl-File-Spec dev-perl/Number-Compare dev-perl/Text-Glob dev-lang/perl virtual/perl-Module-Build
+DESCRIPTION=Alternative interface to File::Find
+EAPI=0
+HOMEPAGE=http://www.cpan.org/modules/by-authors/id/R/RC/RCLAMP/File-Find-Rule-0.30.readme
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-Test-Simple virtual/perl-File-Spec dev-perl/Number-Compare dev-perl/Text-Glob dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RC/RCLAMP/File-Find-Rule-0.30.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

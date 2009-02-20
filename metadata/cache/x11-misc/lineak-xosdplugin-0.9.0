@@ -1,22 +1,13 @@
-=x11-misc/lineakd-0.9.0* x11-libs/xosd
-=x11-misc/lineakd-0.9.0* x11-libs/xosd
-0
-mirror://sourceforge/lineak/lineak-xosdplugin-0.9.tar.gz
-
-http://lineak.sourceforge.net/
-GPL-2
-Xosd plugin for LINEAK
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-debug
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==x11-misc/lineakd-0.9.0* x11-libs/xosd
+DESCRIPTION=Xosd plugin for LINEAK
+EAPI=0
+HOMEPAGE=http://lineak.sourceforge.net/
+IUSE=debug
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND==x11-misc/lineakd-0.9.0* x11-libs/xosd
+SLOT=0
+SRC_URI=mirror://sourceforge/lineak/lineak-xosdplugin-0.9.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

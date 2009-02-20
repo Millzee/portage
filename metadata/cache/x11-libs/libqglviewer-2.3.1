@@ -1,22 +1,13 @@
-virtual/opengl || ( x11-libs/qt:4 x11-libs/qt-gui )
-virtual/opengl || ( x11-libs/qt:4 x11-libs/qt-gui )
-0
-http://www.libqglviewer.com/src/libQGLViewer-2.3.1.tar.gz
-
-http://www.libqglviewer.com
-GPL-2
-Simple 3D viewer class for Qt OpenGL applications
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib eutils
-doc
-
-
-
-1
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=virtual/opengl || ( x11-libs/qt:4 x11-libs/qt-gui )
+DESCRIPTION=Simple 3D viewer class for Qt OpenGL applications
+EAPI=1
+HOMEPAGE=http://www.libqglviewer.com
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl || ( x11-libs/qt:4 x11-libs/qt-gui )
+SLOT=0
+SRC_URI=http://www.libqglviewer.com/src/libQGLViewer-2.3.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

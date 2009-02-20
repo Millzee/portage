@@ -1,22 +1,13 @@
-virtual/glut sdl? ( media-libs/libsdl media-libs/sdl-mixer ) gtk? ( >=x11-libs/gtk+-2.6 )
-virtual/glut sdl? ( media-libs/libsdl media-libs/sdl-mixer ) gtk? ( >=x11-libs/gtk+-2.6 )
-0
-http://savannah.nongnu.org/download/crack-attack/crack-attack-1.1.14.tar.bz2
-
-http://www.nongnu.org/crack-attack/
-GPL-2
-Addictive OpenGL-based block game
-amd64 arm hppa ia64 ppc sparc x86
-toolchain-funcs portability multilib base games eutils
-gtk sdl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/glut sdl? ( media-libs/libsdl media-libs/sdl-mixer ) gtk? ( >=x11-libs/gtk+-2.6 )
+DESCRIPTION=Addictive OpenGL-based block game
+EAPI=0
+HOMEPAGE=http://www.nongnu.org/crack-attack/
+IUSE=gtk sdl
+KEYWORDS=amd64 arm hppa ia64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/glut sdl? ( media-libs/libsdl media-libs/sdl-mixer ) gtk? ( >=x11-libs/gtk+-2.6 )
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/crack-attack/crack-attack-1.1.14.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

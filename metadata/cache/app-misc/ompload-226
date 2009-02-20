@@ -1,22 +1,10 @@
-
->=dev-lang/ruby-1.8 net-misc/curl
-0
-http://omploader.org/ompload-226
-
-http://omploader.org/
-GPL-3
-CLI script for uploading files to http://omploader.org/
-amd64 x86 ~x86-fbsd
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=CLI script for uploading files to http://omploader.org/
+EAPI=0
+HOMEPAGE=http://omploader.org/
+KEYWORDS=amd64 x86 ~x86-fbsd
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/ruby-1.8 net-misc/curl
+SLOT=0
+SRC_URI=http://omploader.org/ompload-226
+_mtime_=1235082849

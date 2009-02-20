@@ -1,22 +1,13 @@
-dev-libs/libiiimp dev-libs/libiiimcf >=sys-apps/sed-4 =sys-devel/automake-1.4* >=sys-devel/autoconf-2.61 sys-devel/libtool dev-util/pkgconfig
-dev-libs/libiiimp dev-libs/libiiimcf
-0
-http://www.openi18n.org/download/im-sdk/src/im-sdk-src-r12_1-svn2002.tar.bz2
-
-http://www.openi18n.org/subgroups/im/IIIMF/
-MIT X11
-X client framework for IIIMF
-x86 -alpha
-toolchain-funcs portability multilib iiimf libtool autotools eutils
-debug
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/libiiimp dev-libs/libiiimcf >=sys-apps/sed-4 =sys-devel/automake-1.4* >=sys-devel/autoconf-2.61 sys-devel/libtool dev-util/pkgconfig
+DESCRIPTION=X client framework for IIIMF
+EAPI=0
+HOMEPAGE=http://www.openi18n.org/subgroups/im/IIIMF/
+IUSE=debug
+KEYWORDS=x86 -alpha
+LICENSE=MIT X11
+RDEPEND=dev-libs/libiiimp dev-libs/libiiimcf
+SLOT=0
+SRC_URI=http://www.openi18n.org/download/im-sdk/src/im-sdk-src-r12_1-svn2002.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	iiimf	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

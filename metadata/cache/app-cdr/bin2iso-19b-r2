@@ -1,22 +1,10 @@
-
-
-0
-mirror://gentoo/bin2iso-19b.tar.bz2
-
-http://users.andara.com/~doiron/bin2iso/
-public-domain
-converts RAW format (.bin/.cue) files to ISO/WAV format
-alpha amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=converts RAW format (.bin/.cue) files to ISO/WAV format
+EAPI=0
+HOMEPAGE=http://users.andara.com/~doiron/bin2iso/
+KEYWORDS=alpha amd64 ppc sparc x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=mirror://gentoo/bin2iso-19b.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

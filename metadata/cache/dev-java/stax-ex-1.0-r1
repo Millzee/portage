@@ -1,22 +1,13 @@
->=virtual/jdk-1.5 java-virtuals/jaf java-virtuals/stax-api >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.5 java-virtuals/jaf java-virtuals/stax-api >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-https://stax-ex.dev.java.net/files/documents/4480/44372/stax-ex-1.0-src.tar.gz
-
-http://stax-ex.dev.java.net/
-CDDL
-Extensions to complement JSR-173 StAX API
-~amd64 ~ppc ~x86 ~x86-fbsd
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD source elibc_FreeBSD
-
-
-
-
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.5 java-virtuals/jaf java-virtuals/stax-api >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Extensions to complement JSR-173 StAX API
+EAPI=0
+HOMEPAGE=http://stax-ex.dev.java.net/
+IUSE=elibc_FreeBSD source elibc_FreeBSD
+KEYWORDS=~amd64 ~ppc ~x86 ~x86-fbsd
+LICENSE=CDDL
+RDEPEND=>=virtual/jre-1.5 java-virtuals/jaf java-virtuals/stax-api >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=https://stax-ex.dev.java.net/files/documents/4480/44372/stax-ex-1.0-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

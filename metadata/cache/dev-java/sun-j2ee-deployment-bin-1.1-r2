@@ -1,22 +1,14 @@
->=virtual/jdk-1.4 app-arch/unzip >=dev-java/java-config-2.1.6
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6
-1.1
-j2ee_deployment-1_1-fr-class.zip doc? ( j2ee_deployment-1_1-fr-doc.zip )
-fetch
-http://java.sun.com/j2ee/tools/deployment/
-sun-bcla-j2ee-deployment
-J2EE Application Deployment Specification
-amd64 ~ppc x86 ~x86-fbsd
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-doc elibc_FreeBSD
-
-
-
-
-
-compile install nofetch preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch preinst setup
+DEPEND=>=virtual/jdk-1.4 app-arch/unzip >=dev-java/java-config-2.1.6
+DESCRIPTION=J2EE Application Deployment Specification
+EAPI=0
+HOMEPAGE=http://java.sun.com/j2ee/tools/deployment/
+IUSE=doc elibc_FreeBSD
+KEYWORDS=amd64 ~ppc x86 ~x86-fbsd
+LICENSE=sun-bcla-j2ee-deployment
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+RESTRICT=fetch
+SLOT=1.1
+SRC_URI=j2ee_deployment-1_1-fr-class.zip doc? ( j2ee_deployment-1_1-fr-doc.zip )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

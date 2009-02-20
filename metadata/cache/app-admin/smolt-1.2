@@ -1,22 +1,13 @@
-virtual/python sys-devel/gettext gtk? ( >=dev-python/pygtk-2.10.3 )
-virtual/python sys-devel/gettext gtk? ( >=dev-python/pygtk-2.10.3 ) sys-apps/hal >=dev-python/rhpl-0.213 >=dev-python/urlgrabber-3.0.0 >=dev-python/simplejson-1.7.1 dev-python/dbus-python
-0
-https://fedorahosted.org/releases/s/m/smolt/smolt-1.2.tar.gz
-
-https://fedorahosted.org/smolt/
-GPL-2
-The Fedora hardware profiler
-~x86
-toolchain-funcs portability python alternatives multilib eutils
-gtk
-
-
-
-0
-
-install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=virtual/python sys-devel/gettext gtk? ( >=dev-python/pygtk-2.10.3 )
+DESCRIPTION=The Fedora hardware profiler
+EAPI=0
+HOMEPAGE=https://fedorahosted.org/smolt/
+IUSE=gtk
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/python sys-devel/gettext gtk? ( >=dev-python/pygtk-2.10.3 ) sys-apps/hal >=dev-python/rhpl-0.213 >=dev-python/urlgrabber-3.0.0 >=dev-python/simplejson-1.7.1 dev-python/dbus-python
+SLOT=0
+SRC_URI=https://fedorahosted.org/releases/s/m/smolt/smolt-1.2.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

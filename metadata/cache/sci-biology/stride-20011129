@@ -1,22 +1,10 @@
-
-
-0
-ftp://ftp.ebi.ac.uk/pub/software/unix/stride/src/stride.tar.gz mirror://gentoo/stride-20060723-update.patch.bz2
-
-http://www.embl-heidelberg.de/argos/stride/stride_info.html
-as-is
-A program for protein secondary structure assignment from atomic coordinates.
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=A program for protein secondary structure assignment from atomic coordinates.
+EAPI=0
+HOMEPAGE=http://www.embl-heidelberg.de/argos/stride/stride_info.html
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=ftp://ftp.ebi.ac.uk/pub/software/unix/stride/src/stride.tar.gz mirror://gentoo/stride-20060723-update.patch.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,13 @@
-app-arch/unzip >=dev-java/java-config-2.1.6
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6
-0
-http://www.jgoodies.com/download/jdiskreport/jdiskreport-1_2_5.zip
-
-http://www.jgoodies.com/freeware/jdiskreport/index.html
-as-is
-JDiskReport helps you to understand disk drive usage
-~amd64 ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD
-
-
-
-
-
-compile install preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup
+DEPEND=app-arch/unzip >=dev-java/java-config-2.1.6
+DESCRIPTION=JDiskReport helps you to understand disk drive usage
+EAPI=0
+HOMEPAGE=http://www.jgoodies.com/freeware/jdiskreport/index.html
+IUSE=elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=http://www.jgoodies.com/download/jdiskreport/jdiskreport-1_2_5.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

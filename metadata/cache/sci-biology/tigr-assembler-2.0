@@ -1,22 +1,9 @@
-
-
-0
-ftp://ftp.tigr.org/pub/software/assembler/TIGR_Assembler_v2.tar.gz
-
-http://www.tigr.org/software/assembler/
-Artistic
-A whole-genome shotgun assembler from TIGR
-~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=A whole-genome shotgun assembler from TIGR
+EAPI=0
+HOMEPAGE=http://www.tigr.org/software/assembler/
+KEYWORDS=~x86
+LICENSE=Artistic
+SLOT=0
+SRC_URI=ftp://ftp.tigr.org/pub/software/assembler/TIGR_Assembler_v2.tar.gz
+_mtime_=1235082898

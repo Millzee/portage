@@ -1,22 +1,12 @@
->=dev-lang/mono-1.0 >=dev-dotnet/gtk-sharp-2.4 >=dev-dotnet/glade-sharp-2.4
->=dev-lang/mono-1.0 >=dev-dotnet/gtk-sharp-2.4 >=dev-dotnet/glade-sharp-2.4
-0
-http://www.laas02.org/res/yt/youtranslate-1.1.10_src.tar.gz
-
-http://www.laas02.org/?page_id=17
-GPL-2
-Gtk# frontend for Internet translation services
-~amd64 ~x86
-mono toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/mono-1.0 >=dev-dotnet/gtk-sharp-2.4 >=dev-dotnet/glade-sharp-2.4
+DESCRIPTION=Gtk# frontend for Internet translation services
+EAPI=0
+HOMEPAGE=http://www.laas02.org/?page_id=17
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/mono-1.0 >=dev-dotnet/gtk-sharp-2.4 >=dev-dotnet/glade-sharp-2.4
+SLOT=0
+SRC_URI=http://www.laas02.org/res/yt/youtranslate-1.1.10_src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

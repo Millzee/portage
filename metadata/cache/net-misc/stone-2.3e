@@ -1,22 +1,13 @@
-ssl? ( dev-libs/openssl )
-ssl? ( dev-libs/openssl )
-0
-http://www.gcd.org/sengoku/stone/stone-2.3e.tar.gz
-
-http://www.gcd.org/sengoku/stone/
-GPL-2
-A simple TCP/IP packet repeater
-amd64 ~ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-ssl
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=ssl? ( dev-libs/openssl )
+DESCRIPTION=A simple TCP/IP packet repeater
+EAPI=0
+HOMEPAGE=http://www.gcd.org/sengoku/stone/
+IUSE=ssl
+KEYWORDS=amd64 ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=http://www.gcd.org/sengoku/stone/stone-2.3e.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

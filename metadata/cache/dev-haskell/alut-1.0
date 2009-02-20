@@ -1,22 +1,11 @@
-=dev-lang/ghc-6.4*
-=dev-lang/ghc-6.4*
-0
-
-
-http://haskell.org/ghc/
-BSD
-A Haskell binding for the OpenAL Utility Toolkit
-~x86 ~amd64
-toolchain-funcs portability flag-o-matic versionator multilib ghc-package eutils
-
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND==dev-lang/ghc-6.4*
+DESCRIPTION=A Haskell binding for the OpenAL Utility Toolkit
+EAPI=0
+HOMEPAGE=http://haskell.org/ghc/
+KEYWORDS=~x86 ~amd64
+LICENSE=BSD
+RDEPEND==dev-lang/ghc-6.4*
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	ghc-package	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

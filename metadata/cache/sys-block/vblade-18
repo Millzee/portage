@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc sys-apps/util-linux
-0
-mirror://sourceforge/aoetools/vblade-18.tgz
-
-http://sf.net/projects/aoetools/
-GPL-2
-vblade exports a block device using AoE
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=vblade exports a block device using AoE
+EAPI=0
+HOMEPAGE=http://sf.net/projects/aoetools/
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc sys-apps/util-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/aoetools/vblade-18.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

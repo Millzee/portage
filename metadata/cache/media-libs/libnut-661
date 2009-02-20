@@ -1,22 +1,10 @@
-
-
-0
-mirror://gentoo/libnut-661.tar.bz2
-
-http://svn.mplayerhq.hu/nut/trunk/ http://wiki.multimedia.cx/index.php?title=NUT http://www.nut-container.org/
-MIT
-Library and tools to create NUT multimedia files
-~amd64 ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Library and tools to create NUT multimedia files
+EAPI=0
+HOMEPAGE=http://svn.mplayerhq.hu/nut/trunk/ http://wiki.multimedia.cx/index.php?title=NUT http://www.nut-container.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=mirror://gentoo/libnut-661.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

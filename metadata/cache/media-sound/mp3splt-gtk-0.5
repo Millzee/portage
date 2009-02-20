@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.6 >=media-libs/libmp3splt-0.5 nls? ( sys-devel/gettext )
->=x11-libs/gtk+-2.6 >=media-libs/libmp3splt-0.5
-0
-mirror://sourceforge/mp3splt/mp3splt-gtk-0.5.tar.gz
-
-http://mp3splt.sourceforge.net
-GPL-2
-a GTK+ based utility to split mp3 and ogg files without decoding.
-~amd64 ~hppa ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=x11-libs/gtk+-2.6 >=media-libs/libmp3splt-0.5 nls? ( sys-devel/gettext )
+DESCRIPTION=a GTK+ based utility to split mp3 and ogg files without decoding.
+EAPI=0
+HOMEPAGE=http://mp3splt.sourceforge.net
+IUSE=nls
+KEYWORDS=~amd64 ~hppa ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.6 >=media-libs/libmp3splt-0.5
+SLOT=0
+SRC_URI=mirror://sourceforge/mp3splt/mp3splt-gtk-0.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

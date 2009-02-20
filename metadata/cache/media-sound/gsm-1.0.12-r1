@@ -1,22 +1,10 @@
-
-
-0
-http://www.cs.tu-berlin.de/~jutta/gsm/gsm-1.0.12.tar.gz
-
-http://kbs.cs.tu-berlin.de/~jutta/toast.html
-OSI-Approved
-Lossy speech compression library and tool.
-alpha amd64 arm hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic versionator multilib eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Lossy speech compression library and tool.
+EAPI=0
+HOMEPAGE=http://kbs.cs.tu-berlin.de/~jutta/toast.html
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=OSI-Approved
+SLOT=0
+SRC_URI=http://www.cs.tu-berlin.de/~jutta/gsm/gsm-1.0.12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

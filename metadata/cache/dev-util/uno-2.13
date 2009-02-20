@@ -1,22 +1,11 @@
-
-
-0
-http://spinroot.com/uno/uno_v213.tar.gz
-
-http://spinroot.com/uno/
-as-is
-A tool for analyzing the source code of programs written in ANSI-C
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=A tool for analyzing the source code of programs written in ANSI-C
+EAPI=0
+HOMEPAGE=http://spinroot.com/uno/
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=http://spinroot.com/uno/uno_v213.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

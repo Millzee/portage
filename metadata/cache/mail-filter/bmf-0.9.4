@@ -1,22 +1,12 @@
-mysql? ( virtual/mysql ) berkdb? ( >=sys-libs/db-3.2.9 )
-mysql? ( virtual/mysql ) berkdb? ( >=sys-libs/db-3.2.9 )
-0
-mirror://sourceforge/bmf/bmf-0.9.4.tar.gz
-
-http://bmf.sourceforge.net/
-GPL-2
-A fast and small Bayesian spam filter
-~amd64 x86 ppc
-
-mysql berkdb
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=mysql? ( virtual/mysql ) berkdb? ( >=sys-libs/db-3.2.9 )
+DESCRIPTION=A fast and small Bayesian spam filter
+EAPI=0
+HOMEPAGE=http://bmf.sourceforge.net/
+IUSE=mysql berkdb
+KEYWORDS=~amd64 x86 ppc
+LICENSE=GPL-2
+RDEPEND=mysql? ( virtual/mysql ) berkdb? ( >=sys-libs/db-3.2.9 )
+SLOT=0
+SRC_URI=mirror://sourceforge/bmf/bmf-0.9.4.tar.gz
+_mtime_=1235082866

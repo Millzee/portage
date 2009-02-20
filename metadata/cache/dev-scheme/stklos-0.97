@@ -1,22 +1,13 @@
-dev-libs/gmp dev-libs/libpcre dev-libs/boehm-gc ldap? ( net-nds/openldap ) gtk? ( x11-libs/gtk+ )
-dev-libs/gmp dev-libs/libpcre dev-libs/boehm-gc ldap? ( net-nds/openldap ) gtk? ( x11-libs/gtk+ )
-0
-http://www.stklos.org/download/stklos-0.97.tar.gz
-
-http://www.stklos.org
-GPL-2
-fast and light Scheme implementation
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-threads ldap gtk gnome
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=dev-libs/gmp dev-libs/libpcre dev-libs/boehm-gc ldap? ( net-nds/openldap ) gtk? ( x11-libs/gtk+ )
+DESCRIPTION=fast and light Scheme implementation
+EAPI=0
+HOMEPAGE=http://www.stklos.org
+IUSE=threads ldap gtk gnome
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/gmp dev-libs/libpcre dev-libs/boehm-gc ldap? ( net-nds/openldap ) gtk? ( x11-libs/gtk+ )
+SLOT=0
+SRC_URI=http://www.stklos.org/download/stklos-0.97.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

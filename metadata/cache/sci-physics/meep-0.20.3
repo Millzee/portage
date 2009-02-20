@@ -1,22 +1,13 @@
-sci-libs/fftw !bindist? ( sci-libs/gsl ) bindist? ( <sci-libs/gsl-1.10 ) sci-physics/harminv virtual/lapack guile? ( >=sci-libs/libctl-3.0.3 ) hdf5? ( sci-libs/hdf5 ) mpi? ( virtual/mpi )
-sci-libs/fftw !bindist? ( sci-libs/gsl ) bindist? ( <sci-libs/gsl-1.10 ) sci-physics/harminv virtual/lapack guile? ( >=sci-libs/libctl-3.0.3 ) hdf5? ( sci-libs/hdf5 ) mpi? ( virtual/mpi )
-0
-http://ab-initio.mit.edu/meep/meep-0.20.3.tar.gz
-
-http://ab-initio.mit.edu/meep/
-GPL-2
-Simulation software to model electromagnetic systems
-amd64 x86
-toolchain-funcs multilib portability eutils
-bindist examples hdf5 guile mpi
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sci-libs/fftw !bindist? ( sci-libs/gsl ) bindist? ( <sci-libs/gsl-1.10 ) sci-physics/harminv virtual/lapack guile? ( >=sci-libs/libctl-3.0.3 ) hdf5? ( sci-libs/hdf5 ) mpi? ( virtual/mpi )
+DESCRIPTION=Simulation software to model electromagnetic systems
+EAPI=0
+HOMEPAGE=http://ab-initio.mit.edu/meep/
+IUSE=bindist examples hdf5 guile mpi
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=sci-libs/fftw !bindist? ( sci-libs/gsl ) bindist? ( <sci-libs/gsl-1.10 ) sci-physics/harminv virtual/lapack guile? ( >=sci-libs/libctl-3.0.3 ) hdf5? ( sci-libs/hdf5 ) mpi? ( virtual/mpi )
+SLOT=0
+SRC_URI=http://ab-initio.mit.edu/meep/meep-0.20.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

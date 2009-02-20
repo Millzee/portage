@@ -1,22 +1,12 @@
-media-libs/taglib
-media-libs/taglib
-0
-http://grecni.com/software/taginfo/taginfo-1.2.tar.bz2
-
-http://freshmeat.net/projects/taginfo
-GPL-2
-a simple ID3 tag reader for use in shell scripts
-amd64 x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=media-libs/taglib
+DESCRIPTION=a simple ID3 tag reader for use in shell scripts
+EAPI=0
+HOMEPAGE=http://freshmeat.net/projects/taginfo
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/taglib
+SLOT=0
+SRC_URI=http://grecni.com/software/taginfo/taginfo-1.2.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

@@ -1,22 +1,12 @@
-!net-wireless/bluez-sdp !net-wireless/bluez
-!net-wireless/bluez-sdp !net-wireless/bluez
-0
-http://bluez.sourceforge.net/download/bluez-libs-3.28.tar.gz
-
-http://bluez.sourceforge.net/
-GPL-2
-Bluetooth Userspace Libraries
-~amd64 ~arm ~hppa ~ppc ~ppc64 ~sh ~sparc ~x86
-
-debug
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=!net-wireless/bluez-sdp !net-wireless/bluez
+DESCRIPTION=Bluetooth Userspace Libraries
+EAPI=0
+HOMEPAGE=http://bluez.sourceforge.net/
+IUSE=debug
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~ppc64 ~sh ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=!net-wireless/bluez-sdp !net-wireless/bluez
+SLOT=0
+SRC_URI=http://bluez.sourceforge.net/download/bluez-libs-3.28.tar.gz
+_mtime_=1235082896

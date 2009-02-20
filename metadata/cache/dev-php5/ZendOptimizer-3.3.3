@@ -1,22 +1,13 @@
-=dev-lang/php-5*
-!dev-php5/xdebug !dev-php5/pecl-apc !dev-php5/eaccelerator =dev-lang/php-5*
-0
-amd64? ( ZendOptimizer-3.3.3-linux-glibc23-x86_64.tar.gz ) x86? ( ZendOptimizer-3.3.3-linux-glibc23-i386.tar.gz )
-mirror fetch strip
-http://www.zend.com/products/zend_optimizer
-zend-optimizer
-The Zend PHP optimizer and loader for encoded scripts.
-~amd64 ~x86
-toolchain-funcs portability depend.php multilib php-ext-base-r1 phpconfutils eutils
-
-
-
-
-0
-
-install nofetch postinst setup
-
-
-
-
-
+DEFINED_PHASES=install nofetch postinst setup
+DEPEND==dev-lang/php-5*
+DESCRIPTION=The Zend PHP optimizer and loader for encoded scripts.
+EAPI=0
+HOMEPAGE=http://www.zend.com/products/zend_optimizer
+KEYWORDS=~amd64 ~x86
+LICENSE=zend-optimizer
+RDEPEND=!dev-php5/xdebug !dev-php5/pecl-apc !dev-php5/eaccelerator =dev-lang/php-5*
+RESTRICT=mirror fetch strip
+SLOT=0
+SRC_URI=amd64? ( ZendOptimizer-3.3.3-linux-glibc23-x86_64.tar.gz ) x86? ( ZendOptimizer-3.3.3-linux-glibc23-i386.tar.gz )
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	php-ext-base-r1	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

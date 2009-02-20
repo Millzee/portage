@@ -1,22 +1,12 @@
->=x11-libs/gtk+-2 media-libs/libsdl media-libs/libvorbis
->=x11-libs/gtk+-2 media-libs/libsdl media-libs/libvorbis
-0
-http://www.zeograd.com/download/hugo-2.12.tar.gz
-
-http://www.zeograd.com/
-GPL-2
-PC-Engine (Turbografx16) emulator for linux
-x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=x11-libs/gtk+-2 media-libs/libsdl media-libs/libvorbis
+DESCRIPTION=PC-Engine (Turbografx16) emulator for linux
+EAPI=0
+HOMEPAGE=http://www.zeograd.com/
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2 media-libs/libsdl media-libs/libvorbis
+SLOT=0
+SRC_URI=http://www.zeograd.com/download/hugo-2.12.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

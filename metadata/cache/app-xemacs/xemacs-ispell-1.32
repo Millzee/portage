@@ -1,22 +1,11 @@
-virtual/xemacs
-
-0
-http://ftp.xemacs.org/packages/ispell-1.32-pkg.tar.gz
-
-http://xemacs.org/
-GPL-2
-Spell-checking with GNU ispell.
-alpha amd64 hppa ppc ppc64 sparc x86
-xemacs-packages
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/xemacs
+DESCRIPTION=Spell-checking with GNU ispell.
+EAPI=0
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/packages/ispell-1.32-pkg.tar.gz
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

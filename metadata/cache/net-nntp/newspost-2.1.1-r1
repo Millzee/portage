@@ -1,22 +1,12 @@
-virtual/libc >=sys-apps/sed-4
-virtual/libc
-0
-http://newspost.unixcab.org/download/newspost-2.1.1.tar.gz
-
-http://newspost.unixcab.org/
-GPL-2
-a usenet binary autoposter for unix
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc >=sys-apps/sed-4
+DESCRIPTION=a usenet binary autoposter for unix
+EAPI=0
+HOMEPAGE=http://newspost.unixcab.org/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://newspost.unixcab.org/download/newspost-2.1.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

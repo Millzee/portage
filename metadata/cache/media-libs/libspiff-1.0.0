@@ -1,22 +1,13 @@
->=dev-libs/expat-1.95.8 >=dev-libs/uriparser-0.7.2 doc? ( app-doc/doxygen )
->=dev-libs/expat-1.95.8 >=dev-libs/uriparser-0.7.2
-0
-mirror://sourceforge/libspiff/libspiff-1.0.0.tar.bz2
-
-http://libspiff.sourceforge.net
-BSD LGPL-2.1
-Library for XSPF playlist reading and writing
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/expat-1.95.8 >=dev-libs/uriparser-0.7.2 doc? ( app-doc/doxygen )
+DESCRIPTION=Library for XSPF playlist reading and writing
+EAPI=0
+HOMEPAGE=http://libspiff.sourceforge.net
+IUSE=doc
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=BSD LGPL-2.1
+RDEPEND=>=dev-libs/expat-1.95.8 >=dev-libs/uriparser-0.7.2
+SLOT=0
+SRC_URI=mirror://sourceforge/libspiff/libspiff-1.0.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

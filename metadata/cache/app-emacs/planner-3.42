@@ -1,22 +1,14 @@
->=app-emacs/muse-3.02.6a app-emacs/bbdb app-emacs/emacs-w3m >=virtual/emacs-21
->=app-emacs/muse-3.02.6a app-emacs/bbdb app-emacs/emacs-w3m >=virtual/emacs-21
-0
-http://download.gna.org/planner-el/planner-3.42.tar.gz
-test
-http://www.emacswiki.org/cgi-bin/wiki/PlannerMode
-GPL-3
-Maintain a local Wiki using Emacs-friendly markup
-~amd64 ~ppc ~sparc ~x86
-versionator elisp elisp-common
-
-
-app-emacs/remember
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=app-emacs/muse-3.02.6a app-emacs/bbdb app-emacs/emacs-w3m >=virtual/emacs-21
+DESCRIPTION=Maintain a local Wiki using Emacs-friendly markup
+EAPI=0
+HOMEPAGE=http://www.emacswiki.org/cgi-bin/wiki/PlannerMode
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-3
+PDEPEND=app-emacs/remember
+RDEPEND=>=app-emacs/muse-3.02.6a app-emacs/bbdb app-emacs/emacs-w3m >=virtual/emacs-21
+RESTRICT=test
+SLOT=0
+SRC_URI=http://download.gna.org/planner-el/planner-3.42.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

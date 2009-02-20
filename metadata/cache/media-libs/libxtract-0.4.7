@@ -1,22 +1,12 @@
-fftw? ( =sci-libs/fftw-3* ) doc? ( app-doc/doxygen )
-fftw? ( =sci-libs/fftw-3* )
-0
-mirror://sourceforge/libxtract/libxtract-0.4.7.tar.gz
-
-http://libxtract.sourceforge.net
-GPL-2
-A simple, portable, lightweight library of audio feature extraction functions
-amd64 ~ppc ppc64 x86
-
-debug doc fftw
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=fftw? ( =sci-libs/fftw-3* ) doc? ( app-doc/doxygen )
+DESCRIPTION=A simple, portable, lightweight library of audio feature extraction functions
+EAPI=0
+HOMEPAGE=http://libxtract.sourceforge.net
+IUSE=debug doc fftw
+KEYWORDS=amd64 ~ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=fftw? ( =sci-libs/fftw-3* )
+SLOT=0
+SRC_URI=mirror://sourceforge/libxtract/libxtract-0.4.7.tar.gz
+_mtime_=1235082867

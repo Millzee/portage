@@ -1,22 +1,12 @@
-X? ( x11-libs/libX11 )
-X? ( x11-libs/libX11 )
-0
-http://www.astrolog.org/ftp/ast54unx.shr
-
-http://www.astrolog.org/astrolog.htm
-astrolog
-A many featured astrology chart calculation program
-x86 ppc64 ppc amd64
-
-X
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=X? ( x11-libs/libX11 )
+DESCRIPTION=A many featured astrology chart calculation program
+EAPI=0
+HOMEPAGE=http://www.astrolog.org/astrolog.htm
+IUSE=X
+KEYWORDS=x86 ppc64 ppc amd64
+LICENSE=astrolog
+RDEPEND=X? ( x11-libs/libX11 )
+SLOT=0
+SRC_URI=http://www.astrolog.org/ftp/ast54unx.shr
+_mtime_=1235082849

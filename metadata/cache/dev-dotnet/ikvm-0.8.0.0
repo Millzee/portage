@@ -1,22 +1,12 @@
->=dev-lang/mono-1.0 !dev-dotnet/ikvm-bin
->=dev-lang/mono-1.0
-0
-http://www.go-mono.com/archive/1.0/ikvm-0.8.0.0.tar.gz
-
-http://www.ikvm.net/
-as-is
-Java VM for .NET
-x86 ~ppc
-mono toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/mono-1.0 !dev-dotnet/ikvm-bin
+DESCRIPTION=Java VM for .NET
+EAPI=0
+HOMEPAGE=http://www.ikvm.net/
+KEYWORDS=x86 ~ppc
+LICENSE=as-is
+RDEPEND=>=dev-lang/mono-1.0
+SLOT=0
+SRC_URI=http://www.go-mono.com/archive/1.0/ikvm-0.8.0.0.tar.gz
+_eclasses_=mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

@@ -1,22 +1,12 @@
-app-arch/unzip >=dev-lang/python-2.3[tk]
-app-text/silvercity >=dev-lang/python-2.3[tk]
-0
-mirror://sourceforge/leo/leo-4.4.7-final.zip
-
-http://leo.sourceforge.net/
-PYTHON
-An outlining editor and literate programming tool.
-~amd64 ~ppc ~x86
-python multilib toolchain-funcs alternatives
-
-
-
-
-2
-
-install postinst postrm prepare
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm prepare
+DEPEND=app-arch/unzip >=dev-lang/python-2.3[tk]
+DESCRIPTION=An outlining editor and literate programming tool.
+EAPI=2
+HOMEPAGE=http://leo.sourceforge.net/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=PYTHON
+RDEPEND=app-text/silvercity >=dev-lang/python-2.3[tk]
+SLOT=0
+SRC_URI=mirror://sourceforge/leo/leo-4.4.7-final.zip
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

@@ -1,22 +1,13 @@
-games-util/loki_patch
->=sys-libs/lib-compat-loki-0.2 x86? ( x11-libs/libX11 ) ppc? ( x11-libs/libX11 ) amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-compat )
-0
-mirror://lokigames/loki_demos/heroes3-demo.run
-strip
-http://www.lokigames.com/products/heroes3/
-as-is
-turn-based 2D medieval combat
-~amd64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=games-util/loki_patch
+DESCRIPTION=turn-based 2D medieval combat
+EAPI=0
+HOMEPAGE=http://www.lokigames.com/products/heroes3/
+KEYWORDS=~amd64 x86
+LICENSE=as-is
+RDEPEND=>=sys-libs/lib-compat-loki-0.2 x86? ( x11-libs/libX11 ) ppc? ( x11-libs/libX11 ) amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-compat )
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://lokigames/loki_demos/heroes3-demo.run
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

@@ -1,22 +1,13 @@
-X? ( x11-libs/libXaw media-libs/libpng )
-X? ( x11-libs/libXaw media-libs/libpng )
-0
-mirror://sourceforge/crossfire/crossfire-1.11.0.tar.gz mirror://sourceforge/crossfire/crossfire-1.11.0.maps.tar.gz
-
-http://crossfire.real-time.com/
-GPL-2
-server for the crossfire clients
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base games eutils
-X
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=X? ( x11-libs/libXaw media-libs/libpng )
+DESCRIPTION=server for the crossfire clients
+EAPI=0
+HOMEPAGE=http://crossfire.real-time.com/
+IUSE=X
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=X? ( x11-libs/libXaw media-libs/libpng )
+SLOT=0
+SRC_URI=mirror://sourceforge/crossfire/crossfire-1.11.0.tar.gz mirror://sourceforge/crossfire/crossfire-1.11.0.maps.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

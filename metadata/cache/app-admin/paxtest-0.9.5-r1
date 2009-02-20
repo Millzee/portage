@@ -1,22 +1,13 @@
-virtual/libc >=sys-apps/chpax-0.5
-virtual/libc >=sys-apps/chpax-0.5
-0
-http://pageexec.virtualave.net/paxtest-0.9.5.tar.gz
-strip
-http://pageexec.virtualave.net/
-GPL-2
-PaX regression test suite
-x86 ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc >=sys-apps/chpax-0.5
+DESCRIPTION=PaX regression test suite
+EAPI=0
+HOMEPAGE=http://pageexec.virtualave.net/
+KEYWORDS=x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=virtual/libc >=sys-apps/chpax-0.5
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://pageexec.virtualave.net/paxtest-0.9.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

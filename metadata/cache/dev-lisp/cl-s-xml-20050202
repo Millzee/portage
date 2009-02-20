@@ -1,22 +1,12 @@
-virtual/commonlisp dev-lisp/common-lisp-controller dev-lisp/common-lisp-controller
-virtual/commonlisp dev-lisp/common-lisp-controller
-0
-mirror://gentoo/s-xml-20040709.tar.gz
-
-http://www.common-lisp.net/project/s-xml/
-LLGPL-2.1
-S-XML is a simple XML parser implemented in Common Lisp.
-~amd64 ~ppc ~sparc x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-compile install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst
+DEPEND=virtual/commonlisp dev-lisp/common-lisp-controller dev-lisp/common-lisp-controller
+DESCRIPTION=S-XML is a simple XML parser implemented in Common Lisp.
+EAPI=0
+HOMEPAGE=http://www.common-lisp.net/project/s-xml/
+KEYWORDS=~amd64 ~ppc ~sparc x86
+LICENSE=LLGPL-2.1
+RDEPEND=virtual/commonlisp dev-lisp/common-lisp-controller
+SLOT=0
+SRC_URI=mirror://gentoo/s-xml-20040709.tar.gz
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

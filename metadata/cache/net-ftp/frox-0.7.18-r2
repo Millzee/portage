@@ -1,22 +1,13 @@
-clamav? ( >=app-antivirus/clamav-0.80 )
-clamav? ( >=app-antivirus/clamav-0.80 )
-0
-http://frox.sourceforge.net/download/frox-0.7.18.tar.bz2
-
-http://frox.sourceforge.net/
-GPL-2
-A transparent ftp proxy
-amd64 ~ppc sparc x86
-toolchain-funcs multilib portability eutils
-clamav
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=clamav? ( >=app-antivirus/clamav-0.80 )
+DESCRIPTION=A transparent ftp proxy
+EAPI=0
+HOMEPAGE=http://frox.sourceforge.net/
+IUSE=clamav
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=clamav? ( >=app-antivirus/clamav-0.80 )
+SLOT=0
+SRC_URI=http://frox.sourceforge.net/download/frox-0.7.18.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

@@ -1,22 +1,13 @@
->=virtual/jdk-1.3 >=virtual/jre-1.3 dev-java/jaxme >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.3 dev-java/jaxme >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-http://ftpna2.bea.com/pub/downloads/jsr173.jar
-
-http://dev2dev.bea.com/xml/stax.html
-bea.ri.jsr173
-The Streaming API for XML (StAX) is a groundbreaking new Java API for parsing and writing XML easily and efficiently
-amd64 ~ia64 ppc ppc64 x86 ~x86-fbsd
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD doc source elibc_FreeBSD
-
-
-
-
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.3 >=virtual/jre-1.3 dev-java/jaxme >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=The Streaming API for XML (StAX) is a groundbreaking new Java API for parsing and writing XML easily and efficiently
+EAPI=0
+HOMEPAGE=http://dev2dev.bea.com/xml/stax.html
+IUSE=elibc_FreeBSD doc source elibc_FreeBSD
+KEYWORDS=amd64 ~ia64 ppc ppc64 x86 ~x86-fbsd
+LICENSE=bea.ri.jsr173
+RDEPEND=>=virtual/jre-1.3 dev-java/jaxme >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=http://ftpna2.bea.com/pub/downloads/jsr173.jar
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

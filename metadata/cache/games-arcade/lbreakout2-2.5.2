@@ -1,22 +1,13 @@
-media-libs/libpng sys-libs/zlib || ( media-libs/libsdl[joystick] <media-libs/libsdl-1.2.13-r1 ) media-libs/sdl-net media-libs/sdl-mixer
-media-libs/libpng sys-libs/zlib || ( media-libs/libsdl[joystick] <media-libs/libsdl-1.2.13-r1 ) media-libs/sdl-net media-libs/sdl-mixer
-0
-mirror://sourceforge/lgames/lbreakout2-2.5.2.tar.gz mirror://sourceforge/lgames/lbreakout2-levelsets-20070121.tar.gz themes? ( mirror://sourceforge/lgames/lbreakout2-themes-20070121.tar.gz )
-
-http://lgames.sourceforge.net/index.php?project=LBreakout2
-GPL-2
-Breakout clone written with the SDL library
-alpha amd64 ia64 ppc x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic multilib base games eutils
-themes
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/libpng sys-libs/zlib || ( media-libs/libsdl[joystick] <media-libs/libsdl-1.2.13-r1 ) media-libs/sdl-net media-libs/sdl-mixer
+DESCRIPTION=Breakout clone written with the SDL library
+EAPI=2
+HOMEPAGE=http://lgames.sourceforge.net/index.php?project=LBreakout2
+IUSE=themes
+KEYWORDS=alpha amd64 ia64 ppc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng sys-libs/zlib || ( media-libs/libsdl[joystick] <media-libs/libsdl-1.2.13-r1 ) media-libs/sdl-net media-libs/sdl-mixer
+SLOT=0
+SRC_URI=mirror://sourceforge/lgames/lbreakout2-2.5.2.tar.gz mirror://sourceforge/lgames/lbreakout2-levelsets-20070121.tar.gz themes? ( mirror://sourceforge/lgames/lbreakout2-themes-20070121.tar.gz )
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

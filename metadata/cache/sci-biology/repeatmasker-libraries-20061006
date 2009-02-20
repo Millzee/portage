@@ -1,22 +1,10 @@
-
-
-0
-repeatmaskerlibraries-20061006.tar.gz
-fetch
-http://repeatmasker.org/
-as-is
-A special version of RepBase used by RepeatMasker
-~x86
-
-
-
-
-
-0
-
-install nofetch
-
-
-
-
-
+DEFINED_PHASES=install nofetch
+DESCRIPTION=A special version of RepBase used by RepeatMasker
+EAPI=0
+HOMEPAGE=http://repeatmasker.org/
+KEYWORDS=~x86
+LICENSE=as-is
+RESTRICT=fetch
+SLOT=0
+SRC_URI=repeatmaskerlibraries-20061006.tar.gz
+_mtime_=1235082898

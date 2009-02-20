@@ -1,22 +1,13 @@
->=sys-libs/ncurses-5.2 nls? ( sys-devel/gettext )
->=sys-libs/ncurses-5.2 nls? ( sys-devel/gettext )
-0
-http://thekonst.net/download/motor-3.4.0.tar.bz2
-
-http://thekonst.net/en/motor
-GPL-2
-text mode based programming environment for Linux
-ppc x86
-toolchain-funcs multilib portability eutils
-nls
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-libs/ncurses-5.2 nls? ( sys-devel/gettext )
+DESCRIPTION=text mode based programming environment for Linux
+EAPI=0
+HOMEPAGE=http://thekonst.net/en/motor
+IUSE=nls
+KEYWORDS=ppc x86
+LICENSE=GPL-2
+RDEPEND=>=sys-libs/ncurses-5.2 nls? ( sys-devel/gettext )
+SLOT=0
+SRC_URI=http://thekonst.net/download/motor-3.4.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

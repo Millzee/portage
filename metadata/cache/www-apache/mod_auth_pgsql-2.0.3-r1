@@ -1,22 +1,12 @@
-virtual/postgresql-base =www-servers/apache-2*
-virtual/postgresql-base =www-servers/apache-2*
-2
-http://www.giuseppetanzilli.it/mod_auth_pgsql2/dist/mod_auth_pgsql-2.0.3.tar.gz
-
-http://www.giuseppetanzilli.it/mod_auth_pgsql2/
-freedist
-This module allows user authentication against information stored in a PostgreSQL database.
-amd64 ppc ~sparc x86
-toolchain-funcs apache-module depend.apache multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/postgresql-base =www-servers/apache-2*
+DESCRIPTION=This module allows user authentication against information stored in a PostgreSQL database.
+EAPI=0
+HOMEPAGE=http://www.giuseppetanzilli.it/mod_auth_pgsql2/
+KEYWORDS=amd64 ppc ~sparc x86
+LICENSE=freedist
+RDEPEND=virtual/postgresql-base =www-servers/apache-2*
+SLOT=2
+SRC_URI=http://www.giuseppetanzilli.it/mod_auth_pgsql2/dist/mod_auth_pgsql-2.0.3.tar.gz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

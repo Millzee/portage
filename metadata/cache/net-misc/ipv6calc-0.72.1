@@ -1,22 +1,13 @@
-geoip? ( >=dev-libs/geoip-1.4.1 ) >=sys-apps/sed-4
-geoip? ( >=dev-libs/geoip-1.4.1 )
-0
-ftp://ftp.bieringer.de/pub/linux/IPv6/ipv6calc/ipv6calc-0.72.1.tar.gz
-
-http://www.deepspace6.net/projects/ipv6calc.html
-GPL-2
-IPv6 address calculator
-~amd64 ~hppa ~ppc ~sparc ~x86
-fixheadtails
-geoip
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=geoip? ( >=dev-libs/geoip-1.4.1 ) >=sys-apps/sed-4
+DESCRIPTION=IPv6 address calculator
+EAPI=0
+HOMEPAGE=http://www.deepspace6.net/projects/ipv6calc.html
+IUSE=geoip
+KEYWORDS=~amd64 ~hppa ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=geoip? ( >=dev-libs/geoip-1.4.1 )
+SLOT=0
+SRC_URI=ftp://ftp.bieringer.de/pub/linux/IPv6/ipv6calc/ipv6calc-0.72.1.tar.gz
+_eclasses_=fixheadtails	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

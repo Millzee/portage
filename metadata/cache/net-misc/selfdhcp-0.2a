@@ -1,22 +1,12 @@
-dev-libs/popt dev-libs/libxml2 >=net-libs/libnet-1.0.2 net-libs/libpcap
-dev-libs/popt dev-libs/libxml2 >=net-libs/libnet-1.0.2 net-libs/libpcap
-0
-mirror://sourceforge/selfdhcp/selfdhcp-0.2a.tar.bz2
-
-http://selfdhcp.sourceforge.net
-GPL-2
-a small stealth network autoconfigure software.
-~x86 ~sparc ~ppc
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/popt dev-libs/libxml2 >=net-libs/libnet-1.0.2 net-libs/libpcap
+DESCRIPTION=a small stealth network autoconfigure software.
+EAPI=0
+HOMEPAGE=http://selfdhcp.sourceforge.net
+KEYWORDS=~x86 ~sparc ~ppc
+LICENSE=GPL-2
+RDEPEND=dev-libs/popt dev-libs/libxml2 >=net-libs/libnet-1.0.2 net-libs/libpcap
+SLOT=0
+SRC_URI=mirror://sourceforge/selfdhcp/selfdhcp-0.2a.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

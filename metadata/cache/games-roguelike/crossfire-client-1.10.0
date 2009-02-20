@@ -1,22 +1,13 @@
-alsa? ( media-libs/alsa-lib ) gtk? ( >=x11-libs/gtk+-2 sdl? ( media-libs/libsdl media-libs/sdl-image ) ) virtual/glut media-libs/libpng sys-libs/zlib dev-util/pkgconfig
-alsa? ( media-libs/alsa-lib ) gtk? ( >=x11-libs/gtk+-2 sdl? ( media-libs/libsdl media-libs/sdl-image ) ) virtual/glut media-libs/libpng sys-libs/zlib
-0
-mirror://sourceforge/crossfire/crossfire-client-1.10.0.tar.gz
-
-http://crossfire.real-time.com/
-GPL-2
-Client for the nethack-style but more in the line of UO
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base games eutils
-alsa gtk oss sdl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=alsa? ( media-libs/alsa-lib ) gtk? ( >=x11-libs/gtk+-2 sdl? ( media-libs/libsdl media-libs/sdl-image ) ) virtual/glut media-libs/libpng sys-libs/zlib dev-util/pkgconfig
+DESCRIPTION=Client for the nethack-style but more in the line of UO
+EAPI=0
+HOMEPAGE=http://crossfire.real-time.com/
+IUSE=alsa gtk oss sdl
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=alsa? ( media-libs/alsa-lib ) gtk? ( >=x11-libs/gtk+-2 sdl? ( media-libs/libsdl media-libs/sdl-image ) ) virtual/glut media-libs/libpng sys-libs/zlib
+SLOT=0
+SRC_URI=mirror://sourceforge/crossfire/crossfire-client-1.10.0.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

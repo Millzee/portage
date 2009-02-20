@@ -1,22 +1,12 @@
-dev-games/kyra media-libs/sdl-mixer virtual/opengl media-libs/sdl-net media-libs/libpng =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-dev-games/kyra media-libs/sdl-mixer virtual/opengl media-libs/sdl-net media-libs/libpng
-0
-mirror://sourceforge/gemhun/GemHunters-src-20040529.tar.gz mirror://sourceforge/gemhun/fairylands-bin-20040529.tar.gz mirror://sourceforge/gemhun/stars_in_the_night-bin-20040529.tar.gz
-
-http://gemhun.sourceforge.net/
-GPL-2
-A puzzle game about grouping gems of a chosen amount together
-ppc x86
-toolchain-funcs portability multilib base libtool games autotools eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=dev-games/kyra media-libs/sdl-mixer virtual/opengl media-libs/sdl-net media-libs/libpng =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A puzzle game about grouping gems of a chosen amount together
+EAPI=0
+HOMEPAGE=http://gemhun.sourceforge.net/
+KEYWORDS=ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-games/kyra media-libs/sdl-mixer virtual/opengl media-libs/sdl-net media-libs/libpng
+SLOT=0
+SRC_URI=mirror://sourceforge/gemhun/GemHunters-src-20040529.tar.gz mirror://sourceforge/gemhun/fairylands-bin-20040529.tar.gz mirror://sourceforge/gemhun/stars_in_the_night-bin-20040529.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

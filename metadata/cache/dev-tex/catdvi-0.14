@@ -1,22 +1,12 @@
-virtual/tex-base
-virtual/tex-base
-0
-mirror://sourceforge/catdvi/catdvi-0.14.tar.gz
-
-http://catdvi.sourceforge.net
-GPL-2
-DVI to plain text translator
-amd64 x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/tex-base
+DESCRIPTION=DVI to plain text translator
+EAPI=0
+HOMEPAGE=http://catdvi.sourceforge.net
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=virtual/tex-base
+SLOT=0
+SRC_URI=mirror://sourceforge/catdvi/catdvi-0.14.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

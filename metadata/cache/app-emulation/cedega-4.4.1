@@ -1,22 +1,12 @@
-
-x11-libs/libX11 opengl? ( virtual/opengl ) >=sys-libs/ncurses-5.2 cups? ( net-print/cups ) >=media-libs/freetype-2.0.0 amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-soundlibs )
-3
-cedega_4.4.1-1.i386.tgz
-fetch
-http://www.transgaming.com/
-cedega
-Cedega replaces WineX, a distribution of Wine with enhanced DirectX for gaming
--* amd64 x86
-
-cups opengl
-
-
-
-0
-
-install nofetch postinst
-
-
-
-
-
+DEFINED_PHASES=install nofetch postinst
+DESCRIPTION=Cedega replaces WineX, a distribution of Wine with enhanced DirectX for gaming
+EAPI=0
+HOMEPAGE=http://www.transgaming.com/
+IUSE=cups opengl
+KEYWORDS=-* amd64 x86
+LICENSE=cedega
+RDEPEND=x11-libs/libX11 opengl? ( virtual/opengl ) >=sys-libs/ncurses-5.2 cups? ( net-print/cups ) >=media-libs/freetype-2.0.0 amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-soundlibs )
+RESTRICT=fetch
+SLOT=3
+SRC_URI=cedega_4.4.1-1.i386.tgz
+_mtime_=1235082848

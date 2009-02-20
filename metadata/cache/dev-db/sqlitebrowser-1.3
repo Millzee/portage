@@ -1,22 +1,12 @@
-=dev-db/sqlite-3* x11-libs/qt:3
-=dev-db/sqlite-3* x11-libs/qt:3
-0
-mirror://sourceforge/sqlitebrowser/sqlitebrowser-1.3-src.tar.gz
-
-http://sqlitebrowser.sourceforge.net/
-public-domain
-SQLite Database Browser
-~amd64 ~x86
-toolchain-funcs qt3 portability versionator multilib eutils
-
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==dev-db/sqlite-3* x11-libs/qt:3
+DESCRIPTION=SQLite Database Browser
+EAPI=1
+HOMEPAGE=http://sqlitebrowser.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND==dev-db/sqlite-3* x11-libs/qt:3
+SLOT=0
+SRC_URI=mirror://sourceforge/sqlitebrowser/sqlitebrowser-1.3-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

@@ -1,22 +1,13 @@
-dev-haskell/mtl >=dev-haskell/x11-1.4 >=dev-lang/ghc-6.6 doc? ( dev-haskell/haddock ) >=dev-haskell/cabal-1.2
-dev-haskell/mtl >=dev-haskell/x11-1.4 >=dev-lang/ghc-6.6 dev-lang/ghc
-0
-http://hackage.haskell.org/packages/archive/xmonad/0.5/xmonad-0.5.tar.gz
-
-http://www.xmonad.org/
-BSD
-A lightweight X11 window manager
-~amd64 ~sparc ~x86
-ghc-package toolchain-funcs versionator multilib haskell-cabal
-doc profile
-
-
-
-0
-
-compile install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup unpack
+DEPEND=dev-haskell/mtl >=dev-haskell/x11-1.4 >=dev-lang/ghc-6.6 doc? ( dev-haskell/haddock ) >=dev-haskell/cabal-1.2
+DESCRIPTION=A lightweight X11 window manager
+EAPI=0
+HOMEPAGE=http://www.xmonad.org/
+IUSE=doc profile
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/mtl >=dev-haskell/x11-1.4 >=dev-lang/ghc-6.6 dev-lang/ghc
+SLOT=0
+SRC_URI=http://hackage.haskell.org/packages/archive/xmonad/0.5/xmonad-0.5.tar.gz
+_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	haskell-cabal	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

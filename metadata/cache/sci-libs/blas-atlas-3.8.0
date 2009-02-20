@@ -1,22 +1,13 @@
-app-admin/eselect-blas app-admin/eselect-cblas >=sys-devel/libtool-1.5 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-app-admin/eselect-blas app-admin/eselect-cblas doc? ( app-doc/blas-docs )
-0
-mirror://sourceforge/math-atlas/atlas3.8.0.tar.bz2 mirror://gentoo/atlas-3.7.39-shared-libs.patch.bz2
-
-http://math-atlas.sourceforge.net/
-BSD
-Automatically Tuned Linear Algebra Software BLAS implementation
-alpha amd64 ppc ppc64 sparc x86
-toolchain-funcs portability multilib fortran libtool autotools eutils
-doc debug
-
-
-
-0
-
-compile install postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test unpack
+DEPEND=app-admin/eselect-blas app-admin/eselect-cblas >=sys-devel/libtool-1.5 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Automatically Tuned Linear Algebra Software BLAS implementation
+EAPI=0
+HOMEPAGE=http://math-atlas.sourceforge.net/
+IUSE=doc debug
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+LICENSE=BSD
+RDEPEND=app-admin/eselect-blas app-admin/eselect-cblas doc? ( app-doc/blas-docs )
+SLOT=0
+SRC_URI=mirror://sourceforge/math-atlas/atlas3.8.0.tar.bz2 mirror://gentoo/atlas-3.7.39-shared-libs.patch.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,12 @@
-virtual/perl-ExtUtils-CBuilder virtual/perl-ExtUtils-ParseXS
-virtual/perl-ExtUtils-CBuilder virtual/perl-ExtUtils-ParseXS
-0
-mirror://cpan/authors/id/C/CR/CREAMYG//Lingua-Stem-Snowball-0.952.tar.gz
-
-http://search.cpan.org/search?query=Lingua-Stem-Snowball&mode=dist
-|| ( Artistic GPL-2 )
-Perl interface to Snowball stemmers.
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-ExtUtils-CBuilder virtual/perl-ExtUtils-ParseXS
+DESCRIPTION=Perl interface to Snowball stemmers.
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Lingua-Stem-Snowball&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-ExtUtils-CBuilder virtual/perl-ExtUtils-ParseXS
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CR/CREAMYG//Lingua-Stem-Snowball-0.952.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

@@ -1,22 +1,12 @@
-app-xemacs/xemacs-base app-xemacs/mail-lib app-xemacs/fsf-compat app-xemacs/edit-utils app-xemacs/speedbar app-xemacs/sh-script app-xemacs/xemacs-eterm virtual/xemacs
-app-xemacs/xemacs-base app-xemacs/mail-lib app-xemacs/fsf-compat app-xemacs/edit-utils app-xemacs/speedbar app-xemacs/sh-script app-xemacs/xemacs-eterm
-0
-http://ftp.xemacs.org/pub/xemacs/packages/ess-1.03-pkg.tar.gz
-
-http://xemacs.org/
-GPL-2
-ESS: Emacs Speaks Statistics.
-alpha amd64 ppc ppc64 sparc x86
-xemacs-packages
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=app-xemacs/xemacs-base app-xemacs/mail-lib app-xemacs/fsf-compat app-xemacs/edit-utils app-xemacs/speedbar app-xemacs/sh-script app-xemacs/xemacs-eterm virtual/xemacs
+DESCRIPTION=ESS: Emacs Speaks Statistics.
+EAPI=0
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=app-xemacs/xemacs-base app-xemacs/mail-lib app-xemacs/fsf-compat app-xemacs/edit-utils app-xemacs/speedbar app-xemacs/sh-script app-xemacs/xemacs-eterm
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/ess-1.03-pkg.tar.gz
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

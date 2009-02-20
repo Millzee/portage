@@ -1,22 +1,11 @@
-=app-pda/libopensync-0.21* >=dev-lang/python-2.0
-=app-pda/libopensync-0.21* >=dev-lang/python-2.0
-0
-http://dev.gentooexperimental.org/~peper/distfiles/libopensync-plugin-python-0.21.tar.bz2
-
-http://www.opensync.org/
-LGPL-2.1
-OpenSync Python Module
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND==app-pda/libopensync-0.21* >=dev-lang/python-2.0
+DESCRIPTION=OpenSync Python Module
+EAPI=0
+HOMEPAGE=http://www.opensync.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND==app-pda/libopensync-0.21* >=dev-lang/python-2.0
+SLOT=0
+SRC_URI=http://dev.gentooexperimental.org/~peper/distfiles/libopensync-plugin-python-0.21.tar.bz2
+_mtime_=1235082849

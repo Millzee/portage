@@ -1,22 +1,14 @@
->=app-arch/rpm2targz-9.0-r1 >=sys-apps/sed-4
-x11-libs/libX11 >=x11-libs/gtk+-2
-0
-x86? ( mirror://nero/nerolinux-3.5.2.0-x86.rpm ) amd64? ( mirror://nero/nerolinux-3.5.2.0-x86_64.rpm )
-strip mirror test
-http://nerolinux.nero.com
-Nero
-Nero Burning ROM for Linux
-~amd64 ~x86
-toolchain-funcs portability multilib gnome2-utils fdo-mime rpm eutils
-doc
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=app-arch/rpm2targz-9.0-r1 >=sys-apps/sed-4
+DESCRIPTION=Nero Burning ROM for Linux
+EAPI=0
+HOMEPAGE=http://nerolinux.nero.com
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=Nero
+RDEPEND=x11-libs/libX11 >=x11-libs/gtk+-2
+RESTRICT=strip mirror test
+SLOT=0
+SRC_URI=x86? ( mirror://nero/nerolinux-3.5.2.0-x86.rpm ) amd64? ( mirror://nero/nerolinux-3.5.2.0-x86_64.rpm )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	rpm	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

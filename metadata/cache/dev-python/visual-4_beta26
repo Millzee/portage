@@ -1,22 +1,13 @@
-dev-libs/boost virtual/opengl =dev-cpp/gtkglextmm-1.2* dev-cpp/libglademm dev-python/numpy virtual/python
-dev-libs/boost virtual/opengl =dev-cpp/gtkglextmm-1.2* dev-cpp/libglademm dev-python/numpy
-0
-mirror://sourceforge/visualpython/visual-4.beta26.tar.bz2
-
-http://www.vpython.org/
-visual
-An easy to use Real-time 3D graphics library for Python.
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives versionator multilib eutils
-doc examples
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-libs/boost virtual/opengl =dev-cpp/gtkglextmm-1.2* dev-cpp/libglademm dev-python/numpy virtual/python
+DESCRIPTION=An easy to use Real-time 3D graphics library for Python.
+EAPI=0
+HOMEPAGE=http://www.vpython.org/
+IUSE=doc examples
+KEYWORDS=~amd64 ~x86
+LICENSE=visual
+RDEPEND=dev-libs/boost virtual/opengl =dev-cpp/gtkglextmm-1.2* dev-cpp/libglademm dev-python/numpy
+SLOT=0
+SRC_URI=mirror://sourceforge/visualpython/visual-4.beta26.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

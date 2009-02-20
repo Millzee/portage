@@ -1,22 +1,12 @@
-virtual/ruby virtual/ruby
-virtual/ruby virtual/ruby
-0
-http://www.yoshidam.net/uconv-0.4.12.tar.gz
-
-http://www.yoshidam.net/Ruby.html#uconv
-Ruby
-A module to convert ISO/IEC 10646 (Unicode) string and Japanese strings
-~amd64 ia64 ppc ppc64 x86
-ruby toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/ruby virtual/ruby
+DESCRIPTION=A module to convert ISO/IEC 10646 (Unicode) string and Japanese strings
+EAPI=0
+HOMEPAGE=http://www.yoshidam.net/Ruby.html#uconv
+KEYWORDS=~amd64 ia64 ppc ppc64 x86
+LICENSE=Ruby
+RDEPEND=virtual/ruby virtual/ruby
+SLOT=0
+SRC_URI=http://www.yoshidam.net/uconv-0.4.12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

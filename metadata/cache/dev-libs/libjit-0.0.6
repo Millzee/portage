@@ -1,22 +1,13 @@
-doc? ( app-text/texi2html )
-doc? ( app-text/texi2html )
-0
-http://www.southern-storm.com.au/download/libjit-0.0.6.tar.gz
-
-http://www.southern-storm.com.au/libjit.html
-GPL-2
-Just-In-Time compilation functionality and is designed to be independent of any particular virtual machine bytecode format or language
-amd64 arm x86
-toolchain-funcs multilib portability eutils
-doc examples interpreter long-double new-reg-alloc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=doc? ( app-text/texi2html )
+DESCRIPTION=Just-In-Time compilation functionality and is designed to be independent of any particular virtual machine bytecode format or language
+EAPI=0
+HOMEPAGE=http://www.southern-storm.com.au/libjit.html
+IUSE=doc examples interpreter long-double new-reg-alloc
+KEYWORDS=amd64 arm x86
+LICENSE=GPL-2
+RDEPEND=doc? ( app-text/texi2html )
+SLOT=0
+SRC_URI=http://www.southern-storm.com.au/download/libjit-0.0.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

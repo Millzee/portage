@@ -1,22 +1,12 @@
-net-dns/avahi =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-net-dns/avahi
-0
-http://0pointer.de/lennart/projects/nss-mdns/nss-mdns-0.10.tar.gz
-
-http://0pointer.de/lennart/projects/nss-mdns/
-GPL-2
-Name Service Switch module for Multicast DNS
-amd64 ~hppa ~mips ppc x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=net-dns/avahi =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Name Service Switch module for Multicast DNS
+EAPI=0
+HOMEPAGE=http://0pointer.de/lennart/projects/nss-mdns/
+KEYWORDS=amd64 ~hppa ~mips ppc x86
+LICENSE=GPL-2
+RDEPEND=net-dns/avahi
+SLOT=0
+SRC_URI=http://0pointer.de/lennart/projects/nss-mdns/nss-mdns-0.10.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

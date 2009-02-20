@@ -1,22 +1,12 @@
-doc? ( app-doc/doxygen )
-
-0
-mirror://sourceforge/liblo/liblo-0.25.tar.gz
-test
-http://plugin.org.uk/liblo
-GPL-2
-Lightweight OSC (Open Sound Control) implementation
-~amd64 ~ppc ~ppc64 ~x86
-
-doc ipv6
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=doc? ( app-doc/doxygen )
+DESCRIPTION=Lightweight OSC (Open Sound Control) implementation
+EAPI=0
+HOMEPAGE=http://plugin.org.uk/liblo
+IUSE=doc ipv6
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/liblo/liblo-0.25.tar.gz
+_mtime_=1235082867

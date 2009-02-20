@@ -1,22 +1,13 @@
-x11-libs/libXmu x11-libs/libxkbfile >=dev-libs/libxml2-2.2.8 >=sys-libs/db-4.3.29-r2 xosd? ( >=x11-libs/xosd-1 ) gtk? ( >=x11-libs/gtk+-2 )
-x11-libs/libXmu x11-libs/libxkbfile >=dev-libs/libxml2-2.2.8 >=sys-libs/db-4.3.29-r2 xosd? ( >=x11-libs/xosd-1 ) gtk? ( >=x11-libs/gtk+-2 )
-0
-mirror://debian/pool/main/h/hotkeys/hotkeys_0.5.7.4-0.1.tar.gz
-
-http://packages.debian.org/unstable/x11/hotkeys
-GPL-2
-A hotkeys daemon for your Internet/multimedia keyboard in X
-amd64 ppc sparc x86
-toolchain-funcs versionator multilib portability eutils
-gtk xosd
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXmu x11-libs/libxkbfile >=dev-libs/libxml2-2.2.8 >=sys-libs/db-4.3.29-r2 xosd? ( >=x11-libs/xosd-1 ) gtk? ( >=x11-libs/gtk+-2 )
+DESCRIPTION=A hotkeys daemon for your Internet/multimedia keyboard in X
+EAPI=0
+HOMEPAGE=http://packages.debian.org/unstable/x11/hotkeys
+IUSE=gtk xosd
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXmu x11-libs/libxkbfile >=dev-libs/libxml2-2.2.8 >=sys-libs/db-4.3.29-r2 xosd? ( >=x11-libs/xosd-1 ) gtk? ( >=x11-libs/gtk+-2 )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/h/hotkeys/hotkeys_0.5.7.4-0.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

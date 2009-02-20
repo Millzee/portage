@@ -1,22 +1,11 @@
-virtual/libc net-libs/libpcap
-virtual/libc net-libs/libpcap
-0
-http://siphon.datanerds.net/siphon-v.666.tar.gz
-
-http://siphon.datanerds.net/
-as-is
-A portable passive network mapping suite
-~amd64 ~ppc sparc x86
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc net-libs/libpcap
+DESCRIPTION=A portable passive network mapping suite
+EAPI=0
+HOMEPAGE=http://siphon.datanerds.net/
+KEYWORDS=~amd64 ~ppc sparc x86
+LICENSE=as-is
+RDEPEND=virtual/libc net-libs/libpcap
+SLOT=0
+SRC_URI=http://siphon.datanerds.net/siphon-v.666.tar.gz
+_mtime_=1235082889

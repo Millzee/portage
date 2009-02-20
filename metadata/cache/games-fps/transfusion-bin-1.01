@@ -1,22 +1,13 @@
-sys-libs/glibc app-arch/unzip
-sys-libs/glibc
-0
-mirror://sourceforge/blood/transfusion-1.0-linux.i386.zip mirror://sourceforge/blood/transfusion-patch-1.01-linux.i386.zip mirror://gentoo/transfusion.png
-strip
-http://www.transfusion-game.com/
-GPL-2
-Blood remake
--* x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=sys-libs/glibc app-arch/unzip
+DESCRIPTION=Blood remake
+EAPI=0
+HOMEPAGE=http://www.transfusion-game.com/
+KEYWORDS=-* x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/glibc
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/blood/transfusion-1.0-linux.i386.zip mirror://sourceforge/blood/transfusion-patch-1.01-linux.i386.zip mirror://gentoo/transfusion.png
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,13 @@
->=sys-devel/libtool-1.4.1 >=sys-apps/sed-4 ssl? ( >=dev-libs/openssl-0.9.6b )
->=sys-devel/libtool-1.4.1 >=sys-apps/sed-4 ssl? ( >=dev-libs/openssl-0.9.6b )
-0
-http://www.stafford.uklinux.net/libesmtp/libesmtp-1.0.3r1.tar.bz2
-
-http://www.stafford.uklinux.net/libesmtp/
-LGPL-2.1 GPL-2
-libESMTP is a library that implements the client side of the SMTP protocol
-alpha ~amd64 ia64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-ssl debug
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=sys-devel/libtool-1.4.1 >=sys-apps/sed-4 ssl? ( >=dev-libs/openssl-0.9.6b )
+DESCRIPTION=libESMTP is a library that implements the client side of the SMTP protocol
+EAPI=0
+HOMEPAGE=http://www.stafford.uklinux.net/libesmtp/
+IUSE=ssl debug
+KEYWORDS=alpha ~amd64 ia64 ppc sparc x86
+LICENSE=LGPL-2.1 GPL-2
+RDEPEND=>=sys-devel/libtool-1.4.1 >=sys-apps/sed-4 ssl? ( >=dev-libs/openssl-0.9.6b )
+SLOT=0
+SRC_URI=http://www.stafford.uklinux.net/libesmtp/libesmtp-1.0.3r1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

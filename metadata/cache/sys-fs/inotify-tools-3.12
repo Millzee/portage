@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-mirror://sourceforge/inotify-tools/inotify-tools-3.12.tar.gz
-
-http://inotify-tools.sourceforge.net/
-GPL-2
-a set of command-line programs providing a simple interface to inotify
-amd64 ~hppa x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=virtual/libc
+DESCRIPTION=a set of command-line programs providing a simple interface to inotify
+EAPI=0
+HOMEPAGE=http://inotify-tools.sourceforge.net/
+KEYWORDS=amd64 ~hppa x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/inotify-tools/inotify-tools-3.12.tar.gz
+_mtime_=1235082907

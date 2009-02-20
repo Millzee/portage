@@ -1,22 +1,13 @@
->=dev-lang/mono-2.0 >=virtual/monodoc-2.0 >=dev-dotnet/gtk-sharp-2.10 >=dev-dotnet/glade-sharp-2.10 >=dev-dotnet/gconf-sharp-2 >=dev-dotnet/gtkhtml-sharp-2 webkit? ( dev-dotnet/webkit-sharp ) xulrunner? ( >=dev-dotnet/gecko-sharp-0.13 ) sys-devel/gettext >=dev-util/pkgconfig-0.19 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=dev-lang/mono-2.0 >=virtual/monodoc-2.0 >=dev-dotnet/gtk-sharp-2.10 >=dev-dotnet/glade-sharp-2.10 >=dev-dotnet/gconf-sharp-2 >=dev-dotnet/gtkhtml-sharp-2 webkit? ( dev-dotnet/webkit-sharp ) xulrunner? ( >=dev-dotnet/gecko-sharp-0.13 )
-0
-http://ftp.novell.com/pub/mono/sources/mono-tools/mono-tools-2.0.tar.bz2
-
-http://www.mono-project.com/
-GPL-2
-Set of useful Mono related utilities
-~amd64 ~ppc ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability mono multilib base libtool autotools eutils
-webkit xulrunner
-
-
-
-2
-
-compile configure install prepare unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=>=dev-lang/mono-2.0 >=virtual/monodoc-2.0 >=dev-dotnet/gtk-sharp-2.10 >=dev-dotnet/glade-sharp-2.10 >=dev-dotnet/gconf-sharp-2 >=dev-dotnet/gtkhtml-sharp-2 webkit? ( dev-dotnet/webkit-sharp ) xulrunner? ( >=dev-dotnet/gecko-sharp-0.13 ) sys-devel/gettext >=dev-util/pkgconfig-0.19 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Set of useful Mono related utilities
+EAPI=2
+HOMEPAGE=http://www.mono-project.com/
+IUSE=webkit xulrunner
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/mono-2.0 >=virtual/monodoc-2.0 >=dev-dotnet/gtk-sharp-2.10 >=dev-dotnet/glade-sharp-2.10 >=dev-dotnet/gconf-sharp-2 >=dev-dotnet/gtkhtml-sharp-2 webkit? ( dev-dotnet/webkit-sharp ) xulrunner? ( >=dev-dotnet/gecko-sharp-0.13 )
+SLOT=0
+SRC_URI=http://ftp.novell.com/pub/mono/sources/mono-tools/mono-tools-2.0.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

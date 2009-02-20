@@ -1,22 +1,12 @@
-virtual/libc =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/libc
-0
-mirror://sourceforge/cunit/CUnit-2.1-0-src.tar.gz
-
-http://cunit.sourceforge.net
-LGPL-2
-CUnit - C Unit Test Framework
-~alpha ~amd64 ~ia64 ~mips ppc ~ppc64 sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=CUnit - C Unit Test Framework
+EAPI=0
+HOMEPAGE=http://cunit.sourceforge.net
+KEYWORDS=~alpha ~amd64 ~ia64 ~mips ppc ~ppc64 sparc x86
+LICENSE=LGPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/cunit/CUnit-2.1-0-src.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

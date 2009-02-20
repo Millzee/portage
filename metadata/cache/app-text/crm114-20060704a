@@ -1,22 +1,13 @@
->=sys-apps/sed-4 virtual/libc normalizemime? ( mail-filter/normalizemime ) mew? ( app-emacs/mew ) mimencode? ( net-mail/metamail ) !static? ( >=dev-libs/tre-0.7.4 ) test? ( sys-apps/miscfiles )
->=sys-apps/sed-4 virtual/libc normalizemime? ( mail-filter/normalizemime ) mew? ( app-emacs/mew ) mimencode? ( net-mail/metamail ) !static? ( >=dev-libs/tre-0.7.4 ) test? ( sys-apps/miscfiles )
-0
-http://crm114.sourceforge.net/crm114-20060704a-BlameRobert.src.tar.gz
-
-http://crm114.sourceforge.net/
-GPL-2
-A powerful text processing tool, mainly used for spam filtering
-~amd64 ppc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-nls static normalizemime mew mimencode test
-
-
-
-0
-
-compile install postinst test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst test unpack
+DEPEND=>=sys-apps/sed-4 virtual/libc normalizemime? ( mail-filter/normalizemime ) mew? ( app-emacs/mew ) mimencode? ( net-mail/metamail ) !static? ( >=dev-libs/tre-0.7.4 ) test? ( sys-apps/miscfiles )
+DESCRIPTION=A powerful text processing tool, mainly used for spam filtering
+EAPI=0
+HOMEPAGE=http://crm114.sourceforge.net/
+IUSE=nls static normalizemime mew mimencode test
+KEYWORDS=~amd64 ppc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=sys-apps/sed-4 virtual/libc normalizemime? ( mail-filter/normalizemime ) mew? ( app-emacs/mew ) mimencode? ( net-mail/metamail ) !static? ( >=dev-libs/tre-0.7.4 ) test? ( sys-apps/miscfiles )
+SLOT=0
+SRC_URI=http://crm114.sourceforge.net/crm114-20060704a-BlameRobert.src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

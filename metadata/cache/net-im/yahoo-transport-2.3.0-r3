@@ -1,22 +1,12 @@
-net-im/jabberd
-net-im/jabberd
-0
-http://www.jabberstudio.org/files/yahoo-transport-2/yahoo-transport-2.3.0.tar.gz http://dev.gentoo.org/~humpback/yahoo-transport+newauth.diff http://www.lucas-nussbaum.net/yahoo-transport+authfix.diff
-
-http://yahoo-transport-2.jabberstudio.org/
-GPL-2
-Open Source Jabber Server Yahoo transport
-~x86 ~ppc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=net-im/jabberd
+DESCRIPTION=Open Source Jabber Server Yahoo transport
+EAPI=0
+HOMEPAGE=http://yahoo-transport-2.jabberstudio.org/
+KEYWORDS=~x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=net-im/jabberd
+SLOT=0
+SRC_URI=http://www.jabberstudio.org/files/yahoo-transport-2/yahoo-transport-2.3.0.tar.gz http://dev.gentoo.org/~humpback/yahoo-transport+newauth.diff http://www.lucas-nussbaum.net/yahoo-transport+authfix.diff
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

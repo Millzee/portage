@@ -1,22 +1,13 @@
-jack? ( media-sound/jack-audio-connection-kit ) alsa? ( >=media-libs/alsa-lib-0.9 ) media-libs/libsndfile sys-devel/bison sys-devel/flex
-jack? ( media-sound/jack-audio-connection-kit ) alsa? ( >=media-libs/alsa-lib-0.9 ) media-libs/libsndfile
-0
-http://chuck.cs.princeton.edu/release/files/chuck-1.2.0.8.tgz
-
-http://chuck.cs.princeton.edu/release/
-GPL-2
-Strongly-timed, Concurrent, and On-the-fly Audio Programming Language
-x86
-toolchain-funcs multilib portability eutils flag-o-matic
-oss jack alsa examples
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=jack? ( media-sound/jack-audio-connection-kit ) alsa? ( >=media-libs/alsa-lib-0.9 ) media-libs/libsndfile sys-devel/bison sys-devel/flex
+DESCRIPTION=Strongly-timed, Concurrent, and On-the-fly Audio Programming Language
+EAPI=0
+HOMEPAGE=http://chuck.cs.princeton.edu/release/
+IUSE=oss jack alsa examples
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=jack? ( media-sound/jack-audio-connection-kit ) alsa? ( >=media-libs/alsa-lib-0.9 ) media-libs/libsndfile
+SLOT=0
+SRC_URI=http://chuck.cs.princeton.edu/release/files/chuck-1.2.0.8.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

@@ -1,22 +1,12 @@
-=dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
-=dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
-0
-http://pear.php.net/get/Net_LDAP2-2.0.0RC2.tgz
-
-http://pear.php.net/Net_LDAP2
-LGPL-2.1
-OO interface for searching and manipulating LDAP-entries
-~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
-toolchain-funcs portability depend.php multilib phpconfutils php-pear-r1 eutils
-
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DEPEND==dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
+DESCRIPTION=OO interface for searching and manipulating LDAP-entries
+EAPI=0
+HOMEPAGE=http://pear.php.net/Net_LDAP2
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
+LICENSE=LGPL-2.1
+RDEPEND==dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
+SLOT=0
+SRC_URI=http://pear.php.net/get/Net_LDAP2-2.0.0RC2.tgz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	php-pear-r1	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

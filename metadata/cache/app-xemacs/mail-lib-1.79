@@ -1,22 +1,12 @@
-virtual/xemacs
-app-xemacs/xemacs-eterm app-xemacs/xemacs-base app-xemacs/fsf-compat app-xemacs/sh-script app-xemacs/ecrypto
-0
-http://ftp.xemacs.org/pub/xemacs/packages/mail-lib-1.79-pkg.tar.gz
-
-http://xemacs.org/
-GPL-2
-Fundamental lisp files for providing email support.
-alpha amd64 ppc ppc64 sparc x86
-xemacs-packages
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/xemacs
+DESCRIPTION=Fundamental lisp files for providing email support.
+EAPI=0
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=app-xemacs/xemacs-eterm app-xemacs/xemacs-base app-xemacs/fsf-compat app-xemacs/sh-script app-xemacs/ecrypto
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/mail-lib-1.79-pkg.tar.gz
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

@@ -1,22 +1,12 @@
->=net-analyzer/tcpdump-3.8.3-r1 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=net-analyzer/tcpdump-3.8.3-r1
-0
-mirror://sourceforge/raddump/raddump-0.3.1.tar.gz
-
-http://sourceforge.net/projects/raddump/
-GPL-2
-raddump interprets captured RADIUS packets to print a timestamp, packet length, RADIUS packet type, source and destination hosts and ports, and included attribute names and values for each packet.
-amd64 ~ppc x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=net-analyzer/tcpdump-3.8.3-r1 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=raddump interprets captured RADIUS packets to print a timestamp, packet length, RADIUS packet type, source and destination hosts and ports, and included attribute names and values for each packet.
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/raddump/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=net-analyzer/tcpdump-3.8.3-r1
+SLOT=0
+SRC_URI=mirror://sourceforge/raddump/raddump-0.3.1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

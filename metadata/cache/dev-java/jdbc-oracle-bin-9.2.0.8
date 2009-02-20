@@ -1,22 +1,14 @@
->=dev-java/java-config-2.1.6
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6
-9.2
-!debug? ( jdbc-oracle-bin-9.2.0.8-ojdbc14.jar ) debug? ( jdbc-oracle-bin-9.2.0.8-ojdbc14_g.jar ) jdbc-oracle-bin-9.2.0.8-ocrs12.jar doc? ( jdbc-oracle-bin-9.2.0.8-javadoc.tar )
-fetch
-http://www.oracle.com/technology/software/tech/java/sqlj_jdbc/index.html
-oracle-jdbc
-JDBC 3.0 Drivers for Oracle
-~amd64 ~ppc ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-debug doc elibc_FreeBSD
-
-
-
-
-
-compile install nofetch preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch preinst setup unpack
+DEPEND=>=dev-java/java-config-2.1.6
+DESCRIPTION=JDBC 3.0 Drivers for Oracle
+EAPI=0
+HOMEPAGE=http://www.oracle.com/technology/software/tech/java/sqlj_jdbc/index.html
+IUSE=debug doc elibc_FreeBSD
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=oracle-jdbc
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+RESTRICT=fetch
+SLOT=9.2
+SRC_URI=!debug? ( jdbc-oracle-bin-9.2.0.8-ojdbc14.jar ) debug? ( jdbc-oracle-bin-9.2.0.8-ojdbc14_g.jar ) jdbc-oracle-bin-9.2.0.8-ocrs12.jar doc? ( jdbc-oracle-bin-9.2.0.8-javadoc.tar )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

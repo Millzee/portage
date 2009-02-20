@@ -1,22 +1,11 @@
-
-<dev-python/psycopg-1.99 net-zope/zope app-admin/zprod-manager
-0
-http://initd.org/pub/software/psycopg/psycopg-1.1.15.tar.gz
-
-http://www.initd.org/software/psycopg.py
-GPL-2
-PostgreSQL database adapter for Zope
-~ppc x86
-zproduct
-
-
-
-
-0
-
-compile config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst prerm
+DESCRIPTION=PostgreSQL database adapter for Zope
+EAPI=0
+HOMEPAGE=http://www.initd.org/software/psycopg.py
+KEYWORDS=~ppc x86
+LICENSE=GPL-2
+RDEPEND=<dev-python/psycopg-1.99 net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://initd.org/pub/software/psycopg/psycopg-1.1.15.tar.gz
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

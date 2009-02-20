@@ -1,22 +1,10 @@
-
-
-0
-http://www.darkside.com.au/gifshuffle/gifshuffle.tar.gz
-
-http://www.darkside.com.au/gifshuffle/
-public-domain
-GIF colourmap steganography
-~amd64 ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=GIF colourmap steganography
+EAPI=0
+HOMEPAGE=http://www.darkside.com.au/gifshuffle/
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://www.darkside.com.au/gifshuffle/gifshuffle.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

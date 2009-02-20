@@ -1,22 +1,12 @@
->=dev-cpp/gtkmm-2.6 >=dev-cpp/glibmm-2.14 >=dev-libs/libsigc++-2.2 =x11-libs/gtksourceview-1* app-text/aspell dev-util/intltool dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=dev-cpp/gtkmm-2.6 >=dev-cpp/glibmm-2.14 >=dev-libs/libsigc++-2.2 =x11-libs/gtksourceview-1* app-text/aspell
-0
-mirror://sourceforge/amyedit/amyedit-1.0.tar.bz2
-
-http://amyedit.sf.net
-GPL-2
-AmyEdit is a LaTeX editor
-~amd64 ~ppc x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-cpp/gtkmm-2.6 >=dev-cpp/glibmm-2.14 >=dev-libs/libsigc++-2.2 =x11-libs/gtksourceview-1* app-text/aspell dev-util/intltool dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=AmyEdit is a LaTeX editor
+EAPI=0
+HOMEPAGE=http://amyedit.sf.net
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-cpp/gtkmm-2.6 >=dev-cpp/glibmm-2.14 >=dev-libs/libsigc++-2.2 =x11-libs/gtksourceview-1* app-text/aspell
+SLOT=0
+SRC_URI=mirror://sourceforge/amyedit/amyedit-1.0.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

@@ -1,22 +1,13 @@
-x11-libs/qt:3 <x11-libs/qwt-5 <x11-libs/qwtplot3d-0.2.7 !bindist? ( sci-libs/gsl ) bindist? ( <sci-libs/gsl-1.10 ) app-arch/unzip
-x11-libs/qt:3 <x11-libs/qwt-5 <x11-libs/qwtplot3d-0.2.7 !bindist? ( sci-libs/gsl ) bindist? ( <sci-libs/gsl-1.10 )
-0
-http://soft.proindependent.com/src/qtiplot-0.7.7.zip
-
-http://soft.proindependent.com/qtiplot.html
-GPL-2
-Qt based clone of the Origin plotting package
-amd64 ~x86
-toolchain-funcs qt3 portability versionator multilib eutils
-bindist
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/qt:3 <x11-libs/qwt-5 <x11-libs/qwtplot3d-0.2.7 !bindist? ( sci-libs/gsl ) bindist? ( <sci-libs/gsl-1.10 ) app-arch/unzip
+DESCRIPTION=Qt based clone of the Origin plotting package
+EAPI=1
+HOMEPAGE=http://soft.proindependent.com/qtiplot.html
+IUSE=bindist
+KEYWORDS=amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt:3 <x11-libs/qwt-5 <x11-libs/qwtplot3d-0.2.7 !bindist? ( sci-libs/gsl ) bindist? ( <sci-libs/gsl-1.10 )
+SLOT=0
+SRC_URI=http://soft.proindependent.com/src/qtiplot-0.7.7.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,12 @@
-=dev-scheme/guile-1.8* =x11-libs/guile-gtk-2* dev-scheme/guile-gnome-platform
-=dev-scheme/guile-1.8* =x11-libs/guile-gtk-2* dev-scheme/guile-gnome-platform gnuplot? ( sci-visualization/gnuplot ) plotutils? ( media-libs/plotutils )
-0
-http://www.telltronics.org/pub/gwave/gwave2-20070514.tar.gz
-
-http://www.geda.seul.org/tools/gwave/
-GPL-2
-Analog waveform viewer for SPICE-like simulations
-~ppc ~x86
-
-gnuplot plotutils
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==dev-scheme/guile-1.8* =x11-libs/guile-gtk-2* dev-scheme/guile-gnome-platform
+DESCRIPTION=Analog waveform viewer for SPICE-like simulations
+EAPI=0
+HOMEPAGE=http://www.geda.seul.org/tools/gwave/
+IUSE=gnuplot plotutils
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND==dev-scheme/guile-1.8* =x11-libs/guile-gtk-2* dev-scheme/guile-gnome-platform gnuplot? ( sci-visualization/gnuplot ) plotutils? ( media-libs/plotutils )
+SLOT=0
+SRC_URI=http://www.telltronics.org/pub/gwave/gwave2-20070514.tar.gz
+_mtime_=1235082898

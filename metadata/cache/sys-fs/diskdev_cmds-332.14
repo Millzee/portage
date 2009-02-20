@@ -1,22 +1,10 @@
-
-
-0
-http://darwinsource.opendarwin.org/tarballs/apsl/diskdev_cmds-332.14.tar.gz mirror://gentoo/diskdev_cmds-332.14.patch.bz2
-
-http://opendarwin.org
-APSL-2
-HFS and HFS+ utils ported from OSX, supplies mkfs and fsck
--amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=HFS and HFS+ utils ported from OSX, supplies mkfs and fsck
+EAPI=0
+HOMEPAGE=http://opendarwin.org
+KEYWORDS=-amd64 ~ppc ~x86
+LICENSE=APSL-2
+SLOT=0
+SRC_URI=http://darwinsource.opendarwin.org/tarballs/apsl/diskdev_cmds-332.14.tar.gz mirror://gentoo/diskdev_cmds-332.14.patch.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

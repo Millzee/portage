@@ -1,22 +1,14 @@
->=x11-libs/gtk+-2.6 >=dev-libs/glib-2.6 >=dev-libs/dbus-glib-0.76 doc? ( >=dev-util/gtk-doc-1.4 )
->=x11-libs/gtk+-2.6 >=dev-libs/glib-2.6 >=dev-libs/dbus-glib-0.76
-0
-http://www.galago-project.org/files/releases/source/libnotify/libnotify-0.4.5.tar.gz
-
-http://www.galago-project.org/
-LGPL-2.1
-Notifications library
-~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sh ~sparc ~x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-doc
-
-|| ( x11-misc/notification-daemon x11-misc/notification-daemon-xfce )
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=x11-libs/gtk+-2.6 >=dev-libs/glib-2.6 >=dev-libs/dbus-glib-0.76 doc? ( >=dev-util/gtk-doc-1.4 )
+DESCRIPTION=Notifications library
+EAPI=0
+HOMEPAGE=http://www.galago-project.org/
+IUSE=doc
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sh ~sparc ~x86 ~x86-fbsd
+LICENSE=LGPL-2.1
+PDEPEND=|| ( x11-misc/notification-daemon x11-misc/notification-daemon-xfce )
+RDEPEND=>=x11-libs/gtk+-2.6 >=dev-libs/glib-2.6 >=dev-libs/dbus-glib-0.76
+SLOT=0
+SRC_URI=http://www.galago-project.org/files/releases/source/libnotify/libnotify-0.4.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

@@ -1,22 +1,13 @@
-x11-misc/xplanet dev-python/pygtk xinerama? ( media-gfx/imagemagick ) || ( ( >=dev-python/pysqlite-2.0.3 <dev-lang/python-2.5 ) >=dev-lang/python-2.5 ) app-arch/unzip
-x11-misc/xplanet dev-python/pygtk xinerama? ( media-gfx/imagemagick ) || ( ( >=dev-python/pysqlite-2.0.3 <dev-lang/python-2.5 ) >=dev-lang/python-2.5 )
-0
-mirror://sourceforge/GeoXPlanet/GeoXPlanet-0.4.5-r2.zip mirror://sourceforge/GeoXPlanet/geoip.db.zip
-
-http://geoxplanet.sourceforge.net
-GPL-1 MAXMIND
-Wrapper script to draw traceroutes of current network connections on xplanet images
-~x86
-toolchain-funcs multilib portability eutils
-xinerama
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=x11-misc/xplanet dev-python/pygtk xinerama? ( media-gfx/imagemagick ) || ( ( >=dev-python/pysqlite-2.0.3 <dev-lang/python-2.5 ) >=dev-lang/python-2.5 ) app-arch/unzip
+DESCRIPTION=Wrapper script to draw traceroutes of current network connections on xplanet images
+EAPI=0
+HOMEPAGE=http://geoxplanet.sourceforge.net
+IUSE=xinerama
+KEYWORDS=~x86
+LICENSE=GPL-1 MAXMIND
+RDEPEND=x11-misc/xplanet dev-python/pygtk xinerama? ( media-gfx/imagemagick ) || ( ( >=dev-python/pysqlite-2.0.3 <dev-lang/python-2.5 ) >=dev-lang/python-2.5 )
+SLOT=0
+SRC_URI=mirror://sourceforge/GeoXPlanet/GeoXPlanet-0.4.5-r2.zip mirror://sourceforge/GeoXPlanet/geoip.db.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

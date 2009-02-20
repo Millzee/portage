@@ -1,22 +1,11 @@
-virtual/python >=media-libs/libsdl-1.2.3-r1 >=media-libs/smpeg-0.4.4-r2
-virtual/python >=media-libs/libsdl-1.2.3-r1 >=media-libs/smpeg-0.4.4-r2
-0
-http://www.oberhumer.com/opensource/pysol/download/pysol-sound-server-3.01.tar.bz2
-
-http://www.oberhumer.com/opensource/pysol/
-GPL-2
-Sound server for PySol
-amd64 mips ppc ppc64 sparc x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/python >=media-libs/libsdl-1.2.3-r1 >=media-libs/smpeg-0.4.4-r2
+DESCRIPTION=Sound server for PySol
+EAPI=0
+HOMEPAGE=http://www.oberhumer.com/opensource/pysol/
+KEYWORDS=amd64 mips ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/python >=media-libs/libsdl-1.2.3-r1 >=media-libs/smpeg-0.4.4-r2
+SLOT=0
+SRC_URI=http://www.oberhumer.com/opensource/pysol/download/pysol-sound-server-3.01.tar.bz2
+_mtime_=1235082860

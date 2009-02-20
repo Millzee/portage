@@ -1,22 +1,12 @@
-dev-perl/DBD-mysql virtual/perl-Getopt-Long dev-perl/TermReadKey virtual/perl-Term-ANSIColor virtual/perl-Time-HiRes >=sys-apps/sed-4
-dev-perl/DBD-mysql virtual/perl-Getopt-Long dev-perl/TermReadKey virtual/perl-Term-ANSIColor virtual/perl-Time-HiRes >=sys-apps/sed-4
-0
-http://jeremy.zawodny.com/mysql/mytop/mytop-1.6.tar.gz
-
-http://jeremy.zawodny.com/mysql/mytop/
-|| ( Artistic GPL-2 )
-mytop - a top clone for mysql
-~alpha ~amd64 ~ppc ~sparc ~x86
-toolchain-funcs perl-app portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-perl/DBD-mysql virtual/perl-Getopt-Long dev-perl/TermReadKey virtual/perl-Term-ANSIColor virtual/perl-Time-HiRes >=sys-apps/sed-4
+DESCRIPTION=mytop - a top clone for mysql
+EAPI=0
+HOMEPAGE=http://jeremy.zawodny.com/mysql/mytop/
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-perl/DBD-mysql virtual/perl-Getopt-Long dev-perl/TermReadKey virtual/perl-Term-ANSIColor virtual/perl-Time-HiRes >=sys-apps/sed-4
+SLOT=0
+SRC_URI=http://jeremy.zawodny.com/mysql/mytop/mytop-1.6.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-app	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

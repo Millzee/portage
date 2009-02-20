@@ -1,22 +1,12 @@
->=sys-apps/module-init-tools-3.2 !sys-apps/hwdata-gentoo >=app-arch/rpm2targz-9.0-r1
->=sys-apps/module-init-tools-3.2 !sys-apps/hwdata-gentoo
-0
-mirror://fedora/development/source/SRPMS/hwdata-0.187-1.src.rpm
-
-http://fedora.redhat.com/projects/config-tools/
-GPL-2 MIT
-Hardware identification and configuration data
-~ppc ~ppc64 ~x86
-toolchain-funcs portability flag-o-matic multilib rpm eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=sys-apps/module-init-tools-3.2 !sys-apps/hwdata-gentoo >=app-arch/rpm2targz-9.0-r1
+DESCRIPTION=Hardware identification and configuration data
+EAPI=0
+HOMEPAGE=http://fedora.redhat.com/projects/config-tools/
+KEYWORDS=~ppc ~ppc64 ~x86
+LICENSE=GPL-2 MIT
+RDEPEND=>=sys-apps/module-init-tools-3.2 !sys-apps/hwdata-gentoo
+SLOT=0
+SRC_URI=mirror://fedora/development/source/SRPMS/hwdata-0.187-1.src.rpm
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	rpm	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

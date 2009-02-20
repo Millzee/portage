@@ -1,22 +1,11 @@
->=media-libs/jpeg-6b
->=media-libs/jpeg-6b
-0
-mirror://sourceforge/webcamserver/webcam_server-0.50.tar.gz
-
-http://webcamserver.sourceforge.net/
-GPL-2
-webcam_server is a program that allows others to view your webcam from a web browser
-~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=media-libs/jpeg-6b
+DESCRIPTION=webcam_server is a program that allows others to view your webcam from a web browser
+EAPI=0
+HOMEPAGE=http://webcamserver.sourceforge.net/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/jpeg-6b
+SLOT=0
+SRC_URI=mirror://sourceforge/webcamserver/webcam_server-0.50.tar.gz
+_mtime_=1235082870

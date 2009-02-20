@@ -1,22 +1,12 @@
-net-libs/libpcap media-gfx/graphviz[png]
-net-libs/libpcap media-gfx/graphviz[png]
-0
-http://www.parseerror.com/lanmap/rev/lanmap-2006-03-07-rev81.zip
-
-http://www.parseerror.com/lanmap
-GPL-2
-lanmap sits quietly on a network and builds a picture of what it sees
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-2
-
-compile install prepare
-
-
-
-
-
+DEFINED_PHASES=compile install prepare
+DEPEND=net-libs/libpcap media-gfx/graphviz[png]
+DESCRIPTION=lanmap sits quietly on a network and builds a picture of what it sees
+EAPI=2
+HOMEPAGE=http://www.parseerror.com/lanmap
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-libs/libpcap media-gfx/graphviz[png]
+SLOT=0
+SRC_URI=http://www.parseerror.com/lanmap/rev/lanmap-2006-03-07-rev81.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

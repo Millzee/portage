@@ -1,22 +1,12 @@
-dev-libs/libdnet net-libs/libpcap
-dev-libs/libdnet net-libs/libpcap
-0
-http://www.snort.org/dl/daemonlogger/daemonlogger-1.0.1.tar.gz http://www.snort.org/users/roesch/code/daemonlogger-1.0.1.tar.gz
-
-http://www.snort.org/users/roesch/Site/Daemonlogger/Daemonlogger.html
-GPL-2
-Simple packet logger & soft tap
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DEPEND=dev-libs/libdnet net-libs/libpcap
+DESCRIPTION=Simple packet logger & soft tap
+EAPI=0
+HOMEPAGE=http://www.snort.org/users/roesch/Site/Daemonlogger/Daemonlogger.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libdnet net-libs/libpcap
+SLOT=0
+SRC_URI=http://www.snort.org/dl/daemonlogger/daemonlogger-1.0.1.tar.gz http://www.snort.org/users/roesch/code/daemonlogger-1.0.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082885

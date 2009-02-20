@@ -1,22 +1,13 @@
-!!=dev-lang/mono-2.2 sys-libs/readline dev-libs/glib:2 !dev-lang/mercury =dev-lang/mono-2.2* >=dev-util/pkgconfig-0.23 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
-!!=dev-lang/mono-2.2 sys-libs/readline dev-libs/glib:2 =dev-lang/mono-2.2*
-0
-http://ftp.novell.com/pub/mono/sources/mono-debugger/mono-debugger-2.2.tar.bz2
-test
-http://www.go-mono.com
-GPL-2 MIT
-Debugger for .NET managed and unmanaged applications
-~x86 ~amd64
-toolchain-funcs portability mono versionator multilib base go-mono eutils
-
-
-
-
-2
-
-compile configure install prepare unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=!!=dev-lang/mono-2.2 sys-libs/readline dev-libs/glib:2 !dev-lang/mercury =dev-lang/mono-2.2* >=dev-util/pkgconfig-0.23 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Debugger for .NET managed and unmanaged applications
+EAPI=2
+HOMEPAGE=http://www.go-mono.com
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2 MIT
+RDEPEND=!!=dev-lang/mono-2.2 sys-libs/readline dev-libs/glib:2 =dev-lang/mono-2.2*
+RESTRICT=test
+SLOT=0
+SRC_URI=http://ftp.novell.com/pub/mono/sources/mono-debugger/mono-debugger-2.2.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	go-mono	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

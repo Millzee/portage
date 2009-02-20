@@ -1,22 +1,12 @@
-media-libs/libsdl media-libs/sdl-image media-libs/sdl-mixer >=dev-libs/boost-1.34
-media-libs/libsdl media-libs/sdl-image media-libs/sdl-mixer >=dev-libs/boost-1.34
-0
-mirror://sourceforge/galaxyhack/galaxyhack-1.74.tar.bz2 mirror://gentoo/galaxyhack.png
-
-http://galaxyhack.sourceforge.net/
-GPL-2 galaxyhack
-Multiplayer AI script based strategy game.
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-image media-libs/sdl-mixer >=dev-libs/boost-1.34
+DESCRIPTION=Multiplayer AI script based strategy game.
+EAPI=2
+HOMEPAGE=http://galaxyhack.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 galaxyhack
+RDEPEND=media-libs/libsdl media-libs/sdl-image media-libs/sdl-mixer >=dev-libs/boost-1.34
+SLOT=0
+SRC_URI=mirror://sourceforge/galaxyhack/galaxyhack-1.74.tar.bz2 mirror://gentoo/galaxyhack.png
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

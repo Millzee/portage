@@ -1,22 +1,12 @@
->=sys-libs/zlib-0.95 dev-python/imaging >=sys-apps/sed-4 app-arch/tar virtual/python
->=sys-libs/zlib-0.95 dev-python/imaging >=sys-apps/sed-4 app-arch/tar
-0
-http://www.reportlab.org/ftp/ReportLab_1_20.tgz
-
-http://www.reportlab.org/
-as-is
-Tools for generating printable PDF documents from any data source.
-alpha amd64 ~hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=sys-libs/zlib-0.95 dev-python/imaging >=sys-apps/sed-4 app-arch/tar virtual/python
+DESCRIPTION=Tools for generating printable PDF documents from any data source.
+EAPI=0
+HOMEPAGE=http://www.reportlab.org/
+KEYWORDS=alpha amd64 ~hppa ia64 ppc ppc64 sparc x86
+LICENSE=as-is
+RDEPEND=>=sys-libs/zlib-0.95 dev-python/imaging >=sys-apps/sed-4 app-arch/tar
+SLOT=0
+SRC_URI=http://www.reportlab.org/ftp/ReportLab_1_20.tgz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

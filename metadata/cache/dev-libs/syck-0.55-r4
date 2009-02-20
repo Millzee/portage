@@ -1,22 +1,14 @@
-python? ( dev-lang/python !dev-python/pysyck ) virtual/python
-python? ( dev-lang/python !dev-python/pysyck )
-0
-http://rubyforge.org/frs/download.php/4492/syck-0.55.tar.gz
-
-http://whytheluckystiff.net/syck/
-BSD
-Syck is an extension for reading and writing YAML swiftly in popular scripting languages.
-amd64 ppc ppc64 x86
-toolchain-funcs distutils portability flag-o-matic python alternatives multilib eutils
-php python
-
-php? ( dev-php5/pecl-syck !=dev-libs/syck-0.55-r1 )
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=python? ( dev-lang/python !dev-python/pysyck ) virtual/python
+DESCRIPTION=Syck is an extension for reading and writing YAML swiftly in popular scripting languages.
+EAPI=0
+HOMEPAGE=http://whytheluckystiff.net/syck/
+IUSE=php python
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=BSD
+PDEPEND=php? ( dev-php5/pecl-syck !=dev-libs/syck-0.55-r1 )
+RDEPEND=python? ( dev-lang/python !dev-python/pysyck )
+SLOT=0
+SRC_URI=http://rubyforge.org/frs/download.php/4492/syck-0.55.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-http://members.elysium.pl/brush/cmd5checkpw/dist/cmd5checkpw-0.22.tar.gz
-
-http://members.elysium.pl/brush/cmd5checkpw/
-as-is
-A checkpassword compatible authentication program that used CRAM-MD5 authentication mode.
-alpha amd64 arm hppa ia64 mips ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/libc
+DESCRIPTION=A checkpassword compatible authentication program that used CRAM-MD5 authentication mode.
+EAPI=0
+HOMEPAGE=http://members.elysium.pl/brush/cmd5checkpw/
+KEYWORDS=alpha amd64 arm hppa ia64 mips ppc sparc x86
+LICENSE=as-is
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://members.elysium.pl/brush/cmd5checkpw/dist/cmd5checkpw-0.22.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

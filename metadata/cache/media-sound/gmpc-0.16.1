@@ -1,22 +1,13 @@
->=dev-libs/glib-2.10:2 dev-perl/XML-Parser >=gnome-base/libglade-2.3 >=media-libs/libmpd-0.16.1 net-misc/curl >=x11-libs/gtk+-2.12:2 x11-libs/libsexy session? ( x11-libs/libSM ) dev-util/gob dev-util/intltool dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
->=dev-libs/glib-2.10:2 dev-perl/XML-Parser >=gnome-base/libglade-2.3 >=media-libs/libmpd-0.16.1 net-misc/curl >=x11-libs/gtk+-2.12:2 x11-libs/libsexy session? ( x11-libs/libSM )
-0
-http://download.sarine.nl/download/Programs/gmpc/0.16.1/gmpc-0.16.1.tar.gz
-
-http://gmpcwiki.sarine.nl/index.php/GMPC
-GPL-2
-A GTK+2 client for the Music Player Daemon
-amd64 ppc sparc x86
-toolchain-funcs portability multilib gnome2-utils libtool autotools eutils
-session
-
-
-
-1
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=>=dev-libs/glib-2.10:2 dev-perl/XML-Parser >=gnome-base/libglade-2.3 >=media-libs/libmpd-0.16.1 net-misc/curl >=x11-libs/gtk+-2.12:2 x11-libs/libsexy session? ( x11-libs/libSM ) dev-util/gob dev-util/intltool dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
+DESCRIPTION=A GTK+2 client for the Music Player Daemon
+EAPI=1
+HOMEPAGE=http://gmpcwiki.sarine.nl/index.php/GMPC
+IUSE=session
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.10:2 dev-perl/XML-Parser >=gnome-base/libglade-2.3 >=media-libs/libmpd-0.16.1 net-misc/curl >=x11-libs/gtk+-2.12:2 x11-libs/libsexy session? ( x11-libs/libSM )
+SLOT=0
+SRC_URI=http://download.sarine.nl/download/Programs/gmpc/0.16.1/gmpc-0.16.1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

@@ -1,22 +1,12 @@
-=dev-python/wxpython-2.6* dev-libs/expat app-arch/unzip
-=dev-python/wxpython-2.6* dev-libs/expat
-0
-mirror://sourceforge/boa-constructor/boa-constructor-0.4.0.src.zip
-
-http://boa-constructor.sourceforge.net/
-GPL-2
-Python GUI RAD development tool.
-~amd64 ppc sparc x86 ~x86-fbsd
-toolchain-funcs portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND==dev-python/wxpython-2.6* dev-libs/expat app-arch/unzip
+DESCRIPTION=Python GUI RAD development tool.
+EAPI=0
+HOMEPAGE=http://boa-constructor.sourceforge.net/
+KEYWORDS=~amd64 ppc sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND==dev-python/wxpython-2.6* dev-libs/expat
+SLOT=0
+SRC_URI=mirror://sourceforge/boa-constructor/boa-constructor-0.4.0.src.zip
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

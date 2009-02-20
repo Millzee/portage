@@ -1,22 +1,13 @@
-=dev-dotnet/pnet-0.6.12* X? ( x11-libs/libSM x11-libs/libXft ) truetype? ( x11-libs/libXft ) =sys-devel/automake-1.4_p6 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-=dev-dotnet/pnet-0.6.12* X? ( x11-libs/libSM x11-libs/libXft ) truetype? ( x11-libs/libXft )
-0
-mirror://gnu/dotgnu/pnet/pnetlib-0.6.12.tar.gz
-
-http://www.dotgnu.org/
-GPL-2-with-linking-exception
-Portable.NET C# library
-amd64 arm ~hppa ia64 ppc x86
-toolchain-funcs portability multilib libtool autotools eutils
-truetype X
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==dev-dotnet/pnet-0.6.12* X? ( x11-libs/libSM x11-libs/libXft ) truetype? ( x11-libs/libXft ) =sys-devel/automake-1.4_p6 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Portable.NET C# library
+EAPI=0
+HOMEPAGE=http://www.dotgnu.org/
+IUSE=truetype X
+KEYWORDS=amd64 arm ~hppa ia64 ppc x86
+LICENSE=GPL-2-with-linking-exception
+RDEPEND==dev-dotnet/pnet-0.6.12* X? ( x11-libs/libSM x11-libs/libXft ) truetype? ( x11-libs/libXft )
+SLOT=0
+SRC_URI=mirror://gnu/dotgnu/pnet/pnetlib-0.6.12.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

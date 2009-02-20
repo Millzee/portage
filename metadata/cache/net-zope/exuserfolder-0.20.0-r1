@@ -1,22 +1,11 @@
-
-=net-zope/cmf-1.3* >=net-zope/formulator-1.2.0 net-zope/zope app-admin/zprod-manager
-0
-http://www.gentoo.at/distfiles/exuserfolder-0.2-s2upatch.tar.gz
-
-http://exuserfolder.sf.net
-GPL-2
-allows authentication via alternative methods + mysql plain text auth patch
-~ppc ~x86
-zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DESCRIPTION=allows authentication via alternative methods + mysql plain text auth patch
+EAPI=0
+HOMEPAGE=http://exuserfolder.sf.net
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND==net-zope/cmf-1.3* >=net-zope/formulator-1.2.0 net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://www.gentoo.at/distfiles/exuserfolder-0.2-s2upatch.tar.gz
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

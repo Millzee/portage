@@ -1,22 +1,12 @@
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
-0
-http://www.2ndpoint.fi/ss/shootingstar-1.2.0.tar.gz
-
-http://www.2ndpoint.fi/ss
-GPL-2
-A topdown shooter
-x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
+DESCRIPTION=A topdown shooter
+EAPI=0
+HOMEPAGE=http://www.2ndpoint.fi/ss
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
+SLOT=0
+SRC_URI=http://www.2ndpoint.fi/ss/shootingstar-1.2.0.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

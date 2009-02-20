@@ -1,22 +1,10 @@
-
-
-0
-http://www.scripps.edu/~cdputnam/software/bibutils/bibutils_3.27_src.tgz
-
-http://www.scripps.edu/~cdputnam/software/bibutils
-GPL-2
-Interconverts between various bibliography formats using a common XML intermediate
-~amd64 ~ppc ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Interconverts between various bibliography formats using a common XML intermediate
+EAPI=0
+HOMEPAGE=http://www.scripps.edu/~cdputnam/software/bibutils
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.scripps.edu/~cdputnam/software/bibutils/bibutils_3.27_src.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

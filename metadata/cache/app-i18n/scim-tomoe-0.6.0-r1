@@ -1,22 +1,12 @@
->=app-i18n/scim-1.2.0 >=app-i18n/libtomoe-gtk-0.6.0
->=app-i18n/scim-1.2.0 >=app-i18n/libtomoe-gtk-0.6.0
-0
-mirror://sourceforge/tomoe/scim-tomoe-0.6.0.tar.gz
-
-http://tomoe.sourceforge.net/
-LGPL-2.1
-Japanese input method Tomoe IMEngine for SCIM
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=app-i18n/scim-1.2.0 >=app-i18n/libtomoe-gtk-0.6.0
+DESCRIPTION=Japanese input method Tomoe IMEngine for SCIM
+EAPI=0
+HOMEPAGE=http://tomoe.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=>=app-i18n/scim-1.2.0 >=app-i18n/libtomoe-gtk-0.6.0
+SLOT=0
+SRC_URI=mirror://sourceforge/tomoe/scim-tomoe-0.6.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

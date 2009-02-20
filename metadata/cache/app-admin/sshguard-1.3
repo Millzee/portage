@@ -1,22 +1,12 @@
-kernel_linux? ( net-firewall/iptables ) kernel_FreeBSD? ( !ipfilter? ( sys-freebsd/freebsd-pf ) )
-kernel_linux? ( net-firewall/iptables ) kernel_FreeBSD? ( !ipfilter? ( sys-freebsd/freebsd-pf ) ) virtual/logger
-0
-mirror://sourceforge/sshguard/sshguard-1.3.tar.bz2
-
-http://sshguard.sourceforge.net/
-BSD
-protects hosts from brute force attacks against ssh
-~amd64 ~x86 ~x86-fbsd
-
-ipfilter kernel_FreeBSD kernel_linux
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=kernel_linux? ( net-firewall/iptables ) kernel_FreeBSD? ( !ipfilter? ( sys-freebsd/freebsd-pf ) )
+DESCRIPTION=protects hosts from brute force attacks against ssh
+EAPI=0
+HOMEPAGE=http://sshguard.sourceforge.net/
+IUSE=ipfilter kernel_FreeBSD kernel_linux
+KEYWORDS=~amd64 ~x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND=kernel_linux? ( net-firewall/iptables ) kernel_FreeBSD? ( !ipfilter? ( sys-freebsd/freebsd-pf ) ) virtual/logger
+SLOT=0
+SRC_URI=mirror://sourceforge/sshguard/sshguard-1.3.tar.bz2
+_mtime_=1235082846

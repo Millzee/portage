@@ -1,22 +1,14 @@
-app-arch/unzip
-amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-compat )
-0
-http://files.bioware.com/neverwinternights/updates/windows/server/NWNDedicatedServer1.68.zip linguas_en? ( http://files.bioware.com/neverwinternights/dialog//english/NWNEnglish1.68dialog.zip ) linguas_fr? ( http://files.bioware.com/neverwinternights/dialog//french/NWNFrench1.68dialog.zip ) linguas_de? ( http://files.bioware.com/neverwinternights/dialog//german/NWNGerman1.68dialog.zip ) linguas_it? ( http://files.bioware.com/neverwinternights/dialog//italian/NWNItalian1.68dialog.zip ) linguas_es? ( http://files.bioware.com/neverwinternights/dialog//spanish/NWNSpanish1.68dialog.zip ) linguas_ja? ( http://files.bioware.com/neverwinternights/dialog//japanese/NWNJapanese1.68dialog.zip )
-mirror strip
-http://nwn.bioware.com/downloads/standaloneserver.html
-NWN-EULA
-Neverwinter Nights Dedicated server
--* ~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-linguas_en linguas_fr linguas_it linguas_es linguas_de linguas_ja
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Neverwinter Nights Dedicated server
+EAPI=0
+HOMEPAGE=http://nwn.bioware.com/downloads/standaloneserver.html
+IUSE=linguas_en linguas_fr linguas_it linguas_es linguas_de linguas_ja
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=NWN-EULA
+RDEPEND=amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-compat )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=http://files.bioware.com/neverwinternights/updates/windows/server/NWNDedicatedServer1.68.zip linguas_en? ( http://files.bioware.com/neverwinternights/dialog//english/NWNEnglish1.68dialog.zip ) linguas_fr? ( http://files.bioware.com/neverwinternights/dialog//french/NWNFrench1.68dialog.zip ) linguas_de? ( http://files.bioware.com/neverwinternights/dialog//german/NWNGerman1.68dialog.zip ) linguas_it? ( http://files.bioware.com/neverwinternights/dialog//italian/NWNItalian1.68dialog.zip ) linguas_es? ( http://files.bioware.com/neverwinternights/dialog//spanish/NWNSpanish1.68dialog.zip ) linguas_ja? ( http://files.bioware.com/neverwinternights/dialog//japanese/NWNJapanese1.68dialog.zip )
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

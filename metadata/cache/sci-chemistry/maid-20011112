@@ -1,22 +1,13 @@
-X? ( x11-libs/openmotif virtual/glu virtual/opengl x11-libs/libXt )
-X? ( x11-libs/openmotif virtual/glu virtual/opengl x11-libs/libXt )
-0
-http://www.msi.umn.edu/~levitt/maid_unix_12nov01.tar.gz mirror://gentoo/maid-fix-compilation.patch.bz2
-
-http://www.msi.umn.edu/~levitt/
-as-is
-Automates the fitting of protein X-ray crystallographic electron density maps
-x86
-toolchain-funcs multilib portability eutils
-X
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=X? ( x11-libs/openmotif virtual/glu virtual/opengl x11-libs/libXt )
+DESCRIPTION=Automates the fitting of protein X-ray crystallographic electron density maps
+EAPI=0
+HOMEPAGE=http://www.msi.umn.edu/~levitt/
+IUSE=X
+KEYWORDS=x86
+LICENSE=as-is
+RDEPEND=X? ( x11-libs/openmotif virtual/glu virtual/opengl x11-libs/libXt )
+SLOT=0
+SRC_URI=http://www.msi.umn.edu/~levitt/maid_unix_12nov01.tar.gz mirror://gentoo/maid-fix-compilation.patch.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

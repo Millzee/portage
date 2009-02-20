@@ -1,22 +1,9 @@
->=dev-util/git-1.5
-
-0
-
-
-http://www.gnu.org/software/gnulib
-GPL-2
-Gnulib is a library of common routines intended to be shared at the source level.
-
-toolchain-funcs git multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-util/git-1.5
+DESCRIPTION=Gnulib is a library of common routines intended to be shared at the source level.
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/gnulib
+LICENSE=GPL-2
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	git	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

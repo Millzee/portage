@@ -1,22 +1,13 @@
-doc? ( dev-ruby/rake ) test? ( dev-ruby/rake ) virtual/ruby
-virtual/ruby
-0
-mirror://rubyforge/tzinfo/tzinfo-0.3.12.tar.gz
-
-http://tzinfo.rubyforge.org/
-MIT
-Library to provide daylight-savings aware transformations between timezones
-~amd64 ~ppc ~sparc ~x86 ~x86-fbsd
-ruby toolchain-funcs multilib portability eutils
-doc test
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=doc? ( dev-ruby/rake ) test? ( dev-ruby/rake ) virtual/ruby
+DESCRIPTION=Library to provide daylight-savings aware transformations between timezones
+EAPI=0
+HOMEPAGE=http://tzinfo.rubyforge.org/
+IUSE=doc test
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~x86-fbsd
+LICENSE=MIT
+RDEPEND=virtual/ruby
+SLOT=0
+SRC_URI=mirror://rubyforge/tzinfo/tzinfo-0.3.12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

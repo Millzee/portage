@@ -1,22 +1,13 @@
-virtual/libc virtual/mysql >=sys-apps/sed-4 >=sys-apps/sed-4
-virtual/libc virtual/mysql
-0
-http://oer.equnet.org/testing/oer+MySQL-1.0-43.tar.gz
-
-http://oer.equnet.org/
-GPL-2
-Free to use GPL'd IRC bot
-x86 ~ppc
-fixheadtails versionator
-debug static
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc virtual/mysql >=sys-apps/sed-4 >=sys-apps/sed-4
+DESCRIPTION=Free to use GPL'd IRC bot
+EAPI=0
+HOMEPAGE=http://oer.equnet.org/
+IUSE=debug static
+KEYWORDS=x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=virtual/libc virtual/mysql
+SLOT=0
+SRC_URI=http://oer.equnet.org/testing/oer+MySQL-1.0-43.tar.gz
+_eclasses_=fixheadtails	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

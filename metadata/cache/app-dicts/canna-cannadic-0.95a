@@ -1,22 +1,12 @@
->=app-i18n/canna-3.6_p3-r1
->=app-i18n/canna-3.6_p3-r1
-0
-http://cannadic.oucrc.org/cannadic-0.95a.tar.gz
-
-http://cannadic.oucrc.org/
-GPL-2
-Japanese dictionary as a supplement/replacement to the dictionaries distributed with Canna3.5b2
-x86 ppc sparc alpha
-cannadic
-
-
-
-
-0
-
-compile install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup
+DEPEND=>=app-i18n/canna-3.6_p3-r1
+DESCRIPTION=Japanese dictionary as a supplement/replacement to the dictionaries distributed with Canna3.5b2
+EAPI=0
+HOMEPAGE=http://cannadic.oucrc.org/
+KEYWORDS=x86 ppc sparc alpha
+LICENSE=GPL-2
+RDEPEND=>=app-i18n/canna-3.6_p3-r1
+SLOT=0
+SRC_URI=http://cannadic.oucrc.org/cannadic-0.95a.tar.gz
+_eclasses_=cannadic	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

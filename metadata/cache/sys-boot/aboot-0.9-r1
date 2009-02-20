@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-http://aboot.sourceforge.net/tarballs/aboot-0.9bpre.tar.bz2
-
-http://aboot.sourceforge.net/
-GPL-2
-Alpha Linux boot loader for SRM
--* alpha
-
-
-
-
-virtual/bootloader
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc
+DESCRIPTION=Alpha Linux boot loader for SRM
+EAPI=0
+HOMEPAGE=http://aboot.sourceforge.net/
+KEYWORDS=-* alpha
+LICENSE=GPL-2
+PROVIDE=virtual/bootloader
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://aboot.sourceforge.net/tarballs/aboot-0.9bpre.tar.bz2
+_mtime_=1235082900

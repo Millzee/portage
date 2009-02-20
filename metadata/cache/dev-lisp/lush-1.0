@@ -1,22 +1,12 @@
-X? ( x11-libs/libX11 x11-libs/libICE x11-libs/libSM )
-X? ( x11-libs/libX11 x11-libs/libICE x11-libs/libSM )
-0
-mirror://sourceforge/lush/lush-1.0.tar.gz
-
-http://lush.sourceforge.net/
-GPL-2
-Lush is the Lisp User Shell
-~x86 ~ppc
-
-X
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=X? ( x11-libs/libX11 x11-libs/libICE x11-libs/libSM )
+DESCRIPTION=Lush is the Lisp User Shell
+EAPI=0
+HOMEPAGE=http://lush.sourceforge.net/
+IUSE=X
+KEYWORDS=~x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=X? ( x11-libs/libX11 x11-libs/libICE x11-libs/libSM )
+SLOT=0
+SRC_URI=mirror://sourceforge/lush/lush-1.0.tar.gz
+_mtime_=1235082854

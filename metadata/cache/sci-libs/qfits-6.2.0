@@ -1,22 +1,13 @@
-virtual/libc
-virtual/libc
-0
-ftp://ftp.hq.eso.org/pub/qfits/qfits-6.2.0.tar.gz
-
-http://www.eso.org/projects/aot/qfits/
-GPL-2
-ESO stand-alone C library offering easy access to FITS files.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=virtual/libc
+DESCRIPTION=ESO stand-alone C library offering easy access to FITS files.
+EAPI=0
+HOMEPAGE=http://www.eso.org/projects/aot/qfits/
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=ftp://ftp.hq.eso.org/pub/qfits/qfits-6.2.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

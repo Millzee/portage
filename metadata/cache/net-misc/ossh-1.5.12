@@ -1,22 +1,14 @@
-!virtual/ssh zlib? ( sys-libs/zlib ) socks5? ( net-proxy/dante ) dev-libs/gmp dev-libs/openssl
-!virtual/ssh zlib? ( sys-libs/zlib ) socks5? ( net-proxy/dante ) dev-libs/gmp dev-libs/openssl
-0
-ftp://ftp.nada.kth.se/pub/krypto/ossh/ossh-1.5.12.tar.gz
-
-ftp://ftp.pdc.kth.se/pub/krypto/ossh/
-as-is
-another SSH implementation
-x86
-toolchain-funcs multilib portability eutils flag-o-matic
-zlib socks5
-
-
-virtual/ssh
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=!virtual/ssh zlib? ( sys-libs/zlib ) socks5? ( net-proxy/dante ) dev-libs/gmp dev-libs/openssl
+DESCRIPTION=another SSH implementation
+EAPI=0
+HOMEPAGE=ftp://ftp.pdc.kth.se/pub/krypto/ossh/
+IUSE=zlib socks5
+KEYWORDS=x86
+LICENSE=as-is
+PROVIDE=virtual/ssh
+RDEPEND=!virtual/ssh zlib? ( sys-libs/zlib ) socks5? ( net-proxy/dante ) dev-libs/gmp dev-libs/openssl
+SLOT=0
+SRC_URI=ftp://ftp.nada.kth.se/pub/krypto/ossh/ossh-1.5.12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

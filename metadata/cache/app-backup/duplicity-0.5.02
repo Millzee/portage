@@ -1,22 +1,12 @@
->=dev-lang/python-2.3 >=net-libs/librsync-0.9.6 >=net-ftp/ncftp-3.1.9 app-crypt/gnupg virtual/python
->=dev-lang/python-2.3 >=net-libs/librsync-0.9.6 >=net-ftp/ncftp-3.1.9 app-crypt/gnupg >=dev-python/py-gnupg-0.3.2 >=dev-python/pexpect-2.1
-0
-http://savannah.nongnu.org/download/duplicity/duplicity-0.5.02.tar.gz
-
-http://www.nongnu.org/duplicity/
-GPL-3
-duplicity is a secure backup system using gnupg to encrypt data
-~amd64 ~ppc ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-lang/python-2.3 >=net-libs/librsync-0.9.6 >=net-ftp/ncftp-3.1.9 app-crypt/gnupg virtual/python
+DESCRIPTION=duplicity is a secure backup system using gnupg to encrypt data
+EAPI=0
+HOMEPAGE=http://www.nongnu.org/duplicity/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/python-2.3 >=net-libs/librsync-0.9.6 >=net-ftp/ncftp-3.1.9 app-crypt/gnupg >=dev-python/py-gnupg-0.3.2 >=dev-python/pexpect-2.1
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/duplicity/duplicity-0.5.02.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

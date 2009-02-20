@@ -1,22 +1,13 @@
-x11-libs/openmotif sys-devel/bc
-x11-libs/openmotif sys-devel/bc
-0
-http://common-lisp.net/project/cmucl/downloads/release/19d/cmucl-src-19d.tar.bz2 http://common-lisp.net/project/cmucl/downloads/release/19d/cmucl-19d-x86-linux.tar.bz2
-
-http://www.cons.org/cmucl/
-public-domain
-CMU Common Lisp is an implementation of ANSI Common Lisp
-~x86
-portability toolchain-funcs multilib eutils common-lisp-common-3
-
-
-
-virtual/commonlisp
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=x11-libs/openmotif sys-devel/bc
+DESCRIPTION=CMU Common Lisp is an implementation of ANSI Common Lisp
+EAPI=0
+HOMEPAGE=http://www.cons.org/cmucl/
+KEYWORDS=~x86
+LICENSE=public-domain
+PROVIDE=virtual/commonlisp
+RDEPEND=x11-libs/openmotif sys-devel/bc
+SLOT=0
+SRC_URI=http://common-lisp.net/project/cmucl/downloads/release/19d/cmucl-src-19d.tar.bz2 http://common-lisp.net/project/cmucl/downloads/release/19d/cmucl-19d-x86-linux.tar.bz2
+_eclasses_=common-lisp-common-3	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

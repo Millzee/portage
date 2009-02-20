@@ -1,22 +1,11 @@
-doc? ( app-doc/doxygen )
-
-0
-http://0pointer.de/lennart/projects/libdaemon/libdaemon-0.10.tar.gz
-
-http://0pointer.de/lennart/projects/libdaemon/
-LGPL-2.1
-Simple library for creating daemon processes in C
-arm s390 sh
-
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=doc? ( app-doc/doxygen )
+DESCRIPTION=Simple library for creating daemon processes in C
+EAPI=0
+HOMEPAGE=http://0pointer.de/lennart/projects/libdaemon/
+IUSE=doc
+KEYWORDS=arm s390 sh
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://0pointer.de/lennart/projects/libdaemon/libdaemon-0.10.tar.gz
+_mtime_=1235082853

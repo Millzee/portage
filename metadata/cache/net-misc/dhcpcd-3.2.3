@@ -1,22 +1,12 @@
-
-
-0
-http://roy.marples.name/dhcpcd/dhcpcd-3.2.3.tar.bz2
-
-http://roy.marples.name/dhcpcd
-BSD-2
-A fully featured, yet light weight RFC2131 compliant DHCP client
-alpha amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd
-toolchain-funcs multilib
-vram zeroconf
-
-
-virtual/dhcpc
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=A fully featured, yet light weight RFC2131 compliant DHCP client
+EAPI=0
+HOMEPAGE=http://roy.marples.name/dhcpcd
+IUSE=vram zeroconf
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd
+LICENSE=BSD-2
+PROVIDE=virtual/dhcpc
+SLOT=0
+SRC_URI=http://roy.marples.name/dhcpcd/dhcpcd-3.2.3.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

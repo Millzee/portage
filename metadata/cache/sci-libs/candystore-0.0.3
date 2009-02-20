@@ -1,22 +1,13 @@
-x11-libs/libqglviewer || ( x11-libs/qt-gui >=x11-libs/qt-4.3 )
-x11-libs/libqglviewer || ( x11-libs/qt-gui >=x11-libs/qt-4.3 )
-0
-http://fe-candy.de/candystore-0.0.3.zip
-
-http://fe-candy.de
-GPL-2
-CandyStore is a post processor for CalculiX
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib eutils
-doc
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=x11-libs/libqglviewer || ( x11-libs/qt-gui >=x11-libs/qt-4.3 )
+DESCRIPTION=CandyStore is a post processor for CalculiX
+EAPI=0
+HOMEPAGE=http://fe-candy.de
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libqglviewer || ( x11-libs/qt-gui >=x11-libs/qt-4.3 )
+SLOT=0
+SRC_URI=http://fe-candy.de/candystore-0.0.3.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

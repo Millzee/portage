@@ -1,22 +1,13 @@
->=sys-fs/device-mapper-1.02.26 clvm? ( >=sys-cluster/dlm-1.01.00 cman? ( >=sys-cluster/cman-1.01.00 ) )
->=sys-fs/device-mapper-1.02.26 clvm? ( >=sys-cluster/dlm-1.01.00 cman? ( >=sys-cluster/cman-1.01.00 ) ) !sys-fs/lvm-user !sys-fs/clvm
-0
-ftp://sources.redhat.com/pub/lvm2/LVM2.2.02.37.tgz
-
-http://sources.redhat.com/lvm2/
-GPL-2
-User-land utilities for LVM2 (device-mapper) software.
-~alpha ~amd64 hppa ia64 ~mips ~ppc ppc64 sparc ~x86
-toolchain-funcs multilib portability eutils
-readline static clvm cman lvm1 selinux
-
-
-
-0
-
-compile install postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test unpack
+DEPEND=>=sys-fs/device-mapper-1.02.26 clvm? ( >=sys-cluster/dlm-1.01.00 cman? ( >=sys-cluster/cman-1.01.00 ) )
+DESCRIPTION=User-land utilities for LVM2 (device-mapper) software.
+EAPI=0
+HOMEPAGE=http://sources.redhat.com/lvm2/
+IUSE=readline static clvm cman lvm1 selinux
+KEYWORDS=~alpha ~amd64 hppa ia64 ~mips ~ppc ppc64 sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-fs/device-mapper-1.02.26 clvm? ( >=sys-cluster/dlm-1.01.00 cman? ( >=sys-cluster/cman-1.01.00 ) ) !sys-fs/lvm-user !sys-fs/clvm
+SLOT=0
+SRC_URI=ftp://sources.redhat.com/pub/lvm2/LVM2.2.02.37.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

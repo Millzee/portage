@@ -1,22 +1,10 @@
-dev-util/mercurial net-misc/rsync
-
-0
-
-binchecks strip
-http://www.alsa-project.org/
-GPL-2 LGPL-2.1
-Header files for Advanced Linux Sound Architecture kernel modules
-
-mercurial toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=dev-util/mercurial net-misc/rsync
+DESCRIPTION=Header files for Advanced Linux Sound Architecture kernel modules
+EAPI=0
+HOMEPAGE=http://www.alsa-project.org/
+LICENSE=GPL-2 LGPL-2.1
+RESTRICT=binchecks strip
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	mercurial	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

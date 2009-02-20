@@ -1,22 +1,13 @@
->=dev-python/pychm-0.8.4 =dev-python/pygtk-2* =dev-python/gnome-python-2* =dev-python/gnome-python-extras-2* app-text/scrollkeeper >=dev-util/intltool-0.21 >=dev-lang/python-2.2.1 >=sys-apps/sed-4
->=dev-python/pychm-0.8.4 =dev-python/pygtk-2* =dev-python/gnome-python-2* =dev-python/gnome-python-extras-2*
-0
-mirror://sourceforge/gnochm/gnochm-0.9.10.tar.gz
-
-http://gnochm.sourceforge.net/
-GPL-2
-GnoCHM is a CHM file viewer that integrates with the GNOME desktop.
-amd64 ppc x86
-gnome.org fdo-mime gnome2 gnome2-utils libtool
-debug
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=dev-python/pychm-0.8.4 =dev-python/pygtk-2* =dev-python/gnome-python-2* =dev-python/gnome-python-extras-2* app-text/scrollkeeper >=dev-util/intltool-0.21 >=dev-lang/python-2.2.1 >=sys-apps/sed-4
+DESCRIPTION=GnoCHM is a CHM file viewer that integrates with the GNOME desktop.
+EAPI=0
+HOMEPAGE=http://gnochm.sourceforge.net/
+IUSE=debug
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-python/pychm-0.8.4 =dev-python/pygtk-2* =dev-python/gnome-python-2* =dev-python/gnome-python-extras-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/gnochm/gnochm-0.9.10.tar.gz
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

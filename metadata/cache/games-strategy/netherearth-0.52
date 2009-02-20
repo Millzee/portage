@@ -1,22 +1,12 @@
->=media-libs/libsdl-1.2.6-r3 >=media-libs/sdl-mixer-1.2.5-r1 virtual/glut app-arch/unzip
->=media-libs/libsdl-1.2.6-r3 >=media-libs/sdl-mixer-1.2.5-r1 virtual/glut
-0
-http://www.braingames.getput.com/nether/sources.zip http://www.braingames.getput.com/nether/netherearth052.zip
-
-http://www.braingames.getput.com/nether/
-as-is
-A remake of the SPECTRUM game Nether Earth.
-~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=media-libs/libsdl-1.2.6-r3 >=media-libs/sdl-mixer-1.2.5-r1 virtual/glut app-arch/unzip
+DESCRIPTION=A remake of the SPECTRUM game Nether Earth.
+EAPI=0
+HOMEPAGE=http://www.braingames.getput.com/nether/
+KEYWORDS=~x86
+LICENSE=as-is
+RDEPEND=>=media-libs/libsdl-1.2.6-r3 >=media-libs/sdl-mixer-1.2.5-r1 virtual/glut
+SLOT=0
+SRC_URI=http://www.braingames.getput.com/nether/sources.zip http://www.braingames.getput.com/nether/netherearth052.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

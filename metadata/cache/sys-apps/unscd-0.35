@@ -1,22 +1,9 @@
-
-
-0
-http://busybox.net/~vda/unscd/nscd-0.35.c
-
-http://busybox.net/~vda/unscd/README
-GPL-2
-simple & stable nscd replacement
-~amd64 ~x86
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=simple & stable nscd replacement
+EAPI=0
+HOMEPAGE=http://busybox.net/~vda/unscd/README
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://busybox.net/~vda/unscd/nscd-0.35.c
+_mtime_=1235082899

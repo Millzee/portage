@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.4.0 lcms? ( media-libs/lcms ) virtual/libintl dev-util/pkgconfig sys-devel/gettext
->=x11-libs/gtk+-2.4.0 lcms? ( media-libs/lcms ) virtual/libintl
-0
-mirror://sourceforge/gqview/gqview-2.1.5.tar.gz
-
-http://gqview.sourceforge.net/
-GPL-2
-A GTK-based image browser
-alpha amd64 ia64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-lcms
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2.4.0 lcms? ( media-libs/lcms ) virtual/libintl dev-util/pkgconfig sys-devel/gettext
+DESCRIPTION=A GTK-based image browser
+EAPI=0
+HOMEPAGE=http://gqview.sourceforge.net/
+IUSE=lcms
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.4.0 lcms? ( media-libs/lcms ) virtual/libintl
+SLOT=0
+SRC_URI=mirror://sourceforge/gqview/gqview-2.1.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

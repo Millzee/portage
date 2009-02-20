@@ -1,22 +1,12 @@
-bluetooth? ( net-wireless/bluez-libs ) nls? ( sys-devel/gettext )
-bluetooth? ( net-wireless/bluez-libs ) nls? ( sys-devel/gettext )
-0
-mirror://sourceforge/scmxx/scmxx-0.9.0.tar.bz2
-
-http://www.hendrik-sattler.de/scmxx/
-GPL-2
-Exchange data with Siemens phones
-~amd64 x86
-
-bluetooth nls
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=bluetooth? ( net-wireless/bluez-libs ) nls? ( sys-devel/gettext )
+DESCRIPTION=Exchange data with Siemens phones
+EAPI=0
+HOMEPAGE=http://www.hendrik-sattler.de/scmxx/
+IUSE=bluetooth nls
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2
+RDEPEND=bluetooth? ( net-wireless/bluez-libs ) nls? ( sys-devel/gettext )
+SLOT=0
+SRC_URI=mirror://sourceforge/scmxx/scmxx-0.9.0.tar.bz2
+_mtime_=1235082849

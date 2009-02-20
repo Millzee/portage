@@ -1,22 +1,12 @@
-=www-servers/apache-2*
-=www-servers/apache-2*
-2
-http://www.snert.com/Software/download/mod_loopback201.tgz
-
-http://www.snert.com/Software/mod_loopback/index.shtml
-as-is
-A web client debugging tool for Apache2.
-ppc ppc64 x86
-toolchain-funcs apache-module depend.apache multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND==www-servers/apache-2*
+DESCRIPTION=A web client debugging tool for Apache2.
+EAPI=0
+HOMEPAGE=http://www.snert.com/Software/mod_loopback/index.shtml
+KEYWORDS=ppc ppc64 x86
+LICENSE=as-is
+RDEPEND==www-servers/apache-2*
+SLOT=2
+SRC_URI=http://www.snert.com/Software/download/mod_loopback201.tgz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

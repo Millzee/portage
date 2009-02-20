@@ -1,22 +1,13 @@
-x11-libs/libXpm x11-libs/libSM jpeg? ( media-libs/jpeg ) x11-proto/xproto
-x11-libs/libXpm x11-libs/libSM jpeg? ( media-libs/jpeg )
-0
-http://www.tigr.net/afterstep/download/asapm/asapm-3.1.tar.gz
-
-http://www.tigr.net/afterstep/list.pl
-GPL-2
-APM monitor for AfterStep
-ppc -sparc x86
-toolchain-funcs multilib
-jpeg
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/libXpm x11-libs/libSM jpeg? ( media-libs/jpeg ) x11-proto/xproto
+DESCRIPTION=APM monitor for AfterStep
+EAPI=0
+HOMEPAGE=http://www.tigr.net/afterstep/list.pl
+IUSE=jpeg
+KEYWORDS=ppc -sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXpm x11-libs/libSM jpeg? ( media-libs/jpeg )
+SLOT=0
+SRC_URI=http://www.tigr.net/afterstep/download/asapm/asapm-3.1.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

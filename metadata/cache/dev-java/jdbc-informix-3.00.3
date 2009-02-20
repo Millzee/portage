@@ -1,22 +1,14 @@
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6
-0
-JDBC.3.00.JC3.tar
-fetch
-http://www.ibm.com/software/data/informix/tools/jdbc/
-informix-jdbc
-JDBC Type 4 Drivers for Informix
-amd64 ppc x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD doc examples
-
-
-
-
-
-compile install nofetch preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch preinst setup
+DEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+DESCRIPTION=JDBC Type 4 Drivers for Informix
+EAPI=0
+HOMEPAGE=http://www.ibm.com/software/data/informix/tools/jdbc/
+IUSE=elibc_FreeBSD doc examples
+KEYWORDS=amd64 ppc x86
+LICENSE=informix-jdbc
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+RESTRICT=fetch
+SLOT=0
+SRC_URI=JDBC.3.00.JC3.tar
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

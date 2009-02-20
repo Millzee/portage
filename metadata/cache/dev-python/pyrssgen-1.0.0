@@ -1,22 +1,12 @@
->=dev-lang/python-2.3 virtual/python
->=dev-lang/python-2.3
-0
-http://www.dalkescientific.com/Python/PyRSS2Gen-1.0.0.tar.gz
-
-http://www.dalkescientific.com/Python/PyRSS2Gen.html
-BSD
-RSS feed generator written in Python
-~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-lang/python-2.3 virtual/python
+DESCRIPTION=RSS feed generator written in Python
+EAPI=0
+HOMEPAGE=http://www.dalkescientific.com/Python/PyRSS2Gen.html
+KEYWORDS=~x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/python-2.3
+SLOT=0
+SRC_URI=http://www.dalkescientific.com/Python/PyRSS2Gen-1.0.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

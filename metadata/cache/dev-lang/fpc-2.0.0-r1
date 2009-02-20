@@ -1,22 +1,13 @@
-!dev-lang/fpc-bin doc? ( dev-tex/tex4ht )
-!dev-lang/fpc-bin
-0
-mirror://sourceforge/freepascal/fpc-2.0.0.source.tar.gz x86? ( mirror://sourceforge/freepascal/fpc-2.0.0.i386-linux.tar ) sparc? ( mirror://sourceforge/freepascal/fpc-2.0.0.sparc-linux.tar ) ppc? ( mirror://sourceforge/freepascal/fpc-2.0.0.powerpc-linux.tar ) amd64? ( mirror://sourceforge/freepascal/fpc-2.0.0.x86_64-linux.tar )
-
-http://www.freepascal.org/
-GPL-2 LGPL-2.1 LGPL-2.1-FPC
-Free Pascal Compiler
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-compile install postinst preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst unpack
+DEPEND=!dev-lang/fpc-bin doc? ( dev-tex/tex4ht )
+DESCRIPTION=Free Pascal Compiler
+EAPI=0
+HOMEPAGE=http://www.freepascal.org/
+IUSE=doc
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2 LGPL-2.1 LGPL-2.1-FPC
+RDEPEND=!dev-lang/fpc-bin
+SLOT=0
+SRC_URI=mirror://sourceforge/freepascal/fpc-2.0.0.source.tar.gz x86? ( mirror://sourceforge/freepascal/fpc-2.0.0.i386-linux.tar ) sparc? ( mirror://sourceforge/freepascal/fpc-2.0.0.sparc-linux.tar ) ppc? ( mirror://sourceforge/freepascal/fpc-2.0.0.powerpc-linux.tar ) amd64? ( mirror://sourceforge/freepascal/fpc-2.0.0.x86_64-linux.tar )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

@@ -1,22 +1,12 @@
-test? ( dev-util/dejagnu )
-
-0
-ftp://sourceware.org/pub/libffi/libffi-3.0.8.tar.gz
-
-http://sourceware.org/libffi
-MIT
-a portable, high level programming interface to various calling conventions.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-debug test
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=test? ( dev-util/dejagnu )
+DESCRIPTION=a portable, high level programming interface to various calling conventions.
+EAPI=0
+HOMEPAGE=http://sourceware.org/libffi
+IUSE=debug test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=ftp://sourceware.org/pub/libffi/libffi-3.0.8.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

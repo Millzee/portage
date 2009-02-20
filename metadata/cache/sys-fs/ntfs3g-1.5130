@@ -1,22 +1,12 @@
-hal? ( sys-apps/hal )
-hal? ( sys-apps/hal )
-0
-http://www.ntfs-3g.org/ntfs-3g-1.5130.tgz
-
-http://www.ntfs-3g.org
-GPL-2
-Open source read-write NTFS driver that runs under FUSE
-~amd64 ~ppc ~ppc64 ~sparc ~x86
-
-debug hal suid
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=hal? ( sys-apps/hal )
+DESCRIPTION=Open source read-write NTFS driver that runs under FUSE
+EAPI=0
+HOMEPAGE=http://www.ntfs-3g.org
+IUSE=debug hal suid
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=hal? ( sys-apps/hal )
+SLOT=0
+SRC_URI=http://www.ntfs-3g.org/ntfs-3g-1.5130.tgz
+_mtime_=1235082907

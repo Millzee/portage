@@ -1,22 +1,13 @@
-virtual/libc >=dev-libs/gmp-4.1 >=net-fs/nfs-utils-0.3.3 ssl? ( >=dev-libs/openssl-0.9.6 )
-virtual/libc >=dev-libs/gmp-4.1 >=net-fs/nfs-utils-0.3.3 ssl? ( >=dev-libs/openssl-0.9.6 ) >=net-nds/portmap-5b-r6
-0
-http://www.fs.net/sfs/@new-york.lcs.mit.edu,u83s4uk49nt8rmp4uwmt2exvz6d3cavh/pub/sfswww/dist/sfs-0.7.2.tar.gz mirror://gentoo/sfs-0.7.2-gcc3.patch.bz2
-
-http://www.fs.net/
-GPL-2
-Self-certifying File System client and server daemons
-~ppc x86
-toolchain-funcs multilib portability eutils
-ssl
-
-
-
-0
-
-compile config install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst setup unpack
+DEPEND=virtual/libc >=dev-libs/gmp-4.1 >=net-fs/nfs-utils-0.3.3 ssl? ( >=dev-libs/openssl-0.9.6 )
+DESCRIPTION=Self-certifying File System client and server daemons
+EAPI=0
+HOMEPAGE=http://www.fs.net/
+IUSE=ssl
+KEYWORDS=~ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc >=dev-libs/gmp-4.1 >=net-fs/nfs-utils-0.3.3 ssl? ( >=dev-libs/openssl-0.9.6 ) >=net-nds/portmap-5b-r6
+SLOT=0
+SRC_URI=http://www.fs.net/sfs/@new-york.lcs.mit.edu,u83s4uk49nt8rmp4uwmt2exvz6d3cavh/pub/sfswww/dist/sfs-0.7.2.tar.gz mirror://gentoo/sfs-0.7.2-gcc3.patch.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

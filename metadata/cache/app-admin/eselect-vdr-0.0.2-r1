@@ -1,22 +1,10 @@
-
->=app-admin/eselect-1.0.6
-0
-mirror://gentoo/eselect-vdr-0.0.2.tar.bz2
-
-http://www.gentoo.org/
-GPL-2
-Manages the VDR plugins
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Manages the VDR plugins
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-admin/eselect-1.0.6
+SLOT=0
+SRC_URI=mirror://gentoo/eselect-vdr-0.0.2.tar.bz2
+_mtime_=1235082845

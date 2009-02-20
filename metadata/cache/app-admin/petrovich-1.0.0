@@ -1,22 +1,12 @@
-virtual/perl-Digest-MD5
-virtual/perl-Digest-MD5
-0
-mirror://sourceforge/petrovich/petrovich-1.0.0.tar.gz
-
-http://sourceforge.net/projects/petrovich
-GPL-2
-Filesystem Integrity Checker
-x86 ppc sparc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=virtual/perl-Digest-MD5
+DESCRIPTION=Filesystem Integrity Checker
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/petrovich
+KEYWORDS=x86 ppc sparc
+LICENSE=GPL-2
+RDEPEND=virtual/perl-Digest-MD5
+SLOT=0
+SRC_URI=mirror://sourceforge/petrovich/petrovich-1.0.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

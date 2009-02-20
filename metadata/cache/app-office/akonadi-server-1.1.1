@@ -1,22 +1,13 @@
-mysql? ( || ( <virtual/mysql-5.1 dev-db/mysql-community[innodb] dev-db/mysql[innodb] ) ) x11-libs/qt-core:4 x11-libs/qt-dbus:4 x11-libs/qt-sql:4[mysql?] x11-libs/qt-test:4 x11-misc/shared-mime-info >=dev-util/cmake-2.6.0 dev-libs/boost dev-libs/libxslt >=kde-base/automoc-0.9.88 >=dev-util/cmake-2.4.6
-mysql? ( || ( <virtual/mysql-5.1 dev-db/mysql-community[innodb] dev-db/mysql[innodb] ) ) x11-libs/qt-core:4 x11-libs/qt-dbus:4 x11-libs/qt-sql:4[mysql?] x11-libs/qt-test:4 x11-misc/shared-mime-info
-0
-http://akonadi.omat.nl/akonadi-1.1.1.tar.bz2
-
-http://pim.kde.org/akonadi
-LGPL-2.1
-The server part of Akonadi
-~amd64 ~ppc ~ppc64 ~x86
-qt4 toolchain-funcs portability flag-o-matic versionator multilib cmake-utils eutils
-+mysql
-
-
-
-2
-
-compile configure install prepare setup test
-
-
-
-
-
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=mysql? ( || ( <virtual/mysql-5.1 dev-db/mysql-community[innodb] dev-db/mysql[innodb] ) ) x11-libs/qt-core:4 x11-libs/qt-dbus:4 x11-libs/qt-sql:4[mysql?] x11-libs/qt-test:4 x11-misc/shared-mime-info >=dev-util/cmake-2.6.0 dev-libs/boost dev-libs/libxslt >=kde-base/automoc-0.9.88 >=dev-util/cmake-2.4.6
+DESCRIPTION=The server part of Akonadi
+EAPI=2
+HOMEPAGE=http://pim.kde.org/akonadi
+IUSE=+mysql
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=mysql? ( || ( <virtual/mysql-5.1 dev-db/mysql-community[innodb] dev-db/mysql[innodb] ) ) x11-libs/qt-core:4 x11-libs/qt-dbus:4 x11-libs/qt-sql:4[mysql?] x11-libs/qt-test:4 x11-misc/shared-mime-info
+SLOT=0
+SRC_URI=http://akonadi.omat.nl/akonadi-1.1.1.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235083996

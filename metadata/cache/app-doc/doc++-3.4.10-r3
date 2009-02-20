@@ -1,22 +1,11 @@
-
-virtual/libc
-0
-mirror://sourceforge/docpp/doc++-3.4.10.tar.gz
-
-http://docpp.sourceforge.net/
-GPL-2
-Documentation system for C, C++, IDL and Java
-amd64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Documentation system for C, C++, IDL and Java
+EAPI=0
+HOMEPAGE=http://docpp.sourceforge.net/
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/docpp/doc++-3.4.10.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

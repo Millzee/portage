@@ -1,22 +1,12 @@
-dev-python/pygtk gnome-base/libglade sys-apps/dbus x11-libs/gtk+
-dev-python/pygtk gnome-base/libglade sys-apps/dbus x11-libs/gtk+
-0
-http://kaizer.se/publicfiles/dragbox/dragbox-0.4.0.tar.gz
-
-http://kaizer.se/wiki/dragbox/
-GPL-2
-Dragbox is a GTK tool for connecting the commandline with the desktop environment.
-~amd64
-python multilib toolchain-funcs alternatives
-
-
-
-
-0
-
-install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm
+DEPEND=dev-python/pygtk gnome-base/libglade sys-apps/dbus x11-libs/gtk+
+DESCRIPTION=Dragbox is a GTK tool for connecting the commandline with the desktop environment.
+EAPI=0
+HOMEPAGE=http://kaizer.se/wiki/dragbox/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-python/pygtk gnome-base/libglade sys-apps/dbus x11-libs/gtk+
+SLOT=0
+SRC_URI=http://kaizer.se/publicfiles/dragbox/dragbox-0.4.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

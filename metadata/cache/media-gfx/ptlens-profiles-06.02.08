@@ -1,22 +1,10 @@
-app-arch/unzip
-
-0
-mirror://sourceforge/hugin/PTLensDB_06-02-08.zip
-
-http://hugin.sf.net/
-public-domain
-PTLens profiles for lens calibration to use with clens
-~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=app-arch/unzip
+DESCRIPTION=PTLens profiles for lens calibration to use with clens
+EAPI=0
+HOMEPAGE=http://hugin.sf.net/
+KEYWORDS=~x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=mirror://sourceforge/hugin/PTLensDB_06-02-08.zip
+_mtime_=1235082867

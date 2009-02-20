@@ -1,22 +1,11 @@
-
-dev-lang/perl media-gfx/imagemagick dev-perl/URI dev-perl/libwww-perl dev-perl/HTML-Template dev-perl/HTML-Parser
-0
-mirror://sourceforge/bbgallery/bbgallery-1.2.0.tar.bz2
-
-http://bbgallery.sourceforge.net/
-GPL-2
-Webpage image gallery creation perl script
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=Webpage image gallery creation perl script
+EAPI=0
+HOMEPAGE=http://bbgallery.sourceforge.net/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl media-gfx/imagemagick dev-perl/URI dev-perl/libwww-perl dev-perl/HTML-Template dev-perl/HTML-Parser
+SLOT=0
+SRC_URI=mirror://sourceforge/bbgallery/bbgallery-1.2.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

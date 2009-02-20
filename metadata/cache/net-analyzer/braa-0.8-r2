@@ -1,22 +1,10 @@
-
-
-0
-http://s-tech.elsat.net.pl/braa/braa-0.8.tar.gz
-
-http://s-tech.elsat.net.pl/braa/
-GPL-2
-Quick and dirty mass SNMP scanner
-~amd64 ~ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Quick and dirty mass SNMP scanner
+EAPI=0
+HOMEPAGE=http://s-tech.elsat.net.pl/braa/
+KEYWORDS=~amd64 ~ppc sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://s-tech.elsat.net.pl/braa/braa-0.8.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082885

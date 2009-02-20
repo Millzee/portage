@@ -1,22 +1,13 @@
-app-crypt/gnupg >=virtual/emacs-21
-app-crypt/gnupg gnus? ( virtual/gnus ) >=virtual/emacs-21
-0
-mirror://sourceforge.jp/epg/29289/epg-0.0.16.tar.gz gnus? ( mirror://sourceforge.jp/epg/25608/pgg-epg.el )
-
-http://www.easypg.org/
-GPL-2 FDL-1.1
-GnuPG interface for Emacs
-amd64 x86
-versionator elisp elisp-common
-gnus
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=app-crypt/gnupg >=virtual/emacs-21
+DESCRIPTION=GnuPG interface for Emacs
+EAPI=0
+HOMEPAGE=http://www.easypg.org/
+IUSE=gnus
+KEYWORDS=amd64 x86
+LICENSE=GPL-2 FDL-1.1
+RDEPEND=app-crypt/gnupg gnus? ( virtual/gnus ) >=virtual/emacs-21
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/epg/29289/epg-0.0.16.tar.gz gnus? ( mirror://sourceforge.jp/epg/25608/pgg-epg.el )
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

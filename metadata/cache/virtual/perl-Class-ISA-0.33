@@ -1,22 +1,9 @@
-
-|| ( ~dev-lang/perl-5.10.0 ~perl-core/Class-ISA-0.33 )
-0
-
-
-http://www.gentoo.org/proj/en/perl/
-GPL-2
-Report the search path thru an ISA tree
-alpha amd64 ia64 ppc ppc64 sparc x86
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=Report the search path thru an ISA tree
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/perl/
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=|| ( ~dev-lang/perl-5.10.0 ~perl-core/Class-ISA-0.33 )
+SLOT=0
+_mtime_=1235082908

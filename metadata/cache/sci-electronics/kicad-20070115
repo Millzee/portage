@@ -1,22 +1,13 @@
-=x11-libs/wxGTK-2.6*
-=x11-libs/wxGTK-2.6*
-0
-mirror://gentoo/kicad-20070115.tar.bz2 !minimal? ( ftp://iut-tice.ujf-grenoble.fr/cao/kicad-2007-01-15.tgz )
-
-http://www.lis.inpg.fr/realise_au_lis/kicad/
-GPL-2
-Electronic schematic and PCB design tools.
-amd64 ppc64 x86
-toolchain-funcs multilib portability eutils wxwidgets
-unicode doc examples minimal
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND==x11-libs/wxGTK-2.6*
+DESCRIPTION=Electronic schematic and PCB design tools.
+EAPI=0
+HOMEPAGE=http://www.lis.inpg.fr/realise_au_lis/kicad/
+IUSE=unicode doc examples minimal
+KEYWORDS=amd64 ppc64 x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/wxGTK-2.6*
+SLOT=0
+SRC_URI=mirror://gentoo/kicad-20070115.tar.bz2 !minimal? ( ftp://iut-tice.ujf-grenoble.fr/cao/kicad-2007-01-15.tgz )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

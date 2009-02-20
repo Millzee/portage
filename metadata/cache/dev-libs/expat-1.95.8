@@ -1,22 +1,12 @@
-test? ( >=dev-libs/check-0.8 )
-
-0
-mirror://sourceforge/expat/expat-1.95.8.tar.gz
-
-http://expat.sourceforge.net/
-as-is
-XML parsing libraries
-alpha amd64 arm hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86
-multilib toolchain-funcs libtool
-test
-
-
-
-0
-
-install test unpack
-
-
-
-
-
+DEFINED_PHASES=install test unpack
+DEPEND=test? ( >=dev-libs/check-0.8 )
+DESCRIPTION=XML parsing libraries
+EAPI=0
+HOMEPAGE=http://expat.sourceforge.net/
+IUSE=test
+KEYWORDS=alpha amd64 arm hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=mirror://sourceforge/expat/expat-1.95.8.tar.gz
+_eclasses_=libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

@@ -1,22 +1,13 @@
->=dev-lang/ocaml-3.07
->=dev-lang/ocaml-3.07
-0
-ftp://ftp.inria.fr/INRIA/moscova/hevea/hevea-1.10.tar.gz
-
-http://pauillac.inria.fr/~maranget/hevea/
-QPL
-HeVeA is a quite complete and fast LaTeX to HTML translator
-~amd64 ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-+ocamlopt
-
-
-
-1
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=>=dev-lang/ocaml-3.07
+DESCRIPTION=HeVeA is a quite complete and fast LaTeX to HTML translator
+EAPI=1
+HOMEPAGE=http://pauillac.inria.fr/~maranget/hevea/
+IUSE=+ocamlopt
+KEYWORDS=~amd64 ppc ~sparc x86
+LICENSE=QPL
+RDEPEND=>=dev-lang/ocaml-3.07
+SLOT=0
+SRC_URI=ftp://ftp.inria.fr/INRIA/moscova/hevea/hevea-1.10.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

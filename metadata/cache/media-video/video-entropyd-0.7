@@ -1,22 +1,11 @@
-virtual/libc media-libs/netpbm sys-kernel/linux-headers
-virtual/libc media-libs/netpbm
-0
-http://www.vanheusden.com/ved/video_entropyd-0.7.tgz
-
-http://www.vanheusden.com/ved/
-GPL-2
-Video-entropyd generates entropy-data for the /dev/random device.
-amd64 ~ppc x86
-
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/libc media-libs/netpbm sys-kernel/linux-headers
+DESCRIPTION=Video-entropyd generates entropy-data for the /dev/random device.
+EAPI=0
+HOMEPAGE=http://www.vanheusden.com/ved/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc media-libs/netpbm
+SLOT=0
+SRC_URI=http://www.vanheusden.com/ved/video_entropyd-0.7.tgz
+_mtime_=1235082870

@@ -1,22 +1,13 @@
-doc? ( dev-ruby/rake ) test? ( dev-ruby/rake ) test? ( >=dev-ruby/rspec-1.0.8 ) virtual/ruby
-virtual/ruby
-0
-mirror://rubyforge/uuidtools/uuidtools-1.0.7.tgz
-
-http://uuidtools.rubyforge.org/
-MIT
-Simple library to generate UUIDs
-~amd64 ~x86
-ruby toolchain-funcs multilib portability eutils
-test doc
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=doc? ( dev-ruby/rake ) test? ( dev-ruby/rake ) test? ( >=dev-ruby/rspec-1.0.8 ) virtual/ruby
+DESCRIPTION=Simple library to generate UUIDs
+EAPI=0
+HOMEPAGE=http://uuidtools.rubyforge.org/
+IUSE=test doc
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=virtual/ruby
+SLOT=0
+SRC_URI=mirror://rubyforge/uuidtools/uuidtools-1.0.7.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

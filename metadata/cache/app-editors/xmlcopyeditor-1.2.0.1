@@ -1,22 +1,13 @@
-dev-libs/xerces-c dev-libs/boost dev-libs/libpcre app-text/aspell =x11-libs/wxGTK-2.8*
-dev-libs/xerces-c dev-libs/boost dev-libs/libpcre app-text/aspell =x11-libs/wxGTK-2.8*
-0
-mirror://sourceforge/xml-copy-editor/xmlcopyeditor-1.2.0.1.tar.gz guidexml? ( mirror://gentoo/GuideXML-templates.tar.gz )
-
-http://xml-copy-editor.sourceforge.net/
-GPL-2
-XML Copy Editor is a fast, free, validating XML editor
-~amd64 ~x86
-toolchain-funcs multilib portability eutils wxwidgets
-guidexml
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DEPEND=dev-libs/xerces-c dev-libs/boost dev-libs/libpcre app-text/aspell =x11-libs/wxGTK-2.8*
+DESCRIPTION=XML Copy Editor is a fast, free, validating XML editor
+EAPI=0
+HOMEPAGE=http://xml-copy-editor.sourceforge.net/
+IUSE=guidexml
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/xerces-c dev-libs/boost dev-libs/libpcre app-text/aspell =x11-libs/wxGTK-2.8*
+SLOT=0
+SRC_URI=mirror://sourceforge/xml-copy-editor/xmlcopyeditor-1.2.0.1.tar.gz guidexml? ( mirror://gentoo/GuideXML-templates.tar.gz )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

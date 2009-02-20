@@ -1,22 +1,12 @@
-x11-libs/xforms
-x11-libs/xforms
-0
-mirror://sourceforge/elem/elem-src-1.0.3-Linux.tgz
-
-http://elem.sourceforge.net/
-GPL-2
-periodic table of the elements
-amd64 sparc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/xforms
+DESCRIPTION=periodic table of the elements
+EAPI=0
+HOMEPAGE=http://elem.sourceforge.net/
+KEYWORDS=amd64 sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/xforms
+SLOT=0
+SRC_URI=mirror://sourceforge/elem/elem-src-1.0.3-Linux.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

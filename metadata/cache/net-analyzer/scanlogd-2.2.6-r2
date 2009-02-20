@@ -1,22 +1,13 @@
-nids? ( net-libs/libnids net-libs/libnet net-libs/libpcap ) pcap? ( net-libs/libpcap )
-nids? ( net-libs/libnids net-libs/libnet net-libs/libpcap ) pcap? ( net-libs/libpcap )
-0
-http://www.openwall.com/scanlogd/scanlogd-2.2.6.tar.gz
-
-http://www.openwall.com/scanlogd/
-as-is
-Scanlogd - detects and logs TCP port scans
-~amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-nids pcap
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=nids? ( net-libs/libnids net-libs/libnet net-libs/libpcap ) pcap? ( net-libs/libpcap )
+DESCRIPTION=Scanlogd - detects and logs TCP port scans
+EAPI=0
+HOMEPAGE=http://www.openwall.com/scanlogd/
+IUSE=nids pcap
+KEYWORDS=~amd64 ppc sparc x86
+LICENSE=as-is
+RDEPEND=nids? ( net-libs/libnids net-libs/libnet net-libs/libpcap ) pcap? ( net-libs/libpcap )
+SLOT=0
+SRC_URI=http://www.openwall.com/scanlogd/scanlogd-2.2.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

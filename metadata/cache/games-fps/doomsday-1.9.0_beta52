@@ -1,22 +1,13 @@
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-net media-libs/libpng sys-libs/glibc openal? ( media-libs/openal ) >=dev-util/cmake-2.4.5 app-arch/zip
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-net media-libs/libpng sys-libs/glibc openal? ( media-libs/openal )
-0
-mirror://sourceforge/deng/deng-1.9.0-beta5.2.tar.gz
-
-http://www.doomsdayhq.com/
-GPL-2
-A modern gaming engine for Doom, Heretic, and Hexen
-ppc x86
-toolchain-funcs portability multilib base games eutils
-openal
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-net media-libs/libpng sys-libs/glibc openal? ( media-libs/openal ) >=dev-util/cmake-2.4.5 app-arch/zip
+DESCRIPTION=A modern gaming engine for Doom, Heretic, and Hexen
+EAPI=0
+HOMEPAGE=http://www.doomsdayhq.com/
+IUSE=openal
+KEYWORDS=ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-net media-libs/libpng sys-libs/glibc openal? ( media-libs/openal )
+SLOT=0
+SRC_URI=mirror://sourceforge/deng/deng-1.9.0-beta5.2.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,12 @@
-X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
-
-0
-mirror://gentoo/MgOpen-20080519.tar.gz
-
-http://www.ellak.gr/fonts/mgopen/index.en.html
-MagentaMgOpen
-Magenta MgOpen Typeface Collection for Modern Greek.
-~amd64 ~x86
-toolchain-funcs font multilib portability eutils
-X
-
-
-
-0
-
-install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm setup
+DEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
+DESCRIPTION=Magenta MgOpen Typeface Collection for Modern Greek.
+EAPI=0
+HOMEPAGE=http://www.ellak.gr/fonts/mgopen/index.en.html
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=MagentaMgOpen
+SLOT=0
+SRC_URI=mirror://gentoo/MgOpen-20080519.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	font	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

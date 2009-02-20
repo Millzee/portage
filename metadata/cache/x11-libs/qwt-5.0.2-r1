@@ -1,22 +1,13 @@
-|| ( ( x11-libs/qt-gui:4 svg? ( x11-libs/qt-svg:4 ) ) =x11-libs/qt-4.3*:4 )
-|| ( ( x11-libs/qt-gui:4 svg? ( x11-libs/qt-svg:4 ) ) =x11-libs/qt-4.3*:4 )
-5
-mirror://sourceforge/qwt/qwt-5.0.2.tar.bz2
-
-http://qwt.sourceforge.net/
-qwt
-2D plotting library for Qt4
-amd64 hppa ~ia64 ppc ppc64 sparc x86
-qt4 toolchain-funcs portability versionator multilib eutils
-doc svg
-
-
-
-1
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=|| ( ( x11-libs/qt-gui:4 svg? ( x11-libs/qt-svg:4 ) ) =x11-libs/qt-4.3*:4 )
+DESCRIPTION=2D plotting library for Qt4
+EAPI=1
+HOMEPAGE=http://qwt.sourceforge.net/
+IUSE=doc svg
+KEYWORDS=amd64 hppa ~ia64 ppc ppc64 sparc x86
+LICENSE=qwt
+RDEPEND=|| ( ( x11-libs/qt-gui:4 svg? ( x11-libs/qt-svg:4 ) ) =x11-libs/qt-4.3*:4 )
+SLOT=5
+SRC_URI=mirror://sourceforge/qwt/qwt-5.0.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

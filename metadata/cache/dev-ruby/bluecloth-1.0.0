@@ -1,22 +1,13 @@
->=dev-lang/ruby-1.8 virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
->=dev-lang/ruby-1.8 virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
-0
-http://www.deveiate.org/code/BlueCloth-1.0.0.gem
-
-http://www.deveiate.org/projects/BlueCloth
-GPL-2
-A Ruby implementation of Markdown
-amd64 ia64 ppc ppc64 x86
-gems toolchain-funcs portability multilib ruby eutils
-doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/ruby-1.8 virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
+DESCRIPTION=A Ruby implementation of Markdown
+EAPI=0
+HOMEPAGE=http://www.deveiate.org/projects/BlueCloth
+IUSE=doc
+KEYWORDS=amd64 ia64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/ruby-1.8 virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
+SLOT=0
+SRC_URI=http://www.deveiate.org/code/BlueCloth-1.0.0.gem
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	gems	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

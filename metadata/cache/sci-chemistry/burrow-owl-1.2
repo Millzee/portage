@@ -1,22 +1,13 @@
-=x11-libs/gtk+-2* dev-scheme/guile-gnome-platform dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-=x11-libs/gtk+-2* dev-scheme/guile-gnome-platform
-0
-mirror://sourceforge/burrow-owl/burrow-1.2.tar.gz examples? ( mirror://sourceforge/burrow-owl/burrow-demos.tar )
-
-http://burrow-owl.sourceforge.net/
-GPL-2
-Visualize multidimensional nuclear magnetic resonance (NMR) spectra
-~x86
-toolchain-funcs portability multilib libtool autotools eutils
-examples
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND==x11-libs/gtk+-2* dev-scheme/guile-gnome-platform dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Visualize multidimensional nuclear magnetic resonance (NMR) spectra
+EAPI=0
+HOMEPAGE=http://burrow-owl.sourceforge.net/
+IUSE=examples
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/gtk+-2* dev-scheme/guile-gnome-platform
+SLOT=0
+SRC_URI=mirror://sourceforge/burrow-owl/burrow-1.2.tar.gz examples? ( mirror://sourceforge/burrow-owl/burrow-demos.tar )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

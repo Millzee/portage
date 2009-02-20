@@ -1,22 +1,9 @@
-
-
-0
-http://web.mit.edu/bamel/biogrep-1.0.tar.gz
-
-http://web.mit.edu/bamel/biogrep.shtml
-GPL-2
-Biogrep matchs large sets of patterns against biosequence dbs and is optimized for multithreading.
-~amd64
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Biogrep matchs large sets of patterns against biosequence dbs and is optimized for multithreading.
+EAPI=0
+HOMEPAGE=http://web.mit.edu/bamel/biogrep.shtml
+KEYWORDS=~amd64
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://web.mit.edu/bamel/biogrep-1.0.tar.gz
+_mtime_=1235082897

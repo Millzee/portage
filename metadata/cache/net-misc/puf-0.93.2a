@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-mirror://sourceforge/puf/puf-0.93.2a.tar.gz
-
-http://puf.sourceforge.net/
-GPL-2
-A download tool for UNIX-like systems.
-~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=A download tool for UNIX-like systems.
+EAPI=0
+HOMEPAGE=http://puf.sourceforge.net/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/puf/puf-0.93.2a.tar.gz
+_mtime_=1235082895

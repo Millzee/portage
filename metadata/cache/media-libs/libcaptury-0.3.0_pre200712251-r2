@@ -1,22 +1,13 @@
->=media-libs/capseo-0.3.0_pre200712251 x11-libs/libX11 x11-libs/libXfixes virtual/opengl amd64? ( multilib? ( >=app-emulation/emul-linux-x86-xlibs-20071114 app-emulation/emul-linux-x86-medialibs ) ) dev-util/pkgconfig
->=media-libs/capseo-0.3.0_pre200712251 x11-libs/libX11 x11-libs/libXfixes virtual/opengl amd64? ( multilib? ( >=app-emulation/emul-linux-x86-xlibs-20071114 app-emulation/emul-linux-x86-medialibs ) )
-0
-http://upstream.rm-rf.in./captury/captury-0.3.0_pre200712251.tar.bz2
-
-http://rm-rf.in/projects/captury/
-LGPL-2.1
-Captury Framework Library
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-debug multilib
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=>=media-libs/capseo-0.3.0_pre200712251 x11-libs/libX11 x11-libs/libXfixes virtual/opengl amd64? ( multilib? ( >=app-emulation/emul-linux-x86-xlibs-20071114 app-emulation/emul-linux-x86-medialibs ) ) dev-util/pkgconfig
+DESCRIPTION=Captury Framework Library
+EAPI=0
+HOMEPAGE=http://rm-rf.in/projects/captury/
+IUSE=debug multilib
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=>=media-libs/capseo-0.3.0_pre200712251 x11-libs/libX11 x11-libs/libXfixes virtual/opengl amd64? ( multilib? ( >=app-emulation/emul-linux-x86-xlibs-20071114 app-emulation/emul-linux-x86-medialibs ) )
+SLOT=0
+SRC_URI=http://upstream.rm-rf.in./captury/captury-0.3.0_pre200712251.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

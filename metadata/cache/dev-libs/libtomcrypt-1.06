@@ -1,22 +1,13 @@
-libtommath? ( dev-libs/libtommath ) tomsfastmath? ( dev-libs/tomsfastmath ) !libtommath? ( !tomsfastmath? ( dev-libs/libtommath ) ) doc? ( virtual/latex-base virtual/ghostscript )
-libtommath? ( dev-libs/libtommath ) tomsfastmath? ( dev-libs/tomsfastmath ) !libtommath? ( !tomsfastmath? ( dev-libs/libtommath ) )
-0
-http://libtomcrypt.org/files/crypt-1.06.tar.bz2 http://libtomcrypt.org/files/patch-1.06/makefile.diff http://libtomcrypt.org/files/patch-1.06/makefile.shared.diff
-
-http://libtomcrypt.org/
-public-domain
-modular and portable cryptographic toolkit
-amd64 ppc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc libtommath tomsfastmath
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=libtommath? ( dev-libs/libtommath ) tomsfastmath? ( dev-libs/tomsfastmath ) !libtommath? ( !tomsfastmath? ( dev-libs/libtommath ) ) doc? ( virtual/latex-base virtual/ghostscript )
+DESCRIPTION=modular and portable cryptographic toolkit
+EAPI=0
+HOMEPAGE=http://libtomcrypt.org/
+IUSE=doc libtommath tomsfastmath
+KEYWORDS=amd64 ppc x86
+LICENSE=public-domain
+RDEPEND=libtommath? ( dev-libs/libtommath ) tomsfastmath? ( dev-libs/tomsfastmath ) !libtommath? ( !tomsfastmath? ( dev-libs/libtommath ) )
+SLOT=0
+SRC_URI=http://libtomcrypt.org/files/crypt-1.06.tar.bz2 http://libtomcrypt.org/files/patch-1.06/makefile.diff http://libtomcrypt.org/files/patch-1.06/makefile.shared.diff
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

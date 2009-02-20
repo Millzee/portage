@@ -1,22 +1,12 @@
-x11-libs/gtk+ >=dev-lang/perl-5.8.6 dev-perl/XML-RAI dev-perl/glib-perl dev-perl/gtk2-perl
-x11-libs/gtk+ >=dev-lang/perl-5.8.6 dev-perl/XML-RAI dev-perl/glib-perl dev-perl/gtk2-perl
-0
-mirror://sourceforge/tvtrss/tvrss-1.8beta.tar.gz
-
-http://tvtrss.sourceforge.net/
-GPL-2
-TV RSS is a tool for automating torrent downloads
-~x86 ~amd64
-versionator
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=x11-libs/gtk+ >=dev-lang/perl-5.8.6 dev-perl/XML-RAI dev-perl/glib-perl dev-perl/gtk2-perl
+DESCRIPTION=TV RSS is a tool for automating torrent downloads
+EAPI=0
+HOMEPAGE=http://tvtrss.sourceforge.net/
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=x11-libs/gtk+ >=dev-lang/perl-5.8.6 dev-perl/XML-RAI dev-perl/glib-perl dev-perl/gtk2-perl
+SLOT=0
+SRC_URI=mirror://sourceforge/tvtrss/tvrss-1.8beta.tar.gz
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

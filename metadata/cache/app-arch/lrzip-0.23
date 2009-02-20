@@ -1,22 +1,11 @@
-x86? ( dev-lang/nasm )
-dev-libs/lzo app-arch/bzip2
-0
-http://ck.kolivas.org/apps/lrzip/lrzip-0.23.tar.bz2
-
-http://ck.kolivas.org/apps/lrzip/README
-GPL-2
-Long Range ZIP or Lzma RZIP
-~amd64 ~ppc ~sparc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=x86? ( dev-lang/nasm )
+DESCRIPTION=Long Range ZIP or Lzma RZIP
+EAPI=0
+HOMEPAGE=http://ck.kolivas.org/apps/lrzip/README
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/lzo app-arch/bzip2
+SLOT=0
+SRC_URI=http://ck.kolivas.org/apps/lrzip/lrzip-0.23.tar.bz2
+_mtime_=1235082846

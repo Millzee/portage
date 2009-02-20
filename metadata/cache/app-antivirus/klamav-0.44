@@ -1,22 +1,13 @@
->=app-antivirus/clamav-0.90 =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
->=app-antivirus/clamav-0.90 =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
-0
-mirror://sourceforge/klamav/klamav-0.44-source.tar.gz
-
-http://klamav.sourceforge.net/
-GPL-2
-KlamAV is a KDE frontend for the ClamAV antivirus.
-amd64 ~ppc ppc64 sparc x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-debug elibc_FreeBSD xinerama
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=app-antivirus/clamav-0.90 =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
+DESCRIPTION=KlamAV is a KDE frontend for the ClamAV antivirus.
+EAPI=0
+HOMEPAGE=http://klamav.sourceforge.net/
+IUSE=debug elibc_FreeBSD xinerama
+KEYWORDS=amd64 ~ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=>=app-antivirus/clamav-0.90 =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
+SLOT=0
+SRC_URI=mirror://sourceforge/klamav/klamav-0.44-source.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

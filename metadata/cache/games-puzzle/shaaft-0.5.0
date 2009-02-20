@@ -1,22 +1,12 @@
-virtual/opengl sys-libs/zlib media-libs/libpng media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
-virtual/opengl sys-libs/zlib media-libs/libpng media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
-0
-mirror://sourceforge/criticalmass/Shaaft-0.5.0.tar.bz2
-
-http://criticalmass.sourceforge.net/shaaft.php
-GPL-2
-A falling block game similar to Blockout
-amd64 ~ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=virtual/opengl sys-libs/zlib media-libs/libpng media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
+DESCRIPTION=A falling block game similar to Blockout
+EAPI=2
+HOMEPAGE=http://criticalmass.sourceforge.net/shaaft.php
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl sys-libs/zlib media-libs/libpng media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image
+SLOT=0
+SRC_URI=mirror://sourceforge/criticalmass/Shaaft-0.5.0.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

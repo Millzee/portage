@@ -1,22 +1,12 @@
-virtual/libc dev-libs/libusb
-virtual/libc dev-libs/libusb
-0
-http://www.frogmouth.net/logitech_applet-0.4test1.tar.gz
-
-http://freshmeat.net/projects/logitech_applet/
-GPL-2
-Control utility for some special features of some special Logitech USB mice!
-amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=virtual/libc dev-libs/libusb
+DESCRIPTION=Control utility for some special features of some special Logitech USB mice!
+EAPI=0
+HOMEPAGE=http://freshmeat.net/projects/logitech_applet/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc dev-libs/libusb
+SLOT=0
+SRC_URI=http://www.frogmouth.net/logitech_applet-0.4test1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

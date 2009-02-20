@@ -1,22 +1,12 @@
-=www-servers/apache-2*
-=www-servers/apache-2*
-0
-http://ben.brillat.net/files/projects/mod_auth_imap2/mod_auth_imap2-2.2.0.tar.gz
-
-http://ben.brillat.net/projects/mod_auth_imap/
-GPL-2
-An Apache2 module to provide authentication via an IMAP Mail server
-~amd64 ~x86
-toolchain-funcs apache-module depend.apache multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND==www-servers/apache-2*
+DESCRIPTION=An Apache2 module to provide authentication via an IMAP Mail server
+EAPI=0
+HOMEPAGE=http://ben.brillat.net/projects/mod_auth_imap/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND==www-servers/apache-2*
+SLOT=0
+SRC_URI=http://ben.brillat.net/files/projects/mod_auth_imap2/mod_auth_imap2-2.2.0.tar.gz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

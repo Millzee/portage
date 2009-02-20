@@ -1,22 +1,13 @@
-virtual/libc sys-libs/db >=mail-mta/sendmail-8.9
-virtual/libc sys-libs/db >=mail-mta/sendmail-8.9
-0
-ftp://ftp.cc.umanitoba.ca/src/drac.tar.Z
-
-http://mail.cc.umanitoba.ca/drac/
-as-is
-A robust implementation of POP-before-SMTP
-x86
-toolchain-funcs multilib portability eutils
-debug
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc sys-libs/db >=mail-mta/sendmail-8.9
+DESCRIPTION=A robust implementation of POP-before-SMTP
+EAPI=0
+HOMEPAGE=http://mail.cc.umanitoba.ca/drac/
+IUSE=debug
+KEYWORDS=x86
+LICENSE=as-is
+RDEPEND=virtual/libc sys-libs/db >=mail-mta/sendmail-8.9
+SLOT=0
+SRC_URI=ftp://ftp.cc.umanitoba.ca/src/drac.tar.Z
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

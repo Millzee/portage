@@ -1,22 +1,13 @@
-lirc? ( app-misc/lirc ) =app-admin/gkrellm-2* dev-util/pkgconfig
-lirc? ( app-misc/lirc ) =app-admin/gkrellm-2*
-2
-http://gkrellm.luon.net/files/gkrellm-radio-2.0.4.tar.gz
-
-http://gkrellm.luon.net/gkrellm-radio.phtml
-GPL-2
-A minimalistic GKrellM2 plugin to control radio tuners.
-ppc sparc x86
-multilib toolchain-funcs gkrellm-plugin portability eutils
-lirc
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=lirc? ( app-misc/lirc ) =app-admin/gkrellm-2* dev-util/pkgconfig
+DESCRIPTION=A minimalistic GKrellM2 plugin to control radio tuners.
+EAPI=0
+HOMEPAGE=http://gkrellm.luon.net/gkrellm-radio.phtml
+IUSE=lirc
+KEYWORDS=ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=lirc? ( app-misc/lirc ) =app-admin/gkrellm-2*
+SLOT=2
+SRC_URI=http://gkrellm.luon.net/files/gkrellm-radio-2.0.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	gkrellm-plugin	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

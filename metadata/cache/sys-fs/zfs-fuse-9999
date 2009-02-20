@@ -1,22 +1,12 @@
->=sys-libs/glibc-2.3.3 >=dev-util/scons-0.96.1 >=dev-libs/libaio-0.3 >=sys-fs/fuse-2.6.1 dev-util/mercurial net-misc/rsync
->=sys-fs/fuse-2.6.1
-0
-
-
-http://www.wizy.org/wiki/ZFS_on_FUSE
-CDDL
-An implementation of the ZFS filesystem for FUSE/Linux
-~x86 ~amd64
-mercurial toolchain-funcs multilib portability eutils
-doc debug
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=sys-libs/glibc-2.3.3 >=dev-util/scons-0.96.1 >=dev-libs/libaio-0.3 >=sys-fs/fuse-2.6.1 dev-util/mercurial net-misc/rsync
+DESCRIPTION=An implementation of the ZFS filesystem for FUSE/Linux
+EAPI=0
+HOMEPAGE=http://www.wizy.org/wiki/ZFS_on_FUSE
+IUSE=doc debug
+KEYWORDS=~x86 ~amd64
+LICENSE=CDDL
+RDEPEND=>=sys-fs/fuse-2.6.1
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	mercurial	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

@@ -1,22 +1,13 @@
->=dev-lang/ocaml-3.09 >=sys-libs/zlib-1.1 >=dev-ml/findlib-1.0.4-r1
->=dev-lang/ocaml-3.09 >=sys-libs/zlib-1.1
-0
-http://caml.inria.fr/distrib/bazar-ocaml/cryptokit-1.3.tar.gz
-
-http://cristal.inria.fr/~xleroy/software.html
-LGPL-2
-Cryptographic primitives library for Objective Caml
-~amd64 ~x86 ~x86-fbsd
-findlib toolchain-funcs multilib portability eutils
-doc +ocamlopt
-
-
-
-1
-
-compile install postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test unpack
+DEPEND=>=dev-lang/ocaml-3.09 >=sys-libs/zlib-1.1 >=dev-ml/findlib-1.0.4-r1
+DESCRIPTION=Cryptographic primitives library for Objective Caml
+EAPI=1
+HOMEPAGE=http://cristal.inria.fr/~xleroy/software.html
+IUSE=doc +ocamlopt
+KEYWORDS=~amd64 ~x86 ~x86-fbsd
+LICENSE=LGPL-2
+RDEPEND=>=dev-lang/ocaml-3.09 >=sys-libs/zlib-1.1
+SLOT=0
+SRC_URI=http://caml.inria.fr/distrib/bazar-ocaml/cryptokit-1.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	findlib	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

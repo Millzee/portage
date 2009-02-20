@@ -1,22 +1,12 @@
-
-virtual/ssh
-0
-mirror://sourceforge/rssh/rssh-2.3.2.tar.gz
-
-http://rssh.sourceforge.net/
-BSD
-Restricted shell for SSHd
-amd64 ppc sparc x86
-toolchain-funcs multilib
-static
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Restricted shell for SSHd
+EAPI=0
+HOMEPAGE=http://rssh.sourceforge.net/
+IUSE=static
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=BSD
+RDEPEND=virtual/ssh
+SLOT=0
+SRC_URI=mirror://sourceforge/rssh/rssh-2.3.2.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

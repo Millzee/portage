@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-mirror://gentoo/jlex-1.2.6.tar.bz2
-
-http://www.cs.princeton.edu/~appel/modern/java/JLex/
-jlex
-JLex: a lexical analyzer generator for Java
-amd64 ppc x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD doc source
-
-
-
-
-
-compile install preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup
+DEPEND=>=virtual/jdk-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+DESCRIPTION=JLex: a lexical analyzer generator for Java
+EAPI=0
+HOMEPAGE=http://www.cs.princeton.edu/~appel/modern/java/JLex/
+IUSE=elibc_FreeBSD doc source
+KEYWORDS=amd64 ppc x86
+LICENSE=jlex
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=mirror://gentoo/jlex-1.2.6.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

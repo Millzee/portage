@@ -1,22 +1,13 @@
-dev-libs/openssl >=dev-libs/geoip-1.4.0 gnutls? ( >=net-libs/gnutls-2.2.2 ) !gnutls? ( >=dev-libs/openssl-0.9.8g ) || ( =kde-base/libkonq-3.5* =kde-base/kdebase-3.5* ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
-dev-libs/openssl >=dev-libs/geoip-1.4.0 gnutls? ( >=net-libs/gnutls-2.2.2 ) !gnutls? ( >=dev-libs/openssl-0.9.8g ) || ( =kde-base/libkonq-3.5* =kde-base/kdebase-3.5* ) >=net-misc/tor-0.1.2.14 >=net-proxy/privoxy-3.0.3-r5 >=net-proxy/tsocks-1.8_beta5-r2 =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
-0
-mirror://sourceforge/tork/tork-0.27.tar.bz2
-
-http://tork.sourceforge.net/
-GPL-2
-TorK is a powerful anonymity manager for the KDE and acts as a frontend to Tor.
-~amd64 ~ppc ~x86 ~x86-fbsd
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-gnutls debug elibc_FreeBSD xinerama
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=dev-libs/openssl >=dev-libs/geoip-1.4.0 gnutls? ( >=net-libs/gnutls-2.2.2 ) !gnutls? ( >=dev-libs/openssl-0.9.8g ) || ( =kde-base/libkonq-3.5* =kde-base/kdebase-3.5* ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
+DESCRIPTION=TorK is a powerful anonymity manager for the KDE and acts as a frontend to Tor.
+EAPI=0
+HOMEPAGE=http://tork.sourceforge.net/
+IUSE=gnutls debug elibc_FreeBSD xinerama
+KEYWORDS=~amd64 ~ppc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=dev-libs/openssl >=dev-libs/geoip-1.4.0 gnutls? ( >=net-libs/gnutls-2.2.2 ) !gnutls? ( >=dev-libs/openssl-0.9.8g ) || ( =kde-base/libkonq-3.5* =kde-base/kdebase-3.5* ) >=net-misc/tor-0.1.2.14 >=net-proxy/privoxy-3.0.3-r5 >=net-proxy/tsocks-1.8_beta5-r2 =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
+SLOT=0
+SRC_URI=mirror://sourceforge/tork/tork-0.27.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082865

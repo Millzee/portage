@@ -1,22 +1,12 @@
->=media-video/ffmpeg-0.4.9_p20070616-r20 >=media-libs/libvorbis-1.1 >=media-libs/libogg-1.1 >=media-libs/libtheora-1.0_beta1 media-libs/libkate dev-util/pkgconfig >=dev-util/scons-1.0.0
->=media-video/ffmpeg-0.4.9_p20070616-r20 >=media-libs/libvorbis-1.1 >=media-libs/libogg-1.1 >=media-libs/libtheora-1.0_beta1 media-libs/libkate
-0
-http://www.v2v.cc/~j/ffmpeg2theora/ffmpeg2theora-0.22.tar.bz2
-
-http://www.v2v.cc/~j/ffmpeg2theora/index.html
-GPL-2
-A simple converter to create Ogg Theora files.
-~amd64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=>=media-video/ffmpeg-0.4.9_p20070616-r20 >=media-libs/libvorbis-1.1 >=media-libs/libogg-1.1 >=media-libs/libtheora-1.0_beta1 media-libs/libkate dev-util/pkgconfig >=dev-util/scons-1.0.0
+DESCRIPTION=A simple converter to create Ogg Theora files.
+EAPI=0
+HOMEPAGE=http://www.v2v.cc/~j/ffmpeg2theora/index.html
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=media-video/ffmpeg-0.4.9_p20070616-r20 >=media-libs/libvorbis-1.1 >=media-libs/libogg-1.1 >=media-libs/libtheora-1.0_beta1 media-libs/libkate
+SLOT=0
+SRC_URI=http://www.v2v.cc/~j/ffmpeg2theora/ffmpeg2theora-0.22.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

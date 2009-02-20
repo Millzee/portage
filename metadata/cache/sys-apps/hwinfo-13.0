@@ -1,22 +1,12 @@
->=sys-fs/sysfsutils-2 sys-apps/hal sys-apps/dbus >=sys-kernel/linux-headers-2.6.17
->=sys-fs/sysfsutils-2 sys-apps/hal sys-apps/dbus
-0
-mirror://debian/pool/main/h/hwinfo//hwinfo_13.0.orig.tar.gz mirror://debian/pool/main/h/hwinfo//hwinfo_13.0-4.diff.gz
-
-http://www.suse.com
-GPL-2
-hwinfo is the hardware detection tool used in SuSE Linux.
-~ppc ~x86 ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-fs/sysfsutils-2 sys-apps/hal sys-apps/dbus >=sys-kernel/linux-headers-2.6.17
+DESCRIPTION=hwinfo is the hardware detection tool used in SuSE Linux.
+EAPI=0
+HOMEPAGE=http://www.suse.com
+KEYWORDS=~ppc ~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=>=sys-fs/sysfsutils-2 sys-apps/hal sys-apps/dbus
+SLOT=0
+SRC_URI=mirror://debian/pool/main/h/hwinfo//hwinfo_13.0.orig.tar.gz mirror://debian/pool/main/h/hwinfo//hwinfo_13.0-4.diff.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

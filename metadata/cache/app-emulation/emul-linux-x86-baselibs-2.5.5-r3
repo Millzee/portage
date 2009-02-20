@@ -1,22 +1,12 @@
-
-app-emulation/emul-linux-x86-compat
-0
-mirror://gentoo/emul-linux-x86-baselibs-2.5.5.tar.bz2 http://dev.gentoo.org/~dang/emul-linux-x86-baselibs-2.5.5.tar.bz2 mirror://gentoo/emul-linux-x86-baselibs-2.5.5-r2-emul.patch.bz2
-strip
-http://www.gentoo.org/
-GPL-2
-Base libraries for emulation of 32bit x86 on amd64
--* amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=Base libraries for emulation of 32bit x86 on amd64
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/
+KEYWORDS=-* amd64
+LICENSE=GPL-2
+RDEPEND=app-emulation/emul-linux-x86-compat
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://gentoo/emul-linux-x86-baselibs-2.5.5.tar.bz2 http://dev.gentoo.org/~dang/emul-linux-x86-baselibs-2.5.5.tar.bz2 mirror://gentoo/emul-linux-x86-baselibs-2.5.5-r2-emul.patch.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

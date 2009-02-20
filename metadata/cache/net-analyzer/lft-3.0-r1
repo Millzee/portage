@@ -1,22 +1,11 @@
-net-libs/libpcap
-net-libs/libpcap
-0
-mirror://gentoo/lft-3.0.tar.gz
-
-http://oppleman.com/lft/
-VOSTROM
-Layer Four Traceroute: an advanced traceroute implementation
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=net-libs/libpcap
+DESCRIPTION=Layer Four Traceroute: an advanced traceroute implementation
+EAPI=0
+HOMEPAGE=http://oppleman.com/lft/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=VOSTROM
+RDEPEND=net-libs/libpcap
+SLOT=0
+SRC_URI=mirror://gentoo/lft-3.0.tar.gz
+_mtime_=1235082889

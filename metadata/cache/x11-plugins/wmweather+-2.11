@@ -1,22 +1,12 @@
-x11-wm/windowmaker dev-libs/libpcre >=net-misc/curl-7.17.1 x11-libs/libXpm
-x11-wm/windowmaker dev-libs/libpcre >=net-misc/curl-7.17.1 x11-libs/libXpm
-0
-mirror://sourceforge/wmweatherplus/wmweather+-2.11.tar.gz
-
-http://www.sourceforge.net/projects/wmweatherplus/
-GPL-2
-A dockapp for displaying data collected from METAR, AVN, ETA, and MRF forecasts
-~amd64 ~mips ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=x11-wm/windowmaker dev-libs/libpcre >=net-misc/curl-7.17.1 x11-libs/libXpm
+DESCRIPTION=A dockapp for displaying data collected from METAR, AVN, ETA, and MRF forecasts
+EAPI=0
+HOMEPAGE=http://www.sourceforge.net/projects/wmweatherplus/
+KEYWORDS=~amd64 ~mips ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=x11-wm/windowmaker dev-libs/libpcre >=net-misc/curl-7.17.1 x11-libs/libXpm
+SLOT=0
+SRC_URI=mirror://sourceforge/wmweatherplus/wmweather+-2.11.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

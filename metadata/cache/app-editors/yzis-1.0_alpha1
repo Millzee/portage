@@ -1,22 +1,11 @@
-dev-util/cmake
->=dev-lang/lua-5.1 sys-libs/ncurses >=x11-libs/qt-4.1.0
-0
-http://dl.freehackers.org/yzis/yzis-1.0-alpha1.tar.bz2
-
-http://www.yzis.org/
-GPL-2 LGPL-2.1
-Vi-like editor inspired by vim.
-~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-util/cmake
+DESCRIPTION=Vi-like editor inspired by vim.
+EAPI=0
+HOMEPAGE=http://www.yzis.org/
+KEYWORDS=~x86
+LICENSE=GPL-2 LGPL-2.1
+RDEPEND=>=dev-lang/lua-5.1 sys-libs/ncurses >=x11-libs/qt-4.1.0
+SLOT=0
+SRC_URI=http://dl.freehackers.org/yzis/yzis-1.0-alpha1.tar.bz2
+_mtime_=1235082847

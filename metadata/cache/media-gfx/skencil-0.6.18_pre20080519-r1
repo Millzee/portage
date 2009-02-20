@@ -1,22 +1,13 @@
-dev-lang/python[tk] >=dev-python/imaging-1.1.2-r1 dev-python/reportlab dev-lang/tk nls? ( sys-devel/gettext )
-!elibc_glibc? ( nls? ( sys-devel/gettext ) ) dev-python/pyxml
-0
-mirror://gentoo/skencil-0.6.18_pre20080519.tar.bz2
-
-http://www.skencil.org/
-GPL-2
-Interactive X11 vector drawing program
-~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability python alternatives multilib eutils
-nls
-
-
-
-2
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-lang/python[tk] >=dev-python/imaging-1.1.2-r1 dev-python/reportlab dev-lang/tk nls? ( sys-devel/gettext )
+DESCRIPTION=Interactive X11 vector drawing program
+EAPI=2
+HOMEPAGE=http://www.skencil.org/
+IUSE=nls
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=!elibc_glibc? ( nls? ( sys-devel/gettext ) ) dev-python/pyxml
+SLOT=0
+SRC_URI=mirror://gentoo/skencil-0.6.18_pre20080519.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

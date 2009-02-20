@@ -1,22 +1,13 @@
->=dev-libs/libxml2-2.5 pdf? ( >=media-libs/pdflib-4 )
->=dev-libs/libxml2-2.5 pdf? ( >=media-libs/pdflib-4 )
-0
-mirror://sourceforge/xml2doc/xml2doc-20030510.tgz
-
-http://xml2doc.sourceforge.net
-GPL-2
-Tool to convert simple XML to a variety of formats (pdf, html, txt, manpage)
-~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-pdf
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/libxml2-2.5 pdf? ( >=media-libs/pdflib-4 )
+DESCRIPTION=Tool to convert simple XML to a variety of formats (pdf, html, txt, manpage)
+EAPI=0
+HOMEPAGE=http://xml2doc.sourceforge.net
+IUSE=pdf
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libxml2-2.5 pdf? ( >=media-libs/pdflib-4 )
+SLOT=0
+SRC_URI=mirror://sourceforge/xml2doc/xml2doc-20030510.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

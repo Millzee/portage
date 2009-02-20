@@ -1,22 +1,11 @@
-kernel_linux? ( virtual/linux-sources )
-
-0
-mirror://sourceforge/tipc/tipcutils-1.0.4.tar.gz
-
-http://tipc.sourceforge.net
-as-is
-Utilities for TIPC (Transparent Inter-Process Communication)
-~amd64 ~x86
-toolchain-funcs portability versionator multilib linux-info eutils
-
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=Utilities for TIPC (Transparent Inter-Process Communication)
+EAPI=0
+HOMEPAGE=http://tipc.sourceforge.net
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=mirror://sourceforge/tipc/tipcutils-1.0.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

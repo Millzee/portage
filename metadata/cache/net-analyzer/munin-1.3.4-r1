@@ -1,22 +1,13 @@
-dev-lang/perl sys-process/procps ssl? ( dev-perl/Net-SSLeay ) mysql? ( virtual/mysql ) postgres? ( dev-perl/DBD-Pg virtual/postgresql-base ) irc? ( dev-perl/Net-IRC ) dev-perl/DateManip dev-perl/Net-Netmask dev-perl/Net-SNMP dev-perl/libwww-perl dev-perl/net-server virtual/perl-Digest-MD5 virtual/perl-Getopt-Long virtual/perl-MIME-Base64 virtual/perl-Storable virtual/perl-Text-Balanced virtual/perl-Time-HiRes !minimal? ( dev-perl/HTML-Template net-analyzer/rrdtool )
-dev-lang/perl sys-process/procps ssl? ( dev-perl/Net-SSLeay ) mysql? ( virtual/mysql ) postgres? ( dev-perl/DBD-Pg virtual/postgresql-base ) irc? ( dev-perl/Net-IRC ) dev-perl/DateManip dev-perl/Net-Netmask dev-perl/Net-SNMP dev-perl/libwww-perl dev-perl/net-server virtual/perl-Digest-MD5 virtual/perl-Getopt-Long virtual/perl-MIME-Base64 virtual/perl-Storable virtual/perl-Text-Balanced virtual/perl-Time-HiRes !minimal? ( dev-perl/HTML-Template net-analyzer/rrdtool ) !minimal? ( virtual/cron )
-0
-mirror://sourceforge/munin/munin_1.3.4.tar.gz
-
-http://munin.sourceforge.net
-GPL-2
-Munin Server Monitoring Tool
-amd64 ~mips ppc sparc x86
-toolchain-funcs multilib portability eutils
-doc minimal irc mysql postgres ssl
-
-
-
-0
-
-compile config install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst setup unpack
+DEPEND=dev-lang/perl sys-process/procps ssl? ( dev-perl/Net-SSLeay ) mysql? ( virtual/mysql ) postgres? ( dev-perl/DBD-Pg virtual/postgresql-base ) irc? ( dev-perl/Net-IRC ) dev-perl/DateManip dev-perl/Net-Netmask dev-perl/Net-SNMP dev-perl/libwww-perl dev-perl/net-server virtual/perl-Digest-MD5 virtual/perl-Getopt-Long virtual/perl-MIME-Base64 virtual/perl-Storable virtual/perl-Text-Balanced virtual/perl-Time-HiRes !minimal? ( dev-perl/HTML-Template net-analyzer/rrdtool )
+DESCRIPTION=Munin Server Monitoring Tool
+EAPI=0
+HOMEPAGE=http://munin.sourceforge.net
+IUSE=doc minimal irc mysql postgres ssl
+KEYWORDS=amd64 ~mips ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl sys-process/procps ssl? ( dev-perl/Net-SSLeay ) mysql? ( virtual/mysql ) postgres? ( dev-perl/DBD-Pg virtual/postgresql-base ) irc? ( dev-perl/Net-IRC ) dev-perl/DateManip dev-perl/Net-Netmask dev-perl/Net-SNMP dev-perl/libwww-perl dev-perl/net-server virtual/perl-Digest-MD5 virtual/perl-Getopt-Long virtual/perl-MIME-Base64 virtual/perl-Storable virtual/perl-Text-Balanced virtual/perl-Time-HiRes !minimal? ( dev-perl/HTML-Template net-analyzer/rrdtool ) !minimal? ( virtual/cron )
+SLOT=0
+SRC_URI=mirror://sourceforge/munin/munin_1.3.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

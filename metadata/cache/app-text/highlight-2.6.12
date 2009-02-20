@@ -1,22 +1,13 @@
-wxwindows? ( =x11-libs/wxGTK-2.6* )
-wxwindows? ( =x11-libs/wxGTK-2.6* )
-0
-http://www.andre-simon.de/zip/highlight-2.6.12.tar.bz2
-
-http://www.andre-simon.de
-GPL-2
-converts source code to formatted text ((X)HTML, RTF, (La)TeX, XSL-FO, XML) with syntax highlight
-~amd64 ~hppa ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils wxwidgets
-wxwindows
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=wxwindows? ( =x11-libs/wxGTK-2.6* )
+DESCRIPTION=converts source code to formatted text ((X)HTML, RTF, (La)TeX, XSL-FO, XML) with syntax highlight
+EAPI=0
+HOMEPAGE=http://www.andre-simon.de
+IUSE=wxwindows
+KEYWORDS=~amd64 ~hppa ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=wxwindows? ( =x11-libs/wxGTK-2.6* )
+SLOT=0
+SRC_URI=http://www.andre-simon.de/zip/highlight-2.6.12.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

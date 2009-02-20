@@ -1,22 +1,11 @@
->=sys-devel/libtool-1.4.1-r8 dev-libs/openssl
-
-0
-mirror://sourceforge/domainkeys/libdomainkeys-0.68.tar.gz
-
-http://domainkeys.sourceforge.net/
-libdomainkeys-1.1
-libdomainkeys is a library usable by MTAs to verify and create signatures of e-mail headers.
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=sys-devel/libtool-1.4.1-r8 dev-libs/openssl
+DESCRIPTION=libdomainkeys is a library usable by MTAs to verify and create signatures of e-mail headers.
+EAPI=0
+HOMEPAGE=http://domainkeys.sourceforge.net/
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=libdomainkeys-1.1
+SLOT=0
+SRC_URI=mirror://sourceforge/domainkeys/libdomainkeys-0.68.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

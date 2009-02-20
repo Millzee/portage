@@ -1,22 +1,13 @@
-x11-libs/libwnck dev-util/intltool >=sys-apps/sed-4 dev-util/pkgconfig
-x11-libs/libwnck
-0
-http://goodies.xfce.org/releases/xfce4-wmdock-plugin/xfce4-wmdock-plugin-0.3.1.tar.bz2
-
-http://www.ibh.de/~ellguth/xfce4-wmdock-plugin.html
-GPL-2
-a compatibility layer for running WindowMaker dockapps on Xfce4.
-~amd64 ~x86 ~x86-fbsd
-xfce44 fdo-mime gnome2-utils
-debug
-
-
-
-0
-
-compile install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst
+DEPEND=x11-libs/libwnck dev-util/intltool >=sys-apps/sed-4 dev-util/pkgconfig
+DESCRIPTION=a compatibility layer for running WindowMaker dockapps on Xfce4.
+EAPI=0
+HOMEPAGE=http://www.ibh.de/~ellguth/xfce4-wmdock-plugin.html
+IUSE=debug
+KEYWORDS=~amd64 ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=x11-libs/libwnck
+SLOT=0
+SRC_URI=http://goodies.xfce.org/releases/xfce4-wmdock-plugin/xfce4-wmdock-plugin-0.3.1.tar.bz2
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	xfce44	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082913

@@ -1,22 +1,12 @@
->=virtual/emacs-21
-app-emacs/wanderlust >=virtual/emacs-21
-0
-http://www.h6.dion.ne.jp/~nytheta/software/pub/prom-wl-2.7.0.tar.gz
-
-http://www.h6.dion.ne.jp/~nytheta/software/prom-wl.html
-GPL-2
-Procmail reader for Wanderlust
-~amd64 ~x86
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-21
+DESCRIPTION=Procmail reader for Wanderlust
+EAPI=0
+HOMEPAGE=http://www.h6.dion.ne.jp/~nytheta/software/prom-wl.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=app-emacs/wanderlust >=virtual/emacs-21
+SLOT=0
+SRC_URI=http://www.h6.dion.ne.jp/~nytheta/software/pub/prom-wl-2.7.0.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

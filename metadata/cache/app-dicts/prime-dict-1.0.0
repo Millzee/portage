@@ -1,22 +1,12 @@
-virtual/ruby
-virtual/ruby
-0
-http://prime.sourceforge.jp/src/prime-dict-1.0.0.tar.gz
-
-http://taiyaki.org/prime/
-GPL-2
-Dictionary files for PRIME input method
-alpha amd64 hppa ppc ppc64 sparc x86
-ruby toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/ruby
+DESCRIPTION=Dictionary files for PRIME input method
+EAPI=0
+HOMEPAGE=http://taiyaki.org/prime/
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/ruby
+SLOT=0
+SRC_URI=http://prime.sourceforge.jp/src/prime-dict-1.0.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

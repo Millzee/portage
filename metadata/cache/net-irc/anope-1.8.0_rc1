@@ -1,22 +1,13 @@
-mysql? ( virtual/mysql )
-mysql? ( virtual/mysql )
-0
-mirror://sourceforge/anope/anope-1.8.0-rc1.tar.gz
-
-http://www.anope.org
-GPL-2
-Anope IRC Services
-~amd64 ~x86
-toolchain-funcs versionator multilib portability eutils
-mysql
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=mysql? ( virtual/mysql )
+DESCRIPTION=Anope IRC Services
+EAPI=0
+HOMEPAGE=http://www.anope.org
+IUSE=mysql
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=mysql? ( virtual/mysql )
+SLOT=0
+SRC_URI=mirror://sourceforge/anope/anope-1.8.0-rc1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

@@ -1,22 +1,13 @@
-dev-python/setuptools >=dev-python/numpy-1.1 test? ( >=dev-python/nose-0.10.3 dev-python/enthoughtbase sci-libs/scipy ) virtual/python
->=dev-python/numpy-1.1 sci-libs/scipy dev-python/traits
-0
-http://pypi.python.org/packages/source/S/SciMath/SciMath-3.0.2.tar.gz
-
-http://code.enthought.com/projects/sci_math.php
-BSD
-Enthought Tool Suite scientific and mathematical tools
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-test
-
-
-
-2
-
-compile install postinst postrm prepare test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm prepare test unpack
+DEPEND=dev-python/setuptools >=dev-python/numpy-1.1 test? ( >=dev-python/nose-0.10.3 dev-python/enthoughtbase sci-libs/scipy ) virtual/python
+DESCRIPTION=Enthought Tool Suite scientific and mathematical tools
+EAPI=2
+HOMEPAGE=http://code.enthought.com/projects/sci_math.php
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-python/numpy-1.1 sci-libs/scipy dev-python/traits
+SLOT=0
+SRC_URI=http://pypi.python.org/packages/source/S/SciMath/SciMath-3.0.2.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

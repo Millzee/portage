@@ -1,22 +1,12 @@
-virtual/libc virtual/pbs
-virtual/libc virtual/pbs
-0
-http://homepages.inf.ed.ac.uk/s0239160/misc/lspbs/lspbs-1.1.tar.gz
-
-http://homepages.inf.ed.ac.uk/s0239160/misc/lspbs/lspbs.html
-GPL-2
-Displays clear, concise and up-to-date PBS node and CPU usage information.
-~x86 ~amd64 ~ppc
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DEPEND=virtual/libc virtual/pbs
+DESCRIPTION=Displays clear, concise and up-to-date PBS node and CPU usage information.
+EAPI=0
+HOMEPAGE=http://homepages.inf.ed.ac.uk/s0239160/misc/lspbs/lspbs.html
+KEYWORDS=~x86 ~amd64 ~ppc
+LICENSE=GPL-2
+RDEPEND=virtual/libc virtual/pbs
+SLOT=0
+SRC_URI=http://homepages.inf.ed.ac.uk/s0239160/misc/lspbs/lspbs-1.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.4 iksemel? ( dev-libs/iksemel ) dev-util/pkgconfig nls? ( sys-devel/gettext )
->=x11-libs/gtk+-2.4 iksemel? ( dev-libs/iksemel )
-0
-mirror://sourceforge/imposter/imposter-0.3.tar.gz
-
-http://imposter.sourceforge.net
-GPL-2
-Imposter is a standalone viewer for the presentations created by OpenOffice.org Impress software
-~amd64 ppc x86
-toolchain-funcs multilib portability eutils
-iksemel nls
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2.4 iksemel? ( dev-libs/iksemel ) dev-util/pkgconfig nls? ( sys-devel/gettext )
+DESCRIPTION=Imposter is a standalone viewer for the presentations created by OpenOffice.org Impress software
+EAPI=0
+HOMEPAGE=http://imposter.sourceforge.net
+IUSE=iksemel nls
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.4 iksemel? ( dev-libs/iksemel )
+SLOT=0
+SRC_URI=mirror://sourceforge/imposter/imposter-0.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

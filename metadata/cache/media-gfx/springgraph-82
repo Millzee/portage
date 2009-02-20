@@ -1,22 +1,11 @@
-
-dev-perl/GD
-0
-mirror://debian/pool/main/s/springgraph/springgraph_0.82.orig.tar.gz mirror://debian/pool/main/s/springgraph/springgraph_0.82-1.diff.gz
-
-http://www.chaosreigns.com/code/springgraph
-GPL-2
-Generate spring graphs from graphviz input files
-alpha amd64 hppa ia64 ~mips ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Generate spring graphs from graphviz input files
+EAPI=0
+HOMEPAGE=http://www.chaosreigns.com/code/springgraph
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-perl/GD
+SLOT=0
+SRC_URI=mirror://debian/pool/main/s/springgraph/springgraph_0.82.orig.tar.gz mirror://debian/pool/main/s/springgraph/springgraph_0.82-1.diff.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

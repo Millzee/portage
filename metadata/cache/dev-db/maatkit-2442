@@ -1,22 +1,12 @@
-dev-perl/DBD-mysql
-dev-perl/DBD-mysql
-0
-http://maatkit.googlecode.com/files/maatkit-2442.tar.gz
-
-http://www.maatkit.org/
-GPL-2
-maatkit: essential command-line utilities for MySQL
-~amd64 ~sparc ~x86
-toolchain-funcs perl-app portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-perl/DBD-mysql
+DESCRIPTION=maatkit: essential command-line utilities for MySQL
+EAPI=0
+HOMEPAGE=http://www.maatkit.org/
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-perl/DBD-mysql
+SLOT=0
+SRC_URI=http://maatkit.googlecode.com/files/maatkit-2442.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-app	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

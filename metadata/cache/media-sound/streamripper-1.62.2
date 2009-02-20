@@ -1,22 +1,13 @@
-media-libs/libmad vorbis? ( media-libs/libogg media-libs/libvorbis ) >=dev-libs/tre-0.7.2
-media-libs/libmad vorbis? ( media-libs/libogg media-libs/libvorbis ) >=dev-libs/tre-0.7.2
-0
-mirror://sourceforge/streamripper/streamripper-1.62.2.tar.gz
-
-http://streamripper.sourceforge.net
-GPL-2
-Extracts and records individual MP3 file tracks from shoutcast streams
-alpha amd64 hppa ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-vorbis
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/libmad vorbis? ( media-libs/libogg media-libs/libvorbis ) >=dev-libs/tre-0.7.2
+DESCRIPTION=Extracts and records individual MP3 file tracks from shoutcast streams
+EAPI=0
+HOMEPAGE=http://streamripper.sourceforge.net
+IUSE=vorbis
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libmad vorbis? ( media-libs/libogg media-libs/libvorbis ) >=dev-libs/tre-0.7.2
+SLOT=0
+SRC_URI=mirror://sourceforge/streamripper/streamripper-1.62.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

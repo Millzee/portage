@@ -1,22 +1,12 @@
->=sys-apps/sed-4
-virtual/libc
-0
-mirror://gnu/cgicc/cgicc-3.2.3.tar.bz2
-
-http://www.cgicc.org/
-GPL-2
-A C++ class library for writing CGI applications
-~amd64 x86
-
-doc debug
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-apps/sed-4
+DESCRIPTION=A C++ class library for writing CGI applications
+EAPI=0
+HOMEPAGE=http://www.cgicc.org/
+IUSE=doc debug
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://gnu/cgicc/cgicc-3.2.3.tar.bz2
+_mtime_=1235082853

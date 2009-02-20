@@ -1,22 +1,12 @@
-mysql? ( virtual/mysql )
-mysql? ( virtual/mysql )
-0
-mirror://sourceforge/sysbench/sysbench-0.4.10.tar.gz
-
-http://sysbench.sourceforge.net/
-GPL-2
-System performance benchmark
-~amd64 ~x86
-
-mysql
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=mysql? ( virtual/mysql )
+DESCRIPTION=System performance benchmark
+EAPI=0
+HOMEPAGE=http://sysbench.sourceforge.net/
+IUSE=mysql
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=mysql? ( virtual/mysql )
+SLOT=0
+SRC_URI=mirror://sourceforge/sysbench/sysbench-0.4.10.tar.gz
+_mtime_=1235082846

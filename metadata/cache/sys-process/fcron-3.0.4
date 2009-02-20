@@ -1,22 +1,14 @@
-doc? ( >=app-text/docbook-dsssl-stylesheets-1.77 ) selinux? ( sys-libs/libselinux ) pam? ( virtual/pam ) >=sys-apps/sed-4.0.5
-doc? ( >=app-text/docbook-dsssl-stylesheets-1.77 ) selinux? ( sys-libs/libselinux ) pam? ( virtual/pam ) !virtual/cron virtual/mta >=sys-process/cronbase-0.3.2
-0
-http://fcron.free.fr/archives/fcron-3.0.4.src.tar.gz
-
-http://fcron.free.fr/
-GPL-2
-A command scheduler with extended capabilities over cron and anacron
-amd64 hppa ~mips ppc sparc x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic multilib cron pam eutils
-debug doc pam selinux
-
-
-virtual/cron
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=doc? ( >=app-text/docbook-dsssl-stylesheets-1.77 ) selinux? ( sys-libs/libselinux ) pam? ( virtual/pam ) >=sys-apps/sed-4.0.5
+DESCRIPTION=A command scheduler with extended capabilities over cron and anacron
+EAPI=0
+HOMEPAGE=http://fcron.free.fr/
+IUSE=debug doc pam selinux
+KEYWORDS=amd64 hppa ~mips ppc sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+PROVIDE=virtual/cron
+RDEPEND=doc? ( >=app-text/docbook-dsssl-stylesheets-1.77 ) selinux? ( sys-libs/libselinux ) pam? ( virtual/pam ) !virtual/cron virtual/mta >=sys-process/cronbase-0.3.2
+SLOT=0
+SRC_URI=http://fcron.free.fr/archives/fcron-3.0.4.src.tar.gz
+_eclasses_=cron	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

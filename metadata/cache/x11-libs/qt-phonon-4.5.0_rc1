@@ -1,22 +1,13 @@
-~x11-libs/qt-gui-4.5.0_rc1[debug=,glib,qt3support] !kde-base/phonon-kde !kde-base/phonon-xine !media-sound/phonon media-libs/gstreamer media-libs/gst-plugins-base dbus? ( =x11-libs/qt-dbus-4.5.0_rc1[debug=] )
-~x11-libs/qt-gui-4.5.0_rc1[debug=,glib,qt3support] !kde-base/phonon-kde !kde-base/phonon-xine !media-sound/phonon media-libs/gstreamer media-libs/gst-plugins-base dbus? ( =x11-libs/qt-dbus-4.5.0_rc1[debug=] )
-4
-ftp://ftp.trolltech.com/qt/source/qt-x11-opensource-src-4.5.0-rc1.tar.bz2
-
-http://www.qtsoftware.com/
-|| ( GPL-3 GPL-2 )
-The Phonon module for the Qt toolkit
-~amd64 ~hppa ~ppc ~ppc64 ~x86
-toolchain-funcs portability flag-o-matic versionator multilib eutils qt4-build
-+dbus custom-cxxflags debug pch
-
-
-
-2
-
-compile configure install postinst postrm prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=~x11-libs/qt-gui-4.5.0_rc1[debug=,glib,qt3support] !kde-base/phonon-kde !kde-base/phonon-xine !media-sound/phonon media-libs/gstreamer media-libs/gst-plugins-base dbus? ( =x11-libs/qt-dbus-4.5.0_rc1[debug=] )
+DESCRIPTION=The Phonon module for the Qt toolkit
+EAPI=2
+HOMEPAGE=http://www.qtsoftware.com/
+IUSE=+dbus custom-cxxflags debug pch
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~x86
+LICENSE=|| ( GPL-3 GPL-2 )
+RDEPEND=~x11-libs/qt-gui-4.5.0_rc1[debug=,glib,qt3support] !kde-base/phonon-kde !kde-base/phonon-xine !media-sound/phonon media-libs/gstreamer media-libs/gst-plugins-base dbus? ( =x11-libs/qt-dbus-4.5.0_rc1[debug=] )
+SLOT=4
+SRC_URI=ftp://ftp.trolltech.com/qt/source/qt-x11-opensource-src-4.5.0-rc1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4-build	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

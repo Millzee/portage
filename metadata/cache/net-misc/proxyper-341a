@@ -1,22 +1,11 @@
-
-net-dns/host
-0
-http://http.distributed.net/pub/dcti/proxyper/proxyper341a-linux-x86-uclibc.tar.gz
-mirror strip
-http://www.distributed.net
-distributed.net
-distributed.net personal proxy
--alpha -ppc -sparc x86
-
-
-
-
-
-0
-
-install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm
+DESCRIPTION=distributed.net personal proxy
+EAPI=0
+HOMEPAGE=http://www.distributed.net
+KEYWORDS=-alpha -ppc -sparc x86
+LICENSE=distributed.net
+RDEPEND=net-dns/host
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=http://http.distributed.net/pub/dcti/proxyper/proxyper341a-linux-x86-uclibc.tar.gz
+_mtime_=1235082895

@@ -1,22 +1,13 @@
-virtual/libc >=sys-libs/db-4.2 ssl? ( >=dev-libs/openssl-0.9.6 )
-virtual/libc >=sys-libs/db-4.2 ssl? ( >=dev-libs/openssl-0.9.6 )
-0
-mirror://sourceforge/isync/isync-1.0.4.tar.gz
-
-http://isync.sourceforge.net/
-GPL-2
-MailDir mailbox synchronizer
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-ssl
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc >=sys-libs/db-4.2 ssl? ( >=dev-libs/openssl-0.9.6 )
+DESCRIPTION=MailDir mailbox synchronizer
+EAPI=0
+HOMEPAGE=http://isync.sourceforge.net/
+IUSE=ssl
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc >=sys-libs/db-4.2 ssl? ( >=dev-libs/openssl-0.9.6 )
+SLOT=0
+SRC_URI=mirror://sourceforge/isync/isync-1.0.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

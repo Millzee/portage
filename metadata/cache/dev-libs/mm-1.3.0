@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-1.2
-ftp://ftp.ossp.org/pkg/lib/mm/mm-1.3.0.tar.gz
-
-http://www.ossp.org/pkg/lib/mm/
-as-is
-Shared Memory Abstraction Library
-alpha amd64 arm hppa ia64 mips ppc ppc64 s390 sh sparc x86
-libtool
-
-
-
-
-0
-
-install test unpack
-
-
-
-
-
+DEFINED_PHASES=install test unpack
+DEPEND=virtual/libc
+DESCRIPTION=Shared Memory Abstraction Library
+EAPI=0
+HOMEPAGE=http://www.ossp.org/pkg/lib/mm/
+KEYWORDS=alpha amd64 arm hppa ia64 mips ppc ppc64 s390 sh sparc x86
+LICENSE=as-is
+RDEPEND=virtual/libc
+SLOT=1.2
+SRC_URI=ftp://ftp.ossp.org/pkg/lib/mm/mm-1.3.0.tar.gz
+_eclasses_=libtool	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

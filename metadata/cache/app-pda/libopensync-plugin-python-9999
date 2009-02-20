@@ -1,22 +1,11 @@
-=app-pda/libopensync-9999* >=dev-lang/python-2.0 >=dev-util/cmake-2.4.6 dev-util/subversion net-misc/rsync
-=app-pda/libopensync-9999* >=dev-lang/python-2.0
-0
-
-
-http://www.opensync.org/
-LGPL-2.1
-OpenSync Python Module
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic multilib subversion cmake-utils eutils
-
-
-
-
-0
-
-compile install preinst test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst test unpack
+DEPEND==app-pda/libopensync-9999* >=dev-lang/python-2.0 >=dev-util/cmake-2.4.6 dev-util/subversion net-misc/rsync
+DESCRIPTION=OpenSync Python Module
+EAPI=0
+HOMEPAGE=http://www.opensync.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND==app-pda/libopensync-9999* >=dev-lang/python-2.0
+SLOT=0
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

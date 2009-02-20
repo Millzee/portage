@@ -1,22 +1,13 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-!<=net-im/silc-toolkit-0.9.12-r1 !<=net-im/silc-client-1.0.1
-0
-http://www.silcnet.org/download/server/sources/silc-server-1.1.8.tar.bz2
-
-http://silcnet.org/
-GPL-2
-Server for Secure Internet Live Conferencing
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs portability flag-o-matic multilib libtool autotools eutils
-ipv6 debug
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Server for Secure Internet Live Conferencing
+EAPI=0
+HOMEPAGE=http://silcnet.org/
+IUSE=ipv6 debug
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=!<=net-im/silc-toolkit-0.9.12-r1 !<=net-im/silc-client-1.0.1
+SLOT=0
+SRC_URI=http://www.silcnet.org/download/server/sources/silc-server-1.1.8.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

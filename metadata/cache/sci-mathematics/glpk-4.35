@@ -1,22 +1,13 @@
-odbc? ( || ( dev-db/libiodbc dev-db/unixODBC ) ) gmp? ( dev-libs/gmp ) mysql? ( virtual/mysql ) dev-util/pkgconfig
-odbc? ( || ( dev-db/libiodbc dev-db/unixODBC ) ) gmp? ( dev-libs/gmp ) mysql? ( virtual/mysql )
-0
-mirror://gnu/glpk/glpk-4.35.tar.gz
-
-http://www.gnu.org/software/glpk/
-GPL-3
-GNU Linear Programming Kit
-alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc examples gmp odbc mysql
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=odbc? ( || ( dev-db/libiodbc dev-db/unixODBC ) ) gmp? ( dev-libs/gmp ) mysql? ( virtual/mysql ) dev-util/pkgconfig
+DESCRIPTION=GNU Linear Programming Kit
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/glpk/
+IUSE=doc examples gmp odbc mysql
+KEYWORDS=alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-3
+RDEPEND=odbc? ( || ( dev-db/libiodbc dev-db/unixODBC ) ) gmp? ( dev-libs/gmp ) mysql? ( virtual/mysql )
+SLOT=0
+SRC_URI=mirror://gnu/glpk/glpk-4.35.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

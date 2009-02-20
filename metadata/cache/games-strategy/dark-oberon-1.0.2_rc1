@@ -1,22 +1,13 @@
-virtual/opengl virtual/glu media-libs/glfw fmod? ( =media-libs/fmod-3* )
-virtual/opengl virtual/glu media-libs/glfw fmod? ( =media-libs/fmod-3* )
-0
-mirror://sourceforge/dark-oberon/dark-oberon-1.0.2-RC1.tar.gz
-
-http://dark-oberon.sourceforge.net/
-GPL-2
-a Warcraft like RTS game
-~x86
-toolchain-funcs portability multilib base games eutils
-fmod
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/opengl virtual/glu media-libs/glfw fmod? ( =media-libs/fmod-3* )
+DESCRIPTION=a Warcraft like RTS game
+EAPI=0
+HOMEPAGE=http://dark-oberon.sourceforge.net/
+IUSE=fmod
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl virtual/glu media-libs/glfw fmod? ( =media-libs/fmod-3* )
+SLOT=0
+SRC_URI=mirror://sourceforge/dark-oberon/dark-oberon-1.0.2-RC1.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

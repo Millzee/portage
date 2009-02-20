@@ -1,22 +1,12 @@
->=x11-libs/gtk+-2.8 dev-util/pkgconfig
->=x11-libs/gtk+-2.8
-0
-http://archive.ubuntu.com/ubuntu/pool/main/u/ubuntulooks/ubuntulooks_0.9.12.orig.tar.gz http://archive.ubuntu.com/ubuntu/pool/main/u/ubuntulooks/ubuntulooks_0.9.12-11.diff.gz
-
-http://packages.ubuntu.com/intrepid/gtk2-engines-ubuntulooks
-GPL-2
-a derivative of the standard Clearlooks engine, using a more orange approach
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2.8 dev-util/pkgconfig
+DESCRIPTION=a derivative of the standard Clearlooks engine, using a more orange approach
+EAPI=0
+HOMEPAGE=http://packages.ubuntu.com/intrepid/gtk2-engines-ubuntulooks
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.8
+SLOT=0
+SRC_URI=http://archive.ubuntu.com/ubuntu/pool/main/u/ubuntulooks/ubuntulooks_0.9.12.orig.tar.gz http://archive.ubuntu.com/ubuntu/pool/main/u/ubuntulooks/ubuntulooks_0.9.12-11.diff.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

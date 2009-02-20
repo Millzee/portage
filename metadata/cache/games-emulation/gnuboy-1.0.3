@@ -1,22 +1,13 @@
-sdl? ( media-libs/libsdl ) !X? ( !svga? ( !fbcon? ( media-libs/libsdl ) ) ) X? ( x11-libs/libXext ) fbcon? ( sys-apps/fbset ) svga? ( media-libs/svgalib ) X? ( x11-proto/xextproto x11-proto/xproto ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-sdl? ( media-libs/libsdl ) !X? ( !svga? ( !fbcon? ( media-libs/libsdl ) ) ) X? ( x11-libs/libXext ) fbcon? ( sys-apps/fbset )
-0
-http://gnuboy.unix-fu.org/src/gnuboy-1.0.3.tar.gz
-
-http://gnuboy.unix-fu.org/
-GPL-2
-Gameboy emulator with multiple renderers
-amd64 ppc x86
-toolchain-funcs portability multilib base libtool games autotools eutils
-X fbcon sdl svga
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=sdl? ( media-libs/libsdl ) !X? ( !svga? ( !fbcon? ( media-libs/libsdl ) ) ) X? ( x11-libs/libXext ) fbcon? ( sys-apps/fbset ) svga? ( media-libs/svgalib ) X? ( x11-proto/xextproto x11-proto/xproto ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Gameboy emulator with multiple renderers
+EAPI=0
+HOMEPAGE=http://gnuboy.unix-fu.org/
+IUSE=X fbcon sdl svga
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=sdl? ( media-libs/libsdl ) !X? ( !svga? ( !fbcon? ( media-libs/libsdl ) ) ) X? ( x11-libs/libXext ) fbcon? ( sys-apps/fbset )
+SLOT=0
+SRC_URI=http://gnuboy.unix-fu.org/src/gnuboy-1.0.3.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

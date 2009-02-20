@@ -1,22 +1,13 @@
-
-bash-completion? ( || ( app-admin/eselect app-shells/bash-completion-config ) )
-0
-http://surfraw.alioth.debian.org/dist/surfraw-2.2.2.tar.gz
-test
-http://surfraw.alioth.debian.org/
-public-domain
-A fast unix command line interface to WWW
-amd64 hppa ppc sparc x86
-portability toolchain-funcs multilib eutils bash-completion
-bash-completion
-
-
-
-0
-
-compile install postinst preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst unpack
+DESCRIPTION=A fast unix command line interface to WWW
+EAPI=0
+HOMEPAGE=http://surfraw.alioth.debian.org/
+IUSE=bash-completion
+KEYWORDS=amd64 hppa ppc sparc x86
+LICENSE=public-domain
+RDEPEND=bash-completion? ( || ( app-admin/eselect app-shells/bash-completion-config ) )
+RESTRICT=test
+SLOT=0
+SRC_URI=http://surfraw.alioth.debian.org/dist/surfraw-2.2.2.tar.gz
+_eclasses_=bash-completion	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

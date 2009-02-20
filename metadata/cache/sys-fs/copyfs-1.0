@@ -1,22 +1,12 @@
->=sys-fs/fuse-2.0 sys-apps/attr
->=sys-fs/fuse-2.0 sys-apps/attr
-0
-http://invaders.mars-attacks.org/~boklm/copyfs//copyfs-1.0.tar.bz2
-
-http://invaders.mars-attacks.org/~boklm/copyfs/
-GPL-2
-fuse-based filesystem for maintaining configuration files
-~x86 ~amd64 ~ppc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=sys-fs/fuse-2.0 sys-apps/attr
+DESCRIPTION=fuse-based filesystem for maintaining configuration files
+EAPI=0
+HOMEPAGE=http://invaders.mars-attacks.org/~boklm/copyfs/
+KEYWORDS=~x86 ~amd64 ~ppc
+LICENSE=GPL-2
+RDEPEND=>=sys-fs/fuse-2.0 sys-apps/attr
+SLOT=0
+SRC_URI=http://invaders.mars-attacks.org/~boklm/copyfs//copyfs-1.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

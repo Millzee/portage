@@ -1,22 +1,13 @@
->=dev-lang/mono-1.1.13 >=dev-dotnet/gtk-sharp-2.8 >=dev-dotnet/gnome-sharp-2.8 >=dev-dotnet/glade-sharp-2.8 >=dev-dotnet/gconf-sharp-2.8 >=gnome-base/gnome-keyring-0.4 sys-apps/dbus avahi? ( net-dns/avahi ) app-text/scrollkeeper dev-util/pkgconfig >=sys-apps/sed-4
->=dev-lang/mono-1.1.13 >=dev-dotnet/gtk-sharp-2.8 >=dev-dotnet/gnome-sharp-2.8 >=dev-dotnet/glade-sharp-2.8 >=dev-dotnet/gconf-sharp-2.8 >=gnome-base/gnome-keyring-0.4 sys-apps/dbus avahi? ( net-dns/avahi )
-0
-http://dev.mmgsecurity.com/downloads/lat/1.2/lat-1.2.2.tar.gz
-
-http://dev.mmgsecurity.com/projects/lat
-GPL-2
-LDAP Administration Tool, allows you to browse LDAP-based directories and add/edit/delete entries.
-~amd64 x86
-toolchain-funcs mono versionator multilib gnome2-utils gnome2 gnome.org fdo-mime libtool
-avahi dbus debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=>=dev-lang/mono-1.1.13 >=dev-dotnet/gtk-sharp-2.8 >=dev-dotnet/gnome-sharp-2.8 >=dev-dotnet/glade-sharp-2.8 >=dev-dotnet/gconf-sharp-2.8 >=gnome-base/gnome-keyring-0.4 sys-apps/dbus avahi? ( net-dns/avahi ) app-text/scrollkeeper dev-util/pkgconfig >=sys-apps/sed-4
+DESCRIPTION=LDAP Administration Tool, allows you to browse LDAP-based directories and add/edit/delete entries.
+EAPI=0
+HOMEPAGE=http://dev.mmgsecurity.com/projects/lat
+IUSE=avahi dbus debug
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/mono-1.1.13 >=dev-dotnet/gtk-sharp-2.8 >=dev-dotnet/gnome-sharp-2.8 >=dev-dotnet/glade-sharp-2.8 >=dev-dotnet/gconf-sharp-2.8 >=gnome-base/gnome-keyring-0.4 sys-apps/dbus avahi? ( net-dns/avahi )
+SLOT=0
+SRC_URI=http://dev.mmgsecurity.com/downloads/lat/1.2/lat-1.2.2.tar.gz
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

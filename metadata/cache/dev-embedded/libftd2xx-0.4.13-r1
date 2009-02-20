@@ -1,22 +1,12 @@
-
-amd64? ( app-emulation/emul-linux-x86-baselibs )
-0
-http://www.ftdichip.com/Drivers/D2XX/Linux/libftd2xx0.4.13.tar.gz
-
-http://www.ftdichip.com/
-as-is
-Library that allows a direct access to a USB device
-~amd64 ~x86
-toolchain-funcs multilib
-examples
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DESCRIPTION=Library that allows a direct access to a USB device
+EAPI=0
+HOMEPAGE=http://www.ftdichip.com/
+IUSE=examples
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+RDEPEND=amd64? ( app-emulation/emul-linux-x86-baselibs )
+SLOT=0
+SRC_URI=http://www.ftdichip.com/Drivers/D2XX/Linux/libftd2xx0.4.13.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

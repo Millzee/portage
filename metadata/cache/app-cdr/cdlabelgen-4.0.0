@@ -1,22 +1,11 @@
-
-dev-lang/perl
-0
-http://www.aczoom.com/pub/tools/cdlabelgen-4.0.0.tgz
-
-http://www.aczoom.com/tools/cdinsert
-aczoom
-CD cover, tray card and envelope generator
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=CD cover, tray card and envelope generator
+EAPI=0
+HOMEPAGE=http://www.aczoom.com/tools/cdinsert
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=aczoom
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=http://www.aczoom.com/pub/tools/cdlabelgen-4.0.0.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

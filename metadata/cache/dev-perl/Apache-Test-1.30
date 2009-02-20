@@ -1,22 +1,12 @@
-dev-lang/perl =www-servers/apache-2*
-=www-servers/apache-2*
-0
-mirror://cpan/authors/id/P/PH/PHRED/Apache-Test-1.30.tar.gz
-
-http://cpan.org/modules/by-module/Apache/
-Artistic
-Test.pm wrapper with helpers for testing Apache
-~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability multilib base depend.apache eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl =www-servers/apache-2*
+DESCRIPTION=Test.pm wrapper with helpers for testing Apache
+EAPI=0
+HOMEPAGE=http://cpan.org/modules/by-module/Apache/
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
+LICENSE=Artistic
+RDEPEND==www-servers/apache-2*
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PH/PHRED/Apache-Test-1.30.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

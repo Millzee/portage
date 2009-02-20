@@ -1,22 +1,14 @@
-dev-lang/perl =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/libc
-0
-mirror://gentoo/sam2p-0.45.tar.bz2
-test
-http://www.inf.bme.hu/~pts/sam2p/
-GPL-2
-Utility to convert raster images to EPS, PDF and many others
-alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs portability multilib libtool autotools eutils
-examples gif
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/perl =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Utility to convert raster images to EPS, PDF and many others
+EAPI=0
+HOMEPAGE=http://www.inf.bme.hu/~pts/sam2p/
+IUSE=examples gif
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://gentoo/sam2p-0.45.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

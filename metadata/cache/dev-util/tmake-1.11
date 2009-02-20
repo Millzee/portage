@@ -1,22 +1,10 @@
-
-dev-lang/perl
-0
-ftp://ftp.trolltech.com/freebies/tmake/tmake-1.11.tar.gz
-
-http://www.trolltech.com/products/download/freebies/tmake.html
-as-is
-A Cross platform Makefile tool
-~alpha ~ia64 ~ppc ~sparc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=A Cross platform Makefile tool
+EAPI=0
+HOMEPAGE=http://www.trolltech.com/products/download/freebies/tmake.html
+KEYWORDS=~alpha ~ia64 ~ppc ~sparc ~x86
+LICENSE=as-is
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=ftp://ftp.trolltech.com/freebies/tmake/tmake-1.11.tar.gz
+_mtime_=1235082859

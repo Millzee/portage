@@ -1,22 +1,15 @@
-dev-lang/perl =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-dev-lang/perl
-0
-mirror://sourceforge/mecab/mecab-0.97.tar.gz
-test
-http://mecab.sourceforge.net/
-|| ( BSD LGPL-2.1 GPL-2 )
-Yet Another Part-of-Speech and Morphological Analyzer
-amd64 ia64 ppc ppc64 sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-unicode
-
->=app-dicts/mecab-ipadic-2.7.0.20070610
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/perl =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Yet Another Part-of-Speech and Morphological Analyzer
+EAPI=0
+HOMEPAGE=http://mecab.sourceforge.net/
+IUSE=unicode
+KEYWORDS=amd64 ia64 ppc ppc64 sparc x86
+LICENSE=|| ( BSD LGPL-2.1 GPL-2 )
+PDEPEND=>=app-dicts/mecab-ipadic-2.7.0.20070610
+RDEPEND=dev-lang/perl
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/mecab/mecab-0.97.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

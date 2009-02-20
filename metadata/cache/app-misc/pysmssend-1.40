@@ -1,22 +1,13 @@
->=dev-lang/python-2.5 virtual/python
->dev-python/mechanize-0.1.7b qt4? ( dev-python/PyQt4 ) >=dev-lang/python-2.5
-0
-mirror://sourceforge/pysmssend/pysmssend-1.40.tar.gz
-
-http://pysmssend.sourceforge.net/
-GPL-3
-Python Application for sending sms over multiple ISPs
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-qt4
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-lang/python-2.5 virtual/python
+DESCRIPTION=Python Application for sending sms over multiple ISPs
+EAPI=0
+HOMEPAGE=http://pysmssend.sourceforge.net/
+IUSE=qt4
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>dev-python/mechanize-0.1.7b qt4? ( dev-python/PyQt4 ) >=dev-lang/python-2.5
+SLOT=0
+SRC_URI=mirror://sourceforge/pysmssend/pysmssend-1.40.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

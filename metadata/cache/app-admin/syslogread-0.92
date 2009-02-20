@@ -1,22 +1,13 @@
->=dev-libs/bglibs-1.019-r1
-sys-process/daemontools
-0
-http://untroubled.org/syslogread/archive/syslogread-0.92.tar.gz
-
-http://untroubled.org/syslogread/
-GPL-2
-Syslog message handling tools
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-virtual/logger
-0
-
-compile config install postinst preinst
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst preinst
+DEPEND=>=dev-libs/bglibs-1.019-r1
+DESCRIPTION=Syslog message handling tools
+EAPI=0
+HOMEPAGE=http://untroubled.org/syslogread/
+KEYWORDS=~x86
+LICENSE=GPL-2
+PROVIDE=virtual/logger
+RDEPEND=sys-process/daemontools
+SLOT=0
+SRC_URI=http://untroubled.org/syslogread/archive/syslogread-0.92.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

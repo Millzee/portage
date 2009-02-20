@@ -1,22 +1,10 @@
-
-
-0
-http://ndevilla.free.fr/iniparser/iniparser3.0b.tar.gz
-
-http://ndevilla.free.fr/iniparser/
-MIT
-A ree stand-alone ini file parsing library.
-~amd64 ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=A ree stand-alone ini file parsing library.
+EAPI=0
+HOMEPAGE=http://ndevilla.free.fr/iniparser/
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=http://ndevilla.free.fr/iniparser/iniparser3.0b.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

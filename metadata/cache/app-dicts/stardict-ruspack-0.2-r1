@@ -1,22 +1,11 @@
-app-arch/unrar
-app-dicts/stardict !app-dicts/stardict-freedict-eng-rus
-0
-ftp://ftp.msiu.ru/education/FSF-Windows/stardict/dicts/stardict-dicts.exe
-
-http://gnome.msiu.ru/stardict.php
-GPL-2
-Collection of dicts for stardict.
-~x86 ~amd64
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=app-arch/unrar
+DESCRIPTION=Collection of dicts for stardict.
+EAPI=0
+HOMEPAGE=http://gnome.msiu.ru/stardict.php
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=app-dicts/stardict !app-dicts/stardict-freedict-eng-rus
+SLOT=0
+SRC_URI=ftp://ftp.msiu.ru/education/FSF-Windows/stardict/dicts/stardict-dicts.exe
+_mtime_=1235082847

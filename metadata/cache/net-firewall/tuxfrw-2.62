@@ -1,22 +1,12 @@
-net-firewall/iptables kernel_linux? ( virtual/linux-sources )
-net-firewall/iptables
-0
-mirror://sourceforge/tuxfrw/tuxfrw-2.62.tar.gz
-
-http://tuxfrw.sf.net/
-GPL-2
-TuxFrw is a complete firewall automation tool for GNU/Linux.
-~ppc ~x86
-toolchain-funcs portability versionator multilib linux-info eutils
-
-
-
-
-0
-
-install postinst setup
-
-
-
-
-
+DEFINED_PHASES=install postinst setup
+DEPEND=net-firewall/iptables kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=TuxFrw is a complete firewall automation tool for GNU/Linux.
+EAPI=0
+HOMEPAGE=http://tuxfrw.sf.net/
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=net-firewall/iptables
+SLOT=0
+SRC_URI=mirror://sourceforge/tuxfrw/tuxfrw-2.62.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

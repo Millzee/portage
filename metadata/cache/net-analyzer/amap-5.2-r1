@@ -1,22 +1,13 @@
-dev-libs/libpcre ssl? ( >=dev-libs/openssl-0.9.6j )
-dev-libs/libpcre ssl? ( >=dev-libs/openssl-0.9.6j )
-0
-http://www.thc.org/releases/amap-5.2.tar.gz
-
-http://www.thc.org/thc-amap/
-GPL-2
-A network scanning tool for pentesters
-amd64 ia64 ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-ssl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/libpcre ssl? ( >=dev-libs/openssl-0.9.6j )
+DESCRIPTION=A network scanning tool for pentesters
+EAPI=0
+HOMEPAGE=http://www.thc.org/thc-amap/
+IUSE=ssl
+KEYWORDS=amd64 ia64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=dev-libs/libpcre ssl? ( >=dev-libs/openssl-0.9.6j )
+SLOT=0
+SRC_URI=http://www.thc.org/releases/amap-5.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082880

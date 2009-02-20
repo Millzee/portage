@@ -1,22 +1,13 @@
-virtual/libc
-virtual/libc app-shells/bash
-0
-mirror://sourceforge/duma/duma_2_5_14.tar.gz
-
-http://duma.sourceforge.net/
-GPL-2
-DUMA (Detect Unintended Memory Access) is a memory debugging library.
-~amd64 ~ppc ~x86
-toolchain-funcs versionator multilib portability eutils
-examples
-
-
-
-0
-
-compile install setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup test unpack
+DEPEND=virtual/libc
+DESCRIPTION=DUMA (Detect Unintended Memory Access) is a memory debugging library.
+EAPI=0
+HOMEPAGE=http://duma.sourceforge.net/
+IUSE=examples
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc app-shells/bash
+SLOT=0
+SRC_URI=mirror://sourceforge/duma/duma_2_5_14.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

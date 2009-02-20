@@ -1,22 +1,12 @@
-dev-lisp/cl-chunga dev-lisp/cl-puri >=dev-lisp/cl-base64-3.3.2 dev-lisp/cl-trivial-sockets dev-lisp/cl-plus-ssl dev-lisp/common-lisp-controller
-dev-lisp/cl-chunga dev-lisp/cl-puri >=dev-lisp/cl-base64-3.3.2 dev-lisp/cl-trivial-sockets dev-lisp/cl-plus-ssl
-0
-mirror://gentoo/drakma_0.3.0.orig.tar.gz
-
-http://weitz.de/drakma/
-BSD
-Drakma is a Common Lisp HTTP client.
-~amd64 ~ppc ~sparc ~x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst
+DEPEND=dev-lisp/cl-chunga dev-lisp/cl-puri >=dev-lisp/cl-base64-3.3.2 dev-lisp/cl-trivial-sockets dev-lisp/cl-plus-ssl dev-lisp/common-lisp-controller
+DESCRIPTION=Drakma is a Common Lisp HTTP client.
+EAPI=0
+HOMEPAGE=http://weitz.de/drakma/
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=BSD
+RDEPEND=dev-lisp/cl-chunga dev-lisp/cl-puri >=dev-lisp/cl-base64-3.3.2 dev-lisp/cl-trivial-sockets dev-lisp/cl-plus-ssl
+SLOT=0
+SRC_URI=mirror://gentoo/drakma_0.3.0.orig.tar.gz
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

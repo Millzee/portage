@@ -1,22 +1,13 @@
-nls? ( virtual/libintl ) nls? ( sys-devel/gettext )
-nls? ( virtual/libintl )
-0
-http://perso.orange.fr/sebastien.godard/sysstat-8.1.6.tar.gz
-
-http://perso.wanadoo.fr/sebastien.godard/
-GPL-2
-System performance tools for Linux
-~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-nls
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=nls? ( virtual/libintl ) nls? ( sys-devel/gettext )
+DESCRIPTION=System performance tools for Linux
+EAPI=0
+HOMEPAGE=http://perso.wanadoo.fr/sebastien.godard/
+IUSE=nls
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=http://perso.orange.fr/sebastien.godard/sysstat-8.1.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

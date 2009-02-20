@@ -1,22 +1,11 @@
->=sys-apps/sed-4 app-arch/gzip sys-devel/patch sys-devel/autoconf sys-devel/automake
-
-0
-http://http.us.debian.org/debian/pool/main/p/ppmd/ppmd_9.1.orig.tar.gz http://http.us.debian.org/debian/pool/main/p/ppmd/ppmd_9.1-10.diff.gz
-
-http://http.us.debian.org/debian/pool/main/p/ppmd/
-public-domain
-PPM based compressor -- better behaved than bzip2
--alpha -amd64 hppa -ia64 ~mips ppc sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-apps/sed-4 app-arch/gzip sys-devel/patch sys-devel/autoconf sys-devel/automake
+DESCRIPTION=PPM based compressor -- better behaved than bzip2
+EAPI=0
+HOMEPAGE=http://http.us.debian.org/debian/pool/main/p/ppmd/
+KEYWORDS=-alpha -amd64 hppa -ia64 ~mips ppc sparc x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://http.us.debian.org/debian/pool/main/p/ppmd/ppmd_9.1.orig.tar.gz http://http.us.debian.org/debian/pool/main/p/ppmd/ppmd_9.1-10.diff.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

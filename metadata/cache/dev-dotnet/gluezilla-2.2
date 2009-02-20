@@ -1,22 +1,12 @@
-net-libs/xulrunner:1.9 x11-libs/gtk+:2 =dev-lang/mono-2.2* >=dev-util/pkgconfig-0.23 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
-net-libs/xulrunner:1.9 x11-libs/gtk+:2 =dev-lang/mono-2.2*
-0
-http://ftp.novell.com/pub/mono/sources/gluezilla/gluezilla-2.2.tar.bz2
-
-http://mono-project.com/Gluezilla
-LGPL-2 MPL-1.1
-A simple library to embed Gecko (xulrunner) in the Mono Winforms WebControl
-~x86 ~amd64
-toolchain-funcs portability mono versionator multilib base go-mono eutils
-
-
-
-
-2
-
-compile configure install prepare unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=net-libs/xulrunner:1.9 x11-libs/gtk+:2 =dev-lang/mono-2.2* >=dev-util/pkgconfig-0.23 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=A simple library to embed Gecko (xulrunner) in the Mono Winforms WebControl
+EAPI=2
+HOMEPAGE=http://mono-project.com/Gluezilla
+KEYWORDS=~x86 ~amd64
+LICENSE=LGPL-2 MPL-1.1
+RDEPEND=net-libs/xulrunner:1.9 x11-libs/gtk+:2 =dev-lang/mono-2.2*
+SLOT=0
+SRC_URI=http://ftp.novell.com/pub/mono/sources/gluezilla/gluezilla-2.2.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	go-mono	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

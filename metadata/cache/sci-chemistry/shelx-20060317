@@ -1,22 +1,13 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-shelx-20060317.tgz
-fetch
-http://shelx.uni-ac.gwdg.de/SHELX/
-free-noncomm
-Programs for crystal structure determination from single-crystal diffraction data
-~ppc x86
-toolchain-funcs portability multilib fortran libtool autotools eutils
-dosformat debug
-
-
-
-0
-
-compile install nofetch setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch setup unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Programs for crystal structure determination from single-crystal diffraction data
+EAPI=0
+HOMEPAGE=http://shelx.uni-ac.gwdg.de/SHELX/
+IUSE=dosformat debug
+KEYWORDS=~ppc x86
+LICENSE=free-noncomm
+RESTRICT=fetch
+SLOT=0
+SRC_URI=shelx-20060317.tgz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

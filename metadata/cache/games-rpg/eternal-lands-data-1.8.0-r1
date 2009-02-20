@@ -1,22 +1,13 @@
-app-arch/unzip
-app-arch/unzip
-0
-http://www.eternal-lands.com/el_linux_180_install.zip music? ( mirror://gentoo/el_music_full-20060803.zip ) sound? ( mirror://gentoo/el_sound_150.zip )
-
-http://www.eternal-lands.com
-eternal_lands
-An online MMORPG written in C and SDL
-~amd64 ~x86 ~x86-fbsd
-toolchain-funcs portability multilib base games eutils
-music sound
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=An online MMORPG written in C and SDL
+EAPI=0
+HOMEPAGE=http://www.eternal-lands.com
+IUSE=music sound
+KEYWORDS=~amd64 ~x86 ~x86-fbsd
+LICENSE=eternal_lands
+RDEPEND=app-arch/unzip
+SLOT=0
+SRC_URI=http://www.eternal-lands.com/el_linux_180_install.zip music? ( mirror://gentoo/el_music_full-20060803.zip ) sound? ( mirror://gentoo/el_sound_150.zip )
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

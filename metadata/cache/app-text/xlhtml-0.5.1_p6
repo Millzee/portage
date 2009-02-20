@@ -1,22 +1,11 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-mirror://debian/pool/main/x/xlhtml/xlhtml_0.5.1.orig.tar.gz mirror://debian/pool/main/x/xlhtml/xlhtml_0.5.1-6.diff.gz
-
-http://chicago.sourceforge.net/xlhtml/ http://packages.debian.org/etch/xlhtml/
-GPL-2
-Convert MS Excel and Powerpoint files to HTML
-~alpha ~amd64 ~ppc ~sparc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Convert MS Excel and Powerpoint files to HTML
+EAPI=0
+HOMEPAGE=http://chicago.sourceforge.net/xlhtml/ http://packages.debian.org/etch/xlhtml/
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://debian/pool/main/x/xlhtml/xlhtml_0.5.1.orig.tar.gz mirror://debian/pool/main/x/xlhtml/xlhtml_0.5.1-6.diff.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

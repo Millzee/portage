@@ -1,22 +1,13 @@
-app-text/rman sys-libs/ncurses x11-libs/libXmu x11-libs/libXpm x11-libs/libxkbfile x11-libs/libXaw x11-libs/libXp Xaw3d? ( x11-libs/Xaw3d ) x11-misc/gccmakedep x11-misc/imake
-app-text/rman sys-libs/ncurses x11-libs/libXmu x11-libs/libXpm x11-libs/libxkbfile x11-libs/libXaw x11-libs/libXp Xaw3d? ( x11-libs/Xaw3d )
-0
-ftp://ftp.x.org/contrib/applications/kterm-6.2.0.tar.gz http://www.asahi-net.or.jp/~hc3j-tkg/kterm/kterm-6.2.0-wpi.patch.gz http://www.st.rim.or.jp/~hanataka/kterm-6.2.0.ext02.patch.gz
-
-http://www.asahi-net.or.jp/~hc3j-tkg/kterm/
-X11
-Japanese Kanji X Terminal
--alpha ~amd64 ppc ~sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-Xaw3d
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=app-text/rman sys-libs/ncurses x11-libs/libXmu x11-libs/libXpm x11-libs/libxkbfile x11-libs/libXaw x11-libs/libXp Xaw3d? ( x11-libs/Xaw3d ) x11-misc/gccmakedep x11-misc/imake
+DESCRIPTION=Japanese Kanji X Terminal
+EAPI=0
+HOMEPAGE=http://www.asahi-net.or.jp/~hc3j-tkg/kterm/
+IUSE=Xaw3d
+KEYWORDS=-alpha ~amd64 ppc ~sparc x86
+LICENSE=X11
+RDEPEND=app-text/rman sys-libs/ncurses x11-libs/libXmu x11-libs/libXpm x11-libs/libxkbfile x11-libs/libXaw x11-libs/libXp Xaw3d? ( x11-libs/Xaw3d )
+SLOT=0
+SRC_URI=ftp://ftp.x.org/contrib/applications/kterm-6.2.0.tar.gz http://www.asahi-net.or.jp/~hc3j-tkg/kterm/kterm-6.2.0-wpi.patch.gz http://www.st.rim.or.jp/~hanataka/kterm-6.2.0.ext02.patch.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

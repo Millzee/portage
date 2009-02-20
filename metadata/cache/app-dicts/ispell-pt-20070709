@@ -1,22 +1,11 @@
-app-text/ispell
-app-text/ispell
-0
-http://natura.di.uminho.pt/download/sources/Dictionaries/ispell/ispell.pt-20070709.tar.gz
-
-http://natura.di.uminho.pt
-GPL-2
-A Portuguese dictionary for ispell
-~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=app-text/ispell
+DESCRIPTION=A Portuguese dictionary for ispell
+EAPI=0
+HOMEPAGE=http://natura.di.uminho.pt
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=app-text/ispell
+SLOT=0
+SRC_URI=http://natura.di.uminho.pt/download/sources/Dictionaries/ispell/ispell.pt-20070709.tar.gz
+_mtime_=1235082847

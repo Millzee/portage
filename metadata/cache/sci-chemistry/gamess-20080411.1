@@ -1,22 +1,14 @@
-app-shells/tcsh hardened? ( sys-apps/paxctl ) virtual/blas =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-app-shells/tcsh hardened? ( sys-apps/paxctl ) virtual/blas net-misc/openssh
-0
-gamess-20080411.1.tar.gz
-fetch
-http://www.msg.ameslab.gov/GAMESS/GAMESS.html
-gamess
-A powerful quantum chemistry package
-~ppc ~x86 ~amd64
-toolchain-funcs portability flag-o-matic multilib fortran libtool autotools eutils
-hardened debug
-
-
-
-0
-
-compile install nofetch postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch postinst setup unpack
+DEPEND=app-shells/tcsh hardened? ( sys-apps/paxctl ) virtual/blas =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A powerful quantum chemistry package
+EAPI=0
+HOMEPAGE=http://www.msg.ameslab.gov/GAMESS/GAMESS.html
+IUSE=hardened debug
+KEYWORDS=~ppc ~x86 ~amd64
+LICENSE=gamess
+RDEPEND=app-shells/tcsh hardened? ( sys-apps/paxctl ) virtual/blas net-misc/openssh
+RESTRICT=fetch
+SLOT=0
+SRC_URI=gamess-20080411.1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

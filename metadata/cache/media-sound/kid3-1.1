@@ -1,22 +1,13 @@
->=media-libs/id3lib-3.8.3 >=media-libs/taglib-1.4-r1 media-libs/libmp4v2 media-libs/libvorbis flac? ( media-libs/flac[cxx] ) || ( >=kde-base/kdelibs-3.9 kde-base/kdelibs:3.5 ) musicbrainz? ( media-libs/musicbrainz:3 media-libs/tunepimp ) >=dev-util/cmake-2.4.6
->=media-libs/id3lib-3.8.3 >=media-libs/taglib-1.4-r1 media-libs/libmp4v2 media-libs/libvorbis flac? ( media-libs/flac[cxx] ) || ( >=kde-base/kdelibs-3.9 kde-base/kdelibs:3.5 ) musicbrainz? ( media-libs/musicbrainz:3 media-libs/tunepimp )
-0
-mirror://sourceforge/kid3/kid3-1.1.tar.gz
-
-http://kid3.sourceforge.net/
-GPL-2
-A simple ID3 tag editor for QT/KDE.
-~amd64 ~ppc64 ~x86
-toolchain-funcs qt3 portability flag-o-matic versionator multilib kde-functions cmake-utils eutils
-+flac +musicbrainz
-
-
-
-2
-
-compile configure install test
-
-
-
-
-
+DEFINED_PHASES=compile configure install test
+DEPEND=>=media-libs/id3lib-3.8.3 >=media-libs/taglib-1.4-r1 media-libs/libmp4v2 media-libs/libvorbis flac? ( media-libs/flac[cxx] ) || ( >=kde-base/kdelibs-3.9 kde-base/kdelibs:3.5 ) musicbrainz? ( media-libs/musicbrainz:3 media-libs/tunepimp ) >=dev-util/cmake-2.4.6
+DESCRIPTION=A simple ID3 tag editor for QT/KDE.
+EAPI=2
+HOMEPAGE=http://kid3.sourceforge.net/
+IUSE=+flac +musicbrainz
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/id3lib-3.8.3 >=media-libs/taglib-1.4-r1 media-libs/libmp4v2 media-libs/libvorbis flac? ( media-libs/flac[cxx] ) || ( >=kde-base/kdelibs-3.9 kde-base/kdelibs:3.5 ) musicbrainz? ( media-libs/musicbrainz:3 media-libs/tunepimp )
+SLOT=0
+SRC_URI=mirror://sourceforge/kid3/kid3-1.1.tar.gz
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

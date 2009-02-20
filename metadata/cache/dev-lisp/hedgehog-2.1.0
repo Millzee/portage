@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-http://hedgehog.oliotalo.fi/download/hedgehog-2.1.0.tar.gz
-
-http://hedgehog.oliotalo.fi/
-LGPL-2.1 BSD
-Hedgehog is a very concise implementation of a Lisp-like language for low-end and embedded devices.
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=Hedgehog is a very concise implementation of a Lisp-like language for low-end and embedded devices.
+EAPI=0
+HOMEPAGE=http://hedgehog.oliotalo.fi/
+KEYWORDS=~x86
+LICENSE=LGPL-2.1 BSD
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://hedgehog.oliotalo.fi/download/hedgehog-2.1.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

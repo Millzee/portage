@@ -1,22 +1,12 @@
->=dev-lang/perl-5.6.1 >=media-libs/sdl-mixer-1.2.3[mikmod,vorbis] media-libs/sdl-pango media-libs/sdl-image[gif,png] dev-perl/sdl-perl dev-perl/Locale-gettext sys-devel/autoconf >=sys-apps/sed-4
->=dev-lang/perl-5.6.1 >=media-libs/sdl-mixer-1.2.3[mikmod,vorbis] media-libs/sdl-pango media-libs/sdl-image[gif,png] dev-perl/sdl-perl dev-perl/Locale-gettext
-0
-http://www.frozen-bubble.org/data/frozen-bubble-2.2.0.tar.bz2
-
-http://www.frozen-bubble.org/
-GPL-2
-A Puzzle Bubble clone written in perl (now with network support)
-alpha amd64 hppa ia64 ppc sparc x86
-toolchain-funcs portability multilib gnome2-utils base games eutils perl-module
-
-
-
-
-2
-
-compile configure install postinst postrm preinst prepare prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare prerm setup test unpack
+DEPEND=>=dev-lang/perl-5.6.1 >=media-libs/sdl-mixer-1.2.3[mikmod,vorbis] media-libs/sdl-pango media-libs/sdl-image[gif,png] dev-perl/sdl-perl dev-perl/Locale-gettext sys-devel/autoconf >=sys-apps/sed-4
+DESCRIPTION=A Puzzle Bubble clone written in perl (now with network support)
+EAPI=2
+HOMEPAGE=http://www.frozen-bubble.org/
+KEYWORDS=alpha amd64 hppa ia64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/perl-5.6.1 >=media-libs/sdl-mixer-1.2.3[mikmod,vorbis] media-libs/sdl-pango media-libs/sdl-image[gif,png] dev-perl/sdl-perl dev-perl/Locale-gettext
+SLOT=0
+SRC_URI=http://www.frozen-bubble.org/data/frozen-bubble-2.2.0.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

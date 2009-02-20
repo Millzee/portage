@@ -1,22 +1,11 @@
-sys-libs/zlib sys-devel/gettext sys-apps/groff sys-devel/bison tk? ( >=dev-lang/tk-8.3 )
-
-0
-mirror://sourceforge/aegis/aegis-4.19.tar.gz
-
-http://aegis.sourceforge.net
-GPL-2
-A transaction based revision control system
-~alpha ~ppc sparc x86
-
-tk
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/zlib sys-devel/gettext sys-apps/groff sys-devel/bison tk? ( >=dev-lang/tk-8.3 )
+DESCRIPTION=A transaction based revision control system
+EAPI=0
+HOMEPAGE=http://aegis.sourceforge.net
+IUSE=tk
+KEYWORDS=~alpha ~ppc sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/aegis/aegis-4.19.tar.gz
+_mtime_=1235082858

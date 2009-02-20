@@ -1,22 +1,12 @@
->=x11-libs/gtk+-2 dev-util/pkgconfig
->=x11-libs/gtk+-2
-0
-http://linux.nawebu.cz/wmcliphist/wmcliphist-0.6.tar.gz
-
-http://linux.nawebu.cz/wmcliphist
-GPL-2
-Dockable clipboard history application for Window Maker
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2 dev-util/pkgconfig
+DESCRIPTION=Dockable clipboard history application for Window Maker
+EAPI=0
+HOMEPAGE=http://linux.nawebu.cz/wmcliphist
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2
+SLOT=0
+SRC_URI=http://linux.nawebu.cz/wmcliphist/wmcliphist-0.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

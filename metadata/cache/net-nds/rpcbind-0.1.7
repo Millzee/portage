@@ -1,22 +1,11 @@
-net-libs/libtirpc
-net-libs/libtirpc
-0
-mirror://sourceforge/rpcbind/rpcbind-0.1.7.tar.bz2
-
-http://sourceforge.net/projects/rpcbind/
-BSD sun-rpc
-portmap replacement which supports RPC over various protocols
-~amd64 ~x86
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=net-libs/libtirpc
+DESCRIPTION=portmap replacement which supports RPC over various protocols
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/rpcbind/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD sun-rpc
+RDEPEND=net-libs/libtirpc
+SLOT=0
+SRC_URI=mirror://sourceforge/rpcbind/rpcbind-0.1.7.tar.bz2
+_mtime_=1235082895

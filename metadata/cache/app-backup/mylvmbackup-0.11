@@ -1,22 +1,12 @@
->=app-text/asciidoc-8.1.0
-dev-perl/Config-IniFiles >=sys-fs/lvm2-2.02.06 dev-perl/DBD-mysql virtual/mysql dev-perl/TimeDate
-0
-http://lenz.homelinux.org/mylvmbackup/mylvmbackup-0.11.tar.gz
-
-http://lenz.homelinux.org/mylvmbackup/
-GPL-2
-mylvmbackup is a Perl script for quickly creating backups of MySQL server's data files utilizing LVM snapshots.
-~x86 ~ppc ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=app-text/asciidoc-8.1.0
+DESCRIPTION=mylvmbackup is a Perl script for quickly creating backups of MySQL server's data files utilizing LVM snapshots.
+EAPI=0
+HOMEPAGE=http://lenz.homelinux.org/mylvmbackup/
+KEYWORDS=~x86 ~ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=dev-perl/Config-IniFiles >=sys-fs/lvm2-2.02.06 dev-perl/DBD-mysql virtual/mysql dev-perl/TimeDate
+SLOT=0
+SRC_URI=http://lenz.homelinux.org/mylvmbackup/mylvmbackup-0.11.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

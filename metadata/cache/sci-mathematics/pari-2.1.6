@@ -1,22 +1,13 @@
-doc? ( virtual/latex-base )
-doc? ( virtual/latex-base )
-0
-http://pari.math.u-bordeaux.fr/pub/pari/unix/OLD/pari-2.1.6.tgz
-
-http://pari.math.u-bordeaux.fr/
-GPL-2
-pari (or pari-gp) : a software package for computer-aided number theory
-alpha amd64 hppa mips ppc ~sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc emacs
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=doc? ( virtual/latex-base )
+DESCRIPTION=pari (or pari-gp) : a software package for computer-aided number theory
+EAPI=0
+HOMEPAGE=http://pari.math.u-bordeaux.fr/
+IUSE=doc emacs
+KEYWORDS=alpha amd64 hppa mips ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=doc? ( virtual/latex-base )
+SLOT=0
+SRC_URI=http://pari.math.u-bordeaux.fr/pub/pari/unix/OLD/pari-2.1.6.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

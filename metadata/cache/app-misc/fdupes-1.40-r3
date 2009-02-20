@@ -1,22 +1,11 @@
-
-
-0
-http://netdial.caribe.net/~adrian2/programs/fdupes-1.40.tar.gz
-
-http://netdial.caribe.net/~adrian2/fdupes.html
-MIT
-identify/delete duplicate files residing within specified directories
-amd64 arm hppa ia64 ~mips ppc ppc64 s390 sparc x86
-toolchain-funcs multilib portability eutils
-md5sum-external
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=identify/delete duplicate files residing within specified directories
+EAPI=0
+HOMEPAGE=http://netdial.caribe.net/~adrian2/fdupes.html
+IUSE=md5sum-external
+KEYWORDS=amd64 arm hppa ia64 ~mips ppc ppc64 s390 sparc x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=http://netdial.caribe.net/~adrian2/programs/fdupes-1.40.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

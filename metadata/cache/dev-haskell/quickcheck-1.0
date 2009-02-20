@@ -1,22 +1,11 @@
-=dev-lang/ghc-6.4*
-=dev-lang/ghc-6.4*
-0
-
-
-http://haskell.org/ghc/
-BSD
-An automatic, specification based testing utility for Haskell programs
-~alpha amd64 hppa ~ia64 ppc ppc64 sparc x86 ~x86-fbsd
-ghc-package versionator
-
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND==dev-lang/ghc-6.4*
+DESCRIPTION=An automatic, specification based testing utility for Haskell programs
+EAPI=0
+HOMEPAGE=http://haskell.org/ghc/
+KEYWORDS=~alpha amd64 hppa ~ia64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND==dev-lang/ghc-6.4*
+SLOT=0
+_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

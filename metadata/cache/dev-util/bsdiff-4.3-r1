@@ -1,22 +1,12 @@
-app-arch/bzip2
-app-arch/bzip2
-0
-http://www.daemonology.net/bsdiff/bsdiff-4.3.tar.gz
-
-http://www.daemonology.net/bsdiff/
-BSD-2
-bsdiff: Binary Differencer using a suffix alg
-alpha amd64 ~hppa ia64 mips ppc sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=app-arch/bzip2
+DESCRIPTION=bsdiff: Binary Differencer using a suffix alg
+EAPI=0
+HOMEPAGE=http://www.daemonology.net/bsdiff/
+KEYWORDS=alpha amd64 ~hppa ia64 mips ppc sparc x86 ~x86-fbsd
+LICENSE=BSD-2
+RDEPEND=app-arch/bzip2
+SLOT=0
+SRC_URI=http://www.daemonology.net/bsdiff/bsdiff-4.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

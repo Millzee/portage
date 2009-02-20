@@ -1,22 +1,13 @@
-doc? ( dev-php/PEAR-PhpDocumentor ) =dev-lang/php-5* dev-lang/php
-doc? ( dev-php/PEAR-PhpDocumentor ) =dev-lang/php-5* dev-lang/php
-0
-http://debian.mcmillan.net.nz/packages/awl/awl_0.34.tar.gz
-
-http://andrew.mcmillan.net.nz/projects/awl
-GPL-2
-Andrew McMillan's web libraries: A collection of generic classes used by the davical calendar server
-~amd64 ~x86
-php-lib-r1 toolchain-funcs portability depend.php multilib phpconfutils eutils
-doc
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=doc? ( dev-php/PEAR-PhpDocumentor ) =dev-lang/php-5* dev-lang/php
+DESCRIPTION=Andrew McMillan's web libraries: A collection of generic classes used by the davical calendar server
+EAPI=0
+HOMEPAGE=http://andrew.mcmillan.net.nz/projects/awl
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=doc? ( dev-php/PEAR-PhpDocumentor ) =dev-lang/php-5* dev-lang/php
+SLOT=0
+SRC_URI=http://debian.mcmillan.net.nz/packages/awl/awl_0.34.tar.gz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	php-lib-r1	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

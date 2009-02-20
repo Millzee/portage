@@ -1,22 +1,11 @@
-sys-apps/baselayout
-sys-apps/baselayout
-0
-
-
-http://www.gentoo.org/ http://www.openafs.org/
-GPL-2
-Package that provides access to a FHS compliant OpenAFS installation through soft-links at legacy paths
-~amd64 ~x86
-
-
-
-net-fs/openafs
-
-0
-
-compile install prerm
-
-
-
-
-
+DEFINED_PHASES=compile install prerm
+DEPEND=sys-apps/baselayout
+DESCRIPTION=Package that provides access to a FHS compliant OpenAFS installation through soft-links at legacy paths
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/ http://www.openafs.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+PDEPEND=net-fs/openafs
+RDEPEND=sys-apps/baselayout
+SLOT=0
+_mtime_=1235082890

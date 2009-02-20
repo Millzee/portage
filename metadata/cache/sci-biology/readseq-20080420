@@ -1,22 +1,13 @@
-dev-java/xerces:2 dev-java/jaxp >=virtual/jdk-1.4 app-arch/unzip >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7 >=dev-java/ant-core-1.7.0 >=sys-apps/portage-2.1.2.7 >=dev-java/javatoolkit-0.3.0-r2
-dev-java/xerces:2 dev-java/jaxp >=virtual/jre-1.4 >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7
-0
-http://dev.gentoo.org/~dberkholz/distfiles/readseq-source-20080420.zip
-
-http://iubio.bio.indiana.edu/soft/molbio/readseq/
-public-domain
-Reads and writes nucleic/protein sequences in various formats.
-~amd64 ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD elibc_FreeBSD
-
-
-
-1
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=dev-java/xerces:2 dev-java/jaxp >=virtual/jdk-1.4 app-arch/unzip >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7 >=dev-java/ant-core-1.7.0 >=sys-apps/portage-2.1.2.7 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Reads and writes nucleic/protein sequences in various formats.
+EAPI=1
+HOMEPAGE=http://iubio.bio.indiana.edu/soft/molbio/readseq/
+IUSE=elibc_FreeBSD elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=dev-java/xerces:2 dev-java/jaxp >=virtual/jre-1.4 >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~dberkholz/distfiles/readseq-source-20080420.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

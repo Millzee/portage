@@ -1,22 +1,10 @@
-
-
-0
-http://dw.nl.eu.org/mudix/mudix-4.3.tar.gz
-
-http://dw.nl.eu.org/mudix.html
-GPL-2
-A small, stable MUD client for the console
-amd64 ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DESCRIPTION=A small, stable MUD client for the console
+EAPI=2
+HOMEPAGE=http://dw.nl.eu.org/mudix.html
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://dw.nl.eu.org/mudix/mudix-4.3.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

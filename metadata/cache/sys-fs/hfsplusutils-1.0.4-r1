@@ -1,22 +1,12 @@
-app-arch/bzip2 =sys-devel/automake-1.6* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/libc
-0
-http://penguinppc.org/historical/hfsplus/hfsplus_1.0.4.src.tar.bz2
-
-http://penguinppc.org/historical/hfsplus/
-GPL-2
-HFS+ Filesystem Access Utilities (a PPC filesystem)
-ppc ppc64 x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=app-arch/bzip2 =sys-devel/automake-1.6* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=HFS+ Filesystem Access Utilities (a PPC filesystem)
+EAPI=0
+HOMEPAGE=http://penguinppc.org/historical/hfsplus/
+KEYWORDS=ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://penguinppc.org/historical/hfsplus/hfsplus_1.0.4.src.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.6 net-misc/rsync dev-util/pkgconfig dev-util/intltool >=sys-apps/sed-4 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=x11-libs/gtk+-2.6 net-misc/rsync
-0
-http://www.opbyte.it/release/grsync-0.6.tar.gz
-
-http://www.opbyte.it/grsync/
-GPL-2
-A gtk frontend to rsync
-~amd64 ppc ~x86 ~x86-fbsd
-toolchain-funcs portability multilib gnome2-utils gnome2 gnome.org fdo-mime autotools libtool eutils
-doc debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=>=x11-libs/gtk+-2.6 net-misc/rsync dev-util/pkgconfig dev-util/intltool >=sys-apps/sed-4 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A gtk frontend to rsync
+EAPI=0
+HOMEPAGE=http://www.opbyte.it/grsync/
+IUSE=doc debug
+KEYWORDS=~amd64 ppc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.6 net-misc/rsync
+SLOT=0
+SRC_URI=http://www.opbyte.it/release/grsync-0.6.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

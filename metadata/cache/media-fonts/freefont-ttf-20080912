@@ -1,22 +1,13 @@
-X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
-
-0
-mirror://gnu/freefont/freefont-ttf-20080912.tar.gz
-strip binchecks
-http://savannah.nongnu.org/projects/freefont/
-GPL-2
-TrueType Unicode fonts from the Free UCS Outline Fonts Project
-~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs font multilib portability eutils
-X
-
-
-
-0
-
-install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm setup
+DEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
+DESCRIPTION=TrueType Unicode fonts from the Free UCS Outline Fonts Project
+EAPI=0
+HOMEPAGE=http://savannah.nongnu.org/projects/freefont/
+IUSE=X
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RESTRICT=strip binchecks
+SLOT=0
+SRC_URI=mirror://gnu/freefont/freefont-ttf-20080912.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	font	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

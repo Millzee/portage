@@ -1,22 +1,13 @@
-alsa? ( media-libs/alsa-lib[midi] ) opengl? ( virtual/opengl ) debug? ( sys-libs/ncurses ) media-libs/libpng media-libs/libsdl[joystick] media-libs/sdl-net media-libs/sdl-sound
-alsa? ( media-libs/alsa-lib[midi] ) opengl? ( virtual/opengl ) debug? ( sys-libs/ncurses ) media-libs/libpng media-libs/libsdl[joystick] media-libs/sdl-net media-libs/sdl-sound
-0
-mirror://sourceforge/dosbox/dosbox-0.72.tar.gz
-
-http://dosbox.sourceforge.net/
-GPL-2
-DOS emulator
-amd64 ppc ~ppc64 ~sparc x86
-toolchain-funcs portability multilib base games eutils
-alsa debug hardened opengl
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=alsa? ( media-libs/alsa-lib[midi] ) opengl? ( virtual/opengl ) debug? ( sys-libs/ncurses ) media-libs/libpng media-libs/libsdl[joystick] media-libs/sdl-net media-libs/sdl-sound
+DESCRIPTION=DOS emulator
+EAPI=2
+HOMEPAGE=http://dosbox.sourceforge.net/
+IUSE=alsa debug hardened opengl
+KEYWORDS=amd64 ppc ~ppc64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=alsa? ( media-libs/alsa-lib[midi] ) opengl? ( virtual/opengl ) debug? ( sys-libs/ncurses ) media-libs/libpng media-libs/libsdl[joystick] media-libs/sdl-net media-libs/sdl-sound
+SLOT=0
+SRC_URI=mirror://sourceforge/dosbox/dosbox-0.72.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

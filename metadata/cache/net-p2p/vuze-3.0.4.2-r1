@@ -1,22 +1,13 @@
->=dev-java/bcprov-1.35 >=dev-java/commons-cli-1.0 >=dev-java/log4j-1.2.8 >=dev-java/swt-3.3_pre3 !net-p2p/azureus-bin >=virtual/jre-1.4 app-arch/unzip dev-util/desktop-file-utils >=virtual/jdk-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=dev-java/bcprov-1.35 >=dev-java/commons-cli-1.0 >=dev-java/log4j-1.2.8 >=dev-java/swt-3.3_pre3 !net-p2p/azureus-bin >=virtual/jre-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-mirror://sourceforge/azureus/Azureus_3.0.4.2_source.zip
-
-http://www.vuze.com/
-GPL-2 BSD
-BitTorrent client in Java, formerly called Azureus
-amd64 ppc x86 ~x86-fbsd
-toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib fdo-mime eutils java-ant-2
-elibc_FreeBSD source elibc_FreeBSD
-
-
-
-
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=dev-java/bcprov-1.35 >=dev-java/commons-cli-1.0 >=dev-java/log4j-1.2.8 >=dev-java/swt-3.3_pre3 !net-p2p/azureus-bin >=virtual/jre-1.4 app-arch/unzip dev-util/desktop-file-utils >=virtual/jdk-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=BitTorrent client in Java, formerly called Azureus
+EAPI=0
+HOMEPAGE=http://www.vuze.com/
+IUSE=elibc_FreeBSD source elibc_FreeBSD
+KEYWORDS=amd64 ppc x86 ~x86-fbsd
+LICENSE=GPL-2 BSD
+RDEPEND=>=dev-java/bcprov-1.35 >=dev-java/commons-cli-1.0 >=dev-java/log4j-1.2.8 >=dev-java/swt-3.3_pre3 !net-p2p/azureus-bin >=virtual/jre-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=mirror://sourceforge/azureus/Azureus_3.0.4.2_source.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

@@ -1,22 +1,13 @@
-kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-kernel_linux? ( virtual/modutils )
-0
-http://www.rulerofearth.com/genericv4l-2.6.tbz2
-
-http://www.rulerofearth.com/
-GPL-2
-Generic V4L2 driver for ATI Mach64-based tv cards (All-in-Wonder, etc)
-~x86
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup
+DEPEND=kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=Generic V4L2 driver for ATI Mach64-based tv cards (All-in-Wonder, etc)
+EAPI=0
+HOMEPAGE=http://www.rulerofearth.com/
+IUSE=kernel_linux
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=http://www.rulerofearth.com/genericv4l-2.6.tbz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

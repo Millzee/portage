@@ -1,22 +1,10 @@
-
-
-1
-http://download.oracle.com/berkeley-db/db.1.85.tar.gz mirror://gentoo/db-1.85-r3.1.patch.bz2
-
-http://www.oracle.com/technology/software/products/berkeley-db/db/index.html
-DB
-old berk db kept around for really old packages
-alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sh sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=old berk db kept around for really old packages
+EAPI=0
+HOMEPAGE=http://www.oracle.com/technology/software/products/berkeley-db/db/index.html
+KEYWORDS=alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sh sparc x86
+LICENSE=DB
+SLOT=1
+SRC_URI=http://download.oracle.com/berkeley-db/db.1.85.tar.gz mirror://gentoo/db-1.85-r3.1.patch.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

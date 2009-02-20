@@ -1,22 +1,12 @@
-virtual/python
-virtual/python dev-java/java-config-wrapper
-0
-mirror://gentoo/java-config-1.3.7.tar.bz2
-
-http://www.gentoo.org/proj/en/java/
-GPL-2
-Java environment configuration tool
-amd64 ia64 ppc ppc64 x86 ~x86-fbsd
-toolchain-funcs distutils portability python alternatives multilib base eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/python
+DESCRIPTION=Java environment configuration tool
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/java/
+KEYWORDS=amd64 ia64 ppc ppc64 x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=virtual/python dev-java/java-config-wrapper
+SLOT=0
+SRC_URI=mirror://gentoo/java-config-1.3.7.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

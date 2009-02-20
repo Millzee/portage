@@ -1,22 +1,13 @@
-usb? ( >=dev-libs/libusb-0.1.10a ) !dev-db/xbase media-tv/linuxtv-dvb-headers
-usb? ( >=dev-libs/libusb-0.1.10a ) !dev-db/xbase
-0
-mirror://gentoo/linuxtv-dvb-apps-20071126.tar.bz2
-
-http://www.linuxtv.org/
-GPL-2
-small utils for DVB to scan, zap, view signal strength, ...
-~amd64 ~ia64 ~ppc ~x86
-toolchain-funcs versionator multilib portability eutils
-usb
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=usb? ( >=dev-libs/libusb-0.1.10a ) !dev-db/xbase media-tv/linuxtv-dvb-headers
+DESCRIPTION=small utils for DVB to scan, zap, view signal strength, ...
+EAPI=0
+HOMEPAGE=http://www.linuxtv.org/
+IUSE=usb
+KEYWORDS=~amd64 ~ia64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=usb? ( >=dev-libs/libusb-0.1.10a ) !dev-db/xbase
+SLOT=0
+SRC_URI=mirror://gentoo/linuxtv-dvb-apps-20071126.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

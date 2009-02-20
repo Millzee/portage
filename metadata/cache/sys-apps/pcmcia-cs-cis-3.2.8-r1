@@ -1,22 +1,12 @@
-|| ( >=sys-fs/udev-096 >=sys-apps/hotplug-20040920 ) !sys-apps/pcmcia-cs kernel_linux? ( virtual/linux-sources )
-|| ( >=sys-fs/udev-096 >=sys-apps/hotplug-20040920 ) !sys-apps/pcmcia-cs
-0
-mirror://sourceforge/pcmcia-cs/pcmcia-cs-3.2.8.tar.gz
-
-http://pcmcia-cs.sourceforge.net
-GPL-2
-PCMCIA CIS files for use with pcmciautils
-~amd64 ~ppc x86
-linux-info toolchain-funcs multilib versionator
-
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=|| ( >=sys-fs/udev-096 >=sys-apps/hotplug-20040920 ) !sys-apps/pcmcia-cs kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=PCMCIA CIS files for use with pcmciautils
+EAPI=0
+HOMEPAGE=http://pcmcia-cs.sourceforge.net
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=|| ( >=sys-fs/udev-096 >=sys-apps/hotplug-20040920 ) !sys-apps/pcmcia-cs
+SLOT=0
+SRC_URI=mirror://sourceforge/pcmcia-cs/pcmcia-cs-3.2.8.tar.gz
+_eclasses_=linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

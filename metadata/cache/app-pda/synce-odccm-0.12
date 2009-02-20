@@ -1,22 +1,11 @@
-sys-apps/dbus sys-apps/hal >=net-libs/gnet-2.0.0 !app-pda/synce-dccm !app-pda/synce-vdccm ~app-pda/synce-libsynce-0.12 ~app-pda/synce-librapi2-0.12
-sys-apps/dbus sys-apps/hal >=net-libs/gnet-2.0.0 !app-pda/synce-dccm !app-pda/synce-vdccm ~app-pda/synce-libsynce-0.12 ~app-pda/synce-librapi2-0.12
-0
-mirror://sourceforge/synce/odccm-0.12.tar.gz
-
-http://sourceforge.net/projects/synce/
-MIT
-SynCE - odccm connection manager
-~x86 ~amd64
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=sys-apps/dbus sys-apps/hal >=net-libs/gnet-2.0.0 !app-pda/synce-dccm !app-pda/synce-vdccm ~app-pda/synce-libsynce-0.12 ~app-pda/synce-librapi2-0.12
+DESCRIPTION=SynCE - odccm connection manager
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/synce/
+KEYWORDS=~x86 ~amd64
+LICENSE=MIT
+RDEPEND=sys-apps/dbus sys-apps/hal >=net-libs/gnet-2.0.0 !app-pda/synce-dccm !app-pda/synce-vdccm ~app-pda/synce-libsynce-0.12 ~app-pda/synce-librapi2-0.12
+SLOT=0
+SRC_URI=mirror://sourceforge/synce/odccm-0.12.tar.gz
+_mtime_=1235082849

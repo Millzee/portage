@@ -1,22 +1,12 @@
-app-text/openjade >=virtual/emacs-21
-app-text/openjade >=virtual/emacs-21
-0
-mirror://sourceforge/psgml/psgml-1.2.5.tar.gz
-
-http://sourceforge.net/projects/psgml/
-GPL-2
-A GNU Emacs Major Mode for editing SGML and XML coded documents.
-x86 sparc amd64 ppc
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=app-text/openjade >=virtual/emacs-21
+DESCRIPTION=A GNU Emacs Major Mode for editing SGML and XML coded documents.
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/psgml/
+KEYWORDS=x86 sparc amd64 ppc
+LICENSE=GPL-2
+RDEPEND=app-text/openjade >=virtual/emacs-21
+SLOT=0
+SRC_URI=mirror://sourceforge/psgml/psgml-1.2.5.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

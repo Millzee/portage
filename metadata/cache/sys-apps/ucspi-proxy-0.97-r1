@@ -1,22 +1,12 @@
->=dev-libs/bglibs-1.025 sys-apps/sed
-virtual/libc
-0
-http://untroubled.org/ucspi-proxy/archive/ucspi-proxy-0.97.tar.gz
-
-http://untroubled.org/ucspi-proxy/
-GPL-2
-A proxy program for two connections set up by a UCSPI server and a UCSPI client.
-~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/bglibs-1.025 sys-apps/sed
+DESCRIPTION=A proxy program for two connections set up by a UCSPI server and a UCSPI client.
+EAPI=0
+HOMEPAGE=http://untroubled.org/ucspi-proxy/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://untroubled.org/ucspi-proxy/archive/ucspi-proxy-0.97.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

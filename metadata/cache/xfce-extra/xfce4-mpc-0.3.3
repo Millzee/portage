@@ -1,22 +1,13 @@
-libmpd? ( >=media-libs/libmpd-0.15 ) dev-util/intltool dev-perl/XML-Parser >=xfce-base/xfce4-panel-4.4.0 >=sys-apps/sed-4 dev-util/pkgconfig
-libmpd? ( >=media-libs/libmpd-0.15 ) >=xfce-base/xfce4-panel-4.4.0
-0
-http://goodies.xfce.org/releases/xfce4-mpc-plugin/xfce4-mpc-plugin-0.3.3.tar.gz
-
-http://goodies.xfce.org
-GPL-2
-Music Player Daemon (mpd) panel plugin
-amd64 ~ppc64 x86
-xfce44 fdo-mime gnome2-utils
-debug libmpd
-
-
-
-0
-
-compile install postinst postrm preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup
+DEPEND=libmpd? ( >=media-libs/libmpd-0.15 ) dev-util/intltool dev-perl/XML-Parser >=xfce-base/xfce4-panel-4.4.0 >=sys-apps/sed-4 dev-util/pkgconfig
+DESCRIPTION=Music Player Daemon (mpd) panel plugin
+EAPI=0
+HOMEPAGE=http://goodies.xfce.org
+IUSE=debug libmpd
+KEYWORDS=amd64 ~ppc64 x86
+LICENSE=GPL-2
+RDEPEND=libmpd? ( >=media-libs/libmpd-0.15 ) >=xfce-base/xfce4-panel-4.4.0
+SLOT=0
+SRC_URI=http://goodies.xfce.org/releases/xfce4-mpc-plugin/xfce4-mpc-plugin-0.3.3.tar.gz
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	xfce44	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082913

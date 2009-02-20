@@ -1,22 +1,12 @@
-virtual/perl-Module-Build dev-perl/Class-Base >=dev-perl/Class-Data-Inheritable-0.02 dev-perl/Class-MakeMethods dev-perl/Log-Log4perl dev-perl/Parse-RecDescent dev-perl/Class-Accessor dev-perl/DBI >=dev-perl/yaml-0.39
-virtual/perl-Module-Build dev-perl/Class-Base >=dev-perl/Class-Data-Inheritable-0.02 dev-perl/Class-MakeMethods dev-perl/Log-Log4perl dev-perl/Parse-RecDescent dev-perl/Class-Accessor dev-perl/DBI >=dev-perl/yaml-0.39
-0
-mirror://cpan/authors/id/J/JR/JROBINSON//SQL-Translator-0.09000.tar.gz
-
-http://search.cpan.org/search?query=SQL-Translator&mode=dist
-|| ( Artistic GPL-2 )
-manipulate structured data definitions (SQL and more)
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-Module-Build dev-perl/Class-Base >=dev-perl/Class-Data-Inheritable-0.02 dev-perl/Class-MakeMethods dev-perl/Log-Log4perl dev-perl/Parse-RecDescent dev-perl/Class-Accessor dev-perl/DBI >=dev-perl/yaml-0.39
+DESCRIPTION=manipulate structured data definitions (SQL and more)
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=SQL-Translator&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-Module-Build dev-perl/Class-Base >=dev-perl/Class-Data-Inheritable-0.02 dev-perl/Class-MakeMethods dev-perl/Log-Log4perl dev-perl/Parse-RecDescent dev-perl/Class-Accessor dev-perl/DBI >=dev-perl/yaml-0.39
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JR/JROBINSON//SQL-Translator-0.09000.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

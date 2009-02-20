@@ -1,22 +1,12 @@
-x11-libs/libXext x11-libs/libXi || ( x11-apps/xdpyinfo x11-apps/xwininfo ) x11-proto/inputproto x11-proto/xextproto app-text/rman x11-misc/imake
-x11-libs/libXext x11-libs/libXi || ( x11-apps/xdpyinfo x11-apps/xwininfo )
-0
-http://www.bernstein-plus-sons.com/software/RasMol_2.7.2.1.1.tar.gz
-
-http://www.openrasmol.org/
-as-is
-Free program that displays molecular structure.
-~amd64 ppc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXext x11-libs/libXi || ( x11-apps/xdpyinfo x11-apps/xwininfo ) x11-proto/inputproto x11-proto/xextproto app-text/rman x11-misc/imake
+DESCRIPTION=Free program that displays molecular structure.
+EAPI=0
+HOMEPAGE=http://www.openrasmol.org/
+KEYWORDS=~amd64 ppc x86
+LICENSE=as-is
+RDEPEND=x11-libs/libXext x11-libs/libXi || ( x11-apps/xdpyinfo x11-apps/xwininfo )
+SLOT=0
+SRC_URI=http://www.bernstein-plus-sons.com/software/RasMol_2.7.2.1.1.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

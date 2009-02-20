@@ -1,22 +1,12 @@
-media-libs/libpng
-media-libs/libpng
-0
-http://www.contextfreeart.org/download/ContextFreeSource2.2beta2.tgz
-
-http://www.contextfreeart.org/
-GPL-2
-A program that generates images from instructions written in context-free grammar
-~x86
-toolchain-funcs versionator multilib portability eutils
-
-
-
-
-0
-
-install test unpack
-
-
-
-
-
+DEFINED_PHASES=install test unpack
+DEPEND=media-libs/libpng
+DESCRIPTION=A program that generates images from instructions written in context-free grammar
+EAPI=0
+HOMEPAGE=http://www.contextfreeart.org/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng
+SLOT=0
+SRC_URI=http://www.contextfreeart.org/download/ContextFreeSource2.2beta2.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

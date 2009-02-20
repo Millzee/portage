@@ -1,22 +1,13 @@
-dev-libs/libusb dev-libs/libdaemon >=dev-libs/libg15-1.2.0 perl? ( >=dev-perl/Inline-0.4 ) python? ( dev-lang/python ) kernel_linux? ( virtual/linux-sources )
-dev-libs/libusb dev-libs/libdaemon >=dev-libs/libg15-1.2.0 perl? ( >=dev-perl/Inline-0.4 ) python? ( dev-lang/python ) perl? ( dev-perl/GDGraph )
-0
-mirror://sourceforge/g15daemon/g15daemon-1.2.7.tar.bz2
-
-http://g15daemon.sourceforge.net/
-GPL-2
-G15daemon takes control of the G15 keyboard, through the linux kernel uinput device driver
-amd64 ppc ppc64 x86
-toolchain-funcs portability python multilib versionator alternatives base linux-info eutils perl-module
-perl python
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-libs/libusb dev-libs/libdaemon >=dev-libs/libg15-1.2.0 perl? ( >=dev-perl/Inline-0.4 ) python? ( dev-lang/python ) kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=G15daemon takes control of the G15 keyboard, through the linux kernel uinput device driver
+EAPI=0
+HOMEPAGE=http://g15daemon.sourceforge.net/
+IUSE=perl python
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libusb dev-libs/libdaemon >=dev-libs/libg15-1.2.0 perl? ( >=dev-perl/Inline-0.4 ) python? ( dev-lang/python ) perl? ( dev-perl/GDGraph )
+SLOT=0
+SRC_URI=mirror://sourceforge/g15daemon/g15daemon-1.2.7.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

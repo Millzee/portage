@@ -1,22 +1,12 @@
-perl? ( dev-lang/perl ) sys-libs/ncurses
-perl? ( dev-lang/perl ) sys-libs/ncurses
-0
-mirror://sourceforge/ojnk/pork-0.99.8.1.tar.gz
-
-http://dev.ojnk.net/
-GPL-2
-Console based AIM client that looks like ircII
-alpha amd64 mips ppc sparc x86
-
-perl
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=perl? ( dev-lang/perl ) sys-libs/ncurses
+DESCRIPTION=Console based AIM client that looks like ircII
+EAPI=0
+HOMEPAGE=http://dev.ojnk.net/
+IUSE=perl
+KEYWORDS=alpha amd64 mips ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=perl? ( dev-lang/perl ) sys-libs/ncurses
+SLOT=0
+SRC_URI=mirror://sourceforge/ojnk/pork-0.99.8.1.tar.gz
+_mtime_=1235082890

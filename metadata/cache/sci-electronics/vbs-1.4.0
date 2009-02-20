@@ -1,22 +1,13 @@
->=sys-devel/flex-2.3 >=sys-devel/bison-1.22
->=sys-devel/flex-2.3 >=sys-devel/bison-1.22
-0
-http://www.geda.seul.org/dist/vbs-1.4.0.tar.gz
-
-http://www.geda.seul.org/tools/vbs/index.html
-GPL-2
-vbs - the Verilog Behavioral Simulator
-ppc ~x86
-toolchain-funcs multilib portability eutils
-examples
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-devel/flex-2.3 >=sys-devel/bison-1.22
+DESCRIPTION=vbs - the Verilog Behavioral Simulator
+EAPI=0
+HOMEPAGE=http://www.geda.seul.org/tools/vbs/index.html
+IUSE=examples
+KEYWORDS=ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-devel/flex-2.3 >=sys-devel/bison-1.22
+SLOT=0
+SRC_URI=http://www.geda.seul.org/dist/vbs-1.4.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

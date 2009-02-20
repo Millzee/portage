@@ -1,22 +1,12 @@
->=app-i18n/ibus-1.1 app-i18n/libhangul nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( >=sys-devel/gettext-0.16.1 )
->=app-i18n/ibus-1.1 app-i18n/libhangul nls? ( virtual/libintl )
-0
-http://ibus.googlecode.com/files/ibus-hangul-1.1.0.20090211.tar.gz
-
-http://code.google.com/p/ibus/
-GPL-2
-The Hangul engine for IBus input platform
-~amd64 ~x86
-
-nls
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=>=app-i18n/ibus-1.1 app-i18n/libhangul nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( >=sys-devel/gettext-0.16.1 )
+DESCRIPTION=The Hangul engine for IBus input platform
+EAPI=0
+HOMEPAGE=http://code.google.com/p/ibus/
+IUSE=nls
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-i18n/ibus-1.1 app-i18n/libhangul nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=http://ibus.googlecode.com/files/ibus-hangul-1.1.0.20090211.tar.gz
+_mtime_=1235082848

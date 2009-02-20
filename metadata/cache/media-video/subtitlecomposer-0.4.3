@@ -1,22 +1,13 @@
-|| ( kde-base/kate:3.5 kde-base/kdebase:3.5 ) gstreamer? ( media-libs/gstreamer ) mplayer? ( media-video/mplayer ) xine? ( media-libs/xine-lib ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
-|| ( kde-base/kate:3.5 kde-base/kdebase:3.5 ) gstreamer? ( media-libs/gstreamer ) mplayer? ( media-video/mplayer ) xine? ( media-libs/xine-lib ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
-0
-mirror://sourceforge/subcomposer/subtitlecomposer-0.4.3.tar.bz2
-
-http://www.opendesktop.org/content/show.php/Subtitle+Composer?content=69822
-GPL-2
-Text-based subtitles editor
-~amd64 ~x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-gstreamer mplayer xine debug elibc_FreeBSD xinerama
-
-
-
-1
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=|| ( kde-base/kate:3.5 kde-base/kdebase:3.5 ) gstreamer? ( media-libs/gstreamer ) mplayer? ( media-video/mplayer ) xine? ( media-libs/xine-lib ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
+DESCRIPTION=Text-based subtitles editor
+EAPI=1
+HOMEPAGE=http://www.opendesktop.org/content/show.php/Subtitle+Composer?content=69822
+IUSE=gstreamer mplayer xine debug elibc_FreeBSD xinerama
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( kde-base/kate:3.5 kde-base/kdebase:3.5 ) gstreamer? ( media-libs/gstreamer ) mplayer? ( media-video/mplayer ) xine? ( media-libs/xine-lib ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
+SLOT=0
+SRC_URI=mirror://sourceforge/subcomposer/subtitlecomposer-0.4.3.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082870

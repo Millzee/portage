@@ -1,22 +1,13 @@
->=dev-lang/python-2.0 dev-libs/openssl sys-libs/ncurses snmp? ( net-analyzer/net-snmp )
->=dev-lang/python-2.0 dev-libs/openssl sys-libs/ncurses snmp? ( net-analyzer/net-snmp ) net-analyzer/traceroute
-0
-http://www.xorp.org/releases/1.4/xorp-1.4.tar.gz
-
-http://www.xorp.org/
-BSD
-The eXtensible Open Router Platform
-~x86
-toolchain-funcs multilib portability eutils
-static debug ipv6 snmp
-
-
-
-0
-
-compile install postinst setup test
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test
+DEPEND=>=dev-lang/python-2.0 dev-libs/openssl sys-libs/ncurses snmp? ( net-analyzer/net-snmp )
+DESCRIPTION=The eXtensible Open Router Platform
+EAPI=0
+HOMEPAGE=http://www.xorp.org/
+IUSE=static debug ipv6 snmp
+KEYWORDS=~x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/python-2.0 dev-libs/openssl sys-libs/ncurses snmp? ( net-analyzer/net-snmp ) net-analyzer/traceroute
+SLOT=0
+SRC_URI=http://www.xorp.org/releases/1.4/xorp-1.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

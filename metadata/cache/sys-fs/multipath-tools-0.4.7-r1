@@ -1,22 +1,12 @@
->=sys-fs/device-mapper-1.00.19 sys-fs/udev sys-fs/sysfsutils
->=sys-fs/device-mapper-1.00.19 sys-fs/udev sys-fs/sysfsutils
-0
-http://christophe.varoqui.free.fr/multipath-tools/multipath-tools-0.4.7.tar.bz2
-
-http://christophe.varoqui.free.fr/wiki/wakka.php?wiki=Home
-GPL-2
-Device mapper target autoconfig
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst unpack
+DEPEND=>=sys-fs/device-mapper-1.00.19 sys-fs/udev sys-fs/sysfsutils
+DESCRIPTION=Device mapper target autoconfig
+EAPI=0
+HOMEPAGE=http://christophe.varoqui.free.fr/wiki/wakka.php?wiki=Home
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-fs/device-mapper-1.00.19 sys-fs/udev sys-fs/sysfsutils
+SLOT=0
+SRC_URI=http://christophe.varoqui.free.fr/multipath-tools/multipath-tools-0.4.7.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

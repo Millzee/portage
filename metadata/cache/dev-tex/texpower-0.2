@@ -1,22 +1,13 @@
-virtual/latex-base >=sys-apps/texinfo-4.2-r5
-virtual/latex-base
-0
-mirror://sourceforge/texpower/texpower-0-2.tar.gz
-
-http://texpower.sourceforge.net/
-GPL-2
-A bundle of style and class files for creating dynamic online presentations.
-amd64 ppc sparc x86
-toolchain-funcs latex-package portability multilib base eutils
-doc
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/latex-base >=sys-apps/texinfo-4.2-r5
+DESCRIPTION=A bundle of style and class files for creating dynamic online presentations.
+EAPI=0
+HOMEPAGE=http://texpower.sourceforge.net/
+IUSE=doc
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/latex-base
+SLOT=0
+SRC_URI=mirror://sourceforge/texpower/texpower-0-2.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	latex-package	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

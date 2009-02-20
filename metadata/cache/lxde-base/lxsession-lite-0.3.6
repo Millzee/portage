@@ -1,22 +1,11 @@
-dev-util/pkgconfig sys-devel/gettext
-dev-libs/glib:2 x11-libs/gtk+:2 !lxde-base/lxsession
-0
-mirror://sourceforge/lxde/lxsession-lite-0.3.6.tar.gz
-
-http://lxde.sf.net/
-GPL-2
-LXDE session manager (lite version)
-~amd64 ~x86
-
-
-
-
-
-1
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-util/pkgconfig sys-devel/gettext
+DESCRIPTION=LXDE session manager (lite version)
+EAPI=1
+HOMEPAGE=http://lxde.sf.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/glib:2 x11-libs/gtk+:2 !lxde-base/lxsession
+SLOT=0
+SRC_URI=mirror://sourceforge/lxde/lxsession-lite-0.3.6.tar.gz
+_mtime_=1235082866

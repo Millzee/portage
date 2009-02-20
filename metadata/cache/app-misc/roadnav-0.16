@@ -1,22 +1,13 @@
-=x11-libs/wxGTK-2.6* =dev-libs/libroadnav-0.16 gps? ( sci-geosciences/gpsd ) festival? ( app-accessibility/festival )
-=x11-libs/wxGTK-2.6* gps? ( sci-geosciences/gpsd ) festival? ( app-accessibility/festival )
-0
-mirror://sourceforge/roadnav/roadnav-0.16.tar.gz
-
-http://roadnav.sourceforge.net
-GPL-2
-Roadnav is a street map application with routing and GPS support
-~x86 ~amd64
-toolchain-funcs multilib portability eutils wxwidgets
-gps festival openstreetmap scripting
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND==x11-libs/wxGTK-2.6* =dev-libs/libroadnav-0.16 gps? ( sci-geosciences/gpsd ) festival? ( app-accessibility/festival )
+DESCRIPTION=Roadnav is a street map application with routing and GPS support
+EAPI=0
+HOMEPAGE=http://roadnav.sourceforge.net
+IUSE=gps festival openstreetmap scripting
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND==x11-libs/wxGTK-2.6* gps? ( sci-geosciences/gpsd ) festival? ( app-accessibility/festival )
+SLOT=0
+SRC_URI=mirror://sourceforge/roadnav/roadnav-0.16.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

@@ -1,22 +1,13 @@
-sys-devel/gdb >=sys-libs/db-4.1 cvs? ( || ( =kde-base/cervisia-3.5* =kde-base/kdesdk-3.5* ) ) >=sys-devel/flex-2.5.33 =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
-sys-devel/gdb >=sys-libs/db-4.1 cvs? ( || ( =kde-base/cervisia-3.5* =kde-base/kdesdk-3.5* ) ) subversion? ( || ( =kde-base/kdesdk-kioslaves-3.5* =kde-base/kdesdk-3.5* ) ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
-0
-mirror://kde/stable/3.5.10/src/kdevelop-3.5.4.tar.bz2
-
-http://www.kdevelop.org
-GPL-2
-Integrated Development Environment for Unix, supporting KDE/Qt, C/C++ and many other languages.
-~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability kde-functions flag-o-matic kde versionator multilib base libtool db-use autotools eutils qt3
-ada clearcase cvs fortran haskell java pascal perforce perl php python ruby sql subversion debug elibc_FreeBSD xinerama
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=sys-devel/gdb >=sys-libs/db-4.1 cvs? ( || ( =kde-base/cervisia-3.5* =kde-base/kdesdk-3.5* ) ) >=sys-devel/flex-2.5.33 =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
+DESCRIPTION=Integrated Development Environment for Unix, supporting KDE/Qt, C/C++ and many other languages.
+EAPI=0
+HOMEPAGE=http://www.kdevelop.org
+IUSE=ada clearcase cvs fortran haskell java pascal perforce perl php python ruby sql subversion debug elibc_FreeBSD xinerama
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=sys-devel/gdb >=sys-libs/db-4.1 cvs? ( || ( =kde-base/cervisia-3.5* =kde-base/kdesdk-3.5* ) ) subversion? ( || ( =kde-base/kdesdk-kioslaves-3.5* =kde-base/kdesdk-3.5* ) ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
+SLOT=0
+SRC_URI=mirror://kde/stable/3.5.10/src/kdevelop-3.5.4.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	db-use	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

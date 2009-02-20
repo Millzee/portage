@@ -1,22 +1,12 @@
->=media-sound/quodlibet-0.21
->=media-sound/quodlibet-0.21
-0
-mirror://gentoo/quodlibet-autorating-3316.py.bz2
-
-http://www.sacredchao.net/quodlibet/file/trunk/plugins/events/autorating.py
-GPL-2
-Rate songs automatically when they are played or skipped.
-~amd64 ~ppc64 ~x86
-python multilib toolchain-funcs alternatives
-
-
-
-
-0
-
-install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm
+DEPEND=>=media-sound/quodlibet-0.21
+DESCRIPTION=Rate songs automatically when they are played or skipped.
+EAPI=0
+HOMEPAGE=http://www.sacredchao.net/quodlibet/file/trunk/plugins/events/autorating.py
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-sound/quodlibet-0.21
+SLOT=0
+SRC_URI=mirror://gentoo/quodlibet-autorating-3316.py.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

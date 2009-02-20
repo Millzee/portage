@@ -1,22 +1,12 @@
->=dev-libs/libpcre-3.4 >=media-libs/gd-1.8.4-r2[jpeg,png] sys-libs/zlib media-libs/jpeg media-libs/libpng
->=dev-libs/libpcre-3.4 >=media-libs/gd-1.8.4-r2[jpeg,png] sys-libs/zlib media-libs/jpeg media-libs/libpng
-0
-http://www.analog.cx/analog-6.0.tar.gz
-
-http://www.analog.cx/
-GPL-2
-A webserver log analyzer
-~alpha ~amd64 ~arm ~hppa ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-2
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/libpcre-3.4 >=media-libs/gd-1.8.4-r2[jpeg,png] sys-libs/zlib media-libs/jpeg media-libs/libpng
+DESCRIPTION=A webserver log analyzer
+EAPI=2
+HOMEPAGE=http://www.analog.cx/
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libpcre-3.4 >=media-libs/gd-1.8.4-r2[jpeg,png] sys-libs/zlib media-libs/jpeg media-libs/libpng
+SLOT=0
+SRC_URI=http://www.analog.cx/analog-6.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

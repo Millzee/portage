@@ -1,22 +1,13 @@
-x11-libs/qt-core:4 x11-libs/qt-dbus:4 clucene? ( dev-cpp/clucene ) redland? ( >=dev-libs/rasqal-0.9.15 >=dev-libs/redland-1.0.6 media-libs/raptor ) sesame2? ( >=virtual/jdk-1.6.0 ) >=dev-util/cmake-2.6.2 doc? ( app-doc/doxygen ) >=dev-util/cmake-2.4.6 sesame2? ( >=dev-java/java-config-2.1.6 )
-x11-libs/qt-core:4 x11-libs/qt-dbus:4 clucene? ( dev-cpp/clucene ) redland? ( >=dev-libs/rasqal-0.9.15 >=dev-libs/redland-1.0.6 media-libs/raptor ) sesame2? ( >=virtual/jdk-1.6.0 ) sesame2? ( >=dev-java/java-config-2.1.6 )
-0
-mirror://sourceforge/soprano/soprano-2.2.1.tar.bz2
-
-http://sourceforge.net/projects/soprano
-LGPL-2
-Soprano is a library which provides a nice QT interface to RDF storage solutions.
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs portability flag-o-matic java-utils-2 versionator multilib java-pkg-opt-2 base cmake-utils eutils
-+clucene debug doc elibc_FreeBSD redland +sesame2 elibc_FreeBSD sesame2
-
-
-
-2
-
-compile configure install prepare setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install preinst prepare setup test unpack
+DEPEND=x11-libs/qt-core:4 x11-libs/qt-dbus:4 clucene? ( dev-cpp/clucene ) redland? ( >=dev-libs/rasqal-0.9.15 >=dev-libs/redland-1.0.6 media-libs/raptor ) sesame2? ( >=virtual/jdk-1.6.0 ) >=dev-util/cmake-2.6.2 doc? ( app-doc/doxygen ) >=dev-util/cmake-2.4.6 sesame2? ( >=dev-java/java-config-2.1.6 )
+DESCRIPTION=Soprano is a library which provides a nice QT interface to RDF storage solutions.
+EAPI=2
+HOMEPAGE=http://sourceforge.net/projects/soprano
+IUSE=+clucene debug doc elibc_FreeBSD redland +sesame2 elibc_FreeBSD sesame2
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=LGPL-2
+RDEPEND=x11-libs/qt-core:4 x11-libs/qt-dbus:4 clucene? ( dev-cpp/clucene ) redland? ( >=dev-libs/rasqal-0.9.15 >=dev-libs/redland-1.0.6 media-libs/raptor ) sesame2? ( >=virtual/jdk-1.6.0 ) sesame2? ( >=dev-java/java-config-2.1.6 )
+SLOT=0
+SRC_URI=mirror://sourceforge/soprano/soprano-2.2.1.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	java-pkg-opt-2	/home/Funtoo/portage/eclass	1235083217	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

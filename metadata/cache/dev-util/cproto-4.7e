@@ -1,22 +1,9 @@
-
-
-0
-ftp://invisible-island.net/cproto/cproto-4_7e.tgz
-
-http://invisible-island.net/cproto/
-public-domain
-Generate C function prototypes from C source code
-alpha amd64 ppc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Generate C function prototypes from C source code
+EAPI=0
+HOMEPAGE=http://invisible-island.net/cproto/
+KEYWORDS=alpha amd64 ppc x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=ftp://invisible-island.net/cproto/cproto-4_7e.tgz
+_mtime_=1235082858

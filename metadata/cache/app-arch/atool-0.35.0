@@ -1,22 +1,11 @@
-dev-lang/perl !app-text/adiff
-dev-lang/perl !app-text/adiff
-0
-http://savannah.nongnu.org/download/atool/atool-0.35.0.tar.gz
-
-http://www.nongnu.org/atool/
-GPL-2
-a script for managing file archives of various types
-amd64 ppc sparc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-lang/perl !app-text/adiff
+DESCRIPTION=a script for managing file archives of various types
+EAPI=0
+HOMEPAGE=http://www.nongnu.org/atool/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl !app-text/adiff
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/atool/atool-0.35.0.tar.gz
+_mtime_=1235082846

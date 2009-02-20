@@ -1,22 +1,12 @@
-dev-lang/python virtual/python
-dev-lang/python
-3
-http://xdelta.googlecode.com/files/xdelta3.0t.tar.gz
-
-http://xdelta.org
-GPL-2
-a binary diff and differential compression tools. VCDIFF (RFC 3284) delta compression.
-~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=dev-lang/python virtual/python
+DESCRIPTION=a binary diff and differential compression tools. VCDIFF (RFC 3284) delta compression.
+EAPI=0
+HOMEPAGE=http://xdelta.org
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/python
+SLOT=3
+SRC_URI=http://xdelta.googlecode.com/files/xdelta3.0t.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

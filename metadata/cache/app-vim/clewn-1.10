@@ -1,22 +1,13 @@
->=app-editors/gvim-7.0 sys-libs/readline
->=app-editors/gvim-7.0 sys-libs/readline sys-devel/gdb
-0
-mirror://sourceforge/clewn/clewn-1.10.tar.gz
-
-http://clewn.sourceforge.net/
-GPL-2
-A small utility which allows debugging from within vim
-~x86
-toolchain-funcs vim-doc multilib portability eutils
-debug
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=>=app-editors/gvim-7.0 sys-libs/readline
+DESCRIPTION=A small utility which allows debugging from within vim
+EAPI=0
+HOMEPAGE=http://clewn.sourceforge.net/
+IUSE=debug
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=app-editors/gvim-7.0 sys-libs/readline sys-devel/gdb
+SLOT=0
+SRC_URI=mirror://sourceforge/clewn/clewn-1.10.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	vim-doc	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

@@ -1,22 +1,11 @@
-x11-libs/libX11 x11-libs/libXmu x11-libs/libXt x11-libs/libICE x11-libs/libSM x11-proto/xextproto x11-proto/xproto >=x11-libs/libast-0.6.1 media-libs/imlib2 escreen? ( app-misc/screen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool dev-util/subversion net-misc/rsync
-x11-libs/libX11 x11-libs/libXmu x11-libs/libXt x11-libs/libICE x11-libs/libSM x11-proto/xextproto x11-proto/xproto >=x11-libs/libast-0.6.1 media-libs/imlib2 escreen? ( app-misc/screen )
-0
-
-
-http://www.eterm.org/
-BSD
-A vt102 terminal emulator for X
-
-toolchain-funcs portability multilib subversion libtool autotools eutils
-escreen minimal mmx sse2 unicode
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=x11-libs/libX11 x11-libs/libXmu x11-libs/libXt x11-libs/libICE x11-libs/libSM x11-proto/xextproto x11-proto/xproto >=x11-libs/libast-0.6.1 media-libs/imlib2 escreen? ( app-misc/screen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool dev-util/subversion net-misc/rsync
+DESCRIPTION=A vt102 terminal emulator for X
+EAPI=0
+HOMEPAGE=http://www.eterm.org/
+IUSE=escreen minimal mmx sse2 unicode
+LICENSE=BSD
+RDEPEND=x11-libs/libX11 x11-libs/libXmu x11-libs/libXt x11-libs/libICE x11-libs/libSM x11-proto/xextproto x11-proto/xproto >=x11-libs/libast-0.6.1 media-libs/imlib2 escreen? ( app-misc/screen )
+SLOT=0
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

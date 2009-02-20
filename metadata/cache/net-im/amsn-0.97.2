@@ -1,22 +1,14 @@
->=dev-lang/tcl-8.4 >=dev-lang/tk-8.4 >=dev-tcltk/tls-1.4.1 media-libs/jpeg media-libs/libpng >=dev-tcltk/snack-2.2.10 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
->=dev-lang/tcl-8.4 >=dev-lang/tk-8.4 >=dev-tcltk/tls-1.4.1 media-libs/jpeg media-libs/libpng >=dev-tcltk/snack-2.2.10
-0
-mirror://sourceforge/amsn/amsn-0.97.2.tar.bz2
-test
-http://www.amsn-project.net
-GPL-2
-Alvaro's Messenger client for MSN
-alpha amd64 hppa ppc -sparc x86
-toolchain-funcs portability multilib gnome2-utils libtool fdo-mime autotools eutils
-debug static
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-lang/tcl-8.4 >=dev-lang/tk-8.4 >=dev-tcltk/tls-1.4.1 media-libs/jpeg media-libs/libpng >=dev-tcltk/snack-2.2.10 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
+DESCRIPTION=Alvaro's Messenger client for MSN
+EAPI=0
+HOMEPAGE=http://www.amsn-project.net
+IUSE=debug static
+KEYWORDS=alpha amd64 hppa ppc -sparc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/tcl-8.4 >=dev-lang/tk-8.4 >=dev-tcltk/tls-1.4.1 media-libs/jpeg media-libs/libpng >=dev-tcltk/snack-2.2.10
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/amsn/amsn-0.97.2.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

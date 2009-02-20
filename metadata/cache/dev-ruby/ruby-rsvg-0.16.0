@@ -1,22 +1,13 @@
->=gnome-base/librsvg-2.8 >=dev-ruby/ruby-glib2-0.16.0 >=dev-ruby/ruby-gdkpixbuf2-0.16.0 cairo? ( dev-ruby/rcairo ) dev-util/pkgconfig virtual/ruby virtual/ruby
->=gnome-base/librsvg-2.8 >=dev-ruby/ruby-glib2-0.16.0 >=dev-ruby/ruby-gdkpixbuf2-0.16.0 cairo? ( dev-ruby/rcairo ) virtual/ruby virtual/ruby
-0
-mirror://sourceforge/ruby-gnome2/ruby-gnome2-all-0.16.0.tar.gz
-
-http://ruby-gnome2.sourceforge.jp/
-Ruby
-Ruby bindings for librsvg
-~amd64 ~ia64 ~x86
-toolchain-funcs portability ruby-gnome2 multilib ruby eutils
-cairo
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=gnome-base/librsvg-2.8 >=dev-ruby/ruby-glib2-0.16.0 >=dev-ruby/ruby-gdkpixbuf2-0.16.0 cairo? ( dev-ruby/rcairo ) dev-util/pkgconfig virtual/ruby virtual/ruby
+DESCRIPTION=Ruby bindings for librsvg
+EAPI=0
+HOMEPAGE=http://ruby-gnome2.sourceforge.jp/
+IUSE=cairo
+KEYWORDS=~amd64 ~ia64 ~x86
+LICENSE=Ruby
+RDEPEND=>=gnome-base/librsvg-2.8 >=dev-ruby/ruby-glib2-0.16.0 >=dev-ruby/ruby-gdkpixbuf2-0.16.0 cairo? ( dev-ruby/rcairo ) virtual/ruby virtual/ruby
+SLOT=0
+SRC_URI=mirror://sourceforge/ruby-gnome2/ruby-gnome2-all-0.16.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	ruby-gnome2	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

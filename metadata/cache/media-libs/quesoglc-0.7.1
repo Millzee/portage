@@ -1,22 +1,12 @@
-virtual/opengl virtual/glu media-libs/fontconfig >=media-libs/freetype-2 dev-libs/fribidi dev-util/pkgconfig doc? ( app-doc/doxygen )
-virtual/opengl virtual/glu media-libs/fontconfig >=media-libs/freetype-2 dev-libs/fribidi
-0
-mirror://sourceforge/quesoglc/quesoglc-0.7.1-free.tar.bz2
-
-http://quesoglc.sourceforge.net/
-LGPL-2.1
-A free implementation of the OpenGL Character Renderer (GLC)
-amd64 ~ppc sparc x86
-
-doc examples
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/opengl virtual/glu media-libs/fontconfig >=media-libs/freetype-2 dev-libs/fribidi dev-util/pkgconfig doc? ( app-doc/doxygen )
+DESCRIPTION=A free implementation of the OpenGL Character Renderer (GLC)
+EAPI=0
+HOMEPAGE=http://quesoglc.sourceforge.net/
+IUSE=doc examples
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=LGPL-2.1
+RDEPEND=virtual/opengl virtual/glu media-libs/fontconfig >=media-libs/freetype-2 dev-libs/fribidi
+SLOT=0
+SRC_URI=mirror://sourceforge/quesoglc/quesoglc-0.7.1-free.tar.bz2
+_mtime_=1235082867

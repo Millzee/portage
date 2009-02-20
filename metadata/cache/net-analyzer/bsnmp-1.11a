@@ -1,22 +1,13 @@
-dev-libs/libbegemot tcpd? ( sys-apps/tcp-wrappers )
-dev-libs/libbegemot tcpd? ( sys-apps/tcp-wrappers )
-0
-http://people.freebsd.org/~harti/bsnmp/bsnmp-1.11a.tar.gz
-
-http://people.freebsd.org/~harti/
-BSD
-Mini-SNMP Daemon and Library
-~x86-fbsd
-toolchain-funcs multilib portability eutils flag-o-matic
-tcpd
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/libbegemot tcpd? ( sys-apps/tcp-wrappers )
+DESCRIPTION=Mini-SNMP Daemon and Library
+EAPI=0
+HOMEPAGE=http://people.freebsd.org/~harti/
+IUSE=tcpd
+KEYWORDS=~x86-fbsd
+LICENSE=BSD
+RDEPEND=dev-libs/libbegemot tcpd? ( sys-apps/tcp-wrappers )
+SLOT=0
+SRC_URI=http://people.freebsd.org/~harti/bsnmp/bsnmp-1.11a.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082885

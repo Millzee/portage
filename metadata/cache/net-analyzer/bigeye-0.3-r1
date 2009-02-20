@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-http://violating.us/projects/bigeye/download/bigeye-0.3.tgz mirror://gentoo/bigeye-0.3-gcc34.diff.bz2
-
-http://violating.us/projects/bigeye/
-GPL-2
-Bigeye is a network utility dump and simple honeypot utility
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc
+DESCRIPTION=Bigeye is a network utility dump and simple honeypot utility
+EAPI=0
+HOMEPAGE=http://violating.us/projects/bigeye/
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://violating.us/projects/bigeye/download/bigeye-0.3.tgz mirror://gentoo/bigeye-0.3-gcc34.diff.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082885

@@ -1,22 +1,14 @@
-sys-devel/binutils-nios2 sys-devel/gnuconfig >=sys-apps/sed-4
-sys-devel/binutils-nios2
-nios2-elf-3.4
-mirror://gentoo/niosii-gnutools-src-5.1.tgz mirror://gentoo/nios2-5.1.patch.bz2
-strip
-http://gcc.gnu.org/
-GPL-2 LGPL-2.1
-Compiler for Nios2 targets
--* ~amd64 ~ppc ~ppc64 ~x86
-toolchain portability flag-o-matic versionator multilib fixheadtails libtool gnuconfig toolchain-funcs eutils
-multislot test
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=sys-devel/binutils-nios2 sys-devel/gnuconfig >=sys-apps/sed-4
+DESCRIPTION=Compiler for Nios2 targets
+EAPI=0
+HOMEPAGE=http://gcc.gnu.org/
+IUSE=multislot test
+KEYWORDS=-* ~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2 LGPL-2.1
+RDEPEND=sys-devel/binutils-nios2
+RESTRICT=strip
+SLOT=nios2-elf-3.4
+SRC_URI=mirror://gentoo/niosii-gnutools-src-5.1.tgz mirror://gentoo/nios2-5.1.patch.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	gnuconfig	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain	/home/Funtoo/portage/eclass	1235083218	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082906

@@ -1,22 +1,12 @@
->=app-misc/beagle-0.2 >=sys-fs/fuse-2.5
->=app-misc/beagle-0.2 >=sys-fs/fuse-2.5
-0
-http://www.kernel.org/pub/linux/kernel/people/rml/fuse/beaglefs/beaglefs-1.0.3.tar.bz2
-
-http://www.kernel.org/pub/linux/kernel/people/rml/fuse/beaglefs/
-GPL-2
-beaglefs implements a filesystem representing a live Beagle query.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=app-misc/beagle-0.2 >=sys-fs/fuse-2.5
+DESCRIPTION=beaglefs implements a filesystem representing a live Beagle query.
+EAPI=0
+HOMEPAGE=http://www.kernel.org/pub/linux/kernel/people/rml/fuse/beaglefs/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-misc/beagle-0.2 >=sys-fs/fuse-2.5
+SLOT=0
+SRC_URI=http://www.kernel.org/pub/linux/kernel/people/rml/fuse/beaglefs/beaglefs-1.0.3.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

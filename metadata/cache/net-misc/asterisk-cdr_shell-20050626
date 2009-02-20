@@ -1,22 +1,12 @@
->=net-misc/asterisk-1.0.7-r1 !>=net-misc/asterisk-1.2.0
->=net-misc/asterisk-1.0.7-r1 !>=net-misc/asterisk-1.2.0
-0
-mirror://gentoo/asterisk-cdr_shell-20050626.tar.bz2
-
-http://www.pbxfreeware.org/
-GPL-2
-Asterisk plugin to use an external shell script for cdr handling
-~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=net-misc/asterisk-1.0.7-r1 !>=net-misc/asterisk-1.2.0
+DESCRIPTION=Asterisk plugin to use an external shell script for cdr handling
+EAPI=0
+HOMEPAGE=http://www.pbxfreeware.org/
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=net-misc/asterisk-1.0.7-r1 !>=net-misc/asterisk-1.2.0
+SLOT=0
+SRC_URI=mirror://gentoo/asterisk-cdr_shell-20050626.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

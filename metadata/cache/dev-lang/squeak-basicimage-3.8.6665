@@ -1,22 +1,11 @@
-app-arch/unzip
-
-3.8
-http://ftp.squeak.org/current_stable/Squeak3.8-6665-basic.zip http://ftp.squeak.org/current_stable/SqueakV3.sources.gz
-
-http://www.squeak.org/
-Apple
-Squeak basic image file
-~x86
-
-
-
-
-virtual/squeak-image
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=app-arch/unzip
+DESCRIPTION=Squeak basic image file
+EAPI=0
+HOMEPAGE=http://www.squeak.org/
+KEYWORDS=~x86
+LICENSE=Apple
+PROVIDE=virtual/squeak-image
+SLOT=3.8
+SRC_URI=http://ftp.squeak.org/current_stable/Squeak3.8-6665-basic.zip http://ftp.squeak.org/current_stable/SqueakV3.sources.gz
+_mtime_=1235082853

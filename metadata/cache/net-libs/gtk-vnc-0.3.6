@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.10 >=net-libs/gnutls-1.4 python? ( >=dev-python/pygtk-2 ) opengl? ( >=x11-libs/gtkglext-1.2 ) dev-util/pkgconfig >=sys-apps/sed-4
->=x11-libs/gtk+-2.10 >=net-libs/gnutls-1.4 python? ( >=dev-python/pygtk-2 ) opengl? ( >=x11-libs/gtkglext-1.2 )
-0
-mirror://sourceforge/gtk-vnc/gtk-vnc-0.3.6.tar.gz
-
-http://gtk-vnc.sourceforge.net/
-GPL-2
-VNC viewer widget for GTK.
-alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
-gnome.org fdo-mime gnome2 gnome2-utils libtool
-examples python opengl
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=x11-libs/gtk+-2.10 >=net-libs/gnutls-1.4 python? ( >=dev-python/pygtk-2 ) opengl? ( >=x11-libs/gtkglext-1.2 ) dev-util/pkgconfig >=sys-apps/sed-4
+DESCRIPTION=VNC viewer widget for GTK.
+EAPI=0
+HOMEPAGE=http://gtk-vnc.sourceforge.net/
+IUSE=examples python opengl
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.10 >=net-libs/gnutls-1.4 python? ( >=dev-python/pygtk-2 ) opengl? ( >=x11-libs/gtkglext-1.2 )
+SLOT=0
+SRC_URI=mirror://sourceforge/gtk-vnc/gtk-vnc-0.3.6.tar.gz
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

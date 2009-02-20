@@ -1,22 +1,13 @@
-fam? ( || ( app-admin/gamin app-admin/fam ) )
-fam? ( || ( app-admin/gamin app-admin/fam ) )
-0
-http://www.vanheusden.com/turbotail/turbotail-0.3.tgz
-
-http://www.vanheusden.com/turbotail/
-GPL-2
-drop-in replacement for 'tail' which uses the kernel DNOTIFY-api
-~amd64 hppa ~ppc ~sparc ~x86
-toolchain-funcs multilib
-fam
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=fam? ( || ( app-admin/gamin app-admin/fam ) )
+DESCRIPTION=drop-in replacement for 'tail' which uses the kernel DNOTIFY-api
+EAPI=0
+HOMEPAGE=http://www.vanheusden.com/turbotail/
+IUSE=fam
+KEYWORDS=~amd64 hppa ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=fam? ( || ( app-admin/gamin app-admin/fam ) )
+SLOT=0
+SRC_URI=http://www.vanheusden.com/turbotail/turbotail-0.3.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

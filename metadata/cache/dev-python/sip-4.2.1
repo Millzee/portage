@@ -1,22 +1,13 @@
-virtual/libc =x11-libs/qt-3* >=dev-lang/python-2.3
-virtual/libc =x11-libs/qt-3* >=dev-lang/python-2.3
-0
-mirror://gentoo/sip-4.2.1.tar.gz
-
-http://www.riverbankcomputing.co.uk/sip/
-sip
-SIP is a tool for generating bindings for C++ classes so that they can be used by Python.
-alpha amd64 ia64 ppc ppc64 sparc x86
-python multilib toolchain-funcs alternatives
-debug doc
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=virtual/libc =x11-libs/qt-3* >=dev-lang/python-2.3
+DESCRIPTION=SIP is a tool for generating bindings for C++ classes so that they can be used by Python.
+EAPI=0
+HOMEPAGE=http://www.riverbankcomputing.co.uk/sip/
+IUSE=debug doc
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+LICENSE=sip
+RDEPEND=virtual/libc =x11-libs/qt-3* >=dev-lang/python-2.3
+SLOT=0
+SRC_URI=mirror://gentoo/sip-4.2.1.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

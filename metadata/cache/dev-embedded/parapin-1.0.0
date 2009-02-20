@@ -1,22 +1,12 @@
-doc? ( dev-tex/latex2html )
-
-0
-mirror://sourceforge/parapin/parapin-1.0.0.tar.gz
-
-http://parapin.sourceforge.net/
-LGPL-2.1
-A parallel port pin programming library
-x86 ~amd64
-toolchain-funcs multilib
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=doc? ( dev-tex/latex2html )
+DESCRIPTION=A parallel port pin programming library
+EAPI=0
+HOMEPAGE=http://parapin.sourceforge.net/
+IUSE=doc
+KEYWORDS=x86 ~amd64
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=mirror://sourceforge/parapin/parapin-1.0.0.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

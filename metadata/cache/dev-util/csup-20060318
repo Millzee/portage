@@ -1,22 +1,12 @@
-dev-libs/openssl sys-libs/zlib >=sys-devel/bison-2.1
-dev-libs/openssl sys-libs/zlib !>=sys-freebsd/freebsd-ubin-6.2_beta1
-0
-http://mu.org/~mux/csup-snap-20060318.tgz
-
-http://www.mu.org/~mux/csup.html
-BSD
-C-based rewrite of CVSup (software for distributing and updating collections of files accross a network)
-~amd64 ~ppc ~x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/openssl sys-libs/zlib >=sys-devel/bison-2.1
+DESCRIPTION=C-based rewrite of CVSup (software for distributing and updating collections of files accross a network)
+EAPI=0
+HOMEPAGE=http://www.mu.org/~mux/csup.html
+KEYWORDS=~amd64 ~ppc ~x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND=dev-libs/openssl sys-libs/zlib !>=sys-freebsd/freebsd-ubin-6.2_beta1
+SLOT=0
+SRC_URI=http://mu.org/~mux/csup-snap-20060318.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

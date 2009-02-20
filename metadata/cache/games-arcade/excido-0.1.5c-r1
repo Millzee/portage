@@ -1,22 +1,12 @@
-dev-games/physfs media-libs/libsdl[opengl] media-libs/sdl-mixer media-libs/sdl-ttf media-libs/sdl-image[png] media-libs/openal media-libs/freealut
-dev-games/physfs media-libs/libsdl[opengl] media-libs/sdl-mixer media-libs/sdl-ttf media-libs/sdl-image[png] media-libs/openal media-libs/freealut
-0
-http://icculus.org/excido/excido-0.1.5c-src.tar.bz2
-
-http://icculus.org/excido/
-GPL-2
-A fast paced action game
-~alpha ~amd64 ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=dev-games/physfs media-libs/libsdl[opengl] media-libs/sdl-mixer media-libs/sdl-ttf media-libs/sdl-image[png] media-libs/openal media-libs/freealut
+DESCRIPTION=A fast paced action game
+EAPI=2
+HOMEPAGE=http://icculus.org/excido/
+KEYWORDS=~alpha ~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-games/physfs media-libs/libsdl[opengl] media-libs/sdl-mixer media-libs/sdl-ttf media-libs/sdl-image[png] media-libs/openal media-libs/freealut
+SLOT=0
+SRC_URI=http://icculus.org/excido/excido-0.1.5c-src.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

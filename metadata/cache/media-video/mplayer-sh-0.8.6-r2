@@ -1,22 +1,11 @@
-
->=media-video/mplayer-0.90_rc4
-0
-http://batleth.sapienti-sat.org/projects/VDR/mplayer.sh-0.8.6.tar.gz
-
-http://batleth.sapienti-sat.org/
-as-is
-Video Disk Recorder Mplayer API Script
-x86 ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=Video Disk Recorder Mplayer API Script
+EAPI=0
+HOMEPAGE=http://batleth.sapienti-sat.org/
+KEYWORDS=x86 ~amd64
+LICENSE=as-is
+RDEPEND=>=media-video/mplayer-0.90_rc4
+SLOT=0
+SRC_URI=http://batleth.sapienti-sat.org/projects/VDR/mplayer.sh-0.8.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

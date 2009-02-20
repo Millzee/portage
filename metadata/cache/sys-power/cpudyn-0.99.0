@@ -1,22 +1,10 @@
-
-
-0
-http://mnm.uib.es/~gallir/cpudyn/download/cpudyn-0.99.0.tgz
-
-http://mnm.uib.es/~gallir/cpudyn/
-GPL-2
-A daemon to control laptop power consumption via cpufreq and disk standby
-x86 ppc amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=A daemon to control laptop power consumption via cpufreq and disk standby
+EAPI=0
+HOMEPAGE=http://mnm.uib.es/~gallir/cpudyn/
+KEYWORDS=x86 ppc amd64
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://mnm.uib.es/~gallir/cpudyn/download/cpudyn-0.99.0.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

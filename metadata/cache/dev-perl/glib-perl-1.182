@@ -1,22 +1,12 @@
->=dev-libs/glib-2 dev-lang/perl dev-util/pkgconfig >=dev-perl/extutils-pkgconfig-1.0 >=dev-perl/extutils-depends-0.300
->=dev-libs/glib-2 dev-lang/perl
-0
-mirror://cpan/authors/id/T/TS/TSCH/Glib-1.182.tar.gz
-
-http://gtk2-perl.sf.net/
-LGPL-2.1
-Glib - Perl wrappers for the GLib utility and Object libraries
-alpha amd64 hppa ia64 ppc ~ppc64 sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-libs/glib-2 dev-lang/perl dev-util/pkgconfig >=dev-perl/extutils-pkgconfig-1.0 >=dev-perl/extutils-depends-0.300
+DESCRIPTION=Glib - Perl wrappers for the GLib utility and Object libraries
+EAPI=0
+HOMEPAGE=http://gtk2-perl.sf.net/
+KEYWORDS=alpha amd64 hppa ia64 ppc ~ppc64 sparc x86
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-libs/glib-2 dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TS/TSCH/Glib-1.182.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

@@ -1,22 +1,13 @@
-virtual/python virtual/python
-virtual/python
-0
-http://trific.ath.cx/Ftp//python/levenshtein/python-Levenshtein-0.10.tar.bz2
-
-http://trific.ath.cx/resources/python/levenshtein/
-GPL-2
-Levenshtein contains functions for fast computation of Levenshtein (edit) distance, and edit operations
-~amd64 ~ia64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-doc
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/python virtual/python
+DESCRIPTION=Levenshtein contains functions for fast computation of Levenshtein (edit) distance, and edit operations
+EAPI=0
+HOMEPAGE=http://trific.ath.cx/resources/python/levenshtein/
+IUSE=doc
+KEYWORDS=~amd64 ~ia64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/python
+SLOT=0
+SRC_URI=http://trific.ath.cx/Ftp//python/levenshtein/python-Levenshtein-0.10.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

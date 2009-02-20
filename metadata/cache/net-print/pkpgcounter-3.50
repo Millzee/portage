@@ -1,22 +1,13 @@
-virtual/python dev-python/imaging x86? ( psyco? ( dev-python/psyco ) ) virtual/python
-virtual/python dev-python/imaging x86? ( psyco? ( dev-python/psyco ) )
-0
-http://www.pykota.com/software/pkpgcounter/download/tarballs/pkpgcounter-3.50.tar.gz
-
-http://www.pykota.com/software/pkpgcounter
-GPL-2
-pkpgcounter is a python generic PDL (Page Description Language) parser
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-psyco
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/python dev-python/imaging x86? ( psyco? ( dev-python/psyco ) ) virtual/python
+DESCRIPTION=pkpgcounter is a python generic PDL (Page Description Language) parser
+EAPI=0
+HOMEPAGE=http://www.pykota.com/software/pkpgcounter
+IUSE=psyco
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/python dev-python/imaging x86? ( psyco? ( dev-python/psyco ) )
+SLOT=0
+SRC_URI=http://www.pykota.com/software/pkpgcounter/download/tarballs/pkpgcounter-3.50.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

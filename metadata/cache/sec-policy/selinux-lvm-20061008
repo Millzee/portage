@@ -1,22 +1,10 @@
->=sec-policy/selinux-base-policy-20060101
->=sec-policy/selinux-base-policy-20060101
-0
-
-
-http://hardened.gentoo.org
-GPL-2
-SELinux policy for Logical Volume Management
-alpha amd64 mips ppc sparc x86
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DEPEND=>=sec-policy/selinux-base-policy-20060101
+DESCRIPTION=SELinux policy for Logical Volume Management
+EAPI=0
+HOMEPAGE=http://hardened.gentoo.org
+KEYWORDS=alpha amd64 mips ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=sec-policy/selinux-base-policy-20060101
+SLOT=0
+_mtime_=1235082899

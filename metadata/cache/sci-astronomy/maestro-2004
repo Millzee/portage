@@ -1,22 +1,10 @@
-
->=virtual/jre-1.4
-0
-http://freecache.org/http://mars9.telascience.org:81/softwaredownload/Maestro-Linux.tar.gz
-
-http://mars.telascience.org/
-maestro
-Maestro is a public release software package that NASA scientists use to operate the Spirit and Opportunity Rovers.
-~amd64 x86
-
-
-
-
-
-0
-
-install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=Maestro is a public release software package that NASA scientists use to operate the Spirit and Opportunity Rovers.
+EAPI=0
+HOMEPAGE=http://mars.telascience.org/
+KEYWORDS=~amd64 x86
+LICENSE=maestro
+RDEPEND=>=virtual/jre-1.4
+SLOT=0
+SRC_URI=http://freecache.org/http://mars9.telascience.org:81/softwaredownload/Maestro-Linux.tar.gz
+_mtime_=1235082897

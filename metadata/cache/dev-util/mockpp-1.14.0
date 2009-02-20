@@ -1,22 +1,13 @@
-cppunit? ( dev-util/cppunit ) boost? ( dev-libs/boost ) doc? ( app-doc/doxygen app-text/docbook-xml-dtd dev-java/fop ) =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool
-cppunit? ( dev-util/cppunit ) boost? ( dev-libs/boost )
-0
-mirror://sourceforge/mockpp/mockpp-1.14.0-src.tar.bz2
-
-http://mockpp.sourceforge.net/
-GPL-2
-mockpp is a platform independent generic unit testing framework for C++.
-~x86
-toolchain-funcs portability multilib libtool autotools eutils
-boost cppunit doc
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=cppunit? ( dev-util/cppunit ) boost? ( dev-libs/boost ) doc? ( app-doc/doxygen app-text/docbook-xml-dtd dev-java/fop ) =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=mockpp is a platform independent generic unit testing framework for C++.
+EAPI=0
+HOMEPAGE=http://mockpp.sourceforge.net/
+IUSE=boost cppunit doc
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=cppunit? ( dev-util/cppunit ) boost? ( dev-libs/boost )
+SLOT=0
+SRC_URI=mirror://sourceforge/mockpp/mockpp-1.14.0-src.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

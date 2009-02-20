@@ -1,22 +1,13 @@
->=net-misc/curl-7.16.4 >=dev-libs/expat-2.0.1 >=dev-libs/libxml2-2.6.28 >=dev-libs/xmlrpc-c-1.06.09 emacs? ( virtual/emacs ) vim-syntax? ( || ( app-editors/vim app-editors/gvim ) )
->=net-misc/curl-7.16.4 >=dev-libs/expat-2.0.1 >=dev-libs/libxml2-2.6.28 >=dev-libs/xmlrpc-c-1.06.09 emacs? ( virtual/emacs ) vim-syntax? ( || ( app-editors/vim app-editors/gvim ) )
-0
-http://www.cmake.org/files/v2.4/cmake-2.4.8.tar.gz
-
-http://www.cmake.org/
-CMake
-Cross platform Make
-~alpha amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd x86 ~x86-fbsd
-toolchain-funcs qt3 portability flag-o-matic versionator multilib eutils elisp-common
-emacs vim-syntax
-
-
-
-0
-
-compile install postinst postrm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup test unpack
+DEPEND=>=net-misc/curl-7.16.4 >=dev-libs/expat-2.0.1 >=dev-libs/libxml2-2.6.28 >=dev-libs/xmlrpc-c-1.06.09 emacs? ( virtual/emacs ) vim-syntax? ( || ( app-editors/vim app-editors/gvim ) )
+DESCRIPTION=Cross platform Make
+EAPI=0
+HOMEPAGE=http://www.cmake.org/
+IUSE=emacs vim-syntax
+KEYWORDS=~alpha amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd x86 ~x86-fbsd
+LICENSE=CMake
+RDEPEND=>=net-misc/curl-7.16.4 >=dev-libs/expat-2.0.1 >=dev-libs/libxml2-2.6.28 >=dev-libs/xmlrpc-c-1.06.09 emacs? ( virtual/emacs ) vim-syntax? ( || ( app-editors/vim app-editors/gvim ) )
+SLOT=0
+SRC_URI=http://www.cmake.org/files/v2.4/cmake-2.4.8.tar.gz
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

@@ -1,22 +1,13 @@
-virtual/python
-|| ( >=dev-lang/python-2.5 dev-python/elementtree )
-0
-http://gdata-python-client.googlecode.com/files/gdata.py-1.0.4.tar.gz
-
-http://code.google.com/p/gdata-python-client/
-Apache-2.0
-Python client library for Google data APIs
-~amd64 ~ppc ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-examples
-
-
-
-0
-
-compile install postinst postrm test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test unpack
+DEPEND=virtual/python
+DESCRIPTION=Python client library for Google data APIs
+EAPI=0
+HOMEPAGE=http://code.google.com/p/gdata-python-client/
+IUSE=examples
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=Apache-2.0
+RDEPEND=|| ( >=dev-lang/python-2.5 dev-python/elementtree )
+SLOT=0
+SRC_URI=http://gdata-python-client.googlecode.com/files/gdata.py-1.0.4.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

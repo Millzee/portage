@@ -1,22 +1,13 @@
-gnuplot? ( dev-python/gnuplot-py ) emacs? ( app-emacs/python-mode virtual/emacs ) dev-python/pexpect >=dev-lang/python-2.3 virtual/python
-gnuplot? ( dev-python/gnuplot-py ) emacs? ( app-emacs/python-mode virtual/emacs ) dev-python/pexpect >=dev-lang/python-2.3
-0
-http://ipython.scipy.org/dist/ipython-0.8.2.tar.gz
-
-http://ipython.scipy.org/
-BSD
-An advanced interactive shell for Python.
-amd64 ~ia64 ppc ppc64 s390 x86
-toolchain-funcs elisp-common portability python alternatives distutils multilib eutils
-doc examples emacs gnuplot
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=gnuplot? ( dev-python/gnuplot-py ) emacs? ( app-emacs/python-mode virtual/emacs ) dev-python/pexpect >=dev-lang/python-2.3 virtual/python
+DESCRIPTION=An advanced interactive shell for Python.
+EAPI=0
+HOMEPAGE=http://ipython.scipy.org/
+IUSE=doc examples emacs gnuplot
+KEYWORDS=amd64 ~ia64 ppc ppc64 s390 x86
+LICENSE=BSD
+RDEPEND=gnuplot? ( dev-python/gnuplot-py ) emacs? ( app-emacs/python-mode virtual/emacs ) dev-python/pexpect >=dev-lang/python-2.3
+SLOT=0
+SRC_URI=http://ipython.scipy.org/dist/ipython-0.8.2.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

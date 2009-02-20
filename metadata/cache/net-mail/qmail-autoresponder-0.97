@@ -1,22 +1,13 @@
-virtual/libc >=dev-libs/bglibs-1.022 mysql? ( virtual/mysql )
-virtual/libc >=dev-libs/bglibs-1.022 mysql? ( virtual/mysql ) virtual/qmail mysql? ( virtual/mysql )
-0
-http://untroubled.org/qmail-autoresponder/archive/qmail-autoresponder-0.97.tar.gz
-
-http://untroubled.org/qmail-autoresponder/
-GPL-2
-Rate-limited autoresponder for qmail.
-~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
-toolchain-funcs multilib
-mysql
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/libc >=dev-libs/bglibs-1.022 mysql? ( virtual/mysql )
+DESCRIPTION=Rate-limited autoresponder for qmail.
+EAPI=0
+HOMEPAGE=http://untroubled.org/qmail-autoresponder/
+IUSE=mysql
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc >=dev-libs/bglibs-1.022 mysql? ( virtual/mysql ) virtual/qmail mysql? ( virtual/mysql )
+SLOT=0
+SRC_URI=http://untroubled.org/qmail-autoresponder/archive/qmail-autoresponder-0.97.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

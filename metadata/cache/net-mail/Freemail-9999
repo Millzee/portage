@@ -1,22 +1,11 @@
-dev-java/bcprov net-p2p/freenet[freemail] >=virtual/jdk-1.5 >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 dev-util/subversion net-misc/rsync
-dev-java/bcprov net-p2p/freenet[freemail] >=virtual/jre-1.5 >=dev-java/java-config-2.1.6
-0
-
-
-http://www.freenetproject.org/tools.html
-LGPL-2.1
-Anonymous IMAP/SMTP e-mail server over Freenet
-
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib subversion eutils java-ant-2
-elibc_FreeBSD elibc_FreeBSD
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=dev-java/bcprov net-p2p/freenet[freemail] >=virtual/jdk-1.5 >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 dev-util/subversion net-misc/rsync
+DESCRIPTION=Anonymous IMAP/SMTP e-mail server over Freenet
+EAPI=2
+HOMEPAGE=http://www.freenetproject.org/tools.html
+IUSE=elibc_FreeBSD elibc_FreeBSD
+LICENSE=LGPL-2.1
+RDEPEND=dev-java/bcprov net-p2p/freenet[freemail] >=virtual/jre-1.5 >=dev-java/java-config-2.1.6
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235086669

@@ -1,22 +1,13 @@
-dev-lang/php >=app-admin/webapp-config-1.50.15
-dev-lang/php >=app-admin/webapp-config-1.50.15
-5.2.2
-mirror://gentoo/phprojekt-5.2.2.tar.gz
-
-http://www.phprojekt.com/
-GPL-2
-Project management and coordination system
-ppc x86
-toolchain-funcs portability depend.php multilib phpconfutils webapp eutils
-postgres mysql vhosts
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=dev-lang/php >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Project management and coordination system
+EAPI=0
+HOMEPAGE=http://www.phprojekt.com/
+IUSE=postgres mysql vhosts
+KEYWORDS=ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/php >=app-admin/webapp-config-1.50.15
+SLOT=5.2.2
+SRC_URI=mirror://gentoo/phprojekt-5.2.2.tar.gz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

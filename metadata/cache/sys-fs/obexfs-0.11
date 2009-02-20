@@ -1,22 +1,11 @@
->=app-mobilephone/obexftp-0.22 sys-fs/fuse
->=app-mobilephone/obexftp-0.22 sys-fs/fuse
-0
-http://triq.net/obexftp/obexfs-0.11.tar.gz
-
-http://dev.zuckschwerdt.org/openobex/wiki/ObexFs
-GPL-2
-FUSE filesystem interface for ObexFTP
-amd64 x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=app-mobilephone/obexftp-0.22 sys-fs/fuse
+DESCRIPTION=FUSE filesystem interface for ObexFTP
+EAPI=0
+HOMEPAGE=http://dev.zuckschwerdt.org/openobex/wiki/ObexFs
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=app-mobilephone/obexftp-0.22 sys-fs/fuse
+SLOT=0
+SRC_URI=http://triq.net/obexftp/obexfs-0.11.tar.gz
+_mtime_=1235082907

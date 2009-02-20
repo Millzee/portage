@@ -1,22 +1,12 @@
-virtual/latex-base >=sys-apps/texinfo-4.2-r5
-virtual/latex-base
-0
-mirror://gentoo/leaflet-19990601.tar.gz
-
-http://www.ctan.org/tex-archive/macros/latex/contrib/leaflet/
-LPPL-1.2
-LaTeX package used to create leaflet-type brochures.
-x86 sparc amd64
-toolchain-funcs latex-package portability multilib base eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/latex-base >=sys-apps/texinfo-4.2-r5
+DESCRIPTION=LaTeX package used to create leaflet-type brochures.
+EAPI=0
+HOMEPAGE=http://www.ctan.org/tex-archive/macros/latex/contrib/leaflet/
+KEYWORDS=x86 sparc amd64
+LICENSE=LPPL-1.2
+RDEPEND=virtual/latex-base
+SLOT=0
+SRC_URI=mirror://gentoo/leaflet-19990601.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	latex-package	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

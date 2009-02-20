@@ -1,22 +1,11 @@
->=dev-cpp/glibmm-2.6 >=dev-libs/libsigc++-2.0 >=dev-libs/gmp-4.1.4 >=net-libs/obby-0.3.0 dev-util/pkgconfig
-
-0
-http://releases.0x539.de/sobby/sobby-0.3.0.tar.gz
-
-http://darcs.0x539.de/gobby
-GPL-2
-Standalone Obby server
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=>=dev-cpp/glibmm-2.6 >=dev-libs/libsigc++-2.0 >=dev-libs/gmp-4.1.4 >=net-libs/obby-0.3.0 dev-util/pkgconfig
+DESCRIPTION=Standalone Obby server
+EAPI=0
+HOMEPAGE=http://darcs.0x539.de/gobby
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://releases.0x539.de/sobby/sobby-0.3.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

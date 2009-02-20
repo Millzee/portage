@@ -1,22 +1,10 @@
-
-
-0
-http://www.itu.dk/people/sestoft/mosml/mos201src.tar.gz
-
-http://www.itu.dk/people/sestoft/mosml.html
-GPL-2
-Moscow ML - a lightweight implementation of Standard ML (SML)
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Moscow ML - a lightweight implementation of Standard ML (SML)
+EAPI=0
+HOMEPAGE=http://www.itu.dk/people/sestoft/mosml.html
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.itu.dk/people/sestoft/mosml/mos201src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

@@ -1,22 +1,12 @@
-dev-libs/libusb
-dev-libs/libusb
-0
-http://ww1.microchip.com/downloads/en/DeviceDoc/pk2cmdv1.12.0LinuxMacSource.tar.gz
-
-http://www.microchip.com/pickit2
-MicroChip-PK2
-An application for working with the Microchip PicKit2 PIC programmer
-~amd64 ppc ppc64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/libusb
+DESCRIPTION=An application for working with the Microchip PicKit2 PIC programmer
+EAPI=0
+HOMEPAGE=http://www.microchip.com/pickit2
+KEYWORDS=~amd64 ppc ppc64 ~x86
+LICENSE=MicroChip-PK2
+RDEPEND=dev-libs/libusb
+SLOT=0
+SRC_URI=http://ww1.microchip.com/downloads/en/DeviceDoc/pk2cmdv1.12.0LinuxMacSource.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

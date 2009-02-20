@@ -1,22 +1,13 @@
-python? ( dev-lang/python ) perl? ( dev-lang/perl ) zlib? ( sys-libs/zlib ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-python? ( dev-lang/python ) perl? ( dev-lang/perl ) zlib? ( sys-libs/zlib )
-0
-http://www.clearsilver.net/downloads/clearsilver-0.10.4.tar.gz
-
-http://www.clearsilver.net/
-CS-1.0
-Clearsilver is a fast, powerful, and language-neutral HTML template system.
-~amd64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs perl-app portability multilib base libtool autotools eutils perl-module
-perl python zlib
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=python? ( dev-lang/python ) perl? ( dev-lang/perl ) zlib? ( sys-libs/zlib ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Clearsilver is a fast, powerful, and language-neutral HTML template system.
+EAPI=0
+HOMEPAGE=http://www.clearsilver.net/
+IUSE=perl python zlib
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=CS-1.0
+RDEPEND=python? ( dev-lang/python ) perl? ( dev-lang/perl ) zlib? ( sys-libs/zlib )
+SLOT=0
+SRC_URI=http://www.clearsilver.net/downloads/clearsilver-0.10.4.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-app	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

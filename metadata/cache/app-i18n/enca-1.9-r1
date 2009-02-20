@@ -1,22 +1,12 @@
-app-text/recode
-app-text/recode
-0
-http://trific.ath.cx/Ftp/enca/enca-1.9.tar.bz2
-
-http://trific.ath.cx/software/enca/
-GPL-2
-ENCA detects the character coding of a file and converts it if desired
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=app-text/recode
+DESCRIPTION=ENCA detects the character coding of a file and converts it if desired
+EAPI=0
+HOMEPAGE=http://trific.ath.cx/software/enca/
+IUSE=doc
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=app-text/recode
+SLOT=0
+SRC_URI=http://trific.ath.cx/Ftp/enca/enca-1.9.tar.bz2
+_mtime_=1235082848

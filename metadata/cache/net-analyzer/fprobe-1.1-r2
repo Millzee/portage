@@ -1,22 +1,13 @@
-net-libs/libpcap
-net-libs/libpcap
-0
-mirror://sourceforge/fprobe/fprobe-1.1.tar.bz2
-
-http://fprobe.sourceforge.net
-GPL-2
-A libpcap-based tool to collect network traffic data and emit it as NetFlow flows
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-debug messages
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=net-libs/libpcap
+DESCRIPTION=A libpcap-based tool to collect network traffic data and emit it as NetFlow flows
+EAPI=0
+HOMEPAGE=http://fprobe.sourceforge.net
+IUSE=debug messages
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=net-libs/libpcap
+SLOT=0
+SRC_URI=mirror://sourceforge/fprobe/fprobe-1.1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082885

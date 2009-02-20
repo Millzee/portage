@@ -1,22 +1,12 @@
-
-
-0
-amd64? ( http://developer.download.nvidia.com/compute/cuda/2_0/linux/toolkit/NVIDIA_CUDA_Toolkit_2.0_suse10.3_x86_64.run ) x86? ( http://developer.download.nvidia.com/compute/cuda/2_0/linux/toolkit/NVIDIA_CUDA_Toolkit_2.0_suse10.3_x86.run )
-strip
-http://developer.nvidia.com/cuda
-NVIDIA
-NVIDIA CUDA Toolkit
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=NVIDIA CUDA Toolkit
+EAPI=0
+HOMEPAGE=http://developer.nvidia.com/cuda
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=NVIDIA
+RESTRICT=strip
+SLOT=0
+SRC_URI=amd64? ( http://developer.download.nvidia.com/compute/cuda/2_0/linux/toolkit/NVIDIA_CUDA_Toolkit_2.0_suse10.3_x86_64.run ) x86? ( http://developer.download.nvidia.com/compute/cuda/2_0/linux/toolkit/NVIDIA_CUDA_Toolkit_2.0_suse10.3_x86.run )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

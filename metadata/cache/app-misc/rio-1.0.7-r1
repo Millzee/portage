@@ -1,22 +1,11 @@
-virtual/libc
-
-0
-http://www.world.co.uk/sba/rio007.tgz
-
-http://www.world.co.uk/sba/rio.html
-GPL-2
-Utility for the Diamond Rio 300 portable MP3 player
-~amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=Utility for the Diamond Rio 300 portable MP3 player
+EAPI=0
+HOMEPAGE=http://www.world.co.uk/sba/rio.html
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.world.co.uk/sba/rio007.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

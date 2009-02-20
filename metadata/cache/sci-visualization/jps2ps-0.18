@@ -1,22 +1,11 @@
-
-dev-lang/perl virtual/ghostscript
-0
-http://syracuse.eu.org/syracuse/bbgraf/archives/jps2ps-0-18.tgz
-
-http://syracuse.eu.org/syracuse/bbgraf/
-GPL-2
-A small perl script for the creation of mathematic images in PostScript.
-~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=A small perl script for the creation of mathematic images in PostScript.
+EAPI=0
+HOMEPAGE=http://syracuse.eu.org/syracuse/bbgraf/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl virtual/ghostscript
+SLOT=0
+SRC_URI=http://syracuse.eu.org/syracuse/bbgraf/archives/jps2ps-0-18.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

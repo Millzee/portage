@@ -1,22 +1,12 @@
-virtual/libc >=sys-apps/sed-4
-virtual/libc
-0
-http://untroubled.org/bglibs/archive/bglibs-1.041.tar.gz
-
-http://untroubled.org/bglibs/
-LGPL-2.1
-Bruce Guenters Libraries Collection
-alpha amd64 hppa ~mips ppc sparc x86 ~ppc64
-fixheadtails toolchain-funcs multilib
-
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=virtual/libc >=sys-apps/sed-4
+DESCRIPTION=Bruce Guenters Libraries Collection
+EAPI=0
+HOMEPAGE=http://untroubled.org/bglibs/
+KEYWORDS=alpha amd64 hppa ~mips ppc sparc x86 ~ppc64
+LICENSE=LGPL-2.1
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://untroubled.org/bglibs/archive/bglibs-1.041.tar.gz
+_eclasses_=fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

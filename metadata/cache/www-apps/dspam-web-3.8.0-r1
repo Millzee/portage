@@ -1,22 +1,13 @@
->=mail-filter/dspam-3.8.0 dev-perl/GD >=app-admin/webapp-config-1.50.15 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=mail-filter/dspam-3.8.0 dev-perl/GD dev-perl/GD-Graph3d dev-perl/GDGraph dev-perl/GDTextUtil >=app-admin/webapp-config-1.50.15
-3.8.0-r1
-http://dspam.nuclearelephant.com/sources/dspam-3.8.0.tar.gz mirror://gentoo/dspam-3.8.0-patches-20071231.tar.gz
-
-http://dspam.nuclearelephant.com/
-GPL-2
-Web based administration and user controls for dspam
-~amd64 ~ppc sparc x86
-toolchain-funcs portability multilib libtool webapp autotools eutils
-vhosts
-
-
-
-0
-
-compile install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup unpack
+DEPEND=>=mail-filter/dspam-3.8.0 dev-perl/GD >=app-admin/webapp-config-1.50.15 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Web based administration and user controls for dspam
+EAPI=0
+HOMEPAGE=http://dspam.nuclearelephant.com/
+IUSE=vhosts
+KEYWORDS=~amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=mail-filter/dspam-3.8.0 dev-perl/GD dev-perl/GD-Graph3d dev-perl/GDGraph dev-perl/GDTextUtil >=app-admin/webapp-config-1.50.15
+SLOT=3.8.0-r1
+SRC_URI=http://dspam.nuclearelephant.com/sources/dspam-3.8.0.tar.gz mirror://gentoo/dspam-3.8.0-patches-20071231.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

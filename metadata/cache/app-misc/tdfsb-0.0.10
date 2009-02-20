@@ -1,22 +1,12 @@
-media-libs/smpeg media-libs/sdl-image virtual/glut
-media-libs/smpeg media-libs/sdl-image virtual/glut
-0
-http://www.determinate.net/webdata/data/tdfsb-0.0.10.tar.gz
-
-http://www.determinate.net/webdata/seg/tdfsb.html
-GPL-2
-SDL based graphical file browser
-alpha amd64 ppc -sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/smpeg media-libs/sdl-image virtual/glut
+DESCRIPTION=SDL based graphical file browser
+EAPI=0
+HOMEPAGE=http://www.determinate.net/webdata/seg/tdfsb.html
+KEYWORDS=alpha amd64 ppc -sparc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/smpeg media-libs/sdl-image virtual/glut
+SLOT=0
+SRC_URI=http://www.determinate.net/webdata/data/tdfsb-0.0.10.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

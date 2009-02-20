@@ -1,22 +1,10 @@
-
-
-0
-ftp://ftp.iap.fr/pub/from_users/bertin/stiff/stiff-1.10.tar.gz
-
-http://terapix.iap.fr/soft/stiff
-GPL-2
-Converts astronomical FITS images to the TIFF format for illustration purposes.
-~amd64 ~x86
-
-doc
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Converts astronomical FITS images to the TIFF format for illustration purposes.
+EAPI=0
+HOMEPAGE=http://terapix.iap.fr/soft/stiff
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=ftp://ftp.iap.fr/pub/from_users/bertin/stiff/stiff-1.10.tar.gz
+_mtime_=1235082897

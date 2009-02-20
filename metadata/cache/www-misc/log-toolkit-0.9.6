@@ -1,22 +1,12 @@
-=www-servers/apache-2*
-=www-servers/apache-2*
-0
-mirror://sourceforge/log-toolkit/log-toolkit-0.9.6.tar.bz2
-
-http://sourceforge.net/projects/log-toolkit/
-GPL-2
-set of tools to manipulate and maintain webserver logfiles
-~amd64 ppc ~x86
-toolchain-funcs depend.apache multilib
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND==www-servers/apache-2*
+DESCRIPTION=set of tools to manipulate and maintain webserver logfiles
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/log-toolkit/
+KEYWORDS=~amd64 ppc ~x86
+LICENSE=GPL-2
+RDEPEND==www-servers/apache-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/log-toolkit/log-toolkit-0.9.6.tar.bz2
+_eclasses_=depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

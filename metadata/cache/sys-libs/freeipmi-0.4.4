@@ -1,22 +1,12 @@
-virtual/libc dev-scheme/guile dev-libs/libgcrypt virtual/os-headers sys-apps/sed
-virtual/libc dev-scheme/guile dev-libs/libgcrypt
-0
-ftp://ftp.zresearch.com/pub/freeipmi/0.4.4/freeipmi-0.4.4.tar.gz
-
-http://www.gnu.org/software/freeipmi/
-GPL-2
-FreeIPMI provides Remote-Console and System Management Software as per IPMI v1.5/2.0
-~amd64 ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc dev-scheme/guile dev-libs/libgcrypt virtual/os-headers sys-apps/sed
+DESCRIPTION=FreeIPMI provides Remote-Console and System Management Software as per IPMI v1.5/2.0
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/freeipmi/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc dev-scheme/guile dev-libs/libgcrypt
+SLOT=0
+SRC_URI=ftp://ftp.zresearch.com/pub/freeipmi/0.4.4/freeipmi-0.4.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

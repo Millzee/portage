@@ -1,22 +1,11 @@
-dev-libs/libusb sys-devel/gettext
-dev-libs/libusb
-0
-http://s51dude.gforge.lug.fi.uba.ar/files/s51dude-0.2.0.tar.gz
-
-http://s51dude.gforge.lug.fi.uba.ar/
-GPL-2
-In-System Programmer for 8051 MCUs using usbtiny
-~x86
-
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=dev-libs/libusb sys-devel/gettext
+DESCRIPTION=In-System Programmer for 8051 MCUs using usbtiny
+EAPI=0
+HOMEPAGE=http://s51dude.gforge.lug.fi.uba.ar/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libusb
+SLOT=0
+SRC_URI=http://s51dude.gforge.lug.fi.uba.ar/files/s51dude-0.2.0.tar.gz
+_mtime_=1235082852

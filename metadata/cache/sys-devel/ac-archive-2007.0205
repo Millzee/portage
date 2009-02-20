@@ -1,22 +1,11 @@
-app-text/aspell
-dev-lang/perl
-0
-mirror://sourceforge/ac-archive/ac-archive-2007.0205.tar.bz2
-
-http://ac-archive.sourceforge.net/
-|| ( BSD GPL-2 )
-The Autoconf Macro Archive
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=app-text/aspell
+DESCRIPTION=The Autoconf Macro Archive
+EAPI=0
+HOMEPAGE=http://ac-archive.sourceforge.net/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=|| ( BSD GPL-2 )
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=mirror://sourceforge/ac-archive/ac-archive-2007.0205.tar.bz2
+_mtime_=1235082900

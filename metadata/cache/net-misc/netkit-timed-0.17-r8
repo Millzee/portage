@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/netkit-timed-0.17.tar.gz
-
-ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
-BSD
-Netkit - timed
-~amd64 ~mips ~ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=Netkit - timed
+EAPI=0
+HOMEPAGE=ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
+KEYWORDS=~amd64 ~mips ~ppc ppc64 sparc x86
+LICENSE=BSD
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/netkit-timed-0.17.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

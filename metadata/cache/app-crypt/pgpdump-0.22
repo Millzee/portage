@@ -1,22 +1,11 @@
-virtual/libc app-arch/bzip2
-virtual/libc app-arch/bzip2
-0
-ftp://pgp.iijlab.net/pub/pgp/tools/pgpdump-0.22.tar.gz
-
-http://pgp.iijlab.net/pgpdump.html
-as-is
-A PGP packet visualizer
-x86 ppc sparc amd64
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc app-arch/bzip2
+DESCRIPTION=A PGP packet visualizer
+EAPI=0
+HOMEPAGE=http://pgp.iijlab.net/pgpdump.html
+KEYWORDS=x86 ppc sparc amd64
+LICENSE=as-is
+RDEPEND=virtual/libc app-arch/bzip2
+SLOT=0
+SRC_URI=ftp://pgp.iijlab.net/pub/pgp/tools/pgpdump-0.22.tar.gz
+_mtime_=1235082846

@@ -1,22 +1,12 @@
-app-arch/unzip
-media-libs/libsdl media-libs/sdl-mixer amd64? ( app-emulation/emul-linux-x86-sdl )
-0
-mirror://gentoo/binkplayer-1.8x.zip
-strip
-http://www.radgametools.com/default.htm
-as-is
-Bink Video! Player
--* ~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=app-arch/unzip
+DESCRIPTION=Bink Video! Player
+EAPI=0
+HOMEPAGE=http://www.radgametools.com/default.htm
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=as-is
+RDEPEND=media-libs/libsdl media-libs/sdl-mixer amd64? ( app-emulation/emul-linux-x86-sdl )
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://gentoo/binkplayer-1.8x.zip
+_mtime_=1235082869

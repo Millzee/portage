@@ -1,22 +1,12 @@
-dev-lang/perl >=dev-perl/Email-MIME-1.857 >=dev-perl/Email-MIME-Encodings-1.310 >=dev-perl/Email-MessageID-1.35 >=dev-perl/Email-MIME-ContentType-1.012 dev-perl/Email-Simple
-dev-lang/perl >=dev-perl/Email-MIME-1.857 >=dev-perl/Email-MIME-Encodings-1.310 >=dev-perl/Email-MessageID-1.35 >=dev-perl/Email-MIME-ContentType-1.012 dev-perl/Email-Simple
-0
-mirror://cpan/authors/id/R/RJ/RJBS//Email-MIME-Modifier-1.443.tar.gz
-
-http://search.cpan.org/search?query=Email-MIME-Modifier&mode=dist
-|| ( Artistic GPL-2 )
-Modify Email::MIME Objects Easily
-~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl >=dev-perl/Email-MIME-1.857 >=dev-perl/Email-MIME-Encodings-1.310 >=dev-perl/Email-MessageID-1.35 >=dev-perl/Email-MIME-ContentType-1.012 dev-perl/Email-Simple
+DESCRIPTION=Modify Email::MIME Objects Easily
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Email-MIME-Modifier&mode=dist
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-lang/perl >=dev-perl/Email-MIME-1.857 >=dev-perl/Email-MIME-Encodings-1.310 >=dev-perl/Email-MessageID-1.35 >=dev-perl/Email-MIME-ContentType-1.012 dev-perl/Email-Simple
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS//Email-MIME-Modifier-1.443.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

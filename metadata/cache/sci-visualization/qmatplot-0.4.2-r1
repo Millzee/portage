@@ -1,22 +1,12 @@
-=x11-libs/qt-3* >=sci-mathematics/octave-2.1 >=sci-mathematics/scilab-2.6
-=x11-libs/qt-3* >=sci-mathematics/octave-2.1 >=sci-mathematics/scilab-2.6
-0
-mirror://sourceforge/qmatplot/qmatplot-0.4.2.tgz
-
-http://qmatplot.sourceforge.net/
-GPL-2
-gnuplot-like tool for plotting data sets in either two or three dimensions
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==x11-libs/qt-3* >=sci-mathematics/octave-2.1 >=sci-mathematics/scilab-2.6
+DESCRIPTION=gnuplot-like tool for plotting data sets in either two or three dimensions
+EAPI=0
+HOMEPAGE=http://qmatplot.sourceforge.net/
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/qt-3* >=sci-mathematics/octave-2.1 >=sci-mathematics/scilab-2.6
+SLOT=0
+SRC_URI=mirror://sourceforge/qmatplot/qmatplot-0.4.2.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

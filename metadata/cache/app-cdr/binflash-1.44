@@ -1,22 +1,10 @@
-
-
-0
-http://binflash.cdfreaks.com/download/1/2/necflash_linux.tgz
-fetch strip
-http://binflash.cdfreaks.com
-as-is
-Tool to flash DVD burner with a binary firmware file
-~amd64 ~x86
-
-
-
-
-
-0
-
-install nofetch
-
-
-
-
-
+DEFINED_PHASES=install nofetch
+DESCRIPTION=Tool to flash DVD burner with a binary firmware file
+EAPI=0
+HOMEPAGE=http://binflash.cdfreaks.com
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+RESTRICT=fetch strip
+SLOT=0
+SRC_URI=http://binflash.cdfreaks.com/download/1/2/necflash_linux.tgz
+_mtime_=1235082846

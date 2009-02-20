@@ -1,22 +1,12 @@
-dev-lisp/cl-pdf dev-lisp/common-lisp-controller
-dev-lisp/cl-pdf
-0
-mirror://gentoo/cl-typesetting-110.tar.bz2
-
-http://www.fractalconcept.com:8000/asp/cl-typesetting
-BSD
-CL-TYPESETTING is a complete typesetting system written in Common Lisp.
-~sparc ~amd64 ~x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst unpack
+DEPEND=dev-lisp/cl-pdf dev-lisp/common-lisp-controller
+DESCRIPTION=CL-TYPESETTING is a complete typesetting system written in Common Lisp.
+EAPI=0
+HOMEPAGE=http://www.fractalconcept.com:8000/asp/cl-typesetting
+KEYWORDS=~sparc ~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-lisp/cl-pdf
+SLOT=0
+SRC_URI=mirror://gentoo/cl-typesetting-110.tar.bz2
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

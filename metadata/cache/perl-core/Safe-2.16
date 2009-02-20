@@ -1,22 +1,12 @@
-dev-lang/perl
-dev-lang/perl
-0
-mirror://cpan/authors/id/R/RG/RGARCIA/Safe-2.11.tar.gz
-
-http://search.cpan.org/author/ABERGMAN/Safe-2.16/
-Artistic
-Compile and execute code in restricted compartments
-~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~sparc ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl
+DESCRIPTION=Compile and execute code in restricted compartments
+EAPI=0
+HOMEPAGE=http://search.cpan.org/author/ABERGMAN/Safe-2.16/
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~sparc ~x86
+LICENSE=Artistic
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RG/RGARCIA/Safe-2.11.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

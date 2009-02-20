@@ -1,22 +1,11 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-mirror://berlios/mdf2iso/mdf2iso-0.3.0-src.tar.bz2
-
-http://mdf2iso.berlios.de/
-GPL-2
-Alcohol 120% bin image to ISO image file converter
-amd64 ppc x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Alcohol 120% bin image to ISO image file converter
+EAPI=0
+HOMEPAGE=http://mdf2iso.berlios.de/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://berlios/mdf2iso/mdf2iso-0.3.0-src.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

@@ -1,22 +1,13 @@
-doc? ( dev-python/docutils virtual/latex-base || ( ( dev-texlive/texlive-latexextra dev-texlive/texlive-langfrench ) app-text/tetex app-text/ptex ) ) virtual/python >=virtual/emacs-21
->=virtual/emacs-21
-0
-http://pymacs.progiciels-bpi.ca/archives/Pymacs-0.23.tar.gz
-
-http://pymacs.progiciels-bpi.ca/
-GPL-2
-A tool that allows both-side communication beetween Python and Emacs Lisp
-amd64 arm ~hppa ia64 ppc ppc64 s390 sh x86 ~x86-fbsd
-portability toolchain-funcs elisp-common distutils python multilib versionator elisp alternatives eutils
-doc
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=doc? ( dev-python/docutils virtual/latex-base || ( ( dev-texlive/texlive-latexextra dev-texlive/texlive-langfrench ) app-text/tetex app-text/ptex ) ) virtual/python >=virtual/emacs-21
+DESCRIPTION=A tool that allows both-side communication beetween Python and Emacs Lisp
+EAPI=0
+HOMEPAGE=http://pymacs.progiciels-bpi.ca/
+IUSE=doc
+KEYWORDS=amd64 arm ~hppa ia64 ppc ppc64 s390 sh x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=virtual/emacs-21
+SLOT=0
+SRC_URI=http://pymacs.progiciels-bpi.ca/archives/Pymacs-0.23.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

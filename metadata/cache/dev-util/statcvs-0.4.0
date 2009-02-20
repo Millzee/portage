@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 app-arch/unzip test? ( dev-java/ant-junit:0 ) dev-java/jcommon:1.0 dev-java/jfreechart:1.0 dev-java/jdom:1.0 >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=sys-apps/portage-2.1.2.7 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.4 dev-util/cvs dev-java/jtreemap:0 dev-java/jcommon:1.0 dev-java/jfreechart:1.0 dev-java/jdom:1.0 >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7 source? ( app-arch/zip )
-0
-mirror://sourceforge/statcvs/statcvs-0.4.0-source.zip
-
-http://statcvs.sourceforge.net/
-LGPL-2.1
-StatCVS generates HTML reports from CVS repository logs.
-amd64 x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD doc source test elibc_FreeBSD
-
-
-
-1
-
-compile install postinst preinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup test unpack
+DEPEND=>=virtual/jdk-1.4 app-arch/unzip test? ( dev-java/ant-junit:0 ) dev-java/jcommon:1.0 dev-java/jfreechart:1.0 dev-java/jdom:1.0 >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=sys-apps/portage-2.1.2.7 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=StatCVS generates HTML reports from CVS repository logs.
+EAPI=1
+HOMEPAGE=http://statcvs.sourceforge.net/
+IUSE=elibc_FreeBSD doc source test elibc_FreeBSD
+KEYWORDS=amd64 x86
+LICENSE=LGPL-2.1
+RDEPEND=>=virtual/jre-1.4 dev-util/cvs dev-java/jtreemap:0 dev-java/jcommon:1.0 dev-java/jfreechart:1.0 dev-java/jdom:1.0 >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=mirror://sourceforge/statcvs/statcvs-0.4.0-source.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

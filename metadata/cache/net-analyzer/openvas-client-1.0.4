@@ -1,22 +1,13 @@
-net-libs/gnutls gtk? ( >=x11-libs/gtk+-2.8.8 )
-net-libs/gnutls gtk? ( >=x11-libs/gtk+-2.8.8 )
-0
-http://wald.intevation.org/frs/download.php/466/openvas-client-1.0.4.tar.gz
-
-http://www.openvas.org/
-GPL-2
-A client for the openvas vulnerability scanner
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-gtk
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=net-libs/gnutls gtk? ( >=x11-libs/gtk+-2.8.8 )
+DESCRIPTION=A client for the openvas vulnerability scanner
+EAPI=0
+HOMEPAGE=http://www.openvas.org/
+IUSE=gtk
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-libs/gnutls gtk? ( >=x11-libs/gtk+-2.8.8 )
+SLOT=0
+SRC_URI=http://wald.intevation.org/frs/download.php/466/openvas-client-1.0.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

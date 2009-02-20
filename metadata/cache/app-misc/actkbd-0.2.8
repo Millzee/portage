@@ -1,22 +1,11 @@
-kernel_linux? ( virtual/linux-sources )
-
-0
-http://www.softlab.ece.ntua.gr/~thkala/projects/actkbd/files/actkbd-0.2.8.tar.bz2
-
-http://www.softlab.ece.ntua.gr/~thkala/projects/actkbd/
-GPL-2
-A keyboard shortcut daemon
-~x86 ~amd64
-toolchain-funcs portability versionator multilib linux-info eutils
-
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=A keyboard shortcut daemon
+EAPI=0
+HOMEPAGE=http://www.softlab.ece.ntua.gr/~thkala/projects/actkbd/
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.softlab.ece.ntua.gr/~thkala/projects/actkbd/files/actkbd-0.2.8.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

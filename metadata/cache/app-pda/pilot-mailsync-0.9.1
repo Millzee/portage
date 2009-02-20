@@ -1,22 +1,13 @@
-ssl? ( dev-libs/openssl ) gnome? ( >=app-pda/gnome-pilot-2 ) ~app-pda/pilot-link-0.11.8
-ssl? ( dev-libs/openssl ) gnome? ( >=app-pda/gnome-pilot-2 ) ~app-pda/pilot-link-0.11.8
-0
-http://wissrech.iam.uni-bonn.de/people/garcke/pms/pilot-mailsync-0.9.1.tar.gz
-
-http://wissrech.iam.uni-bonn.de/people/garcke/pms/
-MPL-1.0
-An application to transfer outgoing mail from and deliver incoming mail to a Palm OS device.
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-ssl gnome
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=ssl? ( dev-libs/openssl ) gnome? ( >=app-pda/gnome-pilot-2 ) ~app-pda/pilot-link-0.11.8
+DESCRIPTION=An application to transfer outgoing mail from and deliver incoming mail to a Palm OS device.
+EAPI=0
+HOMEPAGE=http://wissrech.iam.uni-bonn.de/people/garcke/pms/
+IUSE=ssl gnome
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=MPL-1.0
+RDEPEND=ssl? ( dev-libs/openssl ) gnome? ( >=app-pda/gnome-pilot-2 ) ~app-pda/pilot-link-0.11.8
+SLOT=0
+SRC_URI=http://wissrech.iam.uni-bonn.de/people/garcke/pms/pilot-mailsync-0.9.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

@@ -1,22 +1,13 @@
-ldap? ( >=net-nds/openldap-1.2 )
-ldap? ( >=net-nds/openldap-1.2 )
-0
-ftp://ftp.am-utils.org/pub/am-utils/am-utils-6.1.3.tar.gz
-
-http://www.am-utils.org/
-BSD
-amd automounter and utilities
-~alpha amd64 ia64 ppc x86
-toolchain-funcs multilib portability eutils
-ldap
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=ldap? ( >=net-nds/openldap-1.2 )
+DESCRIPTION=amd automounter and utilities
+EAPI=0
+HOMEPAGE=http://www.am-utils.org/
+IUSE=ldap
+KEYWORDS=~alpha amd64 ia64 ppc x86
+LICENSE=BSD
+RDEPEND=ldap? ( >=net-nds/openldap-1.2 )
+SLOT=0
+SRC_URI=ftp://ftp.am-utils.org/pub/am-utils/am-utils-6.1.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

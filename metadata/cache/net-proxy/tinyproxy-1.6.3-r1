@@ -1,22 +1,12 @@
-socks5? ( net-proxy/dante )
-socks5? ( net-proxy/dante )
-0
-mirror://sourceforge/tinyproxy/tinyproxy-1.6.3.tar.gz
-
-http://tinyproxy.sourceforge.net/
-GPL-2
-A lightweight HTTP/SSL proxy
-alpha amd64 ia64 ppc ~sparc x86
-
-socks5 transparent-proxy debug
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=socks5? ( net-proxy/dante )
+DESCRIPTION=A lightweight HTTP/SSL proxy
+EAPI=0
+HOMEPAGE=http://tinyproxy.sourceforge.net/
+IUSE=socks5 transparent-proxy debug
+KEYWORDS=alpha amd64 ia64 ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=socks5? ( net-proxy/dante )
+SLOT=0
+SRC_URI=mirror://sourceforge/tinyproxy/tinyproxy-1.6.3.tar.gz
+_mtime_=1235082896

@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.10 >=gnome-base/libgnomeui-2 >=gnome-base/libgnome-2 >=gnome-base/gconf-2 >=gnome-base/libglade-2 sys-devel/gettext dev-util/pkgconfig dev-util/intltool >=sys-apps/sed-4
->=x11-libs/gtk+-2.10 >=gnome-base/libgnomeui-2 >=gnome-base/libgnome-2 >=gnome-base/gconf-2 >=gnome-base/libglade-2
-0
-mirror://gnome/sources/camorama/0.19/camorama-0.19.tar.bz2
-
-http://camorama.fixedgear.org
-GPL-2
-a webcam application featuring various image filters.
-~amd64 ~ppc ~x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-debug
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=x11-libs/gtk+-2.10 >=gnome-base/libgnomeui-2 >=gnome-base/libgnome-2 >=gnome-base/gconf-2 >=gnome-base/libglade-2 sys-devel/gettext dev-util/pkgconfig dev-util/intltool >=sys-apps/sed-4
+DESCRIPTION=a webcam application featuring various image filters.
+EAPI=0
+HOMEPAGE=http://camorama.fixedgear.org
+IUSE=debug
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.10 >=gnome-base/libgnomeui-2 >=gnome-base/libgnome-2 >=gnome-base/gconf-2 >=gnome-base/libglade-2
+SLOT=0
+SRC_URI=mirror://gnome/sources/camorama/0.19/camorama-0.19.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

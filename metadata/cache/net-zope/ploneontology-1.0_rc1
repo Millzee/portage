@@ -1,22 +1,11 @@
-
-net-zope/relations media-gfx/graphviz net-zope/zope app-admin/zprod-manager
-0
-http://plone.org/products/ploneontology/releases/1.0rc1/ploneontology-1.0rc1.tar.gz
-
-http://plone.org/products/ploneontology/
-GPL-2
-PloneOntology is an ontology based replacement for the existing keyword mechanism in Plone.
-~x86
-versionator zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DESCRIPTION=PloneOntology is an ontology based replacement for the existing keyword mechanism in Plone.
+EAPI=0
+HOMEPAGE=http://plone.org/products/ploneontology/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=net-zope/relations media-gfx/graphviz net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://plone.org/products/ploneontology/releases/1.0rc1/ploneontology-1.0rc1.tar.gz
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859	zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

@@ -1,22 +1,12 @@
->=dev-db/sqlite-3 sys-libs/readline media-tv/linuxtv-dvb-headers
->=dev-db/sqlite-3 sys-libs/readline
-0
-mirror://sourceforge/dvbstreamer/dvbstreamer-0.9.tar.bz2
-
-http://dvbstreamer.sourceforge.net/
-GPL-2
-DVB over UDP streaming solution
-amd64 x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-db/sqlite-3 sys-libs/readline media-tv/linuxtv-dvb-headers
+DESCRIPTION=DVB over UDP streaming solution
+EAPI=0
+HOMEPAGE=http://dvbstreamer.sourceforge.net/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=dev-db/sqlite-3 sys-libs/readline
+SLOT=0
+SRC_URI=mirror://sourceforge/dvbstreamer/dvbstreamer-0.9.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

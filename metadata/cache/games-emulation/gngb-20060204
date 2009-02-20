@@ -1,22 +1,13 @@
-media-libs/libsdl sys-libs/zlib app-arch/bzip2 opengl? ( virtual/opengl )
-media-libs/libsdl sys-libs/zlib app-arch/bzip2 opengl? ( virtual/opengl )
-0
-http://m.peponas.free.fr/gngb/download/gngb-20060204.tar.gz
-
-http://m.peponas.free.fr/gngb/
-GPL-2
-Gameboy / Gameboy Color emulator
-~ppc x86
-toolchain-funcs portability multilib base games eutils
-opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl sys-libs/zlib app-arch/bzip2 opengl? ( virtual/opengl )
+DESCRIPTION=Gameboy / Gameboy Color emulator
+EAPI=0
+HOMEPAGE=http://m.peponas.free.fr/gngb/
+IUSE=opengl
+KEYWORDS=~ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl sys-libs/zlib app-arch/bzip2 opengl? ( virtual/opengl )
+SLOT=0
+SRC_URI=http://m.peponas.free.fr/gngb/download/gngb-20060204.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,12 @@
-dev-lang/python >=sys-libs/libselinux-1.28-r1
-dev-lang/python >=sys-libs/libselinux-1.28-r1
-0
-mirror://gentoo/python-selinux-2.16-1.tar.bz2
-
-http://www.gentoo.org/proj/en/hardened/selinux/
-GPL-2
-Extra python bindings for SELinux functions
-alpha amd64 mips ppc sparc x86
-python multilib toolchain-funcs alternatives
-
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=dev-lang/python >=sys-libs/libselinux-1.28-r1
+DESCRIPTION=Extra python bindings for SELinux functions
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/hardened/selinux/
+KEYWORDS=alpha amd64 mips ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/python >=sys-libs/libselinux-1.28-r1
+SLOT=0
+SRC_URI=mirror://gentoo/python-selinux-2.16-1.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

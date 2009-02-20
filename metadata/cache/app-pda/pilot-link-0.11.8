@@ -1,22 +1,13 @@
-sys-libs/ncurses perl? ( dev-lang/perl ) java? ( virtual/jre ) tk? ( dev-lang/tcl dev-tcltk/itcl dev-lang/tk ) python? ( dev-lang/python ) png? ( media-libs/libpng ) readline? ( sys-libs/readline )
-sys-libs/ncurses perl? ( dev-lang/perl ) java? ( virtual/jre ) tk? ( dev-lang/tcl dev-tcltk/itcl dev-lang/tk ) python? ( dev-lang/python ) png? ( media-libs/libpng ) readline? ( sys-libs/readline )
-0
-http://pilot-link.org/source/pilot-link-0.11.8.tar.bz2
-
-http://www.pilot-link.org/
-|| ( GPL-2 LGPL-2 )
-suite of tools for moving data between a Palm device and a desktop
-alpha amd64 ia64 ppc sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-perl java tk python png readline
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=sys-libs/ncurses perl? ( dev-lang/perl ) java? ( virtual/jre ) tk? ( dev-lang/tcl dev-tcltk/itcl dev-lang/tk ) python? ( dev-lang/python ) png? ( media-libs/libpng ) readline? ( sys-libs/readline )
+DESCRIPTION=suite of tools for moving data between a Palm device and a desktop
+EAPI=0
+HOMEPAGE=http://www.pilot-link.org/
+IUSE=perl java tk python png readline
+KEYWORDS=alpha amd64 ia64 ppc sparc x86
+LICENSE=|| ( GPL-2 LGPL-2 )
+RDEPEND=sys-libs/ncurses perl? ( dev-lang/perl ) java? ( virtual/jre ) tk? ( dev-lang/tcl dev-tcltk/itcl dev-lang/tk ) python? ( dev-lang/python ) png? ( media-libs/libpng ) readline? ( sys-libs/readline )
+SLOT=0
+SRC_URI=http://pilot-link.org/source/pilot-link-0.11.8.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

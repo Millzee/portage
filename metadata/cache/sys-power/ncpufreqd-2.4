@@ -1,22 +1,12 @@
-virtual/logger >=dev-util/cmake-2.4.6
-virtual/logger
-0
-http://projects.simpledesigns.com.pl/get/ncpufreqd-2.4.tar.bz2
-
-http://projects.simpledesigns.com.pl/project/ncpufreqd/
-ZLIB
-Daemon controlling CPU speed and temperature
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-
-
-
-
-0
-
-compile install test
-
-
-
-
-
+DEFINED_PHASES=compile install test
+DEPEND=virtual/logger >=dev-util/cmake-2.4.6
+DESCRIPTION=Daemon controlling CPU speed and temperature
+EAPI=0
+HOMEPAGE=http://projects.simpledesigns.com.pl/project/ncpufreqd/
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+RDEPEND=virtual/logger
+SLOT=0
+SRC_URI=http://projects.simpledesigns.com.pl/get/ncpufreqd-2.4.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

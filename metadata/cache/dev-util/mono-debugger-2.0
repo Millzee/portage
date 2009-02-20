@@ -1,22 +1,13 @@
->=dev-lang/mono-2.0 sys-libs/readline !dev-lang/mercury >=dev-util/pkgconfig-0.20
->=dev-lang/mono-2.0 sys-libs/readline
-0
-http://go-mono.com/sources/mono-debugger/mono-debugger-2.0.tar.bz2
-test
-http://www.go-mono.com
-GPL-2
-Debugger for .NET managed and unmanaged applications
-~amd64 ~x86
-mono toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=dev-lang/mono-2.0 sys-libs/readline !dev-lang/mercury >=dev-util/pkgconfig-0.20
+DESCRIPTION=Debugger for .NET managed and unmanaged applications
+EAPI=0
+HOMEPAGE=http://www.go-mono.com
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/mono-2.0 sys-libs/readline
+RESTRICT=test
+SLOT=0
+SRC_URI=http://go-mono.com/sources/mono-debugger/mono-debugger-2.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

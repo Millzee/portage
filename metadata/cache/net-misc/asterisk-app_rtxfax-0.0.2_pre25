@@ -1,22 +1,13 @@
->=media-libs/spandsp-0.0.2_pre20 >=net-misc/asterisk-1.0.5-r1
->=media-libs/spandsp-0.0.2_pre20 >=net-misc/asterisk-1.0.5-r1
-0
-http://www.netdomination.org/pub/asterisk/asterisk-app_rtxfax-0.0.2_pre25.tar.bz2
-mirror
-http://www.soft-switch.org/
-GPL-2
-Asterisk applications for sending and receiving faxes
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=media-libs/spandsp-0.0.2_pre20 >=net-misc/asterisk-1.0.5-r1
+DESCRIPTION=Asterisk applications for sending and receiving faxes
+EAPI=0
+HOMEPAGE=http://www.soft-switch.org/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/spandsp-0.0.2_pre20 >=net-misc/asterisk-1.0.5-r1
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://www.netdomination.org/pub/asterisk/asterisk-app_rtxfax-0.0.2_pre25.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

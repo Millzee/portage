@@ -1,22 +1,13 @@
-nls? ( sys-devel/gettext )
-nls? ( sys-devel/gettext )
-0
-ftp://ftp.sra.co.jp/pub/misc/eb/eb-4.2.2.tar.bz2
-
-http://www.sra.co.jp/people/m-kasahr/eb/
-BSD
-EB is a C library and utilities for accessing CD-ROM books
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-nls ipv6 threads
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=nls? ( sys-devel/gettext )
+DESCRIPTION=EB is a C library and utilities for accessing CD-ROM books
+EAPI=0
+HOMEPAGE=http://www.sra.co.jp/people/m-kasahr/eb/
+IUSE=nls ipv6 threads
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=BSD
+RDEPEND=nls? ( sys-devel/gettext )
+SLOT=0
+SRC_URI=ftp://ftp.sra.co.jp/pub/misc/eb/eb-4.2.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

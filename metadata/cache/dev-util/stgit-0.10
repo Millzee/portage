@@ -1,22 +1,12 @@
-virtual/python
->=dev-util/git-1.4.0
-0
-http://homepage.ntlworld.com/cmarinas/stgit/stgit-0.10.tar.gz
-
-http://www.procode.org/stgit/
-GPL-2
-Manage a stack of patches using GIT as a backend
-alpha amd64 ppc ppc64 x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/python
+DESCRIPTION=Manage a stack of patches using GIT as a backend
+EAPI=0
+HOMEPAGE=http://www.procode.org/stgit/
+KEYWORDS=alpha amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=>=dev-util/git-1.4.0
+SLOT=0
+SRC_URI=http://homepage.ntlworld.com/cmarinas/stgit/stgit-0.10.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

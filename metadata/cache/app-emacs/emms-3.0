@@ -1,22 +1,12 @@
-media-libs/taglib >=virtual/emacs-22
-media-libs/taglib >=virtual/emacs-22
-0
-http://www.gnu.org/software/emms/download/emms-3.0.tar.gz
-
-http://www.gnu.org/software/emms/ http://www.emacswiki.org/cgi-bin/wiki/EMMS
-GPL-3 FDL-1.1
-The Emacs Multimedia System
-~x86 ~ppc ~amd64 ~sparc
-toolchain-funcs elisp-common portability elisp versionator multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=media-libs/taglib >=virtual/emacs-22
+DESCRIPTION=The Emacs Multimedia System
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/emms/ http://www.emacswiki.org/cgi-bin/wiki/EMMS
+KEYWORDS=~x86 ~ppc ~amd64 ~sparc
+LICENSE=GPL-3 FDL-1.1
+RDEPEND=media-libs/taglib >=virtual/emacs-22
+SLOT=0
+SRC_URI=http://www.gnu.org/software/emms/download/emms-3.0.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

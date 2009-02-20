@@ -1,22 +1,12 @@
->=app-emacs/apel-10.7 >=virtual/emacs-21
->=app-emacs/apel-10.7 || ( app-i18n/skk-jisyo virtual/skkserv ) >=virtual/emacs-21
-0
-http://openlab.ring.gr.jp/skk/maintrunk/ddskk-13.1.tar.gz
-
-http://openlab.ring.gr.jp/skk/
-GPL-2
-One Japanese input methods on Emacs
-~alpha ~amd64 ~ppc ~sparc ~x86
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=app-emacs/apel-10.7 >=virtual/emacs-21
+DESCRIPTION=One Japanese input methods on Emacs
+EAPI=0
+HOMEPAGE=http://openlab.ring.gr.jp/skk/
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-emacs/apel-10.7 || ( app-i18n/skk-jisyo virtual/skkserv ) >=virtual/emacs-21
+SLOT=0
+SRC_URI=http://openlab.ring.gr.jp/skk/maintrunk/ddskk-13.1.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

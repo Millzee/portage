@@ -1,22 +1,13 @@
-kde? ( || ( ( =kde-base/libkonq-3.5* =kde-base/kdebase-kioslaves-3.5* ) =kde-base/kdebase-3.5* ) ) javascript? ( =kde-base/kjsembed-3.5* ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts )
-kde? ( || ( ( =kde-base/libkonq-3.5* =kde-base/kdebase-kioslaves-3.5* ) =kde-base/kdebase-3.5* ) ) javascript? ( =kde-base/kjsembed-3.5* ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts )
-0
-mirror://sourceforge/krusader/krusader-1.90.0.tar.gz mirror://gentoo/kde-admindir-3.5.3.tar.bz2
-
-http://krusader.sourceforge.net/
-GPL-2
-An advanced twin-panel (commander-style) file-manager for KDE with many extras.
-amd64 ppc ppc64 sparc x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-javascript kde debug elibc_FreeBSD arts xinerama
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=kde? ( || ( ( =kde-base/libkonq-3.5* =kde-base/kdebase-kioslaves-3.5* ) =kde-base/kdebase-3.5* ) ) javascript? ( =kde-base/kjsembed-3.5* ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts )
+DESCRIPTION=An advanced twin-panel (commander-style) file-manager for KDE with many extras.
+EAPI=0
+HOMEPAGE=http://krusader.sourceforge.net/
+IUSE=javascript kde debug elibc_FreeBSD arts xinerama
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=kde? ( || ( ( =kde-base/libkonq-3.5* =kde-base/kdebase-kioslaves-3.5* ) =kde-base/kdebase-3.5* ) ) javascript? ( =kde-base/kjsembed-3.5* ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts )
+SLOT=0
+SRC_URI=mirror://sourceforge/krusader/krusader-1.90.0.tar.gz mirror://gentoo/kde-admindir-3.5.3.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082865

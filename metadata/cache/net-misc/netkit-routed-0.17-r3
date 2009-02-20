@@ -1,22 +1,9 @@
-
-
-0
-mirror://debian/pool/main/n/netkit-routed/netkit-routed_0.17.orig.tar.gz
-
-ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
-BSD
-Netkit - routed
-x86 sparc ppc mips alpha
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Netkit - routed
+EAPI=0
+HOMEPAGE=ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
+KEYWORDS=x86 sparc ppc mips alpha
+LICENSE=BSD
+SLOT=0
+SRC_URI=mirror://debian/pool/main/n/netkit-routed/netkit-routed_0.17.orig.tar.gz
+_mtime_=1235082894

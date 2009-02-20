@@ -1,22 +1,12 @@
->=dev-perl/CDDB-File-1.01 dev-lang/perl virtual/perl-libnet
->=dev-perl/CDDB-File-1.01 dev-lang/perl virtual/perl-libnet
-0
-mirror://cpan/authors/id/R/RO/ROAM/Net-FreeDB-0.08.tar.gz
-
-http://search.cpan.org/~roam/
-|| ( Artistic GPL-2 )
-OOP interface to the FreeDB database
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/CDDB-File-1.01 dev-lang/perl virtual/perl-libnet
+DESCRIPTION=OOP interface to the FreeDB database
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~roam/
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/CDDB-File-1.01 dev-lang/perl virtual/perl-libnet
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RO/ROAM/Net-FreeDB-0.08.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

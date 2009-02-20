@@ -1,22 +1,12 @@
->=media-libs/libdvdread-0.9.4
->=media-libs/libdvdread-0.9.4 >=media-video/dvdauthor-0.6.10
-0
-mirror://sourceforge/vamps/vamps-0.99.2.tar.gz
-
-http://vamps.sourceforge.net/
-GPL-2
-Very fast requantisizing tool for backup DVDs
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=media-libs/libdvdread-0.9.4
+DESCRIPTION=Very fast requantisizing tool for backup DVDs
+EAPI=0
+HOMEPAGE=http://vamps.sourceforge.net/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libdvdread-0.9.4 >=media-video/dvdauthor-0.6.10
+SLOT=0
+SRC_URI=mirror://sourceforge/vamps/vamps-0.99.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082870

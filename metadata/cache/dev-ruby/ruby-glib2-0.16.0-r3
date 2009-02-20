@@ -1,22 +1,12 @@
->=dev-libs/glib-2 dev-util/pkgconfig virtual/ruby virtual/ruby
->=dev-libs/glib-2 virtual/ruby virtual/ruby
-0
-mirror://sourceforge/ruby-gnome2/ruby-gnome2-all-0.16.0.tar.gz
-
-http://ruby-gnome2.sourceforge.jp/
-Ruby
-Ruby Glib2 bindings
-alpha amd64 ia64 ~ppc ppc64 sparc x86
-toolchain-funcs portability ruby-gnome2 multilib ruby eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/glib-2 dev-util/pkgconfig virtual/ruby virtual/ruby
+DESCRIPTION=Ruby Glib2 bindings
+EAPI=0
+HOMEPAGE=http://ruby-gnome2.sourceforge.jp/
+KEYWORDS=alpha amd64 ia64 ~ppc ppc64 sparc x86
+LICENSE=Ruby
+RDEPEND=>=dev-libs/glib-2 virtual/ruby virtual/ruby
+SLOT=0
+SRC_URI=mirror://sourceforge/ruby-gnome2/ruby-gnome2-all-0.16.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	ruby-gnome2	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

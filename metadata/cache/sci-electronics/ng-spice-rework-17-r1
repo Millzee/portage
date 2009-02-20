@@ -1,22 +1,13 @@
-readline? ( >=sys-libs/readline-5.0 )
-readline? ( >=sys-libs/readline-5.0 )
-0
-mirror://sourceforge/ngspice/ng-spice-rework-17.tar.gz
-
-http://ngspice.sourceforge.net
-BSD GPL-2
-The Next Generation Spice (Electronic Circuit Simulator).
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils
-readline debug
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=readline? ( >=sys-libs/readline-5.0 )
+DESCRIPTION=The Next Generation Spice (Electronic Circuit Simulator).
+EAPI=0
+HOMEPAGE=http://ngspice.sourceforge.net
+IUSE=readline debug
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=BSD GPL-2
+RDEPEND=readline? ( >=sys-libs/readline-5.0 )
+SLOT=0
+SRC_URI=mirror://sourceforge/ngspice/ng-spice-rework-17.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

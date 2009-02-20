@@ -1,22 +1,13 @@
-x11-libs/libXaw x11-libs/libXp x11-misc/gccmakedep x11-misc/imake
-x11-libs/libXaw x11-libs/libXp
-0
-ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble-2.10.tgz linguas_fr? ( ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble_fr.tgz ) ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble_en.tgz
-
-http://freshmeat.net/projects/xscrabble/?topic_id=80
-GPL-2
-An X11 clone of the well-known Scrabble
-amd64 x86
-toolchain-funcs portability multilib base games eutils
-linguas_fr
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=x11-libs/libXaw x11-libs/libXp x11-misc/gccmakedep x11-misc/imake
+DESCRIPTION=An X11 clone of the well-known Scrabble
+EAPI=0
+HOMEPAGE=http://freshmeat.net/projects/xscrabble/?topic_id=80
+IUSE=linguas_fr
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXaw x11-libs/libXp
+SLOT=0
+SRC_URI=ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble-2.10.tgz linguas_fr? ( ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble_fr.tgz ) ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble_en.tgz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

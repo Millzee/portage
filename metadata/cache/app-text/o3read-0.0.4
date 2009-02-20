@@ -1,22 +1,13 @@
-test? ( app-arch/unzip www-client/lynx )
-test? ( app-arch/unzip www-client/lynx )
-0
-http://siag.nu/pub/o3read/o3read-0.0.4.tar.gz
-
-http://siag.nu/o3read/
-GPL-2
-Converts OpenOffice formats to text or HTML.
-amd64 ppc x86
-toolchain-funcs multilib
-test
-
-
-
-0
-
-compile install test
-
-
-
-
-
+DEFINED_PHASES=compile install test
+DEPEND=test? ( app-arch/unzip www-client/lynx )
+DESCRIPTION=Converts OpenOffice formats to text or HTML.
+EAPI=0
+HOMEPAGE=http://siag.nu/o3read/
+IUSE=test
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=test? ( app-arch/unzip www-client/lynx )
+SLOT=0
+SRC_URI=http://siag.nu/pub/o3read/o3read-0.0.4.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

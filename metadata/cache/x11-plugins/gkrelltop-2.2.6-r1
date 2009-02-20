@@ -1,22 +1,12 @@
-=app-admin/gkrellm-2* dev-util/pkgconfig
-=app-admin/gkrellm-2*
-0
-http://psychology.rutgers.edu/~zaimi/html/gkrelltop/gkrelltop_2.2-6.tar.gz
-
-http://psychology.rutgers.edu/~zaimi/software.html
-GPL-2
-a GKrellM2 plugin which displays the top three processes
-alpha amd64 ppc sparc x86
-multilib toolchain-funcs gkrellm-plugin portability eutils
-
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND==app-admin/gkrellm-2* dev-util/pkgconfig
+DESCRIPTION=a GKrellM2 plugin which displays the top three processes
+EAPI=0
+HOMEPAGE=http://psychology.rutgers.edu/~zaimi/software.html
+KEYWORDS=alpha amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND==app-admin/gkrellm-2*
+SLOT=0
+SRC_URI=http://psychology.rutgers.edu/~zaimi/html/gkrelltop/gkrelltop_2.2-6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	gkrellm-plugin	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

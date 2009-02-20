@@ -1,22 +1,11 @@
-dev-lisp/common-lisp-controller
-
-0
-http://fare.tunes.org/files/cl-launch/cl-launch_2.02.orig.tar.gz
-
-http://www.cliki.net/cl-launch
-No-Problem-Bugroff LLGPL-2.1
-cl-launch is a utility to make Common Lisp software easily invokable from the command-line.
-~sparc ~ppc ~amd64 ~x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-compile install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst
+DEPEND=dev-lisp/common-lisp-controller
+DESCRIPTION=cl-launch is a utility to make Common Lisp software easily invokable from the command-line.
+EAPI=0
+HOMEPAGE=http://www.cliki.net/cl-launch
+KEYWORDS=~sparc ~ppc ~amd64 ~x86
+LICENSE=No-Problem-Bugroff LLGPL-2.1
+SLOT=0
+SRC_URI=http://fare.tunes.org/files/cl-launch/cl-launch_2.02.orig.tar.gz
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

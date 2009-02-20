@@ -1,22 +1,12 @@
->=dev-perl/Catalyst-Runtime-5.7010 >=dev-perl/Catalyst-Plugin-Session-0.09 >=dev-perl/Test-MockObject-1.01
->=dev-perl/Catalyst-Runtime-5.7010 >=dev-perl/Catalyst-Plugin-Session-0.09 >=dev-perl/Test-MockObject-1.01
-0
-mirror://cpan/authors/id/N/NU/NUFFIN//Catalyst-Plugin-Session-State-Cookie-0.09.tar.gz
-
-http://search.cpan.org/search?query=Catalyst-Plugin-Session-State-Cookie&mode=dist
-|| ( Artistic GPL-2 )
-Catalyst plugin: maintain session IDs using cookies
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/Catalyst-Runtime-5.7010 >=dev-perl/Catalyst-Plugin-Session-0.09 >=dev-perl/Test-MockObject-1.01
+DESCRIPTION=Catalyst plugin: maintain session IDs using cookies
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Catalyst-Plugin-Session-State-Cookie&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Catalyst-Runtime-5.7010 >=dev-perl/Catalyst-Plugin-Session-0.09 >=dev-perl/Test-MockObject-1.01
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NU/NUFFIN//Catalyst-Plugin-Session-State-Cookie-0.09.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

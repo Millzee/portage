@@ -1,22 +1,13 @@
-app-arch/unzip
-dev-libs/dbus-glib x11-libs/libXrender x11-libs/libXt x11-libs/libXmu x86? ( >=x11-libs/gtk+-2.2 >=media-libs/alsa-lib-1.0.16 ) amd64? ( >=app-emulation/emul-linux-x86-baselibs-1.0 >=app-emulation/emul-linux-x86-gtklibs-1.0 >=app-emulation/emul-linux-x86-soundlibs-20080418 app-emulation/emul-linux-x86-compat )
-0
-http://releases.mozilla.org/pub/mozilla.org/seamonkey/releases/2.0a2/seamonkey-2.0a2.en-US.linux-i686.tar.bz2
-strip
-http://www.seamonkey-project.org/
-|| ( MPL-1.1 GPL-2 LGPL-2.1 )
-Mozilla Application Suite - web browser, email, HTML editor, IRC
--* ~amd64 ~x86
-mozilla-launcher toolchain-funcs portability nsplugins multilib eutils
-
-
-
-
-0
-
-install postinst postrm preinst setup
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst setup
+DEPEND=app-arch/unzip
+DESCRIPTION=Mozilla Application Suite - web browser, email, HTML editor, IRC
+EAPI=0
+HOMEPAGE=http://www.seamonkey-project.org/
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=|| ( MPL-1.1 GPL-2 LGPL-2.1 )
+RDEPEND=dev-libs/dbus-glib x11-libs/libXrender x11-libs/libXt x11-libs/libXmu x86? ( >=x11-libs/gtk+-2.2 >=media-libs/alsa-lib-1.0.16 ) amd64? ( >=app-emulation/emul-linux-x86-baselibs-1.0 >=app-emulation/emul-linux-x86-gtklibs-1.0 >=app-emulation/emul-linux-x86-soundlibs-20080418 app-emulation/emul-linux-x86-compat )
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://releases.mozilla.org/pub/mozilla.org/seamonkey/releases/2.0a2/seamonkey-2.0a2.en-US.linux-i686.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	mozilla-launcher	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	nsplugins	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

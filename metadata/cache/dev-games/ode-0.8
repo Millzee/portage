@@ -1,22 +1,13 @@
-app-arch/unzip virtual/opengl virtual/glu x11-libs/libXmu x11-libs/libXi =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-examples? ( virtual/opengl virtual/glu x11-libs/libXmu x11-libs/libXi )
-0
-mirror://sourceforge/opende/ode-src-0.8.zip
-
-http://ode.org/
-LGPL-2.1
-Open Dynamics Engine SDK
-amd64 ia64 ppc ppc64 ~sparc x86 ~x86-fbsd
-toolchain-funcs portability multilib libtool autotools eutils
-double-precision examples nogyroscopic noopcode
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=app-arch/unzip virtual/opengl virtual/glu x11-libs/libXmu x11-libs/libXi =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Open Dynamics Engine SDK
+EAPI=0
+HOMEPAGE=http://ode.org/
+IUSE=double-precision examples nogyroscopic noopcode
+KEYWORDS=amd64 ia64 ppc ppc64 ~sparc x86 ~x86-fbsd
+LICENSE=LGPL-2.1
+RDEPEND=examples? ( virtual/opengl virtual/glu x11-libs/libXmu x11-libs/libXi )
+SLOT=0
+SRC_URI=mirror://sourceforge/opende/ode-src-0.8.zip
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

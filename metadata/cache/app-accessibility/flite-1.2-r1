@@ -1,22 +1,12 @@
-
-virtual/libc
-0
-http://www.speech.cs.cmu.edu/flite/packed/flite-1.2/flite-1.2-release.tar.bz2 http://www.speech.cs.cmu.edu/flite/packed/flite-1.2/flite_lexfix.tar.gz
-
-http://www.speech.cs.cmu.edu/flite/index.html
-BSD as-is
-Flite text to speech engine
-~alpha amd64 hppa ppc sparc x86
-toolchain-funcs multilib portability eutils
-static
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Flite text to speech engine
+EAPI=0
+HOMEPAGE=http://www.speech.cs.cmu.edu/flite/index.html
+IUSE=static
+KEYWORDS=~alpha amd64 hppa ppc sparc x86
+LICENSE=BSD as-is
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://www.speech.cs.cmu.edu/flite/packed/flite-1.2/flite-1.2-release.tar.bz2 http://www.speech.cs.cmu.edu/flite/packed/flite-1.2/flite_lexfix.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

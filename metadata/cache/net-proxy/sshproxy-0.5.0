@@ -1,22 +1,13 @@
-!net-misc/putty !client-only? ( >=dev-python/paramiko-1.6.2 mysql? ( >=dev-python/mysql-python-1.2.0 ) ) virtual/python
-!net-misc/putty !client-only? ( >=dev-python/paramiko-1.6.2 mysql? ( >=dev-python/mysql-python-1.2.0 ) ) net-misc/openssh
-0
-http://penguin.fr/sshproxy/download/sshproxy-0.5.0.tar.gz
-
-http://penguin.fr/sshproxy/
-GPL-2
-sshproxy is an ssh gateway to apply ACLs on ssh connections
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-client-only mysql minimal
-
-
-
-0
-
-compile config install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst postrm setup unpack
+DEPEND=!net-misc/putty !client-only? ( >=dev-python/paramiko-1.6.2 mysql? ( >=dev-python/mysql-python-1.2.0 ) ) virtual/python
+DESCRIPTION=sshproxy is an ssh gateway to apply ACLs on ssh connections
+EAPI=0
+HOMEPAGE=http://penguin.fr/sshproxy/
+IUSE=client-only mysql minimal
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=!net-misc/putty !client-only? ( >=dev-python/paramiko-1.6.2 mysql? ( >=dev-python/mysql-python-1.2.0 ) ) net-misc/openssh
+SLOT=0
+SRC_URI=http://penguin.fr/sshproxy/download/sshproxy-0.5.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

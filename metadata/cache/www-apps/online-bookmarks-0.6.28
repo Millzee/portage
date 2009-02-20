@@ -1,22 +1,13 @@
->=app-admin/webapp-config-1.50.15
->=virtual/httpd-php-4.3.0 dev-php/PEAR-Auth dev-php/PEAR-DB >=app-admin/webapp-config-1.50.15
-0.6.28
-http://www.frech.ch/online-bookmarks/download/old_versions/0.6.x/online-bookmarks-0.6.28.tar.gz
-
-http://www.frech.ch/online-bookmarks/index.php
-GPL-2
-A Bookmark management system to store your Bookmarks, Favorites and Links.
-~amd64 ppc ~x86
-toolchain-funcs portability depend.php multilib phpconfutils webapp eutils
-vhosts
-
-
-
-0
-
-compile install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup unpack
+DEPEND=>=app-admin/webapp-config-1.50.15
+DESCRIPTION=A Bookmark management system to store your Bookmarks, Favorites and Links.
+EAPI=0
+HOMEPAGE=http://www.frech.ch/online-bookmarks/index.php
+IUSE=vhosts
+KEYWORDS=~amd64 ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/httpd-php-4.3.0 dev-php/PEAR-Auth dev-php/PEAR-DB >=app-admin/webapp-config-1.50.15
+SLOT=0.6.28
+SRC_URI=http://www.frech.ch/online-bookmarks/download/old_versions/0.6.x/online-bookmarks-0.6.28.tar.gz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

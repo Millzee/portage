@@ -1,22 +1,13 @@
-dev-python/pygtk >=dev-lang/python-2.3 virtual/python
-dev-python/pygtk >=dev-lang/python-2.3
-0
-http://download.gnome.org/sources/kiwi/1.9/kiwi-1.9.21.tar.gz
-
-http://www.async.com.br/projects/kiwi/
-LGPL-2.1
-Kiwi is a pure Python framework and set of enhanced PyGTK widgets
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs distutils portability python alternatives versionator multilib eutils
-examples
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-python/pygtk >=dev-lang/python-2.3 virtual/python
+DESCRIPTION=Kiwi is a pure Python framework and set of enhanced PyGTK widgets
+EAPI=0
+HOMEPAGE=http://www.async.com.br/projects/kiwi/
+IUSE=examples
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-python/pygtk >=dev-lang/python-2.3
+SLOT=0
+SRC_URI=http://download.gnome.org/sources/kiwi/1.9/kiwi-1.9.21.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

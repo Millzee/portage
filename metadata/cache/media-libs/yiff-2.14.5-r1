@@ -1,22 +1,13 @@
-alsa? ( media-libs/alsa-lib )
-alsa? ( media-libs/alsa-lib )
-0
-ftp://wolfpack.twu.net/users/wolfpack/yiff-2.14.5.tar.bz2
-
-http://wolfpack.twu.net/YIFF/
-GPL-2
-high performance and stable sound server for UNIX games and apps
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-alsa
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=alsa? ( media-libs/alsa-lib )
+DESCRIPTION=high performance and stable sound server for UNIX games and apps
+EAPI=0
+HOMEPAGE=http://wolfpack.twu.net/YIFF/
+IUSE=alsa
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=alsa? ( media-libs/alsa-lib )
+SLOT=0
+SRC_URI=ftp://wolfpack.twu.net/users/wolfpack/yiff-2.14.5.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

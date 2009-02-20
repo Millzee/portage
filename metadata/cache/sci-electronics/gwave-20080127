@@ -1,22 +1,13 @@
-=dev-scheme/guile-1.8* =x11-libs/guile-gtk-1.2.0.60
-=dev-scheme/guile-1.8* =x11-libs/guile-gtk-1.2.0.60 gnuplot? ( sci-visualization/gnuplot ) plotutils? ( media-libs/plotutils )
-0
-mirror://sourceforge/gwave/gwave-20080127.tar.gz
-
-http://www.geda.seul.org/tools/gwave/
-GPL-2
-Analog waveform viewer for SPICE-like simulations
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-gnuplot plotutils
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND==dev-scheme/guile-1.8* =x11-libs/guile-gtk-1.2.0.60
+DESCRIPTION=Analog waveform viewer for SPICE-like simulations
+EAPI=0
+HOMEPAGE=http://www.geda.seul.org/tools/gwave/
+IUSE=gnuplot plotutils
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND==dev-scheme/guile-1.8* =x11-libs/guile-gtk-1.2.0.60 gnuplot? ( sci-visualization/gnuplot ) plotutils? ( media-libs/plotutils )
+SLOT=0
+SRC_URI=mirror://sourceforge/gwave/gwave-20080127.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

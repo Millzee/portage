@@ -1,22 +1,12 @@
-media-sound/jack-audio-connection-kit >=media-libs/alsa-lib-0.9 x11-libs/fltk:1.1
-media-sound/jack-audio-connection-kit >=media-libs/alsa-lib-0.9 x11-libs/fltk:1.1
-0
-ftp://www.iua.upf.es/pub/mdeboer/projects/tapiir/tapiir-0.7.1.tar.gz
-
-http://www.iua.upf.es/~mdeboer/projects/tapiir/
-GPL-2
-a flexible audio effects processor, inspired on the classical magnetic tape delay systems
-amd64 ~ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=media-sound/jack-audio-connection-kit >=media-libs/alsa-lib-0.9 x11-libs/fltk:1.1
+DESCRIPTION=a flexible audio effects processor, inspired on the classical magnetic tape delay systems
+EAPI=1
+HOMEPAGE=http://www.iua.upf.es/~mdeboer/projects/tapiir/
+KEYWORDS=amd64 ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=media-sound/jack-audio-connection-kit >=media-libs/alsa-lib-0.9 x11-libs/fltk:1.1
+SLOT=0
+SRC_URI=ftp://www.iua.upf.es/pub/mdeboer/projects/tapiir/tapiir-0.7.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

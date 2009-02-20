@@ -1,22 +1,12 @@
-dev-libs/openssl app-arch/unzip
-dev-libs/openssl
-0
-http://www.antsight.com/zsl/rainbowcrack/rainbowcrack-1.2-src.zip http://www.antsight.com/zsl/rainbowcrack/rainbowcrack-1.2-src-algorithmpatch.zip
-
-http://www.antsight.com/zsl/rainbowcrack/
-as-is
-Hash cracker that precomputes plaintext - ciphertext pairs in advance
--* amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=dev-libs/openssl app-arch/unzip
+DESCRIPTION=Hash cracker that precomputes plaintext - ciphertext pairs in advance
+EAPI=0
+HOMEPAGE=http://www.antsight.com/zsl/rainbowcrack/
+KEYWORDS=-* amd64 x86
+LICENSE=as-is
+RDEPEND=dev-libs/openssl
+SLOT=0
+SRC_URI=http://www.antsight.com/zsl/rainbowcrack/rainbowcrack-1.2-src.zip http://www.antsight.com/zsl/rainbowcrack/rainbowcrack-1.2-src-algorithmpatch.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

@@ -1,22 +1,12 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=media-libs/libsdl-1.2 dev-lang/tcl dev-lang/tk
-0
-http://frodo.cebix.net/downloads/FrodoV4_1b.Src.tar.gz
-
-http://frodo.cebix.net/
-Frodo
-An excellent Commodore 64 Emulator
-~amd64 ppc ~sparc x86
-toolchain-funcs portability flag-o-matic multilib libtool autotools eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=An excellent Commodore 64 Emulator
+EAPI=0
+HOMEPAGE=http://frodo.cebix.net/
+KEYWORDS=~amd64 ppc ~sparc x86
+LICENSE=Frodo
+RDEPEND=>=media-libs/libsdl-1.2 dev-lang/tcl dev-lang/tk
+SLOT=0
+SRC_URI=http://frodo.cebix.net/downloads/FrodoV4_1b.Src.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

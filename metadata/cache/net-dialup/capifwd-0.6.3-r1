@@ -1,22 +1,12 @@
-net-dialup/capi4k-utils
-net-dialup/capi4k-utils
-0
-mirror://sourceforge/capi20proxy/capifwd-0.6.3.tar.bz2
-
-http://capi20proxy.sourceforge.net/
-GPL-2
-A daemon forwarding CAPI messages to capi20proxy clients
-~amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=net-dialup/capi4k-utils
+DESCRIPTION=A daemon forwarding CAPI messages to capi20proxy clients
+EAPI=0
+HOMEPAGE=http://capi20proxy.sourceforge.net/
+KEYWORDS=~amd64 x86
+LICENSE=GPL-2
+RDEPEND=net-dialup/capi4k-utils
+SLOT=0
+SRC_URI=mirror://sourceforge/capi20proxy/capifwd-0.6.3.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

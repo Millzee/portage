@@ -1,22 +1,13 @@
-virtual/libc pam? ( virtual/pam >=net-mail/mailbase-0.00-r8 )
-virtual/libc pam? ( virtual/pam >=net-mail/mailbase-0.00-r8 )
-0
-http://www.ibiblio.org/pub/Linux/system/mail/pop/vm-pop3d-1.1.6.tar.gz
-
-http://www.reedmedia.net/software/virtualmail-pop3d/
-GPL-2
-POP3 server
-~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils
-pam debug
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=virtual/libc pam? ( virtual/pam >=net-mail/mailbase-0.00-r8 )
+DESCRIPTION=POP3 server
+EAPI=0
+HOMEPAGE=http://www.reedmedia.net/software/virtualmail-pop3d/
+IUSE=pam debug
+KEYWORDS=~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc pam? ( virtual/pam >=net-mail/mailbase-0.00-r8 )
+SLOT=0
+SRC_URI=http://www.ibiblio.org/pub/Linux/system/mail/pop/vm-pop3d-1.1.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

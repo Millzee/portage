@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.6 qt4? ( || ( x11-libs/qt-gui:4 x11-libs/qt:4 ) ) dev-util/cmake =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
->=x11-libs/gtk+-2.6 qt4? ( || ( x11-libs/qt-gui:4 x11-libs/qt:4 ) ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
-0
-http://home.freeuk.com/cpdrummond/KGtk-0.9.5.tar.bz2
-
-http://www.kde-apps.org/content/show.php?content=36077
-GPL-2
-Allows *some* Gtk, Qt3, and Qt4 applications to use KDE's file dialogs when run under KDE
-~amd64 ~ppc ~x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-qt4 debug elibc_FreeBSD xinerama
-
-
-
-1
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=x11-libs/gtk+-2.6 qt4? ( || ( x11-libs/qt-gui:4 x11-libs/qt:4 ) ) dev-util/cmake =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
+DESCRIPTION=Allows *some* Gtk, Qt3, and Qt4 applications to use KDE's file dialogs when run under KDE
+EAPI=1
+HOMEPAGE=http://www.kde-apps.org/content/show.php?content=36077
+IUSE=qt4 debug elibc_FreeBSD xinerama
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.6 qt4? ( || ( x11-libs/qt-gui:4 x11-libs/qt:4 ) ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
+SLOT=0
+SRC_URI=http://home.freeuk.com/cpdrummond/KGtk-0.9.5.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082862

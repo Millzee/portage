@@ -1,22 +1,12 @@
-dev-lang/tcl dev-lang/tk
-dev-lang/tcl dev-lang/tk
-0
-http://quirc.org/quirc-0.9.84.tar.gz
-
-http://quirc.org/
-GPL-2
-A GUI IRC client scriptable in Tcl/Tk
-x86 ~ppc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/tcl dev-lang/tk
+DESCRIPTION=A GUI IRC client scriptable in Tcl/Tk
+EAPI=0
+HOMEPAGE=http://quirc.org/
+KEYWORDS=x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=dev-lang/tcl dev-lang/tk
+SLOT=0
+SRC_URI=http://quirc.org/quirc-0.9.84.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

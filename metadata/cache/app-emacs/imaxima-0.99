@@ -1,22 +1,12 @@
->=virtual/emacs-21
-virtual/latex-base virtual/ghostscript || ( dev-tex/mh dev-tex/breqn =dev-texlive/texlive-mathextra-2007* ) <sci-mathematics/maxima-5.15.0 >=virtual/emacs-21
-0
-http://members3.jcom.home.ne.jp/imaxima/Site/Download_and_Install_files/imaxima-imath-0.99.tar.gz
-
-http://members3.jcom.home.ne.jp/imaxima/Site/Welcome.html
-GPL-2
-Imaxima enables graphical output in Maxima sessions with emacs
-~amd64 ~x86 ~ppc
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-21
+DESCRIPTION=Imaxima enables graphical output in Maxima sessions with emacs
+EAPI=0
+HOMEPAGE=http://members3.jcom.home.ne.jp/imaxima/Site/Welcome.html
+KEYWORDS=~amd64 ~x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=virtual/latex-base virtual/ghostscript || ( dev-tex/mh dev-tex/breqn =dev-texlive/texlive-mathextra-2007* ) <sci-mathematics/maxima-5.15.0 >=virtual/emacs-21
+SLOT=0
+SRC_URI=http://members3.jcom.home.ne.jp/imaxima/Site/Download_and_Install_files/imaxima-imath-0.99.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

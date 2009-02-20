@@ -1,22 +1,13 @@
-app-arch/unzip >=dev-java/java-config-2.1.6
->=virtual/jre-1.6 >=dev-java/java-config-2.1.6
-0
-mirror://gnu/electric/electricBinary-8.05.jar
-
-http://www.gnu.org/software/electric/electric.html
-GPL-2
-Complete Electronic Design Automation (EDA) system that can handle many forms of circuit design
-~amd64 ~ppc ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD
-
-
-
-
-
-compile install preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup
+DEPEND=app-arch/unzip >=dev-java/java-config-2.1.6
+DESCRIPTION=Complete Electronic Design Automation (EDA) system that can handle many forms of circuit design
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/electric/electric.html
+IUSE=elibc_FreeBSD
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.6 >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=mirror://gnu/electric/electricBinary-8.05.jar
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,12 @@
-virtual/libc sys-apps/sed
-virtual/libc
-0
-http://www.grigna.com/diego/linux/countrycodes/countrycodes-1.0.5.tar.gz
-
-http://www.grigna.com/diego/linux/countrycodes/
-GPL-2
-An ISO 3166 country code finder
-alpha amd64 ~ia64 mips ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc sys-apps/sed
+DESCRIPTION=An ISO 3166 country code finder
+EAPI=0
+HOMEPAGE=http://www.grigna.com/diego/linux/countrycodes/
+KEYWORDS=alpha amd64 ~ia64 mips ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://www.grigna.com/diego/linux/countrycodes/countrycodes-1.0.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

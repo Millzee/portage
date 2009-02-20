@@ -1,22 +1,13 @@
->=dev-lang/python-2.3 virtual/opengl =x11-libs/gtk+-1.2* =x11-libs/gtkglarea-1.2* >=dev-libs/boost-1.31 numeric? ( dev-python/numeric ) numarray? ( >=dev-python/numarray-1.0 ) !numeric? ( !numarray? ( dev-python/numeric ) ) dev-util/pkgconfig virtual/python
->=dev-lang/python-2.3 virtual/opengl =x11-libs/gtk+-1.2* =x11-libs/gtkglarea-1.2* >=dev-libs/boost-1.31 numeric? ( dev-python/numeric ) numarray? ( >=dev-python/numarray-1.0 ) !numeric? ( !numarray? ( dev-python/numeric ) )
-0
-http://www.vpython.org/download/visual-3.2.9.tar.bz2
-
-http://www.vpython.org/
-visual
-An easy to use Real-time 3D graphics library for Python.
-amd64 ia64 ppc x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-doc examples numeric numarray
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-lang/python-2.3 virtual/opengl =x11-libs/gtk+-1.2* =x11-libs/gtkglarea-1.2* >=dev-libs/boost-1.31 numeric? ( dev-python/numeric ) numarray? ( >=dev-python/numarray-1.0 ) !numeric? ( !numarray? ( dev-python/numeric ) ) dev-util/pkgconfig virtual/python
+DESCRIPTION=An easy to use Real-time 3D graphics library for Python.
+EAPI=0
+HOMEPAGE=http://www.vpython.org/
+IUSE=doc examples numeric numarray
+KEYWORDS=amd64 ia64 ppc x86
+LICENSE=visual
+RDEPEND=>=dev-lang/python-2.3 virtual/opengl =x11-libs/gtk+-1.2* =x11-libs/gtkglarea-1.2* >=dev-libs/boost-1.31 numeric? ( dev-python/numeric ) numarray? ( >=dev-python/numarray-1.0 ) !numeric? ( !numarray? ( dev-python/numeric ) )
+SLOT=0
+SRC_URI=http://www.vpython.org/download/visual-3.2.9.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

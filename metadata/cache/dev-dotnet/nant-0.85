@@ -1,22 +1,12 @@
->=dev-lang/mono-1.2.2.1 dev-util/pkgconfig
->=dev-lang/mono-1.2.2.1
-0
-mirror://sourceforge/nant/nant-0.85-src.tar.gz
-
-http://nant.sourceforge.net/
-GPL-2
-.NET build tool
-amd64 ppc x86
-mono toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/mono-1.2.2.1 dev-util/pkgconfig
+DESCRIPTION=.NET build tool
+EAPI=0
+HOMEPAGE=http://nant.sourceforge.net/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/mono-1.2.2.1
+SLOT=0
+SRC_URI=mirror://sourceforge/nant/nant-0.85-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

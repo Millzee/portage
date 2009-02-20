@@ -1,22 +1,9 @@
-
-|| ( ~perl-core/ExtUtils-Install-1.52 )
-0
-
-
-http://www.gentoo.org/proj/en/perl/
-GPL-2
-Virtual for ExtUtils-Install
-~amd64 ~x86
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for ExtUtils-Install
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/perl/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( ~perl-core/ExtUtils-Install-1.52 )
+SLOT=0
+_mtime_=1235082908

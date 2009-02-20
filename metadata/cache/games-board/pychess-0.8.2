@@ -1,22 +1,13 @@
-dev-python/pygtk dev-python/pygobject dev-python/pycairo dev-python/pysqlite gstreamer? ( dev-python/gst-python ) dev-python/gnome-python-desktop x11-themes/gnome-icon-theme virtual/python
-dev-python/pygtk dev-python/pygobject dev-python/pycairo dev-python/pysqlite gstreamer? ( dev-python/gst-python ) dev-python/gnome-python-desktop x11-themes/gnome-icon-theme
-0
-http://pychess.googlecode.com/files/pychess-0.8.2.tar.gz
-
-http://pychess.googlepages.com/home
-GPL-2
-A chess client for Gnome
-~amd64 ~x86
-toolchain-funcs portability distutils python alternatives multilib base games eutils
-gstreamer
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=dev-python/pygtk dev-python/pygobject dev-python/pycairo dev-python/pysqlite gstreamer? ( dev-python/gst-python ) dev-python/gnome-python-desktop x11-themes/gnome-icon-theme virtual/python
+DESCRIPTION=A chess client for Gnome
+EAPI=0
+HOMEPAGE=http://pychess.googlepages.com/home
+IUSE=gstreamer
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-python/pygtk dev-python/pygobject dev-python/pycairo dev-python/pysqlite gstreamer? ( dev-python/gst-python ) dev-python/gnome-python-desktop x11-themes/gnome-icon-theme
+SLOT=0
+SRC_URI=http://pychess.googlecode.com/files/pychess-0.8.2.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

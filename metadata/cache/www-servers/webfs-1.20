@@ -1,22 +1,12 @@
-ssl? ( dev-libs/openssl )
-ssl? ( dev-libs/openssl ) app-misc/mime-types
-0
-http://dl.bytesex.org/releases/webfs/webfs_1.20.tar.gz
-
-http://bytesex.org/webfs.html
-GPL-2
-Lightweight HTTP server for static content
-x86 sparc alpha ppc ~amd64
-
-ssl
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=ssl? ( dev-libs/openssl )
+DESCRIPTION=Lightweight HTTP server for static content
+EAPI=0
+HOMEPAGE=http://bytesex.org/webfs.html
+IUSE=ssl
+KEYWORDS=x86 sparc alpha ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=ssl? ( dev-libs/openssl ) app-misc/mime-types
+SLOT=0
+SRC_URI=http://dl.bytesex.org/releases/webfs/webfs_1.20.tar.gz
+_mtime_=1235082908

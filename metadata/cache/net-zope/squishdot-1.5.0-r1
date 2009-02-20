@@ -1,22 +1,11 @@
-
-net-zope/zope app-admin/zprod-manager
-0
-http://squishdot.org//Download/Squishdot-1-5-0.tar.gz
-
-http://squishdot.org/
-ZPL
-A web-based news publishing and discussion product for Zope
-~sparc x86
-zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DESCRIPTION=A web-based news publishing and discussion product for Zope
+EAPI=0
+HOMEPAGE=http://squishdot.org/
+KEYWORDS=~sparc x86
+LICENSE=ZPL
+RDEPEND=net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://squishdot.org//Download/Squishdot-1-5-0.tar.gz
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

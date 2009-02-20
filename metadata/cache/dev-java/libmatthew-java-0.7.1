@@ -1,22 +1,13 @@
->=virtual/jdk-1.5 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
->=virtual/jre-1.5 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-http://www.matthew.ath.cx/projects/java/libmatthew-java-0.7.1.tar.gz
-
-http://www.matthew.ath.cx/projects/java/
-LGPL-2.1
-A selection of libraries for Java
-amd64 ~ppc ppc64 x86
-toolchain-funcs java-pkg-2 portability flag-o-matic java-utils-2 versionator multilib eutils
-elibc_FreeBSD doc source
-
-
-
-
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.5 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+DESCRIPTION=A selection of libraries for Java
+EAPI=0
+HOMEPAGE=http://www.matthew.ath.cx/projects/java/
+IUSE=elibc_FreeBSD doc source
+KEYWORDS=amd64 ~ppc ppc64 x86
+LICENSE=LGPL-2.1
+RDEPEND=>=virtual/jre-1.5 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=http://www.matthew.ath.cx/projects/java/libmatthew-java-0.7.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

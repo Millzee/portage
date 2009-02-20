@@ -1,22 +1,11 @@
-
-=net-www/xxv-1.2.1359 !x11-themes/xxv-xstyle
-0
-http://vdr.websitec.de/download/xxv-skins/xxv-skins-1.2.1359.tgz
-
-http://xxv.berlios.de/content/view/38/1/
-GPL-2
-Additional skins for XXV
-~x86 ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Additional skins for XXV
+EAPI=0
+HOMEPAGE=http://xxv.berlios.de/content/view/38/1/
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND==net-www/xxv-1.2.1359 !x11-themes/xxv-xstyle
+SLOT=0
+SRC_URI=http://vdr.websitec.de/download/xxv-skins/xxv-skins-1.2.1359.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

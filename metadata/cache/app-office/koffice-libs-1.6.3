@@ -1,22 +1,13 @@
-~app-office/koffice-data-1.6.3 virtual/python dev-lang/ruby doc? ( app-doc/doxygen ) dev-util/pkgconfig =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts ) !=app-office/koffice-1.6*
-~app-office/koffice-data-1.6.3 virtual/python dev-lang/ruby =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts ) !=app-office/koffice-1.6*
-0
-mirror://kde/stable/koffice-1.6.3/src/koffice-1.6.3.tar.bz2
-
-http://www.koffice.org/
-GPL-2 LGPL-2
-Shared KOffice libraries.
-alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions kde-meta base libtool autotools eutils
-doc debug elibc_FreeBSD arts xinerama
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=~app-office/koffice-data-1.6.3 virtual/python dev-lang/ruby doc? ( app-doc/doxygen ) dev-util/pkgconfig =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts ) !=app-office/koffice-1.6*
+DESCRIPTION=Shared KOffice libraries.
+EAPI=0
+HOMEPAGE=http://www.koffice.org/
+IUSE=doc debug elibc_FreeBSD arts xinerama
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=GPL-2 LGPL-2
+RDEPEND=~app-office/koffice-data-1.6.3 virtual/python dev-lang/ruby =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts ) !=app-office/koffice-1.6*
+SLOT=0
+SRC_URI=mirror://kde/stable/koffice-1.6.3/src/koffice-1.6.3.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	kde-meta	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

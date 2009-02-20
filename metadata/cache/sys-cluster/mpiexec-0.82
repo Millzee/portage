@@ -1,22 +1,13 @@
-virtual/libc virtual/pbs virtual/mpi
-net-misc/openssh
-0
-http://www.osc.edu/~pw/mpiexec/mpiexec-0.82.tgz
-
-http://www.osc.edu/~pw/mpiexec/
-GPL-2
-replacement for mpirun, integrates MPI with PBS.
-~ppc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-sharedmem
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc virtual/pbs virtual/mpi
+DESCRIPTION=replacement for mpirun, integrates MPI with PBS.
+EAPI=0
+HOMEPAGE=http://www.osc.edu/~pw/mpiexec/
+IUSE=sharedmem
+KEYWORDS=~ppc x86
+LICENSE=GPL-2
+RDEPEND=net-misc/openssh
+SLOT=0
+SRC_URI=http://www.osc.edu/~pw/mpiexec/mpiexec-0.82.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

@@ -1,22 +1,13 @@
-sys-libs/readline X? ( x11-libs/libX11 ) emacs? ( virtual/emacs ) gmp? ( dev-libs/gmp ) doc? ( virtual/latex-base )
-sys-libs/readline X? ( x11-libs/libX11 ) emacs? ( virtual/emacs ) gmp? ( dev-libs/gmp )
-0
-http://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.3.4.tar.gz elliptic? ( http://pari.math.u-bordeaux.fr/pub/pari/packages/elldata.tgz ) galois? ( http://pari.math.u-bordeaux.fr/pub/pari/packages/galdata.tgz )
-
-http://pari.math.u-bordeaux.fr/
-GPL-2
-A software package for computer-aided number theory
-~alpha ~amd64 ~hppa ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs elisp-common portability flag-o-matic multilib eutils
-doc emacs X elliptic galois gmp static
-
-
-
-2
-
-compile configure install postinst postrm prepare test
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm prepare test
+DEPEND=sys-libs/readline X? ( x11-libs/libX11 ) emacs? ( virtual/emacs ) gmp? ( dev-libs/gmp ) doc? ( virtual/latex-base )
+DESCRIPTION=A software package for computer-aided number theory
+EAPI=2
+HOMEPAGE=http://pari.math.u-bordeaux.fr/
+IUSE=doc emacs X elliptic galois gmp static
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=sys-libs/readline X? ( x11-libs/libX11 ) emacs? ( virtual/emacs ) gmp? ( dev-libs/gmp )
+SLOT=0
+SRC_URI=http://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.3.4.tar.gz elliptic? ( http://pari.math.u-bordeaux.fr/pub/pari/packages/elldata.tgz ) galois? ( http://pari.math.u-bordeaux.fr/pub/pari/packages/galdata.tgz )
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

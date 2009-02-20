@@ -1,22 +1,13 @@
-mpi? ( >=sys-cluster/mpich2-1.0.6 net-fs/nfs-utils ) ssl? ( dev-libs/openssl ) szip? ( sci-libs/szip ) zlib? ( sys-libs/zlib ) threads? ( virtual/libc ) sys-apps/coreutils sys-process/time >=sys-apps/sed-4 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-mpi? ( >=sys-cluster/mpich2-1.0.6 net-fs/nfs-utils ) ssl? ( dev-libs/openssl ) szip? ( sci-libs/szip ) zlib? ( sys-libs/zlib ) threads? ( virtual/libc ) sys-apps/coreutils sys-process/time dev-lang/perl
-0
-ftp://ftp.hdfgroup.org/HDF5/current/src/hdf5-1.6.7.tar.gz
-
-http://hdf.ncsa.uiuc.edu/HDF5/
-NCSA-HDF
-General purpose library and file format for storing scientific data
-~amd64 ~hppa ~ppc ~ppc64 ~x86 ~sparc
-toolchain-funcs portability flag-o-matic multilib fixheadtails fortran libtool autotools eutils
-cxx debug fortran mpi ssl szip threads tools zlib debug
-
-
-
-0
-
-compile install postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test unpack
+DEPEND=mpi? ( >=sys-cluster/mpich2-1.0.6 net-fs/nfs-utils ) ssl? ( dev-libs/openssl ) szip? ( sci-libs/szip ) zlib? ( sys-libs/zlib ) threads? ( virtual/libc ) sys-apps/coreutils sys-process/time >=sys-apps/sed-4 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=General purpose library and file format for storing scientific data
+EAPI=0
+HOMEPAGE=http://hdf.ncsa.uiuc.edu/HDF5/
+IUSE=cxx debug fortran mpi ssl szip threads tools zlib debug
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~x86 ~sparc
+LICENSE=NCSA-HDF
+RDEPEND=mpi? ( >=sys-cluster/mpich2-1.0.6 net-fs/nfs-utils ) ssl? ( dev-libs/openssl ) szip? ( sci-libs/szip ) zlib? ( sys-libs/zlib ) threads? ( virtual/libc ) sys-apps/coreutils sys-process/time dev-lang/perl
+SLOT=0
+SRC_URI=ftp://ftp.hdfgroup.org/HDF5/current/src/hdf5-1.6.7.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

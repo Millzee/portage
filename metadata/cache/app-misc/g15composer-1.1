@@ -1,22 +1,13 @@
-app-misc/g15daemon dev-libs/libg15render truetype? ( media-libs/freetype ) dev-libs/libg15
-app-misc/g15daemon dev-libs/libg15render truetype? ( media-libs/freetype ) sys-apps/coreutils
-0
-mirror://sourceforge/g15tools/g15composer-1.1.tar.bz2
-
-http://g15tools.sourceforge.net/
-GPL-2
-A library to render text and shapes into a buffer usable by the Logitech G15 keyboard
-~amd64 ~ppc64 ~x86
-toolchain-funcs multilib portability eutils
-truetype
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=app-misc/g15daemon dev-libs/libg15render truetype? ( media-libs/freetype ) dev-libs/libg15
+DESCRIPTION=A library to render text and shapes into a buffer usable by the Logitech G15 keyboard
+EAPI=0
+HOMEPAGE=http://g15tools.sourceforge.net/
+IUSE=truetype
+KEYWORDS=~amd64 ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=app-misc/g15daemon dev-libs/libg15render truetype? ( media-libs/freetype ) sys-apps/coreutils
+SLOT=0
+SRC_URI=mirror://sourceforge/g15tools/g15composer-1.1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

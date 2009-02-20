@@ -1,22 +1,14 @@
-virtual/libc
-virtual/libc
-0
-http://vrb.slashusr.org/download/vrb-0.5.1.tar.bz2
-strip
-http://vrb.slashusr.org/
-LGPL-2.1
-Library for a virtual ring buffer
-~sparc ~x86
-toolchain-funcs multilib portability eutils
-static
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=Library for a virtual ring buffer
+EAPI=0
+HOMEPAGE=http://vrb.slashusr.org/
+IUSE=static
+KEYWORDS=~sparc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=virtual/libc
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://vrb.slashusr.org/download/vrb-0.5.1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

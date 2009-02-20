@@ -1,22 +1,13 @@
-nls? ( >=sys-devel/gettext-0.16.1 ) kerberos? ( virtual/krb5 ) idn? ( net-dns/libidn )
-nls? ( >=sys-devel/gettext-0.16.1 ) kerberos? ( virtual/krb5 ) idn? ( net-dns/libidn ) !virtual/gsasl
-0
-ftp://alpha.gnu.org/pub/gnu/gsasl/libgsasl-0.2.29.tar.gz
-
-http://www.gnu.org/software/gsasl/
-LGPL-3
-The GNU SASL library
-~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
-
-idn kerberos nls
-
-
-virtual/gsasl
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=nls? ( >=sys-devel/gettext-0.16.1 ) kerberos? ( virtual/krb5 ) idn? ( net-dns/libidn )
+DESCRIPTION=The GNU SASL library
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/gsasl/
+IUSE=idn kerberos nls
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=LGPL-3
+PROVIDE=virtual/gsasl
+RDEPEND=nls? ( >=sys-devel/gettext-0.16.1 ) kerberos? ( virtual/krb5 ) idn? ( net-dns/libidn ) !virtual/gsasl
+SLOT=0
+SRC_URI=ftp://alpha.gnu.org/pub/gnu/gsasl/libgsasl-0.2.29.tar.gz
+_mtime_=1235082893

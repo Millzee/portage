@@ -1,22 +1,13 @@
-virtual/pbs =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/pbs virtual/libc
-0
-http://www.clusterresources.com/downloads/maui/maui-3.2.6p16.tar.gz
-fetch mirror
-http://www.clusterresources.com/products/maui/
-maui
-Maui Cluster Scheduler
-~x86 ~amd64
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/pbs =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Maui Cluster Scheduler
+EAPI=0
+HOMEPAGE=http://www.clusterresources.com/products/maui/
+KEYWORDS=~x86 ~amd64
+LICENSE=maui
+RDEPEND=virtual/pbs virtual/libc
+RESTRICT=fetch mirror
+SLOT=0
+SRC_URI=http://www.clusterresources.com/downloads/maui/maui-3.2.6p16.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

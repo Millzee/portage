@@ -1,22 +1,12 @@
->=virtual/perl-Getopt-Long-2.34 >=dev-perl/HTML-LinkList-0.1501 >=dev-perl/Getopt-ArgvFile-1.09 >=dev-perl/HTML-SimpleParse-0.1 dev-perl/HTML-Parser
->=virtual/perl-Getopt-Long-2.34 >=dev-perl/HTML-LinkList-0.1501 >=dev-perl/Getopt-ArgvFile-1.09 >=dev-perl/HTML-SimpleParse-0.1 dev-perl/HTML-Parser
-0
-mirror://cpan/authors/id/R/RU/RUBYKAT//HTML-GenToc-3.10.tar.gz
-
-http://search.cpan.org/search?query=HTML-GenToc&mode=dist
-|| ( Artistic GPL-2 )
-Generate a Table of Contents for HTML documents.
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=virtual/perl-Getopt-Long-2.34 >=dev-perl/HTML-LinkList-0.1501 >=dev-perl/Getopt-ArgvFile-1.09 >=dev-perl/HTML-SimpleParse-0.1 dev-perl/HTML-Parser
+DESCRIPTION=Generate a Table of Contents for HTML documents.
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=HTML-GenToc&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=virtual/perl-Getopt-Long-2.34 >=dev-perl/HTML-LinkList-0.1501 >=dev-perl/Getopt-ArgvFile-1.09 >=dev-perl/HTML-SimpleParse-0.1 dev-perl/HTML-Parser
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RU/RUBYKAT//HTML-GenToc-3.10.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

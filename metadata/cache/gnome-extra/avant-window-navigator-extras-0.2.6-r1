@@ -1,22 +1,13 @@
-dev-python/pyalsaaudio dev-python/feedparser gnome? ( dev-python/gst-python dev-python/gnome-python-desktop gnome-base/gnome-menus gnome-base/librsvg gnome-base/libgtop ) gnome-extra/avant-window-navigator x11-libs/libsexy x11-libs/libnotify =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
-dev-python/pyalsaaudio dev-python/feedparser gnome? ( dev-python/gst-python dev-python/gnome-python-desktop gnome-base/gnome-menus gnome-base/librsvg gnome-base/libgtop ) gnome-extra/avant-window-navigator x11-libs/libsexy x11-libs/libnotify
-0
-https://launchpad.net/awn-extras/0.2/0.2.6/+download/awn-extras-applets-0.2.6.tar.gz
-
-http://launchpad.net/awn-extras
-GPL-2
-Applets for the avant-window-navigator
-~amd64 ~x86
-toolchain-funcs portability python multilib alternatives gnome2-utils gnome2 gnome.org fdo-mime autotools libtool eutils
-gnome debug
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=dev-python/pyalsaaudio dev-python/feedparser gnome? ( dev-python/gst-python dev-python/gnome-python-desktop gnome-base/gnome-menus gnome-base/librsvg gnome-base/libgtop ) gnome-extra/avant-window-navigator x11-libs/libsexy x11-libs/libnotify =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
+DESCRIPTION=Applets for the avant-window-navigator
+EAPI=0
+HOMEPAGE=http://launchpad.net/awn-extras
+IUSE=gnome debug
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-python/pyalsaaudio dev-python/feedparser gnome? ( dev-python/gst-python dev-python/gnome-python-desktop gnome-base/gnome-menus gnome-base/librsvg gnome-base/libgtop ) gnome-extra/avant-window-navigator x11-libs/libsexy x11-libs/libnotify
+SLOT=0
+SRC_URI=https://launchpad.net/awn-extras/0.2/0.2.6/+download/awn-extras-applets-0.2.6.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

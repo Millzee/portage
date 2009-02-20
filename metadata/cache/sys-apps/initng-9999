@@ -1,22 +1,10 @@
->=dev-util/cmake-2.1 dev-util/subversion net-misc/rsync
-
-0
-
-
-http://initng.org/
-GPL-2
-A next generation init replacement
-
-subversion toolchain-funcs multilib portability eutils
-
-
-sys-apps/initng-ifiles
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=dev-util/cmake-2.1 dev-util/subversion net-misc/rsync
+DESCRIPTION=A next generation init replacement
+EAPI=0
+HOMEPAGE=http://initng.org/
+LICENSE=GPL-2
+PDEPEND=sys-apps/initng-ifiles
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

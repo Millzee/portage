@@ -1,22 +1,13 @@
-sys-devel/bison sys-devel/flex >=sys-apps/sed-4 !net-wireless/bluez-pan !net-wireless/bluez >=net-wireless/bluez-libs-2.25 dev-libs/libusb alsa? ( >=media-libs/alsa-lib-1.0.9 ) cups? ( net-print/cups ) dbus? ( >=sys-apps/dbus-0.31 ) gtk? ( >=dev-python/pygtk-2.2 ) pcmcia? ( virtual/pcmcia sys-apps/setserial )
-!net-wireless/bluez-pan !net-wireless/bluez >=net-wireless/bluez-libs-2.25 dev-libs/libusb alsa? ( >=media-libs/alsa-lib-1.0.9 ) cups? ( net-print/cups ) dbus? ( >=sys-apps/dbus-0.31 ) gtk? ( >=dev-python/pygtk-2.2 ) pcmcia? ( virtual/pcmcia sys-apps/setserial )
-0
-http://bluez.sourceforge.net/download/bluez-utils-2.25.tar.gz
-
-http://bluez.sourceforge.net/
-GPL-2
-Bluetooth Tools and System Daemons for Linux
-amd64 arm hppa ppc sh sparc x86
-toolchain-funcs multilib portability eutils
-alsa cups dbus gtk pcmcia
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=sys-devel/bison sys-devel/flex >=sys-apps/sed-4 !net-wireless/bluez-pan !net-wireless/bluez >=net-wireless/bluez-libs-2.25 dev-libs/libusb alsa? ( >=media-libs/alsa-lib-1.0.9 ) cups? ( net-print/cups ) dbus? ( >=sys-apps/dbus-0.31 ) gtk? ( >=dev-python/pygtk-2.2 ) pcmcia? ( virtual/pcmcia sys-apps/setserial )
+DESCRIPTION=Bluetooth Tools and System Daemons for Linux
+EAPI=0
+HOMEPAGE=http://bluez.sourceforge.net/
+IUSE=alsa cups dbus gtk pcmcia
+KEYWORDS=amd64 arm hppa ppc sh sparc x86
+LICENSE=GPL-2
+RDEPEND=!net-wireless/bluez-pan !net-wireless/bluez >=net-wireless/bluez-libs-2.25 dev-libs/libusb alsa? ( >=media-libs/alsa-lib-1.0.9 ) cups? ( net-print/cups ) dbus? ( >=sys-apps/dbus-0.31 ) gtk? ( >=dev-python/pygtk-2.2 ) pcmcia? ( virtual/pcmcia sys-apps/setserial )
+SLOT=0
+SRC_URI=http://bluez.sourceforge.net/download/bluez-utils-2.25.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

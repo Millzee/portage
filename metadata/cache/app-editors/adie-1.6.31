@@ -1,22 +1,13 @@
-~x11-libs/fox-1.6.31 !<x11-libs/fox-1.0.53 !=x11-libs/fox-1.2.4 !~x11-libs/fox-1.2.6 !=x11-libs/fox-1.4.11 dev-util/reswrap =sys-devel/automake-1.4* >=sys-apps/sed-4
-~x11-libs/fox-1.6.31
-0
-http://www.fox-toolkit.org/ftp/fox-1.6.31.tar.gz
-
-http://www.fox-toolkit.org/
-GPL-2
-Text editor based on the FOX Toolkit
-~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability multilib versionator fox libtool eutils
-debug doc profile
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=~x11-libs/fox-1.6.31 !<x11-libs/fox-1.0.53 !=x11-libs/fox-1.2.4 !~x11-libs/fox-1.2.6 !=x11-libs/fox-1.4.11 dev-util/reswrap =sys-devel/automake-1.4* >=sys-apps/sed-4
+DESCRIPTION=Text editor based on the FOX Toolkit
+EAPI=0
+HOMEPAGE=http://www.fox-toolkit.org/
+IUSE=debug doc profile
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=~x11-libs/fox-1.6.31
+SLOT=0
+SRC_URI=http://www.fox-toolkit.org/ftp/fox-1.6.31.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fox	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

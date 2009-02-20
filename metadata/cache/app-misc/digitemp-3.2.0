@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-http://www.digitemp.com/software/linux/digitemp-3.2.0.tar.gz
-
-http://www.digitemp.com http://www.ibutton.com
-GPL-2
-Temperature logging and reporting using Dallas Semiconductor's iButtons and 1-Wire protocol
-x86
-
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/libc
+DESCRIPTION=Temperature logging and reporting using Dallas Semiconductor's iButtons and 1-Wire protocol
+EAPI=0
+HOMEPAGE=http://www.digitemp.com http://www.ibutton.com
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://www.digitemp.com/software/linux/digitemp-3.2.0.tar.gz
+_mtime_=1235082849

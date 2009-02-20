@@ -1,22 +1,11 @@
-dev-util/cvs
-dev-perl/PortageXS app-portage/gentoolkit dev-lang/perl
-0
-
-
-http://sourceforge.net/projects/rep-rebuild/
-LGPL-2
-A tool to rebuild SVN/CVS packages taking care of dependencies ordering
-~amd64 ~x86
-portability toolchain-funcs multilib cvs eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=dev-util/cvs
+DESCRIPTION=A tool to rebuild SVN/CVS packages taking care of dependencies ordering
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/rep-rebuild/
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2
+RDEPEND=dev-perl/PortageXS app-portage/gentoolkit dev-lang/perl
+SLOT=0
+_eclasses_=cvs	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

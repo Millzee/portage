@@ -1,22 +1,13 @@
->=app-admin/webapp-config-1.50.15
-dev-lang/perl >=app-admin/webapp-config-1.50.15
-2.0
-mirror://sourceforge/info2html/info2html-2.0.tar
-
-http://info2html.sourceforge.net/
-freedist
-Converts GNU .info files to HTML
-alpha amd64 hppa sparc x86
-toolchain-funcs multilib portability eutils webapp
-vhosts
-
-
-
-0
-
-install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=>=app-admin/webapp-config-1.50.15
+DESCRIPTION=Converts GNU .info files to HTML
+EAPI=0
+HOMEPAGE=http://info2html.sourceforge.net/
+IUSE=vhosts
+KEYWORDS=alpha amd64 hppa sparc x86
+LICENSE=freedist
+RDEPEND=dev-lang/perl >=app-admin/webapp-config-1.50.15
+SLOT=2.0
+SRC_URI=mirror://sourceforge/info2html/info2html-2.0.tar
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

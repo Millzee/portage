@@ -1,22 +1,11 @@
-!app-text/par !app-arch/par
-!app-text/par !app-arch/par
-0
-http://www.djw.org/product/palm/par/prc.tgz
-
-http://www.djw.org/product/palm/par/
-MPL-1.1
-par manipulates PalmOS database files
-~x86 ~ppc
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=!app-text/par !app-arch/par
+DESCRIPTION=par manipulates PalmOS database files
+EAPI=0
+HOMEPAGE=http://www.djw.org/product/palm/par/
+KEYWORDS=~x86 ~ppc
+LICENSE=MPL-1.1
+RDEPEND=!app-text/par !app-arch/par
+SLOT=0
+SRC_URI=http://www.djw.org/product/palm/par/prc.tgz
+_mtime_=1235082859

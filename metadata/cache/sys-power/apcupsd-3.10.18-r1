@@ -1,22 +1,13 @@
-snmp? ( net-analyzer/net-snmp ) cgi? ( >=media-libs/gd-1.8.4 www-servers/apache ) ncurses? ( sys-libs/ncurses ) nls? ( sys-devel/gettext )
-snmp? ( net-analyzer/net-snmp ) cgi? ( >=media-libs/gd-1.8.4 www-servers/apache ) ncurses? ( sys-libs/ncurses ) nls? ( sys-devel/gettext ) virtual/mta
-0
-mirror://sourceforge/apcupsd/apcupsd-3.10.18.tar.gz
-
-http://www.sibbald.com/apcupsd/
-GPL-2
-APC UPS daemon with integrated tcp/ip remote shutdown
-amd64 ppc sparc x86
-toolchain-funcs depend.apache multilib portability eutils
-doc snmp usb apache2 cgi threads ncurses nls
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=snmp? ( net-analyzer/net-snmp ) cgi? ( >=media-libs/gd-1.8.4 www-servers/apache ) ncurses? ( sys-libs/ncurses ) nls? ( sys-devel/gettext )
+DESCRIPTION=APC UPS daemon with integrated tcp/ip remote shutdown
+EAPI=0
+HOMEPAGE=http://www.sibbald.com/apcupsd/
+IUSE=doc snmp usb apache2 cgi threads ncurses nls
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=snmp? ( net-analyzer/net-snmp ) cgi? ( >=media-libs/gd-1.8.4 www-servers/apache ) ncurses? ( sys-libs/ncurses ) nls? ( sys-devel/gettext ) virtual/mta
+SLOT=0
+SRC_URI=mirror://sourceforge/apcupsd/apcupsd-3.10.18.tar.gz
+_eclasses_=depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

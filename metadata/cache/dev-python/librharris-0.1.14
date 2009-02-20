@@ -1,22 +1,12 @@
-virtual/python virtual/python
-virtual/python
-0
-http://pypi.python.org/packages/source/l/lib_rharris/lib_rharris-0.1.14.tar.gz
-
-http://www.python.org/pypi/lib_rharris
-GPL-2
-A Python library for pulling, parsing and pickling remote web page data and related net-aware tasks.
-~x86 ~amd64
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/python virtual/python
+DESCRIPTION=A Python library for pulling, parsing and pickling remote web page data and related net-aware tasks.
+EAPI=0
+HOMEPAGE=http://www.python.org/pypi/lib_rharris
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=virtual/python
+SLOT=0
+SRC_URI=http://pypi.python.org/packages/source/l/lib_rharris/lib_rharris-0.1.14.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

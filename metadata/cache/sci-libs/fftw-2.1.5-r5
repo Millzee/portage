@@ -1,22 +1,13 @@
-mpi? ( virtual/mpi ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-mpi? ( virtual/mpi )
-2.1
-http://www.fftw.org/fftw-2.1.5.tar.gz
-
-http://www.fftw.org
-GPL-2
-Fast C library for the Discrete Fourier Transform
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability flag-o-matic multilib fortran libtool autotools eutils
-doc float fortran mpi openmp threads debug
-
-
-
-0
-
-compile install setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup test unpack
+DEPEND=mpi? ( virtual/mpi ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Fast C library for the Discrete Fourier Transform
+EAPI=0
+HOMEPAGE=http://www.fftw.org
+IUSE=doc float fortran mpi openmp threads debug
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=mpi? ( virtual/mpi )
+SLOT=2.1
+SRC_URI=http://www.fftw.org/fftw-2.1.5.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

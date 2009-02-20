@@ -1,22 +1,13 @@
->=dev-libs/glib-2 media-libs/libsndfile >=media-libs/libsdl-1.2 alsa? ( media-libs/alsa-lib ) ftdi? ( dev-embedded/libftdi ) gpm? ( sys-libs/gpm ) hamlib? ( media-libs/hamlib ) >=media-libs/libpng-1.2 dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=dev-libs/glib-2 media-libs/libsndfile >=media-libs/libsdl-1.2 alsa? ( media-libs/alsa-lib ) ftdi? ( dev-embedded/libftdi ) gpm? ( sys-libs/gpm ) hamlib? ( media-libs/hamlib ) >=media-libs/libpng-1.2
-0
-http://tucnak.nagano.cz/tucnak2-2.23.tar.gz
-
-http://tucnak.nagano.cz
-GPL-2
-Amateur Radio VHF Contest Logbook
-~amd64 ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-alsa ftdi gpm hamlib
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=dev-libs/glib-2 media-libs/libsndfile >=media-libs/libsdl-1.2 alsa? ( media-libs/alsa-lib ) ftdi? ( dev-embedded/libftdi ) gpm? ( sys-libs/gpm ) hamlib? ( media-libs/hamlib ) >=media-libs/libpng-1.2 dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Amateur Radio VHF Contest Logbook
+EAPI=0
+HOMEPAGE=http://tucnak.nagano.cz
+IUSE=alsa ftdi gpm hamlib
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2 media-libs/libsndfile >=media-libs/libsdl-1.2 alsa? ( media-libs/alsa-lib ) ftdi? ( dev-embedded/libftdi ) gpm? ( sys-libs/gpm ) hamlib? ( media-libs/hamlib ) >=media-libs/libpng-1.2
+SLOT=0
+SRC_URI=http://tucnak.nagano.cz/tucnak2-2.23.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

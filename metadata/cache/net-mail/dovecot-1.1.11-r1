@@ -1,22 +1,13 @@
->=sys-apps/sed-4 sys-libs/libcap berkdb? ( >=sys-libs/db-4.2 ) kerberos? ( virtual/krb5 ) ldap? ( net-nds/openldap ) pam? ( virtual/pam ) ssl? ( dev-libs/openssl ) postgres? ( virtual/postgresql-base ) mysql? ( virtual/mysql ) sqlite3? ( =dev-db/sqlite-3* ) vpopmail? ( net-mail/vpopmail ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool ssl? ( dev-libs/openssl )
->=sys-apps/sed-4 sys-libs/libcap berkdb? ( >=sys-libs/db-4.2 ) kerberos? ( virtual/krb5 ) ldap? ( net-nds/openldap ) pam? ( virtual/pam ) ssl? ( dev-libs/openssl ) postgres? ( virtual/postgresql-base ) mysql? ( virtual/mysql ) sqlite3? ( =dev-db/sqlite-3* ) vpopmail? ( net-mail/vpopmail ) >=net-mail/mailbase-0.00-r8
-0
-http://dovecot.org/releases/1.1/dovecot-1.1.11.tar.gz sieve? ( http://dovecot.org/releases/sieve/dovecot-sieve-1.1.6.tar.gz ) managesieve? ( http://www.rename-it.nl/dovecot/1.1/dovecot-1.1.11-managesieve-0.10.5.diff.gz http://www.rename-it.nl/dovecot/1.1/dovecot-1.1-managesieve-0.10.5.tar.gz )
-
-http://www.dovecot.org/
-LGPL-2.1
-An IMAP and POP3 server written with security primarily in mind
-~alpha ~amd64 ~ppc ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability versionator multilib libtool autotools ssl-cert eutils
-berkdb debug doc ipv6 kerberos ldap managesieve mbox mysql pop3d pam postgres sieve sqlite3 ssl suid vpopmail ssl
-
-
-
-0
-
-compile config install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst setup unpack
+DEPEND=>=sys-apps/sed-4 sys-libs/libcap berkdb? ( >=sys-libs/db-4.2 ) kerberos? ( virtual/krb5 ) ldap? ( net-nds/openldap ) pam? ( virtual/pam ) ssl? ( dev-libs/openssl ) postgres? ( virtual/postgresql-base ) mysql? ( virtual/mysql ) sqlite3? ( =dev-db/sqlite-3* ) vpopmail? ( net-mail/vpopmail ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool ssl? ( dev-libs/openssl )
+DESCRIPTION=An IMAP and POP3 server written with security primarily in mind
+EAPI=0
+HOMEPAGE=http://www.dovecot.org/
+IUSE=berkdb debug doc ipv6 kerberos ldap managesieve mbox mysql pop3d pam postgres sieve sqlite3 ssl suid vpopmail ssl
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86 ~x86-fbsd
+LICENSE=LGPL-2.1
+RDEPEND=>=sys-apps/sed-4 sys-libs/libcap berkdb? ( >=sys-libs/db-4.2 ) kerberos? ( virtual/krb5 ) ldap? ( net-nds/openldap ) pam? ( virtual/pam ) ssl? ( dev-libs/openssl ) postgres? ( virtual/postgresql-base ) mysql? ( virtual/mysql ) sqlite3? ( =dev-db/sqlite-3* ) vpopmail? ( net-mail/vpopmail ) >=net-mail/mailbase-0.00-r8
+SLOT=0
+SRC_URI=http://dovecot.org/releases/1.1/dovecot-1.1.11.tar.gz sieve? ( http://dovecot.org/releases/sieve/dovecot-sieve-1.1.6.tar.gz ) managesieve? ( http://www.rename-it.nl/dovecot/1.1/dovecot-1.1.11-managesieve-0.10.5.diff.gz http://www.rename-it.nl/dovecot/1.1/dovecot-1.1-managesieve-0.10.5.tar.gz )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ssl-cert	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

@@ -1,22 +1,13 @@
->=dev-libs/elfutils-0.131 sys-libs/libcap sqlite? ( =dev-db/sqlite-3* ) kernel_linux? ( virtual/linux-sources )
->=dev-libs/elfutils-0.131 sys-libs/libcap sqlite? ( =dev-db/sqlite-3* ) virtual/linux-sources
-0
-http://sources.redhat.com/systemtap/ftp/releases/systemtap-0.8.tar.gz
-
-http://sourceware.org/systemtap/
-GPL-2
-A linux trace/probe tool
-~amd64 ~x86
-toolchain-funcs portability versionator multilib linux-info eutils
-sqlite
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=>=dev-libs/elfutils-0.131 sys-libs/libcap sqlite? ( =dev-db/sqlite-3* ) kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=A linux trace/probe tool
+EAPI=0
+HOMEPAGE=http://sourceware.org/systemtap/
+IUSE=sqlite
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/elfutils-0.131 sys-libs/libcap sqlite? ( =dev-db/sqlite-3* ) virtual/linux-sources
+SLOT=0
+SRC_URI=http://sources.redhat.com/systemtap/ftp/releases/systemtap-0.8.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

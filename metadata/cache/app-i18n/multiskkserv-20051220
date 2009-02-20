@@ -1,22 +1,13 @@
-dev-db/cdb >=sys-apps/sed-4
-|| ( >=app-i18n/skk-jisyo-200705 app-i18n/skk-jisyo-cdb )
-0
-http://www3.big.or.jp/~sian/linux/products/multiskkserv-20051220.tar.bz2
-
-http://www3.big.or.jp/~sian/linux/products/
-GPL-2
-SKK server that handles multiple dictionaries
-~alpha ~amd64 ~ppc ~sparc ~x86
-fixheadtails toolchain-funcs multilib portability eutils
-
-
-
-virtual/skkserv
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=dev-db/cdb >=sys-apps/sed-4
+DESCRIPTION=SKK server that handles multiple dictionaries
+EAPI=0
+HOMEPAGE=http://www3.big.or.jp/~sian/linux/products/
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+PROVIDE=virtual/skkserv
+RDEPEND=|| ( >=app-i18n/skk-jisyo-200705 app-i18n/skk-jisyo-cdb )
+SLOT=0
+SRC_URI=http://www3.big.or.jp/~sian/linux/products/multiskkserv-20051220.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

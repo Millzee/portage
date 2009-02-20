@@ -1,22 +1,10 @@
-
-
-0
-mirror://gentoo/mailx-support-20060102.tar.bz2
-
-http://www.openbsd.org/
-BSD
-Provides lockspool utility
-~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Provides lockspool utility
+EAPI=0
+HOMEPAGE=http://www.openbsd.org/
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=mirror://gentoo/mailx-support-20060102.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

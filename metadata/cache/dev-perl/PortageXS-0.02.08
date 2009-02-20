@@ -1,22 +1,13 @@
-dev-lang/perl virtual/perl-Term-ANSIColor !minimal? ( dev-perl/IO-Socket-SSL virtual/perl-Sys-Syslog )
-dev-lang/perl virtual/perl-Term-ANSIColor !minimal? ( dev-perl/IO-Socket-SSL virtual/perl-Sys-Syslog )
-0
-http://download.mpsna.de/opensource/PortageXS/PortageXS-0.02.08.tar.gz
-
-http://download.mpsna.de/opensource/PortageXS/
-GPL-2
-Portage abstraction layer for perl
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability multilib base eutils perl-module
-minimal
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl virtual/perl-Term-ANSIColor !minimal? ( dev-perl/IO-Socket-SSL virtual/perl-Sys-Syslog )
+DESCRIPTION=Portage abstraction layer for perl
+EAPI=0
+HOMEPAGE=http://download.mpsna.de/opensource/PortageXS/
+IUSE=minimal
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl virtual/perl-Term-ANSIColor !minimal? ( dev-perl/IO-Socket-SSL virtual/perl-Sys-Syslog )
+SLOT=0
+SRC_URI=http://download.mpsna.de/opensource/PortageXS/PortageXS-0.02.08.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

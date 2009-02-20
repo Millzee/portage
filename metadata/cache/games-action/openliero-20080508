@@ -1,22 +1,12 @@
-media-libs/libsdl media-libs/sdl-mixer || ( dev-util/jam dev-util/ftjam )
-media-libs/libsdl media-libs/sdl-mixer
-0
-http://stepien.cc/~jan/gentoo/distfiles/openliero-20080508.tar.bz2
-
-http://open.liero.be/
-BSD
-Almost exact clone of Liero
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-mixer || ( dev-util/jam dev-util/ftjam )
+DESCRIPTION=Almost exact clone of Liero
+EAPI=0
+HOMEPAGE=http://open.liero.be/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=media-libs/libsdl media-libs/sdl-mixer
+SLOT=0
+SRC_URI=http://stepien.cc/~jan/gentoo/distfiles/openliero-20080508.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

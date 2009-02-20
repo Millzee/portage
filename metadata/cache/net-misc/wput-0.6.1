@@ -1,22 +1,13 @@
-ssl? ( net-libs/gnutls ) nls? ( sys-devel/gettext )
-ssl? ( net-libs/gnutls )
-0
-mirror://sourceforge/wput/wput-0.6.1.tgz
-
-http://wput.sourceforge.net/
-GPL-2
-A tiny, wget-alike program, that is designed to upload files/whole directories to remote ftp-servers
-~amd64 ~ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-debug nls ssl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=ssl? ( net-libs/gnutls ) nls? ( sys-devel/gettext )
+DESCRIPTION=A tiny, wget-alike program, that is designed to upload files/whole directories to remote ftp-servers
+EAPI=0
+HOMEPAGE=http://wput.sourceforge.net/
+IUSE=debug nls ssl
+KEYWORDS=~amd64 ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=ssl? ( net-libs/gnutls )
+SLOT=0
+SRC_URI=mirror://sourceforge/wput/wput-0.6.1.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

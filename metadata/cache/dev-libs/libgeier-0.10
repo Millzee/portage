@@ -1,22 +1,11 @@
-dev-libs/openssl dev-libs/libxml2 dev-libs/libxslt dev-libs/xmlsec >=net-libs/xulrunner-1.8 sys-libs/zlib dev-lang/swig
-dev-libs/openssl dev-libs/libxml2 dev-libs/libxslt dev-libs/xmlsec >=net-libs/xulrunner-1.8 sys-libs/zlib
-0
-http://www.taxbird.de/download/libgeier/0.10/libgeier-0.10.tar.gz
-
-http://www.taxbird.de/
-GPL-2
-Libgeier provides a library to access the german digital tax project ELSTER.
-~amd64 ~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/openssl dev-libs/libxml2 dev-libs/libxslt dev-libs/xmlsec >=net-libs/xulrunner-1.8 sys-libs/zlib dev-lang/swig
+DESCRIPTION=Libgeier provides a library to access the german digital tax project ELSTER.
+EAPI=0
+HOMEPAGE=http://www.taxbird.de/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/openssl dev-libs/libxml2 dev-libs/libxslt dev-libs/xmlsec >=net-libs/xulrunner-1.8 sys-libs/zlib
+SLOT=0
+SRC_URI=http://www.taxbird.de/download/libgeier/0.10/libgeier-0.10.tar.gz
+_mtime_=1235082853

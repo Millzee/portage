@@ -1,22 +1,13 @@
-kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-kernel_linux? ( virtual/modutils )
-0
-mirror://gentoo/speakup-3.0.3_p20080802.tar.bz2
-
-http://linux-speakup.org
-GPL-2
-The speakup linux kernel based screen reader.
-~amd64 ~x86
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup
+DEPEND=kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=The speakup linux kernel based screen reader.
+EAPI=0
+HOMEPAGE=http://linux-speakup.org
+IUSE=kernel_linux
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=mirror://gentoo/speakup-3.0.3_p20080802.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

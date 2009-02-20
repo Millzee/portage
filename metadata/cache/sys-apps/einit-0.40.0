@@ -1,22 +1,13 @@
-doc? ( app-text/docbook-sgml app-doc/doxygen ) dev-util/scons
-
-0
-http://einit.jyujin.de/files/einit-0.40.0.tar.bz2
-
-http://einit.jyujin.de/
-BSD
-An alternate /sbin/init implementation
-~amd64 ~ppc ~x86
-toolchain-funcs portability python alternatives multilib eutils
-debug doc +relaxng
-
->=sys-apps/einit-modules-xml-2.0.0.0 >=sys-apps/einit-modules-scheme-1.0.0.0 relaxng? ( app-text/rnv )
-
-1
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=doc? ( app-text/docbook-sgml app-doc/doxygen ) dev-util/scons
+DESCRIPTION=An alternate /sbin/init implementation
+EAPI=1
+HOMEPAGE=http://einit.jyujin.de/
+IUSE=debug doc +relaxng
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=BSD
+PDEPEND=>=sys-apps/einit-modules-xml-2.0.0.0 >=sys-apps/einit-modules-scheme-1.0.0.0 relaxng? ( app-text/rnv )
+SLOT=0
+SRC_URI=http://einit.jyujin.de/files/einit-0.40.0.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235083217

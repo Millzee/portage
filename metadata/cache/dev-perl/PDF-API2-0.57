@@ -1,22 +1,12 @@
-virtual/perl-Compress-Zlib dev-lang/perl
-virtual/perl-Compress-Zlib dev-lang/perl
-0
-mirror://cpan/authors/id/A/AR/AREIBENS/PDF-API2-0.57.tar.gz
-
-http://search.cpan.org/~areibens/
-|| ( Artistic LGPL-2 )
-A Perl Module Chain to faciliate the Creation and Modification of High-Quality "Portable Document Format (aka. PDF)" Files
-amd64 ~ppc ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-Compress-Zlib dev-lang/perl
+DESCRIPTION=A Perl Module Chain to faciliate the Creation and Modification of High-Quality "Portable Document Format (aka. PDF)" Files
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~areibens/
+KEYWORDS=amd64 ~ppc ~x86
+LICENSE=|| ( Artistic LGPL-2 )
+RDEPEND=virtual/perl-Compress-Zlib dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AR/AREIBENS/PDF-API2-0.57.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

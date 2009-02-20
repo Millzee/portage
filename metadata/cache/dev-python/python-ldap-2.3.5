@@ -1,22 +1,13 @@
-dev-python/setuptools >=dev-lang/python-2.4 virtual/python
->=net-nds/openldap-2.3 sasl? ( dev-libs/cyrus-sasl ) >=dev-lang/python-2.4
-0
-mirror://sourceforge/python-ldap/python-ldap-2.3.5.tar.gz doc? ( mirror://sourceforge/python-ldap/html-python-ldap-docs-2.0.3.tar.gz )
-
-http://python-ldap.sourceforge.net/
-PYTHON
-Various LDAP-related Python modules
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-doc examples sasl ssl
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-python/setuptools >=dev-lang/python-2.4 virtual/python
+DESCRIPTION=Various LDAP-related Python modules
+EAPI=0
+HOMEPAGE=http://python-ldap.sourceforge.net/
+IUSE=doc examples sasl ssl
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=PYTHON
+RDEPEND=>=net-nds/openldap-2.3 sasl? ( dev-libs/cyrus-sasl ) >=dev-lang/python-2.4
+SLOT=0
+SRC_URI=mirror://sourceforge/python-ldap/python-ldap-2.3.5.tar.gz doc? ( mirror://sourceforge/python-ldap/html-python-ldap-docs-2.0.3.tar.gz )
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

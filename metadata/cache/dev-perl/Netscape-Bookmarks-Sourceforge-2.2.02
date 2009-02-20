@@ -1,22 +1,10 @@
-
-
-0
-http://downloads.sourceforge.net/nsbookmarks/Netscape-Bookmarks-2.2_02.tar.gz
-
-http://sourceforge.net/projects/nsbookmarks/
-|| ( Artistic GPL-2 )
-Netscape Bookmarks
-~x86 ~amd64
-toolchain-funcs portability versionator multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DESCRIPTION=Netscape Bookmarks
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/nsbookmarks/
+KEYWORDS=~x86 ~amd64
+LICENSE=|| ( Artistic GPL-2 )
+SLOT=0
+SRC_URI=http://downloads.sourceforge.net/nsbookmarks/Netscape-Bookmarks-2.2_02.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

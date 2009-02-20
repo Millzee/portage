@@ -1,22 +1,13 @@
-sys-apps/sed >=sys-power/cpufrequtils-002 lm_sensors? ( sys-apps/lm_sensors ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=sys-power/cpufrequtils-002 lm_sensors? ( sys-apps/lm_sensors )
-0
-mirror://sourceforge/cpufreqd/cpufreqd-2.2.0.tar.bz2 nvidia? ( http://www.linuxhardware.org/nvclock/nvclock0.8b.tar.gz )
-
-http://cpufreqd.sourceforge.net
-GPL-2
-CPU Frequency Daemon
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-acpi apm lm_sensors nforce2 nvidia pmu
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=sys-apps/sed >=sys-power/cpufrequtils-002 lm_sensors? ( sys-apps/lm_sensors ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=CPU Frequency Daemon
+EAPI=0
+HOMEPAGE=http://cpufreqd.sourceforge.net
+IUSE=acpi apm lm_sensors nforce2 nvidia pmu
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-power/cpufrequtils-002 lm_sensors? ( sys-apps/lm_sensors )
+SLOT=0
+SRC_URI=mirror://sourceforge/cpufreqd/cpufreqd-2.2.0.tar.bz2 nvidia? ( http://www.linuxhardware.org/nvclock/nvclock0.8b.tar.gz )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

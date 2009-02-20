@@ -1,22 +1,14 @@
-dev-ml/findlib
-dev-ml/findlib
-0
-mirror://sourceforge/chesslib/schoca-0.3.0.tar.bz2
-installsources
-http://home.arcor.de/chr_bauer/schoca.html http://chesslib.sourceforge.net/
-GPL-2
-Schoca is a Scheme implementation in OCaml.
-~amd64
-toolchain-funcs multilib portability eutils
-+ocamlopt
-
-
-
-1
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=dev-ml/findlib
+DESCRIPTION=Schoca is a Scheme implementation in OCaml.
+EAPI=1
+HOMEPAGE=http://home.arcor.de/chr_bauer/schoca.html http://chesslib.sourceforge.net/
+IUSE=+ocamlopt
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-ml/findlib
+RESTRICT=installsources
+SLOT=0
+SRC_URI=mirror://sourceforge/chesslib/schoca-0.3.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

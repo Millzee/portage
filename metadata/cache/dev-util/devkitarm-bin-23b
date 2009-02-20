@@ -1,22 +1,10 @@
-
-
-0
-mirror://sourceforge/devkitpro/devkitARM_r23b-i686-linux.tar.bz2
-strip
-http://devkitpro.org/
-GPL-2
-DevKitPro toolchain for ARM processors
-~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=DevKitPro toolchain for ARM processors
+EAPI=0
+HOMEPAGE=http://devkitpro.org/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/devkitpro/devkitARM_r23b-i686-linux.tar.bz2
+_mtime_=1235082859

@@ -1,22 +1,12 @@
-x11-libs/libXpm x11-libs/libXext x11-libs/libX11 x11-proto/xextproto
-x11-libs/libXpm x11-libs/libXext x11-libs/libX11
-0
-http://people.debian.org/~godisch/debian/wmpuzzle/wmpuzzle-0.5.0.tar.gz
-
-http://freshmeat.net/projects/wmpuzzle
-GPL-2
-wmpuzzle provides a 4x4 puzzle on a 64x64 mini window
-amd64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=x11-libs/libXpm x11-libs/libXext x11-libs/libX11 x11-proto/xextproto
+DESCRIPTION=wmpuzzle provides a 4x4 puzzle on a 64x64 mini window
+EAPI=0
+HOMEPAGE=http://freshmeat.net/projects/wmpuzzle
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXpm x11-libs/libXext x11-libs/libX11
+SLOT=0
+SRC_URI=http://people.debian.org/~godisch/debian/wmpuzzle/wmpuzzle-0.5.0.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

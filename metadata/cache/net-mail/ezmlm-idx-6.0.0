@@ -1,22 +1,13 @@
-mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) >=sys-apps/sed-4
-mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) virtual/qmail
-0
-http://cr.yp.to/software/ezmlm-0.53.tar.gz http://www.ezmlm.org/archive/6.0.0/ezmlm-idx-6.0.0.tar.gz
-
-http://www.ezmlm.org
-as-is
-Simple yet powerful mailing list manager for qmail
-~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
-fixheadtails toolchain-funcs multilib portability eutils
-mysql postgres
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) >=sys-apps/sed-4
+DESCRIPTION=Simple yet powerful mailing list manager for qmail
+EAPI=0
+HOMEPAGE=http://www.ezmlm.org
+IUSE=mysql postgres
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
+LICENSE=as-is
+RDEPEND=mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) virtual/qmail
+SLOT=0
+SRC_URI=http://cr.yp.to/software/ezmlm-0.53.tar.gz http://www.ezmlm.org/archive/6.0.0/ezmlm-idx-6.0.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

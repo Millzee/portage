@@ -1,22 +1,12 @@
->=dev-python/clientform-0.2.7 >=dev-lang/python-2.3 virtual/python
->=dev-python/clientform-0.2.7 >=dev-lang/python-2.3
-0
-http://wwwsearch.sourceforge.net/mechanize/src/mechanize-0.1.7b.tar.gz
-
-http://wwwsearch.sourceforge.net/mechanize/
-|| ( BSD ZPL )
-Stateful programmatic web browsing in Python
-amd64 ~ia64 ppc x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test unpack
+DEPEND=>=dev-python/clientform-0.2.7 >=dev-lang/python-2.3 virtual/python
+DESCRIPTION=Stateful programmatic web browsing in Python
+EAPI=0
+HOMEPAGE=http://wwwsearch.sourceforge.net/mechanize/
+KEYWORDS=amd64 ~ia64 ppc x86
+LICENSE=|| ( BSD ZPL )
+RDEPEND=>=dev-python/clientform-0.2.7 >=dev-lang/python-2.3
+SLOT=0
+SRC_URI=http://wwwsearch.sourceforge.net/mechanize/src/mechanize-0.1.7b.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

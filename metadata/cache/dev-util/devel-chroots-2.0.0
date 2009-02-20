@@ -1,22 +1,11 @@
-
-app-misc/screen
-0
-http://user.noxa.de/~pappy/mirror/gentoo/devel-chroots-2.0.0.tar.gz
-
-http://www.gentoo.org/proj/en/hardened/docs/devel-chroots-intro.xml
-GPL-2
-Gentoo Developer chroots installation/configuration
-~alpha ~amd64 ~hppa ppc ~sparc x86
-
-minimal
-
-
-
-0
-
-install postinst
-
-
-
-
-
+DEFINED_PHASES=install postinst
+DESCRIPTION=Gentoo Developer chroots installation/configuration
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/hardened/docs/devel-chroots-intro.xml
+IUSE=minimal
+KEYWORDS=~alpha ~amd64 ~hppa ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=app-misc/screen
+SLOT=0
+SRC_URI=http://user.noxa.de/~pappy/mirror/gentoo/devel-chroots-2.0.0.tar.gz
+_mtime_=1235082859

@@ -1,22 +1,12 @@
-sys-cluster/torque
-sys-cluster/torque net-misc/openssh
-0
-http://www.osc.edu/~pw/mpiexec/mpiexec-0.83.tgz
-test
-http://www.osc.edu/~pw/mpiexec/
-GPL-2
-replacement for mpirun, integrates MPI with PBS.
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=sys-cluster/torque
+DESCRIPTION=replacement for mpirun, integrates MPI with PBS.
+EAPI=0
+HOMEPAGE=http://www.osc.edu/~pw/mpiexec/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=sys-cluster/torque net-misc/openssh
+RESTRICT=test
+SLOT=0
+SRC_URI=http://www.osc.edu/~pw/mpiexec/mpiexec-0.83.tgz
+_mtime_=1235082900

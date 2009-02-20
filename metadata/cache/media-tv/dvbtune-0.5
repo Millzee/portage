@@ -1,22 +1,13 @@
-xml? ( dev-libs/libxml2 ) media-tv/linuxtv-dvb-headers
-xml? ( dev-libs/libxml2 )
-0
-mirror://sourceforge/dvbtools/dvbtune-0.5.tar.gz
-
-http://sourceforge.net/projects/dvbtools
-GPL-2
-simple tuning app for DVB cards
-amd64 x86
-toolchain-funcs multilib portability eutils
-xml
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=xml? ( dev-libs/libxml2 ) media-tv/linuxtv-dvb-headers
+DESCRIPTION=simple tuning app for DVB cards
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/dvbtools
+IUSE=xml
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=xml? ( dev-libs/libxml2 )
+SLOT=0
+SRC_URI=mirror://sourceforge/dvbtools/dvbtune-0.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

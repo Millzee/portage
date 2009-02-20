@@ -1,22 +1,13 @@
->=sys-libs/ncurses-5.2-r2 selinux? ( sys-libs/libselinux ) !sys-apps/util-linux nls? ( sys-devel/gettext )
->=sys-libs/ncurses-5.2-r2 selinux? ( sys-libs/libselinux ) !sys-apps/util-linux
-0
-mirror://kernel/linux/utils/util-linux/util-linux-2.12r.tar.bz2
-
-http://www.kernel.org/pub/linux/utils/util-linux/
-GPL-2
-Primitive text file viewer
-~x86-fbsd
-toolchain-funcs multilib portability eutils flag-o-matic
-static nls selinux
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-libs/ncurses-5.2-r2 selinux? ( sys-libs/libselinux ) !sys-apps/util-linux nls? ( sys-devel/gettext )
+DESCRIPTION=Primitive text file viewer
+EAPI=0
+HOMEPAGE=http://www.kernel.org/pub/linux/utils/util-linux/
+IUSE=static nls selinux
+KEYWORDS=~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=sys-libs/ncurses-5.2-r2 selinux? ( sys-libs/libselinux ) !sys-apps/util-linux
+SLOT=0
+SRC_URI=mirror://kernel/linux/utils/util-linux/util-linux-2.12r.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

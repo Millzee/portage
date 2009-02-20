@@ -1,22 +1,13 @@
-ssl? ( dev-libs/openssl ) zlib? ( sys-libs/zlib ) curl? ( net-misc/curl ) >=sys-apps/sed-4 ssl? ( dev-libs/openssl )
-ssl? ( dev-libs/openssl ) zlib? ( sys-libs/zlib ) curl? ( net-misc/curl )
-0
-http://unreal.brueggisite.de/Unreal3.2.7.tar.gz http://www.blurryfox.com/unreal/Unreal3.2.7.tar.gz mirror://gentoo/Unreal3.2.7.tar.gz
-
-http://www.unrealircd.com/
-GPL-2
-aimed to be an advanced (not easy) IRCd
-~amd64 ~mips ppc sparc x86 ~x86-fbsd
-toolchain-funcs portability versionator multilib ssl-cert eutils
-hub ipv6 ssl zlib curl prefixaq showlistmodes ssl
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=ssl? ( dev-libs/openssl ) zlib? ( sys-libs/zlib ) curl? ( net-misc/curl ) >=sys-apps/sed-4 ssl? ( dev-libs/openssl )
+DESCRIPTION=aimed to be an advanced (not easy) IRCd
+EAPI=0
+HOMEPAGE=http://www.unrealircd.com/
+IUSE=hub ipv6 ssl zlib curl prefixaq showlistmodes ssl
+KEYWORDS=~amd64 ~mips ppc sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=ssl? ( dev-libs/openssl ) zlib? ( sys-libs/zlib ) curl? ( net-misc/curl )
+SLOT=0
+SRC_URI=http://unreal.brueggisite.de/Unreal3.2.7.tar.gz http://www.blurryfox.com/unreal/Unreal3.2.7.tar.gz mirror://gentoo/Unreal3.2.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ssl-cert	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

@@ -1,22 +1,13 @@
-dev-libs/lzo sys-apps/tcp-wrappers media-libs/jpeg sys-libs/zlib dev-libs/openssl x11-libs/qt-core x11-libs/qt-xmlpatterns system-libvncserver? ( net-libs/libvncserver ) xinerama? ( x11-libs/libXinerama ) X? ( x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libXtst x11-misc/xinput x11-libs/qt-gui:4 ) X? ( x11-proto/inputproto ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-dev-libs/lzo sys-apps/tcp-wrappers media-libs/jpeg sys-libs/zlib dev-libs/openssl x11-libs/qt-core x11-libs/qt-xmlpatterns system-libvncserver? ( net-libs/libvncserver ) xinerama? ( x11-libs/libXinerama ) X? ( x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libXtst x11-misc/xinput x11-libs/qt-gui:4 )
-0
-mirror://sourceforge/italc/italc-1.0.9.tar.bz2
-
-http://italc.sourceforge.net/
-GPL-2
-Intelligent Teaching And Learning with Computers (iTALC) supports working with computers in school
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib libtool autotools eutils
-X v4l crypt xinerama threads fbcon system-libvncserver
-
-
-
-2
-
-config configure install postinst prepare setup
-
-
-
-
-
+DEFINED_PHASES=config configure install postinst prepare setup
+DEPEND=dev-libs/lzo sys-apps/tcp-wrappers media-libs/jpeg sys-libs/zlib dev-libs/openssl x11-libs/qt-core x11-libs/qt-xmlpatterns system-libvncserver? ( net-libs/libvncserver ) xinerama? ( x11-libs/libXinerama ) X? ( x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libXtst x11-misc/xinput x11-libs/qt-gui:4 ) X? ( x11-proto/inputproto ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Intelligent Teaching And Learning with Computers (iTALC) supports working with computers in school
+EAPI=2
+HOMEPAGE=http://italc.sourceforge.net/
+IUSE=X v4l crypt xinerama threads fbcon system-libvncserver
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/lzo sys-apps/tcp-wrappers media-libs/jpeg sys-libs/zlib dev-libs/openssl x11-libs/qt-core x11-libs/qt-xmlpatterns system-libvncserver? ( net-libs/libvncserver ) xinerama? ( x11-libs/libXinerama ) X? ( x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr x11-libs/libXtst x11-misc/xinput x11-libs/qt-gui:4 )
+SLOT=0
+SRC_URI=mirror://sourceforge/italc/italc-1.0.9.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

@@ -1,22 +1,11 @@
->=dev-lang/perl-5.6.1 >=virtual/perl-libnet-1.11 >=dev-perl/Net-DNS-0.12
->=dev-lang/perl-5.6.1 >=virtual/perl-libnet-1.11 >=dev-perl/Net-DNS-0.12
-0
-http://www.topfx.com/dist/disspam-0.10.tar.gz
-
-http://www.topfx.com/
-Artistic
-A Perl script that removes spam from POP3 mailboxes based on RBLs.
-x86 sparc
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=dev-lang/perl-5.6.1 >=virtual/perl-libnet-1.11 >=dev-perl/Net-DNS-0.12
+DESCRIPTION=A Perl script that removes spam from POP3 mailboxes based on RBLs.
+EAPI=0
+HOMEPAGE=http://www.topfx.com/
+KEYWORDS=x86 sparc
+LICENSE=Artistic
+RDEPEND=>=dev-lang/perl-5.6.1 >=virtual/perl-libnet-1.11 >=dev-perl/Net-DNS-0.12
+SLOT=0
+SRC_URI=http://www.topfx.com/dist/disspam-0.10.tar.gz
+_mtime_=1235082866

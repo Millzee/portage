@@ -1,22 +1,13 @@
->=net-im/jabber-base-0.01 >=dev-libs/pth-1.4.0 dev-libs/expat net-dns/libidn mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server ) net-libs/gnutls dev-libs/popt dev-util/pkgconfig !net-im/jabberd2 =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=net-im/jabber-base-0.01 >=dev-libs/pth-1.4.0 dev-libs/expat net-dns/libidn mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server ) net-libs/gnutls dev-libs/popt
-0
-http://download.jabberd.org/jabberd14/jabberd14-1.6.1.1.tar.gz
-
-http://www.jabber.org
-GPL-2
-Open-source Jabber server
-alpha amd64 hppa ppc sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-ipv6 mysql postgres
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=>=net-im/jabber-base-0.01 >=dev-libs/pth-1.4.0 dev-libs/expat net-dns/libidn mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server ) net-libs/gnutls dev-libs/popt dev-util/pkgconfig !net-im/jabberd2 =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Open-source Jabber server
+EAPI=0
+HOMEPAGE=http://www.jabber.org
+IUSE=ipv6 mysql postgres
+KEYWORDS=alpha amd64 hppa ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=net-im/jabber-base-0.01 >=dev-libs/pth-1.4.0 dev-libs/expat net-dns/libidn mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server ) net-libs/gnutls dev-libs/popt
+SLOT=0
+SRC_URI=http://download.jabberd.org/jabberd14/jabberd14-1.6.1.1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

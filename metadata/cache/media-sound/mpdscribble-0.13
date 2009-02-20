@@ -1,22 +1,11 @@
-dev-libs/glib:2 net-libs/libsoup:2.4 dev-util/pkgconfig
-dev-libs/glib:2 net-libs/libsoup:2.4
-0
-mirror://sourceforge/musicpd/mpdscribble-0.13.tar.bz2
-
-http://www.frob.nl/scribble.html
-GPL-2
-An MPD client that submits information to audioscrobbler.
-~amd64 ~hppa ~ppc ~sparc ~x86
-
-
-
-
-
-1
-
-install postinst
-
-
-
-
-
+DEFINED_PHASES=install postinst
+DEPEND=dev-libs/glib:2 net-libs/libsoup:2.4 dev-util/pkgconfig
+DESCRIPTION=An MPD client that submits information to audioscrobbler.
+EAPI=1
+HOMEPAGE=http://www.frob.nl/scribble.html
+KEYWORDS=~amd64 ~hppa ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/glib:2 net-libs/libsoup:2.4
+SLOT=0
+SRC_URI=mirror://sourceforge/musicpd/mpdscribble-0.13.tar.bz2
+_mtime_=1235082869

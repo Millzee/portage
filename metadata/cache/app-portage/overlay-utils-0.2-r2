@@ -1,22 +1,10 @@
-
-dev-util/subversion >=sys-apps/portage-2.1
-0
-http://gentooexperimental.org/~shillelagh/overlay-utils-0.2.tar.bz2
-
-http://gentooexperimental.org/~shillelagh/
-GPL-2
-Utilities for Gentoo repository and overlay development
-~amd64 ~ppc ~sparc ~x86
-
-
-
-
-
-2
-
-install prepare
-
-
-
-
-
+DEFINED_PHASES=install prepare
+DESCRIPTION=Utilities for Gentoo repository and overlay development
+EAPI=2
+HOMEPAGE=http://gentooexperimental.org/~shillelagh/
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-util/subversion >=sys-apps/portage-2.1
+SLOT=0
+SRC_URI=http://gentooexperimental.org/~shillelagh/overlay-utils-0.2.tar.bz2
+_mtime_=1235082850

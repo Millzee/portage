@@ -1,22 +1,12 @@
->=virtual/emacs-21
->=virtual/emacs-21
-0
-http://thaiopensource.com/download/nxml-mode-20041004.tar.gz mirror://gentoo/nxml-mode-20040910-xmlschema.patch.gz
-
-http://www.thaiopensource.com/nxml-mode/ http://www.emacswiki.org/cgi-bin/wiki/NxmlMode
-GPL-2 as-is W3C
-A major mode for GNU Emacs for editing XML documents.
-alpha amd64 ppc ~sparc-fbsd x86 ~x86-fbsd
-toolchain-funcs elisp-common portability elisp versionator multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-21
+DESCRIPTION=A major mode for GNU Emacs for editing XML documents.
+EAPI=0
+HOMEPAGE=http://www.thaiopensource.com/nxml-mode/ http://www.emacswiki.org/cgi-bin/wiki/NxmlMode
+KEYWORDS=alpha amd64 ppc ~sparc-fbsd x86 ~x86-fbsd
+LICENSE=GPL-2 as-is W3C
+RDEPEND=>=virtual/emacs-21
+SLOT=0
+SRC_URI=http://thaiopensource.com/download/nxml-mode-20041004.tar.gz mirror://gentoo/nxml-mode-20040910-xmlschema.patch.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

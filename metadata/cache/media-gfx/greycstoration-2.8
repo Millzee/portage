@@ -1,22 +1,13 @@
-fftw? ( >=sci-libs/fftw-3 ) imagemagick? ( media-gfx/imagemagick ) jpeg? ( media-libs/jpeg ) lapack? ( virtual/lapack ) png? ( media-libs/libpng ) tiff? ( media-libs/tiff ) X? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr ) app-arch/unzip
-fftw? ( >=sci-libs/fftw-3 ) imagemagick? ( media-gfx/imagemagick ) jpeg? ( media-libs/jpeg ) lapack? ( virtual/lapack ) png? ( media-libs/libpng ) tiff? ( media-libs/tiff ) X? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr )
-0
-mirror://sourceforge/cimg/GREYCstoration-2.8.zip
-
-http://www.greyc.ensicaen.fr/~dtschump/greycstoration/
-CeCILL-2
-Image regularization algorithm for denoising, inpainting and resizing
-~amd64 ~x86
-toolchain-funcs multilib
-fftw imagemagick jpeg lapack png tiff X
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=fftw? ( >=sci-libs/fftw-3 ) imagemagick? ( media-gfx/imagemagick ) jpeg? ( media-libs/jpeg ) lapack? ( virtual/lapack ) png? ( media-libs/libpng ) tiff? ( media-libs/tiff ) X? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr ) app-arch/unzip
+DESCRIPTION=Image regularization algorithm for denoising, inpainting and resizing
+EAPI=0
+HOMEPAGE=http://www.greyc.ensicaen.fr/~dtschump/greycstoration/
+IUSE=fftw imagemagick jpeg lapack png tiff X
+KEYWORDS=~amd64 ~x86
+LICENSE=CeCILL-2
+RDEPEND=fftw? ( >=sci-libs/fftw-3 ) imagemagick? ( media-gfx/imagemagick ) jpeg? ( media-libs/jpeg ) lapack? ( virtual/lapack ) png? ( media-libs/libpng ) tiff? ( media-libs/tiff ) X? ( x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr )
+SLOT=0
+SRC_URI=mirror://sourceforge/cimg/GREYCstoration-2.8.zip
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

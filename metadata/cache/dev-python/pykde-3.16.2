@@ -1,22 +1,13 @@
->=dev-python/sip-4.7.9 >=dev-python/PyQt-3.17.6 =kde-base/kdelibs-3.5* !kde-base/pykde =kde-base/konsole-3.5* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts ) virtual/python
->=dev-python/sip-4.7.9 >=dev-python/PyQt-3.17.6 =kde-base/kdelibs-3.5* !kde-base/pykde xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts )
-0
-http://www.riverbankcomputing.co.uk/static/Downloads/PyKDE3/PyKDE-3.16.2.tar.bz2
-
-http://www.riverbankcomputing.co.uk/pykde/
-GPL-2
-PyKDE is a set of Python bindings for kdelibs.
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs multilib portability distutils flag-o-matic python kde versionator alternatives base kde-functions libtool autotools eutils qt3
-debug doc examples debug elibc_FreeBSD arts xinerama
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=dev-python/sip-4.7.9 >=dev-python/PyQt-3.17.6 =kde-base/kdelibs-3.5* !kde-base/pykde =kde-base/konsole-3.5* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts ) virtual/python
+DESCRIPTION=PyKDE is a set of Python bindings for kdelibs.
+EAPI=0
+HOMEPAGE=http://www.riverbankcomputing.co.uk/pykde/
+IUSE=debug doc examples debug elibc_FreeBSD arts xinerama
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-python/sip-4.7.9 >=dev-python/PyQt-3.17.6 =kde-base/kdelibs-3.5* !kde-base/pykde xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts )
+SLOT=0
+SRC_URI=http://www.riverbankcomputing.co.uk/static/Downloads/PyKDE3/PyKDE-3.16.2.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

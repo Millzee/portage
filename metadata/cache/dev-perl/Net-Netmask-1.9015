@@ -1,22 +1,12 @@
-dev-lang/perl
-dev-lang/perl
-0
-mirror://cpan/authors/id/M/MU/MUIR/modules/Net-Netmask-1.9015.tar.gz
-
-http://search.cpan.org/search?query=Net-Netmask&mode=dist
-Artistic
-Parse, manipulate and lookup IP network blocks
-alpha amd64 ia64 mips ppc sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl
+DESCRIPTION=Parse, manipulate and lookup IP network blocks
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Net-Netmask&mode=dist
+KEYWORDS=alpha amd64 ia64 mips ppc sparc x86
+LICENSE=Artistic
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MU/MUIR/modules/Net-Netmask-1.9015.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

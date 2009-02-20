@@ -1,22 +1,12 @@
-app-emacs/color-theme >=virtual/emacs-21
-app-emacs/color-theme >=virtual/emacs-21
-0
-mirror://gentoo/color-browser-0.3.tar.gz
-
-http://www.emacswiki.org/elisp/
-GPL-2
-A utility for designing Emacs color themes
-~amd64 ~ppc ~x86 ~sparc
-toolchain-funcs elisp-common portability elisp versionator multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=app-emacs/color-theme >=virtual/emacs-21
+DESCRIPTION=A utility for designing Emacs color themes
+EAPI=0
+HOMEPAGE=http://www.emacswiki.org/elisp/
+KEYWORDS=~amd64 ~ppc ~x86 ~sparc
+LICENSE=GPL-2
+RDEPEND=app-emacs/color-theme >=virtual/emacs-21
+SLOT=0
+SRC_URI=mirror://gentoo/color-browser-0.3.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

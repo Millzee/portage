@@ -1,22 +1,12 @@
-virtual/libc sys-apps/groff >=sys-apps/sed-4
-virtual/libc
-0
-http://budney.homeunix.net:8080/users/budney/linux/software/safecat/safecat-1.11.tar.gz
-
-http://budney.homeunix.net:8080/users/budney/linux/software/safecat/
-BSD
-Safecat implements qmail's maildir algorithm, copying standard input safely to a specified directory.
-alpha amd64 ~hppa ia64 ~mips ppc ~sparc x86
-fixheadtails toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc sys-apps/groff >=sys-apps/sed-4
+DESCRIPTION=Safecat implements qmail's maildir algorithm, copying standard input safely to a specified directory.
+EAPI=0
+HOMEPAGE=http://budney.homeunix.net:8080/users/budney/linux/software/safecat/
+KEYWORDS=alpha amd64 ~hppa ia64 ~mips ppc ~sparc x86
+LICENSE=BSD
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://budney.homeunix.net:8080/users/budney/linux/software/safecat/safecat-1.11.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

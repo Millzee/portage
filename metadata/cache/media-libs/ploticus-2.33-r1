@@ -1,22 +1,13 @@
-media-libs/libpng gd? ( >=media-libs/gd-1.84 media-libs/jpeg ) flash? ( =media-libs/ming-0.2a ) truetype? ( =media-libs/freetype-2* ) X? ( x11-libs/libX11 ) !dev-lang/swi-prolog
-media-libs/libpng gd? ( >=media-libs/gd-1.84 media-libs/jpeg ) flash? ( =media-libs/ming-0.2a ) truetype? ( =media-libs/freetype-2* ) X? ( x11-libs/libX11 ) !dev-lang/swi-prolog
-0
-mirror://sourceforge/ploticus/pl233src.tar.gz
-
-http://ploticus.sourceforge.net
-GPL-2
-A command line application for producing graphs and charts
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-gd flash nls cpulimit svg svgz truetype X
-
-
-
-0
-
-compile install setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup test unpack
+DEPEND=media-libs/libpng gd? ( >=media-libs/gd-1.84 media-libs/jpeg ) flash? ( =media-libs/ming-0.2a ) truetype? ( =media-libs/freetype-2* ) X? ( x11-libs/libX11 ) !dev-lang/swi-prolog
+DESCRIPTION=A command line application for producing graphs and charts
+EAPI=0
+HOMEPAGE=http://ploticus.sourceforge.net
+IUSE=gd flash nls cpulimit svg svgz truetype X
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng gd? ( >=media-libs/gd-1.84 media-libs/jpeg ) flash? ( =media-libs/ming-0.2a ) truetype? ( =media-libs/freetype-2* ) X? ( x11-libs/libX11 ) !dev-lang/swi-prolog
+SLOT=0
+SRC_URI=mirror://sourceforge/ploticus/pl233src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

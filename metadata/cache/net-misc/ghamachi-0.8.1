@@ -1,22 +1,12 @@
-
-net-misc/hamachi =x11-libs/gtk+-2*
-0
-http://purebasic.myftp.org/files/3/projects/hamachi/v.0.8.1/gHamachi_0.8.1.tar.gz
-strip mirror
-http://www.penguinbyte.com/software/ghamachi/
-as-is
-gHamachi is a GUI for the Hamachi tunneling software package.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=gHamachi is a GUI for the Hamachi tunneling software package.
+EAPI=0
+HOMEPAGE=http://www.penguinbyte.com/software/ghamachi/
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+RDEPEND=net-misc/hamachi =x11-libs/gtk+-2*
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=http://purebasic.myftp.org/files/3/projects/hamachi/v.0.8.1/gHamachi_0.8.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

@@ -1,22 +1,13 @@
-net-nds/openldap sasl? ( dev-libs/cyrus-sasl ) kerberos? ( virtual/krb5 ) !sys-auth/nss_ldap
-net-nds/openldap sasl? ( dev-libs/cyrus-sasl ) kerberos? ( virtual/krb5 ) !sys-auth/nss_ldap
-0
-http://ch.tudelft.nl/~arthur/nss-ldapd/nss-ldapd-0.6.7.tar.gz
-
-http://ch.tudelft.nl/~arthur/nss-ldapd/
-LGPL-2.1
-NSS module for name lookups using LDAP
-~amd64
-toolchain-funcs multilib
-debug kerberos sasl
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=net-nds/openldap sasl? ( dev-libs/cyrus-sasl ) kerberos? ( virtual/krb5 ) !sys-auth/nss_ldap
+DESCRIPTION=NSS module for name lookups using LDAP
+EAPI=0
+HOMEPAGE=http://ch.tudelft.nl/~arthur/nss-ldapd/
+IUSE=debug kerberos sasl
+KEYWORDS=~amd64
+LICENSE=LGPL-2.1
+RDEPEND=net-nds/openldap sasl? ( dev-libs/cyrus-sasl ) kerberos? ( virtual/krb5 ) !sys-auth/nss_ldap
+SLOT=0
+SRC_URI=http://ch.tudelft.nl/~arthur/nss-ldapd/nss-ldapd-0.6.7.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

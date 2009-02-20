@@ -1,22 +1,12 @@
-virtual/libc >=dev-libs/bglibs-1.0.19
-virtual/libc >=dev-libs/bglibs-1.0.19 virtual/qmail
-0
-http://untroubled.org/qmail-qfilter/archive/qmail-qfilter-2.1.tar.gz
-
-http://untroubled.org/qmail-qfilter/
-GPL-2
-qmail-queue multi-filter front end
-amd64 ppc sparc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/libc >=dev-libs/bglibs-1.0.19
+DESCRIPTION=qmail-queue multi-filter front end
+EAPI=0
+HOMEPAGE=http://untroubled.org/qmail-qfilter/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc >=dev-libs/bglibs-1.0.19 virtual/qmail
+SLOT=0
+SRC_URI=http://untroubled.org/qmail-qfilter/archive/qmail-qfilter-2.1.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

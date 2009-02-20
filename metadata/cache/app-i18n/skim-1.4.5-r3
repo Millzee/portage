@@ -1,22 +1,12 @@
->=app-i18n/scim-1.4.4 dev-util/pkgconfig =kde-base/kdelibs-3.5* =x11-libs/qt-3*
->=app-i18n/scim-1.4.4 =kde-base/kdelibs-3.5* =x11-libs/qt-3*
-0
-mirror://sourceforge/scim/skim-1.4.5.tar.bz2 http://freedesktop.org/~cougar/skim/downloads/skim-1.4.5.tar.bz2
-
-http://www.scim-im.org/
-GPL-2
-Smart Common Input Method (SCIM) optimized for KDE
-~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs qt3 portability versionator multilib kde-functions eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=app-i18n/scim-1.4.4 dev-util/pkgconfig =kde-base/kdelibs-3.5* =x11-libs/qt-3*
+DESCRIPTION=Smart Common Input Method (SCIM) optimized for KDE
+EAPI=0
+HOMEPAGE=http://www.scim-im.org/
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=app-i18n/scim-1.4.4 =kde-base/kdelibs-3.5* =x11-libs/qt-3*
+SLOT=0
+SRC_URI=mirror://sourceforge/scim/skim-1.4.5.tar.bz2 http://freedesktop.org/~cougar/skim/downloads/skim-1.4.5.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

@@ -1,22 +1,12 @@
->=dev-libs/libmemcache-1.4.0_rc2 virtual/python
->=dev-libs/libmemcache-1.4.0_rc2
-0
-http://gijsbert.org/downloads/cmemcache/cmemcache-0.91.tar.bz2
-
-http://gijsbert.org/cmemcache/
-GPL-2
-Python extension for libmemcache (similar to python-memcache)
-~amd64
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-libs/libmemcache-1.4.0_rc2 virtual/python
+DESCRIPTION=Python extension for libmemcache (similar to python-memcache)
+EAPI=0
+HOMEPAGE=http://gijsbert.org/cmemcache/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libmemcache-1.4.0_rc2
+SLOT=0
+SRC_URI=http://gijsbert.org/downloads/cmemcache/cmemcache-0.91.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

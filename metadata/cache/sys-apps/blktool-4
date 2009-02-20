@@ -1,22 +1,11 @@
-=dev-libs/glib-2* dev-util/pkgconfig
-=dev-libs/glib-2*
-0
-mirror://sourceforge/gkernel/blktool-4.tar.gz
-
-http://sourceforge.net/projects/gkernel/
-GPL-2
-query and/or change settings of a block device
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND==dev-libs/glib-2* dev-util/pkgconfig
+DESCRIPTION=query and/or change settings of a block device
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/gkernel/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND==dev-libs/glib-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/gkernel/blktool-4.tar.gz
+_mtime_=1235082899

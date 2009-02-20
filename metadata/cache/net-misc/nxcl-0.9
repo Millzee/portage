@@ -1,22 +1,13 @@
-net-misc/nx net-misc/nxclient dbus? ( sys-apps/dbus ) doc? ( app-doc/doxygen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-net-misc/nx net-misc/nxclient dbus? ( sys-apps/dbus )
-0
-mirror://berlios/freenx/freenx-client-0.9.tar.bz2
-
-http://developer.berlios.de/projects/freenx/
-GPL-2
-A library for building NX clients
-amd64 x86
-toolchain-funcs portability multilib libtool autotools eutils
-dbus doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=net-misc/nx net-misc/nxclient dbus? ( sys-apps/dbus ) doc? ( app-doc/doxygen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A library for building NX clients
+EAPI=0
+HOMEPAGE=http://developer.berlios.de/projects/freenx/
+IUSE=dbus doc
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=net-misc/nx net-misc/nxclient dbus? ( sys-apps/dbus )
+SLOT=0
+SRC_URI=mirror://berlios/freenx/freenx-client-0.9.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

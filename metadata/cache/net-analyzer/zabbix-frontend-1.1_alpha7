@@ -1,22 +1,13 @@
->=app-admin/webapp-config-1.50.15
-virtual/php >=app-admin/webapp-config-1.50.15
-1.1_alpha7
-mirror://sourceforge/zabbix/zabbix-1.1alpha7.tar.gz
-
-http://zabbix.com/
-GPL-2
-Zabbix php frontend
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils webapp
-vhosts
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=>=app-admin/webapp-config-1.50.15
+DESCRIPTION=Zabbix php frontend
+EAPI=0
+HOMEPAGE=http://zabbix.com/
+IUSE=vhosts
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/php >=app-admin/webapp-config-1.50.15
+SLOT=1.1_alpha7
+SRC_URI=mirror://sourceforge/zabbix/zabbix-1.1alpha7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

@@ -1,22 +1,12 @@
-X? ( x11-base/xorg-server x11-apps/xhost )
-dev-lang/ruby:1.8 dev-ruby/ruby-gtk2 gnome? ( dev-ruby/ruby-gconf2 dev-ruby/ruby-panel-applet2 dev-ruby/ruby-gnome2 ) || ( net-misc/x11-ssh-askpass net-misc/gtk2-ssh-askpass )
-0
-mirror://sourceforge/sshmenu/sshmenu-3.15.tar.gz
-
-http://sshmenu.sourceforge.net
-BSD
-A gnome applet interface to SSH.
-
-toolchain-funcs virtualx multilib portability eutils
-gnome X
-
-
-
-1
-
-install test unpack
-
-
-
-
-
+DEFINED_PHASES=install test unpack
+DEPEND=X? ( x11-base/xorg-server x11-apps/xhost )
+DESCRIPTION=A gnome applet interface to SSH.
+EAPI=1
+HOMEPAGE=http://sshmenu.sourceforge.net
+IUSE=gnome X
+LICENSE=BSD
+RDEPEND=dev-lang/ruby:1.8 dev-ruby/ruby-gtk2 gnome? ( dev-ruby/ruby-gconf2 dev-ruby/ruby-panel-applet2 dev-ruby/ruby-gnome2 ) || ( net-misc/x11-ssh-askpass net-misc/gtk2-ssh-askpass )
+SLOT=0
+SRC_URI=mirror://sourceforge/sshmenu/sshmenu-3.15.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	virtualx	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

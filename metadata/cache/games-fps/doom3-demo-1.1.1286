@@ -1,22 +1,14 @@
-
-opengl? ( virtual/opengl ) sys-libs/glibc amd64? ( app-emulation/emul-linux-x86-xlibs || ( >=app-emulation/emul-linux-x86-xlibs-7.0 x11-drivers/nvidia-drivers >=x11-drivers/ati-drivers-8.8.25-r1 ) ) dedicated? ( app-misc/screen )
-0
-mirror://3dgamers/doom3/doom3-linux-1.1.1286-demo.x86.run mirror://idsoftware/doom3/linux/doom3-linux-1.1.1286-demo.x86.run mirror://gentoo/doom3.png
-strip mirror
-http://www.doom3.com/
-DOOM3
-Doom III - 3rd installment of the classic id 3D first-person shooter
--* amd64 x86
-toolchain-funcs portability multilib base games eutils
-opengl dedicated
-
-
-
-0
-interactive
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Doom III - 3rd installment of the classic id 3D first-person shooter
+EAPI=0
+HOMEPAGE=http://www.doom3.com/
+IUSE=opengl dedicated
+KEYWORDS=-* amd64 x86
+LICENSE=DOOM3
+PROPERTIES=interactive
+RDEPEND=opengl? ( virtual/opengl ) sys-libs/glibc amd64? ( app-emulation/emul-linux-x86-xlibs || ( >=app-emulation/emul-linux-x86-xlibs-7.0 x11-drivers/nvidia-drivers >=x11-drivers/ati-drivers-8.8.25-r1 ) ) dedicated? ( app-misc/screen )
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=mirror://3dgamers/doom3/doom3-linux-1.1.1286-demo.x86.run mirror://idsoftware/doom3/linux/doom3-linux-1.1.1286-demo.x86.run mirror://gentoo/doom3.png
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

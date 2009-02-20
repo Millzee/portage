@@ -1,22 +1,12 @@
-dev-lang/perl
-dev-lang/perl
-0
-mirror://cpan/authors/id/T/TS/TSCH/ExtUtils-Depends-0.301.tar.gz
-
-http://search.cpan.org/~tsch/ExtUtils-Depends/
-|| ( Artistic GPL-2 )
-Easily build XS extensions that depend on XS extensions
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl
+DESCRIPTION=Easily build XS extensions that depend on XS extensions
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~tsch/ExtUtils-Depends/
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86 ~x86-fbsd
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TS/TSCH/ExtUtils-Depends-0.301.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

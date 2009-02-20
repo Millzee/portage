@@ -1,22 +1,11 @@
-
-net-dialup/capi4k-utils
-0
-mirror://gentoo/dtrace-2.01.tar.bz2
-
-ftp://ftp.avm.de/develper/d3trace/
-as-is
-DTRACE traces ISDN messages with AVM ISDN-controllers
-x86 -*
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=DTRACE traces ISDN messages with AVM ISDN-controllers
+EAPI=0
+HOMEPAGE=ftp://ftp.avm.de/develper/d3trace/
+KEYWORDS=x86 -*
+LICENSE=as-is
+RDEPEND=net-dialup/capi4k-utils
+SLOT=0
+SRC_URI=mirror://gentoo/dtrace-2.01.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

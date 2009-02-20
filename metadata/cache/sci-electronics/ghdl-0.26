@@ -1,22 +1,11 @@
->=sys-apps/portage-2.1.2.10 virtual/gnat
-
-0
-http://ghdl.free.fr/ghdl-0.26.tar.bz2 mirror://gnu/gcc/releases/gcc-4.1.2/gcc-core-4.1.2.tar.bz2
-
-http://ghdl.free.fr
-GPL-2
-Complete VHDL simulator using the GCC technology
-~amd64 ~ppc ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-apps/portage-2.1.2.10 virtual/gnat
+DESCRIPTION=Complete VHDL simulator using the GCC technology
+EAPI=0
+HOMEPAGE=http://ghdl.free.fr
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://ghdl.free.fr/ghdl-0.26.tar.bz2 mirror://gnu/gcc/releases/gcc-4.1.2/gcc-core-4.1.2.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

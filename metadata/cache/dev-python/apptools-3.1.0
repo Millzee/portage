@@ -1,22 +1,13 @@
-dev-python/setuptools doc? ( dev-python/setupdocs ) test? ( >=dev-python/nose-0.10.3 dev-python/enthoughtbase ) virtual/python
-dev-python/configobj >=dev-python/numpy-1.1 dev-python/envisagecore dev-python/traitsgui
-0
-http://pypi.python.org/packages/source/A/AppTools/AppTools-3.1.0.tar.gz
-
-http://code.enthought.com/projects/app_tools.php
-BSD
-Enthought Tool Suite application tools
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-doc examples test
-
-
-
-2
-
-compile install postinst postrm prepare test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm prepare test unpack
+DEPEND=dev-python/setuptools doc? ( dev-python/setupdocs ) test? ( >=dev-python/nose-0.10.3 dev-python/enthoughtbase ) virtual/python
+DESCRIPTION=Enthought Tool Suite application tools
+EAPI=2
+HOMEPAGE=http://code.enthought.com/projects/app_tools.php
+IUSE=doc examples test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-python/configobj >=dev-python/numpy-1.1 dev-python/envisagecore dev-python/traitsgui
+SLOT=0
+SRC_URI=http://pypi.python.org/packages/source/A/AppTools/AppTools-3.1.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

@@ -1,22 +1,13 @@
-|| ( dev-lisp/openmcl >=dev-lisp/sbcl-1.0.1 dev-lisp/cmucl dev-lisp/clisp dev-lisp/ecls dev-scheme/guile dev-scheme/gauche ) emacs? ( virtual/emacs >=app-emacs/slime-2.0 ) test? ( app-shells/tcsh )
-|| ( dev-lisp/openmcl >=dev-lisp/sbcl-1.0.1 dev-lisp/cmucl dev-lisp/clisp dev-lisp/ecls dev-scheme/guile dev-scheme/gauche ) emacs? ( virtual/emacs >=app-emacs/slime-2.0 ) test? ( app-shells/tcsh )
-0
-mirror://sourceforge/commonmusic/cm-2.10.0.tar.gz
-
-http://commonmusic.sourceforge.net
-LLGPL-2.1
-Common Music: An object oriented music composition environment in LISP/scheme
-amd64 ppc sparc x86
-elisp-common
-doc emacs test
-
-
-
-0
-
-compile install postinst postrm test
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test
+DEPEND=|| ( dev-lisp/openmcl >=dev-lisp/sbcl-1.0.1 dev-lisp/cmucl dev-lisp/clisp dev-lisp/ecls dev-scheme/guile dev-scheme/gauche ) emacs? ( virtual/emacs >=app-emacs/slime-2.0 ) test? ( app-shells/tcsh )
+DESCRIPTION=Common Music: An object oriented music composition environment in LISP/scheme
+EAPI=0
+HOMEPAGE=http://commonmusic.sourceforge.net
+IUSE=doc emacs test
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=LLGPL-2.1
+RDEPEND=|| ( dev-lisp/openmcl >=dev-lisp/sbcl-1.0.1 dev-lisp/cmucl dev-lisp/clisp dev-lisp/ecls dev-scheme/guile dev-scheme/gauche ) emacs? ( virtual/emacs >=app-emacs/slime-2.0 ) test? ( app-shells/tcsh )
+SLOT=0
+SRC_URI=mirror://sourceforge/commonmusic/cm-2.10.0.tar.gz
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

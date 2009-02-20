@@ -1,22 +1,13 @@
-app-arch/bzip2 app-arch/tar
-games-fps/doom3
-0
-
-strip
-http://www.doom3.com/
-DOOM3
-Doom III - data portion
--* amd64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-interactive
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/bzip2 app-arch/tar
+DESCRIPTION=Doom III - data portion
+EAPI=0
+HOMEPAGE=http://www.doom3.com/
+KEYWORDS=-* amd64 x86
+LICENSE=DOOM3
+PROPERTIES=interactive
+RDEPEND=games-fps/doom3
+RESTRICT=strip
+SLOT=0
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

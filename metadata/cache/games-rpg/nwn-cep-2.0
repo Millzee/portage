@@ -1,22 +1,12 @@
-app-arch/unrar
->=games-rpg/nwn-1.68
-2
-http://vnfiles.ign.com/nwvault.ign.com/fms/files/hakpaks/7000/CEPv2_full.rar
-
-http://nwvault.ign.com/cep/
-as-is
-High quality custom content addon for Neverwinter Nights
--* amd64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unrar
+DESCRIPTION=High quality custom content addon for Neverwinter Nights
+EAPI=0
+HOMEPAGE=http://nwvault.ign.com/cep/
+KEYWORDS=-* amd64 x86
+LICENSE=as-is
+RDEPEND=>=games-rpg/nwn-1.68
+SLOT=2
+SRC_URI=http://vnfiles.ign.com/nwvault.ign.com/fms/files/hakpaks/7000/CEPv2_full.rar
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

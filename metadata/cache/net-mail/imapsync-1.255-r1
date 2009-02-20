@@ -1,22 +1,13 @@
-dev-lang/perl
-dev-lang/perl virtual/perl-Digest-MD5 dev-perl/DateManip dev-perl/Net-SSLeay virtual/perl-MIME-Base64 dev-perl/TermReadKey dev-perl/IO-Socket-SSL dev-perl/Digest-HMAC =dev-perl/Mail-IMAPClient-2.2.9
-0
-http://www.linux-france.org/prj/imapsync/dist/imapsync-1.255.tgz
-test
-http://www.linux-france.org/prj/
-GPL-2
-A tool allowing incremental and recursive imap transfer from one mailbox to another.
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/perl
+DESCRIPTION=A tool allowing incremental and recursive imap transfer from one mailbox to another.
+EAPI=0
+HOMEPAGE=http://www.linux-france.org/prj/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl virtual/perl-Digest-MD5 dev-perl/DateManip dev-perl/Net-SSLeay virtual/perl-MIME-Base64 dev-perl/TermReadKey dev-perl/IO-Socket-SSL dev-perl/Digest-HMAC =dev-perl/Mail-IMAPClient-2.2.9
+RESTRICT=test
+SLOT=0
+SRC_URI=http://www.linux-france.org/prj/imapsync/dist/imapsync-1.255.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

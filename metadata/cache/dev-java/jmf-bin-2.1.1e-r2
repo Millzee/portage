@@ -1,22 +1,14 @@
->=app-arch/unzip-5.50-r1 >=dev-java/java-config-2.1.6
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6
-0
-jmf-2_1_1e-alljava.zip
-fetch
-http://java.sun.com/products/java-media/jmf/
-sun-bcla-jmf
-The Java Media Framework API (JMF)
-amd64 ~ppc x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD
-
-
-
-
-
-compile install nofetch preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch preinst setup unpack
+DEPEND=>=app-arch/unzip-5.50-r1 >=dev-java/java-config-2.1.6
+DESCRIPTION=The Java Media Framework API (JMF)
+EAPI=0
+HOMEPAGE=http://java.sun.com/products/java-media/jmf/
+IUSE=elibc_FreeBSD
+KEYWORDS=amd64 ~ppc x86
+LICENSE=sun-bcla-jmf
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+RESTRICT=fetch
+SLOT=0
+SRC_URI=jmf-2_1_1e-alljava.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

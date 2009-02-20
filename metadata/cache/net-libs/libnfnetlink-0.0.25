@@ -1,22 +1,11 @@
-kernel_linux? ( virtual/linux-sources )
-
-0
-http://www.netfilter.org/projects/libnfnetlink/files/libnfnetlink-0.0.25.tar.bz2
-
-http://www.netfilter.org/projects/libnfnetlink/
-GPL-2
-the low-level library for netfilter related kernel/userspace communication
-~amd64 ~hppa ~ppc sparc x86
-linux-info toolchain-funcs multilib versionator
-
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DEPEND=kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=the low-level library for netfilter related kernel/userspace communication
+EAPI=0
+HOMEPAGE=http://www.netfilter.org/projects/libnfnetlink/
+KEYWORDS=~amd64 ~hppa ~ppc sparc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.netfilter.org/projects/libnfnetlink/files/libnfnetlink-0.0.25.tar.bz2
+_eclasses_=linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

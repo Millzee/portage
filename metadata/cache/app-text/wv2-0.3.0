@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=>=gnome-extra/libgsf-1.8 media-libs/freetype:2 media-libs/libpng media-gfx/imagemagick
+DESCRIPTION=Excellent MS Word filter lib, used in most Office suites
+EAPI=1
+HOMEPAGE=http://wvware.sourceforge.net
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=LGPL-2
+RDEPEND=>=gnome-extra/libgsf-1.8 media-libs/freetype:2 media-libs/libpng media-gfx/imagemagick
+SLOT=0
+SRC_URI=mirror://sourceforge/wvware/wv2-0.3.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235083217

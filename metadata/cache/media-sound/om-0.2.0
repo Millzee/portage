@@ -1,22 +1,12 @@
->=media-libs/liblo-0.22 media-sound/jack-audio-connection-kit alsa? ( >=media-libs/alsa-lib-1.0 ) dssi? ( media-libs/dssi ) ladspa? ( media-libs/ladspa-sdk ) lash? ( >=media-sound/lash-0.5.0 ) patch-loader? ( dev-libs/libxml2 ) gtk? ( >=dev-cpp/gtkmm-2.4 >=dev-cpp/libgnomecanvasmm-2.6 >=dev-cpp/libglademm-2.4.1 ) dev-util/pkgconfig
->=media-libs/liblo-0.22 media-sound/jack-audio-connection-kit alsa? ( >=media-libs/alsa-lib-1.0 ) dssi? ( media-libs/dssi ) ladspa? ( media-libs/ladspa-sdk ) lash? ( >=media-sound/lash-0.5.0 ) patch-loader? ( dev-libs/libxml2 ) gtk? ( >=dev-cpp/gtkmm-2.4 >=dev-cpp/libgnomecanvasmm-2.6 >=dev-cpp/libglademm-2.4.1 )
-0
-http://savannah.nongnu.org/download/om-synth/om-0.2.0.tar.gz
-
-http://www.nongnu.org/om-synth/
-GPL-2
-Modular audio synthesizer using Jack, LADSPA, DSSI etc.
-~x86
-
-alsa debug dssi gtk ladspa lash patch-loader
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=>=media-libs/liblo-0.22 media-sound/jack-audio-connection-kit alsa? ( >=media-libs/alsa-lib-1.0 ) dssi? ( media-libs/dssi ) ladspa? ( media-libs/ladspa-sdk ) lash? ( >=media-sound/lash-0.5.0 ) patch-loader? ( dev-libs/libxml2 ) gtk? ( >=dev-cpp/gtkmm-2.4 >=dev-cpp/libgnomecanvasmm-2.6 >=dev-cpp/libglademm-2.4.1 ) dev-util/pkgconfig
+DESCRIPTION=Modular audio synthesizer using Jack, LADSPA, DSSI etc.
+EAPI=0
+HOMEPAGE=http://www.nongnu.org/om-synth/
+IUSE=alsa debug dssi gtk ladspa lash patch-loader
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/liblo-0.22 media-sound/jack-audio-connection-kit alsa? ( >=media-libs/alsa-lib-1.0 ) dssi? ( media-libs/dssi ) ladspa? ( media-libs/ladspa-sdk ) lash? ( >=media-sound/lash-0.5.0 ) patch-loader? ( dev-libs/libxml2 ) gtk? ( >=dev-cpp/gtkmm-2.4 >=dev-cpp/libgnomecanvasmm-2.6 >=dev-cpp/libglademm-2.4.1 )
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/om-synth/om-0.2.0.tar.gz
+_mtime_=1235082869

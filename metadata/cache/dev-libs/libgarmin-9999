@@ -1,22 +1,10 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool dev-util/subversion net-misc/rsync
-
-0
-
-
-http://libgarmin.sourceforge.net/
-GPL-2
-Experimental driver for Garmin IMG maps
-~amd64 ~x86
-toolchain-funcs portability multilib subversion libtool autotools eutils
-
-
-
-
-0
-
-install preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install preinst unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool dev-util/subversion net-misc/rsync
+DESCRIPTION=Experimental driver for Garmin IMG maps
+EAPI=0
+HOMEPAGE=http://libgarmin.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

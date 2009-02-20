@@ -1,22 +1,13 @@
-tcpd? ( sys-apps/tcp-wrappers ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-tcpd? ( sys-apps/tcp-wrappers )
-0
-mirror://sourceforge/ser2net/ser2net-2.3.tar.gz
-
-http://sourceforge.net/projects/ser2net
-GPL-2
-Serial To Network Proxy
-~amd64 ppc sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-tcpd
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=tcpd? ( sys-apps/tcp-wrappers ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Serial To Network Proxy
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/ser2net
+IUSE=tcpd
+KEYWORDS=~amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=tcpd? ( sys-apps/tcp-wrappers )
+SLOT=0
+SRC_URI=mirror://sourceforge/ser2net/ser2net-2.3.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

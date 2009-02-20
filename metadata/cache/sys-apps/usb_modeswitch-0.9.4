@@ -1,22 +1,12 @@
-dev-libs/libusb
-dev-libs/libusb
-0
-http://www.draisberghof.de/usb_modeswitch/usb_modeswitch-0.9.4.tar.bz2
-
-http://www.draisberghof.de/usb_modeswitch/
-GPL-2
-USB_ModeSwitch is a tool for controlling 'flip flop' (multiple devices) USB gear like UMTS sticks.
-~x86 ~amd64
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=dev-libs/libusb
+DESCRIPTION=USB_ModeSwitch is a tool for controlling 'flip flop' (multiple devices) USB gear like UMTS sticks.
+EAPI=0
+HOMEPAGE=http://www.draisberghof.de/usb_modeswitch/
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=dev-libs/libusb
+SLOT=0
+SRC_URI=http://www.draisberghof.de/usb_modeswitch/usb_modeswitch-0.9.4.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

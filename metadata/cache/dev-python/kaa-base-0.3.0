@@ -1,22 +1,13 @@
-virtual/python
-dev-libs/libxml2 dev-python/pynotifier sqlite? ( >=dev-libs/glib-2.4.0 >=dev-python/pysqlite-2.2 ) lirc? ( dev-python/pylirc )
-0
-mirror://sourceforge/freevo/kaa-base-0.3.0.tar.gz
-
-http://freevo.sourceforge.net/kaa/
-LGPL-2.1
-Basic Framework for all Kaa Python Modules.
-amd64 ppc x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-sqlite lirc
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=virtual/python
+DESCRIPTION=Basic Framework for all Kaa Python Modules.
+EAPI=0
+HOMEPAGE=http://freevo.sourceforge.net/kaa/
+IUSE=sqlite lirc
+KEYWORDS=amd64 ppc x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-libs/libxml2 dev-python/pynotifier sqlite? ( >=dev-libs/glib-2.4.0 >=dev-python/pysqlite-2.2 ) lirc? ( dev-python/pylirc )
+SLOT=0
+SRC_URI=mirror://sourceforge/freevo/kaa-base-0.3.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

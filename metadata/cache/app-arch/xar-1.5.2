@@ -1,22 +1,13 @@
-dev-libs/openssl dev-libs/libxml2 sys-libs/zlib acl? ( sys-apps/acl ) bzip2? ( app-arch/bzip2 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-dev-libs/openssl dev-libs/libxml2 sys-libs/zlib acl? ( sys-apps/acl ) bzip2? ( app-arch/bzip2 )
-0
-http://xar.googlecode.com/files/xar-1.5.2.tar.gz
-
-http://code.google.com/p/xar
-BSD-2
-an easily extensible archive format
-alpha amd64 hppa ia64 ~ppc ~ppc64 sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-acl +bzip2
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/openssl dev-libs/libxml2 sys-libs/zlib acl? ( sys-apps/acl ) bzip2? ( app-arch/bzip2 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=an easily extensible archive format
+EAPI=1
+HOMEPAGE=http://code.google.com/p/xar
+IUSE=acl +bzip2
+KEYWORDS=alpha amd64 hppa ia64 ~ppc ~ppc64 sparc x86
+LICENSE=BSD-2
+RDEPEND=dev-libs/openssl dev-libs/libxml2 sys-libs/zlib acl? ( sys-apps/acl ) bzip2? ( app-arch/bzip2 )
+SLOT=0
+SRC_URI=http://xar.googlecode.com/files/xar-1.5.2.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

@@ -1,22 +1,12 @@
-dev-lang/python =www-servers/apache-2*
-dev-lang/python =www-servers/apache-2*
-0
-mirror://apache/httpd/modpython/mod_python-3.3.1.tgz
-
-http://www.modpython.org/
-Apache-1.1
-An Apache2 module providing an embedded Python interpreter.
-alpha amd64 ia64 ~mips ppc sparc x86
-apache-module toolchain-funcs portability python alternatives multilib depend.apache eutils
-
-
-
-
-0
-
-compile install postinst postrm test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test unpack
+DEPEND=dev-lang/python =www-servers/apache-2*
+DESCRIPTION=An Apache2 module providing an embedded Python interpreter.
+EAPI=0
+HOMEPAGE=http://www.modpython.org/
+KEYWORDS=alpha amd64 ia64 ~mips ppc sparc x86
+LICENSE=Apache-1.1
+RDEPEND=dev-lang/python =www-servers/apache-2*
+SLOT=0
+SRC_URI=mirror://apache/httpd/modpython/mod_python-3.3.1.tgz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

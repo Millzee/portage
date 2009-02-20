@@ -1,22 +1,13 @@
-media-libs/freetype x11-libs/libSM x11-libs/libXext x11-libs/libXrender png? ( >=media-libs/libpng-1.2.5 ) jpeg? ( >=media-libs/jpeg-6b ) gif? ( >=media-libs/giflib-4.1 ) tiff? ( >=media-libs/tiff-3.5.7 ) !x11-wm/afterstep
-media-libs/freetype x11-libs/libSM x11-libs/libXext x11-libs/libXrender png? ( >=media-libs/libpng-1.2.5 ) jpeg? ( >=media-libs/jpeg-6b ) gif? ( >=media-libs/giflib-4.1 ) tiff? ( >=media-libs/tiff-3.5.7 )
-0
-ftp://ftp.afterstep.org/stable/libAfterImage/libAfterImage-1.15.tar.bz2
-
-http://www.afterstep.org/afterimage/index.php
-LGPL-2
-Afterstep's standalone generic image manipulation library
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-gif jpeg mmx nls png tiff examples
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/freetype x11-libs/libSM x11-libs/libXext x11-libs/libXrender png? ( >=media-libs/libpng-1.2.5 ) jpeg? ( >=media-libs/jpeg-6b ) gif? ( >=media-libs/giflib-4.1 ) tiff? ( >=media-libs/tiff-3.5.7 ) !x11-wm/afterstep
+DESCRIPTION=Afterstep's standalone generic image manipulation library
+EAPI=0
+HOMEPAGE=http://www.afterstep.org/afterimage/index.php
+IUSE=gif jpeg mmx nls png tiff examples
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=LGPL-2
+RDEPEND=media-libs/freetype x11-libs/libSM x11-libs/libXext x11-libs/libXrender png? ( >=media-libs/libpng-1.2.5 ) jpeg? ( >=media-libs/jpeg-6b ) gif? ( >=media-libs/giflib-4.1 ) tiff? ( >=media-libs/tiff-3.5.7 )
+SLOT=0
+SRC_URI=ftp://ftp.afterstep.org/stable/libAfterImage/libAfterImage-1.15.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

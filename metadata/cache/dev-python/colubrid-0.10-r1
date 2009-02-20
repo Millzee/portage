@@ -1,22 +1,11 @@
-dev-python/setuptools virtual/python
-
-0
-http://wsgiarea.pocoo.org/colubrid/dist/Colubrid-0.10.tar.gz
-
-http://wsgiarea.pocoo.org/colubrid/
-BSD
-Colubrid is a set of tools around the WSGI standard.
-~amd64
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-python/setuptools virtual/python
+DESCRIPTION=Colubrid is a set of tools around the WSGI standard.
+EAPI=0
+HOMEPAGE=http://wsgiarea.pocoo.org/colubrid/
+KEYWORDS=~amd64
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://wsgiarea.pocoo.org/colubrid/dist/Colubrid-0.10.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

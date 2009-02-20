@@ -1,22 +1,10 @@
-
-
-0
-http://dl.ivtvdriver.org/ivtv/firmware/cx18-firmware-20080628.tar.gz
-mirror
-http://www.ivtvdriver.org/index.php/Firmware
-Conexant-firmware
-firmware for Hauppauge PVR-1600 and Conexant 23418 based cards
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=firmware for Hauppauge PVR-1600 and Conexant 23418 based cards
+EAPI=0
+HOMEPAGE=http://www.ivtvdriver.org/index.php/Firmware
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=Conexant-firmware
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://dl.ivtvdriver.org/ivtv/firmware/cx18-firmware-20080628.tar.gz
+_mtime_=1235082869

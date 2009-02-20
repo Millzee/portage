@@ -1,22 +1,12 @@
->=dev-lang/ruby-1.8.0 virtual/ruby
->=dev-lang/ruby-1.8.0 virtual/ruby
-0
-http://www.brain-tokyo.jp/research/amrita/amrita-1.8.2.tar.gz
-
-http://www.brain-tokyo.jp/research/amrita/index.html
-Ruby
-A HTML/XHTML template library for Ruby
-alpha hppa ia64 ~mips ppc ppc64 sparc x86
-ruby toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/ruby-1.8.0 virtual/ruby
+DESCRIPTION=A HTML/XHTML template library for Ruby
+EAPI=0
+HOMEPAGE=http://www.brain-tokyo.jp/research/amrita/index.html
+KEYWORDS=alpha hppa ia64 ~mips ppc ppc64 sparc x86
+LICENSE=Ruby
+RDEPEND=>=dev-lang/ruby-1.8.0 virtual/ruby
+SLOT=0
+SRC_URI=http://www.brain-tokyo.jp/research/amrita/amrita-1.8.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

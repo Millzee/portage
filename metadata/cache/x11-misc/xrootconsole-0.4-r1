@@ -1,22 +1,12 @@
-x11-libs/libX11 x11-proto/xproto
-x11-libs/libX11
-0
-http://de-fac.to/bob/xrootconsole/xrootconsole-0.4.tar.gz
-
-http://de-fac.to/bob/xrootconsole/
-GPL-2
-A utility that displays its input in a text box on your root window
-x86 sparc ppc ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/libX11 x11-proto/xproto
+DESCRIPTION=A utility that displays its input in a text box on your root window
+EAPI=0
+HOMEPAGE=http://de-fac.to/bob/xrootconsole/
+KEYWORDS=x86 sparc ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11
+SLOT=0
+SRC_URI=http://de-fac.to/bob/xrootconsole/xrootconsole-0.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

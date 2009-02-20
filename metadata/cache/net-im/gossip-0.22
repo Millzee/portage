@@ -1,22 +1,14 @@
-x11-libs/libXScrnSaver >=dev-libs/glib-2.12.1 >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2 >=gnome-base/gconf-1.2 >=dev-libs/libxml2-2.6.16 >=dev-libs/libxslt-1 >=gnome-base/libgnome-2 >=gnome-base/libgnomeui-2 >=gnome-base/gnome-vfs-2 >=net-libs/loudmouth-1 spell? ( app-text/aspell ) libnotify? ( >=x11-libs/libnotify-0.4.1 ) dbus? ( >=dev-libs/dbus-glib-0.71 ) >=app-text/gnome-doc-utils-0.3.2 app-text/scrollkeeper x11-proto/scrnsaverproto dev-util/pkgconfig >=dev-util/intltool-0.35 >=sys-apps/sed-4
-x11-libs/libXScrnSaver >=dev-libs/glib-2.12.1 >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2 >=gnome-base/gconf-1.2 >=dev-libs/libxml2-2.6.16 >=dev-libs/libxslt-1 >=gnome-base/libgnome-2 >=gnome-base/libgnomeui-2 >=gnome-base/gnome-vfs-2 >=net-libs/loudmouth-1 spell? ( app-text/aspell ) libnotify? ( >=x11-libs/libnotify-0.4.1 ) dbus? ( >=dev-libs/dbus-glib-0.71 )
-0
-mirror://gnome/sources/gossip/0.22/gossip-0.22.tar.bz2
-test
-http://developer.imendio.com/projects/gossip
-GPL-2
-Lightweight Jabber client for GNOME
-amd64 ppc ppc64 sparc x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-spell dbus libnotify debug
-
-
-
-0
-
-compile config install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst postrm preinst unpack
+DEPEND=x11-libs/libXScrnSaver >=dev-libs/glib-2.12.1 >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2 >=gnome-base/gconf-1.2 >=dev-libs/libxml2-2.6.16 >=dev-libs/libxslt-1 >=gnome-base/libgnome-2 >=gnome-base/libgnomeui-2 >=gnome-base/gnome-vfs-2 >=net-libs/loudmouth-1 spell? ( app-text/aspell ) libnotify? ( >=x11-libs/libnotify-0.4.1 ) dbus? ( >=dev-libs/dbus-glib-0.71 ) >=app-text/gnome-doc-utils-0.3.2 app-text/scrollkeeper x11-proto/scrnsaverproto dev-util/pkgconfig >=dev-util/intltool-0.35 >=sys-apps/sed-4
+DESCRIPTION=Lightweight Jabber client for GNOME
+EAPI=0
+HOMEPAGE=http://developer.imendio.com/projects/gossip
+IUSE=spell dbus libnotify debug
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXScrnSaver >=dev-libs/glib-2.12.1 >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2 >=gnome-base/gconf-1.2 >=dev-libs/libxml2-2.6.16 >=dev-libs/libxslt-1 >=gnome-base/libgnome-2 >=gnome-base/libgnomeui-2 >=gnome-base/gnome-vfs-2 >=net-libs/loudmouth-1 spell? ( app-text/aspell ) libnotify? ( >=x11-libs/libnotify-0.4.1 ) dbus? ( >=dev-libs/dbus-glib-0.71 )
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://gnome/sources/gossip/0.22/gossip-0.22.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

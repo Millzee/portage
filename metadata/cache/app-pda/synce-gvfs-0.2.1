@@ -1,22 +1,14 @@
-dev-util/gtk-doc >=gnome-base/gvfs-1.0.3 =app-pda/synce-libsynce-0.13* =app-pda/synce-librapi2-0.13* >=sys-apps/sed-4
->=gnome-base/gvfs-1.0.3 =app-pda/synce-libsynce-0.13* =app-pda/synce-librapi2-0.13*
-0
-mirror://sourceforge/synce/synce-gvfs-0.2.1.tar.gz mirror://gnome/sources/gvfs/1.0/gvfs-1.0.3.tar.gz
-test
-http://sourceforge.net/projects/synce/
-MIT
-SynCE - Gnome GVFS extensions
-~amd64 ~x86
-gnome.org fdo-mime gnome2 gnome2-utils libtool
-debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=dev-util/gtk-doc >=gnome-base/gvfs-1.0.3 =app-pda/synce-libsynce-0.13* =app-pda/synce-librapi2-0.13* >=sys-apps/sed-4
+DESCRIPTION=SynCE - Gnome GVFS extensions
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/synce/
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=gnome-base/gvfs-1.0.3 =app-pda/synce-libsynce-0.13* =app-pda/synce-librapi2-0.13*
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/synce/synce-gvfs-0.2.1.tar.gz mirror://gnome/sources/gvfs/1.0/gvfs-1.0.3.tar.gz
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

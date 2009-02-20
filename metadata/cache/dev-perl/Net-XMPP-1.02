@@ -1,22 +1,12 @@
-virtual/perl-Module-Build >=dev-perl/XML-Stream-1.22 dev-perl/Digest-SHA1 dev-lang/perl
->=dev-perl/XML-Stream-1.22 dev-perl/Digest-SHA1 dev-lang/perl
-0
-mirror://cpan/authors/id/H/HA/HACKER/Net-XMPP-1.02.tar.gz
-
-http://search.cpan.org/~hacker/
-Artistic
-Net::XMPP is a collection of Perl modules that provide a Perl Developer access to the XMPP protocol.
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-Module-Build >=dev-perl/XML-Stream-1.22 dev-perl/Digest-SHA1 dev-lang/perl
+DESCRIPTION=Net::XMPP is a collection of Perl modules that provide a Perl Developer access to the XMPP protocol.
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~hacker/
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=Artistic
+RDEPEND=>=dev-perl/XML-Stream-1.22 dev-perl/Digest-SHA1 dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/H/HA/HACKER/Net-XMPP-1.02.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

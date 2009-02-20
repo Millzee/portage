@@ -1,22 +1,9 @@
-
-
-0
-mirror://gentoo/raincoat-20051004.tar.bz2
-
-http://www.xbox-linux.org/
-GPL-2
-Flash the Xbox boot chip
-~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Flash the Xbox boot chip
+EAPI=0
+HOMEPAGE=http://www.xbox-linux.org/
+KEYWORDS=~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://gentoo/raincoat-20051004.tar.bz2
+_mtime_=1235082900

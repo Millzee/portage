@@ -1,22 +1,13 @@
->=dev-lang/python-2.4 >=dev-python/pygtk-2.6 >=dev-python/gnome-python-desktop-2.14.0 >=dev-python/gst-python-0.10 gnome-base/gconf >=media-plugins/gst-plugins-gnomevfs-0.10 muine? ( media-sound/muine ) dev-python/pyxml sys-devel/gettext dev-util/intltool dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
->=dev-lang/python-2.4 >=dev-python/pygtk-2.6 >=dev-python/gnome-python-desktop-2.14.0 >=dev-python/gst-python-0.10 gnome-base/gconf >=media-plugins/gst-plugins-gnomevfs-0.10 muine? ( media-sound/muine ) dev-python/pyxml
-0
-mirror://berlios/serpentine/serpentine-0.9.tar.bz2
-
-http://irrepupavel.com/projects/serpentine/
-GPL-2
-An application for writing CD-Audio discs. It aims for simplicity, usability and compability.
-~amd64 ppc x86
-toolchain-funcs multilib portability python mono alternatives gnome2-utils gnome2 gnome.org fdo-mime autotools libtool eutils
-muine
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=dev-lang/python-2.4 >=dev-python/pygtk-2.6 >=dev-python/gnome-python-desktop-2.14.0 >=dev-python/gst-python-0.10 gnome-base/gconf >=media-plugins/gst-plugins-gnomevfs-0.10 muine? ( media-sound/muine ) dev-python/pyxml sys-devel/gettext dev-util/intltool dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
+DESCRIPTION=An application for writing CD-Audio discs. It aims for simplicity, usability and compability.
+EAPI=0
+HOMEPAGE=http://irrepupavel.com/projects/serpentine/
+IUSE=muine
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/python-2.4 >=dev-python/pygtk-2.6 >=dev-python/gnome-python-desktop-2.14.0 >=dev-python/gst-python-0.10 gnome-base/gconf >=media-plugins/gst-plugins-gnomevfs-0.10 muine? ( media-sound/muine ) dev-python/pyxml
+SLOT=0
+SRC_URI=mirror://berlios/serpentine/serpentine-0.9.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

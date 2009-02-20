@@ -1,22 +1,13 @@
-x11-libs/libXpm >=media-libs/freetype-2.0.9 opengl? ( virtual/opengl virtual/glu ) mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server ) x11-proto/xproto
-x11-libs/libXpm >=media-libs/freetype-2.0.9 opengl? ( virtual/opengl virtual/glu ) mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server )
-0
-ftp://root.cern.ch/root/root_v3.05.04.source.tar.gz
-
-http://root.cern.ch/
-as-is
-An Object-Oriented Data Analysis Framework
-x86 sparc ppc
-toolchain-funcs multilib portability eutils flag-o-matic
-mysql postgres opengl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXpm >=media-libs/freetype-2.0.9 opengl? ( virtual/opengl virtual/glu ) mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server ) x11-proto/xproto
+DESCRIPTION=An Object-Oriented Data Analysis Framework
+EAPI=0
+HOMEPAGE=http://root.cern.ch/
+IUSE=mysql postgres opengl
+KEYWORDS=x86 sparc ppc
+LICENSE=as-is
+RDEPEND=x11-libs/libXpm >=media-libs/freetype-2.0.9 opengl? ( virtual/opengl virtual/glu ) mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server )
+SLOT=0
+SRC_URI=ftp://root.cern.ch/root/root_v3.05.04.source.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

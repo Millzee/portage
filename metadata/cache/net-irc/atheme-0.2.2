@@ -1,22 +1,13 @@
-postgres? ( virtual/postgresql-server ) >=sys-devel/autoconf-2.59 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-postgres? ( virtual/postgresql-server )
-0
-http://www.atheme.net/releases/atheme-0.2.2.tgz
-
-http://www.atheme.net/
-BSD
-A portable, secure set of open source, and modular IRC services
-~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability multilib libtool autotools eutils
-largenet postgres
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=postgres? ( virtual/postgresql-server ) >=sys-devel/autoconf-2.59 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A portable, secure set of open source, and modular IRC services
+EAPI=0
+HOMEPAGE=http://www.atheme.net/
+IUSE=largenet postgres
+KEYWORDS=~sparc ~x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND=postgres? ( virtual/postgresql-server )
+SLOT=0
+SRC_URI=http://www.atheme.net/releases/atheme-0.2.2.tgz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

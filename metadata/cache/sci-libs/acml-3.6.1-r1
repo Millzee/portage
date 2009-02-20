@@ -1,22 +1,14 @@
-openmp? ( >=sys-devel/gcc-4.2 ) !openmp? ( =sys-devel/gcc-4.1* ) app-admin/eselect-blas app-admin/eselect-lapack =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-openmp? ( >=sys-devel/gcc-4.2 ) !openmp? ( =sys-devel/gcc-4.1* ) app-admin/eselect-blas app-admin/eselect-lapack doc? ( app-doc/blas-docs app-doc/lapack-docs )
-0
-x86? ( acml-3-6-1-gfortran-32bit.tgz ) amd64? ( acml-3-6-1-gfortran-64bit.tgz int64? ( acml-3-6-1-gfortran-64bit-int64.tgz ) )
-strip fetch
-http://developer.amd.com/acml.jsp
-ACML
-AMD Core Math Library (ACML) for x86 and amd64 CPUs
-~amd64 ~x86
-toolchain-funcs portability multilib fortran libtool autotools eutils
-openmp int64 doc examples debug
-
-
-
-0
-
-install nofetch postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=install nofetch postinst setup test unpack
+DEPEND=openmp? ( >=sys-devel/gcc-4.2 ) !openmp? ( =sys-devel/gcc-4.1* ) app-admin/eselect-blas app-admin/eselect-lapack =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=AMD Core Math Library (ACML) for x86 and amd64 CPUs
+EAPI=0
+HOMEPAGE=http://developer.amd.com/acml.jsp
+IUSE=openmp int64 doc examples debug
+KEYWORDS=~amd64 ~x86
+LICENSE=ACML
+RDEPEND=openmp? ( >=sys-devel/gcc-4.2 ) !openmp? ( =sys-devel/gcc-4.1* ) app-admin/eselect-blas app-admin/eselect-lapack doc? ( app-doc/blas-docs app-doc/lapack-docs )
+RESTRICT=strip fetch
+SLOT=0
+SRC_URI=x86? ( acml-3-6-1-gfortran-32bit.tgz ) amd64? ( acml-3-6-1-gfortran-64bit.tgz int64? ( acml-3-6-1-gfortran-64bit-int64.tgz ) )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,12 @@
-
-
-0
-!crosscompile_opts_headers-only? ( ftp://sourceware.org/pub/cygwin/release/cygwin/cygwin-1.5.25-15-src.tar.bz2 ) crosscompile_opts_headers-only? ( ftp://sourceware.org/pub/cygwin/release/w32api/w32api-3.12-1.tar.bz2 ftp://sourceware.org/pub/cygwin/release/cygwin/cygwin-1.5.25-15.tar.bz2 )
-strip
-http://cygwin.com/
-GPL-2
-Linux-like environment for Windows
-~amd64 ~x86
-toolchain-funcs multilib
-crosscompile_opts_headers-only
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DESCRIPTION=Linux-like environment for Windows
+EAPI=0
+HOMEPAGE=http://cygwin.com/
+IUSE=crosscompile_opts_headers-only
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RESTRICT=strip
+SLOT=0
+SRC_URI=!crosscompile_opts_headers-only? ( ftp://sourceware.org/pub/cygwin/release/cygwin/cygwin-1.5.25-15-src.tar.bz2 ) crosscompile_opts_headers-only? ( ftp://sourceware.org/pub/cygwin/release/w32api/w32api-3.12-1.tar.bz2 ftp://sourceware.org/pub/cygwin/release/cygwin/cygwin-1.5.25-15.tar.bz2 )
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

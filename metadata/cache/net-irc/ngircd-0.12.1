@@ -1,22 +1,14 @@
-virtual/libc zlib? ( sys-libs/zlib ) ident? ( net-libs/libident ) tcpd? ( sys-apps/tcp-wrappers ) >=sys-apps/sed-4
-virtual/libc zlib? ( sys-libs/zlib ) ident? ( net-libs/libident ) tcpd? ( sys-apps/tcp-wrappers ) >=sys-apps/sed-4
-0
-ftp://ftp.berlios.de/pub/ngircd/ngircd-0.12.1.tar.gz ftp://ngircd.barton.de/pub/ngircd/ngircd-0.12.1.tar.gz
-test
-http://ngircd.barton.de/
-GPL-2
-A IRC server written from scratch.
-~amd64 ppc x86
-toolchain-funcs multilib portability eutils
-zlib tcpd debug ident
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/libc zlib? ( sys-libs/zlib ) ident? ( net-libs/libident ) tcpd? ( sys-apps/tcp-wrappers ) >=sys-apps/sed-4
+DESCRIPTION=A IRC server written from scratch.
+EAPI=0
+HOMEPAGE=http://ngircd.barton.de/
+IUSE=zlib tcpd debug ident
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc zlib? ( sys-libs/zlib ) ident? ( net-libs/libident ) tcpd? ( sys-apps/tcp-wrappers ) >=sys-apps/sed-4
+RESTRICT=test
+SLOT=0
+SRC_URI=ftp://ftp.berlios.de/pub/ngircd/ngircd-0.12.1.tar.gz ftp://ngircd.barton.de/pub/ngircd/ngircd-0.12.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

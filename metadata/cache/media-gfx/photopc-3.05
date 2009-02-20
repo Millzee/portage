@@ -1,22 +1,10 @@
-
-
-0
-mirror://sourceforge/photopc/photopc-3.05.tar.gz
-
-http://photopc.sourceforge.net
-|| ( BSD as-is )
-Utility to control digital cameras based on Sierra Imaging firmware
-~ppc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Utility to control digital cameras based on Sierra Imaging firmware
+EAPI=0
+HOMEPAGE=http://photopc.sourceforge.net
+KEYWORDS=~ppc x86
+LICENSE=|| ( BSD as-is )
+SLOT=0
+SRC_URI=mirror://sourceforge/photopc/photopc-3.05.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

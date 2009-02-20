@@ -1,22 +1,13 @@
-X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
-
-0
-http://download.wolfram.com/download/T6RFFB/MathematicaV7FontsLinux.tar.gz
-mirror strip binchecks
-http://support.wolfram.com/technotes/latestfonts.en.html
-WRI-EULA
-Mathematica's Fonts for MathML
-~alpha amd64 ~ia64 ~ppc ~ppc64 ~sparc x86 ~x86-fbsd
-toolchain-funcs font multilib portability eutils
-X
-
-
-
-0
-
-install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm setup
+DEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
+DESCRIPTION=Mathematica's Fonts for MathML
+EAPI=0
+HOMEPAGE=http://support.wolfram.com/technotes/latestfonts.en.html
+IUSE=X
+KEYWORDS=~alpha amd64 ~ia64 ~ppc ~ppc64 ~sparc x86 ~x86-fbsd
+LICENSE=WRI-EULA
+RESTRICT=mirror strip binchecks
+SLOT=0
+SRC_URI=http://download.wolfram.com/download/T6RFFB/MathematicaV7FontsLinux.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	font	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

@@ -1,22 +1,10 @@
-net-firewall/iptables net-libs/libnetfilter_queue net-libs/libnfnetlink sys-libs/zlib dev-util/subversion net-misc/rsync kernel_linux? ( virtual/linux-sources )
-net-firewall/iptables net-libs/libnetfilter_queue net-libs/libnfnetlink sys-libs/zlib
-0
-
-
-http://iplist.sourceforge.net/
-GPL-2
-Blocks connections from/to hosts listed in files using iptables.
-
-toolchain-funcs portability versionator multilib subversion linux-info eutils
-
-
-
-
-0
-
-install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=install preinst setup unpack
+DEPEND=net-firewall/iptables net-libs/libnetfilter_queue net-libs/libnfnetlink sys-libs/zlib dev-util/subversion net-misc/rsync kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=Blocks connections from/to hosts listed in files using iptables.
+EAPI=0
+HOMEPAGE=http://iplist.sourceforge.net/
+LICENSE=GPL-2
+RDEPEND=net-firewall/iptables net-libs/libnetfilter_queue net-libs/libnfnetlink sys-libs/zlib
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

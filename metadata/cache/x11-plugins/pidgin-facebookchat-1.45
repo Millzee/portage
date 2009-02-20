@@ -1,22 +1,12 @@
-dev-util/pkgconfig >=net-im/pidgin-2.3.0
->=net-im/pidgin-2.3.0
-0
-http://pidgin-facebookchat.googlecode.com/files/pidgin-facebookchat-source-1.45.tar.bz2
-
-http://code.google.com/p/pidgin-facebookchat/
-GPL-3
-Facebook chat plugin for libpurple
-~amd64 ~ppc ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-util/pkgconfig >=net-im/pidgin-2.3.0
+DESCRIPTION=Facebook chat plugin for libpurple
+EAPI=0
+HOMEPAGE=http://code.google.com/p/pidgin-facebookchat/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-3
+RDEPEND=>=net-im/pidgin-2.3.0
+SLOT=0
+SRC_URI=http://pidgin-facebookchat.googlecode.com/files/pidgin-facebookchat-source-1.45.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

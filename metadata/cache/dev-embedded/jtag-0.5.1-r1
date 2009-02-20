@@ -1,22 +1,12 @@
-dev-embedded/include sys-apps/gawk sys-apps/grep sys-apps/sed sys-devel/gcc sys-devel/gettext
-!dev-embedded/urjtag dev-embedded/include virtual/libc
-0
-mirror://sourceforge/openwince/jtag-0.5.1.tar.bz2
-
-http://openwince.sourceforge.net/jtag/
-GPL-2
-software package for working with JTAG-aware (IEEE 1149.1) hardware devices (parts) and boards through JTAG adapter
-x86 sparc ~ppc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=dev-embedded/include sys-apps/gawk sys-apps/grep sys-apps/sed sys-devel/gcc sys-devel/gettext
+DESCRIPTION=software package for working with JTAG-aware (IEEE 1149.1) hardware devices (parts) and boards through JTAG adapter
+EAPI=0
+HOMEPAGE=http://openwince.sourceforge.net/jtag/
+KEYWORDS=x86 sparc ~ppc
+LICENSE=GPL-2
+RDEPEND=!dev-embedded/urjtag dev-embedded/include virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/openwince/jtag-0.5.1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

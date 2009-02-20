@@ -1,22 +1,11 @@
->=mail-client/claws-mail-3.7.0 dev-util/pkgconfig
->=mail-client/claws-mail-3.7.0
-0
-http://www.claws-mail.org/downloads/plugins/fetchinfo-plugin-0.4.24.tar.gz
-
-http://www.claws-mail.org/
-GPL-3
-Plugin to add additional headers with download information
-amd64 ppc64 x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=mail-client/claws-mail-3.7.0 dev-util/pkgconfig
+DESCRIPTION=Plugin to add additional headers with download information
+EAPI=0
+HOMEPAGE=http://www.claws-mail.org/
+KEYWORDS=amd64 ppc64 x86
+LICENSE=GPL-3
+RDEPEND=>=mail-client/claws-mail-3.7.0
+SLOT=0
+SRC_URI=http://www.claws-mail.org/downloads/plugins/fetchinfo-plugin-0.4.24.tar.gz
+_mtime_=1235082866

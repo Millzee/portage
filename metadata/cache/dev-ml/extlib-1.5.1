@@ -1,22 +1,13 @@
->=dev-lang/ocaml-3.07 >=dev-ml/findlib-1.0.4-r1
->=dev-lang/ocaml-3.07
-0
-http://ocaml-extlib.googlecode.com/files/extlib-1.5.1.tar.gz
-
-http://code.google.com/p/ocaml-extlib/
-LGPL-2.1
-Standard library extensions for O'Caml
-amd64 ppc x86
-findlib toolchain-funcs multilib portability eutils
-doc +ocamlopt
-
-
-
-1
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=>=dev-lang/ocaml-3.07 >=dev-ml/findlib-1.0.4-r1
+DESCRIPTION=Standard library extensions for O'Caml
+EAPI=1
+HOMEPAGE=http://code.google.com/p/ocaml-extlib/
+IUSE=doc +ocamlopt
+KEYWORDS=amd64 ppc x86
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-lang/ocaml-3.07
+SLOT=0
+SRC_URI=http://ocaml-extlib.googlecode.com/files/extlib-1.5.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	findlib	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

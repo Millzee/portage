@@ -1,22 +1,12 @@
-dev-lang/perl media-libs/gd
-dev-lang/perl media-libs/gd
-0
-http://www.tbi.univie.ac.at/~ivo/RNA/ViennaRNA-1.7.tar.gz
-
-http://www.tbi.univie.ac.at/~ivo/RNA
-vienna-rna
-The Vienna RNA Package - RNA secondary structure prediction and comparison
-~amd64 ~x86 ~ppc
-toolchain-funcs versionator multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/perl media-libs/gd
+DESCRIPTION=The Vienna RNA Package - RNA secondary structure prediction and comparison
+EAPI=0
+HOMEPAGE=http://www.tbi.univie.ac.at/~ivo/RNA
+KEYWORDS=~amd64 ~x86 ~ppc
+LICENSE=vienna-rna
+RDEPEND=dev-lang/perl media-libs/gd
+SLOT=0
+SRC_URI=http://www.tbi.univie.ac.at/~ivo/RNA/ViennaRNA-1.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,13 @@
-
-sys-libs/glibc dedicated? ( app-misc/screen ) !dedicated? ( virtual/opengl x11-libs/libX11 x11-libs/libXext x11-libs/libXau x11-libs/libXdmcp ) opengl? ( virtual/opengl x11-libs/libX11 x11-libs/libXext x11-libs/libXau x11-libs/libXdmcp ) amd64? ( app-emulation/emul-linux-x86-xlibs )
-0
-mirror://idsoftware/wolf/linux/old/wolfmpdemo-linux-1.1-MP.x86.run mirror://3dgamers/returnwolfenstein/wolfmpdemo-linux-1.1-MP.x86.run
-strip mirror
-http://games.activision.com/games/wolfenstein/
-RTCW
-Return to Castle Wolfenstein - Multi-player demo
--* amd64 x86
-toolchain-funcs portability multilib base games eutils
-dedicated opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=Return to Castle Wolfenstein - Multi-player demo
+EAPI=0
+HOMEPAGE=http://games.activision.com/games/wolfenstein/
+IUSE=dedicated opengl
+KEYWORDS=-* amd64 x86
+LICENSE=RTCW
+RDEPEND=sys-libs/glibc dedicated? ( app-misc/screen ) !dedicated? ( virtual/opengl x11-libs/libX11 x11-libs/libXext x11-libs/libXau x11-libs/libXdmcp ) opengl? ( virtual/opengl x11-libs/libX11 x11-libs/libXext x11-libs/libXau x11-libs/libXdmcp ) amd64? ( app-emulation/emul-linux-x86-xlibs )
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=mirror://idsoftware/wolf/linux/old/wolfmpdemo-linux-1.1-MP.x86.run mirror://3dgamers/returnwolfenstein/wolfmpdemo-linux-1.1-MP.x86.run
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

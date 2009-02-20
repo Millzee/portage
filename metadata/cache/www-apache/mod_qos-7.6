@@ -1,22 +1,12 @@
-dev-libs/apr dev-libs/openssl =www-servers/apache-2*
-dev-libs/apr dev-libs/openssl =www-servers/apache-2*
-0
-mirror://sourceforge/mod_qos/mod_qos-7.6-src.tar.gz
-
-http://mod-qos.sourceforge.net/
-GPL-2
-A QOS module for the apache webserver
-~amd64
-toolchain-funcs apache-module depend.apache multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=dev-libs/apr dev-libs/openssl =www-servers/apache-2*
+DESCRIPTION=A QOS module for the apache webserver
+EAPI=0
+HOMEPAGE=http://mod-qos.sourceforge.net/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-libs/apr dev-libs/openssl =www-servers/apache-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/mod_qos/mod_qos-7.6-src.tar.gz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

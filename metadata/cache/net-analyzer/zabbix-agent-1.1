@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-mirror://sourceforge/zabbix/zabbix-1.1.tar.gz
-
-http://www.zabbix.com/
-GPL-2
-ZABBIX is software for monitoring of your applications, network and servers. Agent part.
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install preinst
-
-
-
-
-
+DEFINED_PHASES=compile install preinst
+DEPEND=virtual/libc
+DESCRIPTION=ZABBIX is software for monitoring of your applications, network and servers. Agent part.
+EAPI=0
+HOMEPAGE=http://www.zabbix.com/
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/zabbix/zabbix-1.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

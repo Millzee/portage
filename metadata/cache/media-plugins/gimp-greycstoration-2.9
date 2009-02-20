@@ -1,22 +1,13 @@
->=media-gfx/gimp-2.4.0 app-arch/unzip
->=media-gfx/gimp-2.4.0
-0
-mirror://sourceforge/cimg/GREYCstoration-2.9-src.zip
-
-http://cimg.sourceforge.net/greycstoration/
-CeCILL-2
-GIMP plug-in for denoising through image regularization
-~amd64 ~x86
-toolchain-funcs multilib
-smp
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=media-gfx/gimp-2.4.0 app-arch/unzip
+DESCRIPTION=GIMP plug-in for denoising through image regularization
+EAPI=0
+HOMEPAGE=http://cimg.sourceforge.net/greycstoration/
+IUSE=smp
+KEYWORDS=~amd64 ~x86
+LICENSE=CeCILL-2
+RDEPEND=>=media-gfx/gimp-2.4.0
+SLOT=0
+SRC_URI=mirror://sourceforge/cimg/GREYCstoration-2.9-src.zip
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

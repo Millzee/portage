@@ -1,22 +1,12 @@
->=mail-client/mozilla-thunderbird-2.0_alpha1 app-arch/unzip
->=mail-client/mozilla-thunderbird-2.0_alpha1
-0
-http://alumnit.ca/wiki/attachments/replytolist-0.3.0.xpi
-
-http://alumnit.ca/wiki/index.php?page=ReplyToListThunderbirdExtension
-GPL-2
-Thunderbird extension to reply to mailing list
-~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-mozextension toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=mail-client/mozilla-thunderbird-2.0_alpha1 app-arch/unzip
+DESCRIPTION=Thunderbird extension to reply to mailing list
+EAPI=0
+HOMEPAGE=http://alumnit.ca/wiki/index.php?page=ReplyToListThunderbirdExtension
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=mail-client/mozilla-thunderbird-2.0_alpha1
+SLOT=0
+SRC_URI=http://alumnit.ca/wiki/attachments/replytolist-0.3.0.xpi
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	mozextension	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

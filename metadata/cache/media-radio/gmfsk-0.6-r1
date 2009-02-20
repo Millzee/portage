@@ -1,22 +1,13 @@
-virtual/libc >=gnome-base/gconf-2.6 >=gnome-base/libgnomeui-2.0 gnome-extra/yelp >=media-libs/hamlib-1.2.0 <sci-libs/fftw-3 >=app-text/scrollkeeper-0.3.5 dev-util/pkgconfig >=sys-apps/sed-4
-virtual/libc >=gnome-base/gconf-2.6 >=gnome-base/libgnomeui-2.0 gnome-extra/yelp >=media-libs/hamlib-1.2.0 <sci-libs/fftw-3
-0
-http://he.fi/pub/ham/unix/linux/hfmodems/gmfsk-0.6.tar.gz
-
-http://gmfsk.connect.fi/index.html
-GPL-2
-Gnome MFSK, RTTY, THROB, PSK31, MT63 and HELLSCHREIBER terminal
-x86 ~ppc ~amd64
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-doc debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=virtual/libc >=gnome-base/gconf-2.6 >=gnome-base/libgnomeui-2.0 gnome-extra/yelp >=media-libs/hamlib-1.2.0 <sci-libs/fftw-3 >=app-text/scrollkeeper-0.3.5 dev-util/pkgconfig >=sys-apps/sed-4
+DESCRIPTION=Gnome MFSK, RTTY, THROB, PSK31, MT63 and HELLSCHREIBER terminal
+EAPI=0
+HOMEPAGE=http://gmfsk.connect.fi/index.html
+IUSE=doc debug
+KEYWORDS=x86 ~ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=virtual/libc >=gnome-base/gconf-2.6 >=gnome-base/libgnomeui-2.0 gnome-extra/yelp >=media-libs/hamlib-1.2.0 <sci-libs/fftw-3
+SLOT=0
+SRC_URI=http://he.fi/pub/ham/unix/linux/hfmodems/gmfsk-0.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

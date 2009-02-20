@@ -1,22 +1,13 @@
-doc? ( app-doc/doxygen )
-sys-libs/zlib !app-misc/beagle
-0
-mirror://sourceforge/beagle/beagle-3.0.3.tar.gz
-
-http://www.gel.ulaval.ca/~beagle/index.html
-LGPL-2.1
-Open BEAGLE, a versatile EC/GA/GP framework
-~x86
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=doc? ( app-doc/doxygen )
+DESCRIPTION=Open BEAGLE, a versatile EC/GA/GP framework
+EAPI=0
+HOMEPAGE=http://www.gel.ulaval.ca/~beagle/index.html
+IUSE=doc
+KEYWORDS=~x86
+LICENSE=LGPL-2.1
+RDEPEND=sys-libs/zlib !app-misc/beagle
+SLOT=0
+SRC_URI=mirror://sourceforge/beagle/beagle-3.0.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

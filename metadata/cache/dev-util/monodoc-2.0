@@ -1,22 +1,15 @@
->=dev-lang/mono-2.0 www-client/lynx !>=dev-lang/mono-2.2 app-arch/unzip =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=dev-lang/mono-2.0 www-client/lynx !>=dev-lang/mono-2.2
-0
-http://ftp.novell.com/pub/mono/sources/monodoc/monodoc-2.0.zip
-test
-http://www.go-mono.com
-GPL-2
-Documentation for mono's .Net class library
-~amd64 ~ppc ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability mono multilib libtool autotools eutils
-X
-
-X? ( >=dev-util/mono-tools-2 )
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-lang/mono-2.0 www-client/lynx !>=dev-lang/mono-2.2 app-arch/unzip =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Documentation for mono's .Net class library
+EAPI=0
+HOMEPAGE=http://www.go-mono.com
+IUSE=X
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+PDEPEND=X? ( >=dev-util/mono-tools-2 )
+RDEPEND=>=dev-lang/mono-2.0 www-client/lynx !>=dev-lang/mono-2.2
+RESTRICT=test
+SLOT=0
+SRC_URI=http://ftp.novell.com/pub/mono/sources/monodoc/monodoc-2.0.zip
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

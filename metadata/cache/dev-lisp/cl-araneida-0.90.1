@@ -1,22 +1,13 @@
-dev-lisp/cl-split-sequence dev-lisp/cl-net-telent-date dev-lisp/common-lisp-controller
-dev-lisp/cl-split-sequence dev-lisp/cl-net-telent-date !standalone? ( || ( www-servers/apache www-servers/pound ) )
-0
-http://common-lisp.net/project/araneida/release/araneida-version-0.90.1.tar.gz
-
-http://www.cliki.net/Araneida
-BSD
-Araneida is small, highly-portable web server for Common Lisp
-~amd64 ~ppc ~sparc ~x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-standalone
-
-
-
-0
-
-install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst unpack
+DEPEND=dev-lisp/cl-split-sequence dev-lisp/cl-net-telent-date dev-lisp/common-lisp-controller
+DESCRIPTION=Araneida is small, highly-portable web server for Common Lisp
+EAPI=0
+HOMEPAGE=http://www.cliki.net/Araneida
+IUSE=standalone
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=BSD
+RDEPEND=dev-lisp/cl-split-sequence dev-lisp/cl-net-telent-date !standalone? ( || ( www-servers/apache www-servers/pound ) )
+SLOT=0
+SRC_URI=http://common-lisp.net/project/araneida/release/araneida-version-0.90.1.tar.gz
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

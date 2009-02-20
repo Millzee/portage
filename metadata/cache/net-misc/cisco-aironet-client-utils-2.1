@@ -1,22 +1,13 @@
-virtual/libc pcmcia? ( virtual/pcmcia )
-=x11-libs/gtk+-1.2* <=dev-cpp/gtkmm-2.0
-0
-linux-acu-driver-v21.tar.gz
-fetch
-http://www.cisco.com/pcgi-bin/tablebuild.pl/aironet-utils-linux
-cisco
-Cisco Aironet Client Utilities
--* x86
-
-pcmcia
-
-
-
-0
-
-install nofetch unpack
-
-
-
-
-
+DEFINED_PHASES=install nofetch unpack
+DEPEND=virtual/libc pcmcia? ( virtual/pcmcia )
+DESCRIPTION=Cisco Aironet Client Utilities
+EAPI=0
+HOMEPAGE=http://www.cisco.com/pcgi-bin/tablebuild.pl/aironet-utils-linux
+IUSE=pcmcia
+KEYWORDS=-* x86
+LICENSE=cisco
+RDEPEND==x11-libs/gtk+-1.2* <=dev-cpp/gtkmm-2.0
+RESTRICT=fetch
+SLOT=0
+SRC_URI=linux-acu-driver-v21.tar.gz
+_mtime_=1235082894

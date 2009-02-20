@@ -1,22 +1,12 @@
->=virtual/emacs-21
->=virtual/emacs-21
-0
-ftp://ftp.uni-mainz.de/pub/software/gnu/vm/vm-7.19.tar.gz ftp://ftp.uu.net/networking/mail/vm/vm-7.19.tar.gz
-
-http://www.wonderworks.com/vm/
-GPL-1
-An emacs major mode for reading and writing e-mail with support for GPG and MIME.
-alpha amd64 ppc sparc x86
-toolchain-funcs elisp-common portability elisp versionator multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-21
+DESCRIPTION=An emacs major mode for reading and writing e-mail with support for GPG and MIME.
+EAPI=0
+HOMEPAGE=http://www.wonderworks.com/vm/
+KEYWORDS=alpha amd64 ppc sparc x86
+LICENSE=GPL-1
+RDEPEND=>=virtual/emacs-21
+SLOT=0
+SRC_URI=ftp://ftp.uni-mainz.de/pub/software/gnu/vm/vm-7.19.tar.gz ftp://ftp.uu.net/networking/mail/vm/vm-7.19.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

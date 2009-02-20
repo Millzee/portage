@@ -1,22 +1,9 @@
-
-dev-util/dialog net-zope/zope
-0
-
-
-http://www.gentoo.org/
-GPL-2
-Gentoo Zope Product selection tool
-amd64 ppc sparc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Gentoo Zope Product selection tool
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-util/dialog net-zope/zope
+SLOT=0
+_mtime_=1235082846

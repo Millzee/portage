@@ -1,22 +1,12 @@
-ssl? ( >=dev-libs/openssl-0.9.6b )
-ssl? ( >=dev-libs/openssl-0.9.6b )
-0
-http://www.coker.com.au/postal/postal-0.62.tgz
-
-http://www.coker.com.au/postal/
-GPL-2
-SMTP and POP mailserver benchmark - the mad postman. Supports SSL, randomized user accounts and more.
-~x86 ~sparc ppc ~hppa
-
-ssl
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=ssl? ( >=dev-libs/openssl-0.9.6b )
+DESCRIPTION=SMTP and POP mailserver benchmark - the mad postman. Supports SSL, randomized user accounts and more.
+EAPI=0
+HOMEPAGE=http://www.coker.com.au/postal/
+IUSE=ssl
+KEYWORDS=~x86 ~sparc ppc ~hppa
+LICENSE=GPL-2
+RDEPEND=ssl? ( >=dev-libs/openssl-0.9.6b )
+SLOT=0
+SRC_URI=http://www.coker.com.au/postal/postal-0.62.tgz
+_mtime_=1235082889

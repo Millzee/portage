@@ -1,22 +1,13 @@
->=dev-util/pkgconfig-0.15 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-mopac7? ( sci-chemistry/mopac7 ) mpqc? ( >=sci-chemistry/mpqc-2.3.1-r1 virtual/blas virtual/lapack )
-0
-http://www.bioinformatics.org/ghemical/download/libghemical-2.10.tar.gz
-
-http://bioinformatics.org/ghemical/
-GPL-2
-Chemical quantum mechanics and molecular mechanics
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-mopac7 mpqc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-util/pkgconfig-0.15 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Chemical quantum mechanics and molecular mechanics
+EAPI=0
+HOMEPAGE=http://bioinformatics.org/ghemical/
+IUSE=mopac7 mpqc
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=mopac7? ( sci-chemistry/mopac7 ) mpqc? ( >=sci-chemistry/mpqc-2.3.1-r1 virtual/blas virtual/lapack )
+SLOT=0
+SRC_URI=http://www.bioinformatics.org/ghemical/download/libghemical-2.10.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

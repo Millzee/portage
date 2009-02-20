@@ -1,22 +1,13 @@
-dev-lang/perl virtual/perl-Digest-MD5 virtual/perl-Getopt-Long virtual/perl-Text-Balanced test? ( virtual/perl-Test-Simple dev-perl/Text-Diff dev-perl/List-MoreUtils dev-perl/File-Slurp dev-perl/Test-Exception )
-dev-lang/perl virtual/perl-Digest-MD5 virtual/perl-Getopt-Long virtual/perl-Text-Balanced
-0
-mirror://cpan/authors/id/B/BO/BOBTFISH//Text-Markdown-1.0.24.tar.gz
-
-http://search.cpan.org/search?query=Text-Markdown&mode=dist
-BSD
-Convert MultiMarkdown syntax to (X)HTML
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-test
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl virtual/perl-Digest-MD5 virtual/perl-Getopt-Long virtual/perl-Text-Balanced test? ( virtual/perl-Test-Simple dev-perl/Text-Diff dev-perl/List-MoreUtils dev-perl/File-Slurp dev-perl/Test-Exception )
+DESCRIPTION=Convert MultiMarkdown syntax to (X)HTML
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Text-Markdown&mode=dist
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-lang/perl virtual/perl-Digest-MD5 virtual/perl-Getopt-Long virtual/perl-Text-Balanced
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH//Text-Markdown-1.0.24.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

@@ -1,22 +1,12 @@
-
-cddb? ( dev-python/cddb-py ) dev-lang/python app-text/ggv media-sound/cd-discid
-0
-mirror://sourceforge/cdcover/cdcover-0.7.3.tar.gz
-
-http://cdcover.sourceforge.net
-GPL-2
-cdcover allows the creation of inlay-sheets for jewel cd-cases
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-cddb
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DESCRIPTION=cdcover allows the creation of inlay-sheets for jewel cd-cases
+EAPI=0
+HOMEPAGE=http://cdcover.sourceforge.net
+IUSE=cddb
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=cddb? ( dev-python/cddb-py ) dev-lang/python app-text/ggv media-sound/cd-discid
+SLOT=0
+SRC_URI=mirror://sourceforge/cdcover/cdcover-0.7.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

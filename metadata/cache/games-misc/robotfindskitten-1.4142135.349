@@ -1,22 +1,12 @@
-sys-libs/ncurses
-sys-libs/ncurses
-0
-mirror://sourceforge/rfk/robotfindskitten_1.4142135.349.orig.tar.gz
-
-http://robotfindskitten.org/
-GPL-2
-Help robot find kitten
-amd64 ppc sparc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=sys-libs/ncurses
+DESCRIPTION=Help robot find kitten
+EAPI=0
+HOMEPAGE=http://robotfindskitten.org/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses
+SLOT=0
+SRC_URI=mirror://sourceforge/rfk/robotfindskitten_1.4142135.349.orig.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

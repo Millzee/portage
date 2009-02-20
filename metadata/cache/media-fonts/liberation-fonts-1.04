@@ -1,22 +1,12 @@
-X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
-
-0
-https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-1.04.tar.gz
-
-https://fedorahosted.org/liberation-fonts
-GPL-2-with-exceptions
-A GPL-2 Helvetica/Times/Courier replacement TrueType font set, courtesy of Red Hat
-~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs font multilib portability eutils
-X X
-
-
-
-0
-
-install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm setup
+DEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
+DESCRIPTION=A GPL-2 Helvetica/Times/Courier replacement TrueType font set, courtesy of Red Hat
+EAPI=0
+HOMEPAGE=https://fedorahosted.org/liberation-fonts
+IUSE=X X
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2-with-exceptions
+SLOT=0
+SRC_URI=https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-1.04.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	font	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

@@ -1,22 +1,14 @@
->=sys-devel/gcc-4.1.1 !build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) app-admin/addpatches
->=sys-devel/gcc-4.1.1 !build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) app-admin/addpatches !build? ( >=sys-libs/ncurses-5.2 dev-lang/perl virtual/modutils sys-devel/make )
-2.6.20.18
-mirror://kernel/linux/kernel/v2.6/linux-2.6.20.tar.bz2 mirror://gentoo/mipsgit-2.6.20-20070902.diff.bz2 mirror://gentoo/mips-sources-generic_patches-1.30.tar.bz2 mirror://kernel/linux/kernel/v2.6/patch-2.6.20.18.bz2
-
-http://www.linux-mips.org/ http://www.gentoo.org/
-GPL-2
-Linux-Mips GIT sources for MIPS-based machines, dated 20070902
--* mips
-kernel toolchain-funcs portability versionator multilib eutils
-cobalt ip27 ip28 ip30 ip32r10k build
-
-
-virtual/linux-sources virtual/alsa
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=sys-devel/gcc-4.1.1 !build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) app-admin/addpatches
+DESCRIPTION=Linux-Mips GIT sources for MIPS-based machines, dated 20070902
+EAPI=0
+HOMEPAGE=http://www.linux-mips.org/ http://www.gentoo.org/
+IUSE=cobalt ip27 ip28 ip30 ip32r10k build
+KEYWORDS=-* mips
+LICENSE=GPL-2
+PROVIDE=virtual/linux-sources virtual/alsa
+RDEPEND=>=sys-devel/gcc-4.1.1 !build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) app-admin/addpatches !build? ( >=sys-libs/ncurses-5.2 dev-lang/perl virtual/modutils sys-devel/make )
+SLOT=2.6.20.18
+SRC_URI=mirror://kernel/linux/kernel/v2.6/linux-2.6.20.tar.bz2 mirror://gentoo/mipsgit-2.6.20-20070902.diff.bz2 mirror://gentoo/mips-sources-generic_patches-1.30.tar.bz2 mirror://kernel/linux/kernel/v2.6/patch-2.6.20.18.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	kernel	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

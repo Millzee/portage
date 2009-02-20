@@ -1,22 +1,14 @@
-media-libs/jpeg sys-libs/libcap media-tv/linuxtv-dvb-headers
-media-libs/jpeg sys-libs/libcap dev-lang/perl || ( >=media-tv/gentoo-vdr-scripts-0.4.2 media-tv/vdrplugin-rebuild ) >=media-tv/gentoo-vdr-scripts-0.3.5
-0
-ftp://ftp.cadsoft.de/vdr/vdr-1.4.6.tar.bz2 mirror://gentoo/gentoo-vdr-patchset-1.4.6-1.tar.bz2
-
-http://www.cadsoft.de/vdr/
-GPL-2
-Video Disk Recorder - turns a pc into a powerful set top box for DVB
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-debug vanilla aio bigpatch jumpplay dolby-record-switch dvbplayer lnbsharing sourcecaps cmdsubmenu dxr3-audio-denoise child-protection yaepg setup-plugin submenu subtitles rotor noepg
-
-setup-plugin? ( >=media-plugins/vdr-setup-0.3.1-r1 )
-
-0
-
-install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst preinst setup unpack
+DEPEND=media-libs/jpeg sys-libs/libcap media-tv/linuxtv-dvb-headers
+DESCRIPTION=Video Disk Recorder - turns a pc into a powerful set top box for DVB
+EAPI=0
+HOMEPAGE=http://www.cadsoft.de/vdr/
+IUSE=debug vanilla aio bigpatch jumpplay dolby-record-switch dvbplayer lnbsharing sourcecaps cmdsubmenu dxr3-audio-denoise child-protection yaepg setup-plugin submenu subtitles rotor noepg
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+PDEPEND=setup-plugin? ( >=media-plugins/vdr-setup-0.3.1-r1 )
+RDEPEND=media-libs/jpeg sys-libs/libcap dev-lang/perl || ( >=media-tv/gentoo-vdr-scripts-0.4.2 media-tv/vdrplugin-rebuild ) >=media-tv/gentoo-vdr-scripts-0.3.5
+SLOT=0
+SRC_URI=ftp://ftp.cadsoft.de/vdr/vdr-1.4.6.tar.bz2 mirror://gentoo/gentoo-vdr-patchset-1.4.6-1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082870

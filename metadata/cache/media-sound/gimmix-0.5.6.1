@@ -1,22 +1,12 @@
->=media-libs/libmpd-0.17 gnome-base/libglade x11-libs/gtk+:2 cover? ( net-libs/libnxml net-misc/curl ) lyrics? ( net-libs/libnxml net-misc/curl ) taglib? ( >=media-libs/taglib-1.4 ) dev-util/pkgconfig dev-util/intltool
->=media-libs/libmpd-0.17 gnome-base/libglade x11-libs/gtk+:2 cover? ( net-libs/libnxml net-misc/curl ) lyrics? ( net-libs/libnxml net-misc/curl ) taglib? ( >=media-libs/taglib-1.4 )
-0
-mirror://berlios/gimmix/gimmix-0.5.6.1.tar.bz2
-
-http://gimmix.berlios.de/
-GPL-2
-a graphical music player daemon (MPD) client using GTK+2
-~amd64 ~sparc ~x86
-
-cover lyrics taglib
-
-
-
-1
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=media-libs/libmpd-0.17 gnome-base/libglade x11-libs/gtk+:2 cover? ( net-libs/libnxml net-misc/curl ) lyrics? ( net-libs/libnxml net-misc/curl ) taglib? ( >=media-libs/taglib-1.4 ) dev-util/pkgconfig dev-util/intltool
+DESCRIPTION=a graphical music player daemon (MPD) client using GTK+2
+EAPI=1
+HOMEPAGE=http://gimmix.berlios.de/
+IUSE=cover lyrics taglib
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libmpd-0.17 gnome-base/libglade x11-libs/gtk+:2 cover? ( net-libs/libnxml net-misc/curl ) lyrics? ( net-libs/libnxml net-misc/curl ) taglib? ( >=media-libs/taglib-1.4 )
+SLOT=0
+SRC_URI=mirror://berlios/gimmix/gimmix-0.5.6.1.tar.bz2
+_mtime_=1235082868

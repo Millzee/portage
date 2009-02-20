@@ -1,22 +1,10 @@
-
-dev-perl/libwww-perl virtual/perl-Time-HiRes
-0
-http://iainlea.dyndns.org/software/galleryadd/galleryadd-2.30.tar.gz
-
-http://iainlea.dyndns.org/software/galleryadd/
-GPL-2
-Perl script to recursively adds directories/images to Gallery
-~x86 ~amd64
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Perl script to recursively adds directories/images to Gallery
+EAPI=0
+HOMEPAGE=http://iainlea.dyndns.org/software/galleryadd/
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=dev-perl/libwww-perl virtual/perl-Time-HiRes
+SLOT=0
+SRC_URI=http://iainlea.dyndns.org/software/galleryadd/galleryadd-2.30.tar.gz
+_mtime_=1235082867

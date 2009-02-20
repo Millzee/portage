@@ -1,22 +1,13 @@
-virtual/libc tcpd? ( >=sys-apps/tcp-wrappers-7.6 )
-virtual/libc tcpd? ( >=sys-apps/tcp-wrappers-7.6 ) >=dev-lang/perl-5.8.0 >=dev-util/cvs-1.11.6
-0
-http://ch.tudelft.nl/~arthur/cvsd/cvsd-1.0.7.tar.gz
-
-http://ch.tudelft.nl/~arthur/cvsd/
-GPL-2
-CVS pserver daemon.
-amd64 ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-tcpd
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=virtual/libc tcpd? ( >=sys-apps/tcp-wrappers-7.6 )
+DESCRIPTION=CVS pserver daemon.
+EAPI=0
+HOMEPAGE=http://ch.tudelft.nl/~arthur/cvsd/
+IUSE=tcpd
+KEYWORDS=amd64 ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc tcpd? ( >=sys-apps/tcp-wrappers-7.6 ) >=dev-lang/perl-5.8.0 >=dev-util/cvs-1.11.6
+SLOT=0
+SRC_URI=http://ch.tudelft.nl/~arthur/cvsd/cvsd-1.0.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

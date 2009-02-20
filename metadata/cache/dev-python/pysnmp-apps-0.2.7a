@@ -1,22 +1,12 @@
->=dev-python/pysnmp-4.1.10a >=dev-python/pysnmp-mibs-0.0.6a virtual/python
->=dev-python/pysnmp-4.1.10a >=dev-python/pysnmp-mibs-0.0.6a
-0
-mirror://sourceforge/pysnmp/pysnmp-apps-0.2.7a.tar.gz
-
-http://pysnmp.sf.net/
-BSD
-SNMP framework in Python - applications
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-python/pysnmp-4.1.10a >=dev-python/pysnmp-mibs-0.0.6a virtual/python
+DESCRIPTION=SNMP framework in Python - applications
+EAPI=0
+HOMEPAGE=http://pysnmp.sf.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-python/pysnmp-4.1.10a >=dev-python/pysnmp-mibs-0.0.6a
+SLOT=0
+SRC_URI=mirror://sourceforge/pysnmp/pysnmp-apps-0.2.7a.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

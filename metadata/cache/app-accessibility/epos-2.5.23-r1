@@ -1,22 +1,12 @@
->=sys-apps/sed-4
-virtual/libc
-0
-mirror://sourceforge/epos/epos-2.5.23.tar.gz
-
-http://epos.ure.cas.cz/
-GPL-2
-language independent text-to-speech system
-~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=sys-apps/sed-4
+DESCRIPTION=language independent text-to-speech system
+EAPI=0
+HOMEPAGE=http://epos.ure.cas.cz/
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/epos/epos-2.5.23.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

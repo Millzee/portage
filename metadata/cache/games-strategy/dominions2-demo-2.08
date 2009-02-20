@@ -1,22 +1,14 @@
-x11-libs/libXext virtual/opengl virtual/glu esd? ( media-sound/esound ) arts? ( kde-base/arts )
-x11-libs/libXext virtual/opengl virtual/glu esd? ( media-sound/esound ) arts? ( kde-base/arts )
-0
-http://www.shrapnelgames.com/downloads/dom2demo_linux_x86.tgz
-strip
-http://www.shrapnelgames.com/Illwinter/d2/
-as-is
-Dominions 2: The Ascension Wars is an epic turn-based fantasy strategy game
-x86
-toolchain-funcs portability multilib base games eutils
-arts esd
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=x11-libs/libXext virtual/opengl virtual/glu esd? ( media-sound/esound ) arts? ( kde-base/arts )
+DESCRIPTION=Dominions 2: The Ascension Wars is an epic turn-based fantasy strategy game
+EAPI=0
+HOMEPAGE=http://www.shrapnelgames.com/Illwinter/d2/
+IUSE=arts esd
+KEYWORDS=x86
+LICENSE=as-is
+RDEPEND=x11-libs/libXext virtual/opengl virtual/glu esd? ( media-sound/esound ) arts? ( kde-base/arts )
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://www.shrapnelgames.com/downloads/dom2demo_linux_x86.tgz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

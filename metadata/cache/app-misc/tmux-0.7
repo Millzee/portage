@@ -1,22 +1,12 @@
-
-vim-syntax? ( || ( app-editors/gvim app-editors/vim ) )
-0
-mirror://sourceforge/tmux/tmux-0.7.tar.gz
-
-http://tmux.sourceforge.net
-ISC
-Terminal multiplexer
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs multilib
-vim-syntax
-
-
-
-0
-
-compile install postinst preinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst
+DESCRIPTION=Terminal multiplexer
+EAPI=0
+HOMEPAGE=http://tmux.sourceforge.net
+IUSE=vim-syntax
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=ISC
+RDEPEND=vim-syntax? ( || ( app-editors/gvim app-editors/vim ) )
+SLOT=0
+SRC_URI=mirror://sourceforge/tmux/tmux-0.7.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

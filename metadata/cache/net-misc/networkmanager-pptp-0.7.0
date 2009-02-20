@@ -1,22 +1,13 @@
->=net-misc/networkmanager-0.7.0 gnome? ( >=gnome-base/gconf-2.20 >=gnome-base/gnome-keyring-2.20 >=gnome-base/libglade-2 >=gnome-base/libgnomeui-2.20 >=x11-libs/gtk+-2.10 ) dev-util/intltool dev-util/pkgconfig
->=net-misc/networkmanager-0.7.0 gnome? ( >=gnome-base/gconf-2.20 >=gnome-base/gnome-keyring-2.20 >=gnome-base/libglade-2 >=gnome-base/libgnomeui-2.20 >=x11-libs/gtk+-2.10 )
-0
-mirror://gnome/sources/NetworkManager-pptp/0.7/NetworkManager-pptp-0.7.0.tar.bz2
-
-http://www.gnome.org/projects/NetworkManager/
-GPL-2
-NetworkManager PPTP plugin.
-~arm ~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-gnome
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=net-misc/networkmanager-0.7.0 gnome? ( >=gnome-base/gconf-2.20 >=gnome-base/gnome-keyring-2.20 >=gnome-base/libglade-2 >=gnome-base/libgnomeui-2.20 >=x11-libs/gtk+-2.10 ) dev-util/intltool dev-util/pkgconfig
+DESCRIPTION=NetworkManager PPTP plugin.
+EAPI=0
+HOMEPAGE=http://www.gnome.org/projects/NetworkManager/
+IUSE=gnome
+KEYWORDS=~arm ~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=net-misc/networkmanager-0.7.0 gnome? ( >=gnome-base/gconf-2.20 >=gnome-base/gnome-keyring-2.20 >=gnome-base/libglade-2 >=gnome-base/libgnomeui-2.20 >=x11-libs/gtk+-2.10 )
+SLOT=0
+SRC_URI=mirror://gnome/sources/NetworkManager-pptp/0.7/NetworkManager-pptp-0.7.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

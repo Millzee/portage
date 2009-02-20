@@ -1,22 +1,9 @@
-
-
-0
-mirror://gentoo/scmxlate-20060613.tar.gz
-
-http://www.ccs.neu.edu/home/dorai/scmxlate/scmxlate.html
-as-is
-Scmxlate is a configuration tool for software packages written in Scheme.
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Scmxlate is a configuration tool for software packages written in Scheme.
+EAPI=0
+HOMEPAGE=http://www.ccs.neu.edu/home/dorai/scmxlate/scmxlate.html
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=mirror://gentoo/scmxlate-20060613.tar.gz
+_mtime_=1235082858

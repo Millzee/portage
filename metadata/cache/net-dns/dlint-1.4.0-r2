@@ -1,22 +1,12 @@
->=sys-apps/sed-4
-sys-apps/coreutils net-dns/bind-tools dev-lang/perl app-shells/bash
-0
-http://www.domtools.com/pub/dlint1.4.0.tar.gz
-
-http://www.domtools.com/dns/dlint.shtml
-GPL-2
-Dlint analyzes any DNS zone you specify, and reports any problems.
-~amd64 sparc x86
-fixheadtails toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=sys-apps/sed-4
+DESCRIPTION=Dlint analyzes any DNS zone you specify, and reports any problems.
+EAPI=0
+HOMEPAGE=http://www.domtools.com/dns/dlint.shtml
+KEYWORDS=~amd64 sparc x86
+LICENSE=GPL-2
+RDEPEND=sys-apps/coreutils net-dns/bind-tools dev-lang/perl app-shells/bash
+SLOT=0
+SRC_URI=http://www.domtools.com/pub/dlint1.4.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

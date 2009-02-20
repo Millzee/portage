@@ -1,22 +1,13 @@
-gnustep-base/gnustep-gui >=media-libs/freetype-2.1
-gnustep-base/gnustep-gui >=media-libs/freetype-2.1
-0
-mirror://debian/pool/main/m/mknfonts.tool/mknfonts.tool_0.5.orig.tar.gz
-
-http://packages.debian.org/mknfonts.tool
-GPL-2
-A tool to create .nfont packages for use with gnustep-back-art.
-~alpha amd64 ppc sparc x86
-gnustep-base toolchain-funcs portability flag-o-matic multilib eutils
-debug doc
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=gnustep-base/gnustep-gui >=media-libs/freetype-2.1
+DESCRIPTION=A tool to create .nfont packages for use with gnustep-back-art.
+EAPI=0
+HOMEPAGE=http://packages.debian.org/mknfonts.tool
+IUSE=debug doc
+KEYWORDS=~alpha amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=gnustep-base/gnustep-gui >=media-libs/freetype-2.1
+SLOT=0
+SRC_URI=mirror://debian/pool/main/m/mknfonts.tool/mknfonts.tool_0.5.orig.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	gnustep-base	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

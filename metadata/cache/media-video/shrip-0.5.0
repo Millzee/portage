@@ -1,22 +1,12 @@
->=dev-libs/glib-2.6 >=media-video/ogmrip-0.12.2 >=dev-util/intltool-0.35 >=dev-util/pkgconfig-0.12.0
->=dev-libs/glib-2.6 >=media-video/ogmrip-0.12.2
-0
-mirror://sourceforge/ogmrip/shrip-0.5.0.tar.gz
-
-http://ogmrip.sourceforge.net/
-GPL-2
-Command line tool for ripping DVDs and encoding to AVI/OGM/MKV/MP4
-~amd64 ~x86
-
-debug
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=dev-libs/glib-2.6 >=media-video/ogmrip-0.12.2 >=dev-util/intltool-0.35 >=dev-util/pkgconfig-0.12.0
+DESCRIPTION=Command line tool for ripping DVDs and encoding to AVI/OGM/MKV/MP4
+EAPI=0
+HOMEPAGE=http://ogmrip.sourceforge.net/
+IUSE=debug
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.6 >=media-video/ogmrip-0.12.2
+SLOT=0
+SRC_URI=mirror://sourceforge/ogmrip/shrip-0.5.0.tar.gz
+_mtime_=1235082870

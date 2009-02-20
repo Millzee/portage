@@ -1,22 +1,10 @@
-
-
-0
-mirror://kde/printing/poster-20050907.tar.bz2
-
-http://printing.kde.org/downloads
-GPL-2
-small utility for making a poster from an EPS file or a one-page PS document
-~amd64 ~ppc ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=small utility for making a poster from an EPS file or a one-page PS document
+EAPI=0
+HOMEPAGE=http://printing.kde.org/downloads
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://kde/printing/poster-20050907.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

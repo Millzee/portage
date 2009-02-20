@@ -1,22 +1,14 @@
-sys-libs/zlib glib? ( dev-libs/glib ) ssl? ( dev-libs/openssl ) !<=x11-libs/qt-4.4.0_alpha:4 dev-util/pkgconfig
-sys-libs/zlib glib? ( dev-libs/glib ) ssl? ( dev-libs/openssl ) !<=x11-libs/qt-4.4.0_alpha:4
-4
-ftp://ftp.trolltech.com/qt/source/qt-x11-opensource-src-4.4.2.tar.bz2 mirror://gentoo/qt-x11-opensource-src-4.4.2-headers.tar.bz2
-
-http://www.trolltech.com/
-|| ( GPL-3 GPL-2 )
-The Qt toolkit is a comprehensive C++ application development framework.
-~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic versionator multilib eutils qt4-build
-doc +glib +qt3support +ssl custom-cxxflags debug pch
-
-qt3support? ( ~x11-libs/qt-gui-4.4.2 )
-
-1
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=sys-libs/zlib glib? ( dev-libs/glib ) ssl? ( dev-libs/openssl ) !<=x11-libs/qt-4.4.0_alpha:4 dev-util/pkgconfig
+DESCRIPTION=The Qt toolkit is a comprehensive C++ application development framework.
+EAPI=1
+HOMEPAGE=http://www.trolltech.com/
+IUSE=doc +glib +qt3support +ssl custom-cxxflags debug pch
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=|| ( GPL-3 GPL-2 )
+PDEPEND=qt3support? ( ~x11-libs/qt-gui-4.4.2 )
+RDEPEND=sys-libs/zlib glib? ( dev-libs/glib ) ssl? ( dev-libs/openssl ) !<=x11-libs/qt-4.4.0_alpha:4
+SLOT=4
+SRC_URI=ftp://ftp.trolltech.com/qt/source/qt-x11-opensource-src-4.4.2.tar.bz2 mirror://gentoo/qt-x11-opensource-src-4.4.2-headers.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4-build	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

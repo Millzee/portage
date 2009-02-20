@@ -1,22 +1,12 @@
-kde-base/kdelibs:3.5 sys-libs/zlib >=dev-util/cmake-2.4.6
-kde-base/kdelibs:3.5 sys-libs/zlib
-0
-mirror://sourceforge/khtml2png/khtml2png-2.7.6.tar.gz
-
-http://khtml2png.sourceforge.net
-GPL-2
-Command line tool that uses KHTML to render web pages into images
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-
-
-
-
-1
-
-compile install test
-
-
-
-
-
+DEFINED_PHASES=compile install test
+DEPEND=kde-base/kdelibs:3.5 sys-libs/zlib >=dev-util/cmake-2.4.6
+DESCRIPTION=Command line tool that uses KHTML to render web pages into images
+EAPI=1
+HOMEPAGE=http://khtml2png.sourceforge.net
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=kde-base/kdelibs:3.5 sys-libs/zlib
+SLOT=0
+SRC_URI=mirror://sourceforge/khtml2png/khtml2png-2.7.6.tar.gz
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

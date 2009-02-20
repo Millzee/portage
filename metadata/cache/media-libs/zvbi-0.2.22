@@ -1,22 +1,13 @@
-X? ( x11-libs/libX11 ) media-libs/libpng sys-libs/zlib nls? ( virtual/libintl ) X? ( x11-libs/libXt ) virtual/os-headers nls? ( sys-devel/gettext ) doc? ( app-doc/doxygen )
-X? ( x11-libs/libX11 ) media-libs/libpng sys-libs/zlib nls? ( virtual/libintl )
-0
-mirror://sourceforge/zapping/zvbi-0.2.22.tar.bz2
-
-http://zapping.sourceforge.net
-GPL-2
-VBI Decoding Library for Zapping
-alpha amd64 ia64 ~ppc ~sparc x86
-libtool
-X nls v4l dvb doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=X? ( x11-libs/libX11 ) media-libs/libpng sys-libs/zlib nls? ( virtual/libintl ) X? ( x11-libs/libXt ) virtual/os-headers nls? ( sys-devel/gettext ) doc? ( app-doc/doxygen )
+DESCRIPTION=VBI Decoding Library for Zapping
+EAPI=0
+HOMEPAGE=http://zapping.sourceforge.net
+IUSE=X nls v4l dvb doc
+KEYWORDS=alpha amd64 ia64 ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=X? ( x11-libs/libX11 ) media-libs/libpng sys-libs/zlib nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/zapping/zvbi-0.2.22.tar.bz2
+_eclasses_=libtool	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

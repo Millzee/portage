@@ -1,22 +1,12 @@
-dev-libs/libdshconfig
-dev-libs/libdshconfig virtual/ssh
-0
-http://www.netfort.gr.jp/~dancer/software/downloads/dsh-0.25.10.tar.gz
-
-http://www.netfort.gr.jp/~dancer/software/dsh.html.en
-GPL-2
-Distributed Shell
-amd64 ppc x86
-
-nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/libdshconfig
+DESCRIPTION=Distributed Shell
+EAPI=0
+HOMEPAGE=http://www.netfort.gr.jp/~dancer/software/dsh.html.en
+IUSE=nls
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libdshconfig virtual/ssh
+SLOT=0
+SRC_URI=http://www.netfort.gr.jp/~dancer/software/downloads/dsh-0.25.10.tar.gz
+_mtime_=1235082850

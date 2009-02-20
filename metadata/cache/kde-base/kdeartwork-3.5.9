@@ -1,22 +1,13 @@
-~kde-base/kdebase-3.5.9 media-libs/libart_lgpl opengl? ( virtual/opengl ) xscreensaver? ( x11-misc/xscreensaver ) =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts ) ~kde-base/kdelibs-3.5.9 =x11-libs/qt-3* !kde-base/kdeartwork-emoticons:3.5 !kde-base/kdeartwork-icewm-themes:3.5 !kde-base/kdeartwork-iconthemes:3.5 !kde-base/kdeartwork-kscreensaver:3.5 !kde-base/kdeartwork-kwin-styles:3.5 !kde-base/kdeartwork-kworldclock:3.5 !kde-base/kdeartwork-kworldwatch:3.5 !kde-base/kdeartwork-sounds:3.5 !kde-base/kdeartwork-styles:3.5 !kde-base/kdeartwork-wallpapers:3.5
-~kde-base/kdebase-3.5.9 media-libs/libart_lgpl opengl? ( virtual/opengl ) xscreensaver? ( x11-misc/xscreensaver ) xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts ) ~kde-base/kdelibs-3.5.9 =x11-libs/qt-3* !kde-base/kdeartwork-emoticons:3.5 !kde-base/kdeartwork-icewm-themes:3.5 !kde-base/kdeartwork-iconthemes:3.5 !kde-base/kdeartwork-kscreensaver:3.5 !kde-base/kdeartwork-kwin-styles:3.5 !kde-base/kdeartwork-kworldclock:3.5 !kde-base/kdeartwork-kworldwatch:3.5 !kde-base/kdeartwork-sounds:3.5 !kde-base/kdeartwork-styles:3.5 !kde-base/kdeartwork-wallpapers:3.5
-3.5
-mirror://kde/stable/3.5.9/src/kdeartwork-3.5.9.tar.bz2
-
-http://www.kde.org/
-GPL-2
-KDE artwork package
-alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
-versionator toolchain-funcs portability kde-functions kde-dist kde flag-o-matic multilib base libtool autotools eutils qt3
-opengl xscreensaver debug elibc_FreeBSD kdeenablefinal arts xinerama
-
-
-
-1
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=~kde-base/kdebase-3.5.9 media-libs/libart_lgpl opengl? ( virtual/opengl ) xscreensaver? ( x11-misc/xscreensaver ) =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts ) ~kde-base/kdelibs-3.5.9 =x11-libs/qt-3* !kde-base/kdeartwork-emoticons:3.5 !kde-base/kdeartwork-icewm-themes:3.5 !kde-base/kdeartwork-iconthemes:3.5 !kde-base/kdeartwork-kscreensaver:3.5 !kde-base/kdeartwork-kwin-styles:3.5 !kde-base/kdeartwork-kworldclock:3.5 !kde-base/kdeartwork-kworldwatch:3.5 !kde-base/kdeartwork-sounds:3.5 !kde-base/kdeartwork-styles:3.5 !kde-base/kdeartwork-wallpapers:3.5
+DESCRIPTION=KDE artwork package
+EAPI=1
+HOMEPAGE=http://www.kde.org/
+IUSE=opengl xscreensaver debug elibc_FreeBSD kdeenablefinal arts xinerama
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=~kde-base/kdebase-3.5.9 media-libs/libart_lgpl opengl? ( virtual/opengl ) xscreensaver? ( x11-misc/xscreensaver ) xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts ) ~kde-base/kdelibs-3.5.9 =x11-libs/qt-3* !kde-base/kdeartwork-emoticons:3.5 !kde-base/kdeartwork-icewm-themes:3.5 !kde-base/kdeartwork-iconthemes:3.5 !kde-base/kdeartwork-kscreensaver:3.5 !kde-base/kdeartwork-kwin-styles:3.5 !kde-base/kdeartwork-kworldclock:3.5 !kde-base/kdeartwork-kworldwatch:3.5 !kde-base/kdeartwork-sounds:3.5 !kde-base/kdeartwork-styles:3.5 !kde-base/kdeartwork-wallpapers:3.5
+SLOT=3.5
+SRC_URI=mirror://kde/stable/3.5.9/src/kdeartwork-3.5.9.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-dist	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082862

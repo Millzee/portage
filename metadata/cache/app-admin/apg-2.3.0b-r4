@@ -1,22 +1,13 @@
-cracklib? ( sys-libs/cracklib )
-cracklib? ( sys-libs/cracklib )
-0
-http://www.adel.nursat.kz/apg/download/apg-2.3.0b.tar.gz
-
-http://www.adel.nursat.kz/apg/
-as-is
-Another Password Generator
-amd64 hppa ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-cracklib
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=cracklib? ( sys-libs/cracklib )
+DESCRIPTION=Another Password Generator
+EAPI=0
+HOMEPAGE=http://www.adel.nursat.kz/apg/
+IUSE=cracklib
+KEYWORDS=amd64 hppa ppc ~sparc x86
+LICENSE=as-is
+RDEPEND=cracklib? ( sys-libs/cracklib )
+SLOT=0
+SRC_URI=http://www.adel.nursat.kz/apg/download/apg-2.3.0b.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

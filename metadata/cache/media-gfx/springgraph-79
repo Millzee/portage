@@ -1,22 +1,10 @@
-
-dev-perl/GD
-0
-http://www.chaosreigns.com/code/springgraph/dl/springgraph.pl.79
-
-http://www.chaosreigns.com/code/springgraph
-GPL-2
-Generate spring graphs from graphviz input files
-x86 alpha hppa ~mips ppc sparc ia64 amd64
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Generate spring graphs from graphviz input files
+EAPI=0
+HOMEPAGE=http://www.chaosreigns.com/code/springgraph
+KEYWORDS=x86 alpha hppa ~mips ppc sparc ia64 amd64
+LICENSE=GPL-2
+RDEPEND=dev-perl/GD
+SLOT=0
+SRC_URI=http://www.chaosreigns.com/code/springgraph/dl/springgraph.pl.79
+_mtime_=1235082867

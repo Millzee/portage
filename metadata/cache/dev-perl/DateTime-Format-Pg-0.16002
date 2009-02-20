@@ -1,22 +1,12 @@
->=dev-perl/DateTime-0.10 >=dev-perl/DateTime-Format-Builder-0.72 >=dev-perl/DateTime-TimeZone-0.05
->=dev-perl/DateTime-0.10 >=dev-perl/DateTime-Format-Builder-0.72 >=dev-perl/DateTime-TimeZone-0.05
-0
-mirror://cpan/authors/id/D/DM/DMAKI//DateTime-Format-Pg-0.16002.tar.gz
-
-http://search.cpan.org/search?query=DateTime-Format-Pg&mode=dist
-|| ( Artistic GPL-2 )
-Parse and format PostgreSQL dates and times
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/DateTime-0.10 >=dev-perl/DateTime-Format-Builder-0.72 >=dev-perl/DateTime-TimeZone-0.05
+DESCRIPTION=Parse and format PostgreSQL dates and times
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=DateTime-Format-Pg&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/DateTime-0.10 >=dev-perl/DateTime-Format-Builder-0.72 >=dev-perl/DateTime-TimeZone-0.05
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DM/DMAKI//DateTime-Format-Pg-0.16002.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

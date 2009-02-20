@@ -1,22 +1,11 @@
-
-sys-apps/diffutils
-0
-ftp://invisible-island.net/diffstat/diffstat-1.45.tgz
-
-http://invisible-island.net/diffstat/diffstat.html
-as-is
-creates a histogram from a diff of the insertions, deletions, and modifications per-file
-alpha amd64 ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=creates a histogram from a diff of the insertions, deletions, and modifications per-file
+EAPI=0
+HOMEPAGE=http://invisible-island.net/diffstat/diffstat.html
+KEYWORDS=alpha amd64 ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=as-is
+RDEPEND=sys-apps/diffutils
+SLOT=0
+SRC_URI=ftp://invisible-island.net/diffstat/diffstat-1.45.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

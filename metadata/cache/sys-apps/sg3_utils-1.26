@@ -1,22 +1,13 @@
-sys-devel/libtool
-sys-apps/sdparm
-0
-http://sg.danny.cz/sg/p/sg3_utils-1.26.tgz
-
-http://sg.danny.cz/sg/
-GPL-2
-Apps for querying the sg SCSI interface
-~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs multilib portability eutils
-
-
->=sys-apps/rescan-scsi-bus-1.24
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=sys-devel/libtool
+DESCRIPTION=Apps for querying the sg SCSI interface
+EAPI=0
+HOMEPAGE=http://sg.danny.cz/sg/
+KEYWORDS=~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+PDEPEND=>=sys-apps/rescan-scsi-bus-1.24
+RDEPEND=sys-apps/sdparm
+SLOT=0
+SRC_URI=http://sg.danny.cz/sg/p/sg3_utils-1.26.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

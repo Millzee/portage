@@ -1,22 +1,13 @@
->=dev-libs/glib-2.16.3 >=x11-libs/gtk+-2.12 >=gnome-extra/evolution-data-server-1.12 hal? ( =sys-apps/hal-0.5* >=sys-apps/dbus-1.0 ) !<media-video/totem-2.21 >=dev-util/intltool-0.40 doc? ( dev-util/gtk-doc )
->=dev-libs/glib-2.16.3 >=x11-libs/gtk+-2.12 >=gnome-extra/evolution-data-server-1.12 hal? ( =sys-apps/hal-0.5* >=sys-apps/dbus-1.0 )
-0
-mirror://gnome/sources/totem-pl-parser/2.24/totem-pl-parser-2.24.3.tar.bz2
-
-http://www.gnome.org/projects/totem/
-LGPL-2
-Playlist parsing library
-~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-gnome.org
-doc hal
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=dev-libs/glib-2.16.3 >=x11-libs/gtk+-2.12 >=gnome-extra/evolution-data-server-1.12 hal? ( =sys-apps/hal-0.5* >=sys-apps/dbus-1.0 ) !<media-video/totem-2.21 >=dev-util/intltool-0.40 doc? ( dev-util/gtk-doc )
+DESCRIPTION=Playlist parsing library
+EAPI=0
+HOMEPAGE=http://www.gnome.org/projects/totem/
+IUSE=doc hal
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=LGPL-2
+RDEPEND=>=dev-libs/glib-2.16.3 >=x11-libs/gtk+-2.12 >=gnome-extra/evolution-data-server-1.12 hal? ( =sys-apps/hal-0.5* >=sys-apps/dbus-1.0 )
+SLOT=0
+SRC_URI=mirror://gnome/sources/totem-pl-parser/2.24/totem-pl-parser-2.24.3.tar.bz2
+_eclasses_=gnome.org	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

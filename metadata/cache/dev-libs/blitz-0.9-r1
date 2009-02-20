@@ -1,22 +1,12 @@
-doc? ( app-doc/doxygen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-mirror://sourceforge/blitz/blitz-0.9.tar.gz
-
-http://www.oonumerics.org/blitz
-|| ( GPL-2 Blitz-Artistic )
-High-performance C++ numeric library
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib fortran libtool autotools eutils
-debug doc examples debug
-
-
-
-0
-
-compile install setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup test unpack
+DEPEND=doc? ( app-doc/doxygen ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=High-performance C++ numeric library
+EAPI=0
+HOMEPAGE=http://www.oonumerics.org/blitz
+IUSE=debug doc examples debug
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=|| ( GPL-2 Blitz-Artistic )
+SLOT=0
+SRC_URI=mirror://sourceforge/blitz/blitz-0.9.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

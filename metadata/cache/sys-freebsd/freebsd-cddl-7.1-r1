@@ -1,22 +1,13 @@
-=sys-freebsd/freebsd-lib-7.1* =sys-freebsd/freebsd-libexec-7.1* build? ( sys-apps/baselayout ) dev-libs/libedit dev-libs/libelf =sys-freebsd/freebsd-mk-defs-7.1* !build? ( =sys-freebsd/freebsd-sources-7.1* ) virtual/pmake virtual/pmake
-=sys-freebsd/freebsd-lib-7.1* =sys-freebsd/freebsd-libexec-7.1* build? ( sys-apps/baselayout ) dev-libs/libedit dev-libs/libelf
-0
-mirror://gentoo/freebsd-cddl-7.1.tar.bz2 mirror://gentoo/freebsd-contrib-7.1.tar.bz2 mirror://gentoo/freebsd-ubin-7.1.tar.bz2 mirror://gentoo/freebsd-lib-7.1.tar.bz2 mirror://gentoo/freebsd-sbin-7.1.tar.bz2 mirror://gentoo/freebsd-sys-7.1.tar.bz2 build? ( mirror://gentoo/freebsd-sys-7.1.tar.bz2 mirror://gentoo/freebsd-include-7.1.tar.bz2 )
-
-http://www.freebsd.org/
-CDDL
-FreeBSD CDDL (opensolaris/zfs) extra software
-~x86-fbsd
-toolchain-funcs portability flag-o-matic versionator multilib freebsd bsdmk eutils
-build profile
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND==sys-freebsd/freebsd-lib-7.1* =sys-freebsd/freebsd-libexec-7.1* build? ( sys-apps/baselayout ) dev-libs/libedit dev-libs/libelf =sys-freebsd/freebsd-mk-defs-7.1* !build? ( =sys-freebsd/freebsd-sources-7.1* ) virtual/pmake virtual/pmake
+DESCRIPTION=FreeBSD CDDL (opensolaris/zfs) extra software
+EAPI=0
+HOMEPAGE=http://www.freebsd.org/
+IUSE=build profile
+KEYWORDS=~x86-fbsd
+LICENSE=CDDL
+RDEPEND==sys-freebsd/freebsd-lib-7.1* =sys-freebsd/freebsd-libexec-7.1* build? ( sys-apps/baselayout ) dev-libs/libedit dev-libs/libelf
+SLOT=0
+SRC_URI=mirror://gentoo/freebsd-cddl-7.1.tar.bz2 mirror://gentoo/freebsd-contrib-7.1.tar.bz2 mirror://gentoo/freebsd-ubin-7.1.tar.bz2 mirror://gentoo/freebsd-lib-7.1.tar.bz2 mirror://gentoo/freebsd-sbin-7.1.tar.bz2 mirror://gentoo/freebsd-sys-7.1.tar.bz2 build? ( mirror://gentoo/freebsd-sys-7.1.tar.bz2 mirror://gentoo/freebsd-include-7.1.tar.bz2 )
+_eclasses_=bsdmk	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	freebsd	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082906

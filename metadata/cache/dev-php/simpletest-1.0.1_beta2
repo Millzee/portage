@@ -1,22 +1,12 @@
-dev-lang/php dev-lang/php
-dev-lang/php dev-lang/php
-0
-mirror://sourceforge/simpletest/simpletest_1.0.1beta2.tar.gz
-
-http://www.lastcraft.com/simple_test.php
-OGTSL
-A PHP testing framework.
-~amd64 ~x86
-php-lib-r1 toolchain-funcs portability depend.php multilib phpconfutils eutils
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-lang/php dev-lang/php
+DESCRIPTION=A PHP testing framework.
+EAPI=0
+HOMEPAGE=http://www.lastcraft.com/simple_test.php
+KEYWORDS=~amd64 ~x86
+LICENSE=OGTSL
+RDEPEND=dev-lang/php dev-lang/php
+SLOT=0
+SRC_URI=mirror://sourceforge/simpletest/simpletest_1.0.1beta2.tar.gz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	php-lib-r1	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

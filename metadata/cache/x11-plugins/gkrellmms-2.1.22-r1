@@ -1,22 +1,12 @@
->=app-admin/gkrellm-2 media-sound/audacious sys-apps/dbus
->=app-admin/gkrellm-2 media-sound/audacious sys-apps/dbus
-0
-http://gkrellm.luon.net/files/gkrellmms-2.1.22.tar.gz mirror://gentoo/gkrellmms-2.1.22-audacious.patch.gz
-
-http://gkrellm.luon.net/gkrellmms.phtml
-GPL-2
-A sweet plugin to control Audacious from GKrellM2
-~alpha amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=>=app-admin/gkrellm-2 media-sound/audacious sys-apps/dbus
+DESCRIPTION=A sweet plugin to control Audacious from GKrellM2
+EAPI=0
+HOMEPAGE=http://gkrellm.luon.net/gkrellmms.phtml
+KEYWORDS=~alpha amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=app-admin/gkrellm-2 media-sound/audacious sys-apps/dbus
+SLOT=0
+SRC_URI=http://gkrellm.luon.net/files/gkrellmms-2.1.22.tar.gz mirror://gentoo/gkrellmms-2.1.22-audacious.patch.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

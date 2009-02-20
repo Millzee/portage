@@ -1,22 +1,11 @@
-dev-libs/libusb sys-libs/readline
-dev-libs/libusb sys-libs/readline
-0
-mirror://sourceforge/usb-robot/usb-robot-0.2.0.tar.gz
-
-http://usb-robot.sourceforge.net/
-GPL-2
-USB Reverse engineering tools
-amd64 ppc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-libs/libusb sys-libs/readline
+DESCRIPTION=USB Reverse engineering tools
+EAPI=0
+HOMEPAGE=http://usb-robot.sourceforge.net/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libusb sys-libs/readline
+SLOT=0
+SRC_URI=mirror://sourceforge/usb-robot/usb-robot-0.2.0.tar.gz
+_mtime_=1235082859

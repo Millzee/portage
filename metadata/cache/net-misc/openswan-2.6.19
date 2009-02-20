@@ -1,22 +1,13 @@
-!net-misc/strongswan dev-libs/gmp dev-lang/perl smartcard? ( dev-libs/opensc ) curl? ( net-misc/curl ) ldap? ( net-nds/openldap ) virtual/linux-sources app-text/xmlto app-text/docbook-xml-dtd:4.1.2 kernel_linux? ( virtual/linux-sources )
-!net-misc/strongswan dev-libs/gmp dev-lang/perl smartcard? ( dev-libs/opensc ) curl? ( net-misc/curl ) ldap? ( net-nds/openldap ) virtual/logger sys-apps/iproute2
-0
-http://www.openswan.org/download/openswan-2.6.19.tar.gz
-
-http://www.openswan.org/
-GPL-2
-Open Source implementation of IPsec for the Linux operating system (was SuperFreeS/WAN).
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs portability versionator multilib linux-info eutils
-curl ldap smartcard extra-algorithms weak-algorithms nocrypto-algorithms
-
-
-
-1
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=!net-misc/strongswan dev-libs/gmp dev-lang/perl smartcard? ( dev-libs/opensc ) curl? ( net-misc/curl ) ldap? ( net-nds/openldap ) virtual/linux-sources app-text/xmlto app-text/docbook-xml-dtd:4.1.2 kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=Open Source implementation of IPsec for the Linux operating system (was SuperFreeS/WAN).
+EAPI=1
+HOMEPAGE=http://www.openswan.org/
+IUSE=curl ldap smartcard extra-algorithms weak-algorithms nocrypto-algorithms
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=!net-misc/strongswan dev-libs/gmp dev-lang/perl smartcard? ( dev-libs/opensc ) curl? ( net-misc/curl ) ldap? ( net-nds/openldap ) virtual/logger sys-apps/iproute2
+SLOT=0
+SRC_URI=http://www.openswan.org/download/openswan-2.6.19.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

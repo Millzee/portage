@@ -1,22 +1,13 @@
-=app-admin/gkrellm-2* dev-util/pkgconfig
-nut? ( sys-power/nut ) =app-admin/gkrellm-2*
-0
-http://www.starforge.co.uk/gkrellm/files/gkrellmbups-2.0.2.tar.gz
-
-http://www.starforge.co.uk/gkrellm/gkrellmbups.shtml
-GPL-2
-GKrellM2 Belkin UPS monitor Plugin
-ppc sparc x86
-multilib toolchain-funcs gkrellm-plugin portability eutils
-nut
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND==app-admin/gkrellm-2* dev-util/pkgconfig
+DESCRIPTION=GKrellM2 Belkin UPS monitor Plugin
+EAPI=0
+HOMEPAGE=http://www.starforge.co.uk/gkrellm/gkrellmbups.shtml
+IUSE=nut
+KEYWORDS=ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=nut? ( sys-power/nut ) =app-admin/gkrellm-2*
+SLOT=0
+SRC_URI=http://www.starforge.co.uk/gkrellm/files/gkrellmbups-2.0.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	gkrellm-plugin	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

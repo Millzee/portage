@@ -1,22 +1,13 @@
-dev-libs/libxml2 dev-libs/libxslt >=gnome-base/libbonobo-2 >=gnome-base/libbonoboui-2 >=gnome-base/libgnomeui-2 >=gnome-base/libglade-2 =x11-libs/gtksourceview-1* dev-util/pkgconfig app-text/scrollkeeper doc? ( >=dev-util/gtk-doc-0.6 ) >=sys-apps/sed-4
-dev-libs/libxml2 dev-libs/libxslt >=gnome-base/libbonobo-2 >=gnome-base/libbonoboui-2 >=gnome-base/libgnomeui-2 >=gnome-base/libglade-2 =x11-libs/gtksourceview-1*
-0
-mirror://sourceforge/conglomerate/conglomerate-0.7.11.tar.gz
-
-http://www.conglomerate.org/
-GPL-2
-XML editor
-x86 ppc
-gnome.org fdo-mime gnome2 gnome2-utils libtool
-doc debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=dev-libs/libxml2 dev-libs/libxslt >=gnome-base/libbonobo-2 >=gnome-base/libbonoboui-2 >=gnome-base/libgnomeui-2 >=gnome-base/libglade-2 =x11-libs/gtksourceview-1* dev-util/pkgconfig app-text/scrollkeeper doc? ( >=dev-util/gtk-doc-0.6 ) >=sys-apps/sed-4
+DESCRIPTION=XML editor
+EAPI=0
+HOMEPAGE=http://www.conglomerate.org/
+IUSE=doc debug
+KEYWORDS=x86 ppc
+LICENSE=GPL-2
+RDEPEND=dev-libs/libxml2 dev-libs/libxslt >=gnome-base/libbonobo-2 >=gnome-base/libbonoboui-2 >=gnome-base/libgnomeui-2 >=gnome-base/libglade-2 =x11-libs/gtksourceview-1*
+SLOT=0
+SRC_URI=mirror://sourceforge/conglomerate/conglomerate-0.7.11.tar.gz
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

@@ -1,22 +1,13 @@
-x11-libs/libXmu x11-libs/libICE x11-libs/libXaw utempter? ( sys-libs/libutempter ) >=x11-libs/Xaw3d-1.5
-x11-libs/libXmu x11-libs/libICE x11-libs/libXaw utempter? ( sys-libs/libutempter ) >=x11-libs/Xaw3d-1.5 media-fonts/baekmuk-fonts
-0
-http://download.kldp.net/hanterm/hanterm-3.1.6.tar.gz
-
-http://www.hanterm.org/
-X11
-Hanterm -- Korean terminal
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-utempter
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXmu x11-libs/libICE x11-libs/libXaw utempter? ( sys-libs/libutempter ) >=x11-libs/Xaw3d-1.5
+DESCRIPTION=Hanterm -- Korean terminal
+EAPI=0
+HOMEPAGE=http://www.hanterm.org/
+IUSE=utempter
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=X11
+RDEPEND=x11-libs/libXmu x11-libs/libICE x11-libs/libXaw utempter? ( sys-libs/libutempter ) >=x11-libs/Xaw3d-1.5 media-fonts/baekmuk-fonts
+SLOT=0
+SRC_URI=http://download.kldp.net/hanterm/hanterm-3.1.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

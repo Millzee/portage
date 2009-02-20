@@ -1,22 +1,13 @@
-dev-lang/python virtual/python
-dev-lang/python
-0
-mirror://sourceforge/arabeyes/duali-0.2.0.tar.bz2
-
-http://www.arabeyes.org/project.php?proj=Duali
-as-is
-Arabic dictionary based on the DICT protocol
-~x86 ~amd64 ~ia64 ~ppc ~sparc ~alpha ~hppa ~mips
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-app-dicts/duali-data
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-lang/python virtual/python
+DESCRIPTION=Arabic dictionary based on the DICT protocol
+EAPI=0
+HOMEPAGE=http://www.arabeyes.org/project.php?proj=Duali
+KEYWORDS=~x86 ~amd64 ~ia64 ~ppc ~sparc ~alpha ~hppa ~mips
+LICENSE=as-is
+PDEPEND=app-dicts/duali-data
+RDEPEND=dev-lang/python
+SLOT=0
+SRC_URI=mirror://sourceforge/arabeyes/duali-0.2.0.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

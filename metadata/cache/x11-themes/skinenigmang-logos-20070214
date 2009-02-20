@@ -1,22 +1,12 @@
-
-media-plugins/vdr-skinenigmang
-0
-!dxr3? ( http://andreas.vdr-developer.org/enigmang/download/skinenigmang-logos-xpm-hi-20070214.tgz ) dxr3? ( http://andreas.vdr-developer.org/enigmang/download/skinenigmang-logos-xpm-lo-20070214.tgz )
-
-http://andreas.vdr-developer.org/enigmang/download.html
-GPL-2
-VDR - Skin Plugin: enigma-ng logos
-~x86 ~amd64
-toolchain-funcs multilib portability eutils
-dxr3
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=VDR - Skin Plugin: enigma-ng logos
+EAPI=0
+HOMEPAGE=http://andreas.vdr-developer.org/enigmang/download.html
+IUSE=dxr3
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=media-plugins/vdr-skinenigmang
+SLOT=0
+SRC_URI=!dxr3? ( http://andreas.vdr-developer.org/enigmang/download/skinenigmang-logos-xpm-hi-20070214.tgz ) dxr3? ( http://andreas.vdr-developer.org/enigmang/download/skinenigmang-logos-xpm-lo-20070214.tgz )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

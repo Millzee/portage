@@ -1,22 +1,12 @@
-dev-util/pkgconfig
-
-0
-http://silcnet.org/download/toolkit/sources/silc-toolkit-1.1.2.tar.bz2
-
-http://silcnet.org/
-GPL-2
-SDK for the SILC protocol
-amd64 arm ~hppa ~mips ppc ppc64 ~sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-debug ipv6
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-util/pkgconfig
+DESCRIPTION=SDK for the SILC protocol
+EAPI=0
+HOMEPAGE=http://silcnet.org/
+IUSE=debug ipv6
+KEYWORDS=amd64 arm ~hppa ~mips ppc ppc64 ~sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://silcnet.org/download/toolkit/sources/silc-toolkit-1.1.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

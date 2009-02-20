@@ -1,22 +1,11 @@
-
-
-0
-mirror://mplayer/releases/codecs/essential-amd64-20071007.tar.bz2
-strip
-http://www.mplayerhq.hu/
-as-is
-64-bit binary codecs for video and audio playback support
--* amd64
-toolchain-funcs multilib
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=64-bit binary codecs for video and audio playback support
+EAPI=0
+HOMEPAGE=http://www.mplayerhq.hu/
+KEYWORDS=-* amd64
+LICENSE=as-is
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://mplayer/releases/codecs/essential-amd64-20071007.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

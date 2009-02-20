@@ -1,22 +1,12 @@
->=dev-libs/expat-1.95
->=dev-libs/expat-1.95
-0
-mirror://gentoo/elfsh-0.51b3-portable.tgz
-
-http://elfsh.segfault.net/
-GPL-2
-scripting language to modify ELF binaries
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/expat-1.95
+DESCRIPTION=scripting language to modify ELF binaries
+EAPI=0
+HOMEPAGE=http://elfsh.segfault.net/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/expat-1.95
+SLOT=0
+SRC_URI=mirror://gentoo/elfsh-0.51b3-portable.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

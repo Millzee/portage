@@ -1,22 +1,12 @@
-dev-lisp/common-lisp-controller virtual/commonlisp dev-lisp/common-lisp-controller
-dev-lisp/common-lisp-controller virtual/commonlisp
-0
-mirror://gentoo/cl-rt_20040621.orig.tar.gz mirror://gentoo/cl-rt_20040621-1.diff.gz
-
-http://www-2.cs.cmu.edu/afs/cs/project/ai-repository/ai/lang/lisp/code/testing/rt/ http://packages.debian.org/unstable/devel/cl-rt http://www.cliki.net/rt
-MIT
-Common Lisp regression tester from MIT
-~amd64 ~ppc ~sparc x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst unpack
+DEPEND=dev-lisp/common-lisp-controller virtual/commonlisp dev-lisp/common-lisp-controller
+DESCRIPTION=Common Lisp regression tester from MIT
+EAPI=0
+HOMEPAGE=http://www-2.cs.cmu.edu/afs/cs/project/ai-repository/ai/lang/lisp/code/testing/rt/ http://packages.debian.org/unstable/devel/cl-rt http://www.cliki.net/rt
+KEYWORDS=~amd64 ~ppc ~sparc x86
+LICENSE=MIT
+RDEPEND=dev-lisp/common-lisp-controller virtual/commonlisp
+SLOT=0
+SRC_URI=mirror://gentoo/cl-rt_20040621.orig.tar.gz mirror://gentoo/cl-rt_20040621-1.diff.gz
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

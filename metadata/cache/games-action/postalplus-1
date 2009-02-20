@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-
-strip
-http://www.lokigames.com/products/postal/
-LOKI-EULA
-Ultraviolent and controversial game featuring the Postal Dude
-~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/libc
+DESCRIPTION=Ultraviolent and controversial game featuring the Postal Dude
+EAPI=0
+HOMEPAGE=http://www.lokigames.com/products/postal/
+KEYWORDS=~x86
+LICENSE=LOKI-EULA
+RDEPEND=virtual/libc
+RESTRICT=strip
+SLOT=0
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

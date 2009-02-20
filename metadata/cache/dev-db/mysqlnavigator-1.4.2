@@ -1,22 +1,12 @@
-virtual/mysql x11-libs/qt:3 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/mysql x11-libs/qt:3
-0
-http://sql.kldp.org/snapshots/source/mysqlnavigator-1.4.2.tar.gz mirror://gentoo/mysqlnavigator-1.4.2-gcc34.patch.tar.gz
-
-http://sourceforge.net/projects/mysqlnavigator
-GPL-2
-Advanced Qt based front end to mysql
-~amd64 ppc sparc x86
-toolchain-funcs qt3 portability versionator multilib libtool autotools eutils
-
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/mysql x11-libs/qt:3 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Advanced Qt based front end to mysql
+EAPI=1
+HOMEPAGE=http://sourceforge.net/projects/mysqlnavigator
+KEYWORDS=~amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/mysql x11-libs/qt:3
+SLOT=0
+SRC_URI=http://sql.kldp.org/snapshots/source/mysqlnavigator-1.4.2.tar.gz mirror://gentoo/mysqlnavigator-1.4.2-gcc34.patch.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

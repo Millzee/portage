@@ -1,22 +1,13 @@
-media-libs/libsdl media-libs/sdl-image[png] opengl? ( virtual/opengl )
-media-libs/libsdl media-libs/sdl-image[png] opengl? ( virtual/opengl )
-0
-http://www.olofson.net/kobodl/download/KoboDeluxe-0.5.1.tar.bz2
-
-http://www.olofson.net/kobodl/
-GPL-2
-An SDL port of xkobo, a addictive space shoot-em-up
-alpha amd64 ppc ppc64 x86
-toolchain-funcs portability multilib base games eutils
-opengl
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-image[png] opengl? ( virtual/opengl )
+DESCRIPTION=An SDL port of xkobo, a addictive space shoot-em-up
+EAPI=2
+HOMEPAGE=http://www.olofson.net/kobodl/
+IUSE=opengl
+KEYWORDS=alpha amd64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-image[png] opengl? ( virtual/opengl )
+SLOT=0
+SRC_URI=http://www.olofson.net/kobodl/download/KoboDeluxe-0.5.1.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

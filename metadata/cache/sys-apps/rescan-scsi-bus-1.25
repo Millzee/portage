@@ -1,22 +1,10 @@
-
->=sys-apps/sg3_utils-1.24 sys-apps/module-init-tools app-shells/bash
-0
-http://www.garloff.de/kurt/linux/rescan-scsi-bus.sh-1.25
-
-http://www.garloff.de/kurt/linux/
-GPL-2
-Script to rescan the SCSI bus without rebooting
-~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Script to rescan the SCSI bus without rebooting
+EAPI=0
+HOMEPAGE=http://www.garloff.de/kurt/linux/
+KEYWORDS=~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-apps/sg3_utils-1.24 sys-apps/module-init-tools app-shells/bash
+SLOT=0
+SRC_URI=http://www.garloff.de/kurt/linux/rescan-scsi-bus.sh-1.25
+_mtime_=1235082899

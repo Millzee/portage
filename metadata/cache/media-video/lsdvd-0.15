@@ -1,22 +1,12 @@
-=media-libs/libdvdread-0.9* =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-=media-libs/libdvdread-0.9*
-0
-mirror://gentoo/lsdvd-0.15.tar.gz
-
-http://untrepid.com/lsdvd/
-GPL-2
-Utility for getting info out of DVDs
-amd64 ia64 ppc ppc64 sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND==media-libs/libdvdread-0.9* =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Utility for getting info out of DVDs
+EAPI=0
+HOMEPAGE=http://untrepid.com/lsdvd/
+KEYWORDS=amd64 ia64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND==media-libs/libdvdread-0.9*
+SLOT=0
+SRC_URI=mirror://gentoo/lsdvd-0.15.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

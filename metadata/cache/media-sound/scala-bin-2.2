@@ -1,22 +1,14 @@
->=sys-apps/sed-4
-=virtual/gnat-4.1* >=dev-ada/gtkada-2.8.0 midi? ( media-sound/playmidi )
-0
-http://www.xs4all.nl/~huygensf/software/scala-22-pc-linux.tar.bz2
-mirror strip test
-http://www.xs4all.nl/~huygensf/scala/
-as-is
-Scala is a powerful software tool for experimentation with musical tunings.
--* ~x86
-toolchain-funcs portability versionator multilib gnome2-utils fdo-mime eutils
-midi
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=sys-apps/sed-4
+DESCRIPTION=Scala is a powerful software tool for experimentation with musical tunings.
+EAPI=0
+HOMEPAGE=http://www.xs4all.nl/~huygensf/scala/
+IUSE=midi
+KEYWORDS=-* ~x86
+LICENSE=as-is
+RDEPEND==virtual/gnat-4.1* >=dev-ada/gtkada-2.8.0 midi? ( media-sound/playmidi )
+RESTRICT=mirror strip test
+SLOT=0
+SRC_URI=http://www.xs4all.nl/~huygensf/software/scala-22-pc-linux.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

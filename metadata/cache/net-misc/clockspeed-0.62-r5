@@ -1,22 +1,14 @@
-sys-apps/groff
-selinux? ( sec-policy/selinux-clockspeed )
-0
-http://cr.yp.to/clockspeed/clockspeed-0.62.tar.gz
-test
-http://cr.yp.to/clockspeed.html
-as-is
-A simple Network Time Protocol (NTP) client
-~amd64 ~mips x86
-toolchain-funcs multilib portability eutils flag-o-matic
-static selinux
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=sys-apps/groff
+DESCRIPTION=A simple Network Time Protocol (NTP) client
+EAPI=0
+HOMEPAGE=http://cr.yp.to/clockspeed.html
+IUSE=static selinux
+KEYWORDS=~amd64 ~mips x86
+LICENSE=as-is
+RDEPEND=selinux? ( sec-policy/selinux-clockspeed )
+RESTRICT=test
+SLOT=0
+SRC_URI=http://cr.yp.to/clockspeed/clockspeed-0.62.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

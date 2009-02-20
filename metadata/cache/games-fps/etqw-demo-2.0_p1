@@ -1,22 +1,13 @@
-app-arch/unzip
-virtual/opengl x86? ( media-libs/libsdl x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext ) amd64? ( >=app-emulation/emul-linux-x86-sdl-20071114 )
-0
-mirror://idsoftware/etqw/ETQW-demo2-client-full.r1.x86.run
-strip mirror
-http://zerowing.idsoftware.com/linux/etqw/
-ETQW
-Enemy Territory: Quake Wars demo
-~amd64 ~x86
-toolchain-funcs portability versionator multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Enemy Territory: Quake Wars demo
+EAPI=0
+HOMEPAGE=http://zerowing.idsoftware.com/linux/etqw/
+KEYWORDS=~amd64 ~x86
+LICENSE=ETQW
+RDEPEND=virtual/opengl x86? ( media-libs/libsdl x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext ) amd64? ( >=app-emulation/emul-linux-x86-sdl-20071114 )
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=mirror://idsoftware/etqw/ETQW-demo2-client-full.r1.x86.run
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

@@ -1,22 +1,13 @@
-kde? ( >=kde-base/kdelibs-3.1 ) readline? ( sys-libs/readline )
-kde? ( >=kde-base/kdelibs-3.1 ) readline? ( sys-libs/readline )
-0
-mirror://sourceforge/plptools/plptools-0.13.tar.gz
-
-http://plptools.sourceforge.net
-GPL-2
-Libraries and utilities to communicate with a Psion palmtop via serial.
-x86
-toolchain-funcs qt3 portability versionator multilib kde-functions eutils
-kde nls readline
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=kde? ( >=kde-base/kdelibs-3.1 ) readline? ( sys-libs/readline )
+DESCRIPTION=Libraries and utilities to communicate with a Psion palmtop via serial.
+EAPI=0
+HOMEPAGE=http://plptools.sourceforge.net
+IUSE=kde nls readline
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=kde? ( >=kde-base/kdelibs-3.1 ) readline? ( sys-libs/readline )
+SLOT=0
+SRC_URI=mirror://sourceforge/plptools/plptools-0.13.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

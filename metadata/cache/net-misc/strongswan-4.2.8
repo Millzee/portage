@@ -1,22 +1,13 @@
-!net-misc/openswan dev-libs/gmp virtual/linux-sources sys-kernel/linux-headers curl? ( net-misc/curl ) ldap? ( net-nds/openldap ) smartcard? ( dev-libs/opensc ) xml? ( dev-libs/libxml2 ) kernel_linux? ( virtual/linux-sources ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-!net-misc/openswan dev-libs/gmp virtual/logger sys-apps/iproute2
-0
-http://download.strongswan.org/strongswan-4.2.8.tar.bz2
-
-http://www.strongswan.org/
-GPL-2 RSA-MD2 RSA-MD5 RSA-PKCS11 DES
-Open Source implementation of IPsec for the Linux operating system.
-~ppc ~sparc ~x86 ~amd64
-toolchain-funcs portability versionator multilib libtool linux-info autotools eutils
-cisco curl debug ldap nat smartcard static xml
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=!net-misc/openswan dev-libs/gmp virtual/linux-sources sys-kernel/linux-headers curl? ( net-misc/curl ) ldap? ( net-nds/openldap ) smartcard? ( dev-libs/opensc ) xml? ( dev-libs/libxml2 ) kernel_linux? ( virtual/linux-sources ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Open Source implementation of IPsec for the Linux operating system.
+EAPI=0
+HOMEPAGE=http://www.strongswan.org/
+IUSE=cisco curl debug ldap nat smartcard static xml
+KEYWORDS=~ppc ~sparc ~x86 ~amd64
+LICENSE=GPL-2 RSA-MD2 RSA-MD5 RSA-PKCS11 DES
+RDEPEND=!net-misc/openswan dev-libs/gmp virtual/logger sys-apps/iproute2
+SLOT=0
+SRC_URI=http://download.strongswan.org/strongswan-4.2.8.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

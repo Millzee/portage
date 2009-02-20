@@ -1,22 +1,12 @@
->=dev-util/nvidia-cuda-toolkit-2.1 amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs )
->=dev-util/nvidia-cuda-toolkit-2.1 amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs )
-0
-http://developer.download.nvidia.com/compute/cuda/2_1/cudaprof/CudaVisualProfiler_linux_1.1_15Dec08.tar.gz
-
-http://developer.nvidia.com/cuda
-NVIDIA
-NVIDIA CUDA Visual Profiler
-~amd64 ~x86
-
-doc
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=dev-util/nvidia-cuda-toolkit-2.1 amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs )
+DESCRIPTION=NVIDIA CUDA Visual Profiler
+EAPI=0
+HOMEPAGE=http://developer.nvidia.com/cuda
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=NVIDIA
+RDEPEND=>=dev-util/nvidia-cuda-toolkit-2.1 amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-xlibs )
+SLOT=0
+SRC_URI=http://developer.download.nvidia.com/compute/cuda/2_1/cudaprof/CudaVisualProfiler_linux_1.1_15Dec08.tar.gz
+_mtime_=1235082859

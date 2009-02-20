@@ -1,22 +1,13 @@
->=dev-lang/python-2.2 virtual/python
->=dev-lang/python-2.2
-0
-mirror://sourceforge/jonpy/jonpy-0.06.tar.gz
-
-http://jonpy.sourceforge.net/
-as-is
-Powerful multi-threaded object-oriented CGI/FastCGI/mod_python/html-templating facilities
-~amd64 ia64 x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-doc examples
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-lang/python-2.2 virtual/python
+DESCRIPTION=Powerful multi-threaded object-oriented CGI/FastCGI/mod_python/html-templating facilities
+EAPI=0
+HOMEPAGE=http://jonpy.sourceforge.net/
+IUSE=doc examples
+KEYWORDS=~amd64 ia64 x86
+LICENSE=as-is
+RDEPEND=>=dev-lang/python-2.2
+SLOT=0
+SRC_URI=mirror://sourceforge/jonpy/jonpy-0.06.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

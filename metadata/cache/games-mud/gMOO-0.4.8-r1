@@ -1,22 +1,13 @@
-x11-libs/libXi =x11-libs/gtk+-1.2* nls? ( virtual/libintl ) tcl? ( dev-lang/tcl ) nls? ( sys-devel/gettext )
-x11-libs/libXi =x11-libs/gtk+-1.2* nls? ( virtual/libintl ) tcl? ( dev-lang/tcl )
-0
-http://www.nowmoo.demon.nl/packages/gMOO-0.4.8.tar.bz2
-
-http://www.gmoo.net/gmoo/
-GPL-2
-GTK+ Based MOO client
-~amd64 x86 ppc
-toolchain-funcs multilib portability eutils
-nls tcl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXi =x11-libs/gtk+-1.2* nls? ( virtual/libintl ) tcl? ( dev-lang/tcl ) nls? ( sys-devel/gettext )
+DESCRIPTION=GTK+ Based MOO client
+EAPI=0
+HOMEPAGE=http://www.gmoo.net/gmoo/
+IUSE=nls tcl
+KEYWORDS=~amd64 x86 ppc
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXi =x11-libs/gtk+-1.2* nls? ( virtual/libintl ) tcl? ( dev-lang/tcl )
+SLOT=0
+SRC_URI=http://www.nowmoo.demon.nl/packages/gMOO-0.4.8.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

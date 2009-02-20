@@ -1,22 +1,13 @@
-dev-games/ode app-arch/unzip dev-util/scons
-dev-games/ode
-0
-mirror://sourceforge/opal/opal-0.4.0-src.zip
-
-http://opal.sourceforge.net/
-|| ( BSD LGPL-2.1 )
-high-level interface for low-level physics engines
-~x86
-toolchain-funcs multilib
-debug double-precision examples
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-games/ode app-arch/unzip dev-util/scons
+DESCRIPTION=high-level interface for low-level physics engines
+EAPI=0
+HOMEPAGE=http://opal.sourceforge.net/
+IUSE=debug double-precision examples
+KEYWORDS=~x86
+LICENSE=|| ( BSD LGPL-2.1 )
+RDEPEND=dev-games/ode
+SLOT=0
+SRC_URI=mirror://sourceforge/opal/opal-0.4.0-src.zip
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

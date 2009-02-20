@@ -1,22 +1,12 @@
-kernel_linux? ( virtual/linux-sources )
->=net-dialup/ppp-2.4.3-r14 !net-dialup/eagle-usb
-0
-http://eagle-usb.org/ueagle-atm/non-free/ueagle-data-src-1.1.tar.gz
-
-https://gna.org/projects/ueagleatm/
-BSD GPL-2
-Firmware and configuration instructions for ADI 930/Eagle USB ADSL Modem driver
-~amd64 x86
-toolchain-funcs portability versionator multilib linux-info eutils
-
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=Firmware and configuration instructions for ADI 930/Eagle USB ADSL Modem driver
+EAPI=0
+HOMEPAGE=https://gna.org/projects/ueagleatm/
+KEYWORDS=~amd64 x86
+LICENSE=BSD GPL-2
+RDEPEND=>=net-dialup/ppp-2.4.3-r14 !net-dialup/eagle-usb
+SLOT=0
+SRC_URI=http://eagle-usb.org/ueagle-atm/non-free/ueagle-data-src-1.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

@@ -1,22 +1,13 @@
-virtual/libc || ( sys-kernel/linux-headers sys-kernel/mips-headers ) doc? ( virtual/latex-base )
-virtual/libc
-0
-mirror://kernel/linux/kernel/people/axboe/blktrace/blktrace-20060428050322.tar.bz2
-
-http://www.kernel.org/pub/linux/kernel/people/axboe/blktrace/
-GPL-2
-btrace can show detailed info about what is happening on a block device io queue.
-~x86 ~ppc
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc || ( sys-kernel/linux-headers sys-kernel/mips-headers ) doc? ( virtual/latex-base )
+DESCRIPTION=btrace can show detailed info about what is happening on a block device io queue.
+EAPI=0
+HOMEPAGE=http://www.kernel.org/pub/linux/kernel/people/axboe/blktrace/
+IUSE=doc
+KEYWORDS=~x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://kernel/linux/kernel/people/axboe/blktrace/blktrace-20060428050322.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

@@ -1,22 +1,13 @@
-virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
-virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
-0
-http://gems.rubyforge.org/gems/daemons-1.0.10.gem
-
-http://daemons.rubyforge.org/
-Ruby
-Wrap existing ruby scripts to be run as a daemon
-amd64 ia64 ppc ~ppc64 sparc x86 ~x86-fbsd
-gems toolchain-funcs portability multilib ruby eutils
-doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
+DESCRIPTION=Wrap existing ruby scripts to be run as a daemon
+EAPI=0
+HOMEPAGE=http://daemons.rubyforge.org/
+IUSE=doc
+KEYWORDS=amd64 ia64 ppc ~ppc64 sparc x86 ~x86-fbsd
+LICENSE=Ruby
+RDEPEND=virtual/ruby virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
+SLOT=0
+SRC_URI=http://gems.rubyforge.org/gems/daemons-1.0.10.gem
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	gems	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

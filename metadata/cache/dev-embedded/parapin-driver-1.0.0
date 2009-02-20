@@ -1,22 +1,13 @@
-virtual/os-headers kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-kernel_linux? ( virtual/modutils )
-0
-mirror://sourceforge/parapin-driver/parapin-1.0.0.tar.gz
-
-http://parapin.sourceforge.net/
-LGPL-2.1
-Parallel port pin kernel modules supported bug dev-embedded/parapin
-x86 ~amd64
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup
+DEPEND=virtual/os-headers kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=Parallel port pin kernel modules supported bug dev-embedded/parapin
+EAPI=0
+HOMEPAGE=http://parapin.sourceforge.net/
+IUSE=kernel_linux
+KEYWORDS=x86 ~amd64
+LICENSE=LGPL-2.1
+RDEPEND=kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=mirror://sourceforge/parapin-driver/parapin-1.0.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

@@ -1,22 +1,12 @@
-app-arch/unzip
-
-0
-mirror://sourceforge/freeimage/FreeImage3110.zip doc? ( mirror://sourceforge/freeimage/FreeImage3110.pdf )
-
-http://freeimage.sourceforge.net/
-|| ( GPL-2 FIPL-1.0 )
-Image library supporting many formats
-~amd64 ~ppc ~x86
-toolchain-funcs multilib
-cxx doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Image library supporting many formats
+EAPI=0
+HOMEPAGE=http://freeimage.sourceforge.net/
+IUSE=cxx doc
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=|| ( GPL-2 FIPL-1.0 )
+SLOT=0
+SRC_URI=mirror://sourceforge/freeimage/FreeImage3110.zip doc? ( mirror://sourceforge/freeimage/FreeImage3110.pdf )
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

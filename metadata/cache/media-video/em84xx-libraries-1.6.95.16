@@ -1,22 +1,10 @@
-
-
-0
-ftp://ftp.sigmadesigns.com/NetStr_2000/Netstream2000-1.6.95.16.tar.gz
-
-ftp://ftp.sigmadesigns.com/NetStr_2000/
-as-is
-libraries for the em84xx chip
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install setup
-
-
-
-
-
+DEFINED_PHASES=install setup
+DESCRIPTION=libraries for the em84xx chip
+EAPI=0
+HOMEPAGE=ftp://ftp.sigmadesigns.com/NetStr_2000/
+KEYWORDS=~x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=ftp://ftp.sigmadesigns.com/NetStr_2000/Netstream2000-1.6.95.16.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

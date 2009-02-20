@@ -1,22 +1,10 @@
-
-
-0
-http://download.gna.org/getfem/stable/gmm-3.0.tar.gz
-
-http://www-gmm.insa-toulouse.fr/getfem/
-LGPL-2.1
-generic C++ template library for sparse, dense and skyline matrices
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=generic C++ template library for sparse, dense and skyline matrices
+EAPI=0
+HOMEPAGE=http://www-gmm.insa-toulouse.fr/getfem/
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://download.gna.org/getfem/stable/gmm-3.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

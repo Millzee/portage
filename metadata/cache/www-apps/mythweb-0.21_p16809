@@ -1,22 +1,12 @@
-|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) =virtual/httpd-php-5* dev-util/subversion net-misc/rsync >=app-admin/webapp-config-1.50.15 dev-util/subversion net-misc/rsync
-dev-perl/DBI dev-perl/DBD-mysql =virtual/httpd-php-5* >=app-admin/webapp-config-1.50.15
-0.21_p16809
-
-
-http://www.mythtv.org
-GPL-2
-PHP scripts intended to manage MythTV from a web browser.
-~amd64 ~ppc ~x86
-toolchain-funcs mythtv portability depend.php versionator multilib subversion phpconfutils webapp eutils
-vhosts
-
-
-
-0
-
-compile install postinst preinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst prerm setup unpack
+DEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) =virtual/httpd-php-5* dev-util/subversion net-misc/rsync >=app-admin/webapp-config-1.50.15 dev-util/subversion net-misc/rsync
+DESCRIPTION=PHP scripts intended to manage MythTV from a web browser.
+EAPI=0
+HOMEPAGE=http://www.mythtv.org
+IUSE=vhosts
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-perl/DBI dev-perl/DBD-mysql =virtual/httpd-php-5* >=app-admin/webapp-config-1.50.15
+SLOT=0.21_p16809
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	mythtv	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

@@ -1,22 +1,12 @@
-!net-wireless/bluez-sdp !net-wireless/bluez
-!net-wireless/bluez-sdp !net-wireless/bluez
-0
-http://bluez.sourceforge.net/download/bluez-libs-2.22.tar.gz
-
-http://bluez.sourceforge.net/
-GPL-2
-Bluetooth Userspace Libraries
-amd64 hppa ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=!net-wireless/bluez-sdp !net-wireless/bluez
+DESCRIPTION=Bluetooth Userspace Libraries
+EAPI=0
+HOMEPAGE=http://bluez.sourceforge.net/
+KEYWORDS=amd64 hppa ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=!net-wireless/bluez-sdp !net-wireless/bluez
+SLOT=0
+SRC_URI=http://bluez.sourceforge.net/download/bluez-libs-2.22.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

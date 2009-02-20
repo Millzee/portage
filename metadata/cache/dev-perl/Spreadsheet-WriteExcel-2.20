@@ -1,22 +1,12 @@
-virtual/perl-File-Temp dev-perl/Parse-RecDescent dev-perl/OLE-StorageLite dev-perl/IO-stringy dev-lang/perl
-virtual/perl-File-Temp dev-perl/Parse-RecDescent dev-perl/OLE-StorageLite dev-perl/IO-stringy dev-lang/perl
-0
-mirror://cpan/authors/id/J/JM/JMCNAMARA/Spreadsheet-WriteExcel-2.20.tar.gz
-
-http://search.cpan.org/~jmcnamara/Spreadsheet-WriteExcel-2.20/
-|| ( Artistic GPL-2 )
-Write cross-platform Excel binary file.
-amd64 ia64 ppc sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-File-Temp dev-perl/Parse-RecDescent dev-perl/OLE-StorageLite dev-perl/IO-stringy dev-lang/perl
+DESCRIPTION=Write cross-platform Excel binary file.
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~jmcnamara/Spreadsheet-WriteExcel-2.20/
+KEYWORDS=amd64 ia64 ppc sparc x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-File-Temp dev-perl/Parse-RecDescent dev-perl/OLE-StorageLite dev-perl/IO-stringy dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JM/JMCNAMARA/Spreadsheet-WriteExcel-2.20.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

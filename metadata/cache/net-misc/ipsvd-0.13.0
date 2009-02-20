@@ -1,22 +1,14 @@
-virtual/libc
-virtual/libc
-0
-http://smarden.org/ipsvd/ipsvd-0.13.0.tar.gz
-
-http://smarden.org/ipsvd/
-BSD
-ipsvd is a set of internet protocol service daemons for Unix.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-static
-
-
-virtual/inetd
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=ipsvd is a set of internet protocol service daemons for Unix.
+EAPI=0
+HOMEPAGE=http://smarden.org/ipsvd/
+IUSE=static
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROVIDE=virtual/inetd
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://smarden.org/ipsvd/ipsvd-0.13.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

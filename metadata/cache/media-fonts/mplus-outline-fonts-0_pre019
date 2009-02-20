@@ -1,22 +1,13 @@
-dev-lang/perl media-gfx/fontforge X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
-
-0
-mirror://sourceforge.jp/mplus-fonts/6650/mplus-TESTFLIGHT-019.tar.gz mirror://sourceforge.jp/opfc/13897/opfc-ModuleHP-1.1.1_withIPAFonts.tar.gz
-strip binchecks
-http://mplus-fonts.sourceforge.jp/ https://sourceforge.jp/projects/opfc/
-mplus-fonts grass-ipafonts
-M+ Japanese outline fonts with IPA font
-~amd64 ~hppa ~ia64 ~ppc ~x86
-toolchain-funcs font multilib portability eutils
-X
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=dev-lang/perl media-gfx/fontforge X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
+DESCRIPTION=M+ Japanese outline fonts with IPA font
+EAPI=0
+HOMEPAGE=http://mplus-fonts.sourceforge.jp/ https://sourceforge.jp/projects/opfc/
+IUSE=X
+KEYWORDS=~amd64 ~hppa ~ia64 ~ppc ~x86
+LICENSE=mplus-fonts grass-ipafonts
+RESTRICT=strip binchecks
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/mplus-fonts/6650/mplus-TESTFLIGHT-019.tar.gz mirror://sourceforge.jp/opfc/13897/opfc-ModuleHP-1.1.1_withIPAFonts.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	font	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

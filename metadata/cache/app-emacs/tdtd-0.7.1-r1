@@ -1,22 +1,12 @@
-app-arch/unzip >=virtual/emacs-21
->=virtual/emacs-21
-0
-http://www.menteith.com/raw-attachment/wiki/tdtd/data/tdtd071.zip
-
-http://www.menteith.com/wiki/tdtd
-GPL-2
-Emacs Major Mode for SGML and XML DTDs
-amd64 ppc ~sparc x86
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=app-arch/unzip >=virtual/emacs-21
+DESCRIPTION=Emacs Major Mode for SGML and XML DTDs
+EAPI=0
+HOMEPAGE=http://www.menteith.com/wiki/tdtd
+KEYWORDS=amd64 ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/emacs-21
+SLOT=0
+SRC_URI=http://www.menteith.com/raw-attachment/wiki/tdtd/data/tdtd071.zip
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

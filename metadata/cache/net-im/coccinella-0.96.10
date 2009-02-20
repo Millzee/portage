@@ -1,22 +1,12 @@
->=dev-lang/tk-8.5
->=dev-lang/tk-8.5
-0
-mirror://sourceforge/coccinella/Coccinella-0.96.10Src.tar.gz
-
-http://www.thecoccinella.org/
-GPL-3
-Jabber Client With a Built-in Whiteboard and VoIP (jingle)
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=>=dev-lang/tk-8.5
+DESCRIPTION=Jabber Client With a Built-in Whiteboard and VoIP (jingle)
+EAPI=0
+HOMEPAGE=http://www.thecoccinella.org/
+KEYWORDS=~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/tk-8.5
+SLOT=0
+SRC_URI=mirror://sourceforge/coccinella/Coccinella-0.96.10Src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

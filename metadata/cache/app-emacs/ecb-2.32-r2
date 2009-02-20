@@ -1,22 +1,13 @@
-app-emacs/cedet java? ( app-emacs/jde ) >=virtual/emacs-21
-app-emacs/cedet java? ( app-emacs/jde ) >=virtual/emacs-21
-0
-mirror://sourceforge/ecb/ecb-2.32.tar.gz
-
-http://ecb.sourceforge.net/
-GPL-2
-ECB is a source code browser for Emacs
-amd64 ppc x86
-versionator elisp elisp-common
-java
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=app-emacs/cedet java? ( app-emacs/jde ) >=virtual/emacs-21
+DESCRIPTION=ECB is a source code browser for Emacs
+EAPI=0
+HOMEPAGE=http://ecb.sourceforge.net/
+IUSE=java
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=app-emacs/cedet java? ( app-emacs/jde ) >=virtual/emacs-21
+SLOT=0
+SRC_URI=mirror://sourceforge/ecb/ecb-2.32.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

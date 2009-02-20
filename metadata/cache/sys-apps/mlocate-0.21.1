@@ -1,22 +1,11 @@
-
-!sys-apps/slocate !sys-apps/rlocate
-0
-https://fedorahosted.org/releases/m/l/mlocate/mlocate-0.21.1.tar.bz2
-
-https://fedorahosted.org/mlocate/
-GPL-2
-Merging locate is an utility to index and quickly search for files
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst setup test
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test
+DESCRIPTION=Merging locate is an utility to index and quickly search for files
+EAPI=0
+HOMEPAGE=https://fedorahosted.org/mlocate/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=!sys-apps/slocate !sys-apps/rlocate
+SLOT=0
+SRC_URI=https://fedorahosted.org/releases/m/l/mlocate/mlocate-0.21.1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

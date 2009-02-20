@@ -1,22 +1,12 @@
-
-truetype? ( media-libs/freetype media-fonts/corefonts ) unicode? ( media-libs/freetype media-fonts/corefonts ) g15? ( app-misc/g15daemon )
-0
-mirror://berlios/graphlcd/graphlcd-base-0.1.5.tgz mirror://vdrfiles/graphlcd-base/graphlcd-base-0.1.5_utf8.diff.tgz
-
-http://graphlcd.berlios.de/
-GPL-2
-Graphical LCD Driver
-amd64 x86 ~ppc
-toolchain-funcs multilib portability eutils flag-o-matic
-truetype unicode g15
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=Graphical LCD Driver
+EAPI=0
+HOMEPAGE=http://graphlcd.berlios.de/
+IUSE=truetype unicode g15
+KEYWORDS=amd64 x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=truetype? ( media-libs/freetype media-fonts/corefonts ) unicode? ( media-libs/freetype media-fonts/corefonts ) g15? ( app-misc/g15daemon )
+SLOT=0
+SRC_URI=mirror://berlios/graphlcd/graphlcd-base-0.1.5.tgz mirror://vdrfiles/graphlcd-base/graphlcd-base-0.1.5_utf8.diff.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

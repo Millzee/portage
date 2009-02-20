@@ -1,22 +1,13 @@
-=app-pda/libopensync-0.22* >=app-pda/libsyncml-0.4.3
-=app-pda/libopensync-0.22* >=app-pda/libsyncml-0.4.3
-0
-http://dev.gentooexperimental.org/~peper/distfiles/libopensync-plugin-syncml-0.22.tar.bz2
-
-http://www.opensync.org/
-LGPL-2.1
-OpenSync SyncML Plugin
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-http obex
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND==app-pda/libopensync-0.22* >=app-pda/libsyncml-0.4.3
+DESCRIPTION=OpenSync SyncML Plugin
+EAPI=0
+HOMEPAGE=http://www.opensync.org/
+IUSE=http obex
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND==app-pda/libopensync-0.22* >=app-pda/libsyncml-0.4.3
+SLOT=0
+SRC_URI=http://dev.gentooexperimental.org/~peper/distfiles/libopensync-plugin-syncml-0.22.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

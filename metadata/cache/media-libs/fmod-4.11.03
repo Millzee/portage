@@ -1,22 +1,12 @@
-
-
-1
-x86? ( http://www.fmod.org/index.php/release/version/fmodapi41103linux.tar.gz ) amd64? ( http://www.fmod.org/index.php/release/version/fmodapi41103linux64.tar.gz )
-strip test
-http://www.fmod.org
-fmod
-music and sound effects library, and a sound processing system
--* ~amd64 ~x86
-toolchain-funcs versionator multilib
-doc examples
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=music and sound effects library, and a sound processing system
+EAPI=0
+HOMEPAGE=http://www.fmod.org
+IUSE=doc examples
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=fmod
+RESTRICT=strip test
+SLOT=1
+SRC_URI=x86? ( http://www.fmod.org/index.php/release/version/fmodapi41103linux.tar.gz ) amd64? ( http://www.fmod.org/index.php/release/version/fmodapi41103linux64.tar.gz )
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

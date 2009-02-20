@@ -1,22 +1,13 @@
->=dev-libs/libevent-1.0 >=dev-libs/glib-2.0 >=virtual/mysql-4.0 lua? ( >=dev-lang/lua-5.1 )
->=dev-libs/libevent-1.0 >=dev-libs/glib-2.0 >=virtual/mysql-4.0 lua? ( >=dev-lang/lua-5.1 )
-0
-mirror://mysql/Downloads/MySQL-Proxy/mysql-proxy-0.6.0.tar.gz
-
-http://forge.mysql.com/wiki/MySQL_Proxy
-GPL-2
-A Proxy for the MySQL Client/Server protocol
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-lua examples
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=>=dev-libs/libevent-1.0 >=dev-libs/glib-2.0 >=virtual/mysql-4.0 lua? ( >=dev-lang/lua-5.1 )
+DESCRIPTION=A Proxy for the MySQL Client/Server protocol
+EAPI=0
+HOMEPAGE=http://forge.mysql.com/wiki/MySQL_Proxy
+IUSE=lua examples
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libevent-1.0 >=dev-libs/glib-2.0 >=virtual/mysql-4.0 lua? ( >=dev-lang/lua-5.1 )
+SLOT=0
+SRC_URI=mirror://mysql/Downloads/MySQL-Proxy/mysql-proxy-0.6.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

@@ -1,22 +1,14 @@
-mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) test? ( dev-lang/php )
-0
-http://sphinxsearch.com/downloads/sphinx-0.9.9-rc1.tar.gz stemmer? ( http://snowball.tartarus.org/dist/libstemmer_c.tgz )
-mirror
-http://www.sphinxsearch.com/
-GPL-2
-Full-text search engine with support for MySQL and PostgreSQL
-~x86 ~amd64
-toolchain-funcs portability multilib libtool autotools eutils
-debug mysql postgres stemmer test
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Full-text search engine with support for MySQL and PostgreSQL
+EAPI=0
+HOMEPAGE=http://www.sphinxsearch.com/
+IUSE=debug mysql postgres stemmer test
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) test? ( dev-lang/php )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://sphinxsearch.com/downloads/sphinx-0.9.9-rc1.tar.gz stemmer? ( http://snowball.tartarus.org/dist/libstemmer_c.tgz )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

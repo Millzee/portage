@@ -1,22 +1,12 @@
->=dev-libs/glib-2.8 >=sys-kernel/linux-headers-2.6.16
-sys-fs/udev virtual/logger
-0
-http://hansmi.ch/download/inputd/inputd-0.0.8.tar.bz2
-
-http://hansmi.ch/software/inputd
-GPL-2
-inputd is a user-space daemon to emulate key presses trough other key combinations
-~ppc ~x86 ~ppc64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=dev-libs/glib-2.8 >=sys-kernel/linux-headers-2.6.16
+DESCRIPTION=inputd is a user-space daemon to emulate key presses trough other key combinations
+EAPI=0
+HOMEPAGE=http://hansmi.ch/software/inputd
+KEYWORDS=~ppc ~x86 ~ppc64
+LICENSE=GPL-2
+RDEPEND=sys-fs/udev virtual/logger
+SLOT=0
+SRC_URI=http://hansmi.ch/download/inputd/inputd-0.0.8.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

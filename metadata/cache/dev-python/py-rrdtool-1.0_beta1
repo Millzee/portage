@@ -1,22 +1,12 @@
-virtual/python >=net-analyzer/rrdtool-1.2[-python] virtual/python
-virtual/python >=net-analyzer/rrdtool-1.2[-python]
-0
-mirror://sourceforge/py-rrdtool/py-rrdtool-1.0b1.tar.gz
-
-http://sourceforge.net/projects/py-rrdtool/
-LGPL-2.1
-Python wrapper for RRDtool
-~amd64 ~ia64 ~ppc ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-2
-
-compile install postinst postrm prepare unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm prepare unpack
+DEPEND=virtual/python >=net-analyzer/rrdtool-1.2[-python] virtual/python
+DESCRIPTION=Python wrapper for RRDtool
+EAPI=2
+HOMEPAGE=http://sourceforge.net/projects/py-rrdtool/
+KEYWORDS=~amd64 ~ia64 ~ppc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=virtual/python >=net-analyzer/rrdtool-1.2[-python]
+SLOT=0
+SRC_URI=mirror://sourceforge/py-rrdtool/py-rrdtool-1.0b1.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

@@ -1,22 +1,13 @@
-dev-perl/Net-Google-SafeBrowsing-Blocklist dev-perl/Net-Google-SafeBrowsing-UpdateRequest mail-filter/spamassassin test? ( dev-perl/Test-Pod )
-dev-perl/Net-Google-SafeBrowsing-Blocklist dev-perl/Net-Google-SafeBrowsing-UpdateRequest mail-filter/spamassassin
-0
-mirror://cpan/authors/id/D/DA/DANBORN//Mail-SpamAssassin-Plugin-GoogleSafeBrowsing-1.03.tar.gz
-
-http://search.cpan.org/search?query=Mail-SpamAssassin-Plugin-GoogleSafeBrowsing&mode=dist
-Apache-2.0
-SpamAssassin plugin to score mail based on Google blocklists.
-~amd64 ~x86 ~ppc
-toolchain-funcs portability multilib base eutils perl-module
-test
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-perl/Net-Google-SafeBrowsing-Blocklist dev-perl/Net-Google-SafeBrowsing-UpdateRequest mail-filter/spamassassin test? ( dev-perl/Test-Pod )
+DESCRIPTION=SpamAssassin plugin to score mail based on Google blocklists.
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Mail-SpamAssassin-Plugin-GoogleSafeBrowsing&mode=dist
+IUSE=test
+KEYWORDS=~amd64 ~x86 ~ppc
+LICENSE=Apache-2.0
+RDEPEND=dev-perl/Net-Google-SafeBrowsing-Blocklist dev-perl/Net-Google-SafeBrowsing-UpdateRequest mail-filter/spamassassin
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DANBORN//Mail-SpamAssassin-Plugin-GoogleSafeBrowsing-1.03.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

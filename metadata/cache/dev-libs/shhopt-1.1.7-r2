@@ -1,22 +1,10 @@
-
-
-0
-http://shh.thathost.com/pub-unix/files/shhopt-1.1.7.tar.gz
-
-http://shh.thathost.com/pub-unix/
-Artistic
-library for parsing command line options
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=library for parsing command line options
+EAPI=0
+HOMEPAGE=http://shh.thathost.com/pub-unix/
+KEYWORDS=amd64 ppc x86
+LICENSE=Artistic
+SLOT=0
+SRC_URI=http://shh.thathost.com/pub-unix/files/shhopt-1.1.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

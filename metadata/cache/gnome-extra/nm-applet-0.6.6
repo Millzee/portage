@@ -1,22 +1,13 @@
->=sys-apps/dbus-0.60 >=sys-apps/hal-0.5 sys-apps/iproute2 >=net-misc/dhcdbd-1.4 >=net-misc/networkmanager-0.6.5_p20080130 >=net-wireless/wireless-tools-28_pre9 >=net-wireless/wpa_supplicant-0.4.8 >=dev-libs/glib-2.10 libnotify? ( >=x11-libs/libnotify-0.4.3 ) >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2 >=gnome-base/gnome-keyring-0.4 >=gnome-base/gconf-2 >=gnome-base/libgnomeui-2 cisco? ( net-misc/networkmanager-vpnc ) openvpn? ( net-misc/networkmanager-openvpn ) dev-util/pkgconfig >=dev-util/intltool-0.35 >=sys-apps/sed-4
->=sys-apps/dbus-0.60 >=sys-apps/hal-0.5 sys-apps/iproute2 >=net-misc/dhcdbd-1.4 >=net-misc/networkmanager-0.6.5_p20080130 >=net-wireless/wireless-tools-28_pre9 >=net-wireless/wpa_supplicant-0.4.8 >=dev-libs/glib-2.10 libnotify? ( >=x11-libs/libnotify-0.4.3 ) >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2 >=gnome-base/gnome-keyring-0.4 >=gnome-base/gconf-2 >=gnome-base/libgnomeui-2 cisco? ( net-misc/networkmanager-vpnc ) openvpn? ( net-misc/networkmanager-openvpn )
-0
-http://people.redhat.com/dcbw/NetworkManager/0.6.6/nm-applet-0.6.6.tar.gz
-
-http://people.redhat.com/dcbw/NetworkManager/
-GPL-2
-Gnome applet for NetworkManager.
-amd64 ~ppc x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-cisco libnotify openvpn debug
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=sys-apps/dbus-0.60 >=sys-apps/hal-0.5 sys-apps/iproute2 >=net-misc/dhcdbd-1.4 >=net-misc/networkmanager-0.6.5_p20080130 >=net-wireless/wireless-tools-28_pre9 >=net-wireless/wpa_supplicant-0.4.8 >=dev-libs/glib-2.10 libnotify? ( >=x11-libs/libnotify-0.4.3 ) >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2 >=gnome-base/gnome-keyring-0.4 >=gnome-base/gconf-2 >=gnome-base/libgnomeui-2 cisco? ( net-misc/networkmanager-vpnc ) openvpn? ( net-misc/networkmanager-openvpn ) dev-util/pkgconfig >=dev-util/intltool-0.35 >=sys-apps/sed-4
+DESCRIPTION=Gnome applet for NetworkManager.
+EAPI=0
+HOMEPAGE=http://people.redhat.com/dcbw/NetworkManager/
+IUSE=cisco libnotify openvpn debug
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=sys-apps/dbus-0.60 >=sys-apps/hal-0.5 sys-apps/iproute2 >=net-misc/dhcdbd-1.4 >=net-misc/networkmanager-0.6.5_p20080130 >=net-wireless/wireless-tools-28_pre9 >=net-wireless/wpa_supplicant-0.4.8 >=dev-libs/glib-2.10 libnotify? ( >=x11-libs/libnotify-0.4.3 ) >=x11-libs/gtk+-2.10 >=gnome-base/libglade-2 >=gnome-base/gnome-keyring-0.4 >=gnome-base/gconf-2 >=gnome-base/libgnomeui-2 cisco? ( net-misc/networkmanager-vpnc ) openvpn? ( net-misc/networkmanager-openvpn )
+SLOT=0
+SRC_URI=http://people.redhat.com/dcbw/NetworkManager/0.6.6/nm-applet-0.6.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

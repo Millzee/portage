@@ -1,22 +1,12 @@
-
->=dev-python/imaging-1.1.5 >=dev-python/pygtk-2.12 rar? ( || ( app-arch/unrar app-arch/rar ) )
-0
-mirror://sourceforge/comix/comix-4.0.1.tar.gz
-
-http://comix.sourceforge.net
-GPL-2
-A GTK image viewer specifically designed to handle comic books.
-amd64 ~ppc x86 ~x86-fbsd
-python multilib toolchain-funcs alternatives
-rar
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DESCRIPTION=A GTK image viewer specifically designed to handle comic books.
+EAPI=0
+HOMEPAGE=http://comix.sourceforge.net
+IUSE=rar
+KEYWORDS=amd64 ~ppc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=dev-python/imaging-1.1.5 >=dev-python/pygtk-2.12 rar? ( || ( app-arch/unrar app-arch/rar ) )
+SLOT=0
+SRC_URI=mirror://sourceforge/comix/comix-4.0.1.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

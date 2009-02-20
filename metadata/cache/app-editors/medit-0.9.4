@@ -1,22 +1,14 @@
-fam? ( virtual/fam ) pcre? ( dev-libs/libpcre ) python? ( dev-python/pygtk ) xml? ( dev-libs/libxml2 ) >=x11-libs/gtk+-2 nls? ( sys-devel/gettext ) dev-util/pkgconfig dev-libs/libxslt >=sys-apps/sed-4
-fam? ( virtual/fam ) pcre? ( dev-libs/libpcre ) python? ( dev-python/pygtk ) xml? ( dev-libs/libxml2 ) >=x11-libs/gtk+-2
-0
-mirror://sourceforge/mooedit/medit-0.9.4.tar.bz2
-test
-http://mooedit.sourceforge.net
-GPL-2 LGPL-2.1
-Multiplatform text editor
-~amd64 ~x86
-toolchain-funcs portability python alternatives multilib gnome2-utils fdo-mime eutils
-fam nls pcre python xml
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=fam? ( virtual/fam ) pcre? ( dev-libs/libpcre ) python? ( dev-python/pygtk ) xml? ( dev-libs/libxml2 ) >=x11-libs/gtk+-2 nls? ( sys-devel/gettext ) dev-util/pkgconfig dev-libs/libxslt >=sys-apps/sed-4
+DESCRIPTION=Multiplatform text editor
+EAPI=0
+HOMEPAGE=http://mooedit.sourceforge.net
+IUSE=fam nls pcre python xml
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 LGPL-2.1
+RDEPEND=fam? ( virtual/fam ) pcre? ( dev-libs/libpcre ) python? ( dev-python/pygtk ) xml? ( dev-libs/libxml2 ) >=x11-libs/gtk+-2
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/mooedit/medit-0.9.4.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

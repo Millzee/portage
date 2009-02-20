@@ -1,22 +1,13 @@
-perl? ( dev-lang/perl ) switch_user? ( sys-libs/libcap )
-perl? ( dev-lang/perl ) switch_user? ( sys-libs/libcap )
-0
-mirror://sourceforge/dbhub/dbhub-0.451.tbz2
-
-http://www.dbhub.org
-GPL-2
-Hub software for Direct Connect, fork of opendchub
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs multilib portability eutils
-debug perl nls switch_user
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=perl? ( dev-lang/perl ) switch_user? ( sys-libs/libcap )
+DESCRIPTION=Hub software for Direct Connect, fork of opendchub
+EAPI=0
+HOMEPAGE=http://www.dbhub.org
+IUSE=debug perl nls switch_user
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=perl? ( dev-lang/perl ) switch_user? ( sys-libs/libcap )
+SLOT=0
+SRC_URI=mirror://sourceforge/dbhub/dbhub-0.451.tbz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

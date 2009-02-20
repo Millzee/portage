@@ -1,22 +1,12 @@
-virtual/libpcap media-sound/jack-audio-connection-kit dev-util/pkgconfig
-virtual/libpcap media-sound/jack-audio-connection-kit
-0
-http://falcon.fugal.net/~fugalh/hearnet/hearnet-0.0.9.tar.gz
-
-http://falcon.fugal.net/~fugalh/hearnet
-GPL-2
-Listen to your network
--amd64 ~ppc ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libpcap media-sound/jack-audio-connection-kit dev-util/pkgconfig
+DESCRIPTION=Listen to your network
+EAPI=0
+HOMEPAGE=http://falcon.fugal.net/~fugalh/hearnet
+KEYWORDS=-amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libpcap media-sound/jack-audio-connection-kit
+SLOT=0
+SRC_URI=http://falcon.fugal.net/~fugalh/hearnet/hearnet-0.0.9.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

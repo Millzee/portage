@@ -1,22 +1,12 @@
-sys-devel/bison sys-devel/flex
-sys-devel/bison sys-devel/flex
-0
-mirror://gentoo/tavrasm-1.22.tar.gz
-
-http://www.tavrasm.org/
-GPL-2
-Compiles code written for Atmels AVR DOS assembler
-~x86 ~ppc
-versionator
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-devel/bison sys-devel/flex
+DESCRIPTION=Compiles code written for Atmels AVR DOS assembler
+EAPI=0
+HOMEPAGE=http://www.tavrasm.org/
+KEYWORDS=~x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=sys-devel/bison sys-devel/flex
+SLOT=0
+SRC_URI=mirror://gentoo/tavrasm-1.22.tar.gz
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

@@ -1,22 +1,12 @@
->=dev-python/pygtk-2.4.0 >=x11-libs/libnotify-0.4.3 >=dev-util/pkgconfig-0.9 >=dev-lang/python-2.3.5
->=dev-python/pygtk-2.4.0 >=x11-libs/libnotify-0.4.3 >=dev-lang/python-2.3.5
-0
-http://www.galago-project.org/files/releases/source/notify-python/notify-python-0.1.1.tar.bz2
-
-http://www.galago-project.org/
-LGPL-2.1
-Python bindings for libnotify
-~amd64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-python multilib toolchain-funcs alternatives
-
-
-
-
-0
-
-install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=>=dev-python/pygtk-2.4.0 >=x11-libs/libnotify-0.4.3 >=dev-util/pkgconfig-0.9 >=dev-lang/python-2.3.5
+DESCRIPTION=Python bindings for libnotify
+EAPI=0
+HOMEPAGE=http://www.galago-project.org/
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-python/pygtk-2.4.0 >=x11-libs/libnotify-0.4.3 >=dev-lang/python-2.3.5
+SLOT=0
+SRC_URI=http://www.galago-project.org/files/releases/source/notify-python/notify-python-0.1.1.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

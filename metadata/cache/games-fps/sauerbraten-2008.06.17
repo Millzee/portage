@@ -1,22 +1,13 @@
-sys-libs/glibc x86? ( media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image media-libs/libpng virtual/opengl ) amd64? ( app-emulation/emul-linux-x86-soundlibs app-emulation/emul-linux-x86-sdl )
-sys-libs/glibc x86? ( media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image media-libs/libpng virtual/opengl ) amd64? ( app-emulation/emul-linux-x86-soundlibs app-emulation/emul-linux-x86-sdl )
-0
-mirror://sourceforge/sauerbraten/sauerbraten_2008_06_17_ctf_edition_linux.tar.bz2
-strip
-http://sauerbraten.org/
-ZLIB
-free multiplayer/singleplayer first person shooter (major redesign of the Cube FPS)
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=sys-libs/glibc x86? ( media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image media-libs/libpng virtual/opengl ) amd64? ( app-emulation/emul-linux-x86-soundlibs app-emulation/emul-linux-x86-sdl )
+DESCRIPTION=free multiplayer/singleplayer first person shooter (major redesign of the Cube FPS)
+EAPI=0
+HOMEPAGE=http://sauerbraten.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+RDEPEND=sys-libs/glibc x86? ( media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image media-libs/libpng virtual/opengl ) amd64? ( app-emulation/emul-linux-x86-soundlibs app-emulation/emul-linux-x86-sdl )
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/sauerbraten/sauerbraten_2008_06_17_ctf_edition_linux.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

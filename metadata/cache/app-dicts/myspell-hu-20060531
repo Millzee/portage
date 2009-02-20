@@ -1,22 +1,11 @@
-app-arch/unzip
-
-0
-http://magyarispell.sourceforge.net/hu_HU-1.0.tar.gz http://www.tipogral.hu/download/huhyphn-20060531.tar.gz mirror://gentoo/myspell-thes_hu_HU-20060316.zip
-
-http://magyarispell.sourceforge.net/ http://www.tipogral.hu/index.rbx/site/projects/huhyphn http://lingucomponent.openoffice.org/
-GPL-2
-Hungarian dictionaries for myspell/hunspell
-~alpha amd64 ~ia64 ppc sparc x86 ~x86-fbsd
-toolchain-funcs myspell multilib
-
-
-
-
-0
-
-install postinst preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst preinst unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Hungarian dictionaries for myspell/hunspell
+EAPI=0
+HOMEPAGE=http://magyarispell.sourceforge.net/ http://www.tipogral.hu/index.rbx/site/projects/huhyphn http://lingucomponent.openoffice.org/
+KEYWORDS=~alpha amd64 ~ia64 ppc sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://magyarispell.sourceforge.net/hu_HU-1.0.tar.gz http://www.tipogral.hu/download/huhyphn-20060531.tar.gz mirror://gentoo/myspell-thes_hu_HU-20060316.zip
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	myspell	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

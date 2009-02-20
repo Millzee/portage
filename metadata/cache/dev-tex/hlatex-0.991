@@ -1,22 +1,12 @@
-virtual/latex-base >=sys-apps/texinfo-4.2-r5
-virtual/latex-base
-0
-mirror://gentoo/hlatex-0.991.tar.gz mirror://gentoo/hlatex-0.991-gentoo.tar.gz
-
-http://ftp.ktug.or.kr/mirrors/HLaTeX/hlatex.html
-GPL-2
-HLaTeX is a LaTeX package to use Hangul with LaTeX.
-x86 ppc alpha ~amd64
-toolchain-funcs latex-package portability multilib base eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/latex-base >=sys-apps/texinfo-4.2-r5
+DESCRIPTION=HLaTeX is a LaTeX package to use Hangul with LaTeX.
+EAPI=0
+HOMEPAGE=http://ftp.ktug.or.kr/mirrors/HLaTeX/hlatex.html
+KEYWORDS=x86 ppc alpha ~amd64
+LICENSE=GPL-2
+RDEPEND=virtual/latex-base
+SLOT=0
+SRC_URI=mirror://gentoo/hlatex-0.991.tar.gz mirror://gentoo/hlatex-0.991-gentoo.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	latex-package	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

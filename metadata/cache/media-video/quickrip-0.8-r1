@@ -1,22 +1,12 @@
-virtual/libc >=dev-lang/python-2.2 x11-libs/qt:3 >=dev-python/PyQt-3.5-r1 media-video/mplayer media-video/transcode
-virtual/libc >=dev-lang/python-2.2 x11-libs/qt:3 >=dev-python/PyQt-3.5-r1 media-video/mplayer media-video/transcode
-0
-mirror://sourceforge/quickrip/quickrip-0.8.tar.gz
-
-http://quickrip.sourceforge.net/
-GPL-2
-Basic DVD ripper written in Python with Qt and command line interfaces.
-~amd64 -mips -ppc x86
-toolchain-funcs qt3 portability versionator multilib eutils
-
-
-
-
-1
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=virtual/libc >=dev-lang/python-2.2 x11-libs/qt:3 >=dev-python/PyQt-3.5-r1 media-video/mplayer media-video/transcode
+DESCRIPTION=Basic DVD ripper written in Python with Qt and command line interfaces.
+EAPI=1
+HOMEPAGE=http://quickrip.sourceforge.net/
+KEYWORDS=~amd64 -mips -ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc >=dev-lang/python-2.2 x11-libs/qt:3 >=dev-python/PyQt-3.5-r1 media-video/mplayer media-video/transcode
+SLOT=0
+SRC_URI=mirror://sourceforge/quickrip/quickrip-0.8.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082870

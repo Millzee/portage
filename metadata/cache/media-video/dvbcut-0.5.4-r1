@@ -1,22 +1,12 @@
-x11-libs/qt:3 media-libs/libao >=media-video/ffmpeg-0.4.9_p20070330 dev-util/scons
-x11-libs/qt:3 media-libs/libao >=media-video/ffmpeg-0.4.9_p20070330
-0
-mirror://sourceforge/dvbcut/dvbcut_0.5.4.tar.bz2
-
-http://dvbcut.sourceforge.net
-GPL-2
-frame-accurate editing of MPEG-2 video with MPEG and AC3 audio
-~amd64 ~x86
-toolchain-funcs qt3 portability versionator multilib eutils
-
-
-
-
-1
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=x11-libs/qt:3 media-libs/libao >=media-video/ffmpeg-0.4.9_p20070330 dev-util/scons
+DESCRIPTION=frame-accurate editing of MPEG-2 video with MPEG and AC3 audio
+EAPI=1
+HOMEPAGE=http://dvbcut.sourceforge.net
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt:3 media-libs/libao >=media-video/ffmpeg-0.4.9_p20070330
+SLOT=0
+SRC_URI=mirror://sourceforge/dvbcut/dvbcut_0.5.4.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

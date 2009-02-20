@@ -1,22 +1,10 @@
-
-
-0
-ftp://invisible-island.net/bcpp/bcpp-20050725.tgz
-
-http://invisible-island.net/bcpp/
-GPL-2
-Indents C/C++ source code
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=Indents C/C++ source code
+EAPI=0
+HOMEPAGE=http://invisible-island.net/bcpp/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=ftp://invisible-island.net/bcpp/bcpp-20050725.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

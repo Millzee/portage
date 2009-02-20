@@ -1,22 +1,13 @@
->=dev-libs/openssl-0.9.8 || ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* ) doc? ( app-text/linuxdoc-tools )
->=dev-libs/openssl-0.9.8 || ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* )
-0
-mirror://sourceforge/xca/xca-0.6.4.tar.gz
-
-http://www.hohnstaedt.de/xca.html
-BSD
-A graphical user interface to OpenSSL, RSA public keys, certificates, signing requests and revokation lists
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-libs/openssl-0.9.8 || ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* ) doc? ( app-text/linuxdoc-tools )
+DESCRIPTION=A graphical user interface to OpenSSL, RSA public keys, certificates, signing requests and revokation lists
+EAPI=1
+HOMEPAGE=http://www.hohnstaedt.de/xca.html
+IUSE=doc
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=BSD
+RDEPEND=>=dev-libs/openssl-0.9.8 || ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* )
+SLOT=0
+SRC_URI=mirror://sourceforge/xca/xca-0.6.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

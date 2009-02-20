@@ -1,22 +1,12 @@
-x11-libs/libX11
-x11-libs/libX11 || ( net-libs/xulrunner www-client/mozilla-firefox www-client/seamonkey )
-0
-http://mozplugger.mozdev.org/files/mozplugger-1.10.2.tar.gz
-
-http://mozplugger.mozdev.org/
-GPL-2
-Streaming media plugin for Mozilla, based on netscape-plugger
-~x86 ~ppc ~sparc ~amd64 ~alpha
-toolchain-funcs nsplugins multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/libX11
+DESCRIPTION=Streaming media plugin for Mozilla, based on netscape-plugger
+EAPI=0
+HOMEPAGE=http://mozplugger.mozdev.org/
+KEYWORDS=~x86 ~ppc ~sparc ~amd64 ~alpha
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 || ( net-libs/xulrunner www-client/mozilla-firefox www-client/seamonkey )
+SLOT=0
+SRC_URI=http://mozplugger.mozdev.org/files/mozplugger-1.10.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	nsplugins	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

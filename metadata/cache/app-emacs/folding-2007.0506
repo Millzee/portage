@@ -1,22 +1,12 @@
->=virtual/emacs-21
->=virtual/emacs-21
-0
-mirror://gentoo/folding-2007.0506.el.bz2
-
-http://www.emacswiki.org/cgi-bin/wiki/FoldingMode
-GPL-2
-A folding-editor-like Emacs minor mode
-~alpha ~amd64 ~x86
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-21
+DESCRIPTION=A folding-editor-like Emacs minor mode
+EAPI=0
+HOMEPAGE=http://www.emacswiki.org/cgi-bin/wiki/FoldingMode
+KEYWORDS=~alpha ~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/emacs-21
+SLOT=0
+SRC_URI=mirror://gentoo/folding-2007.0506.el.bz2
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

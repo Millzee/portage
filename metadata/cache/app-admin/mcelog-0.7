@@ -1,22 +1,11 @@
-
-virtual/cron
-0
-ftp://ftp.x86-64.org/pub/linux/tools/mcelog/mcelog-0.7.tar.gz
-
-ftp://ftp.x86-64.org/pub/linux/tools/mcelog/
-GPL-2
-A tool to log and decode Machine Check Exceptions
-amd64 ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=A tool to log and decode Machine Check Exceptions
+EAPI=0
+HOMEPAGE=ftp://ftp.x86-64.org/pub/linux/tools/mcelog/
+KEYWORDS=amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/cron
+SLOT=0
+SRC_URI=ftp://ftp.x86-64.org/pub/linux/tools/mcelog/mcelog-0.7.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

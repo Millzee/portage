@@ -1,22 +1,11 @@
-
-amd64? ( app-emulation/emul-linux-x86-baselibs )
-0
-http://my.smithmicro.com/downloads/files/stuffit520.611linux-i386.tar.gz
-fetch strip
-http://www.stuffit.com/
-Stuffit
-Aladdin Software's StuffIt and StuffIt Expander
--* x86 amd64
-
-
-
-
-
-0
-
-install nofetch postinst postrm
-
-
-
-
-
+DEFINED_PHASES=install nofetch postinst postrm
+DESCRIPTION=Aladdin Software's StuffIt and StuffIt Expander
+EAPI=0
+HOMEPAGE=http://www.stuffit.com/
+KEYWORDS=-* x86 amd64
+LICENSE=Stuffit
+RDEPEND=amd64? ( app-emulation/emul-linux-x86-baselibs )
+RESTRICT=fetch strip
+SLOT=0
+SRC_URI=http://my.smithmicro.com/downloads/files/stuffit520.611linux-i386.tar.gz
+_mtime_=1235082846

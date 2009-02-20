@@ -1,22 +1,12 @@
-!gif? ( media-gfx/imagemagick )
-virtual/ssh dev-lang/tk
-0
-http://themediahost.de/secpanel/data/secpanel-0.5.3.tgz
-
-http://themediahost.de/secpanel/
-GPL-2
-Graphical frontend for managing and running SSH and SCP connections
-alpha ~amd64 ~sparc x86
-
-gif
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=!gif? ( media-gfx/imagemagick )
+DESCRIPTION=Graphical frontend for managing and running SSH and SCP connections
+EAPI=0
+HOMEPAGE=http://themediahost.de/secpanel/
+IUSE=gif
+KEYWORDS=alpha ~amd64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/ssh dev-lang/tk
+SLOT=0
+SRC_URI=http://themediahost.de/secpanel/data/secpanel-0.5.3.tgz
+_mtime_=1235082895

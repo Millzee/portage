@@ -1,22 +1,14 @@
-=dev-java/java-config-2*
-alsa? ( app-emulation/emul-linux-x86-soundlibs ) X? ( app-emulation/emul-linux-x86-xlibs ) app-emulation/emul-linux-x86-compat =dev-java/java-config-2*
-1.6
-http://dlc.sun.com/dlj/binaries/jdk-6u11-dlj-linux-i586.bin
-strip
-http://java.sun.com/javase/6/
-dlj-1.1
-32bit version Sun's J2SE Runtime Environment
--* amd64
-toolchain-funcs portability versionator multilib pax-utils eutils fdo-mime java-vm-2
-X alsa nsplugin
-
-
-
-
-
-compile install postinst postrm prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm prerm setup unpack
+DEPEND==dev-java/java-config-2*
+DESCRIPTION=32bit version Sun's J2SE Runtime Environment
+EAPI=0
+HOMEPAGE=http://java.sun.com/javase/6/
+IUSE=X alsa nsplugin
+KEYWORDS=-* amd64
+LICENSE=dlj-1.1
+RDEPEND=alsa? ( app-emulation/emul-linux-x86-soundlibs ) X? ( app-emulation/emul-linux-x86-xlibs ) app-emulation/emul-linux-x86-compat =dev-java/java-config-2*
+RESTRICT=strip
+SLOT=1.6
+SRC_URI=http://dlc.sun.com/dlj/binaries/jdk-6u11-dlj-linux-i586.bin
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	java-vm-2	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pax-utils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

@@ -1,22 +1,13 @@
-virtual/libc ssl? ( dev-libs/openssl ) >=sys-apps/sed-4
-virtual/libc ssl? ( dev-libs/openssl )
-0
-mirror://sourceforge/ultimate/Ultimate3.0.2.tar.bz2
-
-http://www.shadow-realm.org/
-GPL-2
-An IRCd server based on DALnet's DreamForge IRCd.
-~ppc ~sparc x86
-fixheadtails toolchain-funcs multilib portability eutils
-ssl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc ssl? ( dev-libs/openssl ) >=sys-apps/sed-4
+DESCRIPTION=An IRCd server based on DALnet's DreamForge IRCd.
+EAPI=0
+HOMEPAGE=http://www.shadow-realm.org/
+IUSE=ssl
+KEYWORDS=~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=mirror://sourceforge/ultimate/Ultimate3.0.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

@@ -1,22 +1,10 @@
-
-
-0
-http://luxik.cdi.cz/~devik/qos/ethloop/ethloop10.tgz
-
-http://luxik.cdi.cz/~devik/qos/ethloop/
-as-is
-Local simulator for testing Linux QoS disciplines
-~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Local simulator for testing Linux QoS disciplines
+EAPI=0
+HOMEPAGE=http://luxik.cdi.cz/~devik/qos/ethloop/
+KEYWORDS=~ppc x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=http://luxik.cdi.cz/~devik/qos/ethloop/ethloop10.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082885

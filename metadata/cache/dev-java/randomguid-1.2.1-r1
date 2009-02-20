@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 >=dev-java/java-config-2.1.6
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6
-0
-ftp://www.javaexchange.com/javaexchange/RandomGUID.tar
-
-http://www.javaexchange.com
-as-is
-Generate truly random, cryptographically strong GUIDs
-amd64 ppc x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD
-
-
-
-
-
-compile install postinst preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup
+DEPEND=>=virtual/jdk-1.4 >=dev-java/java-config-2.1.6
+DESCRIPTION=Generate truly random, cryptographically strong GUIDs
+EAPI=0
+HOMEPAGE=http://www.javaexchange.com
+IUSE=elibc_FreeBSD
+KEYWORDS=amd64 ppc x86
+LICENSE=as-is
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=ftp://www.javaexchange.com/javaexchange/RandomGUID.tar
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

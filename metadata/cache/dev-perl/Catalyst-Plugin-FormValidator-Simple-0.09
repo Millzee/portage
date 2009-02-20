@@ -1,22 +1,12 @@
->=dev-perl/Catalyst-5.30 >=dev-perl/FormValidator-Simple-0.13 dev-perl/Catalyst-Plugin-FormValidator
->=dev-perl/Catalyst-5.30 >=dev-perl/FormValidator-Simple-0.13 dev-perl/Catalyst-Plugin-FormValidator
-0
-mirror://cpan/authors/id/L/LY/LYOKATO//Catalyst-Plugin-FormValidator-Simple-0.09.tar.gz
-
-http://search.cpan.org/search?query=Catalyst-Plugin-FormValidator-Simple&mode=dist
-|| ( Artistic GPL-2 )
-Validator for Catalyst with FormValidator::Simple
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/Catalyst-5.30 >=dev-perl/FormValidator-Simple-0.13 dev-perl/Catalyst-Plugin-FormValidator
+DESCRIPTION=Validator for Catalyst with FormValidator::Simple
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Catalyst-Plugin-FormValidator-Simple&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Catalyst-5.30 >=dev-perl/FormValidator-Simple-0.13 dev-perl/Catalyst-Plugin-FormValidator
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LY/LYOKATO//Catalyst-Plugin-FormValidator-Simple-0.09.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

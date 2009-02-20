@@ -1,22 +1,13 @@
-x11-libs/libX11 xft? ( x11-libs/libXft ) x11-proto/xproto
-x11-libs/libX11 xft? ( x11-libs/libXft )
-0
-http://xvnkb.sourceforge.net/xvnkb/xvnkb-0.2.8a.tar.bz2
-
-http://xvnkb.sourceforge.net/
-GPL-2
-Vietnamese input keyboard for X
-x86 ppc
-toolchain-funcs multilib portability eutils
-spell xft
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=x11-libs/libX11 xft? ( x11-libs/libXft ) x11-proto/xproto
+DESCRIPTION=Vietnamese input keyboard for X
+EAPI=0
+HOMEPAGE=http://xvnkb.sourceforge.net/
+IUSE=spell xft
+KEYWORDS=x86 ppc
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 xft? ( x11-libs/libXft )
+SLOT=0
+SRC_URI=http://xvnkb.sourceforge.net/xvnkb/xvnkb-0.2.8a.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

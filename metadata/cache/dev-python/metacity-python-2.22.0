@@ -1,22 +1,14 @@
->=x11-wm/metacity-2.21.5 !<dev-python/gnome-python-desktop-2.22.0-r10 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4 ~dev-python/gnome-python-desktop-base-2.22.0 dev-util/pkgconfig
->=x11-wm/metacity-2.21.5 !<dev-python/gnome-python-desktop-2.22.0-r10 ~dev-python/gnome-python-desktop-base-2.22.0
-0
-mirror://gnome/sources/gnome-python-desktop/2.22/gnome-python-desktop-2.22.0.tar.bz2 mirror://gentoo/gnome-python-desktop-2.22.0-split.patch.gz
-test
-http://pygtk.org/
-GPL-2
-Python bindings for the Metacity window manager
-alpha ~amd64 ~hppa ~ia64 ~ppc ~sparc ~x86
-gnome2 toolchain-funcs portability python multilib versionator alternatives gnome2-utils gnome-python-common gnome.org fdo-mime autotools libtool eutils
-debug
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=x11-wm/metacity-2.21.5 !<dev-python/gnome-python-desktop-2.22.0-r10 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4 ~dev-python/gnome-python-desktop-base-2.22.0 dev-util/pkgconfig
+DESCRIPTION=Python bindings for the Metacity window manager
+EAPI=0
+HOMEPAGE=http://pygtk.org/
+IUSE=debug
+KEYWORDS=alpha ~amd64 ~hppa ~ia64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-wm/metacity-2.21.5 !<dev-python/gnome-python-desktop-2.22.0-r10 ~dev-python/gnome-python-desktop-base-2.22.0
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnome-python-desktop/2.22/gnome-python-desktop-2.22.0.tar.bz2 mirror://gentoo/gnome-python-desktop-2.22.0-split.patch.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome-python-common	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

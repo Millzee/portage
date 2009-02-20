@@ -1,22 +1,13 @@
-media-libs/libpng virtual/ghostscript media-libs/gd emf? ( >=media-libs/libemf-1.0.3 ) imagemagick? ( media-gfx/imagemagick ) plotutils? ( media-libs/plotutils )
-media-libs/libpng virtual/ghostscript media-libs/gd emf? ( >=media-libs/libemf-1.0.3 ) imagemagick? ( media-gfx/imagemagick ) plotutils? ( media-libs/plotutils )
-0
-mirror://sourceforge/pstoedit/pstoedit-3.45.tar.gz
-
-http://www.pstoedit.net/pstoedit
-GPL-2
-translates PostScript and PDF graphics into other vector formats
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs base multilib portability eutils
-emf imagemagick plotutils
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=media-libs/libpng virtual/ghostscript media-libs/gd emf? ( >=media-libs/libemf-1.0.3 ) imagemagick? ( media-gfx/imagemagick ) plotutils? ( media-libs/plotutils )
+DESCRIPTION=translates PostScript and PDF graphics into other vector formats
+EAPI=0
+HOMEPAGE=http://www.pstoedit.net/pstoedit
+IUSE=emf imagemagick plotutils
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng virtual/ghostscript media-libs/gd emf? ( >=media-libs/libemf-1.0.3 ) imagemagick? ( media-gfx/imagemagick ) plotutils? ( media-libs/plotutils )
+SLOT=0
+SRC_URI=mirror://sourceforge/pstoedit/pstoedit-3.45.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

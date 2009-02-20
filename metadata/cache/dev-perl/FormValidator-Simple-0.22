@@ -1,22 +1,12 @@
->=dev-perl/Class-Accessor-0.22 >=dev-perl/Class-Inspector-1.13 >=dev-perl/Class-Data-Inheritable-0.04 >=dev-perl/UNIVERSAL-require-0.10 dev-perl/MailTools >=dev-perl/Email-Valid-0.15 >=dev-perl/Email-Valid-Loose-0.04 >=dev-perl/Date-Calc-5.4 >=dev-perl/Tie-IxHash-1.21 >=dev-perl/yaml-0.39 >=dev-perl/List-MoreUtils-0.16 >=dev-perl/DateTime-Format-Strptime-1.0700
->=dev-perl/Class-Accessor-0.22 >=dev-perl/Class-Inspector-1.13 >=dev-perl/Class-Data-Inheritable-0.04 >=dev-perl/UNIVERSAL-require-0.10 dev-perl/MailTools >=dev-perl/Email-Valid-0.15 >=dev-perl/Email-Valid-Loose-0.04 >=dev-perl/Date-Calc-5.4 >=dev-perl/Tie-IxHash-1.21 >=dev-perl/yaml-0.39 >=dev-perl/List-MoreUtils-0.16 >=dev-perl/DateTime-Format-Strptime-1.0700
-0
-mirror://cpan/authors/id/L/LY/LYOKATO//FormValidator-Simple-0.22.tar.gz
-
-http://search.cpan.org/search?query=FormValidator-Simple&mode=dist
-|| ( Artistic GPL-2 )
-Validation with simple chains of constraints
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/Class-Accessor-0.22 >=dev-perl/Class-Inspector-1.13 >=dev-perl/Class-Data-Inheritable-0.04 >=dev-perl/UNIVERSAL-require-0.10 dev-perl/MailTools >=dev-perl/Email-Valid-0.15 >=dev-perl/Email-Valid-Loose-0.04 >=dev-perl/Date-Calc-5.4 >=dev-perl/Tie-IxHash-1.21 >=dev-perl/yaml-0.39 >=dev-perl/List-MoreUtils-0.16 >=dev-perl/DateTime-Format-Strptime-1.0700
+DESCRIPTION=Validation with simple chains of constraints
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=FormValidator-Simple&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Class-Accessor-0.22 >=dev-perl/Class-Inspector-1.13 >=dev-perl/Class-Data-Inheritable-0.04 >=dev-perl/UNIVERSAL-require-0.10 dev-perl/MailTools >=dev-perl/Email-Valid-0.15 >=dev-perl/Email-Valid-Loose-0.04 >=dev-perl/Date-Calc-5.4 >=dev-perl/Tie-IxHash-1.21 >=dev-perl/yaml-0.39 >=dev-perl/List-MoreUtils-0.16 >=dev-perl/DateTime-Format-Strptime-1.0700
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LY/LYOKATO//FormValidator-Simple-0.22.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

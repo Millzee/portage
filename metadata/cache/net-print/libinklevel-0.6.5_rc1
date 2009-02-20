@@ -1,22 +1,12 @@
-sys-libs/libieee1284
-sys-libs/libieee1284
-0
-mirror://sourceforge/libinklevel/libinklevel-0.6.5rc1.tar.gz
-
-http://libinklevel.sourceforge.net/
-GPL-2
-A library to get the ink level of your printer
-amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=sys-libs/libieee1284
+DESCRIPTION=A library to get the ink level of your printer
+EAPI=0
+HOMEPAGE=http://libinklevel.sourceforge.net/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/libieee1284
+SLOT=0
+SRC_URI=mirror://sourceforge/libinklevel/libinklevel-0.6.5rc1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

@@ -1,22 +1,12 @@
-app-arch/lha app-arch/unzip
-
-0
-mirror://idsoftware/quake/quake106.zip
-
-http://en.wikipedia.org/wiki/Quake_I
-quake1-demodata
-Demo data for Quake 1
-~amd64 ~x86
-toolchain-funcs portability versionator multilib base games eutils
-symlink
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/lha app-arch/unzip
+DESCRIPTION=Demo data for Quake 1
+EAPI=0
+HOMEPAGE=http://en.wikipedia.org/wiki/Quake_I
+IUSE=symlink
+KEYWORDS=~amd64 ~x86
+LICENSE=quake1-demodata
+SLOT=0
+SRC_URI=mirror://idsoftware/quake/quake106.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

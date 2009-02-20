@@ -1,22 +1,11 @@
-
-net-zope/zope app-admin/zprod-manager
-0
-http://www.infrae.com/download/SilvaViews/0.10/SilvaViews-0.10.tgz
-
-http://www.infrae.com/download/SilvaViews
-ZPL
-SilvaViews is a component that is used by Silva to attach views to objects
-~amd64 ~ppc ~x86
-zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DESCRIPTION=SilvaViews is a component that is used by Silva to attach views to objects
+EAPI=0
+HOMEPAGE=http://www.infrae.com/download/SilvaViews
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=ZPL
+RDEPEND=net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://www.infrae.com/download/SilvaViews/0.10/SilvaViews-0.10.tgz
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

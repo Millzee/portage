@@ -1,22 +1,13 @@
-dev-util/nvidia-cuda-toolkit >=x11-drivers/nvidia-drivers-177.73 virtual/glut
-dev-util/nvidia-cuda-toolkit >=x11-drivers/nvidia-drivers-177.73 virtual/glut
-0
-http://developer.download.nvidia.com/compute/cuda/2_0/linux/sdk/NVIDIA_CUDA_SDK_2.02.0807.1535_linux.run
-
-http://developer.nvidia.com/cuda
-CUDPP
-NVIDIA CUDA Software Development Kit
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-debug emulation
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-util/nvidia-cuda-toolkit >=x11-drivers/nvidia-drivers-177.73 virtual/glut
+DESCRIPTION=NVIDIA CUDA Software Development Kit
+EAPI=0
+HOMEPAGE=http://developer.nvidia.com/cuda
+IUSE=debug emulation
+KEYWORDS=~amd64 ~x86
+LICENSE=CUDPP
+RDEPEND=dev-util/nvidia-cuda-toolkit >=x11-drivers/nvidia-drivers-177.73 virtual/glut
+SLOT=0
+SRC_URI=http://developer.download.nvidia.com/compute/cuda/2_0/linux/sdk/NVIDIA_CUDA_SDK_2.02.0807.1535_linux.run
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

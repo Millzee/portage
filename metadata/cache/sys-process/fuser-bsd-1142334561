@@ -1,22 +1,12 @@
-virtual/pmake
-!sys-process/psmisc
-0
-http://mbsd.msk.ru/dist/fuser-1142334561.tar.bz2
-
-http://mbsd.msk.ru/stas/fuser.html
-BSD
-fuser(1) utility for *BSD
-~sparc-fbsd ~x86-fbsd
-toolchain-funcs portability flag-o-matic multilib base bsdmk eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/pmake
+DESCRIPTION=fuser(1) utility for *BSD
+EAPI=0
+HOMEPAGE=http://mbsd.msk.ru/stas/fuser.html
+KEYWORDS=~sparc-fbsd ~x86-fbsd
+LICENSE=BSD
+RDEPEND=!sys-process/psmisc
+SLOT=0
+SRC_URI=http://mbsd.msk.ru/dist/fuser-1142334561.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	bsdmk	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

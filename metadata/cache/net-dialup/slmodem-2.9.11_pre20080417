@@ -1,22 +1,13 @@
-alsa? ( media-libs/alsa-lib ) amd64? ( app-emulation/emul-linux-x86-soundlibs ) kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-alsa? ( media-libs/alsa-lib ) amd64? ( app-emulation/emul-linux-x86-soundlibs ) virtual/logger kernel_linux? ( virtual/modutils )
-0
-http://linmodems.technion.ac.il/packages/smartlink/slmodem-2.9.11-20080417.tar.gz http://linmodems.technion.ac.il/packages/smartlink/ungrab-winmodem-2.9.11-20080126.tar.gz
-
-http://linmodems.technion.ac.il/packages/smartlink/
-Smart-Link
-Driver for Smart Link modem
--* ~amd64 x86
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-alsa usb kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=alsa? ( media-libs/alsa-lib ) amd64? ( app-emulation/emul-linux-x86-soundlibs ) kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=Driver for Smart Link modem
+EAPI=0
+HOMEPAGE=http://linmodems.technion.ac.il/packages/smartlink/
+IUSE=alsa usb kernel_linux
+KEYWORDS=-* ~amd64 x86
+LICENSE=Smart-Link
+RDEPEND=alsa? ( media-libs/alsa-lib ) amd64? ( app-emulation/emul-linux-x86-soundlibs ) virtual/logger kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=http://linmodems.technion.ac.il/packages/smartlink/slmodem-2.9.11-20080417.tar.gz http://linmodems.technion.ac.il/packages/smartlink/ungrab-winmodem-2.9.11-20080126.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

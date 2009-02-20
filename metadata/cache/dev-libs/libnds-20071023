@@ -1,22 +1,12 @@
-dev-util/devkitarm-bin
-dev-util/devkitarm-bin
-0
-mirror://sourceforge/devkitpro/libnds-src-20071023.tar.bz2
-strip
-http://devkitpro.org/
-as-is
-Nintendo DS Libraries for devkitPro ARM
-~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-util/devkitarm-bin
+DESCRIPTION=Nintendo DS Libraries for devkitPro ARM
+EAPI=0
+HOMEPAGE=http://devkitpro.org/
+KEYWORDS=~x86
+LICENSE=as-is
+RDEPEND=dev-util/devkitarm-bin
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/devkitpro/libnds-src-20071023.tar.bz2
+_mtime_=1235082853

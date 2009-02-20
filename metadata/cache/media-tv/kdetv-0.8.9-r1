@@ -1,22 +1,13 @@
-zvbi? ( >=media-libs/zvbi-0.2.4 ) lirc? ( app-misc/lirc ) opengl? ( virtual/opengl x11-libs/qt[opengl] ) media-libs/alsa-lib x11-libs/libICE x11-libs/libXxf86dga x11-libs/libXrandr x11-libs/libX11 x11-libs/libXv x11-libs/libSM x11-libs/libXxf86vm x11-libs/libXext x11-libs/libXrender x11-proto/xf86dgaproto x11-proto/videoproto virtual/os-headers =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
-zvbi? ( >=media-libs/zvbi-0.2.4 ) lirc? ( app-misc/lirc ) opengl? ( virtual/opengl x11-libs/qt[opengl] ) media-libs/alsa-lib x11-libs/libICE x11-libs/libXxf86dga x11-libs/libXrandr x11-libs/libX11 x11-libs/libXv x11-libs/libSM x11-libs/libXxf86vm x11-libs/libXext x11-libs/libXrender =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
-0
-http://dziegel.free.fr/releases/kdetv-0.8.9.tar.bz2
-
-http://www.kde-apps.org/content/show.php?content=11602
-GPL-2
-A TV application for KDE
-~amd64 ~ppc ~x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-lirc zvbi opengl debug elibc_FreeBSD linguas_bg linguas_ca linguas_br linguas_da linguas_de linguas_cs linguas_cy linguas_el linguas_es linguas_et linguas_fi linguas_ga linguas_fr linguas_gl linguas_hu linguas_is linguas_it linguas_lt linguas_nb linguas_mt linguas_nl linguas_pa linguas_pl linguas_pt linguas_ro linguas_ru linguas_rw linguas_ta linguas_sr linguas_sv linguas_tr linguas_en_GB linguas_pt_BR linguas_zh_CN linguas_sr@Latn linguas_da linguas_et linguas_fr linguas_it linguas_nl linguas_pt linguas_ru linguas_sv xinerama
-
-
-
-2
-
-compile configure install postinst postrm preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=zvbi? ( >=media-libs/zvbi-0.2.4 ) lirc? ( app-misc/lirc ) opengl? ( virtual/opengl x11-libs/qt[opengl] ) media-libs/alsa-lib x11-libs/libICE x11-libs/libXxf86dga x11-libs/libXrandr x11-libs/libX11 x11-libs/libXv x11-libs/libSM x11-libs/libXxf86vm x11-libs/libXext x11-libs/libXrender x11-proto/xf86dgaproto x11-proto/videoproto virtual/os-headers =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
+DESCRIPTION=A TV application for KDE
+EAPI=2
+HOMEPAGE=http://www.kde-apps.org/content/show.php?content=11602
+IUSE=lirc zvbi opengl debug elibc_FreeBSD linguas_bg linguas_ca linguas_br linguas_da linguas_de linguas_cs linguas_cy linguas_el linguas_es linguas_et linguas_fi linguas_ga linguas_fr linguas_gl linguas_hu linguas_is linguas_it linguas_lt linguas_nb linguas_mt linguas_nl linguas_pa linguas_pl linguas_pt linguas_ro linguas_ru linguas_rw linguas_ta linguas_sr linguas_sv linguas_tr linguas_en_GB linguas_pt_BR linguas_zh_CN linguas_sr@Latn linguas_da linguas_et linguas_fr linguas_it linguas_nl linguas_pt linguas_ru linguas_sv xinerama
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=zvbi? ( >=media-libs/zvbi-0.2.4 ) lirc? ( app-misc/lirc ) opengl? ( virtual/opengl x11-libs/qt[opengl] ) media-libs/alsa-lib x11-libs/libICE x11-libs/libXxf86dga x11-libs/libXrandr x11-libs/libX11 x11-libs/libXv x11-libs/libSM x11-libs/libXxf86vm x11-libs/libXext x11-libs/libXrender =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
+SLOT=0
+SRC_URI=http://dziegel.free.fr/releases/kdetv-0.8.9.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

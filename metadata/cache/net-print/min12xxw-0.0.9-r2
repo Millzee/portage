@@ -1,22 +1,13 @@
-cups? ( net-print/cups net-print/foomatic-filters-ppds ) ppds? ( net-print/foomatic-filters-ppds ) sys-devel/gnuconfig
-cups? ( net-print/cups net-print/foomatic-filters-ppds ) ppds? ( net-print/foomatic-filters-ppds )
-0
-http://www.hinterbergen.de/mala/min12xxw/min12xxw-0.0.9.tar.gz
-
-http://www.hinterbergen.de/mala/min12xxw/
-GPL-2
-Driver for Minolta PagePro 1[234]xxW printers
-~x86 ~ppc ~alpha ~sparc ~hppa ~amd64
-toolchain-funcs multilib portability eutils gnuconfig
-cups ppds
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=cups? ( net-print/cups net-print/foomatic-filters-ppds ) ppds? ( net-print/foomatic-filters-ppds ) sys-devel/gnuconfig
+DESCRIPTION=Driver for Minolta PagePro 1[234]xxW printers
+EAPI=0
+HOMEPAGE=http://www.hinterbergen.de/mala/min12xxw/
+IUSE=cups ppds
+KEYWORDS=~x86 ~ppc ~alpha ~sparc ~hppa ~amd64
+LICENSE=GPL-2
+RDEPEND=cups? ( net-print/cups net-print/foomatic-filters-ppds ) ppds? ( net-print/foomatic-filters-ppds )
+SLOT=0
+SRC_URI=http://www.hinterbergen.de/mala/min12xxw/min12xxw-0.0.9.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	gnuconfig	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

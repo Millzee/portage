@@ -1,22 +1,13 @@
->=virtual/emacs-21
->=virtual/emacs-21
-0
-http://www.iro.umontreal.ca/~monnier/elisp/sml-mode-4.0.tar.gz
-test
-http://www.iro.umontreal.ca/~monnier/elisp/
-GPL-2
-Emacs major mode for editing Standard ML
-alpha amd64 ~ppc x86
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-21
+DESCRIPTION=Emacs major mode for editing Standard ML
+EAPI=0
+HOMEPAGE=http://www.iro.umontreal.ca/~monnier/elisp/
+KEYWORDS=alpha amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/emacs-21
+RESTRICT=test
+SLOT=0
+SRC_URI=http://www.iro.umontreal.ca/~monnier/elisp/sml-mode-4.0.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

@@ -1,22 +1,13 @@
-ssl? ( dev-libs/openssl ) net-nds/openldap =www-servers/apache-2.2*
-ssl? ( dev-libs/openssl ) net-nds/openldap =www-servers/apache-2.2*
-0
-http://horde.net/~jwm/software/mod_ldap_userdir/mod_ldap_userdir-1.1.11.tar.gz
-
-http://horde.net/~jwm/software/mod_ldap_userdir/
-GPL-1
-Apache module that enables ~/public_html from an LDAP directory.
-~ppc ~x86
-toolchain-funcs apache-module depend.apache multilib
-ssl
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=ssl? ( dev-libs/openssl ) net-nds/openldap =www-servers/apache-2.2*
+DESCRIPTION=Apache module that enables ~/public_html from an LDAP directory.
+EAPI=0
+HOMEPAGE=http://horde.net/~jwm/software/mod_ldap_userdir/
+IUSE=ssl
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-1
+RDEPEND=ssl? ( dev-libs/openssl ) net-nds/openldap =www-servers/apache-2.2*
+SLOT=0
+SRC_URI=http://horde.net/~jwm/software/mod_ldap_userdir/mod_ldap_userdir-1.1.11.tar.gz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

@@ -1,22 +1,12 @@
-~x11-libs/qt-3.3.8b dev-db/unixODBC
-~x11-libs/qt-3.3.8b dev-db/unixODBC
-3
-ftp://ftp.trolltech.com/qt/source/qt-x11-free-3.3.8b.tar.gz
-
-http://www.trolltech.com/
-|| ( QPL-1.0 GPL-2 GPL-3 )
-QT version 3.3.8b
-alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=~x11-libs/qt-3.3.8b dev-db/unixODBC
+DESCRIPTION=QT version 3.3.8b
+EAPI=0
+HOMEPAGE=http://www.trolltech.com/
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+LICENSE=|| ( QPL-1.0 GPL-2 GPL-3 )
+RDEPEND=~x11-libs/qt-3.3.8b dev-db/unixODBC
+SLOT=3
+SRC_URI=ftp://ftp.trolltech.com/qt/source/qt-x11-free-3.3.8b.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

@@ -1,22 +1,11 @@
-dev-lang/python dev-python/pmw dev-lang/tk media-libs/libpng sys-libs/zlib virtual/glut virtual/python dev-util/subversion net-misc/rsync
-dev-lang/python dev-python/pmw dev-lang/tk media-libs/libpng sys-libs/zlib virtual/glut
-0
-
-
-http://pymol.sourceforge.net/
-pymol
-A Python-extensible molecular graphics system.
-~amd64 ~ppc ~x86
-toolchain-funcs distutils portability python alternatives multilib subversion eutils
-
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=dev-lang/python dev-python/pmw dev-lang/tk media-libs/libpng sys-libs/zlib virtual/glut virtual/python dev-util/subversion net-misc/rsync
+DESCRIPTION=A Python-extensible molecular graphics system.
+EAPI=0
+HOMEPAGE=http://pymol.sourceforge.net/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=pymol
+RDEPEND=dev-lang/python dev-python/pmw dev-lang/tk media-libs/libpng sys-libs/zlib virtual/glut
+SLOT=0
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

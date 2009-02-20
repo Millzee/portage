@@ -1,22 +1,13 @@
-media-libs/libsdl media-libs/sdl-mixer nls? ( virtual/libintl ) sys-devel/gettext =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-media-libs/libsdl media-libs/sdl-mixer nls? ( virtual/libintl )
-0
-mirror://sourceforge/lgeneral/lgeneral-1.2beta-12.tar.gz mirror://sourceforge/lgeneral/pg-data.tar.gz
-
-http://lgames.sourceforge.net/index.php?project=LGeneral
-GPL-2
-A Panzer General clone written in SDL
-amd64 x86
-toolchain-funcs portability multilib base libtool games autotools eutils
-nls
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-mixer nls? ( virtual/libintl ) sys-devel/gettext =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A Panzer General clone written in SDL
+EAPI=2
+HOMEPAGE=http://lgames.sourceforge.net/index.php?project=LGeneral
+IUSE=nls
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-mixer nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/lgeneral/lgeneral-1.2beta-12.tar.gz mirror://sourceforge/lgeneral/pg-data.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

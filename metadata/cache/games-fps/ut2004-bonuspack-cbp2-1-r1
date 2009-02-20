@@ -1,22 +1,14 @@
-app-arch/unzip
-games-fps/ut2004 games-fps/ut2004-bonuspack-cbp1
-0
-mirror://liflg/cbp2_volume1-multilanguage.run mirror://liflg/cbp2_volume2-multilanguage.run
-mirror strip
-http://www.planetunreal.com/cbp/
-freedist
-UT2004 Community Bonus Pack 2 volumes 1 and 2 - Community Bonus Pack 2 volumes 1 and 2
--* amd64 x86
-toolchain-funcs portability multilib base games games-mods eutils
-dedicated opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=UT2004 Community Bonus Pack 2 volumes 1 and 2 - Community Bonus Pack 2 volumes 1 and 2
+EAPI=0
+HOMEPAGE=http://www.planetunreal.com/cbp/
+IUSE=dedicated opengl
+KEYWORDS=-* amd64 x86
+LICENSE=freedist
+RDEPEND=games-fps/ut2004 games-fps/ut2004-bonuspack-cbp1
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=mirror://liflg/cbp2_volume1-multilanguage.run mirror://liflg/cbp2_volume2-multilanguage.run
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	games-mods	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

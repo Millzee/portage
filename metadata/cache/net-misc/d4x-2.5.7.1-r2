@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2 dev-libs/boost ssl? ( dev-libs/openssl ) !ao? ( esd? ( media-sound/esound ) ) ao? ( media-libs/libao ) dev-util/pkgconfig nls? ( sys-devel/gettext dev-util/intltool )
->=x11-libs/gtk+-2 dev-libs/boost ssl? ( dev-libs/openssl ) !ao? ( esd? ( media-sound/esound ) ) ao? ( media-libs/libao )
-0
-http://d4x.krasu.ru/files/d4x-2.5.7.1.tar.bz2
-
-http://www.krasu.ru/soft/chuchelo
-Artistic
-GTK based download manager for X.
-amd64 ~ppc sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-ao esd nls oss ssl
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=>=x11-libs/gtk+-2 dev-libs/boost ssl? ( dev-libs/openssl ) !ao? ( esd? ( media-sound/esound ) ) ao? ( media-libs/libao ) dev-util/pkgconfig nls? ( sys-devel/gettext dev-util/intltool )
+DESCRIPTION=GTK based download manager for X.
+EAPI=0
+HOMEPAGE=http://www.krasu.ru/soft/chuchelo
+IUSE=ao esd nls oss ssl
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=Artistic
+RDEPEND=>=x11-libs/gtk+-2 dev-libs/boost ssl? ( dev-libs/openssl ) !ao? ( esd? ( media-sound/esound ) ) ao? ( media-libs/libao )
+SLOT=0
+SRC_URI=http://d4x.krasu.ru/files/d4x-2.5.7.1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

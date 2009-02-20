@@ -1,22 +1,12 @@
-virtual/python
-
-0
-mirror://sourceforge/scons/scons-1.2.0.tar.gz doc? ( http://www.scons.org/doc/1.2.0/PDF/scons-user.pdf -> scons-1.2.0-user.pdf http://www.scons.org/doc/1.2.0/HTML/scons-user.html -> scons-1.2.0-user.html )
-
-http://www.scons.org/
-MIT
-Extensible Python-based build utility
-~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs distutils portability python alternatives multilib eutils
-doc
-
-
-
-2
-
-compile install postinst postrm prepare unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm prepare unpack
+DEPEND=virtual/python
+DESCRIPTION=Extensible Python-based build utility
+EAPI=2
+HOMEPAGE=http://www.scons.org/
+IUSE=doc
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=MIT
+SLOT=0
+SRC_URI=mirror://sourceforge/scons/scons-1.2.0.tar.gz doc? ( http://www.scons.org/doc/1.2.0/PDF/scons-user.pdf -> scons-1.2.0-user.pdf http://www.scons.org/doc/1.2.0/HTML/scons-user.html -> scons-1.2.0-user.html )
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

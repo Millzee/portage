@@ -1,22 +1,12 @@
->=app-emulation/libspectrum-0.5 audiofile? ( >=media-libs/audiofile-0.2.3 ) dev-util/pkgconfig
->=app-emulation/libspectrum-0.5 audiofile? ( >=media-libs/audiofile-0.2.3 )
-0
-mirror://sourceforge/fuse-emulator/fuse-utils-0.10.0.1.tar.gz
-
-http://fuse-emulator.sourceforge.net
-GPL-2
-Utils for the Free Unix Spectrum Emulator by Philip Kendall
-~amd64 ~x86
-
-audiofile
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=app-emulation/libspectrum-0.5 audiofile? ( >=media-libs/audiofile-0.2.3 ) dev-util/pkgconfig
+DESCRIPTION=Utils for the Free Unix Spectrum Emulator by Philip Kendall
+EAPI=0
+HOMEPAGE=http://fuse-emulator.sourceforge.net
+IUSE=audiofile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-emulation/libspectrum-0.5 audiofile? ( >=media-libs/audiofile-0.2.3 )
+SLOT=0
+SRC_URI=mirror://sourceforge/fuse-emulator/fuse-utils-0.10.0.1.tar.gz
+_mtime_=1235082848

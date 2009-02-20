@@ -1,22 +1,13 @@
->=dev-lang/ocaml-3.09 >=virtual/postgresql-base-7.3 >=virtual/postgresql-server-7.3 >=dev-ml/findlib-1.0.4-r1
->=dev-lang/ocaml-3.09 >=virtual/postgresql-base-7.3 >=virtual/postgresql-server-7.3
-0
-http://ocaml.info/ocaml_sources/postgresql-ocaml-1.8.2.tar.bz2
-
-http://ocaml.info/home/ocaml_sources.html#toc9
-LGPL-2
-A package for ocaml that provides access to PostgreSQL databases.
-~amd64 ~ppc ~x86
-findlib toolchain-funcs multilib portability eutils
-examples +ocamlopt
-
-
-
-1
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=>=dev-lang/ocaml-3.09 >=virtual/postgresql-base-7.3 >=virtual/postgresql-server-7.3 >=dev-ml/findlib-1.0.4-r1
+DESCRIPTION=A package for ocaml that provides access to PostgreSQL databases.
+EAPI=1
+HOMEPAGE=http://ocaml.info/home/ocaml_sources.html#toc9
+IUSE=examples +ocamlopt
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=LGPL-2
+RDEPEND=>=dev-lang/ocaml-3.09 >=virtual/postgresql-base-7.3 >=virtual/postgresql-server-7.3
+SLOT=0
+SRC_URI=http://ocaml.info/ocaml_sources/postgresql-ocaml-1.8.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	findlib	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

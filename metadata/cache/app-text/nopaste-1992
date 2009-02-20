@@ -1,22 +1,11 @@
-
-dev-lang/ruby X? ( x11-misc/xclip )
-0
-http://n01se.net/agriffis/nopaste//nopaste-1992
-
-http://n01se.net/agriffis/nopaste/
-GPL-2
-command-line interface to rafb.net/paste
-alpha amd64 hppa ia64 ppc ~ppc64 ~sparc-fbsd ~sparc x86 ~x86-fbsd
-
-X
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=command-line interface to rafb.net/paste
+EAPI=0
+HOMEPAGE=http://n01se.net/agriffis/nopaste/
+IUSE=X
+KEYWORDS=alpha amd64 hppa ia64 ppc ~ppc64 ~sparc-fbsd ~sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=dev-lang/ruby X? ( x11-misc/xclip )
+SLOT=0
+SRC_URI=http://n01se.net/agriffis/nopaste//nopaste-1992
+_mtime_=1235082850

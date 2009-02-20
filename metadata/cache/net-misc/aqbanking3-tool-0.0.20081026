@@ -1,22 +1,12 @@
->=net-libs/aqbanking-3.0
->=net-libs/aqbanking-3.0
-0
-mirror://gentoo/aqbanking3-tool-0.0.20081026.tar.lzma
-
-http://peter.schlaile.de/aqbanking/
-GPL-2
-Free commandline tool for aqbanking.
-~x86 ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=net-libs/aqbanking-3.0
+DESCRIPTION=Free commandline tool for aqbanking.
+EAPI=0
+HOMEPAGE=http://peter.schlaile.de/aqbanking/
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=>=net-libs/aqbanking-3.0
+SLOT=0
+SRC_URI=mirror://gentoo/aqbanking3-tool-0.0.20081026.tar.lzma
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

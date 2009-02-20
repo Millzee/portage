@@ -1,22 +1,12 @@
-autopatcher? ( virtual/postgresql-base app-arch/bzip2 ) rakvoice? ( media-libs/speex ) dev-util/pkgconfig
-autopatcher? ( virtual/postgresql-base app-arch/bzip2 ) rakvoice? ( media-libs/speex )
-0
-mirror://sourceforge/raknetjenkinsso/raknet-3.07.tar.gz
-
-http://www.jenkinssoftware.com/
-CCPL-Attribution-NonCommercial-2.5
-Multiplayer game network engine
-~amd64 ~x86
-
-autopatcher doc rakvoice
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=autopatcher? ( virtual/postgresql-base app-arch/bzip2 ) rakvoice? ( media-libs/speex ) dev-util/pkgconfig
+DESCRIPTION=Multiplayer game network engine
+EAPI=0
+HOMEPAGE=http://www.jenkinssoftware.com/
+IUSE=autopatcher doc rakvoice
+KEYWORDS=~amd64 ~x86
+LICENSE=CCPL-Attribution-NonCommercial-2.5
+RDEPEND=autopatcher? ( virtual/postgresql-base app-arch/bzip2 ) rakvoice? ( media-libs/speex )
+SLOT=0
+SRC_URI=mirror://sourceforge/raknetjenkinsso/raknet-3.07.tar.gz
+_mtime_=1235082894

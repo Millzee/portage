@@ -1,22 +1,12 @@
-dev-libs/klibc kernel_linux? ( virtual/linux-sources )
-
-0
-http://dev.gentoo.org/~spock/projects/uvesafb/archive/v86d-0.1.9.tar.bz2
-
-http://dev.gentoo.org/~spock/projects/uvesafb/
-GPL-2
-A daemon to run x86 code in an emulated environment.
-amd64 x86
-toolchain-funcs portability versionator multilib linux-info eutils
-debug x86emu
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=dev-libs/klibc kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=A daemon to run x86 code in an emulated environment.
+EAPI=0
+HOMEPAGE=http://dev.gentoo.org/~spock/projects/uvesafb/
+IUSE=debug x86emu
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~spock/projects/uvesafb/archive/v86d-0.1.9.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

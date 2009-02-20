@@ -1,22 +1,11 @@
-app-text/ispell
-app-text/ispell
-0
-http://da.speling.org/filer/ispell-da-1.6.0.tar.gz
-
-http://da.speling.org/
-GPL-2
-A danish dictionary for ispell
-~x86 ~sparc ~amd64 ~alpha ~ppc ~hppa
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=app-text/ispell
+DESCRIPTION=A danish dictionary for ispell
+EAPI=0
+HOMEPAGE=http://da.speling.org/
+KEYWORDS=~x86 ~sparc ~amd64 ~alpha ~ppc ~hppa
+LICENSE=GPL-2
+RDEPEND=app-text/ispell
+SLOT=0
+SRC_URI=http://da.speling.org/filer/ispell-da-1.6.0.tar.gz
+_mtime_=1235082847

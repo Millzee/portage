@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-mirror://sourceforge/re2c/re2c-0.12.0.tar.gz
-
-http://re2c.sourceforge.net/
-public-domain
-tool for generating C-based recognizers from regular expressions
-alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=tool for generating C-based recognizers from regular expressions
+EAPI=0
+HOMEPAGE=http://re2c.sourceforge.net/
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=public-domain
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://sourceforge/re2c/re2c-0.12.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

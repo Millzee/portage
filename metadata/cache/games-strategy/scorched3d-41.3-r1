@@ -1,22 +1,13 @@
-media-libs/libsdl media-libs/sdl-net media-libs/libpng media-libs/jpeg !dedicated? ( virtual/opengl virtual/glu media-libs/libogg media-libs/libvorbis media-libs/openal media-libs/freealut =x11-libs/wxGTK-2.8* >=media-libs/freetype-2 >=sci-libs/fftw-3 ) mysql? ( virtual/mysql )
-media-libs/libsdl media-libs/sdl-net media-libs/libpng media-libs/jpeg !dedicated? ( virtual/opengl virtual/glu media-libs/libogg media-libs/libvorbis media-libs/openal media-libs/freealut =x11-libs/wxGTK-2.8* >=media-libs/freetype-2 >=sci-libs/fftw-3 ) mysql? ( virtual/mysql )
-0
-mirror://sourceforge/scorched3d/Scorched3D-41.3-src.tar.gz
-
-http://www.scorched3d.co.uk/
-GPL-2
-Multi-player tank battle in 3D (OpenGL)
-amd64 ppc ~ppc64 x86
-toolchain-funcs wxwidgets portability multilib base games eutils
-dedicated mysql
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-net media-libs/libpng media-libs/jpeg !dedicated? ( virtual/opengl virtual/glu media-libs/libogg media-libs/libvorbis media-libs/openal media-libs/freealut =x11-libs/wxGTK-2.8* >=media-libs/freetype-2 >=sci-libs/fftw-3 ) mysql? ( virtual/mysql )
+DESCRIPTION=Multi-player tank battle in 3D (OpenGL)
+EAPI=0
+HOMEPAGE=http://www.scorched3d.co.uk/
+IUSE=dedicated mysql
+KEYWORDS=amd64 ppc ~ppc64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-net media-libs/libpng media-libs/jpeg !dedicated? ( virtual/opengl virtual/glu media-libs/libogg media-libs/libvorbis media-libs/openal media-libs/freealut =x11-libs/wxGTK-2.8* >=media-libs/freetype-2 >=sci-libs/fftw-3 ) mysql? ( virtual/mysql )
+SLOT=0
+SRC_URI=mirror://sourceforge/scorched3d/Scorched3D-41.3-src.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

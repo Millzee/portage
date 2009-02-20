@@ -1,22 +1,13 @@
->=dev-libs/glib-2.10:2 dev-perl/XML-Parser >=gnome-base/libglade-2.3 >=media-libs/libmpd-0.17 net-misc/curl >=x11-libs/gtk+-2.12:2 x11-libs/libsexy session? ( x11-libs/libSM ) dev-util/gob dev-util/intltool dev-util/pkgconfig sys-devel/gettext >=sys-apps/sed-4
->=dev-libs/glib-2.10:2 dev-perl/XML-Parser >=gnome-base/libglade-2.3 >=media-libs/libmpd-0.17 net-misc/curl >=x11-libs/gtk+-2.12:2 x11-libs/libsexy session? ( x11-libs/libSM )
-0
-mirror://sourceforge/musicpd/gmpc-0.17.0.tar.gz
-
-http://gmpcwiki.sarine.nl/index.php/GMPC
-GPL-2
-A GTK+2 client for the Music Player Daemon
-~amd64 ~ppc ~sparc ~x86
-gnome2-utils
-session
-
-
-
-1
-
-compile install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst
+DEPEND=>=dev-libs/glib-2.10:2 dev-perl/XML-Parser >=gnome-base/libglade-2.3 >=media-libs/libmpd-0.17 net-misc/curl >=x11-libs/gtk+-2.12:2 x11-libs/libsexy session? ( x11-libs/libSM ) dev-util/gob dev-util/intltool dev-util/pkgconfig sys-devel/gettext >=sys-apps/sed-4
+DESCRIPTION=A GTK+2 client for the Music Player Daemon
+EAPI=1
+HOMEPAGE=http://gmpcwiki.sarine.nl/index.php/GMPC
+IUSE=session
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.10:2 dev-perl/XML-Parser >=gnome-base/libglade-2.3 >=media-libs/libmpd-0.17 net-misc/curl >=x11-libs/gtk+-2.12:2 x11-libs/libsexy session? ( x11-libs/libSM )
+SLOT=0
+SRC_URI=mirror://sourceforge/musicpd/gmpc-0.17.0.tar.gz
+_eclasses_=gnome2-utils	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

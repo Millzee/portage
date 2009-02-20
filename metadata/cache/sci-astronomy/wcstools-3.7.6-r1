@@ -1,22 +1,11 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-http://tdc-www.harvard.edu/software/wcstools/wcstools-3.7.6.tar.gz
-
-http://tdc-www.harvard.edu/software/wcstools
-GPL-2 LGPL-2.1
-World Coordinate System library for astronomical FITS images
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-2
-
-install postinst prepare test
-
-
-
-
-
+DEFINED_PHASES=install postinst prepare test
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=World Coordinate System library for astronomical FITS images
+EAPI=2
+HOMEPAGE=http://tdc-www.harvard.edu/software/wcstools
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2 LGPL-2.1
+SLOT=0
+SRC_URI=http://tdc-www.harvard.edu/software/wcstools/wcstools-3.7.6.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

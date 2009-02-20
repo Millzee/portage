@@ -1,22 +1,13 @@
-ncurses? ( sys-libs/ncurses ) java? ( >=virtual/jdk-1.5 ) java? ( >=dev-java/java-config-2.1.6 )
-ncurses? ( sys-libs/ncurses ) java? ( >=virtual/jre-1.5 ) java? ( >=dev-java/java-config-2.1.6 )
-0
-ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4-dist-cdf.tar.gz java? ( ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4-dist-java.tar.gz ) doc? ( ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32crm.pdf ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32frm.pdf ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32ifd.pdf ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32prm.pdf ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32ug.pdf java? ( ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32jrm.pdf ) )
-
-http://cdf.gsfc.nasa.gov/
-CDF
-Common Data Format I/O library for multi-dimensional data sets
-~amd64 ~ppc ~x86
-toolchain-funcs portability java-utils-2 versionator multilib java-pkg-opt-2 eutils
-doc examples java ncurses elibc_FreeBSD java
-
-
-
-
-
-compile install setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup test unpack
+DEPEND=ncurses? ( sys-libs/ncurses ) java? ( >=virtual/jdk-1.5 ) java? ( >=dev-java/java-config-2.1.6 )
+DESCRIPTION=Common Data Format I/O library for multi-dimensional data sets
+EAPI=0
+HOMEPAGE=http://cdf.gsfc.nasa.gov/
+IUSE=doc examples java ncurses elibc_FreeBSD java
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=CDF
+RDEPEND=ncurses? ( sys-libs/ncurses ) java? ( >=virtual/jre-1.5 ) java? ( >=dev-java/java-config-2.1.6 )
+SLOT=0
+SRC_URI=ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4-dist-cdf.tar.gz java? ( ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4-dist-java.tar.gz ) doc? ( ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32crm.pdf ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32frm.pdf ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32ifd.pdf ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32prm.pdf ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32ug.pdf java? ( ftp://cdaweb.gsfc.nasa.gov/pub/cdf/dist/cdf32_4/unix/cdf32_4_documentation/cdf32jrm.pdf ) )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-opt-2	/home/Funtoo/portage/eclass	1235083217	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

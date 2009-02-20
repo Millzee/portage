@@ -1,22 +1,12 @@
->=sys-libs/glibc-2.1 kernel_linux? ( virtual/linux-sources )
->=sys-libs/glibc-2.1
-0
-ftp://mersenne.org/gimps/sprime2414.tar.gz
-
-http://mersenne.org/
-as-is
-GIMPS - The Great Internet Mersenne Prime Search
--* amd64 x86
-linux-info toolchain-funcs multilib versionator
-
-
-
-
-0
-
-install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm setup
+DEPEND=>=sys-libs/glibc-2.1 kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=GIMPS - The Great Internet Mersenne Prime Search
+EAPI=0
+HOMEPAGE=http://mersenne.org/
+KEYWORDS=-* amd64 x86
+LICENSE=as-is
+RDEPEND=>=sys-libs/glibc-2.1
+SLOT=0
+SRC_URI=ftp://mersenne.org/gimps/sprime2414.tar.gz
+_eclasses_=linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

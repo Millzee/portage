@@ -1,22 +1,13 @@
-portaudio? ( >=media-libs/portaudio-18.1-r5 ) pulseaudio? ( media-sound/pulseaudio ) app-arch/unzip
-portaudio? ( >=media-libs/portaudio-18.1-r5 ) pulseaudio? ( media-sound/pulseaudio ) app-arch/unzip
-0
-mirror://sourceforge/espeak/espeak-1.39-source.zip
-
-http://espeak.sourceforge.net/
-GPL-3
-Speech synthesizer for English and other languages
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-portaudio pulseaudio
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=portaudio? ( >=media-libs/portaudio-18.1-r5 ) pulseaudio? ( media-sound/pulseaudio ) app-arch/unzip
+DESCRIPTION=Speech synthesizer for English and other languages
+EAPI=0
+HOMEPAGE=http://espeak.sourceforge.net/
+IUSE=portaudio pulseaudio
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=GPL-3
+RDEPEND=portaudio? ( >=media-libs/portaudio-18.1-r5 ) pulseaudio? ( media-sound/pulseaudio ) app-arch/unzip
+SLOT=0
+SRC_URI=mirror://sourceforge/espeak/espeak-1.39-source.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

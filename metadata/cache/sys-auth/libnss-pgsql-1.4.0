@@ -1,22 +1,12 @@
-virtual/postgresql-base app-text/xmlto =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/postgresql-base app-text/xmlto
-0
-http://pgfoundry.org/frs/download.php/605/libnss-pgsql-1.4.0.tgz
-
-http://pgfoundry.org/projects/sysauth/
-GPL-2
-Name Service Switch module for use with PostgreSQL
-~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/postgresql-base app-text/xmlto =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Name Service Switch module for use with PostgreSQL
+EAPI=0
+HOMEPAGE=http://pgfoundry.org/projects/sysauth/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=virtual/postgresql-base app-text/xmlto
+SLOT=0
+SRC_URI=http://pgfoundry.org/frs/download.php/605/libnss-pgsql-1.4.0.tgz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

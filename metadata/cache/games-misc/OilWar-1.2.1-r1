@@ -1,22 +1,12 @@
-media-libs/libsdl media-libs/sdl-image media-libs/sdl-mixer
-media-libs/libsdl media-libs/sdl-image media-libs/sdl-mixer
-0
-http://www.2ndpoint.fi/projektit/filut/OilWar-1.2.1.tar.gz mirror://gentoo/OilWar.png
-
-http://www.2ndpoint.fi/projektit/oilwar.html
-GPL-2
-Evil army is attacking your country and tries to steal your oil
-amd64 ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-image media-libs/sdl-mixer
+DESCRIPTION=Evil army is attacking your country and tries to steal your oil
+EAPI=0
+HOMEPAGE=http://www.2ndpoint.fi/projektit/oilwar.html
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-image media-libs/sdl-mixer
+SLOT=0
+SRC_URI=http://www.2ndpoint.fi/projektit/filut/OilWar-1.2.1.tar.gz mirror://gentoo/OilWar.png
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

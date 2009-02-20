@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2 >=gnome-base/libglade-2 >=dev-libs/libxml2-2 >=dev-scheme/guile-1.4 dev-util/pkgconfig
->=x11-libs/gtk+-2 >=gnome-base/libglade-2 >=dev-libs/libxml2-2 >=dev-scheme/guile-1.4
-0
-mirror://sourceforge/ofset/drgeo-1.1.0.tar.gz mirror://sourceforge/ofset/drgeo-doc-1.5.tar.gz
-
-http://www.ofset.org/drgeo
-GPL-2
-Interactive geometry package
-amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-nls
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=>=x11-libs/gtk+-2 >=gnome-base/libglade-2 >=dev-libs/libxml2-2 >=dev-scheme/guile-1.4 dev-util/pkgconfig
+DESCRIPTION=Interactive geometry package
+EAPI=0
+HOMEPAGE=http://www.ofset.org/drgeo
+IUSE=nls
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2 >=gnome-base/libglade-2 >=dev-libs/libxml2-2 >=dev-scheme/guile-1.4
+SLOT=0
+SRC_URI=mirror://sourceforge/ofset/drgeo-1.1.0.tar.gz mirror://sourceforge/ofset/drgeo-doc-1.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

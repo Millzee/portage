@@ -1,22 +1,13 @@
->=x11-wm/windowmaker-0.91.0-r1 >=x11-libs/libdockapp-0.6.0 >=x11-libs/libPropList-0.10.1-r3 >=media-libs/audiofile-0.2.6-r1 esd? ( >=media-sound/esound-0.2.34 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=x11-wm/windowmaker-0.91.0-r1 >=x11-libs/libdockapp-0.6.0 >=x11-libs/libPropList-0.10.1-r3 >=media-libs/audiofile-0.2.6-r1 esd? ( >=media-sound/esound-0.2.34 ) >=media-sound/wmsound-data-1.0.0
-0
-http://vlaadworld.net/public/WSoundServer-0.4.1-new.tar.gz
-
-http://vlaadworld.net/
-GPL-2
-WindowMaker sound server
-~ppc x86
-toolchain-funcs portability multilib libtool autotools eutils
-esd
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=x11-wm/windowmaker-0.91.0-r1 >=x11-libs/libdockapp-0.6.0 >=x11-libs/libPropList-0.10.1-r3 >=media-libs/audiofile-0.2.6-r1 esd? ( >=media-sound/esound-0.2.34 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=WindowMaker sound server
+EAPI=0
+HOMEPAGE=http://vlaadworld.net/
+IUSE=esd
+KEYWORDS=~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-wm/windowmaker-0.91.0-r1 >=x11-libs/libdockapp-0.6.0 >=x11-libs/libPropList-0.10.1-r3 >=media-libs/audiofile-0.2.6-r1 esd? ( >=media-sound/esound-0.2.34 ) >=media-sound/wmsound-data-1.0.0
+SLOT=0
+SRC_URI=http://vlaadworld.net/public/WSoundServer-0.4.1-new.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

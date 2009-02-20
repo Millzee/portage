@@ -1,22 +1,12 @@
-virtual/libc
-!net-mail/mailutils
-0
-mirror://sourceforge/libsieve/libsieve-2.2.6.tar.gz
-
-http://libsieve.sourceforge.net/
-MIT LGPL-2
-A library for parsing, sorting and filtering your mail.
-~sparc ~ppc ~alpha ~amd64 ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=A library for parsing, sorting and filtering your mail.
+EAPI=0
+HOMEPAGE=http://libsieve.sourceforge.net/
+KEYWORDS=~sparc ~ppc ~alpha ~amd64 ~x86
+LICENSE=MIT LGPL-2
+RDEPEND=!net-mail/mailutils
+SLOT=0
+SRC_URI=mirror://sourceforge/libsieve/libsieve-2.2.6.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

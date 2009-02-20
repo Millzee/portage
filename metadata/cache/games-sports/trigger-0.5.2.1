@@ -1,22 +1,12 @@
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-image[jpeg,png] media-libs/sdl-mixer media-libs/openal media-libs/freealut dev-games/physfs dev-util/ftjam
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-image[jpeg,png] media-libs/sdl-mixer media-libs/openal media-libs/freealut dev-games/physfs
-0
-mirror://sourceforge/trigger-rally/trigger-0.5.2.1-src.tar.bz2 mirror://sourceforge/trigger-rally/trigger-0.5.2-data.tar.bz2
-
-http://www.positro.net/trigger/
-GPL-2
-Free OpenGL rally car racing game
-amd64 ~ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-image[jpeg,png] media-libs/sdl-mixer media-libs/openal media-libs/freealut dev-games/physfs dev-util/ftjam
+DESCRIPTION=Free OpenGL rally car racing game
+EAPI=2
+HOMEPAGE=http://www.positro.net/trigger/
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-image[jpeg,png] media-libs/sdl-mixer media-libs/openal media-libs/freealut dev-games/physfs
+SLOT=0
+SRC_URI=mirror://sourceforge/trigger-rally/trigger-0.5.2.1-src.tar.bz2 mirror://sourceforge/trigger-rally/trigger-0.5.2-data.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

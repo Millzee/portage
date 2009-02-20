@@ -1,22 +1,12 @@
-mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) sqlite? ( dev-db/sqlite:3 ) >=dev-libs/cxxtools-1.4.8 doc? ( app-doc/doxygen )
-mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) sqlite? ( dev-db/sqlite:3 ) >=dev-libs/cxxtools-1.4.8
-0
-http://www.tntnet.org/download/tntdb-1.0.1.tar.gz
-
-http://www.tntnet.org/tntdb.hms
-LGPL-2
-A c++-class-library for easy and light database-access. Currently for postgresql, sqlite3 and mysql
-~amd64 ~x86
-
-doc mysql postgres sqlite
-
-
-
-2
-
-configure install
-
-
-
-
-
+DEFINED_PHASES=configure install
+DEPEND=mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) sqlite? ( dev-db/sqlite:3 ) >=dev-libs/cxxtools-1.4.8 doc? ( app-doc/doxygen )
+DESCRIPTION=A c++-class-library for easy and light database-access. Currently for postgresql, sqlite3 and mysql
+EAPI=2
+HOMEPAGE=http://www.tntnet.org/tntdb.hms
+IUSE=doc mysql postgres sqlite
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2
+RDEPEND=mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-base ) sqlite? ( dev-db/sqlite:3 ) >=dev-libs/cxxtools-1.4.8
+SLOT=0
+SRC_URI=http://www.tntnet.org/download/tntdb-1.0.1.tar.gz
+_mtime_=1235082854

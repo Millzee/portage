@@ -1,22 +1,11 @@
-sys-devel/binutils !dev-util/git !dev-util/cogito
-sys-devel/binutils !dev-util/git !dev-util/cogito
-0
-mirror://gnu/git/git-4.3.20.tar.gz
-
-http://www.gnu.org/software/git/
-GPL-2
-GNU Interactive Tools - increase speed and efficiency of most daily task
-x86 amd64 ppc sparc
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=sys-devel/binutils !dev-util/git !dev-util/cogito
+DESCRIPTION=GNU Interactive Tools - increase speed and efficiency of most daily task
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/git/
+KEYWORDS=x86 amd64 ppc sparc
+LICENSE=GPL-2
+RDEPEND=sys-devel/binutils !dev-util/git !dev-util/cogito
+SLOT=0
+SRC_URI=mirror://gnu/git/git-4.3.20.tar.gz
+_mtime_=1235082849

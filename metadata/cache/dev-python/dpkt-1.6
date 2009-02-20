@@ -1,22 +1,13 @@
->=dev-lang/python-2.3 virtual/python
->=dev-lang/python-2.3
-0
-http://dpkt.googlecode.com/files/dpkt-1.6.tar.gz
-
-http://code.google.com/p/dpkt/
-BSD
-Fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols.
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-examples
-
-
-
-0
-
-compile install postinst postrm test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm test unpack
+DEPEND=>=dev-lang/python-2.3 virtual/python
+DESCRIPTION=Fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols.
+EAPI=0
+HOMEPAGE=http://code.google.com/p/dpkt/
+IUSE=examples
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/python-2.3
+SLOT=0
+SRC_URI=http://dpkt.googlecode.com/files/dpkt-1.6.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

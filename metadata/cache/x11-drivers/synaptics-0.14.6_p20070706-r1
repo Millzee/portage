@@ -1,22 +1,13 @@
-x11-libs/libXext hal? ( sys-apps/hal ) x11-base/xorg-server x11-proto/inputproto >=sys-apps/sed-4 !x11-drivers/xf86-input-synaptics kernel_linux? ( virtual/linux-sources )
-x11-libs/libXext hal? ( sys-apps/hal )
-0
-http://dev.gentoo.org/~calchan/distfiles/synaptics-0.14.6_p20070706.tar.bz2
-
-http://w1.894.telia.com/~u89404340/touchpad/
-GPL-2
-Driver for Synaptics touchpads
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs portability versionator multilib linux-info eutils
-hal
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=x11-libs/libXext hal? ( sys-apps/hal ) x11-base/xorg-server x11-proto/inputproto >=sys-apps/sed-4 !x11-drivers/xf86-input-synaptics kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=Driver for Synaptics touchpads
+EAPI=0
+HOMEPAGE=http://w1.894.telia.com/~u89404340/touchpad/
+IUSE=hal
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXext hal? ( sys-apps/hal )
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~calchan/distfiles/synaptics-0.14.6_p20070706.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

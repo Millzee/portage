@@ -1,22 +1,14 @@
-ssl? ( dev-libs/openssl ) !virtual/mailx
-ssl? ( dev-libs/openssl ) !virtual/mailx
-0
-mirror://sourceforge/nail/nail-11.25.tar.bz2
-
-http://nail.sourceforge.net/
-BSD
-Nail is an enhanced mailx-compatible mail client
-alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-ssl net
-
-
-virtual/mailx
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=ssl? ( dev-libs/openssl ) !virtual/mailx
+DESCRIPTION=Nail is an enhanced mailx-compatible mail client
+EAPI=0
+HOMEPAGE=http://nail.sourceforge.net/
+IUSE=ssl net
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+LICENSE=BSD
+PROVIDE=virtual/mailx
+RDEPEND=ssl? ( dev-libs/openssl ) !virtual/mailx
+SLOT=0
+SRC_URI=mirror://sourceforge/nail/nail-11.25.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

@@ -1,22 +1,13 @@
->=gnome-extra/gnome-media-2.14 >=media-libs/gst-plugins-base-0.10 lirc? ( app-misc/lirc ) dev-util/pkgconfig dev-util/intltool app-text/scrollkeeper >=sys-apps/sed-4
->=gnome-extra/gnome-media-2.14 >=media-libs/gst-plugins-base-0.10 lirc? ( app-misc/lirc )
-0
-http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/packages/gnomeradio-1.7.tar.gz
-
-http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio
-GPL-2
-A GNOME2 radio tuner
-~amd64 ~ppc ~sparc ~x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-lirc
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=>=gnome-extra/gnome-media-2.14 >=media-libs/gst-plugins-base-0.10 lirc? ( app-misc/lirc ) dev-util/pkgconfig dev-util/intltool app-text/scrollkeeper >=sys-apps/sed-4
+DESCRIPTION=A GNOME2 radio tuner
+EAPI=0
+HOMEPAGE=http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio
+IUSE=lirc
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=gnome-extra/gnome-media-2.14 >=media-libs/gst-plugins-base-0.10 lirc? ( app-misc/lirc )
+SLOT=0
+SRC_URI=http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/packages/gnomeradio-1.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

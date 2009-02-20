@@ -1,22 +1,13 @@
->=media-libs/alsa-lib-0.9.0[midi] >=dev-cpp/gtkmm-2.4 >=dev-libs/libsigc++-2.2 jack? ( >=media-sound/jack-audio-connection-kit-0.90.0 ) lash? ( >=media-sound/lash-0.5.0 ) dev-util/pkgconfig
->=media-libs/alsa-lib-0.9.0[midi] >=dev-cpp/gtkmm-2.4 >=dev-libs/libsigc++-2.2 jack? ( >=media-sound/jack-audio-connection-kit-0.90.0 ) lash? ( >=media-sound/lash-0.5.0 )
-0
-http://edge.launchpad.net/seq24/trunk/0.9.0/+download/seq24-0.9.0.tar.bz2
-
-https://edge.launchpad.net/seq24/
-GPL-2
-Seq24 is a loop based MIDI sequencer with focus on live performances.
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-jack lash
-
-
-
-2
-
-configure install
-
-
-
-
-
+DEFINED_PHASES=configure install
+DEPEND=>=media-libs/alsa-lib-0.9.0[midi] >=dev-cpp/gtkmm-2.4 >=dev-libs/libsigc++-2.2 jack? ( >=media-sound/jack-audio-connection-kit-0.90.0 ) lash? ( >=media-sound/lash-0.5.0 ) dev-util/pkgconfig
+DESCRIPTION=Seq24 is a loop based MIDI sequencer with focus on live performances.
+EAPI=2
+HOMEPAGE=https://edge.launchpad.net/seq24/
+IUSE=jack lash
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/alsa-lib-0.9.0[midi] >=dev-cpp/gtkmm-2.4 >=dev-libs/libsigc++-2.2 jack? ( >=media-sound/jack-audio-connection-kit-0.90.0 ) lash? ( >=media-sound/lash-0.5.0 )
+SLOT=0
+SRC_URI=http://edge.launchpad.net/seq24/trunk/0.9.0/+download/seq24-0.9.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

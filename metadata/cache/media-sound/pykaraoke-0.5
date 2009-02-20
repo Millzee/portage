@@ -1,22 +1,12 @@
-app-arch/unzip virtual/python
->=dev-python/pygame-1.6.2 >=dev-python/wxpython-2.6.1.0:2.6 >=dev-python/numeric-23.7 >=media-libs/libsdl-1.2.8-r1
-0
-mirror://sourceforge/pykaraoke/pykaraoke-0.5.zip
-
-http://www.kibosh.org/pykaraoke/index.php
-LGPL-2
-Karaoke player for Linux
-~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-1
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=app-arch/unzip virtual/python
+DESCRIPTION=Karaoke player for Linux
+EAPI=1
+HOMEPAGE=http://www.kibosh.org/pykaraoke/index.php
+KEYWORDS=~x86
+LICENSE=LGPL-2
+RDEPEND=>=dev-python/pygame-1.6.2 >=dev-python/wxpython-2.6.1.0:2.6 >=dev-python/numeric-23.7 >=media-libs/libsdl-1.2.8-r1
+SLOT=0
+SRC_URI=mirror://sourceforge/pykaraoke/pykaraoke-0.5.zip
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

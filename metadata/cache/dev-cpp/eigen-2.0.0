@@ -1,22 +1,12 @@
-!dev-cpp/eigen:0 >=dev-util/cmake-2.4.6
-!dev-cpp/eigen:0
-2
-http://download.tuxfamily.org/eigen/eigen-2.0.0.tar.bz2
-
-http://eigen.tuxfamily.org/
-GPL-3
-Lightweight C++ template library for vector and matrix math, a.k.a. linear algebra
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-
-
-
-
-2
-
-compile configure install test
-
-
-
-
-
+DEFINED_PHASES=compile configure install test
+DEPEND=!dev-cpp/eigen:0 >=dev-util/cmake-2.4.6
+DESCRIPTION=Lightweight C++ template library for vector and matrix math, a.k.a. linear algebra
+EAPI=2
+HOMEPAGE=http://eigen.tuxfamily.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=!dev-cpp/eigen:0
+SLOT=2
+SRC_URI=http://download.tuxfamily.org/eigen/eigen-2.0.0.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

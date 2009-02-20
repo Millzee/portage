@@ -1,22 +1,13 @@
->=dev-lang/ocaml-3.10.0 >=dev-ml/camlimages-2.20-r2 virtual/latex-base virtual/ghostscript x11-libs/libXinerama || ( ( dev-texlive/texlive-pstricks dev-texlive/texlive-pictures ) app-text/tetex app-text/ptex ) x11-proto/xineramaproto dev-ml/findlib dev-tex/hevea =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=dev-lang/ocaml-3.10.0 >=dev-ml/camlimages-2.20-r2 virtual/latex-base virtual/ghostscript x11-libs/libXinerama
-0
-http://pauillac.inria.fr/advi/advi-1.7.3.tar.gz
-
-http://pauillac.inria.fr/advi/
-LGPL-2.1
-A DVI previewer and a presenter for slides written in LaTeX
-~amd64 ~ppc x86
-toolchain-funcs portability multilib libtool autotools eutils
-+ocamlopt tk
-
-
-
-1
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=dev-lang/ocaml-3.10.0 >=dev-ml/camlimages-2.20-r2 virtual/latex-base virtual/ghostscript x11-libs/libXinerama || ( ( dev-texlive/texlive-pstricks dev-texlive/texlive-pictures ) app-text/tetex app-text/ptex ) x11-proto/xineramaproto dev-ml/findlib dev-tex/hevea =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A DVI previewer and a presenter for slides written in LaTeX
+EAPI=1
+HOMEPAGE=http://pauillac.inria.fr/advi/
+IUSE=+ocamlopt tk
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-lang/ocaml-3.10.0 >=dev-ml/camlimages-2.20-r2 virtual/latex-base virtual/ghostscript x11-libs/libXinerama
+SLOT=0
+SRC_URI=http://pauillac.inria.fr/advi/advi-1.7.3.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

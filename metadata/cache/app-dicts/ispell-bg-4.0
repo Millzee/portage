@@ -1,22 +1,11 @@
-app-text/ispell
-app-text/ispell
-0
-mirror://sourceforge/bgoffice/ispell-bg-4.0.tar.gz
-
-http://sourceforge.net/projects/bgoffice
-GPL-2
-Bulgarian dictionary for ispell
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=app-text/ispell
+DESCRIPTION=Bulgarian dictionary for ispell
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/bgoffice
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=app-text/ispell
+SLOT=0
+SRC_URI=mirror://sourceforge/bgoffice/ispell-bg-4.0.tar.gz
+_mtime_=1235082847

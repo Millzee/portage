@@ -1,22 +1,13 @@
-dev-lang/perl test? ( dev-perl/Test-Pod-Coverage dev-perl/Test-Pod )
-dev-lang/perl test? ( dev-perl/Test-Pod-Coverage dev-perl/Test-Pod )
-0
-mirror://cpan/authors/id/R/RJ/RJBS/Data-UUID-1.148.tar.gz
-
-http://search.cpan.org/~rjbs/
-|| ( Artistic GPL-2 )
-Perl extension for generating Globally/Universally Unique Identifiers (GUIDs/UUIDs).
-amd64 ia64 ppc ~ppc64 sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-test
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl test? ( dev-perl/Test-Pod-Coverage dev-perl/Test-Pod )
+DESCRIPTION=Perl extension for generating Globally/Universally Unique Identifiers (GUIDs/UUIDs).
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~rjbs/
+IUSE=test
+KEYWORDS=amd64 ia64 ppc ~ppc64 sparc x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-lang/perl test? ( dev-perl/Test-Pod-Coverage dev-perl/Test-Pod )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Data-UUID-1.148.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

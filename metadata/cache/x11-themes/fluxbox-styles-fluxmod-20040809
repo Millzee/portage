@@ -1,22 +1,11 @@
->=sys-apps/sed-4
->=x11-wm/fluxbox-0.9.8
-0
-mirror://gentoo/fluxbox-styles-fluxmod-20040809.tar.bz2
-
-http://tenr.de/styles/
-GPL-2
-A collection of FluxBox themes from FluxMod
-x86 sparc mips ppc ~alpha ~hppa ~amd64 ~ia64 ~ppc64
-
-
-
-
-
-0
-
-install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst unpack
+DEPEND=>=sys-apps/sed-4
+DESCRIPTION=A collection of FluxBox themes from FluxMod
+EAPI=0
+HOMEPAGE=http://tenr.de/styles/
+KEYWORDS=x86 sparc mips ppc ~alpha ~hppa ~amd64 ~ia64 ~ppc64
+LICENSE=GPL-2
+RDEPEND=>=x11-wm/fluxbox-0.9.8
+SLOT=0
+SRC_URI=mirror://gentoo/fluxbox-styles-fluxmod-20040809.tar.bz2
+_mtime_=1235082910

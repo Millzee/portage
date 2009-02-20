@@ -1,22 +1,13 @@
-x11-libs/libX11
-x11-libs/libX11
-0
-ftp://ftp.ecn.purdue.edu/qobi/stalin-0.11.tgz
-strip
-http://community.schemewiki.org/?Stalin
-GPL-3
-An aggressively optimizing Scheme compiler.
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup test unpack
+DEPEND=x11-libs/libX11
+DESCRIPTION=An aggressively optimizing Scheme compiler.
+EAPI=0
+HOMEPAGE=http://community.schemewiki.org/?Stalin
+KEYWORDS=~x86
+LICENSE=GPL-3
+RDEPEND=x11-libs/libX11
+RESTRICT=strip
+SLOT=0
+SRC_URI=ftp://ftp.ecn.purdue.edu/qobi/stalin-0.11.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

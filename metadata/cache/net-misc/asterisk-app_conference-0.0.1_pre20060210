@@ -1,22 +1,12 @@
-sys-libs/glibc >=net-misc/asterisk-1.2.0 !=net-misc/asterisk-1.0*
-sys-libs/glibc >=net-misc/asterisk-1.2.0 !=net-misc/asterisk-1.0*
-0
-http://www.netdomination.org/pub/asterisk/app_conference-20060210.tar.bz2
-
-http://iaxclient.sourceforge.net/
-GPL-2
-Asterisk application plugin for conferences
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-libs/glibc >=net-misc/asterisk-1.2.0 !=net-misc/asterisk-1.0*
+DESCRIPTION=Asterisk application plugin for conferences
+EAPI=0
+HOMEPAGE=http://iaxclient.sourceforge.net/
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/glibc >=net-misc/asterisk-1.2.0 !=net-misc/asterisk-1.0*
+SLOT=0
+SRC_URI=http://www.netdomination.org/pub/asterisk/app_conference-20060210.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

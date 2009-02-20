@@ -1,22 +1,10 @@
-
-~app-office/karbon-1.6.3_p20090204 ~app-office/kchart-1.6.3_p20090204 ~app-office/kexi-1.6.3_p20090204 ~app-office/kformula-1.6.3_p20090204 ~app-office/kivio-1.6.3_p20090204 ~app-office/koffice-data-1.6.3_p20090204 ~app-office/koffice-libs-1.6.3_p20090204 ~app-office/koshell-1.6.3_p20090204 ~app-office/kplato-1.6.3_p20090204 ~app-office/kpresenter-1.6.3_p20090204 ~app-office/krita-1.6.3_p20090204 ~app-office/kspread-1.6.3_p20090204 ~app-office/kugar-1.6.3_p20090204 ~app-office/kword-1.6.3_p20090204
-0
-
-
-http://www.koffice.org/
-GPL-2
-KOffice - merge this to pull in all KOffice-derived packages.
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs qt3 portability versionator multilib kde-functions eutils
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=KOffice - merge this to pull in all KOffice-derived packages.
+EAPI=0
+HOMEPAGE=http://www.koffice.org/
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=~app-office/karbon-1.6.3_p20090204 ~app-office/kchart-1.6.3_p20090204 ~app-office/kexi-1.6.3_p20090204 ~app-office/kformula-1.6.3_p20090204 ~app-office/kivio-1.6.3_p20090204 ~app-office/koffice-data-1.6.3_p20090204 ~app-office/koffice-libs-1.6.3_p20090204 ~app-office/koshell-1.6.3_p20090204 ~app-office/kplato-1.6.3_p20090204 ~app-office/kpresenter-1.6.3_p20090204 ~app-office/krita-1.6.3_p20090204 ~app-office/kspread-1.6.3_p20090204 ~app-office/kugar-1.6.3_p20090204 ~app-office/kword-1.6.3_p20090204
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

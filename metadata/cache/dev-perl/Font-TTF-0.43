@@ -1,22 +1,12 @@
-virtual/perl-Compress-Zlib dev-perl/XML-Parser dev-lang/perl
-virtual/perl-Compress-Zlib dev-perl/XML-Parser dev-lang/perl
-0
-mirror://cpan/authors/id/M/MH/MHOSKEN/Font-TTF-0.43.tar.gz
-
-http://search.cpan.org/~mhosken/Font-TTF-0.43/
-GPL-2
-This module is used for compiling and altering fonts.
-~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-Compress-Zlib dev-perl/XML-Parser dev-lang/perl
+DESCRIPTION=This module is used for compiling and altering fonts.
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~mhosken/Font-TTF-0.43/
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=virtual/perl-Compress-Zlib dev-perl/XML-Parser dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MH/MHOSKEN/Font-TTF-0.43.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

@@ -1,22 +1,11 @@
-virtual/libc sys-kernel/linux-headers
-virtual/libc
-0
-http://www.vanheusden.com/setpwc/setpwc-1.1.tgz
-
-http://www.vanheusden.com/setpwc/
-GPL-1 GPL-2
-Control various aspects of Philips (and compatible) webcams
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc sys-kernel/linux-headers
+DESCRIPTION=Control various aspects of Philips (and compatible) webcams
+EAPI=0
+HOMEPAGE=http://www.vanheusden.com/setpwc/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-1 GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://www.vanheusden.com/setpwc/setpwc-1.1.tgz
+_mtime_=1235082870

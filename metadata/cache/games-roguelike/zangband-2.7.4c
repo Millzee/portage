@@ -1,22 +1,13 @@
-tk? ( dev-lang/tcl dev-lang/tk ) x11-libs/libXaw x11-proto/xextproto
-tk? ( dev-lang/tcl dev-lang/tk ) x11-libs/libXaw
-0
-ftp://ftp.sunet.se/pub/games/Angband/Variant/ZAngband/zangband-2.7.4c.tar.gz
-
-http://www.zangband.org/
-Moria
-An enhanced version of the Roguelike game Angband
-~ppc ~x86 ~x86-fbsd
-toolchain-funcs portability multilib base games eutils
-tk
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=tk? ( dev-lang/tcl dev-lang/tk ) x11-libs/libXaw x11-proto/xextproto
+DESCRIPTION=An enhanced version of the Roguelike game Angband
+EAPI=0
+HOMEPAGE=http://www.zangband.org/
+IUSE=tk
+KEYWORDS=~ppc ~x86 ~x86-fbsd
+LICENSE=Moria
+RDEPEND=tk? ( dev-lang/tcl dev-lang/tk ) x11-libs/libXaw
+SLOT=0
+SRC_URI=ftp://ftp.sunet.se/pub/games/Angband/Variant/ZAngband/zangband-2.7.4c.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

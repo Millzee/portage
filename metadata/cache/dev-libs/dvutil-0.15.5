@@ -1,22 +1,13 @@
-ssl? ( dev-libs/openssl )
-ssl? ( dev-libs/openssl )
-0
-http://tinf2.vub.ac.be/~dvermeir/software/dv/dvutil/download/dvutil-0.15.5.tar.gz
-
-http://tinf2.vub.ac.be/~dvermeir/software/dv/dvutil/html/
-GPL-2
-Provides some general C++ utility classes for files, directories, dates, property lists, reference counted pointers, number conversion etc.
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc ssl
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=ssl? ( dev-libs/openssl )
+DESCRIPTION=Provides some general C++ utility classes for files, directories, dates, property lists, reference counted pointers, number conversion etc.
+EAPI=0
+HOMEPAGE=http://tinf2.vub.ac.be/~dvermeir/software/dv/dvutil/html/
+IUSE=doc ssl
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=http://tinf2.vub.ac.be/~dvermeir/software/dv/dvutil/download/dvutil-0.15.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

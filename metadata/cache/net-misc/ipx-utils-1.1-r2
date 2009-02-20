@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-ftp://sunsite.unc.edu/pub/Linux/system/filesystems/ncpfs/ipx-1.1.tar.gz
-
-ftp://sunsite.unc.edu/pub/Linux/system/filesystems/ncpfs/
-Caldera
-The IPX Utilities
-~amd64 ppc64 s390 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=virtual/libc
+DESCRIPTION=The IPX Utilities
+EAPI=0
+HOMEPAGE=ftp://sunsite.unc.edu/pub/Linux/system/filesystems/ncpfs/
+KEYWORDS=~amd64 ppc64 s390 sparc x86
+LICENSE=Caldera
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=ftp://sunsite.unc.edu/pub/Linux/system/filesystems/ncpfs/ipx-1.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

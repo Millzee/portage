@@ -1,22 +1,12 @@
-virtual/libc
-nls? ( sys-devel/gettext )
-0
-mirror://sourceforge/mailfilter/mailfilter-0.7.1.tar.gz
-
-http://mailfilter.sourceforge.net/index.html
-GPL-2
-Mailfilter is a utility to get rid of unwanted spam mails
-ppc sparc x86
-
-nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=Mailfilter is a utility to get rid of unwanted spam mails
+EAPI=0
+HOMEPAGE=http://mailfilter.sourceforge.net/index.html
+IUSE=nls
+KEYWORDS=ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=nls? ( sys-devel/gettext )
+SLOT=0
+SRC_URI=mirror://sourceforge/mailfilter/mailfilter-0.7.1.tar.gz
+_mtime_=1235082866

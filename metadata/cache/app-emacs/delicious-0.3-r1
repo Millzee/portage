@@ -1,22 +1,13 @@
-planner? ( app-emacs/planner ) >=virtual/emacs-22
-planner? ( app-emacs/planner ) >=virtual/emacs-22
-0
-http://www.wjsullivan.net/darcs/delicious-el/delicious-el-0.3.tar.gz
-
-http://www.wjsullivan.net/delicious-el.html
-GPL-2
-Emacs client API for del.icio.us
-~x86 ~amd64
-versionator elisp elisp-common
-planner
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=planner? ( app-emacs/planner ) >=virtual/emacs-22
+DESCRIPTION=Emacs client API for del.icio.us
+EAPI=0
+HOMEPAGE=http://www.wjsullivan.net/delicious-el.html
+IUSE=planner
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=planner? ( app-emacs/planner ) >=virtual/emacs-22
+SLOT=0
+SRC_URI=http://www.wjsullivan.net/darcs/delicious-el/delicious-el-0.3.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

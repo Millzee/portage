@@ -1,22 +1,11 @@
-kernel_linux? ( virtual/linux-sources )
-
-0
-http://distanz.ch/inotail/inotail-0.5.tar.bz2
-
-http://distanz.ch/inotail/
-GPL-2
-tail replacement using inotify
-~amd64 ~x86
-linux-info toolchain-funcs multilib versionator
-
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=tail replacement using inotify
+EAPI=0
+HOMEPAGE=http://distanz.ch/inotail/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://distanz.ch/inotail/inotail-0.5.tar.bz2
+_eclasses_=linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

@@ -1,22 +1,13 @@
-dev-db/sqlite:3 =dev-lang/mono-2.2* >=dev-util/pkgconfig-0.23 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-dev-db/sqlite:3 =dev-lang/mono-2.2*
-0
-http://ftp.novell.com/pub/mono/sources/xsp/xsp-2.2.tar.bz2
-
-http://www.go-mono.com/
-MIT
-XSP is a small web server that can host ASP.NET pages
-~x86 ~amd64
-toolchain-funcs portability mono versionator multilib base libtool autotools go-mono eutils
-+debug
-
-
-
-2
-
-compile configure install postinst preinst prepare unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare unpack
+DEPEND=dev-db/sqlite:3 =dev-lang/mono-2.2* >=dev-util/pkgconfig-0.23 userland_GNU? ( >=sys-apps/findutils-4.4.0 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=XSP is a small web server that can host ASP.NET pages
+EAPI=2
+HOMEPAGE=http://www.go-mono.com/
+IUSE=+debug
+KEYWORDS=~x86 ~amd64
+LICENSE=MIT
+RDEPEND=dev-db/sqlite:3 =dev-lang/mono-2.2*
+SLOT=0
+SRC_URI=http://ftp.novell.com/pub/mono/sources/xsp/xsp-2.2.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	go-mono	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

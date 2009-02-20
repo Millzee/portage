@@ -1,22 +1,13 @@
->=dev-libs/boost-1.34.1 dev-libs/expat dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/libtasn1 dev-util/dialog net-libs/gnutls >=net-libs/rb_libtorrent-0.13_rc1 gtk? ( dev-cpp/gtkmm:2.4 dev-libs/libsigc++:2 x11-libs/pango ) test? ( dev-util/cppunit ) webinterface? ( =dev-lang/php-5* virtual/httpd-cgi ) >=dev-util/pkgconfig-0.21 doc? ( app-doc/doxygen )
->=dev-libs/boost-1.34.1 dev-libs/expat dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/libtasn1 dev-util/dialog net-libs/gnutls >=net-libs/rb_libtorrent-0.13_rc1 gtk? ( dev-cpp/gtkmm:2.4 dev-libs/libsigc++:2 x11-libs/pango ) test? ( dev-util/cppunit ) webinterface? ( =dev-lang/php-5* virtual/httpd-cgi )
-0
-mirror://berlios/btg/btg-0.9.7.tar.gz
-
-http://btg.berlios.de/
-GPL-2
-bittorrent client using rb_libtorrent
-amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-debug doc event-callback gtk minimal ncurses session test webinterface
-
-
-
-1
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=dev-libs/boost-1.34.1 dev-libs/expat dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/libtasn1 dev-util/dialog net-libs/gnutls >=net-libs/rb_libtorrent-0.13_rc1 gtk? ( dev-cpp/gtkmm:2.4 dev-libs/libsigc++:2 x11-libs/pango ) test? ( dev-util/cppunit ) webinterface? ( =dev-lang/php-5* virtual/httpd-cgi ) >=dev-util/pkgconfig-0.21 doc? ( app-doc/doxygen )
+DESCRIPTION=bittorrent client using rb_libtorrent
+EAPI=1
+HOMEPAGE=http://btg.berlios.de/
+IUSE=debug doc event-callback gtk minimal ncurses session test webinterface
+KEYWORDS=amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/boost-1.34.1 dev-libs/expat dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/libtasn1 dev-util/dialog net-libs/gnutls >=net-libs/rb_libtorrent-0.13_rc1 gtk? ( dev-cpp/gtkmm:2.4 dev-libs/libsigc++:2 x11-libs/pango ) test? ( dev-util/cppunit ) webinterface? ( =dev-lang/php-5* virtual/httpd-cgi )
+SLOT=0
+SRC_URI=mirror://berlios/btg/btg-0.9.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

@@ -1,22 +1,9 @@
-
-
-0
-mirror://gentoo/Korilla-v1.3.4.tar.bz2
-
-http://www.kde-look.org/content/show.php?content=7264
-as-is
-Kool Gorilla Icon Set for KDE
-amd64 ppc sparc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=Kool Gorilla Icon Set for KDE
+EAPI=0
+HOMEPAGE=http://www.kde-look.org/content/show.php?content=7264
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=mirror://gentoo/Korilla-v1.3.4.tar.bz2
+_mtime_=1235082910

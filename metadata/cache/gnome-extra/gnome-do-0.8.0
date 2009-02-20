@@ -1,22 +1,13 @@
->=dev-lang/mono-2.0 >=dev-dotnet/gconf-sharp-2.24.0 >=dev-dotnet/gtk-sharp-2.12.6 >=dev-dotnet/glade-sharp-2.12.6 dev-dotnet/dbus-sharp dev-dotnet/dbus-glib-sharp >=dev-dotnet/gnome-desktop-sharp-2.24.0 >=dev-dotnet/gnome-keyring-sharp-1.0.0 >=dev-dotnet/gnome-sharp-2.24.0 >=dev-dotnet/gnomevfs-sharp-2.24.0 >=dev-dotnet/wnck-sharp-2.24.0 >=dev-dotnet/art-sharp-2.24.0 dev-dotnet/mono-addins dev-dotnet/notify-sharp !<gnome-extra/gnome-do-plugins-0.8 >=dev-util/intltool-0.35 dev-util/pkgconfig >=sys-apps/sed-4
->=dev-lang/mono-2.0 >=dev-dotnet/gconf-sharp-2.24.0 >=dev-dotnet/gtk-sharp-2.12.6 >=dev-dotnet/glade-sharp-2.12.6 dev-dotnet/dbus-sharp dev-dotnet/dbus-glib-sharp >=dev-dotnet/gnome-desktop-sharp-2.24.0 >=dev-dotnet/gnome-keyring-sharp-1.0.0 >=dev-dotnet/gnome-sharp-2.24.0 >=dev-dotnet/gnomevfs-sharp-2.24.0 >=dev-dotnet/wnck-sharp-2.24.0 >=dev-dotnet/art-sharp-2.24.0 dev-dotnet/mono-addins dev-dotnet/notify-sharp !<gnome-extra/gnome-do-plugins-0.8
-0
-https://launchpad.net/do/trunk/0.8.0/+download/gnome-do-0.8.0.tar.gz
-
-http://do.davebsd.com/
-GPL-3
-GNOME Do allows you to get things done quickly
-~x86 ~amd64
-gnome2 toolchain-funcs portability mono versionator multilib gnome2-utils libtool gnome.org fdo-mime eutils
-debug
-
-
-
-2
-
-compile configure install postinst postrm preinst prepare unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare unpack
+DEPEND=>=dev-lang/mono-2.0 >=dev-dotnet/gconf-sharp-2.24.0 >=dev-dotnet/gtk-sharp-2.12.6 >=dev-dotnet/glade-sharp-2.12.6 dev-dotnet/dbus-sharp dev-dotnet/dbus-glib-sharp >=dev-dotnet/gnome-desktop-sharp-2.24.0 >=dev-dotnet/gnome-keyring-sharp-1.0.0 >=dev-dotnet/gnome-sharp-2.24.0 >=dev-dotnet/gnomevfs-sharp-2.24.0 >=dev-dotnet/wnck-sharp-2.24.0 >=dev-dotnet/art-sharp-2.24.0 dev-dotnet/mono-addins dev-dotnet/notify-sharp !<gnome-extra/gnome-do-plugins-0.8 >=dev-util/intltool-0.35 dev-util/pkgconfig >=sys-apps/sed-4
+DESCRIPTION=GNOME Do allows you to get things done quickly
+EAPI=2
+HOMEPAGE=http://do.davebsd.com/
+IUSE=debug
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/mono-2.0 >=dev-dotnet/gconf-sharp-2.24.0 >=dev-dotnet/gtk-sharp-2.12.6 >=dev-dotnet/glade-sharp-2.12.6 dev-dotnet/dbus-sharp dev-dotnet/dbus-glib-sharp >=dev-dotnet/gnome-desktop-sharp-2.24.0 >=dev-dotnet/gnome-keyring-sharp-1.0.0 >=dev-dotnet/gnome-sharp-2.24.0 >=dev-dotnet/gnomevfs-sharp-2.24.0 >=dev-dotnet/wnck-sharp-2.24.0 >=dev-dotnet/art-sharp-2.24.0 dev-dotnet/mono-addins dev-dotnet/notify-sharp !<gnome-extra/gnome-do-plugins-0.8
+SLOT=0
+SRC_URI=https://launchpad.net/do/trunk/0.8.0/+download/gnome-do-0.8.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

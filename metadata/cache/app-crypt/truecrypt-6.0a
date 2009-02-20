@@ -1,22 +1,14 @@
-sys-fs/fuse =x11-libs/wxGTK-2.8*
-sys-fs/fuse =x11-libs/wxGTK-2.8*
-0
-truecrypt-6.0a.tar.gz
-mirror fetch bindist
-http://www.truecrypt.org/
-truecrypt-collective-1.4
-Free open-source disk encryption software
-~amd64 ~x86
-toolchain-funcs multilib portability eutils wxwidgets
-X
-
-
-
-0
-
-compile install nofetch postinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch postinst setup test unpack
+DEPEND=sys-fs/fuse =x11-libs/wxGTK-2.8*
+DESCRIPTION=Free open-source disk encryption software
+EAPI=0
+HOMEPAGE=http://www.truecrypt.org/
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=truecrypt-collective-1.4
+RDEPEND=sys-fs/fuse =x11-libs/wxGTK-2.8*
+RESTRICT=mirror fetch bindist
+SLOT=0
+SRC_URI=truecrypt-6.0a.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

@@ -1,22 +1,12 @@
-sys-libs/ncurses >=sys-libs/readline-4 nls? ( sys-devel/gettext )
-sys-libs/ncurses >=sys-libs/readline-4 nls? ( sys-devel/gettext )
-0
-http://savannah.nongnu.org/download/microdc/microdc-0.11.0.tar.gz
-
-http://www.nongnu.org/microdc/
-GPL-2
-A small command-line based Direct Connect client
-~amd64 ~x86
-
-nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/ncurses >=sys-libs/readline-4 nls? ( sys-devel/gettext )
+DESCRIPTION=A small command-line based Direct Connect client
+EAPI=0
+HOMEPAGE=http://www.nongnu.org/microdc/
+IUSE=nls
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses >=sys-libs/readline-4 nls? ( sys-devel/gettext )
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/microdc/microdc-0.11.0.tar.gz
+_mtime_=1235082895

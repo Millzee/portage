@@ -1,22 +1,10 @@
-
-
-0
-http://download.berlios.de/bcm43xx/bcm43xx-fwcutter-005.tar.bz2
-
-http://bcm43xx.berlios.de
-GPL-2
-Firmware Tool for Broadcom 43xx based wireless network devices
-~amd64 ppc ~x86 ~ppc64
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=Firmware Tool for Broadcom 43xx based wireless network devices
+EAPI=0
+HOMEPAGE=http://bcm43xx.berlios.de
+KEYWORDS=~amd64 ppc ~x86 ~ppc64
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://download.berlios.de/bcm43xx/bcm43xx-fwcutter-005.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

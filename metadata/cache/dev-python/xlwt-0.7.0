@@ -1,22 +1,12 @@
-virtual/python
-
-0
-http://cheeseshop.python.org/packages/source/x/xlwt/xlwt-0.7.0.tar.gz
-
-http://pypi.python.org/pypi/xlwt/
-BSD
-Python library to create spreadsheet files compatible with Excel
-~amd64 ~ppc ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-examples
-
-
-
-2
-
-compile install postinst postrm prepare unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm prepare unpack
+DEPEND=virtual/python
+DESCRIPTION=Python library to create spreadsheet files compatible with Excel
+EAPI=2
+HOMEPAGE=http://pypi.python.org/pypi/xlwt/
+IUSE=examples
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://cheeseshop.python.org/packages/source/x/xlwt/xlwt-0.7.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

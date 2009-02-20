@@ -1,22 +1,11 @@
-
->=sys-apps/portage-2.1.1-r1 >=dev-util/diffball-0.6.5 x86? ( app-arch/tarsync )
-0
-mirror://gentoo/emerge-delta-webrsync-3.5.1
-
-http://www.gentoo.org/proj/en/portage/index.xml
-GPL-2
-emerge-webrsync using patches to minimize bandwidth
-~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst unpack
+DESCRIPTION=emerge-webrsync using patches to minimize bandwidth
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/portage/index.xml
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-apps/portage-2.1.1-r1 >=dev-util/diffball-0.6.5 x86? ( app-arch/tarsync )
+SLOT=0
+SRC_URI=mirror://gentoo/emerge-delta-webrsync-3.5.1
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

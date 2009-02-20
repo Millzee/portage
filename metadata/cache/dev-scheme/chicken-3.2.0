@@ -1,22 +1,14 @@
->=dev-libs/libpcre-7.6 sys-apps/texinfo emacs? ( virtual/emacs )
->=dev-libs/libpcre-7.6 sys-apps/texinfo emacs? ( virtual/emacs )
-0
-http://chicken.wiki.br/releases/3.2.0/chicken-3.2.0.tar.gz
-test
-http://www.call-with-current-continuation.org/
-BSD
-Chicken is a Scheme interpreter and native Scheme to C compiler
-~alpha ~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs multilib elisp-common
-emacs
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-libs/libpcre-7.6 sys-apps/texinfo emacs? ( virtual/emacs )
+DESCRIPTION=Chicken is a Scheme interpreter and native Scheme to C compiler
+EAPI=0
+HOMEPAGE=http://www.call-with-current-continuation.org/
+IUSE=emacs
+KEYWORDS=~alpha ~amd64 ~ppc ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-libs/libpcre-7.6 sys-apps/texinfo emacs? ( virtual/emacs )
+RESTRICT=test
+SLOT=0
+SRC_URI=http://chicken.wiki.br/releases/3.2.0/chicken-3.2.0.tar.gz
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

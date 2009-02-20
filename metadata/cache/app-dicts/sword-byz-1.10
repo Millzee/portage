@@ -1,22 +1,12 @@
-app-arch/unzip
-app-text/sword !app-text/sword-modules
-0
-mirror://gentoo/Byz-1.10.zip
-
-http://crosswire.org/sword/modules/ModInfo.jsp?modName=Byz
-freedist
-Byzantine/Majority Text (2000)
-~amd64 ~ppc ~x86 ~x86-fbsd
-sword-module
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=app-arch/unzip
+DESCRIPTION=Byzantine/Majority Text (2000)
+EAPI=0
+HOMEPAGE=http://crosswire.org/sword/modules/ModInfo.jsp?modName=Byz
+KEYWORDS=~amd64 ~ppc ~x86 ~x86-fbsd
+LICENSE=freedist
+RDEPEND=app-text/sword !app-text/sword-modules
+SLOT=0
+SRC_URI=mirror://gentoo/Byz-1.10.zip
+_eclasses_=sword-module	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

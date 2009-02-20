@@ -1,22 +1,13 @@
-alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) media-libs/flac media-libs/id3lib media-libs/libogg media-libs/libsamplerate media-libs/libvorbis virtual/mysql x11-libs/qt:3
-alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) media-libs/flac media-libs/id3lib media-libs/libogg media-libs/libsamplerate media-libs/libvorbis virtual/mysql x11-libs/qt:3 pam? ( sys-libs/pam ) app-cdr/cdrkit media-sound/cdparanoia media-sound/sox net-ftp/lftp net-misc/wget sys-devel/bc
-0
-http://rivendellaudio.org/ftpdocs/rivendell/rivendell-1.2.2.tar.gz
-
-http://rivendellaudio.org/
-GPL-2
-An automated system for acquisition, management, scheduling and playout of audio content.
-~x86
-toolchain-funcs multilib portability eutils
-alsa jack pam
-
-
-
-1
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) media-libs/flac media-libs/id3lib media-libs/libogg media-libs/libsamplerate media-libs/libvorbis virtual/mysql x11-libs/qt:3
+DESCRIPTION=An automated system for acquisition, management, scheduling and playout of audio content.
+EAPI=1
+HOMEPAGE=http://rivendellaudio.org/
+IUSE=alsa jack pam
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=alsa? ( media-libs/alsa-lib ) jack? ( media-sound/jack-audio-connection-kit ) media-libs/flac media-libs/id3lib media-libs/libogg media-libs/libsamplerate media-libs/libvorbis virtual/mysql x11-libs/qt:3 pam? ( sys-libs/pam ) app-cdr/cdrkit media-sound/cdparanoia media-sound/sox net-ftp/lftp net-misc/wget sys-devel/bc
+SLOT=0
+SRC_URI=http://rivendellaudio.org/ftpdocs/rivendell/rivendell-1.2.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

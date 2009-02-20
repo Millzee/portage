@@ -1,22 +1,12 @@
-virtual/libc app-arch/unzip >=sys-apps/sed-4
-virtual/libc
-0
-mirror://gentoo/netio126.zip
-
-http://www.ars.de/ars/ars.nsf/docs/netio
-free-noncomm
-a network benchmark for DOS, OS/2, Windows NT and Unix that measures net througput with NetBIOS and TCP/IP protocols.
-~amd64 ppc sparc x86
-toolchain-funcs versionator multilib
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc app-arch/unzip >=sys-apps/sed-4
+DESCRIPTION=a network benchmark for DOS, OS/2, Windows NT and Unix that measures net througput with NetBIOS and TCP/IP protocols.
+EAPI=0
+HOMEPAGE=http://www.ars.de/ars/ars.nsf/docs/netio
+KEYWORDS=~amd64 ppc sparc x86
+LICENSE=free-noncomm
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://gentoo/netio126.zip
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

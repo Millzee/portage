@@ -1,22 +1,12 @@
-sys-apps/fakeroot
-sys-apps/fakeroot
-0
-http://www.ibiblio.org/pub/linux/distributions/uos/sputnik/sources/upm-0.85.tar.gz
-
-http://u-os.org/upm.html
-4F
-The micro Package Manager
-alpha ~hppa ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-apps/fakeroot
+DESCRIPTION=The micro Package Manager
+EAPI=0
+HOMEPAGE=http://u-os.org/upm.html
+KEYWORDS=alpha ~hppa ppc ~sparc x86
+LICENSE=4F
+RDEPEND=sys-apps/fakeroot
+SLOT=0
+SRC_URI=http://www.ibiblio.org/pub/linux/distributions/uos/sputnik/sources/upm-0.85.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

@@ -1,22 +1,13 @@
-png? ( media-libs/libpng ) tiff? ( media-libs/tiff ) jpeg? ( media-libs/jpeg ) fftw? ( >=sci-libs/fftw-3 ) dev-util/pkgconfig
-png? ( media-libs/libpng ) tiff? ( media-libs/tiff ) jpeg? ( media-libs/jpeg ) fftw? ( >=sci-libs/fftw-3 )
-0
-http://kogs-www.informatik.uni-hamburg.de/~koethe/vigra/vigra1.5.0.tar.gz
-
-http://kogs-www.informatik.uni-hamburg.de/~koethe/vigra/
-MIT
-C++ computer vision library with emphasize on customizable algorithms and data structures
-amd64 ppc ~sparc x86
-toolchain-funcs multilib
-doc fftw jpeg png tiff zlib
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=png? ( media-libs/libpng ) tiff? ( media-libs/tiff ) jpeg? ( media-libs/jpeg ) fftw? ( >=sci-libs/fftw-3 ) dev-util/pkgconfig
+DESCRIPTION=C++ computer vision library with emphasize on customizable algorithms and data structures
+EAPI=0
+HOMEPAGE=http://kogs-www.informatik.uni-hamburg.de/~koethe/vigra/
+IUSE=doc fftw jpeg png tiff zlib
+KEYWORDS=amd64 ppc ~sparc x86
+LICENSE=MIT
+RDEPEND=png? ( media-libs/libpng ) tiff? ( media-libs/tiff ) jpeg? ( media-libs/jpeg ) fftw? ( >=sci-libs/fftw-3 )
+SLOT=0
+SRC_URI=http://kogs-www.informatik.uni-hamburg.de/~koethe/vigra/vigra1.5.0.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

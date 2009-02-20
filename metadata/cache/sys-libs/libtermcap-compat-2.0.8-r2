@@ -1,22 +1,10 @@
-
-
-0
-http://www.catb.org/~esr/terminfo/termtypes.tc.gz mirror://gentoo/termcap-2.0.8.tar.bz2 mirror://gentoo/termcap-2.0.8-patches-1.tar.bz2
-
-http://www.catb.org/~esr/terminfo/
-freedist
-Compatibility package for old termcap-based programs
-alpha amd64 hppa ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Compatibility package for old termcap-based programs
+EAPI=0
+HOMEPAGE=http://www.catb.org/~esr/terminfo/
+KEYWORDS=alpha amd64 hppa ppc sparc x86
+LICENSE=freedist
+SLOT=0
+SRC_URI=http://www.catb.org/~esr/terminfo/termtypes.tc.gz mirror://gentoo/termcap-2.0.8.tar.bz2 mirror://gentoo/termcap-2.0.8-patches-1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

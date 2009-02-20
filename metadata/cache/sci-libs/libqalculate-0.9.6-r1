@@ -1,22 +1,13 @@
->=sci-libs/cln-1.1 dev-libs/libxml2 >=dev-libs/glib-2.4 sys-libs/zlib readline? ( sys-libs/readline ) >=dev-util/pkgconfig-0.12.0 dev-util/intltool sys-devel/gettext =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=sci-libs/cln-1.1 dev-libs/libxml2 >=dev-libs/glib-2.4 sys-libs/zlib readline? ( sys-libs/readline ) >=sci-visualization/gnuplot-3.7 net-misc/wget
-0
-mirror://sourceforge/qalculate/libqalculate-0.9.6.tar.gz
-
-http://qalculate.sourceforge.net/
-GPL-2
-A modern multi-purpose calculator library
-amd64 ppc ~ppc64 sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-readline
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sci-libs/cln-1.1 dev-libs/libxml2 >=dev-libs/glib-2.4 sys-libs/zlib readline? ( sys-libs/readline ) >=dev-util/pkgconfig-0.12.0 dev-util/intltool sys-devel/gettext =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A modern multi-purpose calculator library
+EAPI=0
+HOMEPAGE=http://qalculate.sourceforge.net/
+IUSE=readline
+KEYWORDS=amd64 ppc ~ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=>=sci-libs/cln-1.1 dev-libs/libxml2 >=dev-libs/glib-2.4 sys-libs/zlib readline? ( sys-libs/readline ) >=sci-visualization/gnuplot-3.7 net-misc/wget
+SLOT=0
+SRC_URI=mirror://sourceforge/qalculate/libqalculate-0.9.6.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

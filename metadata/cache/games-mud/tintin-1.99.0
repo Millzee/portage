@@ -1,22 +1,12 @@
-sys-libs/zlib sys-libs/readline sys-libs/ncurses
-sys-libs/zlib sys-libs/readline sys-libs/ncurses
-0
-mirror://sourceforge/tintin/tintin-1.99.0.tar.gz
-
-http://tintin.sourceforge.net/
-GPL-2
-(T)he k(I)cki(N) (T)ickin d(I)kumud clie(N)t
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=sys-libs/zlib sys-libs/readline sys-libs/ncurses
+DESCRIPTION=(T)he k(I)cki(N) (T)ickin d(I)kumud clie(N)t
+EAPI=0
+HOMEPAGE=http://tintin.sourceforge.net/
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib sys-libs/readline sys-libs/ncurses
+SLOT=0
+SRC_URI=mirror://sourceforge/tintin/tintin-1.99.0.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

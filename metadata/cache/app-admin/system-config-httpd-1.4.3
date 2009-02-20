@@ -1,22 +1,12 @@
-dev-libs/alchemist =dev-python/pygtk-2* dev-lang/python =dev-python/gnome-python-2* sys-apps/usermode dev-libs/libxslt sys-devel/gettext dev-util/intltool =www-servers/apache-2* >=app-arch/rpm2targz-9.0-r1
-dev-libs/alchemist =dev-python/pygtk-2* dev-lang/python =dev-python/gnome-python-2* sys-apps/usermode dev-libs/libxslt =www-servers/apache-2*
-0
-mirror://fedora/development/source/SRPMS/system-config-httpd-1.4.3-1.fc7.src.rpm
-
-http://fedoraproject.org/wiki/SystemConfig/httpd
-GPL-2
-Apache configuration tool
-~ppc ~x86
-toolchain-funcs portability python alternatives multilib depend.apache rpm eutils
-
-
-
-
-0
-
-install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm setup unpack
+DEPEND=dev-libs/alchemist =dev-python/pygtk-2* dev-lang/python =dev-python/gnome-python-2* sys-apps/usermode dev-libs/libxslt sys-devel/gettext dev-util/intltool =www-servers/apache-2* >=app-arch/rpm2targz-9.0-r1
+DESCRIPTION=Apache configuration tool
+EAPI=0
+HOMEPAGE=http://fedoraproject.org/wiki/SystemConfig/httpd
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/alchemist =dev-python/pygtk-2* dev-lang/python =dev-python/gnome-python-2* sys-apps/usermode dev-libs/libxslt =www-servers/apache-2*
+SLOT=0
+SRC_URI=mirror://fedora/development/source/SRPMS/system-config-httpd-1.4.3-1.fc7.src.rpm
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	rpm	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

@@ -1,22 +1,12 @@
-mips? ( sys-apps/lcdutils )
-mips? ( sys-apps/lcdutils )
-0
-mirror://gentoo/lcdsplash-0.3.tar.bz2 http://dev.gentoo.org/~vapier/dist/lcdsplash-0.3.tar.bz2
-
-http://www.gentoo.org/
-GPL-2
-splash Gentoo boot information on LCD's
-hppa mips x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=mips? ( sys-apps/lcdutils )
+DESCRIPTION=splash Gentoo boot information on LCD's
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/
+KEYWORDS=hppa mips x86
+LICENSE=GPL-2
+RDEPEND=mips? ( sys-apps/lcdutils )
+SLOT=0
+SRC_URI=mirror://gentoo/lcdsplash-0.3.tar.bz2 http://dev.gentoo.org/~vapier/dist/lcdsplash-0.3.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

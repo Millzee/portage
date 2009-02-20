@@ -1,22 +1,12 @@
-
-media-libs/libsdl sys-libs/zlib
-0
-http://sdlemu.ngemu.com/releases/NeoPocott-SDL-0.38bR2.1.i386.linux-glibc22.tar.bz2
-strip
-http://sdlemu.ngemu.com/neopocottsdl.php
-as-is
-A NeoGeo Pocket emulator for Linux
--* x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=A NeoGeo Pocket emulator for Linux
+EAPI=0
+HOMEPAGE=http://sdlemu.ngemu.com/neopocottsdl.php
+KEYWORDS=-* x86
+LICENSE=as-is
+RDEPEND=media-libs/libsdl sys-libs/zlib
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://sdlemu.ngemu.com/releases/NeoPocott-SDL-0.38bR2.1.i386.linux-glibc22.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

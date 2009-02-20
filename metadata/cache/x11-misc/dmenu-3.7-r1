@@ -1,22 +1,13 @@
-x11-libs/libX11 xinerama? ( x11-libs/libXinerama ) xinerama? ( x11-proto/xineramaproto )
-x11-libs/libX11 xinerama? ( x11-libs/libXinerama )
-0
-http://code.suckless.org/dl/tools/dmenu-3.7.tar.gz
-
-http://www.suckless.org/programs/dmenu.html
-MIT
-a generic, highly customizable, and efficient menu for the X Window System
-amd64 ppc ppc64 x86 ~x86-fbsd
-savedconfig toolchain-funcs multilib portability eutils
-xinerama savedconfig
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=x11-libs/libX11 xinerama? ( x11-libs/libXinerama ) xinerama? ( x11-proto/xineramaproto )
+DESCRIPTION=a generic, highly customizable, and efficient menu for the X Window System
+EAPI=0
+HOMEPAGE=http://www.suckless.org/programs/dmenu.html
+IUSE=xinerama savedconfig
+KEYWORDS=amd64 ppc ppc64 x86 ~x86-fbsd
+LICENSE=MIT
+RDEPEND=x11-libs/libX11 xinerama? ( x11-libs/libXinerama )
+SLOT=0
+SRC_URI=http://code.suckless.org/dl/tools/dmenu-3.7.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	savedconfig	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

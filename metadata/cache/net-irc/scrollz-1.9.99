@@ -1,22 +1,13 @@
-ssl? ( net-libs/gnutls )
-ssl? ( net-libs/gnutls )
-0
-http://www.scrollz.com/ScrollZ-1.9.99.tar.bz2
-
-http://www.scrollz.com/
-GPL-2
-Advanced IRC client based on ircII
-amd64 ia64 ~ppc x86
-toolchain-funcs multilib portability eutils
-ipv6 socks5 ssl
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=ssl? ( net-libs/gnutls )
+DESCRIPTION=Advanced IRC client based on ircII
+EAPI=0
+HOMEPAGE=http://www.scrollz.com/
+IUSE=ipv6 socks5 ssl
+KEYWORDS=amd64 ia64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=ssl? ( net-libs/gnutls )
+SLOT=0
+SRC_URI=http://www.scrollz.com/ScrollZ-1.9.99.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

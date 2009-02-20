@@ -1,22 +1,13 @@
-kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-kernel_linux? ( virtual/modutils )
-0
-mirror://sourceforge/usbirboy/usbirboy-0.2.1.tar.gz
-
-http://usbirboy.sourceforge.net/
-GPL-2
-Use home made infrared receiver connected via USB
-alpha amd64 ia64 ppc ppc64 x86
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=Use home made infrared receiver connected via USB
+EAPI=0
+HOMEPAGE=http://usbirboy.sourceforge.net/
+IUSE=kernel_linux
+KEYWORDS=alpha amd64 ia64 ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=mirror://sourceforge/usbirboy/usbirboy-0.2.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

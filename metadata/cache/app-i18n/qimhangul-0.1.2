@@ -1,22 +1,12 @@
-x11-libs/qt:3 app-i18n/libhangul dev-util/pkgconfig
-x11-libs/qt:3 app-i18n/libhangul
-0
-http://kldp.net/frs/download.php/4620/qimhangul-0.1.2.tar.gz
-
-http://kldp.net/projects/qimhangul/
-GPL-2
-Korean input method plugin for Qt immodules
-~amd64 ~x86
-toolchain-funcs qt3 portability versionator multilib eutils
-
-
-
-
-1
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=x11-libs/qt:3 app-i18n/libhangul dev-util/pkgconfig
+DESCRIPTION=Korean input method plugin for Qt immodules
+EAPI=1
+HOMEPAGE=http://kldp.net/projects/qimhangul/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt:3 app-i18n/libhangul
+SLOT=0
+SRC_URI=http://kldp.net/frs/download.php/4620/qimhangul-0.1.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

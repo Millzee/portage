@@ -1,22 +1,13 @@
-dev-lang/php >=app-admin/webapp-config-1.50.15
-app-arch/zip app-arch/unzip virtual/httpd-cgi dev-lang/php >=app-admin/webapp-config-1.50.15
-2.18.6
-mirror://sourceforge/group-office/groupoffice-com-2.18-stable-6.tar.gz
-
-http://group-office.sourceforge.net/
-GPL-2
-Group-Office is a powerful modular Intranet application framework
-alpha amd64 ~hppa ~ppc ~sparc ~x86
-toolchain-funcs portability depend.php versionator multilib phpconfutils webapp eutils
-vhosts
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=dev-lang/php >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Group-Office is a powerful modular Intranet application framework
+EAPI=0
+HOMEPAGE=http://group-office.sourceforge.net/
+IUSE=vhosts
+KEYWORDS=alpha amd64 ~hppa ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=app-arch/zip app-arch/unzip virtual/httpd-cgi dev-lang/php >=app-admin/webapp-config-1.50.15
+SLOT=2.18.6
+SRC_URI=mirror://sourceforge/group-office/groupoffice-com-2.18-stable-6.tar.gz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

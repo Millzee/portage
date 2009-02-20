@@ -1,22 +1,14 @@
->=virtual/mysql-4.0 dev-db/unixODBC doc? ( dev-lang/perl )
->=virtual/mysql-4.0 dev-db/unixODBC
-5.1
-mirror://mysql/Downloads/Connector-ODBC/5.1/mysql-connector-odbc-5.1.5r1144.tar.gz
-primaryuri
-http://www.mysql.com/products/myodbc/
-GPL-2
-ODBC driver for MySQL
-~amd64 ~ppc ~x86
-toolchain-funcs versionator multilib portability eutils
-debug doc static
-
-
-
-0
-
-compile config install postinst
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst
+DEPEND=>=virtual/mysql-4.0 dev-db/unixODBC doc? ( dev-lang/perl )
+DESCRIPTION=ODBC driver for MySQL
+EAPI=0
+HOMEPAGE=http://www.mysql.com/products/myodbc/
+IUSE=debug doc static
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/mysql-4.0 dev-db/unixODBC
+RESTRICT=primaryuri
+SLOT=5.1
+SRC_URI=mirror://mysql/Downloads/Connector-ODBC/5.1/mysql-connector-odbc-5.1.5r1144.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

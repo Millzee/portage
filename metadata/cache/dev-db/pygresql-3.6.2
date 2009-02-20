@@ -1,22 +1,12 @@
-virtual/postgresql-base virtual/python
-virtual/postgresql-base dev-python/egenix-mx-base
-0
-ftp://ftp.pygresql.org/pub/distrib/PyGreSQL-3.6.2.tgz
-
-http://www.pygresql.org/
-as-is
-A Python interface for the PostgreSQL database.
-alpha amd64 hppa ia64 ~mips ppc sparc x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/postgresql-base virtual/python
+DESCRIPTION=A Python interface for the PostgreSQL database.
+EAPI=0
+HOMEPAGE=http://www.pygresql.org/
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc sparc x86
+LICENSE=as-is
+RDEPEND=virtual/postgresql-base dev-python/egenix-mx-base
+SLOT=0
+SRC_URI=ftp://ftp.pygresql.org/pub/distrib/PyGreSQL-3.6.2.tgz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

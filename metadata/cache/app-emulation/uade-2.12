@@ -1,22 +1,13 @@
-media-libs/libao audacious? ( >=media-sound/audacious-0.2 ) dev-util/pkgconfig
-media-libs/libao audacious? ( >=media-sound/audacious-0.2 )
-0
-http://zakalwe.fi/uade/uade2/uade-2.12.tar.bz2
-
-http://zakalwe.fi/uade
-GPL-2
-Unix Amiga Delitracker Emulator - plays old Amiga tunes through UAE emulation
-amd64 ppc x86
-toolchain-funcs multilib portability eutils
-audacious
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/libao audacious? ( >=media-sound/audacious-0.2 ) dev-util/pkgconfig
+DESCRIPTION=Unix Amiga Delitracker Emulator - plays old Amiga tunes through UAE emulation
+EAPI=0
+HOMEPAGE=http://zakalwe.fi/uade
+IUSE=audacious
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libao audacious? ( >=media-sound/audacious-0.2 )
+SLOT=0
+SRC_URI=http://zakalwe.fi/uade/uade2/uade-2.12.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

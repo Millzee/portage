@@ -1,22 +1,13 @@
-virtual/python >=dev-python/pygtk-1.99.14 >=x11-libs/gtk+-2 vorbis? ( dev-python/pyogg dev-python/pyvorbis ) gnome? ( dev-python/gnome-python )
-virtual/python >=dev-python/pygtk-1.99.14 >=x11-libs/gtk+-2 vorbis? ( dev-python/pyogg dev-python/pyvorbis ) gnome? ( dev-python/gnome-python )
-0
-http://thecircle.org.au/Circle-0.41c.tar.gz
-
-http://thecircle.org.au/
-GPL-2
-The Circle messaging and file sharing system
-x86 ~ppc
-python multilib toolchain-funcs alternatives
-vorbis gnome
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=virtual/python >=dev-python/pygtk-1.99.14 >=x11-libs/gtk+-2 vorbis? ( dev-python/pyogg dev-python/pyvorbis ) gnome? ( dev-python/gnome-python )
+DESCRIPTION=The Circle messaging and file sharing system
+EAPI=0
+HOMEPAGE=http://thecircle.org.au/
+IUSE=vorbis gnome
+KEYWORDS=x86 ~ppc
+LICENSE=GPL-2
+RDEPEND=virtual/python >=dev-python/pygtk-1.99.14 >=x11-libs/gtk+-2 vorbis? ( dev-python/pyogg dev-python/pyvorbis ) gnome? ( dev-python/gnome-python )
+SLOT=0
+SRC_URI=http://thecircle.org.au/Circle-0.41c.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

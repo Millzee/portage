@@ -1,22 +1,12 @@
-sys-fs/fuse media-libs/libid3tag media-libs/flac media-sound/lame media-libs/libogg =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-sys-fs/fuse media-libs/libid3tag media-libs/flac media-sound/lame media-libs/libogg
-0
-mirror://sourceforge/mp3fs/mp3fs-0.13.tar.gz
-
-http://mp3fs.sf.net
-GPL-3
-MP3FS is a read-only FUSE filesystem which transcodes FLAC audio files to MP3 when read.
-~amd64 ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=sys-fs/fuse media-libs/libid3tag media-libs/flac media-sound/lame media-libs/libogg =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=MP3FS is a read-only FUSE filesystem which transcodes FLAC audio files to MP3 when read.
+EAPI=0
+HOMEPAGE=http://mp3fs.sf.net
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sys-fs/fuse media-libs/libid3tag media-libs/flac media-sound/lame media-libs/libogg
+SLOT=0
+SRC_URI=mirror://sourceforge/mp3fs/mp3fs-0.13.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

@@ -1,22 +1,10 @@
-
-
-0
-mirror://gentoo/rnaview-20040713.tar.bz2
-
-http://ndbserver.rutgers.edu/services/download/index.html
-public-domain
-Generates 2D displays of RNA/DNA secondary structures with tertiary interactions
-~amd64 x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Generates 2D displays of RNA/DNA secondary structures with tertiary interactions
+EAPI=0
+HOMEPAGE=http://ndbserver.rutgers.edu/services/download/index.html
+KEYWORDS=~amd64 x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=mirror://gentoo/rnaview-20040713.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

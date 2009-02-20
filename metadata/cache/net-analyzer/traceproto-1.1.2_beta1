@@ -1,22 +1,13 @@
->=net-libs/libnet-1.1.0 net-libs/libpcap ncurses? ( sys-libs/ncurses ) debug? ( dev-libs/dmalloc ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=net-libs/libnet-1.1.0 net-libs/libpcap ncurses? ( sys-libs/ncurses ) debug? ( dev-libs/dmalloc )
-0
-mirror://gentoo/traceproto-1.1.2beta1.tar.gz
-
-http://traceproto.sourceforge.net/
-GPL-2
-A traceroute-like utility that sends packets based on protocol
-~amd64 ~ppc x86
-toolchain-funcs portability multilib libtool autotools eutils
-debug ncurses
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=net-libs/libnet-1.1.0 net-libs/libpcap ncurses? ( sys-libs/ncurses ) debug? ( dev-libs/dmalloc ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A traceroute-like utility that sends packets based on protocol
+EAPI=0
+HOMEPAGE=http://traceproto.sourceforge.net/
+IUSE=debug ncurses
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=>=net-libs/libnet-1.1.0 net-libs/libpcap ncurses? ( sys-libs/ncurses ) debug? ( dev-libs/dmalloc )
+SLOT=0
+SRC_URI=mirror://gentoo/traceproto-1.1.2beta1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

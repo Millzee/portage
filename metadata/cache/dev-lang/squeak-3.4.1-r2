@@ -1,22 +1,13 @@
-X? ( x11-libs/libX11 x11-libs/libXext )
-X? ( x11-libs/libX11 x11-libs/libXext ) virtual/squeak-image
-0
-ftp://st.cs.uiuc.edu/Smalltalk/Squeak/3.4/unix-linux/Squeak-3.4-1.src.tar.gz
-
-http://www.squeak.org/
-Apple
-Highly-portable Smalltalk-80 implementation
-~x86 ~ppc
-toolchain-funcs portability flag-o-matic multilib libtool eutils
-X oss mmx mozilla
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=X? ( x11-libs/libX11 x11-libs/libXext )
+DESCRIPTION=Highly-portable Smalltalk-80 implementation
+EAPI=0
+HOMEPAGE=http://www.squeak.org/
+IUSE=X oss mmx mozilla
+KEYWORDS=~x86 ~ppc
+LICENSE=Apple
+RDEPEND=X? ( x11-libs/libX11 x11-libs/libXext ) virtual/squeak-image
+SLOT=0
+SRC_URI=ftp://st.cs.uiuc.edu/Smalltalk/Squeak/3.4/unix-linux/Squeak-3.4-1.src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

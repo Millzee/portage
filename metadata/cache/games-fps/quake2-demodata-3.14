@@ -1,22 +1,12 @@
-app-arch/unzip
-
-0
-mirror://idsoftware/quake2/q2-314-demo-x86.exe
-
-http://en.wikipedia.org/wiki/Quake_II
-quake2-demodata
-Demo data for Quake 2
-~alpha ~amd64 ~ppc ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability versionator multilib base games eutils
-symlink
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Demo data for Quake 2
+EAPI=0
+HOMEPAGE=http://en.wikipedia.org/wiki/Quake_II
+IUSE=symlink
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86 ~x86-fbsd
+LICENSE=quake2-demodata
+SLOT=0
+SRC_URI=mirror://idsoftware/quake2/q2-314-demo-x86.exe
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

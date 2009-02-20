@@ -1,22 +1,12 @@
-virtual/libc sys-apps/sed >=sys-apps/sed-4
-virtual/libc
-0
-mirror://debian/pool/main/a/adjtimex/adjtimex_1.20-3.diff.gz mirror://debian/pool/main/a/adjtimex/adjtimex_1.20.orig.tar.gz
-
-http://www.ibiblio.org/linsearch/lsms/adjtimex.html
-GPL-2
-display or set the kernel time variables
-~alpha ~amd64 ~ppc ~x86
-fixheadtails toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst unpack
+DEPEND=virtual/libc sys-apps/sed >=sys-apps/sed-4
+DESCRIPTION=display or set the kernel time variables
+EAPI=0
+HOMEPAGE=http://www.ibiblio.org/linsearch/lsms/adjtimex.html
+KEYWORDS=~alpha ~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=mirror://debian/pool/main/a/adjtimex/adjtimex_1.20-3.diff.gz mirror://debian/pool/main/a/adjtimex/adjtimex_1.20.orig.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

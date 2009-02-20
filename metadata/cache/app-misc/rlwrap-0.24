@@ -1,22 +1,12 @@
-sys-libs/readline
-sys-libs/readline
-0
-http://utopia.knoware.nl/~hlub/uck/rlwrap/rlwrap-0.24.tar.gz
-
-http://utopia.knoware.nl/~hlub/uck/rlwrap
-GPL-2
-a 'readline wrapper' which uses the GNU readline lib to allow the editing of keyboard input for any command
-amd64 ~mips ppc sparc x86
-
-debug
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-libs/readline
+DESCRIPTION=a 'readline wrapper' which uses the GNU readline lib to allow the editing of keyboard input for any command
+EAPI=0
+HOMEPAGE=http://utopia.knoware.nl/~hlub/uck/rlwrap
+IUSE=debug
+KEYWORDS=amd64 ~mips ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/readline
+SLOT=0
+SRC_URI=http://utopia.knoware.nl/~hlub/uck/rlwrap/rlwrap-0.24.tar.gz
+_mtime_=1235082849

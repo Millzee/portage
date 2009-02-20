@@ -1,22 +1,13 @@
-net-mail/dovecot dspam? ( mail-filter/dspam ) crm114? ( app-text/crm114 )
-net-mail/dovecot dspam? ( mail-filter/dspam ) crm114? ( app-text/crm114 )
-0
-mirror://gentoo/dovecot-antispam-20080829.tar.gz
-
-http://johannes.sipsolutions.net/Projects/dovecot-antispam
-GPL-2
-A dovecot antispam plugin supporting multiple backends
-~amd64 ~x86
-confutils toolchain-funcs multilib portability eutils
-debug +dspam crm114 mailtrain signature-log syslog
-
-
-
-1
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=net-mail/dovecot dspam? ( mail-filter/dspam ) crm114? ( app-text/crm114 )
+DESCRIPTION=A dovecot antispam plugin supporting multiple backends
+EAPI=1
+HOMEPAGE=http://johannes.sipsolutions.net/Projects/dovecot-antispam
+IUSE=debug +dspam crm114 mailtrain signature-log syslog
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-mail/dovecot dspam? ( mail-filter/dspam ) crm114? ( app-text/crm114 )
+SLOT=0
+SRC_URI=mirror://gentoo/dovecot-antispam-20080829.tar.gz
+_eclasses_=confutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

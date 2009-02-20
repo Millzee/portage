@@ -1,22 +1,13 @@
-=app-i18n/ibus-0.1* >=dev-lang/python-2.5 nls? ( virtual/libintl ) nls? ( >=sys-devel/gettext-0.16.1 )
-=app-i18n/ibus-0.1* >=dev-lang/python-2.5 nls? ( virtual/libintl )
-0
-http://ibus.googlecode.com/files/ibus-table-0.1.2.20090104.tar.gz
-
-http://code.google.com/p/ibus/
-GPL-2 LGPL-2.1
-The Table Engine for IBus Framework
-~amd64 ~x86
-toolchain-funcs portability python alternatives multilib eutils
-minimal nls
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND==app-i18n/ibus-0.1* >=dev-lang/python-2.5 nls? ( virtual/libintl ) nls? ( >=sys-devel/gettext-0.16.1 )
+DESCRIPTION=The Table Engine for IBus Framework
+EAPI=0
+HOMEPAGE=http://code.google.com/p/ibus/
+IUSE=minimal nls
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 LGPL-2.1
+RDEPEND==app-i18n/ibus-0.1* >=dev-lang/python-2.5 nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=http://ibus.googlecode.com/files/ibus-table-0.1.2.20090104.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

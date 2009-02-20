@@ -1,22 +1,13 @@
-kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-kernel_linux? ( virtual/modutils )
-0
-ftp://ftp.fsl.cs.sunysb.edu/pub/unionfs/snapshots/unionfs-1.5pre-cvs200701042308.tar.gz
-
-http://www.fsl.cs.sunysb.edu/project-unionfs.html
-GPL-2
-Stackable unification file system, which can appear to merge the contents of several directories
-~x86 ~amd64 ~ppc
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-acl debug nfs kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=Stackable unification file system, which can appear to merge the contents of several directories
+EAPI=0
+HOMEPAGE=http://www.fsl.cs.sunysb.edu/project-unionfs.html
+IUSE=acl debug nfs kernel_linux
+KEYWORDS=~x86 ~amd64 ~ppc
+LICENSE=GPL-2
+RDEPEND=kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=ftp://ftp.fsl.cs.sunysb.edu/pub/unionfs/snapshots/unionfs-1.5pre-cvs200701042308.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

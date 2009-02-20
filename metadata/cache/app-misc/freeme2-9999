@@ -1,22 +1,11 @@
-dev-libs/openssl dev-util/subversion net-misc/rsync =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-dev-libs/openssl
-0
-
-
-http://sourceforge.net/projects/freeme2
-GPL-3
-A utility that strips WM-DRM protection from wmv/asf/wma files as well as video/audio streams.
-~amd64 ~x86
-toolchain-funcs portability multilib subversion libtool autotools eutils
-
-
-
-
-0
-
-install preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install preinst unpack
+DEPEND=dev-libs/openssl dev-util/subversion net-misc/rsync =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A utility that strips WM-DRM protection from wmv/asf/wma files as well as video/audio streams.
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/freeme2
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/openssl
+SLOT=0
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

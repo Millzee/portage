@@ -1,22 +1,13 @@
-media-libs/libsdl media-libs/sdl-image opengl? ( virtual/opengl ) ggi? ( media-libs/libggi ) svga? ( media-libs/svgalib ) x86? ( dev-lang/nasm )
-media-libs/libsdl media-libs/sdl-image opengl? ( virtual/opengl ) ggi? ( media-libs/libggi ) svga? ( media-libs/svgalib ) cdinstall? ( games-action/descent2-data ) !cdinstall? ( games-action/descent2-demodata )
-0
-http://icculus.org/d2x/src/d2x-0.2.5.tar.gz
-
-http://icculus.org/d2x/
-D1X
-Descent 2 engine from Icculus
-~amd64 ~ppc ~x86
-toolchain-funcs portability flag-o-matic multilib base games eutils
-cdinstall debug opengl ggi svga
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-image opengl? ( virtual/opengl ) ggi? ( media-libs/libggi ) svga? ( media-libs/svgalib ) x86? ( dev-lang/nasm )
+DESCRIPTION=Descent 2 engine from Icculus
+EAPI=0
+HOMEPAGE=http://icculus.org/d2x/
+IUSE=cdinstall debug opengl ggi svga
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=D1X
+RDEPEND=media-libs/libsdl media-libs/sdl-image opengl? ( virtual/opengl ) ggi? ( media-libs/libggi ) svga? ( media-libs/svgalib ) cdinstall? ( games-action/descent2-data ) !cdinstall? ( games-action/descent2-demodata )
+SLOT=0
+SRC_URI=http://icculus.org/d2x/src/d2x-0.2.5.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

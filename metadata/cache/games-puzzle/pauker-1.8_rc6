@@ -1,22 +1,13 @@
->=virtual/jdk-1.5 app-arch/unzip dev-java/browserlauncher2:1.0 dev-java/javahelp dev-java/lucene:2.4 dev-java/swing-layout:1 >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.5 dev-java/browserlauncher2:1.0 dev-java/javahelp dev-java/lucene:2.4 dev-java/swing-layout:1 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-mirror://sourceforge/pauker/pauker-1.8RC6.src.jar
-
-http://pauker.sourceforge.net/
-GPL-2
-A java based flashcard program
-~amd64 ~ppc ~x86
-toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib base games eutils java-ant-2
-elibc_FreeBSD doc source elibc_FreeBSD
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=>=virtual/jdk-1.5 app-arch/unzip dev-java/browserlauncher2:1.0 dev-java/javahelp dev-java/lucene:2.4 dev-java/swing-layout:1 >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=A java based flashcard program
+EAPI=2
+HOMEPAGE=http://pauker.sourceforge.net/
+IUSE=elibc_FreeBSD doc source elibc_FreeBSD
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.5 dev-java/browserlauncher2:1.0 dev-java/javahelp dev-java/lucene:2.4 dev-java/swing-layout:1 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=mirror://sourceforge/pauker/pauker-1.8RC6.src.jar
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

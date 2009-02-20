@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2 dev-util/pkgconfig nls? ( sys-devel/gettext )
->=x11-libs/gtk+-2
-0
-http://gtkdiskfree.tuxfamily.org/src_tgz/gtkdiskfree-1.9.3.tar.gz
-
-http://gtkdiskfree.tuxfamily.org/
-GPL-2
-Graphical tool to show free disk space
-amd64 ia64 ppc ppc64 ~sparc x86
-toolchain-funcs multilib portability eutils
-nls
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2 dev-util/pkgconfig nls? ( sys-devel/gettext )
+DESCRIPTION=Graphical tool to show free disk space
+EAPI=0
+HOMEPAGE=http://gtkdiskfree.tuxfamily.org/
+IUSE=nls
+KEYWORDS=amd64 ia64 ppc ppc64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2
+SLOT=0
+SRC_URI=http://gtkdiskfree.tuxfamily.org/src_tgz/gtkdiskfree-1.9.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

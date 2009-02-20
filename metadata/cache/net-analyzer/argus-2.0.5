@@ -1,22 +1,12 @@
-virtual/libc net-libs/libpcap >=sys-devel/bison-1.28 >=sys-devel/flex-2.4.6
-virtual/libc net-libs/libpcap
-0
-ftp://ftp.qosient.com/pub/argus/src/argus-2.0.5.tar.gz
-
-http://www.qosient.com/argus/
-GPL-2
-network Audit Record Generation and Utilization System
-~amd64 ~ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=virtual/libc net-libs/libpcap >=sys-devel/bison-1.28 >=sys-devel/flex-2.4.6
+DESCRIPTION=network Audit Record Generation and Utilization System
+EAPI=0
+HOMEPAGE=http://www.qosient.com/argus/
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc net-libs/libpcap
+SLOT=0
+SRC_URI=ftp://ftp.qosient.com/pub/argus/src/argus-2.0.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082884

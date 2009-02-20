@@ -1,22 +1,10 @@
-|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 ) =x11-libs/qt-4.3*:4 ) >=media-libs/libmpeg2-0.4.0 virtual/opengl dev-util/subversion net-misc/rsync
-|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 ) =x11-libs/qt-4.3*:4 ) >=media-libs/libmpeg2-0.4.0 virtual/opengl media-video/mplayer media-video/transcode[mjpeg]
-0
-
-
-http://www.tritime.de/ttcut/
-GPL-2
-Tool for cutting MPEG files especially for removing commercials
-
-qt4 toolchain-funcs portability versionator multilib subversion eutils
-
-
-
-
-2
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 ) =x11-libs/qt-4.3*:4 ) >=media-libs/libmpeg2-0.4.0 virtual/opengl dev-util/subversion net-misc/rsync
+DESCRIPTION=Tool for cutting MPEG files especially for removing commercials
+EAPI=2
+HOMEPAGE=http://www.tritime.de/ttcut/
+LICENSE=GPL-2
+RDEPEND=|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 ) =x11-libs/qt-4.3*:4 ) >=media-libs/libmpeg2-0.4.0 virtual/opengl media-video/mplayer media-video/transcode[mjpeg]
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082870

@@ -1,22 +1,13 @@
->=dev-libs/glib-2.6 dev-util/pkgconfig doc? ( >=dev-util/gtk-doc-1.2 ) test? ( >=dev-libs/check-0.9.4 ) >=sys-apps/sed-4
->=dev-libs/glib-2.6
-2
-mirror://gnome/sources/gnet/2.0/gnet-2.0.8.tar.bz2
-
-http://www.gnetlibrary.org/
-LGPL-2
-A simple network library.
-alpha amd64 hppa ia64 ppc ppc64 sparc x86
-gnome2 toolchain-funcs portability multilib gnome2-utils libtool gnome.org fdo-mime eutils
-doc test debug
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=>=dev-libs/glib-2.6 dev-util/pkgconfig doc? ( >=dev-util/gtk-doc-1.2 ) test? ( >=dev-libs/check-0.9.4 ) >=sys-apps/sed-4
+DESCRIPTION=A simple network library.
+EAPI=0
+HOMEPAGE=http://www.gnetlibrary.org/
+IUSE=doc test debug
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+LICENSE=LGPL-2
+RDEPEND=>=dev-libs/glib-2.6
+SLOT=2
+SRC_URI=mirror://gnome/sources/gnet/2.0/gnet-2.0.8.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082893

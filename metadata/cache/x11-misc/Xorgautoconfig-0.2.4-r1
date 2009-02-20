@@ -1,22 +1,11 @@
-
-sys-apps/pciutils
-0
-mirror://gentoo/Xorgautoconfig-0.2.4.tar.bz2
-
-http://dev.gentoo.org/~josejx/Xorgautoconfig.html
-GPL-2
-Xorgautconfig generates xorg.conf files for PPC based computers.
-ppc ppc64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Xorgautconfig generates xorg.conf files for PPC based computers.
+EAPI=0
+HOMEPAGE=http://dev.gentoo.org/~josejx/Xorgautoconfig.html
+KEYWORDS=ppc ppc64
+LICENSE=GPL-2
+RDEPEND=sys-apps/pciutils
+SLOT=0
+SRC_URI=mirror://gentoo/Xorgautoconfig-0.2.4.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

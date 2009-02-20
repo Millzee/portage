@@ -1,22 +1,11 @@
-
->=dev-lang/python-2.5
-0
-mirror://sourceforge/pyconstruct/construct-2.00-distro.zip
-
-http://construct.wikispaces.com/
-public-domain
-Simple parsing of binary (and textual) data with Python
-~amd64
-python multilib toolchain-funcs alternatives
-
-
-
-
-0
-
-compile install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm
+DESCRIPTION=Simple parsing of binary (and textual) data with Python
+EAPI=0
+HOMEPAGE=http://construct.wikispaces.com/
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=>=dev-lang/python-2.5
+SLOT=0
+SRC_URI=mirror://sourceforge/pyconstruct/construct-2.00-distro.zip
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

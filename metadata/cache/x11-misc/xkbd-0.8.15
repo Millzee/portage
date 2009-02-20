@@ -1,22 +1,13 @@
-x11-libs/libXrender x11-libs/libX11 x11-libs/libXft x11-libs/libXtst x11-libs/libXpm media-libs/freetype dev-libs/expat sys-libs/zlib doc? ( app-text/docbook-sgml-utils ) x11-proto/xproto x11-proto/xextproto
-x11-libs/libXrender x11-libs/libX11 x11-libs/libXft x11-libs/libXtst x11-libs/libXpm media-libs/freetype dev-libs/expat sys-libs/zlib doc? ( app-text/docbook-sgml-utils )
-0
-ftp://ftp.yzu.edu.tw/mirror/pub2/ftp.handhelds.org/distributions/familiar/source/v0.8.4-rc1/sources/xkbd-0.8.15-CVS.tar.gz
-
-http://handhelds.org/
-GPL-2
-Xkbd - onscreen soft keyboard for X11
-~amd64 ~arm ~ppc ~x86
-toolchain-funcs multilib portability eutils
-doc debug
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXrender x11-libs/libX11 x11-libs/libXft x11-libs/libXtst x11-libs/libXpm media-libs/freetype dev-libs/expat sys-libs/zlib doc? ( app-text/docbook-sgml-utils ) x11-proto/xproto x11-proto/xextproto
+DESCRIPTION=Xkbd - onscreen soft keyboard for X11
+EAPI=0
+HOMEPAGE=http://handhelds.org/
+IUSE=doc debug
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXrender x11-libs/libX11 x11-libs/libXft x11-libs/libXtst x11-libs/libXpm media-libs/freetype dev-libs/expat sys-libs/zlib doc? ( app-text/docbook-sgml-utils )
+SLOT=0
+SRC_URI=ftp://ftp.yzu.edu.tw/mirror/pub2/ftp.handhelds.org/distributions/familiar/source/v0.8.4-rc1/sources/xkbd-0.8.15-CVS.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

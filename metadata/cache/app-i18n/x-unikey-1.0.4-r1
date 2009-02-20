@@ -1,22 +1,13 @@
-x11-libs/libX11 x11-libs/libSM x11-libs/libICE gtk? ( >=x11-libs/gtk+-2.2 ) nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-x11-libs/libX11 x11-libs/libSM x11-libs/libICE gtk? ( >=x11-libs/gtk+-2.2 ) nls? ( virtual/libintl )
-0
-mirror://sourceforge/unikey/x-unikey-1.0.4.tar.bz2
-
-http://www.unikey.org/
-GPL-2
-Vietnamese X Input Method
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-nls gtk
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=x11-libs/libX11 x11-libs/libSM x11-libs/libICE gtk? ( >=x11-libs/gtk+-2.2 ) nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Vietnamese X Input Method
+EAPI=0
+HOMEPAGE=http://www.unikey.org/
+IUSE=nls gtk
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libSM x11-libs/libICE gtk? ( >=x11-libs/gtk+-2.2 ) nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/unikey/x-unikey-1.0.4.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

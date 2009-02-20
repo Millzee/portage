@@ -1,22 +1,14 @@
->=dev-lang/ocaml-3.0.8 ncurses? ( >=sys-libs/ncurses-5.3 ) fam? ( virtual/fam ) readline? ( >=sys-libs/readline-4.3 )
->=dev-lang/ocaml-3.0.8 ncurses? ( >=sys-libs/ncurses-5.3 ) fam? ( virtual/fam ) readline? ( >=sys-libs/readline-4.3 )
-0
-http://omake.metaprl.org/downloads/omake-0.9.8.5-3.tar.gz
-installsources
-http://omake.metaprl.org/
-GPL-2
-Make replacement
-~amd64 ppc x86
-toolchain-funcs multilib portability eutils
-doc fam ncurses +ocamlopt readline
-
-
-
-1
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=>=dev-lang/ocaml-3.0.8 ncurses? ( >=sys-libs/ncurses-5.3 ) fam? ( virtual/fam ) readline? ( >=sys-libs/readline-4.3 )
+DESCRIPTION=Make replacement
+EAPI=1
+HOMEPAGE=http://omake.metaprl.org/
+IUSE=doc fam ncurses +ocamlopt readline
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/ocaml-3.0.8 ncurses? ( >=sys-libs/ncurses-5.3 ) fam? ( virtual/fam ) readline? ( >=sys-libs/readline-4.3 )
+RESTRICT=installsources
+SLOT=0
+SRC_URI=http://omake.metaprl.org/downloads/omake-0.9.8.5-3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

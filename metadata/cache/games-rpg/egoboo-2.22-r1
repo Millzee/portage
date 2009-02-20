@@ -1,22 +1,12 @@
-virtual/opengl virtual/glu media-libs/libsdl
-virtual/opengl virtual/glu media-libs/libsdl
-0
-mirror://sourceforge/egoboo/ego222.tar.gz
-
-http://egoboo.sourceforge.net/
-GPL-2
-A 3d dungeon crawling adventure in the spirit of NetHack
-~amd64 ppc x86
-toolchain-funcs portability flag-o-matic multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/opengl virtual/glu media-libs/libsdl
+DESCRIPTION=A 3d dungeon crawling adventure in the spirit of NetHack
+EAPI=0
+HOMEPAGE=http://egoboo.sourceforge.net/
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl virtual/glu media-libs/libsdl
+SLOT=0
+SRC_URI=mirror://sourceforge/egoboo/ego222.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

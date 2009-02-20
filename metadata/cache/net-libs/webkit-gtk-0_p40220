@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.8 >=dev-libs/icu-3.8.1-r1 >=net-misc/curl-7.15 media-libs/jpeg media-libs/libpng dev-libs/libxml2 sqlite? ( >=dev-db/sqlite-3 ) gstreamer? ( >=media-libs/gst-plugins-base-0.10 ) soup? ( >=net-libs/libsoup-2.23.1 ) xslt? ( dev-libs/libxslt ) pango? ( x11-libs/pango ) dev-util/gperf dev-util/pkgconfig virtual/perl-Text-Balanced =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=x11-libs/gtk+-2.8 >=dev-libs/icu-3.8.1-r1 >=net-misc/curl-7.15 media-libs/jpeg media-libs/libpng dev-libs/libxml2 sqlite? ( >=dev-db/sqlite-3 ) gstreamer? ( >=media-libs/gst-plugins-base-0.10 ) soup? ( >=net-libs/libsoup-2.23.1 ) xslt? ( dev-libs/libxslt ) pango? ( x11-libs/pango )
-0
-http://nightly.webkit.org/files/trunk/src/WebKit-r40220.tar.bz2
-
-http://www.webkit.org/
-LGPL-2 LGPL-2.1 BSD
-Open source web browser engine
-~alpha ~amd64 ~ia64 ~ppc ~sparc ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-coverage debug gstreamer pango soup sqlite svg xslt
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2.8 >=dev-libs/icu-3.8.1-r1 >=net-misc/curl-7.15 media-libs/jpeg media-libs/libpng dev-libs/libxml2 sqlite? ( >=dev-db/sqlite-3 ) gstreamer? ( >=media-libs/gst-plugins-base-0.10 ) soup? ( >=net-libs/libsoup-2.23.1 ) xslt? ( dev-libs/libxslt ) pango? ( x11-libs/pango ) dev-util/gperf dev-util/pkgconfig virtual/perl-Text-Balanced =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Open source web browser engine
+EAPI=0
+HOMEPAGE=http://www.webkit.org/
+IUSE=coverage debug gstreamer pango soup sqlite svg xslt
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~sparc ~x86
+LICENSE=LGPL-2 LGPL-2.1 BSD
+RDEPEND=>=x11-libs/gtk+-2.8 >=dev-libs/icu-3.8.1-r1 >=net-misc/curl-7.15 media-libs/jpeg media-libs/libpng dev-libs/libxml2 sqlite? ( >=dev-db/sqlite-3 ) gstreamer? ( >=media-libs/gst-plugins-base-0.10 ) soup? ( >=net-libs/libsoup-2.23.1 ) xslt? ( dev-libs/libxslt ) pango? ( x11-libs/pango )
+SLOT=0
+SRC_URI=http://nightly.webkit.org/files/trunk/src/WebKit-r40220.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

@@ -1,22 +1,12 @@
-dev-perl/CPAN-Mini dev-lang/perl
-dev-perl/CPAN-Mini dev-lang/perl
-0
-mirror://cpan/authors/id/S/SM/SMPETERS/CPAN-Mini-Phalanx100-0.01.tar.gz
-
-http://search.cpan.org/~smpeters/CPAN-Mini-Phalanx100-0.01/
-Artistic
-create a minimal mirror of CPAN containing the modules in the Phalanx 100
-ia64 sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-perl/CPAN-Mini dev-lang/perl
+DESCRIPTION=create a minimal mirror of CPAN containing the modules in the Phalanx 100
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~smpeters/CPAN-Mini-Phalanx100-0.01/
+KEYWORDS=ia64 sparc x86
+LICENSE=Artistic
+RDEPEND=dev-perl/CPAN-Mini dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SM/SMPETERS/CPAN-Mini-Phalanx100-0.01.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

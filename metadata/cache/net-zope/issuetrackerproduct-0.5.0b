@@ -1,22 +1,11 @@
-
->=dev-python/stripogram-1.4 net-zope/zope app-admin/zprod-manager
-0
-http://www.zope.org/Members/peterbe/IssueTrackerProduct/IssueTrackerProduct-0.5.0b.tgz
-
-http://www.zope.org/Members/peterbe/IssueTrackerProduct
-ZPL
-Issue tracking system
-~ppc x86
-zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DESCRIPTION=Issue tracking system
+EAPI=0
+HOMEPAGE=http://www.zope.org/Members/peterbe/IssueTrackerProduct
+KEYWORDS=~ppc x86
+LICENSE=ZPL
+RDEPEND=>=dev-python/stripogram-1.4 net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://www.zope.org/Members/peterbe/IssueTrackerProduct/IssueTrackerProduct-0.5.0b.tgz
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

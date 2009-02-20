@@ -1,22 +1,10 @@
-
-
-8.1
-mirror://postgresql/source/v8.1.13/postgresql-8.1.13.tar.bz2
-
-http://www.postgresql.org/
-POSTGRESQL
-PostgreSQL documentation
-amd64 x86
-versionator
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=PostgreSQL documentation
+EAPI=0
+HOMEPAGE=http://www.postgresql.org/
+KEYWORDS=amd64 x86
+LICENSE=POSTGRESQL
+SLOT=8.1
+SRC_URI=mirror://postgresql/source/v8.1.13/postgresql-8.1.13.tar.bz2
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

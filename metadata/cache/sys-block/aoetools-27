@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc sys-apps/util-linux
-0
-mirror://sourceforge/aoetools/aoetools-27.tar.gz
-
-http://sf.net/projects/aoetools/
-GPL-2
-aoetools are programs for users of the ATA over Ethernet (AoE) network storage protocol
-amd64 ppc ~ppc64 ~sparc x86
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=aoetools are programs for users of the ATA over Ethernet (AoE) network storage protocol
+EAPI=0
+HOMEPAGE=http://sf.net/projects/aoetools/
+KEYWORDS=amd64 ppc ~ppc64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc sys-apps/util-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/aoetools/aoetools-27.tar.gz
+_mtime_=1235082900

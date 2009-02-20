@@ -1,22 +1,12 @@
-x11-libs/qt-gui
-x11-libs/qt-gui sys-fs/mtools sys-boot/syslinux app-arch/p7zip
-0
-mirror://sourceforge/unetbootin/unetbootin-source-310.tar.gz
-
-http://unetbootin.sourceforge.net/
-GPL-2
-Universal Netboot Installer creates Live USB systems for various OS distributions.
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib eutils
-
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=x11-libs/qt-gui
+DESCRIPTION=Universal Netboot Installer creates Live USB systems for various OS distributions.
+EAPI=0
+HOMEPAGE=http://unetbootin.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt-gui sys-fs/mtools sys-boot/syslinux app-arch/p7zip
+SLOT=0
+SRC_URI=mirror://sourceforge/unetbootin/unetbootin-source-310.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

@@ -1,22 +1,13 @@
-!dev-lang/mercury X? ( x11-libs/openmotif ) virtual/libc
-!dev-lang/mercury X? ( x11-libs/openmotif ) virtual/libc
-0
-http://www.cbmamiga.demon.co.uk/mpatrol/files/mpatrol_1.4.8.tar.gz
-
-http://www.cbmamiga.demon.co.uk/mpatrol/
-GPL-2
-A link library for controlling and tracing dynamic memory allocation. Attempts to diagnose run-time errors that are caused by misuse of dynamically allocated memory. Simple integration via a single header.
-~x86 ~sparc
-toolchain-funcs multilib portability eutils flag-o-matic
-X
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=!dev-lang/mercury X? ( x11-libs/openmotif ) virtual/libc
+DESCRIPTION=A link library for controlling and tracing dynamic memory allocation. Attempts to diagnose run-time errors that are caused by misuse of dynamically allocated memory. Simple integration via a single header.
+EAPI=0
+HOMEPAGE=http://www.cbmamiga.demon.co.uk/mpatrol/
+IUSE=X
+KEYWORDS=~x86 ~sparc
+LICENSE=GPL-2
+RDEPEND=!dev-lang/mercury X? ( x11-libs/openmotif ) virtual/libc
+SLOT=0
+SRC_URI=http://www.cbmamiga.demon.co.uk/mpatrol/files/mpatrol_1.4.8.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

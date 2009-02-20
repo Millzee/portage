@@ -1,22 +1,12 @@
->=dev-util/cmake-2.4
-!media-sound/musepack-tools
-0
-http://files.musepack.net/source/mppenc-1.16.tar.bz2
-
-http://www.musepack.net/
-LGPL-2.1
-musepack audio encoder
-amd64 ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-util/cmake-2.4
+DESCRIPTION=musepack audio encoder
+EAPI=0
+HOMEPAGE=http://www.musepack.net/
+KEYWORDS=amd64 ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=LGPL-2.1
+RDEPEND=!media-sound/musepack-tools
+SLOT=0
+SRC_URI=http://files.musepack.net/source/mppenc-1.16.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

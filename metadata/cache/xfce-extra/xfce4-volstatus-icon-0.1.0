@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2.10 >=xfce-base/libxfce4util-4.4.0 >=xfce-base/libxfcegui4-4.4.0 >=xfce-extra/exo-0.3.2 >=sys-apps/hal-0.5.9 dev-libs/dbus-glib dev-util/pkgconfig dev-util/intltool >=sys-apps/sed-4 dev-util/pkgconfig
->=x11-libs/gtk+-2.10 >=xfce-base/libxfce4util-4.4.0 >=xfce-base/libxfcegui4-4.4.0 >=xfce-extra/exo-0.3.2 >=sys-apps/hal-0.5.9 dev-libs/dbus-glib
-0
-http://goodies.xfce.org/releases/xfce4-volstatus-icon/xfce4-volstatus-icon-0.1.0.tar.bz2
-
-http://goodies.xfce.org
-GPL-2
-Systray status icon for safe unmount/eject of volumes
-alpha amd64 ia64 ppc x86
-toolchain-funcs portability multilib gnome2-utils xfce44 fdo-mime eutils
-debug
-
-
-
-0
-
-compile install postinst postrm preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup
+DEPEND=>=x11-libs/gtk+-2.10 >=xfce-base/libxfce4util-4.4.0 >=xfce-base/libxfcegui4-4.4.0 >=xfce-extra/exo-0.3.2 >=sys-apps/hal-0.5.9 dev-libs/dbus-glib dev-util/pkgconfig dev-util/intltool >=sys-apps/sed-4 dev-util/pkgconfig
+DESCRIPTION=Systray status icon for safe unmount/eject of volumes
+EAPI=0
+HOMEPAGE=http://goodies.xfce.org
+IUSE=debug
+KEYWORDS=alpha amd64 ia64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.10 >=xfce-base/libxfce4util-4.4.0 >=xfce-base/libxfcegui4-4.4.0 >=xfce-extra/exo-0.3.2 >=sys-apps/hal-0.5.9 dev-libs/dbus-glib
+SLOT=0
+SRC_URI=http://goodies.xfce.org/releases/xfce4-volstatus-icon/xfce4-volstatus-icon-0.1.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	xfce44	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082913

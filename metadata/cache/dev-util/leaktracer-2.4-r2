@@ -1,22 +1,13 @@
->=dev-lang/perl-5 sys-devel/gdb
->=dev-lang/perl-5 sys-devel/gdb
-0
-mirror://gentoo/leaktracer-2.4-gentoo_p2.tbz2
-test
-http://www.andreasen.org/LeakTracer/
-public-domain
-trace and analyze memory leaks in C++ programs
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=dev-lang/perl-5 sys-devel/gdb
+DESCRIPTION=trace and analyze memory leaks in C++ programs
+EAPI=0
+HOMEPAGE=http://www.andreasen.org/LeakTracer/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=public-domain
+RDEPEND=>=dev-lang/perl-5 sys-devel/gdb
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://gentoo/leaktracer-2.4-gentoo_p2.tbz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

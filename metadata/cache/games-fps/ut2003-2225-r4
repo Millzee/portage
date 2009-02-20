@@ -1,22 +1,13 @@
-
-dedicated? ( games-server/ut2003-ded ) !dedicated? ( virtual/opengl ) games-fps/ut2003-data amd64? ( app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-xlibs )
-0
-ftp://ftp.infogrames.net/misc/ut2003/ut2003lnx_patch2225.tar.tar
-strip
-http://www.unrealtournament2003.com/
-ut2003
-Sequel to the 1999 Game of the Year multi-player first-person shooter
-amd64 x86
-toolchain-funcs portability multilib base games eutils
-dedicated
-
-
-
-0
-
-compile config install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst postrm preinst setup unpack
+DESCRIPTION=Sequel to the 1999 Game of the Year multi-player first-person shooter
+EAPI=0
+HOMEPAGE=http://www.unrealtournament2003.com/
+IUSE=dedicated
+KEYWORDS=amd64 x86
+LICENSE=ut2003
+RDEPEND=dedicated? ( games-server/ut2003-ded ) !dedicated? ( virtual/opengl ) games-fps/ut2003-data amd64? ( app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-xlibs )
+RESTRICT=strip
+SLOT=0
+SRC_URI=ftp://ftp.infogrames.net/misc/ut2003/ut2003lnx_patch2225.tar.tar
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

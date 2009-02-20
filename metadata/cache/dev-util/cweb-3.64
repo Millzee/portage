@@ -1,22 +1,11 @@
-virtual/libc !app-text/tetex !app-text/texlive-core !app-text/ptex
-virtual/libc !app-text/tetex !app-text/texlive-core !app-text/ptex
-0
-ftp://labrea.stanford.edu/pub/cweb/cweb-3.64.tar.gz
-
-http://www-cs-faculty.stanford.edu/~knuth/cweb.html
-BSD
-Knuth's and Levy's C/C++ documenting system
-~amd64 ppc sparc x86
-
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/libc !app-text/tetex !app-text/texlive-core !app-text/ptex
+DESCRIPTION=Knuth's and Levy's C/C++ documenting system
+EAPI=0
+HOMEPAGE=http://www-cs-faculty.stanford.edu/~knuth/cweb.html
+KEYWORDS=~amd64 ppc sparc x86
+LICENSE=BSD
+RDEPEND=virtual/libc !app-text/tetex !app-text/texlive-core !app-text/ptex
+SLOT=0
+SRC_URI=ftp://labrea.stanford.edu/pub/cweb/cweb-3.64.tar.gz
+_mtime_=1235082859

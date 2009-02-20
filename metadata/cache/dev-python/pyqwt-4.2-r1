@@ -1,22 +1,13 @@
-~x11-libs/qwt-4.2.0 >=dev-python/PyQt-3.14 >=dev-python/numarray-1.1.1 >=dev-python/numeric-23.7 >=dev-python/sip-4.2 >=dev-lang/python-2.3 virtual/python >=dev-lang/python-2.3
-~x11-libs/qwt-4.2.0 >=dev-python/PyQt-3.14 >=dev-python/numarray-1.1.1 >=dev-python/numeric-23.7 >=dev-lang/python-2.3 >=dev-lang/python-2.3
-0
-mirror://sourceforge/pyqwt/PyQwt-4.2.tar.gz
-
-http://pyqwt.sourceforge.net/
-GPL-2
-Python bindings for the Qwt library
-~amd64 ~ia64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-debug
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=~x11-libs/qwt-4.2.0 >=dev-python/PyQt-3.14 >=dev-python/numarray-1.1.1 >=dev-python/numeric-23.7 >=dev-python/sip-4.2 >=dev-lang/python-2.3 virtual/python >=dev-lang/python-2.3
+DESCRIPTION=Python bindings for the Qwt library
+EAPI=0
+HOMEPAGE=http://pyqwt.sourceforge.net/
+IUSE=debug
+KEYWORDS=~amd64 ~ia64 ~x86
+LICENSE=GPL-2
+RDEPEND=~x11-libs/qwt-4.2.0 >=dev-python/PyQt-3.14 >=dev-python/numarray-1.1.1 >=dev-python/numeric-23.7 >=dev-lang/python-2.3 >=dev-lang/python-2.3
+SLOT=0
+SRC_URI=mirror://sourceforge/pyqwt/PyQwt-4.2.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

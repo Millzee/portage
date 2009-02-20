@@ -1,22 +1,13 @@
-virtual/opengl media-libs/libpng x86? ( media-libs/libsdl[opengl] media-libs/sdl-mixer media-libs/sdl-image[png] ) amd64? ( app-emulation/emul-linux-x86-sdl )
-virtual/opengl media-libs/libpng x86? ( media-libs/libsdl[opengl] media-libs/sdl-mixer media-libs/sdl-image[png] ) amd64? ( app-emulation/emul-linux-x86-sdl )
-0
-mirror://sourceforge/bloodfrontier/bloodfrontier-B1-RC1-linux.tar.bz2
-strip
-http://www.bloodfrontier.com
-ZLIB
-free single/multi-player shooter game, built as a total conversion of Cube Engine 2
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=virtual/opengl media-libs/libpng x86? ( media-libs/libsdl[opengl] media-libs/sdl-mixer media-libs/sdl-image[png] ) amd64? ( app-emulation/emul-linux-x86-sdl )
+DESCRIPTION=free single/multi-player shooter game, built as a total conversion of Cube Engine 2
+EAPI=2
+HOMEPAGE=http://www.bloodfrontier.com
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+RDEPEND=virtual/opengl media-libs/libpng x86? ( media-libs/libsdl[opengl] media-libs/sdl-mixer media-libs/sdl-image[png] ) amd64? ( app-emulation/emul-linux-x86-sdl )
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/bloodfrontier/bloodfrontier-B1-RC1-linux.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

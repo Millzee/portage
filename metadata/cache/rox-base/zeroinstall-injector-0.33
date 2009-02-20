@@ -1,22 +1,12 @@
-!<=rox-base/rox-session-0.30 virtual/python
->=dev-python/pygtk-2.0 app-crypt/gnupg
-0
-mirror://sourceforge/zero-install/zeroinstall-injector-0.33.tar.bz2
-
-http://0install.net/
-GPL-2
-Zeroinstall Injector allows regular users to install software themselves
-alpha amd64 ppc sparc x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=!<=rox-base/rox-session-0.30 virtual/python
+DESCRIPTION=Zeroinstall Injector allows regular users to install software themselves
+EAPI=0
+HOMEPAGE=http://0install.net/
+KEYWORDS=alpha amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-python/pygtk-2.0 app-crypt/gnupg
+SLOT=0
+SRC_URI=mirror://sourceforge/zero-install/zeroinstall-injector-0.33.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

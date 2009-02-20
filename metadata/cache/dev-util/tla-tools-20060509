@@ -1,22 +1,11 @@
-dev-util/tla dev-util/tla
-dev-util/tla
-0
-
-
-http://www.gnuarch.org/gnuarchwiki/tla-tools
-GPL-2
-tla-tools is a package of helpful commands to use with the tla program.
-~x86
-tla
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-util/tla dev-util/tla
+DESCRIPTION=tla-tools is a package of helpful commands to use with the tla program.
+EAPI=0
+HOMEPAGE=http://www.gnuarch.org/gnuarchwiki/tla-tools
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=dev-util/tla
+SLOT=0
+_eclasses_=tla	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

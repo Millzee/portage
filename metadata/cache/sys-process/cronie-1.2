@@ -1,22 +1,14 @@
-pam? ( virtual/pam ) >=sys-apps/sed-4.0.5
-pam? ( virtual/pam ) !virtual/cron virtual/mta >=sys-process/cronbase-0.3.2
-0
-https://fedorahosted.org/releases/c/r/cronie/cronie-1.2.tar.gz
-
-https://fedorahosted.org/cronie/wiki
-as-is BSD BSD-2
-Cronie is a standard UNIX daemon cron based on the original vixie-cron.
-~x86
-toolchain-funcs portability flag-o-matic multilib cron eutils
-inotify pam
-
-
-virtual/cron
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=pam? ( virtual/pam ) >=sys-apps/sed-4.0.5
+DESCRIPTION=Cronie is a standard UNIX daemon cron based on the original vixie-cron.
+EAPI=0
+HOMEPAGE=https://fedorahosted.org/cronie/wiki
+IUSE=inotify pam
+KEYWORDS=~x86
+LICENSE=as-is BSD BSD-2
+PROVIDE=virtual/cron
+RDEPEND=pam? ( virtual/pam ) !virtual/cron virtual/mta >=sys-process/cronbase-0.3.2
+SLOT=0
+SRC_URI=https://fedorahosted.org/releases/c/r/cronie/cronie-1.2.tar.gz
+_eclasses_=cron	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

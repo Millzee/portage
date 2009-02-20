@@ -1,22 +1,11 @@
-media-libs/libpng media-libs/jasper
-media-libs/libpng media-libs/jasper
-0
-mirror://sourceforge/icns/libicns-0.6.0.tar.gz
-
-http://sourceforge.net/projects/icns
-GPL-2
-A library for the translation of the icns format
-~amd64 ~x86
-
-
-
-
-
-2
-
-configure install
-
-
-
-
-
+DEFINED_PHASES=configure install
+DEPEND=media-libs/libpng media-libs/jasper
+DESCRIPTION=A library for the translation of the icns format
+EAPI=2
+HOMEPAGE=http://sourceforge.net/projects/icns
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng media-libs/jasper
+SLOT=0
+SRC_URI=mirror://sourceforge/icns/libicns-0.6.0.tar.gz
+_mtime_=1235082867

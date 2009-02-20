@@ -1,22 +1,11 @@
-net-libs/libsoup:2.2 dev-util/pkgconfig
-net-libs/libsoup:2.2
-0
-http://www.frob.nl/projects/scribble/mpdscribble-0.2.12.tar.gz
-
-http://www.frob.nl/scribble.html
-GPL-2
-An MPD client that submits information to audioscrobbler.
-amd64 ~hppa ~ppc sparc ~x86
-
-
-
-
-
-1
-
-install postinst
-
-
-
-
-
+DEFINED_PHASES=install postinst
+DEPEND=net-libs/libsoup:2.2 dev-util/pkgconfig
+DESCRIPTION=An MPD client that submits information to audioscrobbler.
+EAPI=1
+HOMEPAGE=http://www.frob.nl/scribble.html
+KEYWORDS=amd64 ~hppa ~ppc sparc ~x86
+LICENSE=GPL-2
+RDEPEND=net-libs/libsoup:2.2
+SLOT=0
+SRC_URI=http://www.frob.nl/projects/scribble/mpdscribble-0.2.12.tar.gz
+_mtime_=1235082869

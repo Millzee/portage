@@ -1,22 +1,12 @@
-
-virtual/opengl amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-soundlibs app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-sdl ) x86? ( x11-libs/libX11 x11-libs/libXext )
-0
-http://www.btinternet.com/~bongpig/spacetripperdemo.sh
-strip
-http://www.pompomgames.com/
-POMPOM
-hardcore arcade shoot-em-up
--* amd64 x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=hardcore arcade shoot-em-up
+EAPI=0
+HOMEPAGE=http://www.pompomgames.com/
+KEYWORDS=-* amd64 x86
+LICENSE=POMPOM
+RDEPEND=virtual/opengl amd64? ( app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-soundlibs app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-sdl ) x86? ( x11-libs/libX11 x11-libs/libXext )
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://www.btinternet.com/~bongpig/spacetripperdemo.sh
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

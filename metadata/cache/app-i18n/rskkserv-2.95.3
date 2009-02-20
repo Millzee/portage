@@ -1,22 +1,13 @@
-dev-ruby/ruby-tcpwrap virtual/ruby
-dev-ruby/ruby-tcpwrap app-i18n/skk-jisyo virtual/ruby
-0
-http://www.unixuser.org/~ysjj/rskkserv/rskkserv-2.95.3.tar.gz
-
-http://raa.ruby-lang.org/list.rhtml?name=rskkserv
-GPL-2
-rskkserv is an alternative version of skkserv implemented by Ruby
-x86 alpha ~ppc
-ruby toolchain-funcs multilib portability eutils
-
-
-
-virtual/skkserv
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=dev-ruby/ruby-tcpwrap virtual/ruby
+DESCRIPTION=rskkserv is an alternative version of skkserv implemented by Ruby
+EAPI=0
+HOMEPAGE=http://raa.ruby-lang.org/list.rhtml?name=rskkserv
+KEYWORDS=x86 alpha ~ppc
+LICENSE=GPL-2
+PROVIDE=virtual/skkserv
+RDEPEND=dev-ruby/ruby-tcpwrap app-i18n/skk-jisyo virtual/ruby
+SLOT=0
+SRC_URI=http://www.unixuser.org/~ysjj/rskkserv/rskkserv-2.95.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

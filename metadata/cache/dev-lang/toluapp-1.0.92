@@ -1,22 +1,12 @@
->=dev-lang/lua-5.1.1 dev-util/scons >=sys-apps/sed-4
->=dev-lang/lua-5.1.1
-0
-http://www.codenix.com/~tolua/tolua++-1.0.92.tar.bz2
-
-http://www.codenix.com/~tolua/
-as-is
-A tool to integrate C/C++ code with Lua.
-~amd64 ppc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=dev-lang/lua-5.1.1 dev-util/scons >=sys-apps/sed-4
+DESCRIPTION=A tool to integrate C/C++ code with Lua.
+EAPI=0
+HOMEPAGE=http://www.codenix.com/~tolua/
+KEYWORDS=~amd64 ppc x86
+LICENSE=as-is
+RDEPEND=>=dev-lang/lua-5.1.1
+SLOT=0
+SRC_URI=http://www.codenix.com/~tolua/tolua++-1.0.92.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

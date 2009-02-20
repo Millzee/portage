@@ -1,22 +1,13 @@
-=x11-libs/qt-3* >=sys-apps/sed-4
-=x11-libs/qt-3* >=sys-apps/sed-4
-0
-mirror://sourceforge/qwt/qwt-4.2.0.tar.bz2
-
-http://qwt.sourceforge.net/
-qwt
-2D plotting library for Qt
-amd64 ia64 ~ppc ppc64 x86
-toolchain-funcs multilib
-doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==x11-libs/qt-3* >=sys-apps/sed-4
+DESCRIPTION=2D plotting library for Qt
+EAPI=0
+HOMEPAGE=http://qwt.sourceforge.net/
+IUSE=doc
+KEYWORDS=amd64 ia64 ~ppc ppc64 x86
+LICENSE=qwt
+RDEPEND==x11-libs/qt-3* >=sys-apps/sed-4
+SLOT=0
+SRC_URI=mirror://sourceforge/qwt/qwt-4.2.0.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

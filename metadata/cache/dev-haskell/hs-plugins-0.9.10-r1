@@ -1,22 +1,13 @@
-<dev-lang/ghc-6.6 >=dev-haskell/haskell-src-exts-0.2 dev-haskell/cabal
-<dev-lang/ghc-6.6 >=dev-haskell/haskell-src-exts-0.2 dev-haskell/cabal
-0
-ftp://ftp.cse.unsw.edu.au/pub/users/dons/hs-plugins/hs-plugins-0.9.10.tar.gz doc? ( http://www.cse.unsw.edu.au/~dons/hs-plugins/hs-plugins.html.tar.gz )
-
-http://www.cse.unsw.edu.au/~dons/hs-plugins/
-as-is
-Dynamically Loaded Haskell Plugins
--amd64 ~ppc ~sparc ~x86
-ghc-package versionator
-doc
-
-
-
-0
-
-compile install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup unpack
+DEPEND=<dev-lang/ghc-6.6 >=dev-haskell/haskell-src-exts-0.2 dev-haskell/cabal
+DESCRIPTION=Dynamically Loaded Haskell Plugins
+EAPI=0
+HOMEPAGE=http://www.cse.unsw.edu.au/~dons/hs-plugins/
+IUSE=doc
+KEYWORDS=-amd64 ~ppc ~sparc ~x86
+LICENSE=as-is
+RDEPEND=<dev-lang/ghc-6.6 >=dev-haskell/haskell-src-exts-0.2 dev-haskell/cabal
+SLOT=0
+SRC_URI=ftp://ftp.cse.unsw.edu.au/pub/users/dons/hs-plugins/hs-plugins-0.9.10.tar.gz doc? ( http://www.cse.unsw.edu.au/~dons/hs-plugins/hs-plugins.html.tar.gz )
+_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

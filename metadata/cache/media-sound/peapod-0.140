@@ -1,22 +1,13 @@
-dev-python/pyxml >=dev-python/urlgrabber-2.9.6 bittorrent? ( >=net-p2p/bittorrent-4.0.0 ) id3? ( dev-python/eyeD3 ) vorbis? ( media-sound/vorbis-tools ) virtual/python
-dev-python/pyxml >=dev-python/urlgrabber-2.9.6 bittorrent? ( >=net-p2p/bittorrent-4.0.0 ) id3? ( dev-python/eyeD3 ) vorbis? ( media-sound/vorbis-tools )
-0
-http://peapodpy.org/downloads/peapod-0.140.tar.gz
-
-http://www.peapodpy.org/
-GPL-2
-A command line podcast receiver that supports downloads via HTTP and BitTorrent
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-id3 bittorrent vorbis
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=dev-python/pyxml >=dev-python/urlgrabber-2.9.6 bittorrent? ( >=net-p2p/bittorrent-4.0.0 ) id3? ( dev-python/eyeD3 ) vorbis? ( media-sound/vorbis-tools ) virtual/python
+DESCRIPTION=A command line podcast receiver that supports downloads via HTTP and BitTorrent
+EAPI=0
+HOMEPAGE=http://www.peapodpy.org/
+IUSE=id3 bittorrent vorbis
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-python/pyxml >=dev-python/urlgrabber-2.9.6 bittorrent? ( >=net-p2p/bittorrent-4.0.0 ) id3? ( dev-python/eyeD3 ) vorbis? ( media-sound/vorbis-tools )
+SLOT=0
+SRC_URI=http://peapodpy.org/downloads/peapod-0.140.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

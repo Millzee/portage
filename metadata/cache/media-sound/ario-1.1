@@ -1,22 +1,13 @@
-sys-devel/gettext dev-util/intltool dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
->=dev-libs/glib-2.14:2 gnome-base/libglade:2.0 net-misc/curl net-libs/gnutls >=x11-libs/gtk+-2.12:2 audioscrobbler? ( net-libs/libsoup:2.4 ) dbus? ( dev-libs/dbus-glib ) zeroconf? ( net-dns/avahi )
-0
-mirror://sourceforge/ario-player/ario-1.1.tar.gz
-
-http://ario-player.sourceforge.net
-GPL-2
-a GTK2 MPD (Music Player Daemon) client inspired by Rythmbox
-~amd64 ~x86
-toolchain-funcs portability multilib gnome2-utils libtool autotools eutils
-audioscrobbler dbus debug zeroconf
-
-
-
-1
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=sys-devel/gettext dev-util/intltool dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=sys-apps/sed-4
+DESCRIPTION=a GTK2 MPD (Music Player Daemon) client inspired by Rythmbox
+EAPI=1
+HOMEPAGE=http://ario-player.sourceforge.net
+IUSE=audioscrobbler dbus debug zeroconf
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/glib-2.14:2 gnome-base/libglade:2.0 net-misc/curl net-libs/gnutls >=x11-libs/gtk+-2.12:2 audioscrobbler? ( net-libs/libsoup:2.4 ) dbus? ( dev-libs/dbus-glib ) zeroconf? ( net-dns/avahi )
+SLOT=0
+SRC_URI=mirror://sourceforge/ario-player/ario-1.1.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

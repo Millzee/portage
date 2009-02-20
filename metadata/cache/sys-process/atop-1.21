@@ -1,22 +1,11 @@
-sys-process/acct
-sys-process/acct
-0
-http://www.atconsultancy.nl/atop/packages/atop-1.21.tar.gz
-
-http://www.atcomputing.nl/Tools/atop
-GPL-2
-Resource-specific view of processes
-amd64 hppa x86
-
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=sys-process/acct
+DESCRIPTION=Resource-specific view of processes
+EAPI=0
+HOMEPAGE=http://www.atcomputing.nl/Tools/atop
+KEYWORDS=amd64 hppa x86
+LICENSE=GPL-2
+RDEPEND=sys-process/acct
+SLOT=0
+SRC_URI=http://www.atconsultancy.nl/atop/packages/atop-1.21.tar.gz
+_mtime_=1235082907

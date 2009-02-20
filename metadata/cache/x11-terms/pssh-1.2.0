@@ -1,22 +1,11 @@
->=dev-lang/python-2.2
-net-misc/openssh
-0
-http://www.theether.org/pssh/pssh-1.2.0.tar.gz
-
-http://www.theether.org/pssh/
-GPL-2
-This package provides parallel versions of the openssh tools.
-x86 ~ppc ~amd64
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=dev-lang/python-2.2
+DESCRIPTION=This package provides parallel versions of the openssh tools.
+EAPI=0
+HOMEPAGE=http://www.theether.org/pssh/
+KEYWORDS=x86 ~ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=net-misc/openssh
+SLOT=0
+SRC_URI=http://www.theether.org/pssh/pssh-1.2.0.tar.gz
+_mtime_=1235082910

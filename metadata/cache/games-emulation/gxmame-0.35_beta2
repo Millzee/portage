@@ -1,22 +1,13 @@
-dev-libs/expat >=x11-libs/gtk+-2.4 >=dev-libs/glib-2.4 x11-themes/gnome-icon-theme nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext )
-dev-libs/expat >=x11-libs/gtk+-2.4 >=dev-libs/glib-2.4 x11-themes/gnome-icon-theme nls? ( virtual/libintl )
-0
-mirror://sourceforge/gxmame/gxmame-0.35beta2.tar.gz
-
-http://gxmame.sourceforge.net/
-GPL-2
-frontend for XMame using the GTK library
-amd64 ppc ~sparc x86
-toolchain-funcs portability multilib base games eutils
-nls joystick
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=dev-libs/expat >=x11-libs/gtk+-2.4 >=dev-libs/glib-2.4 x11-themes/gnome-icon-theme nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext )
+DESCRIPTION=frontend for XMame using the GTK library
+EAPI=0
+HOMEPAGE=http://gxmame.sourceforge.net/
+IUSE=nls joystick
+KEYWORDS=amd64 ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/expat >=x11-libs/gtk+-2.4 >=dev-libs/glib-2.4 x11-themes/gnome-icon-theme nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/gxmame/gxmame-0.35beta2.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

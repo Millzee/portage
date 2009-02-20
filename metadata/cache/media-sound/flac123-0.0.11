@@ -1,22 +1,11 @@
-media-libs/flac media-libs/libao media-libs/libogg dev-libs/popt
-media-libs/flac media-libs/libao media-libs/libogg dev-libs/popt
-0
-mirror://sourceforge/flac-tools/flac123-0.0.11.tar.gz
-
-http://flac-tools.sourceforge.net
-GPL-2
-console app for playing FLAC audio files
-amd64 arm ~ppc ppc64 sh sparc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=media-libs/flac media-libs/libao media-libs/libogg dev-libs/popt
+DESCRIPTION=console app for playing FLAC audio files
+EAPI=0
+HOMEPAGE=http://flac-tools.sourceforge.net
+KEYWORDS=amd64 arm ~ppc ppc64 sh sparc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/flac media-libs/libao media-libs/libogg dev-libs/popt
+SLOT=0
+SRC_URI=mirror://sourceforge/flac-tools/flac123-0.0.11.tar.gz
+_mtime_=1235082868

@@ -1,22 +1,12 @@
-sys-fs/fuse
-sys-fs/fuse
-0
-mirror://sourceforge/httpfs/httpfs_with_static_binaries_2.06.08.26.tar.gz
-
-http://httpfs.sourceforge.net/
-GPL-2
-Fuse-based httpfs file system
-~amd64 ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-fs/fuse
+DESCRIPTION=Fuse-based httpfs file system
+EAPI=0
+HOMEPAGE=http://httpfs.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-fs/fuse
+SLOT=0
+SRC_URI=mirror://sourceforge/httpfs/httpfs_with_static_binaries_2.06.08.26.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

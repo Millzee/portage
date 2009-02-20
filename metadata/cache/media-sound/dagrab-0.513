@@ -1,22 +1,10 @@
-
-
-0
-http://ashtray.jz.gts.cz/~smsti/archiv/dagrab-S0.513.tgz
-
-http://vertigo.fme.vutbr.cz/~stibor/dagrab.html
-GPL-2
-fixed point cd ripper
-amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=fixed point cd ripper
+EAPI=0
+HOMEPAGE=http://vertigo.fme.vutbr.cz/~stibor/dagrab.html
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://ashtray.jz.gts.cz/~smsti/archiv/dagrab-S0.513.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

@@ -1,22 +1,11 @@
->=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/gtk+:2[jpeg] dev-util/pkgconfig
->=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/gtk+:2[jpeg]
-0
-mirror://sourceforge/musicpd/gmpc-last-fm-0.17.0.tar.gz
-
-http://gmpcwiki.sarine.nl/index.php/Last.fm
-GPL-2
-This plugin fetches artist art from last.fm
-~amd64 ~ppc ~sparc ~x86
-
-
-
-
-
-2
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/gtk+:2[jpeg] dev-util/pkgconfig
+DESCRIPTION=This plugin fetches artist art from last.fm
+EAPI=2
+HOMEPAGE=http://gmpcwiki.sarine.nl/index.php/Last.fm
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/gtk+:2[jpeg]
+SLOT=0
+SRC_URI=mirror://sourceforge/musicpd/gmpc-last-fm-0.17.0.tar.gz
+_mtime_=1235082868

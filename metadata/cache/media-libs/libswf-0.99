@@ -1,22 +1,12 @@
-virtual/libc app-arch/unzip
-virtual/libc app-arch/unzip
-0
-http://reality.sgi.com/grafica/flash/dist.99.linux.tar.Z
-
-ftp://ftp.sgi.com/sgi/graphics/grafica/flash/index.html
-as-is
-A library for flash movies
-x86 -sparc -ppc -hppa -mips amd64
-toolchain-funcs multilib
-
-
-
-
-0
-
-install setup unpack
-
-
-
-
-
+DEFINED_PHASES=install setup unpack
+DEPEND=virtual/libc app-arch/unzip
+DESCRIPTION=A library for flash movies
+EAPI=0
+HOMEPAGE=ftp://ftp.sgi.com/sgi/graphics/grafica/flash/index.html
+KEYWORDS=x86 -sparc -ppc -hppa -mips amd64
+LICENSE=as-is
+RDEPEND=virtual/libc app-arch/unzip
+SLOT=0
+SRC_URI=http://reality.sgi.com/grafica/flash/dist.99.linux.tar.Z
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

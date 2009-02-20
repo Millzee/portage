@@ -1,22 +1,13 @@
-guile? ( dev-scheme/guile )
-guile? ( dev-scheme/guile )
-0
-http://savannah.nongnu.org/download/bobotpp/bobotpp-2.2.2.tar.gz
-
-http://unknownlamer.org/code/bobot.html
-GPL-2
-A flexible IRC bot scriptable in scheme
-ppc x86 ~amd64
-toolchain-funcs multilib portability eutils
-guile
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=guile? ( dev-scheme/guile )
+DESCRIPTION=A flexible IRC bot scriptable in scheme
+EAPI=0
+HOMEPAGE=http://unknownlamer.org/code/bobot.html
+IUSE=guile
+KEYWORDS=ppc x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=guile? ( dev-scheme/guile )
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/bobotpp/bobotpp-2.2.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

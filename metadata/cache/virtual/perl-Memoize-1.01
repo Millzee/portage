@@ -1,22 +1,9 @@
-
-~perl-core/Memoize-1.01
-0
-
-
-http://www.gentoo.org/proj/en/perl/
-GPL-2
-Virtual for Memoize
-alpha amd64 hppa ia64 ppc sparc x86
-
-
-
-
-
-0
-
--
-
-
-
-
-
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Memoize
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/perl/
+KEYWORDS=alpha amd64 hppa ia64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=~perl-core/Memoize-1.01
+SLOT=0
+_mtime_=1235082908

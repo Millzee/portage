@@ -1,22 +1,13 @@
-dev-lang/perl virtual/perl-Compress-Zlib dev-perl/Archive-Zip dev-perl/Tie-IxHash tk? ( dev-perl/perl-tk )
-dev-lang/perl virtual/perl-Compress-Zlib dev-perl/Archive-Zip dev-perl/Tie-IxHash tk? ( dev-perl/perl-tk )
-0
-http://umodpack.sourceforge.net/umodpack-0.5b16-allinone.tar.gz
-
-http://umodpack.sourceforge.net/
-Artistic
-portable and useful [un]packer for Unreal Tournament's Umod files
-amd64 ppc x86
-toolchain-funcs portability multilib base eutils perl-module
-tk
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl virtual/perl-Compress-Zlib dev-perl/Archive-Zip dev-perl/Tie-IxHash tk? ( dev-perl/perl-tk )
+DESCRIPTION=portable and useful [un]packer for Unreal Tournament's Umod files
+EAPI=0
+HOMEPAGE=http://umodpack.sourceforge.net/
+IUSE=tk
+KEYWORDS=amd64 ppc x86
+LICENSE=Artistic
+RDEPEND=dev-lang/perl virtual/perl-Compress-Zlib dev-perl/Archive-Zip dev-perl/Tie-IxHash tk? ( dev-perl/perl-tk )
+SLOT=0
+SRC_URI=http://umodpack.sourceforge.net/umodpack-0.5b16-allinone.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

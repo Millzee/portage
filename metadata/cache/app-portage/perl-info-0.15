@@ -1,22 +1,11 @@
-dev-lang/perl virtual/perl-Term-ANSIColor >=dev-perl/PortageXS-0.02.04
-dev-lang/perl virtual/perl-Term-ANSIColor >=dev-perl/PortageXS-0.02.04
-0
-http://download.iansview.com/gentoo/tools/perl-info/perl-info-0.15.tar.gz
-
-http://www.gentoo.org/proj/en/perl/
-GPL-2
-Tool to gather relevant perl data useful for bugreports; 'emerge --info' for perl
-alpha amd64 hppa ~ia64 ppc sparc x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-lang/perl virtual/perl-Term-ANSIColor >=dev-perl/PortageXS-0.02.04
+DESCRIPTION=Tool to gather relevant perl data useful for bugreports; 'emerge --info' for perl
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/perl/
+KEYWORDS=alpha amd64 hppa ~ia64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl virtual/perl-Term-ANSIColor >=dev-perl/PortageXS-0.02.04
+SLOT=0
+SRC_URI=http://download.iansview.com/gentoo/tools/perl-info/perl-info-0.15.tar.gz
+_mtime_=1235082850

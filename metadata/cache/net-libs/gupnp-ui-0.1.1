@@ -1,22 +1,12 @@
->=x11-libs/gtk+-2 >=net-libs/gupnp-0.3 dev-util/pkgconfig sys-devel/gettext doc? ( dev-util/gtk-doc )
->=x11-libs/gtk+-2 >=net-libs/gupnp-0.3
-0
-http://gupnp.org/sources/gupnp-ui/gupnp-ui-0.1.1.tar.gz
-
-http://gupnp.org
-LGPL-2
-Collection of simple GTK+ widgets on top of GUPnP.
-~amd64 ~x86
-
-doc
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=x11-libs/gtk+-2 >=net-libs/gupnp-0.3 dev-util/pkgconfig sys-devel/gettext doc? ( dev-util/gtk-doc )
+DESCRIPTION=Collection of simple GTK+ widgets on top of GUPnP.
+EAPI=0
+HOMEPAGE=http://gupnp.org
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2
+RDEPEND=>=x11-libs/gtk+-2 >=net-libs/gupnp-0.3
+SLOT=0
+SRC_URI=http://gupnp.org/sources/gupnp-ui/gupnp-ui-0.1.1.tar.gz
+_mtime_=1235082893

@@ -1,22 +1,13 @@
-latex? ( app-text/dvipng ) dev-python/PyQt dev-python/pygame virtual/python
-latex? ( app-text/dvipng ) dev-python/PyQt dev-python/pygame
-0
-mirror://sourceforge/mnemosyne-proj/mnemosyne-1.1.1-r1.tgz
-
-http://www.mnemosyne-proj.org/
-GPL-2
-Sophisticated flash-card tool also used for long-term memory research
-~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-latex
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=latex? ( app-text/dvipng ) dev-python/PyQt dev-python/pygame virtual/python
+DESCRIPTION=Sophisticated flash-card tool also used for long-term memory research
+EAPI=0
+HOMEPAGE=http://www.mnemosyne-proj.org/
+IUSE=latex
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=latex? ( app-text/dvipng ) dev-python/PyQt dev-python/pygame
+SLOT=0
+SRC_URI=mirror://sourceforge/mnemosyne-proj/mnemosyne-1.1.1-r1.tgz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

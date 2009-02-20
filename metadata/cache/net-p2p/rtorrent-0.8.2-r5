@@ -1,22 +1,13 @@
->=net-libs/libtorrent-0.12.2 >=dev-libs/libsigc++-2 >=net-misc/curl-7.18 sys-libs/ncurses xmlrpc? ( dev-libs/xmlrpc-c ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=net-libs/libtorrent-0.12.2 >=dev-libs/libsigc++-2 >=net-misc/curl-7.18 sys-libs/ncurses xmlrpc? ( dev-libs/xmlrpc-c )
-0
-http://libtorrent.rakshasa.no/downloads/rtorrent-0.8.2.tar.gz
-
-http://libtorrent.rakshasa.no/
-GPL-2
-BitTorrent Client using libtorrent
-amd64 hppa ~ia64 ppc ppc64 ~sparc x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic multilib libtool autotools eutils
-debug ipv6 xmlrpc
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=net-libs/libtorrent-0.12.2 >=dev-libs/libsigc++-2 >=net-misc/curl-7.18 sys-libs/ncurses xmlrpc? ( dev-libs/xmlrpc-c ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=BitTorrent Client using libtorrent
+EAPI=0
+HOMEPAGE=http://libtorrent.rakshasa.no/
+IUSE=debug ipv6 xmlrpc
+KEYWORDS=amd64 hppa ~ia64 ppc ppc64 ~sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=>=net-libs/libtorrent-0.12.2 >=dev-libs/libsigc++-2 >=net-misc/curl-7.18 sys-libs/ncurses xmlrpc? ( dev-libs/xmlrpc-c )
+SLOT=0
+SRC_URI=http://libtorrent.rakshasa.no/downloads/rtorrent-0.8.2.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

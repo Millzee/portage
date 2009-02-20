@@ -1,22 +1,13 @@
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-ttf media-libs/jpeg media-libs/libpng media-libs/libogg media-libs/libvorbis x11-libs/libXxf86vm virtual/libintl alsa? ( media-libs/alsa-lib ) arts? ( kde-base/arts ) dga? ( x11-libs/libXxf86dga ) jack? ( media-sound/jack-audio-connection-kit ) sys-devel/gettext x11-proto/xf86vidmodeproto x11-proto/xproto doc? ( app-doc/doxygen ) dga? ( x11-proto/xf86dgaproto ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-ttf media-libs/jpeg media-libs/libpng media-libs/libogg media-libs/libvorbis x11-libs/libXxf86vm virtual/libintl alsa? ( media-libs/alsa-lib ) arts? ( kde-base/arts ) dga? ( x11-libs/libXxf86dga ) jack? ( media-sound/jack-audio-connection-kit )
-0
-mirror://sourceforge/ufoai/music.tar.bz2 mirror://sourceforge/ufoai/ufoai-2.1.1-data.tar mirror://sourceforge/ufoai/ufoai-2.1.1-source_hotfix.tar.bz2 mirror://sourceforge/ufoai/ufoai-2.1.1-i18n.tar.bz2
-
-http://ufoai.ninex.info/
-GPL-2
-UFO: Alien Invasion - X-COM inspired strategy game
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base libtool games autotools eutils
-alsa arts debug dedicated dga doc ipv6 jack master oss paranoid
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-ttf media-libs/jpeg media-libs/libpng media-libs/libogg media-libs/libvorbis x11-libs/libXxf86vm virtual/libintl alsa? ( media-libs/alsa-lib ) arts? ( kde-base/arts ) dga? ( x11-libs/libXxf86dga ) jack? ( media-sound/jack-audio-connection-kit ) sys-devel/gettext x11-proto/xf86vidmodeproto x11-proto/xproto doc? ( app-doc/doxygen ) dga? ( x11-proto/xf86dgaproto ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=UFO: Alien Invasion - X-COM inspired strategy game
+EAPI=0
+HOMEPAGE=http://ufoai.ninex.info/
+IUSE=alsa arts debug dedicated dga doc ipv6 jack master oss paranoid
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-ttf media-libs/jpeg media-libs/libpng media-libs/libogg media-libs/libvorbis x11-libs/libXxf86vm virtual/libintl alsa? ( media-libs/alsa-lib ) arts? ( kde-base/arts ) dga? ( x11-libs/libXxf86dga ) jack? ( media-sound/jack-audio-connection-kit )
+SLOT=0
+SRC_URI=mirror://sourceforge/ufoai/music.tar.bz2 mirror://sourceforge/ufoai/ufoai-2.1.1-data.tar mirror://sourceforge/ufoai/ufoai-2.1.1-source_hotfix.tar.bz2 mirror://sourceforge/ufoai/ufoai-2.1.1-i18n.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

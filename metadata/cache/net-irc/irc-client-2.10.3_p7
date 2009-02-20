@@ -1,22 +1,12 @@
-virtual/libc sys-libs/ncurses sys-libs/zlib
-virtual/libc sys-libs/ncurses sys-libs/zlib
-0
-ftp://ftp.irc.org/irc/server/irc2.10.3p7.tgz
-
-http://www.irc.org
-GPL-1
-A simplistic RFC compliant IRC client
-ppc x86
-
-ipv6
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc sys-libs/ncurses sys-libs/zlib
+DESCRIPTION=A simplistic RFC compliant IRC client
+EAPI=0
+HOMEPAGE=http://www.irc.org
+IUSE=ipv6
+KEYWORDS=ppc x86
+LICENSE=GPL-1
+RDEPEND=virtual/libc sys-libs/ncurses sys-libs/zlib
+SLOT=0
+SRC_URI=ftp://ftp.irc.org/irc/server/irc2.10.3p7.tgz
+_mtime_=1235082890

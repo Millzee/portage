@@ -1,22 +1,13 @@
-sys-devel/gettext x11-libs/gtk+ sys-apps/dbus gnome-base/gconf net-misc/curl media-libs/libexif gps? ( >=sci-geosciences/gpsd-2.34 )
-x11-libs/gtk+ sys-apps/dbus gnome-base/gconf net-misc/curl media-libs/libexif gps? ( >=sci-geosciences/gpsd-2.34 )
-0
-http://www.tangogps.org/downloads/tangogps-0.9.6.tar.gz
-
-http://www.tangogps.org/
-GPL-2
-tangogps is an easy to use, fast and lightweight mapping application for use with or without GPS.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-gps
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-devel/gettext x11-libs/gtk+ sys-apps/dbus gnome-base/gconf net-misc/curl media-libs/libexif gps? ( >=sci-geosciences/gpsd-2.34 )
+DESCRIPTION=tangogps is an easy to use, fast and lightweight mapping application for use with or without GPS.
+EAPI=0
+HOMEPAGE=http://www.tangogps.org/
+IUSE=gps
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/gtk+ sys-apps/dbus gnome-base/gconf net-misc/curl media-libs/libexif gps? ( >=sci-geosciences/gpsd-2.34 )
+SLOT=0
+SRC_URI=http://www.tangogps.org/downloads/tangogps-0.9.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

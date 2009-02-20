@@ -1,22 +1,13 @@
-dev-libs/expat alsa? ( media-libs/alsa-lib ) ncurses? ( sys-libs/ncurses ) sdl? ( media-libs/libsdl ) slang? ( >=sys-libs/slang-1.4 ) svga? ( >=media-libs/svgalib-1.9 ) !sdl? ( !svga? ( !fbcon? ( media-libs/libsdl ) ) ) truetype? ( >=media-libs/freetype-2 ) x86? ( >=dev-lang/nasm-0.98 ) fbcon? ( virtual/os-headers )
-dev-libs/expat alsa? ( media-libs/alsa-lib ) ncurses? ( sys-libs/ncurses ) sdl? ( media-libs/libsdl ) slang? ( >=sys-libs/slang-1.4 ) svga? ( >=media-libs/svgalib-1.9 ) !sdl? ( !svga? ( !fbcon? ( media-libs/libsdl ) ) ) truetype? ( >=media-libs/freetype-2 )
-0
-mirror://sourceforge/advancemame/advancemenu-2.4.13.tar.gz
-
-http://advancemame.sourceforge.net/menu-readme.html
-GPL-2
-Frontend for AdvanceMAME, MAME, MESS, RAINE and any other emulator
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base games eutils
-alsa debug fbcon ncurses oss sdl slang static svga truetype
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=dev-libs/expat alsa? ( media-libs/alsa-lib ) ncurses? ( sys-libs/ncurses ) sdl? ( media-libs/libsdl ) slang? ( >=sys-libs/slang-1.4 ) svga? ( >=media-libs/svgalib-1.9 ) !sdl? ( !svga? ( !fbcon? ( media-libs/libsdl ) ) ) truetype? ( >=media-libs/freetype-2 ) x86? ( >=dev-lang/nasm-0.98 ) fbcon? ( virtual/os-headers )
+DESCRIPTION=Frontend for AdvanceMAME, MAME, MESS, RAINE and any other emulator
+EAPI=0
+HOMEPAGE=http://advancemame.sourceforge.net/menu-readme.html
+IUSE=alsa debug fbcon ncurses oss sdl slang static svga truetype
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/expat alsa? ( media-libs/alsa-lib ) ncurses? ( sys-libs/ncurses ) sdl? ( media-libs/libsdl ) slang? ( >=sys-libs/slang-1.4 ) svga? ( >=media-libs/svgalib-1.9 ) !sdl? ( !svga? ( !fbcon? ( media-libs/libsdl ) ) ) truetype? ( >=media-libs/freetype-2 )
+SLOT=0
+SRC_URI=mirror://sourceforge/advancemame/advancemenu-2.4.13.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

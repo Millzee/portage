@@ -1,22 +1,13 @@
->=dev-python/fpconst-0.7.1 dev-python/pyxml virtual/python
->=dev-python/fpconst-0.7.1 dev-python/pyxml ssl? ( dev-python/m2crypto )
-0
-mirror://sourceforge/pywebsvcs/SOAPpy-0.12.0.tar.gz
-
-http://pywebsvcs.sourceforge.net/
-BSD
-SOAP implementation for Python
-~alpha amd64 ~hppa ~ia64 ppc ~ppc64 ~sparc x86 ~x86-fbsd
-toolchain-funcs distutils portability python alternatives multilib eutils
-examples ssl
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=dev-python/fpconst-0.7.1 dev-python/pyxml virtual/python
+DESCRIPTION=SOAP implementation for Python
+EAPI=0
+HOMEPAGE=http://pywebsvcs.sourceforge.net/
+IUSE=examples ssl
+KEYWORDS=~alpha amd64 ~hppa ~ia64 ppc ~ppc64 ~sparc x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND=>=dev-python/fpconst-0.7.1 dev-python/pyxml ssl? ( dev-python/m2crypto )
+SLOT=0
+SRC_URI=mirror://sourceforge/pywebsvcs/SOAPpy-0.12.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

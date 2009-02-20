@@ -1,22 +1,11 @@
-app-arch/unzip
-
-1.6.0
-jdk-6-doc-r1.zip
-fetch
-http://java.sun.com/javase/6/docs/
-sun-j2sl-6
-Documentation (including API Javadocs) for Java SDK version 1.6.0
-amd64 ppc ppc64 x86
-
-
-
-
-
-0
-
-install nofetch
-
-
-
-
-
+DEFINED_PHASES=install nofetch
+DEPEND=app-arch/unzip
+DESCRIPTION=Documentation (including API Javadocs) for Java SDK version 1.6.0
+EAPI=0
+HOMEPAGE=http://java.sun.com/javase/6/docs/
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=sun-j2sl-6
+RESTRICT=fetch
+SLOT=1.6.0
+SRC_URI=jdk-6-doc-r1.zip
+_mtime_=1235082852

@@ -1,22 +1,13 @@
->=dev-libs/openssl-0.9.7 >=sys-fs/fuse-2.6 >=dev-libs/rlog-1.3.6 >=dev-libs/boost-1.34 nls? ( >=sys-devel/gettext-0.14.1 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=dev-libs/openssl-0.9.7 >=sys-fs/fuse-2.6 >=dev-libs/rlog-1.3.6 >=dev-libs/boost-1.34 nls? ( >=sys-devel/gettext-0.14.1 )
-0
-http://encfs.googlecode.com/files/encfs-1.5-2.tgz
-
-http://www.arg0.net/encfs
-GPL-2
-Encrypted Filesystem module for Linux
-amd64 sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-nls
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=dev-libs/openssl-0.9.7 >=sys-fs/fuse-2.6 >=dev-libs/rlog-1.3.6 >=dev-libs/boost-1.34 nls? ( >=sys-devel/gettext-0.14.1 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Encrypted Filesystem module for Linux
+EAPI=0
+HOMEPAGE=http://www.arg0.net/encfs
+IUSE=nls
+KEYWORDS=amd64 sparc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/openssl-0.9.7 >=sys-fs/fuse-2.6 >=dev-libs/rlog-1.3.6 >=dev-libs/boost-1.34 nls? ( >=sys-devel/gettext-0.14.1 )
+SLOT=0
+SRC_URI=http://encfs.googlecode.com/files/encfs-1.5-2.tgz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

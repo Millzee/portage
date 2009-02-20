@@ -1,22 +1,13 @@
-fltk? ( x11-libs/fltk:1.1 )
-fltk? ( x11-libs/fltk:1.1 )
-0
-mirror://sourceforge/glbsp/glbsp_src_220.tar.gz
-
-http://glbsp.sourceforge.net/
-GPL-2
-A node builder specially designed for OpenGL ports of the DOOM game engine
-~amd64 ~ppc ~x86
-toolchain-funcs versionator multilib portability eutils
-fltk
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=fltk? ( x11-libs/fltk:1.1 )
+DESCRIPTION=A node builder specially designed for OpenGL ports of the DOOM game engine
+EAPI=1
+HOMEPAGE=http://glbsp.sourceforge.net/
+IUSE=fltk
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=fltk? ( x11-libs/fltk:1.1 )
+SLOT=0
+SRC_URI=mirror://sourceforge/glbsp/glbsp_src_220.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

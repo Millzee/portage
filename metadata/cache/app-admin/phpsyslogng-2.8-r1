@@ -1,22 +1,13 @@
->=app-admin/webapp-config-1.50.15
-virtual/httpd-php mysql? ( >=virtual/mysql-4.1 ) >=app-admin/webapp-config-1.50.15
-2.8-r1
-http://www.phpwizardry.com/php-syslog-ng/phpsyslogng-2.8.tar.gz
-
-http://www.phpwizardry.com/php-syslog-ng.php
-GPL-2
-php-syslog-ng is a log monitor designed to easily manage logs from many hosts.
-~ppc64 ~x86
-webapp
-mysql vhosts
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=>=app-admin/webapp-config-1.50.15
+DESCRIPTION=php-syslog-ng is a log monitor designed to easily manage logs from many hosts.
+EAPI=0
+HOMEPAGE=http://www.phpwizardry.com/php-syslog-ng.php
+IUSE=mysql vhosts
+KEYWORDS=~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/httpd-php mysql? ( >=virtual/mysql-4.1 ) >=app-admin/webapp-config-1.50.15
+SLOT=2.8-r1
+SRC_URI=http://www.phpwizardry.com/php-syslog-ng/phpsyslogng-2.8.tar.gz
+_eclasses_=webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

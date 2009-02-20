@@ -1,22 +1,12 @@
-x11-libs/libXext >=sys-libs/zlib-1.1.4 >=media-libs/libpng-1.0.5 >=media-libs/jpeg-6b-r2 app-arch/bzip2 x11-proto/xextproto x11-misc/imake app-text/rman
-x11-libs/libXext >=sys-libs/zlib-1.1.4 >=media-libs/libpng-1.0.5 >=media-libs/jpeg-6b-r2 app-arch/bzip2
-0
-http://pantransit.reptiles.org/prog/xli/xli-2005-02-27.tar.gz
-
-http://pantransit.reptiles.org/prog/
-X11
-X Load Image: view images or load them to root window
-~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
-multilib toolchain-funcs alternatives portability eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=x11-libs/libXext >=sys-libs/zlib-1.1.4 >=media-libs/libpng-1.0.5 >=media-libs/jpeg-6b-r2 app-arch/bzip2 x11-proto/xextproto x11-misc/imake app-text/rman
+DESCRIPTION=X Load Image: view images or load them to root window
+EAPI=0
+HOMEPAGE=http://pantransit.reptiles.org/prog/
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
+LICENSE=X11
+RDEPEND=x11-libs/libXext >=sys-libs/zlib-1.1.4 >=media-libs/libpng-1.0.5 >=media-libs/jpeg-6b-r2 app-arch/bzip2
+SLOT=0
+SRC_URI=http://pantransit.reptiles.org/prog/xli/xli-2005-02-27.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

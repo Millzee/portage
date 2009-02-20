@@ -1,22 +1,13 @@
-zlib? ( sys-libs/zlib )
-zlib? ( sys-libs/zlib )
-0
-mirror://kernel/linux/kernel/people/horms/kexec-tools/kexec-tools-2.0.0.tar.bz2
-
-http://www.kernel.org/pub/linux/kernel/people/horms/kexec-tools
-GPL-2
-Load another kernel from the currently executing Linux kernel
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-xen zlib
-
-
-
-2
-
-configure install prepare
-
-
-
-
-
+DEFINED_PHASES=configure install prepare
+DEPEND=zlib? ( sys-libs/zlib )
+DESCRIPTION=Load another kernel from the currently executing Linux kernel
+EAPI=2
+HOMEPAGE=http://www.kernel.org/pub/linux/kernel/people/horms/kexec-tools
+IUSE=xen zlib
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=zlib? ( sys-libs/zlib )
+SLOT=0
+SRC_URI=mirror://kernel/linux/kernel/people/horms/kexec-tools/kexec-tools-2.0.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

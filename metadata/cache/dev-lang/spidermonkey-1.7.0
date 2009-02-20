@@ -1,22 +1,13 @@
-threadsafe? ( dev-libs/nspr )
-threadsafe? ( dev-libs/nspr )
-0
-ftp://ftp.mozilla.org/pub/mozilla.org/js/js-1.7.0.tar.gz
-
-http://www.mozilla.org/js/spidermonkey/
-NPL-1.1
-Stand-alone JavaScript C library
-alpha amd64 hppa ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-threadsafe
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=threadsafe? ( dev-libs/nspr )
+DESCRIPTION=Stand-alone JavaScript C library
+EAPI=0
+HOMEPAGE=http://www.mozilla.org/js/spidermonkey/
+IUSE=threadsafe
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=NPL-1.1
+RDEPEND=threadsafe? ( dev-libs/nspr )
+SLOT=0
+SRC_URI=ftp://ftp.mozilla.org/pub/mozilla.org/js/js-1.7.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

@@ -1,22 +1,13 @@
->=media-libs/libsdl-1.2.3 media-libs/jpeg sys-libs/zlib media-libs/libpng media-libs/sdl-image[jpeg,png] media-libs/sdl-net media-libs/sdl-mixer[vorbis] media-libs/libogg media-libs/libvorbis x11-libs/libX11 opengl? ( virtual/opengl ) x11-libs/libXt
->=media-libs/libsdl-1.2.3 media-libs/jpeg sys-libs/zlib media-libs/libpng media-libs/sdl-image[jpeg,png] media-libs/sdl-net media-libs/sdl-mixer[vorbis] media-libs/libogg media-libs/libvorbis x11-libs/libX11 opengl? ( virtual/opengl )
-0
-mirror://sourceforge/freedroid/freedroidrpg-0.11.1.tar.bz2
-
-http://freedroid.sourceforge.net/
-GPL-2
-A modification of the classical Freedroid engine into an RPG
-~amd64 ~ppc ~x86
-toolchain-funcs portability multilib base games eutils
-opengl
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=>=media-libs/libsdl-1.2.3 media-libs/jpeg sys-libs/zlib media-libs/libpng media-libs/sdl-image[jpeg,png] media-libs/sdl-net media-libs/sdl-mixer[vorbis] media-libs/libogg media-libs/libvorbis x11-libs/libX11 opengl? ( virtual/opengl ) x11-libs/libXt
+DESCRIPTION=A modification of the classical Freedroid engine into an RPG
+EAPI=2
+HOMEPAGE=http://freedroid.sourceforge.net/
+IUSE=opengl
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libsdl-1.2.3 media-libs/jpeg sys-libs/zlib media-libs/libpng media-libs/sdl-image[jpeg,png] media-libs/sdl-net media-libs/sdl-mixer[vorbis] media-libs/libogg media-libs/libvorbis x11-libs/libX11 opengl? ( virtual/opengl )
+SLOT=0
+SRC_URI=mirror://sourceforge/freedroid/freedroidrpg-0.11.1.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

@@ -1,22 +1,12 @@
-boost? ( dev-libs/boost )
-
-0
-mirror://sourceforge/stlport/STLport-5.1.2.tar.bz2
-
-http://stlport.sourceforge.net/
-as-is
-C++ STL library
-amd64 ppc ppc64 sparc x86
-toolchain-funcs portability flag-o-matic versionator multilib eutils
-boost
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=boost? ( dev-libs/boost )
+DESCRIPTION=C++ STL library
+EAPI=0
+HOMEPAGE=http://stlport.sourceforge.net/
+IUSE=boost
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=as-is
+SLOT=0
+SRC_URI=mirror://sourceforge/stlport/STLport-5.1.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

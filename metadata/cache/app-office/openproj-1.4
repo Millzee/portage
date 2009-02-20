@@ -1,22 +1,12 @@
-|| ( virtual/jre virtual/jdk )
-|| ( virtual/jre virtual/jdk )
-0
-mirror://sourceforge/openproj/openproj-1.4.tar.gz
-
-http://openproj.org/
-CPAL
-A free, open source desktop alternative to Microsoft Project.
-x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=|| ( virtual/jre virtual/jdk )
+DESCRIPTION=A free, open source desktop alternative to Microsoft Project.
+EAPI=0
+HOMEPAGE=http://openproj.org/
+KEYWORDS=x86
+LICENSE=CPAL
+RDEPEND=|| ( virtual/jre virtual/jdk )
+SLOT=0
+SRC_URI=mirror://sourceforge/openproj/openproj-1.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

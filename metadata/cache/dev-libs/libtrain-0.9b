@@ -1,22 +1,11 @@
-virtual/libc
-virtual/libc
-0
-http://www.on.rim.or.jp/~katamuki/software/train/libtrain-0.9b.tar.gz
-
-http://www.on.rim.or.jp/~katamuki/software/train/
-GPL-2
-Library for calculating fastest train routes
-~ppc sparc x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=Library for calculating fastest train routes
+EAPI=0
+HOMEPAGE=http://www.on.rim.or.jp/~katamuki/software/train/
+KEYWORDS=~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://www.on.rim.or.jp/~katamuki/software/train/libtrain-0.9b.tar.gz
+_mtime_=1235082854

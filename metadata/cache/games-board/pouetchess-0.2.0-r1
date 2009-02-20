@@ -1,22 +1,13 @@
-media-libs/libsdl media-libs/sdl-image virtual/glu virtual/opengl dev-util/scons
-media-libs/libsdl media-libs/sdl-image virtual/glu virtual/opengl
-0
-mirror://sourceforge/pouetchess/pouetchess_src_0.2.0.tar.gz
-
-http://pouetchess.sourceforge.net/
-GPL-2
-3D and open source chess game
-~amd64 ~ppc x86
-toolchain-funcs portability multilib base games eutils
-debug
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libsdl media-libs/sdl-image virtual/glu virtual/opengl dev-util/scons
+DESCRIPTION=3D and open source chess game
+EAPI=0
+HOMEPAGE=http://pouetchess.sourceforge.net/
+IUSE=debug
+KEYWORDS=~amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl media-libs/sdl-image virtual/glu virtual/opengl
+SLOT=0
+SRC_URI=mirror://sourceforge/pouetchess/pouetchess_src_0.2.0.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

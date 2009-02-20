@@ -1,22 +1,12 @@
-dev-lisp/cl-clx dev-lisp/common-lisp-controller
-dev-lisp/cl-clx
-0
-http://androgyn.bl0rg.net/~mgr/resources/acclaim/acclaim-all-you-need_20040619-01.tar.bz2
-
-http://androgyn.bl0rg.net/~mgr/acclaim.html
-GPL-2
-Acclaim is a presentation program writen in Common Lisp
-~amd64 ~sparc x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst unpack
+DEPEND=dev-lisp/cl-clx dev-lisp/common-lisp-controller
+DESCRIPTION=Acclaim is a presentation program writen in Common Lisp
+EAPI=0
+HOMEPAGE=http://androgyn.bl0rg.net/~mgr/acclaim.html
+KEYWORDS=~amd64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lisp/cl-clx
+SLOT=0
+SRC_URI=http://androgyn.bl0rg.net/~mgr/resources/acclaim/acclaim-all-you-need_20040619-01.tar.bz2
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

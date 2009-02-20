@@ -1,22 +1,11 @@
-dev-perl/gtk2-perl dev-perl/String-ShellQuote app-arch/unrar app-arch/unzip
-dev-perl/gtk2-perl dev-perl/String-ShellQuote app-arch/unrar app-arch/unzip
-0
-http://elvine.org/code/cbview/cbview-0.06.tar.gz
-
-http://elvine.org/code/cbview/
-GPL-2
-viewer/converter for CBR/CBZ comic book archives
-~x86 ~ppc ~amd64
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=dev-perl/gtk2-perl dev-perl/String-ShellQuote app-arch/unrar app-arch/unzip
+DESCRIPTION=viewer/converter for CBR/CBZ comic book archives
+EAPI=0
+HOMEPAGE=http://elvine.org/code/cbview/
+KEYWORDS=~x86 ~ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=dev-perl/gtk2-perl dev-perl/String-ShellQuote app-arch/unrar app-arch/unzip
+SLOT=0
+SRC_URI=http://elvine.org/code/cbview/cbview-0.06.tar.gz
+_mtime_=1235082849

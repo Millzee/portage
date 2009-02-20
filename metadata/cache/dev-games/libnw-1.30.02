@@ -1,22 +1,11 @@
-sys-devel/bison sys-devel/flex
-
-0
-mirror://sourceforge/openknights/libnw-1.30.02.tar.gz
-
-http://openknights.sourceforge.net/
-openknights
-Tools and libraries for NWN file manipulation
-~amd64 ~ppc ~x86
-toolchain-funcs multilib
-
-
-
-
-2
-
-install prepare
-
-
-
-
-
+DEFINED_PHASES=install prepare
+DEPEND=sys-devel/bison sys-devel/flex
+DESCRIPTION=Tools and libraries for NWN file manipulation
+EAPI=2
+HOMEPAGE=http://openknights.sourceforge.net/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=openknights
+SLOT=0
+SRC_URI=mirror://sourceforge/openknights/libnw-1.30.02.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

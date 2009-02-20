@@ -1,22 +1,13 @@
->=dev-libs/libevent-0.6 dev-lang/perl test? ( virtual/perl-Test-Harness >=dev-perl/Cache-Memcached-1.24 )
->=dev-libs/libevent-0.6 dev-lang/perl
-0
-http://www.danga.com/memcached/dist/memcached-1.2.4.tar.gz
-
-http://www.danga.com/memcached/
-BSD
-High-performance, distributed memory object caching system
-alpha amd64 arm hppa ia64 ~mips ppc ppc64 sh sparc ~sparc-fbsd x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-nptl test
-
-
-
-0
-
-compile install postinst test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst test unpack
+DEPEND=>=dev-libs/libevent-0.6 dev-lang/perl test? ( virtual/perl-Test-Harness >=dev-perl/Cache-Memcached-1.24 )
+DESCRIPTION=High-performance, distributed memory object caching system
+EAPI=0
+HOMEPAGE=http://www.danga.com/memcached/
+IUSE=nptl test
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 sh sparc ~sparc-fbsd x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND=>=dev-libs/libevent-0.6 dev-lang/perl
+SLOT=0
+SRC_URI=http://www.danga.com/memcached/dist/memcached-1.2.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

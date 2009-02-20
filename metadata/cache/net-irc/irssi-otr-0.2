@@ -1,22 +1,13 @@
-net-libs/libotr || ( net-irc/irssi net-irc/irssi-svn ) dev-libs/glib >=dev-util/cmake-2.4.7 dev-util/pkgconfig dev-lang/python >=dev-util/cmake-2.4.6
-net-libs/libotr || ( net-irc/irssi net-irc/irssi-svn )
-0
-ftp://download.tuxfamily.org/irssiotr/irssi-otr-0.2.tar.gz
-
-http://irssi-otr.tuxfamily.org
-GPL-2
-Off-The-Record messaging (OTR) for irssi
-~amd64 ~sparc ~x86
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-debug
-
-
-
-0
-
-compile install test
-
-
-
-
-
+DEFINED_PHASES=compile install test
+DEPEND=net-libs/libotr || ( net-irc/irssi net-irc/irssi-svn ) dev-libs/glib >=dev-util/cmake-2.4.7 dev-util/pkgconfig dev-lang/python >=dev-util/cmake-2.4.6
+DESCRIPTION=Off-The-Record messaging (OTR) for irssi
+EAPI=0
+HOMEPAGE=http://irssi-otr.tuxfamily.org
+IUSE=debug
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=net-libs/libotr || ( net-irc/irssi net-irc/irssi-svn )
+SLOT=0
+SRC_URI=ftp://download.tuxfamily.org/irssiotr/irssi-otr-0.2.tar.gz
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

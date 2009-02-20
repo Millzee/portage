@@ -1,22 +1,12 @@
-=www-servers/apache-2.2*
-=www-servers/apache-2.2*
-0
-mirror://sourceforge/mod-fcgid/mod_fcgid.2.2.tar.gz
-
-http://fastcgi.coremail.cn/
-GPL-2
-mod_fcgid is a binary-compatible alternative to mod_fastcgi with better process management.
-amd64 ppc ~ppc64 x86
-apache-module toolchain-funcs portability multilib depend.apache eutils
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND==www-servers/apache-2.2*
+DESCRIPTION=mod_fcgid is a binary-compatible alternative to mod_fastcgi with better process management.
+EAPI=0
+HOMEPAGE=http://fastcgi.coremail.cn/
+KEYWORDS=amd64 ppc ~ppc64 x86
+LICENSE=GPL-2
+RDEPEND==www-servers/apache-2.2*
+SLOT=0
+SRC_URI=mirror://sourceforge/mod-fcgid/mod_fcgid.2.2.tar.gz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

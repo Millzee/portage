@@ -1,22 +1,11 @@
-
-
-0
-x86? ( mirror://planeshift/PlaneShift-v0.4.03-x86.bin ) amd64? ( mirror://planeshift/PlaneShift-v0.4.03-x64.bin )
-strip
-http://planeshift.it
-GPL-3 PlaneShift
-A 3D Fantasy MMORPG
--* ~x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=A 3D Fantasy MMORPG
+EAPI=0
+HOMEPAGE=http://planeshift.it
+KEYWORDS=-* ~x86
+LICENSE=GPL-3 PlaneShift
+RESTRICT=strip
+SLOT=0
+SRC_URI=x86? ( mirror://planeshift/PlaneShift-v0.4.03-x86.bin ) amd64? ( mirror://planeshift/PlaneShift-v0.4.03-x64.bin )
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

@@ -1,22 +1,13 @@
-=dev-lang/perl-5* =www-apache/libapreq2-2* >=media-libs/imlib2-1.0.6-r1 dev-perl/URI >=dev-perl/ImageInfo-1.04-r2 >=dev-perl/ImageSize-2.99-r1 dev-perl/text-template >=virtual/perl-CGI-3.08 dev-perl/Image-Imlib2 =www-servers/apache-2* >=app-admin/webapp-config-1.50.15
-=www-servers/apache-2* >=app-admin/webapp-config-1.50.15
-0
-http://apachegallery.dk/download/Apache-Gallery-1.0RC3.tar.gz
-
-http://apachegallery.dk/
-|| ( Artistic GPL-2 )
-Apache gallery for mod_perl
-~alpha amd64 ppc sparc x86
-toolchain-funcs portability multilib base webapp depend.apache eutils perl-module
-vhosts
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND==dev-lang/perl-5* =www-apache/libapreq2-2* >=media-libs/imlib2-1.0.6-r1 dev-perl/URI >=dev-perl/ImageInfo-1.04-r2 >=dev-perl/ImageSize-2.99-r1 dev-perl/text-template >=virtual/perl-CGI-3.08 dev-perl/Image-Imlib2 =www-servers/apache-2* >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Apache gallery for mod_perl
+EAPI=0
+HOMEPAGE=http://apachegallery.dk/
+IUSE=vhosts
+KEYWORDS=~alpha amd64 ppc sparc x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND==www-servers/apache-2* >=app-admin/webapp-config-1.50.15
+SLOT=0
+SRC_URI=http://apachegallery.dk/download/Apache-Gallery-1.0RC3.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

@@ -1,22 +1,13 @@
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image =x11-libs/gtk+-2* nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext )
-virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image =x11-libs/gtk+-2* nls? ( virtual/libintl )
-0
-mirror://sourceforge/cannonsmash/csmash-0.6.6.tar.gz vorbis? ( http://nan.p.utmc.or.jp/danslatristesse2-48.ogg )
-
-http://cannonsmash.sourceforge.net/
-GPL-2
-3D tabletennis game
-amd64 ppc x86
-toolchain-funcs portability multilib base games eutils
-vorbis nls
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image =x11-libs/gtk+-2* nls? ( virtual/libintl ) dev-util/pkgconfig nls? ( sys-devel/gettext )
+DESCRIPTION=3D tabletennis game
+EAPI=0
+HOMEPAGE=http://cannonsmash.sourceforge.net/
+IUSE=vorbis nls
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image =x11-libs/gtk+-2* nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/cannonsmash/csmash-0.6.6.tar.gz vorbis? ( http://nan.p.utmc.or.jp/danslatristesse2-48.ogg )
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

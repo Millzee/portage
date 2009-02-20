@@ -1,22 +1,12 @@
-dev-lang/perl test? ( virtual/perl-Test-Simple dev-perl/Test-Pod dev-perl/Test-Pod-Coverage )
-dev-lang/perl
-0
-mirror://cpan/authors/id/P/PE/PETDANCE//Module-Starter-1.50.tar.gz
-
-http://search.cpan.org/search?query=Module-Starter&mode=dist
-|| ( Artistic GPL-2 )
-a simple starter kit for any module
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl test? ( virtual/perl-Test-Simple dev-perl/Test-Pod dev-perl/Test-Pod-Coverage )
+DESCRIPTION=a simple starter kit for any module
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=Module-Starter&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PE/PETDANCE//Module-Starter-1.50.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

@@ -1,22 +1,12 @@
-app-arch/unzip doc? ( app-doc/doxygen ) >=sys-apps/sed-4
-
-0
-http://www.openscenegraph.org/downloads/snapshots/OSG_OP_OT-1.2.zip
-
-http://www.openscenegraph.org/
-LGPL-2.1
-a minimal & complete Object-Oriented thread interface for C++
-~x86
-fixheadtails toolchain-funcs multilib portability eutils
-doc examples
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=app-arch/unzip doc? ( app-doc/doxygen ) >=sys-apps/sed-4
+DESCRIPTION=a minimal & complete Object-Oriented thread interface for C++
+EAPI=0
+HOMEPAGE=http://www.openscenegraph.org/
+IUSE=doc examples
+KEYWORDS=~x86
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://www.openscenegraph.org/downloads/snapshots/OSG_OP_OT-1.2.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

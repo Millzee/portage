@@ -1,22 +1,10 @@
-
-
-0
-mirror://debian/pool/main/m/mac-fdisk/mac-fdisk_0.1.orig.tar.gz mirror://debian/pool/main/m/mac-fdisk/mac-fdisk_0.1-13.diff.gz
-
-ftp://ftp.mklinux.apple.com/pub/Other_Tools/
-GPL-2
-Mac/PowerMac disk partitioning utility
-amd64 ppc ppc64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Mac/PowerMac disk partitioning utility
+EAPI=0
+HOMEPAGE=ftp://ftp.mklinux.apple.com/pub/Other_Tools/
+KEYWORDS=amd64 ppc ppc64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://debian/pool/main/m/mac-fdisk/mac-fdisk_0.1.orig.tar.gz mirror://debian/pool/main/m/mac-fdisk/mac-fdisk_0.1-13.diff.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

@@ -1,22 +1,13 @@
->=net-libs/aqbanking-2.2.5 =x11-libs/qt-3*
->=net-libs/aqbanking-2.2.5 =x11-libs/qt-3*
-0
-mirror://sourceforge/aqbanking/qbankmanager-0.9.39.tar.gz
-
-http://www.aquamaniac.de/aqbanking/
-GPL-2
-Onlinebanking frontend for aqbanking
-~amd64 ppc sparc x86
-toolchain-funcs qt3 portability versionator multilib eutils
-debug
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=>=net-libs/aqbanking-2.2.5 =x11-libs/qt-3*
+DESCRIPTION=Onlinebanking frontend for aqbanking
+EAPI=0
+HOMEPAGE=http://www.aquamaniac.de/aqbanking/
+IUSE=debug
+KEYWORDS=~amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=net-libs/aqbanking-2.2.5 =x11-libs/qt-3*
+SLOT=0
+SRC_URI=mirror://sourceforge/aqbanking/qbankmanager-0.9.39.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

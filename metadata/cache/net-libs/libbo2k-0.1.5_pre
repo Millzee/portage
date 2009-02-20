@@ -1,22 +1,9 @@
-
-
-0
-mirror://sourceforge/bo2k/libbo2k-0.1.5pre.tar.gz
-
-http://www.bo2k.com/
-LGPL-2
-Linux BO2K communication library.
-~x86 ~ppc
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DESCRIPTION=Linux BO2K communication library.
+EAPI=0
+HOMEPAGE=http://www.bo2k.com/
+KEYWORDS=~x86 ~ppc
+LICENSE=LGPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/bo2k/libbo2k-0.1.5pre.tar.gz
+_mtime_=1235082893

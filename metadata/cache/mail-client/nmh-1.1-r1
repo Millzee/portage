@@ -1,22 +1,12 @@
-virtual/libc =sys-libs/db-1.85* >=sys-libs/ncurses-5.2
-virtual/libc =sys-libs/db-1.85* >=sys-libs/ncurses-5.2
-0
-http://savannah.nongnu.org/download/nmh/nmh-1.1.tar.gz
-
-http://www.nongnu.org/nmh/
-as-is
-New MH mail reader
-~amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc =sys-libs/db-1.85* >=sys-libs/ncurses-5.2
+DESCRIPTION=New MH mail reader
+EAPI=0
+HOMEPAGE=http://www.nongnu.org/nmh/
+KEYWORDS=~amd64 ppc sparc x86
+LICENSE=as-is
+RDEPEND=virtual/libc =sys-libs/db-1.85* >=sys-libs/ncurses-5.2
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/nmh/nmh-1.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

@@ -1,22 +1,12 @@
->=dev-perl/Moose-0.31
->=dev-perl/Moose-0.31
-0
-mirror://cpan/authors/id/G/GR/GRODITI//MooseX-Emulate-Class-Accessor-Fast-0.00701.tar.gz
-
-http://search.cpan.org/search?query=MooseX-Emulate-Class-Accessor-Fast&mode=dist
-|| ( Artistic GPL-2 )
-Emulate Class::Accessor::Fast behavior using Moose attributes
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/Moose-0.31
+DESCRIPTION=Emulate Class::Accessor::Fast behavior using Moose attributes
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=MooseX-Emulate-Class-Accessor-Fast&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/Moose-0.31
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GR/GRODITI//MooseX-Emulate-Class-Accessor-Fast-0.00701.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

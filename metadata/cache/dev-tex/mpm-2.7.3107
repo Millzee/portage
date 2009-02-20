@@ -1,22 +1,12 @@
-net-misc/curl dev-libs/pth virtual/latex-base www-client/lynx dev-libs/libxslt !media-sound/mpc >=dev-util/cmake-2.4.6
-net-misc/curl dev-libs/pth virtual/latex-base www-client/lynx dev-libs/libxslt !media-sound/mpc
-0
-http://ftp.dante.de/tex-archive/systems/win32/miktex/source/miktex-2.7.3107.tar.bz2
-
-http://www.miktex.org/unx/
-GPL-2
-MiKTeX Tools -- package manager for a TeX distribution
-~x86 ~amd64
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-
-
-
-
-0
-
-compile install postinst test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst test unpack
+DEPEND=net-misc/curl dev-libs/pth virtual/latex-base www-client/lynx dev-libs/libxslt !media-sound/mpc >=dev-util/cmake-2.4.6
+DESCRIPTION=MiKTeX Tools -- package manager for a TeX distribution
+EAPI=0
+HOMEPAGE=http://www.miktex.org/unx/
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=net-misc/curl dev-libs/pth virtual/latex-base www-client/lynx dev-libs/libxslt !media-sound/mpc
+SLOT=0
+SRC_URI=http://ftp.dante.de/tex-archive/systems/win32/miktex/source/miktex-2.7.3107.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

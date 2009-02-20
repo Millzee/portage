@@ -1,22 +1,13 @@
-x11-libs/qt:3 kde? ( kde-base/kdelibs:3.5 )
-x11-libs/qt:3 kde? ( kde-base/kdelibs:3.5 )
-0
-mirror://sourceforge/qtella/qtella-0.7.0.tar.gz http://squinky.gotdns.com/qtella-0.7.0-libyahoo.patch.gz
-
-http://qtella.sourceforge.net/
-GPL-2
-Excellent QT/KDE Gnutella Client
-ppc ~sparc x86
-toolchain-funcs qt3 portability versionator multilib eutils
-kde
-
-
-
-1
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/qt:3 kde? ( kde-base/kdelibs:3.5 )
+DESCRIPTION=Excellent QT/KDE Gnutella Client
+EAPI=1
+HOMEPAGE=http://qtella.sourceforge.net/
+IUSE=kde
+KEYWORDS=ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/qt:3 kde? ( kde-base/kdelibs:3.5 )
+SLOT=0
+SRC_URI=mirror://sourceforge/qtella/qtella-0.7.0.tar.gz http://squinky.gotdns.com/qtella-0.7.0-libyahoo.patch.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

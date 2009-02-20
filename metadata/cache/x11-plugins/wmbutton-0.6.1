@@ -1,22 +1,13 @@
-x11-libs/libX11 x11-libs/libXpm x11-libs/libXext x11-proto/xextproto x11-proto/xproto dev-util/ctags
-x11-libs/libX11 x11-libs/libXpm x11-libs/libXext
-0
-ftp://ftp.freebsd.org/pub/FreeBSD/ports/distfiles/wmbutton-0.6.1.tar.gz branding? ( mirror://gentoo/wmbutton-buttons.xpm )
-
-http://www.freshports.org/x11/wmbutton
-GPL-2
-a dockapp application that displays nine configurable buttons.
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-branding
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXpm x11-libs/libXext x11-proto/xextproto x11-proto/xproto dev-util/ctags
+DESCRIPTION=a dockapp application that displays nine configurable buttons.
+EAPI=0
+HOMEPAGE=http://www.freshports.org/x11/wmbutton
+IUSE=branding
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXpm x11-libs/libXext
+SLOT=0
+SRC_URI=ftp://ftp.freebsd.org/pub/FreeBSD/ports/distfiles/wmbutton-0.6.1.tar.gz branding? ( mirror://gentoo/wmbutton-buttons.xpm )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

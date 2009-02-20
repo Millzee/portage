@@ -1,22 +1,13 @@
-virtual/linux-sources kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-virtual/linux-sources kernel_linux? ( virtual/modutils )
-0
-mirror://sourceforge/dxr3/em8300-0.16.0.tar.gz
-
-http://dxr3.sourceforge.net
-GPL-2
-em8300 (RealMagic Hollywood+/Creative DXR3) video decoder card kernel modules
-amd64 ppc x86
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=virtual/linux-sources kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=em8300 (RealMagic Hollywood+/Creative DXR3) video decoder card kernel modules
+EAPI=0
+HOMEPAGE=http://dxr3.sourceforge.net
+IUSE=kernel_linux
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/linux-sources kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=mirror://sourceforge/dxr3/em8300-0.16.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

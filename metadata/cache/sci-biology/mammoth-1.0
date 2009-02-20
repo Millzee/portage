@@ -1,22 +1,13 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-mammoth-1.0-src.tgz
-fetch
-http://ub.cbm.uam.es/software.php
-mammoth
-MAtching Molecular Models Obtained from THeory
-~x86
-toolchain-funcs portability multilib fortran libtool autotools eutils
-debug
-
-
-
-0
-
-install nofetch setup unpack
-
-
-
-
-
+DEFINED_PHASES=install nofetch setup unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=MAtching Molecular Models Obtained from THeory
+EAPI=0
+HOMEPAGE=http://ub.cbm.uam.es/software.php
+IUSE=debug
+KEYWORDS=~x86
+LICENSE=mammoth
+RESTRICT=fetch
+SLOT=0
+SRC_URI=mammoth-1.0-src.tgz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

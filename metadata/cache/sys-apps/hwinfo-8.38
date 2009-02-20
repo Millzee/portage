@@ -1,22 +1,12 @@
-sys-fs/sysfsutils
-sys-fs/sysfsutils
-0
-ftp://ftp.iqchoice.com/pub/people/rail/gmso/hwinfo-8.38.tar.gz
-
-http://www.suse.com
-GPL-2
-hwinfo is the hardware detection tool used in SuSE Linux.
-~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-fs/sysfsutils
+DESCRIPTION=hwinfo is the hardware detection tool used in SuSE Linux.
+EAPI=0
+HOMEPAGE=http://www.suse.com
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=sys-fs/sysfsutils
+SLOT=0
+SRC_URI=ftp://ftp.iqchoice.com/pub/people/rail/gmso/hwinfo-8.38.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

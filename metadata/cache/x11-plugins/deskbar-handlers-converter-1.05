@@ -1,22 +1,12 @@
->=dev-lang/python-2.3 >=x11-libs/gtk+-2.6 >=dev-python/pygtk-2.6 >=gnome-extra/deskbar-applet-2.14.2
->=dev-lang/python-2.3 >=x11-libs/gtk+-2.6 >=dev-python/pygtk-2.6 >=gnome-extra/deskbar-applet-2.14.2 sci-calculators/units
-0
-http://svn.kryogenix.org/svn/deskbar-plugins/tags/1.05/converter.py
-
-http://www.kryogenix.org/days/2006/09/06/converter-deskbar
-GPL-2
-Unit conversion handler for the GNOME Deskbar
-~amd64 ~x86
-python multilib toolchain-funcs alternatives
-
-
-
-
-0
-
-install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=>=dev-lang/python-2.3 >=x11-libs/gtk+-2.6 >=dev-python/pygtk-2.6 >=gnome-extra/deskbar-applet-2.14.2
+DESCRIPTION=Unit conversion handler for the GNOME Deskbar
+EAPI=0
+HOMEPAGE=http://www.kryogenix.org/days/2006/09/06/converter-deskbar
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/python-2.3 >=x11-libs/gtk+-2.6 >=dev-python/pygtk-2.6 >=gnome-extra/deskbar-applet-2.14.2 sci-calculators/units
+SLOT=0
+SRC_URI=http://svn.kryogenix.org/svn/deskbar-plugins/tags/1.05/converter.py
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

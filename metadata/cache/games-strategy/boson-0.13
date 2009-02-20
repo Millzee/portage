@@ -1,22 +1,12 @@
-virtual/opengl virtual/glu media-libs/openal >=dev-util/cmake-2.4.2 =kde-base/kdelibs-3.5* =x11-libs/qt-3*
-virtual/opengl virtual/glu media-libs/openal =kde-base/kdelibs-3.5* =x11-libs/qt-3*
-0
-mirror://sourceforge/boson/boson-all-0.13.tar.bz2
-
-http://boson.sourceforge.net/
-GPL-2
-real-time strategy game, with the feeling of Command&Conquer(tm)
--amd64 ppc -sparc x86
-toolchain-funcs qt3 portability versionator multilib kde-functions eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/opengl virtual/glu media-libs/openal >=dev-util/cmake-2.4.2 =kde-base/kdelibs-3.5* =x11-libs/qt-3*
+DESCRIPTION=real-time strategy game, with the feeling of Command&Conquer(tm)
+EAPI=0
+HOMEPAGE=http://boson.sourceforge.net/
+KEYWORDS=-amd64 ppc -sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl virtual/glu media-libs/openal =kde-base/kdelibs-3.5* =x11-libs/qt-3*
+SLOT=0
+SRC_URI=mirror://sourceforge/boson/boson-all-0.13.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

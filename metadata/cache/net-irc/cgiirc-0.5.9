@@ -1,22 +1,13 @@
-|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) >=app-admin/webapp-config-1.50.15
-|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) >=app-admin/webapp-config-1.50.15
-0.5.9
-mirror://sourceforge/cgiirc/cgiirc-0.5.9.tar.gz
-
-http://cgiirc.sourceforge.net/
-GPL-2
-A perl/CGI program to use IRC from a web browser
-~x86 ~ppc ~amd64
-toolchain-funcs multilib portability eutils webapp
-vhosts
-
-
-
-0
-
-install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) >=app-admin/webapp-config-1.50.15
+DESCRIPTION=A perl/CGI program to use IRC from a web browser
+EAPI=0
+HOMEPAGE=http://cgiirc.sourceforge.net/
+IUSE=vhosts
+KEYWORDS=~x86 ~ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) >=app-admin/webapp-config-1.50.15
+SLOT=0.5.9
+SRC_URI=mirror://sourceforge/cgiirc/cgiirc-0.5.9.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

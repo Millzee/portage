@@ -1,22 +1,13 @@
-x11-libs/libX11 xinerama? ( x11-libs/libXinerama ) xpm? ( x11-libs/libXpm ) xinerama? ( x11-proto/xineramaproto )
-x11-libs/libX11 xinerama? ( x11-libs/libXinerama ) xpm? ( x11-libs/libXpm )
-2
-http://gotmor.googlepages.com/dzen2-0.8.5.tar.gz
-
-http://gotmor.googlepages.com/dzen
-MIT
-a general purpose messaging, notification and menuing program for X11.
-amd64 x86
-toolchain-funcs multilib
-minimal xinerama xpm
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 xinerama? ( x11-libs/libXinerama ) xpm? ( x11-libs/libXpm ) xinerama? ( x11-proto/xineramaproto )
+DESCRIPTION=a general purpose messaging, notification and menuing program for X11.
+EAPI=0
+HOMEPAGE=http://gotmor.googlepages.com/dzen
+IUSE=minimal xinerama xpm
+KEYWORDS=amd64 x86
+LICENSE=MIT
+RDEPEND=x11-libs/libX11 xinerama? ( x11-libs/libXinerama ) xpm? ( x11-libs/libXpm )
+SLOT=2
+SRC_URI=http://gotmor.googlepages.com/dzen2-0.8.5.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

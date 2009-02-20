@@ -1,22 +1,14 @@
->=dev-lang/ocaml-3.09 dev-ml/camlp5
->=dev-lang/ocaml-3.09 dev-ml/camlp5
-0
-http://pauillac.inria.fr/~ddr/ledit/distrib/src/ledit-2.01.tgz
-installsources
-http://pauillac.inria.fr/~ddr/ledit/
-BSD
-A line editor to be used with interactive commands.
-amd64 ppc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-+ocamlopt
-
-
-
-1
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=>=dev-lang/ocaml-3.09 dev-ml/camlp5
+DESCRIPTION=A line editor to be used with interactive commands.
+EAPI=1
+HOMEPAGE=http://pauillac.inria.fr/~ddr/ledit/
+IUSE=+ocamlopt
+KEYWORDS=amd64 ppc x86 ~x86-fbsd
+LICENSE=BSD
+RDEPEND=>=dev-lang/ocaml-3.09 dev-ml/camlp5
+RESTRICT=installsources
+SLOT=0
+SRC_URI=http://pauillac.inria.fr/~ddr/ledit/distrib/src/ledit-2.01.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

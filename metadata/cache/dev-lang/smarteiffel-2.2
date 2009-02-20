@@ -1,22 +1,13 @@
-tcc? ( >=dev-lang/tcc-0.9.14 )
-tcc? ( >=dev-lang/tcc-0.9.14 )
-0
-http://www.loria.fr/~colnet/SmartEiffel/SmartEiffel-2-2.tar.bz2
-
-http://smarteiffel.loria.fr/
-GPL-2
-GNU Eiffel compiler
-~x86 ~amd64 ~sparc ~ppc
-toolchain-funcs multilib portability eutils flag-o-matic
-doc tcc
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=tcc? ( >=dev-lang/tcc-0.9.14 )
+DESCRIPTION=GNU Eiffel compiler
+EAPI=0
+HOMEPAGE=http://smarteiffel.loria.fr/
+IUSE=doc tcc
+KEYWORDS=~x86 ~amd64 ~sparc ~ppc
+LICENSE=GPL-2
+RDEPEND=tcc? ( >=dev-lang/tcc-0.9.14 )
+SLOT=0
+SRC_URI=http://www.loria.fr/~colnet/SmartEiffel/SmartEiffel-2-2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

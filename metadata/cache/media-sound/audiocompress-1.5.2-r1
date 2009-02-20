@@ -1,22 +1,13 @@
-esd? ( media-sound/esound )
-esd? ( media-sound/esound )
-0
-http://beesbuzz.biz/code/AudioCompress-1.5.2.tar.gz
-
-http://beesbuzz.biz/code/
-GPL-2
-Very gentle 1-band dynamic range compressor
-~amd64 ~ppc -sparc x86
-toolchain-funcs multilib portability eutils
-esd
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=esd? ( media-sound/esound )
+DESCRIPTION=Very gentle 1-band dynamic range compressor
+EAPI=0
+HOMEPAGE=http://beesbuzz.biz/code/
+IUSE=esd
+KEYWORDS=~amd64 ~ppc -sparc x86
+LICENSE=GPL-2
+RDEPEND=esd? ( media-sound/esound )
+SLOT=0
+SRC_URI=http://beesbuzz.biz/code/AudioCompress-1.5.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

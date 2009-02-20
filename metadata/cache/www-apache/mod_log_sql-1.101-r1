@@ -1,22 +1,13 @@
-virtual/mysql dbi? ( dev-db/libdbi ) ssl? ( dev-libs/openssl ) =www-servers/apache-2*
-virtual/mysql dbi? ( dev-db/libdbi ) ssl? ( dev-libs/openssl ) =www-servers/apache-2*
-0
-http://www.outoforder.cc/downloads/mod_log_sql/mod_log_sql-1.101.tar.bz2
-
-http://www.outoforder.cc/projects/apache/mod_log_sql/
-as-is
-An Apache module for logging to an SQL (MySQL) database.
-~amd64 ~ppc ~x86
-toolchain-funcs apache-module depend.apache multilib
-dbi ssl
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/mysql dbi? ( dev-db/libdbi ) ssl? ( dev-libs/openssl ) =www-servers/apache-2*
+DESCRIPTION=An Apache module for logging to an SQL (MySQL) database.
+EAPI=0
+HOMEPAGE=http://www.outoforder.cc/projects/apache/mod_log_sql/
+IUSE=dbi ssl
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=as-is
+RDEPEND=virtual/mysql dbi? ( dev-db/libdbi ) ssl? ( dev-libs/openssl ) =www-servers/apache-2*
+SLOT=0
+SRC_URI=http://www.outoforder.cc/downloads/mod_log_sql/mod_log_sql-1.101.tar.bz2
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

@@ -1,22 +1,12 @@
-sys-libs/zlib >=dev-libs/eb-4.0-r1 virtual/ruby
-sys-libs/zlib >=dev-libs/eb-4.0-r1 virtual/ruby
-0
-http://rubyeb.sourceforge.net/rubyeb-2.5a.tar.gz
-
-http://rubyeb.sourceforge.net/
-GPL-2
-RubyEB is a ruby extension for EB Library
-~ia64 ~ppc ~x86
-ruby toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-libs/zlib >=dev-libs/eb-4.0-r1 virtual/ruby
+DESCRIPTION=RubyEB is a ruby extension for EB Library
+EAPI=0
+HOMEPAGE=http://rubyeb.sourceforge.net/
+KEYWORDS=~ia64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib >=dev-libs/eb-4.0-r1 virtual/ruby
+SLOT=0
+SRC_URI=http://rubyeb.sourceforge.net/rubyeb-2.5a.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

@@ -1,22 +1,11 @@
-|| ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* ) net-libs/libnet net-libs/libpcap dev-util/subversion net-misc/rsync
-|| ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* ) net-libs/libnet net-libs/libpcap sys-apps/iproute2
-0
-
-
-http://www.dolezel.info/projects/wolman
-GPL-3
-GUI Wake-on-LAN manager
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib subversion eutils
-
-
-
-
-1
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=|| ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* ) net-libs/libnet net-libs/libpcap dev-util/subversion net-misc/rsync
+DESCRIPTION=GUI Wake-on-LAN manager
+EAPI=1
+HOMEPAGE=http://www.dolezel.info/projects/wolman
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=|| ( x11-libs/qt-gui:4 =x11-libs/qt-4.3* ) net-libs/libnet net-libs/libpcap sys-apps/iproute2
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

@@ -1,22 +1,13 @@
-|| ( x11-libs/qt-gui:4 >=x11-libs/qt-4.2.0:4 ) >=dev-util/cmake-2.4.6
-|| ( x11-libs/qt-gui:4 >=x11-libs/qt-4.2.0:4 )
-0
-mirror://sourceforge/qimageblitz/qimageblitz-0.0.4.tar.bz2
-
-http://websvn.kde.org/trunk/kdesupport/qimageblitz/
-GPL-2 LGPL-2
-interim image effect library that people can use until KDE 4.1
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-3dnow altivec debug mmx sse sse2
-
-
-
-1
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=|| ( x11-libs/qt-gui:4 >=x11-libs/qt-4.2.0:4 ) >=dev-util/cmake-2.4.6
+DESCRIPTION=interim image effect library that people can use until KDE 4.1
+EAPI=1
+HOMEPAGE=http://websvn.kde.org/trunk/kdesupport/qimageblitz/
+IUSE=3dnow altivec debug mmx sse sse2
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2 LGPL-2
+RDEPEND=|| ( x11-libs/qt-gui:4 >=x11-libs/qt-4.2.0:4 )
+SLOT=0
+SRC_URI=mirror://sourceforge/qimageblitz/qimageblitz-0.0.4.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082862

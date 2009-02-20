@@ -1,22 +1,13 @@
-net-dialup/capi4k-utils kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed >=app-arch/rpm2targz-9.0-r1
-net-dialup/capi4k-utils kernel_linux? ( virtual/modutils )
-0
-!amd64? ( ftp://ftp.suse.com/pub/suse/i386/10.1/SUSE-Linux10.1-Beta3-Extra/suse/i586/km_fritzcapi-2.6-43.i586.rpm ) amd64? ( ftp://ftp.suse.com/pub/suse/i386/10.1/SUSE-Linux10.1-Beta3-Extra/suse/x86_64/km_fritzcapi-2.6-43.x86_64.rpm )
-
-http://www.avm.de/
-LGPL-2
-SuSE's 2.6 AVM kernel modules for fcclassic, fcpci, fcpcmcia, fcpnp, fcusb, fcusb2, fxusb_CZ, fxusb, e2220pc and e5520pc
-~amd64 x86
-toolchain-funcs portability linux-mod versionator multilib linux-info rpm eutils
-pcmcia usb kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=net-dialup/capi4k-utils kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed >=app-arch/rpm2targz-9.0-r1
+DESCRIPTION=SuSE's 2.6 AVM kernel modules for fcclassic, fcpci, fcpcmcia, fcpnp, fcusb, fcusb2, fxusb_CZ, fxusb, e2220pc and e5520pc
+EAPI=0
+HOMEPAGE=http://www.avm.de/
+IUSE=pcmcia usb kernel_linux
+KEYWORDS=~amd64 x86
+LICENSE=LGPL-2
+RDEPEND=net-dialup/capi4k-utils kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=!amd64? ( ftp://ftp.suse.com/pub/suse/i386/10.1/SUSE-Linux10.1-Beta3-Extra/suse/i586/km_fritzcapi-2.6-43.i586.rpm ) amd64? ( ftp://ftp.suse.com/pub/suse/i386/10.1/SUSE-Linux10.1-Beta3-Extra/suse/x86_64/km_fritzcapi-2.6-43.x86_64.rpm )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	rpm	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

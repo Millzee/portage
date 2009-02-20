@@ -1,22 +1,13 @@
-net-libs/libpcap tcl? ( dev-lang/tcl )
-net-libs/libpcap tcl? ( dev-lang/tcl )
-0
-http://www.hping.org/hping3-20051105.tar.gz
-
-http://www.hping.org
-GPL-2
-A ping-like TCP/IP packet assembler/analyzer
-~sparc ~x86
-toolchain-funcs multilib portability eutils
-tcl debug
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=net-libs/libpcap tcl? ( dev-lang/tcl )
+DESCRIPTION=A ping-like TCP/IP packet assembler/analyzer
+EAPI=0
+HOMEPAGE=http://www.hping.org
+IUSE=tcl debug
+KEYWORDS=~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=net-libs/libpcap tcl? ( dev-lang/tcl )
+SLOT=0
+SRC_URI=http://www.hping.org/hping3-20051105.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082885

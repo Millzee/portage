@@ -1,22 +1,12 @@
->=dev-tinyos/tos-1.1.15
->=dev-tinyos/ncc-1.1.15 >=dev-tinyos/tos-scripts-1.1.15
-0
-http://www.tinyos.net/dist-1.1.0/tinyos/source/tinyos-1.1.15Dec2005cvs.tar.gz
-
-http://www.tinyos.net/
-Intel
-The TinyOS Make System
-~x86 ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=>=dev-tinyos/tos-1.1.15
+DESCRIPTION=The TinyOS Make System
+EAPI=0
+HOMEPAGE=http://www.tinyos.net/
+KEYWORDS=~x86 ~amd64
+LICENSE=Intel
+RDEPEND=>=dev-tinyos/ncc-1.1.15 >=dev-tinyos/tos-scripts-1.1.15
+SLOT=0
+SRC_URI=http://www.tinyos.net/dist-1.1.0/tinyos/source/tinyos-1.1.15Dec2005cvs.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

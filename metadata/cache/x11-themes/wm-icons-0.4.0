@@ -1,22 +1,11 @@
-sys-apps/gawk dev-lang/perl sys-devel/autoconf sys-devel/automake sys-apps/sed
-sys-apps/gawk dev-lang/perl
-0
-mirror://sourceforge/wm-icons/wm-icons-0.4.0.tar.bz2
-
-http://wm-icons.sourceforge.net/
-GPL-2
-A Large Assortment of Beutiful Themed Icons, Created with FVWM in mind
-~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~x86
-
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=sys-apps/gawk dev-lang/perl sys-devel/autoconf sys-devel/automake sys-apps/sed
+DESCRIPTION=A Large Assortment of Beutiful Themed Icons, Created with FVWM in mind
+EAPI=0
+HOMEPAGE=http://wm-icons.sourceforge.net/
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-apps/gawk dev-lang/perl
+SLOT=0
+SRC_URI=mirror://sourceforge/wm-icons/wm-icons-0.4.0.tar.bz2
+_mtime_=1235082910

@@ -1,22 +1,13 @@
-
-virtual/cron
-0
-ftp://ftp.kaspersky.com/products/release/english/businessoptimal/file_servers/kavlinuxserver/kav4fileservers-linux-5.5.3.tar.gz
-mirror strip
-http://www.kaspersky.com/
-KASPERSKY
-Kaspersky File Server virus scanner
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-virtual/antivirus
-0
-
-install postinst setup
-
-
-
-
-
+DEFINED_PHASES=install postinst setup
+DESCRIPTION=Kaspersky File Server virus scanner
+EAPI=0
+HOMEPAGE=http://www.kaspersky.com/
+KEYWORDS=~x86
+LICENSE=KASPERSKY
+PROVIDE=virtual/antivirus
+RDEPEND=virtual/cron
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=ftp://ftp.kaspersky.com/products/release/english/businessoptimal/file_servers/kavlinuxserver/kav4fileservers-linux-5.5.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

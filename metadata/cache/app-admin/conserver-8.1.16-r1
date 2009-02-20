@@ -1,22 +1,13 @@
-ssl? ( >=dev-libs/openssl-0.9.6g ) pam? ( virtual/pam ) tcpd? ( sys-apps/tcp-wrappers ) debug? ( dev-libs/dmalloc ) ssl? ( dev-libs/openssl )
-ssl? ( >=dev-libs/openssl-0.9.6g ) pam? ( virtual/pam ) tcpd? ( sys-apps/tcp-wrappers ) debug? ( dev-libs/dmalloc ) pam? ( >=sys-auth/pambase-20080219.1 )
-0
-ftp://ftp.conserver.com/conserver/conserver-8.1.16.tar.gz
-
-http://www.conserver.com/
-BSD
-Serial Console Manager
-~alpha ~amd64 ~ia64 ~sparc ~x86
-toolchain-funcs portability multilib ssl-cert pam eutils
-pam ssl tcpd debug ssl
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=ssl? ( >=dev-libs/openssl-0.9.6g ) pam? ( virtual/pam ) tcpd? ( sys-apps/tcp-wrappers ) debug? ( dev-libs/dmalloc ) ssl? ( dev-libs/openssl )
+DESCRIPTION=Serial Console Manager
+EAPI=0
+HOMEPAGE=http://www.conserver.com/
+IUSE=pam ssl tcpd debug ssl
+KEYWORDS=~alpha ~amd64 ~ia64 ~sparc ~x86
+LICENSE=BSD
+RDEPEND=ssl? ( >=dev-libs/openssl-0.9.6g ) pam? ( virtual/pam ) tcpd? ( sys-apps/tcp-wrappers ) debug? ( dev-libs/dmalloc ) pam? ( >=sys-auth/pambase-20080219.1 )
+SLOT=0
+SRC_URI=ftp://ftp.conserver.com/conserver/conserver-8.1.16.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ssl-cert	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

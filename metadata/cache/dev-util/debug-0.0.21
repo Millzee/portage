@@ -1,22 +1,13 @@
-ncurses? ( sys-libs/ncurses ) readline? ( sys-libs/readline )
-ncurses? ( sys-libs/ncurses ) readline? ( sys-libs/readline )
-0
-http://www.modest-proposals.com/binary/debug-0.0.21.tgz
-
-http://www.modest-proposals.com/Furball.htm
-GPL-2
-Assembly level debugger
-~x86
-toolchain-funcs multilib
-ncurses readline
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=ncurses? ( sys-libs/ncurses ) readline? ( sys-libs/readline )
+DESCRIPTION=Assembly level debugger
+EAPI=0
+HOMEPAGE=http://www.modest-proposals.com/Furball.htm
+IUSE=ncurses readline
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=ncurses? ( sys-libs/ncurses ) readline? ( sys-libs/readline )
+SLOT=0
+SRC_URI=http://www.modest-proposals.com/binary/debug-0.0.21.tgz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

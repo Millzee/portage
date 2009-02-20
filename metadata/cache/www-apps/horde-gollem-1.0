@@ -1,22 +1,13 @@
->=app-admin/webapp-config-1.50.15
->=www-apps/horde-3 >=app-admin/webapp-config-1.50.15
-1.0
-http://ftp.horde.org/pub/gollem/gollem-h3-1.0.tar.gz
-
-http://www.horde.org/gollem
-LGPL-2
-Horde Gollem provides a web-based File Manager
-~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
-horde toolchain-funcs portability multilib webapp eutils
-vhosts vhosts
-
-
-
-0
-
-install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=>=app-admin/webapp-config-1.50.15
+DESCRIPTION=Horde Gollem provides a web-based File Manager
+EAPI=0
+HOMEPAGE=http://www.horde.org/gollem
+IUSE=vhosts vhosts
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
+LICENSE=LGPL-2
+RDEPEND=>=www-apps/horde-3 >=app-admin/webapp-config-1.50.15
+SLOT=1.0
+SRC_URI=http://ftp.horde.org/pub/gollem/gollem-h3-1.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	horde	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

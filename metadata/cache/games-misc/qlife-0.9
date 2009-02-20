@@ -1,22 +1,12 @@
-|| ( x11-libs/qt-gui:4 x11-libs/qt:4 )
-|| ( x11-libs/qt-gui:4 x11-libs/qt:4 )
-0
-http://personal.inet.fi/koti/rkauppila/projects/life/qlife-qt4-0.9.tar.gz
-
-http://personal.inet.fi/koti/rkauppila/projects/life/
-GPL-2
-Simulates the classical Game of Life invented by John Conway
-amd64 ppc x86
-qt4 toolchain-funcs portability versionator multilib base games eutils
-
-
-
-
-1
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=|| ( x11-libs/qt-gui:4 x11-libs/qt:4 )
+DESCRIPTION=Simulates the classical Game of Life invented by John Conway
+EAPI=1
+HOMEPAGE=http://personal.inet.fi/koti/rkauppila/projects/life/
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=|| ( x11-libs/qt-gui:4 x11-libs/qt:4 )
+SLOT=0
+SRC_URI=http://personal.inet.fi/koti/rkauppila/projects/life/qlife-qt4-0.9.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

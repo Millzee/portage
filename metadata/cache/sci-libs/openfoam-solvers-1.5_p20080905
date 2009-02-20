@@ -1,22 +1,12 @@
-!=sci-libs/openfoam-1.5* !=sci-libs/openfoam-bin-1.5* =sci-libs/openfoam-kernel-1.5* >=sys-devel/gcc-4.1
-!=sci-libs/openfoam-1.5* !=sci-libs/openfoam-bin-1.5* =sci-libs/openfoam-kernel-1.5*
-1.5
-mirror://sourceforge/foam/OpenFOAM-1.5.General.gtgz -> OpenFOAM-1.5.General.tgz
-
-http://www.opencfd.co.uk/openfoam/
-GPL-2
-OpenFOAM - solvers
-~amd64 ~x86
-toolchain-funcs versionator multilib portability eutils
-
-
-
-
-2
-
-compile install prepare setup
-
-
-
-
-
+DEFINED_PHASES=compile install prepare setup
+DEPEND=!=sci-libs/openfoam-1.5* !=sci-libs/openfoam-bin-1.5* =sci-libs/openfoam-kernel-1.5* >=sys-devel/gcc-4.1
+DESCRIPTION=OpenFOAM - solvers
+EAPI=2
+HOMEPAGE=http://www.opencfd.co.uk/openfoam/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=!=sci-libs/openfoam-1.5* !=sci-libs/openfoam-bin-1.5* =sci-libs/openfoam-kernel-1.5*
+SLOT=1.5
+SRC_URI=mirror://sourceforge/foam/OpenFOAM-1.5.General.gtgz -> OpenFOAM-1.5.General.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,13 @@
->=net-im/jabber-base-0.01 >=dev-libs/pth-1.4.0 dev-libs/expat net-dns/libidn mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server ) ssl? ( >=dev-libs/openssl-0.9.6i ) dev-util/pkgconfig !net-im/jabberd2
->=net-im/jabber-base-0.01 >=dev-libs/pth-1.4.0 dev-libs/expat net-dns/libidn mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server ) ssl? ( >=dev-libs/openssl-0.9.6i )
-0
-http://download.jabberd.org/jabberd14/jabberd-1.4.4.tar.gz
-
-http://www.jabber.org
-GPL-2
-Open-source Jabber server
-~alpha ~amd64 hppa ~ppc sparc x86
-toolchain-funcs multilib portability eutils
-debug ipv6 mysql postgres ssl
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=>=net-im/jabber-base-0.01 >=dev-libs/pth-1.4.0 dev-libs/expat net-dns/libidn mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server ) ssl? ( >=dev-libs/openssl-0.9.6i ) dev-util/pkgconfig !net-im/jabberd2
+DESCRIPTION=Open-source Jabber server
+EAPI=0
+HOMEPAGE=http://www.jabber.org
+IUSE=debug ipv6 mysql postgres ssl
+KEYWORDS=~alpha ~amd64 hppa ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=net-im/jabber-base-0.01 >=dev-libs/pth-1.4.0 dev-libs/expat net-dns/libidn mysql? ( virtual/mysql ) postgres? ( virtual/postgresql-server ) ssl? ( >=dev-libs/openssl-0.9.6i )
+SLOT=0
+SRC_URI=http://download.jabberd.org/jabberd14/jabberd-1.4.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

@@ -1,22 +1,13 @@
-!minimal? ( >=kde-base/kdelibs-3 )
-!minimal? ( >=kde-base/kdelibs-3 )
-0
-http://www.richard-schneider.de/uwe/kde/kload-0.9.4.tar.gz
-
-http://www.richard-schneider.de/uwe/kde/
-GPL-2
-A performance monitoring program for KDE/Linux
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-minimal
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=!minimal? ( >=kde-base/kdelibs-3 )
+DESCRIPTION=A performance monitoring program for KDE/Linux
+EAPI=0
+HOMEPAGE=http://www.richard-schneider.de/uwe/kde/
+IUSE=minimal
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=!minimal? ( >=kde-base/kdelibs-3 )
+SLOT=0
+SRC_URI=http://www.richard-schneider.de/uwe/kde/kload-0.9.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082864

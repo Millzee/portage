@@ -1,22 +1,13 @@
-media-libs/libpng media-libs/libsdl gtk? ( >=x11-libs/gtk+-2.4 >=dev-cpp/gtkmm-2.4 >=dev-cpp/libglademm-2.4 ) nls? ( virtual/libintl ) dev-util/pkgconfig mmx? ( dev-lang/nasm ) nls? ( sys-devel/gettext )
-media-libs/libpng media-libs/libsdl gtk? ( >=x11-libs/gtk+-2.4 >=dev-cpp/gtkmm-2.4 >=dev-cpp/libglademm-2.4 ) nls? ( virtual/libintl )
-0
-mirror://sourceforge/vba/VisualBoyAdvance-src-1.7.2.tar.gz mirror://gentoo/visualboyadvance-1.7.2-deprecatedsigc++.patch.bz2
-
-http://vba.ngemu.com/
-GPL-2
-gameboy, gameboy color, and gameboy advance emulator
-amd64 ppc x86
-toolchain-funcs portability flag-o-matic multilib base games eutils
-gtk mmx nls
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=media-libs/libpng media-libs/libsdl gtk? ( >=x11-libs/gtk+-2.4 >=dev-cpp/gtkmm-2.4 >=dev-cpp/libglademm-2.4 ) nls? ( virtual/libintl ) dev-util/pkgconfig mmx? ( dev-lang/nasm ) nls? ( sys-devel/gettext )
+DESCRIPTION=gameboy, gameboy color, and gameboy advance emulator
+EAPI=0
+HOMEPAGE=http://vba.ngemu.com/
+IUSE=gtk mmx nls
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng media-libs/libsdl gtk? ( >=x11-libs/gtk+-2.4 >=dev-cpp/gtkmm-2.4 >=dev-cpp/libglademm-2.4 ) nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=mirror://sourceforge/vba/VisualBoyAdvance-src-1.7.2.tar.gz mirror://gentoo/visualboyadvance-1.7.2-deprecatedsigc++.patch.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

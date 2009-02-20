@@ -1,22 +1,12 @@
-prolog? ( dev-lang/swi-prolog ) sys-devel/m4
-prolog? ( dev-lang/swi-prolog )
-0
-http://www.cs.unipr.it/ppl/Download/ftp/releases/0.10/ppl-0.10.tar.bz2 ftp://ftp.cs.unipr.it/pub/ppl/releases/0.10/ppl-0.10.tar.bz2
-
-http://www.cs.unipr.it/ppl/
-GPL-3
-The Parma Polyhedra Library (PPL) is a modern and reasonably complete library providing numerical abstractions especially targeted at applications in the field of analysis and verification of complex systems
-~amd64 ~mips ~x86
-
-prolog
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=prolog? ( dev-lang/swi-prolog ) sys-devel/m4
+DESCRIPTION=The Parma Polyhedra Library (PPL) is a modern and reasonably complete library providing numerical abstractions especially targeted at applications in the field of analysis and verification of complex systems
+EAPI=0
+HOMEPAGE=http://www.cs.unipr.it/ppl/
+IUSE=prolog
+KEYWORDS=~amd64 ~mips ~x86
+LICENSE=GPL-3
+RDEPEND=prolog? ( dev-lang/swi-prolog )
+SLOT=0
+SRC_URI=http://www.cs.unipr.it/ppl/Download/ftp/releases/0.10/ppl-0.10.tar.bz2 ftp://ftp.cs.unipr.it/pub/ppl/releases/0.10/ppl-0.10.tar.bz2
+_mtime_=1235082854

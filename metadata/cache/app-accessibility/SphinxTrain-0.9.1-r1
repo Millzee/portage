@@ -1,22 +1,12 @@
-virtual/libc app-accessibility/sphinx2 app-accessibility/festival
-virtual/libc app-accessibility/sphinx2 app-accessibility/festival
-0
-http://www.speech.cs.cmu.edu/SphinxTrain/SphinxTrain-0.9.1-beta.tar.gz
-
-http://cmusphinx.sourceforge.net/html/cmusphinx.php
-BSD as-is
-Speech Recognition (Training Module)
-x86 ppc
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst unpack
+DEPEND=virtual/libc app-accessibility/sphinx2 app-accessibility/festival
+DESCRIPTION=Speech Recognition (Training Module)
+EAPI=0
+HOMEPAGE=http://cmusphinx.sourceforge.net/html/cmusphinx.php
+KEYWORDS=x86 ppc
+LICENSE=BSD as-is
+RDEPEND=virtual/libc app-accessibility/sphinx2 app-accessibility/festival
+SLOT=0
+SRC_URI=http://www.speech.cs.cmu.edu/SphinxTrain/SphinxTrain-0.9.1-beta.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

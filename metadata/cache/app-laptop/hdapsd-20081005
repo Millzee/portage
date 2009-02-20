@@ -1,22 +1,11 @@
-kernel_linux? ( virtual/linux-sources )
-
-0
-mirror://gentoo/hdapsd-20081005.c.bz2 mirror://gentoo/hdaps_protect-patches-3.tar.bz2
-
-http://hdaps.sourceforge.net/
-GPL-2
-IBM ThinkPad Harddrive Active Protection disk head parking daemon
-~x86 ~amd64
-toolchain-funcs portability versionator multilib linux-info eutils
-
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup
+DEPEND=kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=IBM ThinkPad Harddrive Active Protection disk head parking daemon
+EAPI=0
+HOMEPAGE=http://hdaps.sourceforge.net/
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://gentoo/hdapsd-20081005.c.bz2 mirror://gentoo/hdaps_protect-patches-3.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

@@ -1,22 +1,12 @@
-virtual/krb5 =www-servers/apache-2*
-virtual/krb5 =www-servers/apache-2*
-0
-mirror://sourceforge/modauthkerb/mod_auth_kerb-5.3.tar.gz
-
-http://modauthkerb.sourceforge.net/
-as-is
-An Apache authentication module using Kerberos.
-~amd64 x86
-toolchain-funcs apache-module depend.apache multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=virtual/krb5 =www-servers/apache-2*
+DESCRIPTION=An Apache authentication module using Kerberos.
+EAPI=0
+HOMEPAGE=http://modauthkerb.sourceforge.net/
+KEYWORDS=~amd64 x86
+LICENSE=as-is
+RDEPEND=virtual/krb5 =www-servers/apache-2*
+SLOT=0
+SRC_URI=mirror://sourceforge/modauthkerb/mod_auth_kerb-5.3.tar.gz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

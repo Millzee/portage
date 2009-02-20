@@ -1,22 +1,12 @@
-|| ( x11-libs/qt-gui:4 >=x11-libs/qt-4.3:4 )
-|| ( x11-libs/qt-gui:4 >=x11-libs/qt-4.3:4 )
-0
-http://star.physics.yale.edu/~ullrich/xyscanDistributionPage/3.02/xyscan-3.02-src.tar.gz
-
-http://star.physics.yale.edu/~ullrich/xyscanDistributionPage/
-GPL-2
-tool for extracting data points from graphs
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib eutils
-
-
-
-
-1
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=|| ( x11-libs/qt-gui:4 >=x11-libs/qt-4.3:4 )
+DESCRIPTION=tool for extracting data points from graphs
+EAPI=1
+HOMEPAGE=http://star.physics.yale.edu/~ullrich/xyscanDistributionPage/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( x11-libs/qt-gui:4 >=x11-libs/qt-4.3:4 )
+SLOT=0
+SRC_URI=http://star.physics.yale.edu/~ullrich/xyscanDistributionPage/3.02/xyscan-3.02-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

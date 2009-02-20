@@ -1,22 +1,12 @@
-sys-apps/grep sys-apps/groff >=sys-apps/sed-4
-virtual/qmail
-0
-http://gd.tuwien.ac.at/infosys/mail/qmail/ezmlm-patches/ezmlm-idx-0.40.tar.gz http://cr.yp.to/software/ezmlm-0.53.tar.gz
-
-http://www.ezmlm.org
-as-is
-Simple yet powerful mailing list manager for qmail.
-alpha amd64 hppa mips ppc sparc x86
-fixheadtails toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-apps/grep sys-apps/groff >=sys-apps/sed-4
+DESCRIPTION=Simple yet powerful mailing list manager for qmail.
+EAPI=0
+HOMEPAGE=http://www.ezmlm.org
+KEYWORDS=alpha amd64 hppa mips ppc sparc x86
+LICENSE=as-is
+RDEPEND=virtual/qmail
+SLOT=0
+SRC_URI=http://gd.tuwien.ac.at/infosys/mail/qmail/ezmlm-patches/ezmlm-idx-0.40.tar.gz http://cr.yp.to/software/ezmlm-0.53.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

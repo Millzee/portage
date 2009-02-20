@@ -1,22 +1,11 @@
-
-
-0
-http://www.steampowered.com/download/hldsupdatetool.bin
-mirror
-http://www.steampowered.com/
-ValveServer
-client for Valve Software's Steam content delivery program
--* x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DESCRIPTION=client for Valve Software's Steam content delivery program
+EAPI=0
+HOMEPAGE=http://www.steampowered.com/
+KEYWORDS=-* x86
+LICENSE=ValveServer
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://www.steampowered.com/download/hldsupdatetool.bin
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

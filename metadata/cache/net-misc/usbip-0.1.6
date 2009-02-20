@@ -1,22 +1,13 @@
->=sys-fs/sysfsutils-2 sys-apps/tcp-wrappers dev-libs/glib dev-util/pkgconfig >=sys-devel/automake-1.9 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
->=sys-fs/sysfsutils-2 sys-apps/tcp-wrappers dev-libs/glib kernel_linux? ( virtual/modutils )
-0
-mirror://sourceforge/usbip/usbip-0.1.6.tar.gz
-
-http://usbip.sourceforge.net/
-GPL-2
-A general USB device sharing system over IP networks
-~amd64 ~x86
-toolchain-funcs portability versionator multilib libtool linux-info autotools linux-mod eutils
-debug kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=sys-fs/sysfsutils-2 sys-apps/tcp-wrappers dev-libs/glib dev-util/pkgconfig >=sys-devel/automake-1.9 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=A general USB device sharing system over IP networks
+EAPI=0
+HOMEPAGE=http://usbip.sourceforge.net/
+IUSE=debug kernel_linux
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-fs/sysfsutils-2 sys-apps/tcp-wrappers dev-libs/glib kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=mirror://sourceforge/usbip/usbip-0.1.6.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

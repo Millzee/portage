@@ -1,22 +1,12 @@
-virtual/libc dev-lang/perl
-virtual/libc dev-lang/perl
-0
-http://pages.stern.nyu.edu/~marriaga/software/libtrash/libtrash-2.8.tgz
-
-http://pages.stern.nyu.edu/~marriaga/software/libtrash/
-GPL-2
-provides a trash can by intercepting certain calls to glibc
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/libc dev-lang/perl
+DESCRIPTION=provides a trash can by intercepting certain calls to glibc
+EAPI=0
+HOMEPAGE=http://pages.stern.nyu.edu/~marriaga/software/libtrash/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc dev-lang/perl
+SLOT=0
+SRC_URI=http://pages.stern.nyu.edu/~marriaga/software/libtrash/libtrash-2.8.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

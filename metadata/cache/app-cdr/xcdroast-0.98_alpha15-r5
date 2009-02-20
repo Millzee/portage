@@ -1,22 +1,13 @@
->=x11-libs/gtk+-2 virtual/cdrtools dev-util/pkgconfig
->=x11-libs/gtk+-2 virtual/cdrtools
-0
-mirror://sourceforge/xcdroast/xcdroast-0.98alpha15.tar.gz mirror://gentoo/xcdroast-0.98_alpha15_new_configure.tar.gz
-
-http://www.xcdroast.org/
-GPL-2
-Old-school menu based front-end for CD and DVD writing
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-nls
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=x11-libs/gtk+-2 virtual/cdrtools dev-util/pkgconfig
+DESCRIPTION=Old-school menu based front-end for CD and DVD writing
+EAPI=0
+HOMEPAGE=http://www.xcdroast.org/
+IUSE=nls
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2 virtual/cdrtools
+SLOT=0
+SRC_URI=mirror://sourceforge/xcdroast/xcdroast-0.98alpha15.tar.gz mirror://gentoo/xcdroast-0.98_alpha15_new_configure.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

@@ -1,22 +1,11 @@
-x11-libs/libX11
-x11-libs/libX11
-0
-http://www.ishiboo.com/~nirva/Projects/xwarppointer/xwarppointer.tar.gz
-
-http://www.ishiboo.com/~nirva/Projects/xwarppointer/
-BSD
-Program to move the mouse cursor
-~amd64 ~ppc ~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/libX11
+DESCRIPTION=Program to move the mouse cursor
+EAPI=0
+HOMEPAGE=http://www.ishiboo.com/~nirva/Projects/xwarppointer/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=BSD
+RDEPEND=x11-libs/libX11
+SLOT=0
+SRC_URI=http://www.ishiboo.com/~nirva/Projects/xwarppointer/xwarppointer.tar.gz
+_mtime_=1235082908

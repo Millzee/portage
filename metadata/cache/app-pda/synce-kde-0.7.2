@@ -1,22 +1,13 @@
->=app-pda/synce-0.8 >=app-pda/synce-rra-0.8.9 !app-pda/rapip =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts )
->=app-pda/synce-0.8 >=app-pda/synce-rra-0.8.9 =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts )
-0
-mirror://sourceforge/synce/synce-kde-0.7.2.tar.gz avantgo? ( http://www.mechlord.ca/%7Elownewulf/agsync-0.2-pre.tgz )
-
-http://synce.sourceforge.net
-GPL-2
-Synchronize Windows CE devices with computers running GNU/Linux, like MS ActiveSync. - KDE System Tray utility (formerly app-pda/rapip)
-~x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-avantgo debug elibc_FreeBSD arts xinerama
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=app-pda/synce-0.8 >=app-pda/synce-rra-0.8.9 !app-pda/rapip =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto ) arts? ( kde-base/arts )
+DESCRIPTION=Synchronize Windows CE devices with computers running GNU/Linux, like MS ActiveSync. - KDE System Tray utility (formerly app-pda/rapip)
+EAPI=0
+HOMEPAGE=http://synce.sourceforge.net
+IUSE=avantgo debug elibc_FreeBSD arts xinerama
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=app-pda/synce-0.8 >=app-pda/synce-rra-0.8.9 =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama ) arts? ( kde-base/arts )
+SLOT=0
+SRC_URI=mirror://sourceforge/synce/synce-kde-0.7.2.tar.gz avantgo? ( http://www.mechlord.ca/%7Elownewulf/agsync-0.2-pre.tgz )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde	/home/Funtoo/portage/eclass	1235082859	kde-functions	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

@@ -1,22 +1,12 @@
-virtual/libc sys-libs/ncurses
-virtual/libc sys-libs/ncurses
-0
-http://www.astro.caltech.edu/~mcs/tecla/libtecla-1.6.1.tar.gz
-
-http://www.astro.caltech.edu/~mcs/tecla/
-as-is
-Tecla command-line editing library
-~x86 ~ppc ~amd64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc sys-libs/ncurses
+DESCRIPTION=Tecla command-line editing library
+EAPI=0
+HOMEPAGE=http://www.astro.caltech.edu/~mcs/tecla/
+KEYWORDS=~x86 ~ppc ~amd64
+LICENSE=as-is
+RDEPEND=virtual/libc sys-libs/ncurses
+SLOT=0
+SRC_URI=http://www.astro.caltech.edu/~mcs/tecla/libtecla-1.6.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

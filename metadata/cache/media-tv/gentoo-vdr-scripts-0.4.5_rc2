@@ -1,22 +1,12 @@
-
-nvram? ( sys-power/nvram-wakeup ) app-admin/sudo !media-tv/vdr-dvd-scripts !media-tv/vdrplugin-rebuild
-0
-mirror://gentoo/gentoo-vdr-scripts-0.4.5_rc2.tar.bz2 http://dev.gentoo.org/~zzam/distfiles/gentoo-vdr-scripts-0.4.5_rc2.tar.bz2
-
-http://www.gentoo.org/
-GPL-2
-Scripts necessary for use of vdr as a set-top-box
-~amd64 ~ppc ~x86
-toolchain-funcs multilib portability eutils
-nvram
-
-
-
-0
-
-config install postinst preinst setup
-
-
-
-
-
+DEFINED_PHASES=config install postinst preinst setup
+DESCRIPTION=Scripts necessary for use of vdr as a set-top-box
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/
+IUSE=nvram
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=nvram? ( sys-power/nvram-wakeup ) app-admin/sudo !media-tv/vdr-dvd-scripts !media-tv/vdrplugin-rebuild
+SLOT=0
+SRC_URI=mirror://gentoo/gentoo-vdr-scripts-0.4.5_rc2.tar.bz2 http://dev.gentoo.org/~zzam/distfiles/gentoo-vdr-scripts-0.4.5_rc2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

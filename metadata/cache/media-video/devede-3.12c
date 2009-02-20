@@ -1,22 +1,13 @@
->=dev-lang/python-2.4
->=x11-libs/gtk+-2.6 dev-python/pygtk >=media-video/mplayer-1.0_rc1 media-video/dvdauthor media-video/vcdimager psyco? ( dev-python/psyco ) virtual/cdrtools >=dev-lang/python-2.4
-0
-http://www.rastersoft.com/descargas/devede-3.12c.tar.bz2
-
-http://www.rastersoft.com/programas/devede.html
-GPL-3
-Program to create video CDs and DVDs, suitable to be played in home DVD players.
-~amd64 ~x86
-python multilib toolchain-funcs alternatives
-psyco
-
-
-
-0
-
-install postinst postrm
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm
+DEPEND=>=dev-lang/python-2.4
+DESCRIPTION=Program to create video CDs and DVDs, suitable to be played in home DVD players.
+EAPI=0
+HOMEPAGE=http://www.rastersoft.com/programas/devede.html
+IUSE=psyco
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=x11-libs/gtk+-2.6 dev-python/pygtk >=media-video/mplayer-1.0_rc1 media-video/dvdauthor media-video/vcdimager psyco? ( dev-python/psyco ) virtual/cdrtools >=dev-lang/python-2.4
+SLOT=0
+SRC_URI=http://www.rastersoft.com/descargas/devede-3.12c.tar.bz2
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

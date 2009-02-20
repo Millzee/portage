@@ -1,22 +1,13 @@
->=dev-php/PEAR-PEAR-1.6.2 =dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
-!minimal? ( >=dev-php/PEAR-DB-1.7.6-r1 >=dev-php/smarty-2.6.10-r1 ) =dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
-0
-http://pear.zeronotice.org/get/ZNF-0.7.10.tgz
-
-http://znf.zeronotice.com/
-LGPL-2.1
-PHP5 MVC framework for enterprise web applications.
-~amd64 ~sparc ~x86
-toolchain-funcs portability depend.php multilib phpconfutils php-pear-lib-r1 eutils
-minimal
-
-
-
-0
-
-install postinst setup
-
-
-
-
-
+DEFINED_PHASES=install postinst setup
+DEPEND=>=dev-php/PEAR-PEAR-1.6.2 =dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
+DESCRIPTION=PHP5 MVC framework for enterprise web applications.
+EAPI=0
+HOMEPAGE=http://znf.zeronotice.com/
+IUSE=minimal
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=!minimal? ( >=dev-php/PEAR-DB-1.7.6-r1 >=dev-php/smarty-2.6.10-r1 ) =dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
+SLOT=0
+SRC_URI=http://pear.zeronotice.org/get/ZNF-0.7.10.tgz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	php-pear-lib-r1	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

@@ -1,22 +1,13 @@
-virtual/libc dev-lang/tcl dev-tcltk/expect
-virtual/libc dev-lang/tcl dev-tcltk/expect
-0
-mirror://gnu/dejagnu/dejagnu-1.4.4.tar.gz
-
-http://www.gnu.org/software/dejagnu/
-GPL-2
-framework for testing other programs
-alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-doc
-
-
-
-0
-
-install test unpack
-
-
-
-
-
+DEFINED_PHASES=install test unpack
+DEPEND=virtual/libc dev-lang/tcl dev-tcltk/expect
+DESCRIPTION=framework for testing other programs
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/dejagnu/
+IUSE=doc
+KEYWORDS=alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=virtual/libc dev-lang/tcl dev-tcltk/expect
+SLOT=0
+SRC_URI=mirror://gnu/dejagnu/dejagnu-1.4.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

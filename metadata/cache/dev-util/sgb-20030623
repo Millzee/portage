@@ -1,22 +1,11 @@
-|| ( >=dev-util/cweb-3.00 virtual/tex-base )
-|| ( >=dev-util/cweb-3.00 virtual/tex-base )
-0
-ftp://labrea.stanford.edu/pub/sgb/sgb-2003-06-23.tar.gz
-
-ftp://labrea.stanford.edu/pub/sgb/
-BSD
-Stanford GraphBase
-~ppc x86
-
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=|| ( >=dev-util/cweb-3.00 virtual/tex-base )
+DESCRIPTION=Stanford GraphBase
+EAPI=0
+HOMEPAGE=ftp://labrea.stanford.edu/pub/sgb/
+KEYWORDS=~ppc x86
+LICENSE=BSD
+RDEPEND=|| ( >=dev-util/cweb-3.00 virtual/tex-base )
+SLOT=0
+SRC_URI=ftp://labrea.stanford.edu/pub/sgb/sgb-2003-06-23.tar.gz
+_mtime_=1235082859

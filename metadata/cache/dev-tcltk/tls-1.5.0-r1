@@ -1,22 +1,14 @@
->=dev-lang/tcl-8.3.3 dev-libs/openssl tk? ( >=dev-lang/tk-8.3.3 )
->=dev-lang/tcl-8.3.3 dev-libs/openssl tk? ( >=dev-lang/tk-8.3.3 )
-0
-mirror://sourceforge/tls/tls1.5.0-src.tar.gz
-test
-http://tls.sourceforge.net/
-BSD
-TLS OpenSSL extension to Tcl.
-~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils
-tk
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/tcl-8.3.3 dev-libs/openssl tk? ( >=dev-lang/tk-8.3.3 )
+DESCRIPTION=TLS OpenSSL extension to Tcl.
+EAPI=0
+HOMEPAGE=http://tls.sourceforge.net/
+IUSE=tk
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/tcl-8.3.3 dev-libs/openssl tk? ( >=dev-lang/tk-8.3.3 )
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/tls/tls1.5.0-src.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

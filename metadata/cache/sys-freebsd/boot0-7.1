@@ -1,22 +1,12 @@
-=sys-freebsd/freebsd-mk-defs-7.1* =sys-freebsd/freebsd-lib-7.1* virtual/pmake virtual/pmake
-
-0
-mirror://gentoo/freebsd-sys-7.1.tar.bz2
-
-http://www.freebsd.org/
-BSD
-FreeBSD's bootloader
-~sparc-fbsd ~x86-fbsd
-toolchain-funcs portability flag-o-matic versionator multilib freebsd bsdmk eutils
-profile
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==sys-freebsd/freebsd-mk-defs-7.1* =sys-freebsd/freebsd-lib-7.1* virtual/pmake virtual/pmake
+DESCRIPTION=FreeBSD's bootloader
+EAPI=0
+HOMEPAGE=http://www.freebsd.org/
+IUSE=profile
+KEYWORDS=~sparc-fbsd ~x86-fbsd
+LICENSE=BSD
+SLOT=0
+SRC_URI=mirror://gentoo/freebsd-sys-7.1.tar.bz2
+_eclasses_=bsdmk	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	freebsd	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082906

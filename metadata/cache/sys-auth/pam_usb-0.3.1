@@ -1,22 +1,13 @@
-ssl? ( dev-libs/openssl ) sys-libs/pam sys-apps/hotplug-base
-sys-libs/pam
-0
-http://www.pamusb.org/releases/pam_usb-0.3.1.tar.gz
-
-http://www.pamusb.org/
-GPL-2
-A PAM module that enables authentication using an USB-Storage device (such as an USB Pen) through DSA private/public keys.
-~alpha ~amd64 ~mips ~ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-pam ssl
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=ssl? ( dev-libs/openssl ) sys-libs/pam sys-apps/hotplug-base
+DESCRIPTION=A PAM module that enables authentication using an USB-Storage device (such as an USB Pen) through DSA private/public keys.
+EAPI=0
+HOMEPAGE=http://www.pamusb.org/
+IUSE=pam ssl
+KEYWORDS=~alpha ~amd64 ~mips ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/pam
+SLOT=0
+SRC_URI=http://www.pamusb.org/releases/pam_usb-0.3.1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

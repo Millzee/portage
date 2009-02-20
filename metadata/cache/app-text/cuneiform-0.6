@@ -1,22 +1,13 @@
->=dev-util/cmake-2.6.0 imagemagick? ( media-gfx/imagemagick ) >=dev-util/cmake-2.4.6
-imagemagick? ( media-gfx/imagemagick )
-0
-http://launchpad.net/cuneiform-linux/0.6/0.6/+download/cuneiform-0.6.tar.bz2
-
-https://launchpad.net/cuneiform-linux
-BSD
-An enterprise quality OCR engine developed in USSR/Russia in the 90's.
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic versionator multilib cmake-utils eutils
-imagemagick debug
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND=>=dev-util/cmake-2.6.0 imagemagick? ( media-gfx/imagemagick ) >=dev-util/cmake-2.4.6
+DESCRIPTION=An enterprise quality OCR engine developed in USSR/Russia in the 90's.
+EAPI=0
+HOMEPAGE=https://launchpad.net/cuneiform-linux
+IUSE=imagemagick debug
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=imagemagick? ( media-gfx/imagemagick )
+SLOT=0
+SRC_URI=http://launchpad.net/cuneiform-linux/0.6/0.6/+download/cuneiform-0.6.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

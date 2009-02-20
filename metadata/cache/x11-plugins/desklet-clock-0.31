@@ -1,22 +1,11 @@
->=gnome-extra/gdesklets-core-0.20
->=gnome-extra/gdesklets-core-0.20
-0
-http://gdesklets.gnomedesktop.org/files/clock-desklet-0.31.tar.bz2
-
-http://gdesklets.de/index.php?q=desklet/view/201
-as-is
-The clock sensors and displays for gdesklets
-~x86 ppc
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=gnome-extra/gdesklets-core-0.20
+DESCRIPTION=The clock sensors and displays for gdesklets
+EAPI=0
+HOMEPAGE=http://gdesklets.de/index.php?q=desklet/view/201
+KEYWORDS=~x86 ppc
+LICENSE=as-is
+RDEPEND=>=gnome-extra/gdesklets-core-0.20
+SLOT=0
+SRC_URI=http://gdesklets.gnomedesktop.org/files/clock-desklet-0.31.tar.bz2
+_mtime_=1235082909

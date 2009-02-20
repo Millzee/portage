@@ -1,22 +1,14 @@
-virtual/cdrtools encode? ( >=media-sound/lame-3.90 ) gcdmaster? ( >=dev-cpp/gtkmm-2.4 >=dev-cpp/libgnomemm-2.6 >=dev-cpp/libgnomecanvasmm-2.6 >=dev-cpp/gconfmm-2.6 >=dev-cpp/libgnomeuimm-2.6 media-libs/libao ) pccts? ( >=dev-util/pccts-1.33.24-r1 ) !app-cdr/cue2toc
-virtual/cdrtools encode? ( >=media-sound/lame-3.90 ) gcdmaster? ( >=dev-cpp/gtkmm-2.4 >=dev-cpp/libgnomemm-2.6 >=dev-cpp/libgnomecanvasmm-2.6 >=dev-cpp/gconfmm-2.6 >=dev-cpp/libgnomeuimm-2.6 media-libs/libao )
-0
-mirror://sourceforge/cdrdao/cdrdao-1.2.2.tar.bz2
-strip
-http://cdrdao.sourceforge.net/
-GPL-2
-Burn CDs in disk-at-once mode -- with optional GUI frontend
-alpha amd64 arm hppa ia64 ppc ppc64 sh sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils flag-o-matic
-gcdmaster debug encode pccts
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/cdrtools encode? ( >=media-sound/lame-3.90 ) gcdmaster? ( >=dev-cpp/gtkmm-2.4 >=dev-cpp/libgnomemm-2.6 >=dev-cpp/libgnomecanvasmm-2.6 >=dev-cpp/gconfmm-2.6 >=dev-cpp/libgnomeuimm-2.6 media-libs/libao ) pccts? ( >=dev-util/pccts-1.33.24-r1 ) !app-cdr/cue2toc
+DESCRIPTION=Burn CDs in disk-at-once mode -- with optional GUI frontend
+EAPI=0
+HOMEPAGE=http://cdrdao.sourceforge.net/
+IUSE=gcdmaster debug encode pccts
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 sh sparc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=virtual/cdrtools encode? ( >=media-sound/lame-3.90 ) gcdmaster? ( >=dev-cpp/gtkmm-2.4 >=dev-cpp/libgnomemm-2.6 >=dev-cpp/libgnomecanvasmm-2.6 >=dev-cpp/gconfmm-2.6 >=dev-cpp/libgnomeuimm-2.6 media-libs/libao )
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/cdrdao/cdrdao-1.2.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

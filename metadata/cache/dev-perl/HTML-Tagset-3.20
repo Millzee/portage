@@ -1,22 +1,12 @@
-dev-lang/perl
-dev-lang/perl
-0
-mirror://cpan/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
-
-http://search.cpan.org/search?module=HTML-Tagset
-Artistic
-data tables useful in parsing HTML
-alpha ~amd64 arm ~hppa ia64 m68k ~mips ~ppc ~ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl
+DESCRIPTION=data tables useful in parsing HTML
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?module=HTML-Tagset
+KEYWORDS=alpha ~amd64 arm ~hppa ia64 m68k ~mips ~ppc ~ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd
+LICENSE=Artistic
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

@@ -1,22 +1,12 @@
-x11-proto/xextproto app-text/rman x11-libs/libXext x11-libs/libX11 x11-misc/imake app-text/rman sys-libs/readline sys-libs/ncurses sys-libs/gpm
-x11-proto/xextproto app-text/rman
-0
-mirror://berlios/x48/x48-0.4.3.tar.gz
-
-http://x48.berlios.de/
-GPL-2
-HP48 Calculator Emulator
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=x11-proto/xextproto app-text/rman x11-libs/libXext x11-libs/libX11 x11-misc/imake app-text/rman sys-libs/readline sys-libs/ncurses sys-libs/gpm
+DESCRIPTION=HP48 Calculator Emulator
+EAPI=0
+HOMEPAGE=http://x48.berlios.de/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=x11-proto/xextproto app-text/rman
+SLOT=0
+SRC_URI=mirror://berlios/x48/x48-0.4.3.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

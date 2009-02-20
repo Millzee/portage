@@ -1,22 +1,12 @@
-x11-libs/libX11 x11-libs/libXft media-libs/fontconfig >=media-libs/imlib-1.9.13 !app-i18n/chinput
-x11-libs/libX11 x11-libs/libXft media-libs/fontconfig >=media-libs/imlib-1.9.13 !app-i18n/chinput media-fonts/font-sony-misc
-0
-mirror://sourceforge/minichinput/miniChinput-0.1.9.tar.gz mirror://sourceforge/minichinput/miniChinput-0.1.9-rxvt.patch
-
-http://www-scf.usc.edu/~bozhang/miniChinput/ http://sourceforge.net/projects/minichinput/
-GPL-2
-Chinese Input Method. Replaces Chinput as a smaller package without the dependency on unicon.
-x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libX11 x11-libs/libXft media-libs/fontconfig >=media-libs/imlib-1.9.13 !app-i18n/chinput
+DESCRIPTION=Chinese Input Method. Replaces Chinput as a smaller package without the dependency on unicon.
+EAPI=0
+HOMEPAGE=http://www-scf.usc.edu/~bozhang/miniChinput/ http://sourceforge.net/projects/minichinput/
+KEYWORDS=x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXft media-libs/fontconfig >=media-libs/imlib-1.9.13 !app-i18n/chinput media-fonts/font-sony-misc
+SLOT=0
+SRC_URI=mirror://sourceforge/minichinput/miniChinput-0.1.9.tar.gz mirror://sourceforge/minichinput/miniChinput-0.1.9-rxvt.patch
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

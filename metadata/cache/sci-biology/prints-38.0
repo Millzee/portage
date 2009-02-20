@@ -1,22 +1,12 @@
-emboss? ( sci-biology/emboss )
-emboss? ( sci-biology/emboss )
-0
-mirror://gentoo/prints-38.0.tar.bz2
-
-http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
-public-domain
-A protein motif fingerprint database
-amd64 ppc ppc64 ~sparc x86
-
-emboss minimal
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=emboss? ( sci-biology/emboss )
+DESCRIPTION=A protein motif fingerprint database
+EAPI=0
+HOMEPAGE=http://www.bioinf.man.ac.uk/dbbrowser/PRINTS/
+IUSE=emboss minimal
+KEYWORDS=amd64 ppc ppc64 ~sparc x86
+LICENSE=public-domain
+RDEPEND=emboss? ( sci-biology/emboss )
+SLOT=0
+SRC_URI=mirror://gentoo/prints-38.0.tar.bz2
+_mtime_=1235082898

@@ -1,22 +1,13 @@
-doc? ( virtual/latex-base virtual/texi2dvi ) >=sys-apps/sed-4 sys-apps/gawk sys-apps/groff dev-lang/perl sys-apps/texinfo fax? ( !net-misc/hylafax )
-doc? ( virtual/latex-base virtual/texi2dvi ) >=sys-apps/sed-4 sys-apps/gawk sys-apps/groff dev-lang/perl sys-apps/texinfo fax? ( !net-misc/hylafax ) fax? ( media-libs/netpbm virtual/ghostscript )
-0
-ftp://mgetty.greenie.net/pub/mgetty/source/1.1/mgetty1.1.36-Jun15.tar.gz
-
-http://mgetty.greenie.net/
-GPL-2
-fax and voice modem programs
-alpha amd64 hppa ia64 ~mips ppc ~ppc64 sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc fax fidonet
-
-
-
-0
-
-compile install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst setup unpack
+DEPEND=doc? ( virtual/latex-base virtual/texi2dvi ) >=sys-apps/sed-4 sys-apps/gawk sys-apps/groff dev-lang/perl sys-apps/texinfo fax? ( !net-misc/hylafax )
+DESCRIPTION=fax and voice modem programs
+EAPI=0
+HOMEPAGE=http://mgetty.greenie.net/
+IUSE=doc fax fidonet
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ~ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=doc? ( virtual/latex-base virtual/texi2dvi ) >=sys-apps/sed-4 sys-apps/gawk sys-apps/groff dev-lang/perl sys-apps/texinfo fax? ( !net-misc/hylafax ) fax? ( media-libs/netpbm virtual/ghostscript )
+SLOT=0
+SRC_URI=ftp://mgetty.greenie.net/pub/mgetty/source/1.1/mgetty1.1.36-Jun15.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

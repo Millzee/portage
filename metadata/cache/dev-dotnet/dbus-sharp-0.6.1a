@@ -1,22 +1,12 @@
->=dev-lang/mono-1.2.4 >=sys-apps/dbus-1 dev-util/pkgconfig
->=dev-lang/mono-1.2.4 >=sys-apps/dbus-1
-0
-http://www.ndesk.org/archive/dbus-sharp/ndesk-dbus-0.6.1a.tar.gz
-
-http://www.ndesk.org/DBusSharp
-MIT
-Managed D-Bus Implementation for .NET
-amd64 ppc x86
-mono toolchain-funcs multilib
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=dev-lang/mono-1.2.4 >=sys-apps/dbus-1 dev-util/pkgconfig
+DESCRIPTION=Managed D-Bus Implementation for .NET
+EAPI=0
+HOMEPAGE=http://www.ndesk.org/DBusSharp
+KEYWORDS=amd64 ppc x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-1.2.4 >=sys-apps/dbus-1
+SLOT=0
+SRC_URI=http://www.ndesk.org/archive/dbus-sharp/ndesk-dbus-0.6.1a.tar.gz
+_eclasses_=mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

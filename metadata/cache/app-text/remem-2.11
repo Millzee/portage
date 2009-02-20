@@ -1,22 +1,12 @@
-dev-libs/libpcre
-dev-libs/libpcre
-0
-http://www.remem.org/remem-2.11.tar.gz
-
-http://www.remem.org/index.html
-GPL-2
-Remembrance Agent plugin for Emacs
-x86 sparc
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/libpcre
+DESCRIPTION=Remembrance Agent plugin for Emacs
+EAPI=0
+HOMEPAGE=http://www.remem.org/index.html
+KEYWORDS=x86 sparc
+LICENSE=GPL-2
+RDEPEND=dev-libs/libpcre
+SLOT=0
+SRC_URI=http://www.remem.org/remem-2.11.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

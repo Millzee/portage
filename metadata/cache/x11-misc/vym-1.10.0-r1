@@ -1,22 +1,12 @@
-|| ( ( x11-libs/qt-gui:4 x11-libs/qt-sql:4 ) =x11-libs/qt-4.3* )
-|| ( ( x11-libs/qt-gui:4 x11-libs/qt-sql:4 ) =x11-libs/qt-4.3* ) x11-libs/libX11 x11-libs/libXext
-0
-mirror://sourceforge/vym/vym-1.10.0.tar.bz2
-
-http://www.insilmaril.de/vym/
-GPL-2
-View Your Mind -- a mindmap tool
-~amd64 ~x86
-qt4 toolchain-funcs portability versionator multilib eutils
-
-
-
-
-1
-
-install setup unpack
-
-
-
-
-
+DEFINED_PHASES=install setup unpack
+DEPEND=|| ( ( x11-libs/qt-gui:4 x11-libs/qt-sql:4 ) =x11-libs/qt-4.3* )
+DESCRIPTION=View Your Mind -- a mindmap tool
+EAPI=1
+HOMEPAGE=http://www.insilmaril.de/vym/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( ( x11-libs/qt-gui:4 x11-libs/qt-sql:4 ) =x11-libs/qt-4.3* ) x11-libs/libX11 x11-libs/libXext
+SLOT=0
+SRC_URI=mirror://sourceforge/vym/vym-1.10.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

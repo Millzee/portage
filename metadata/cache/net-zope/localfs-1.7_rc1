@@ -1,22 +1,11 @@
-
-net-zope/zope app-admin/zprod-manager
-0
-http://www.easyleading.org/Downloads/LocalFS-1.6-andreas.tar.gz
-
-http://www.easyleading.org/Downloads/
-GPL-2
-Zope product for accessing the local filesystem - andreas fork
-~ppc ~x86
-zproduct
-
-
-
-
-0
-
-config install postinst prerm
-
-
-
-
-
+DEFINED_PHASES=config install postinst prerm
+DESCRIPTION=Zope product for accessing the local filesystem - andreas fork
+EAPI=0
+HOMEPAGE=http://www.easyleading.org/Downloads/
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=net-zope/zope app-admin/zprod-manager
+SLOT=0
+SRC_URI=http://www.easyleading.org/Downloads/LocalFS-1.6-andreas.tar.gz
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

@@ -1,22 +1,12 @@
-sys-devel/bison
-crypt? ( virtual/ssh )
-1
-http://www.magnicomp.com/download/rdist/rdist-6.1.5.tar.gz
-
-http://www.magnicomp.com/rdist/rdist.shtml
-RDist
-Remote software distribution system
-alpha ia64 ~ppc sparc x86
-
-crypt
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-devel/bison
+DESCRIPTION=Remote software distribution system
+EAPI=0
+HOMEPAGE=http://www.magnicomp.com/rdist/rdist.shtml
+IUSE=crypt
+KEYWORDS=alpha ia64 ~ppc sparc x86
+LICENSE=RDist
+RDEPEND=crypt? ( virtual/ssh )
+SLOT=1
+SRC_URI=http://www.magnicomp.com/download/rdist/rdist-6.1.5.tar.gz
+_mtime_=1235082895

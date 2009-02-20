@@ -1,22 +1,13 @@
->=sys-libs/ncurses-5.2-r5
->=sys-libs/ncurses-5.2-r5
-0
-ftp://alpha.gnu.org/gnu/grub/grub-0.92.tar.gz http://dev.gentoo.org/~seemant/distfiles/grub-0.92-gentoo-0.2.tar.bz2 http://dev.gentoo.org/~seemant/distfiles/splash.xpm.gz mirror://gentoo/splash.xpm.gz mirror://gentoo/grub-0.92-gentoo-0.2.tar.bz2
-
-http://www.gnu.org/software/grub/
-GPL-2
-GNU GRUB boot loader
--* x86
-mount-boot toolchain-funcs portability flag-o-matic multilib eutils
-
-
-
-virtual/bootloader
-0
-
-compile install postinst preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst unpack
+DEPEND=>=sys-libs/ncurses-5.2-r5
+DESCRIPTION=GNU GRUB boot loader
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/grub/
+KEYWORDS=-* x86
+LICENSE=GPL-2
+PROVIDE=virtual/bootloader
+RDEPEND=>=sys-libs/ncurses-5.2-r5
+SLOT=0
+SRC_URI=ftp://alpha.gnu.org/gnu/grub/grub-0.92.tar.gz http://dev.gentoo.org/~seemant/distfiles/grub-0.92-gentoo-0.2.tar.bz2 http://dev.gentoo.org/~seemant/distfiles/splash.xpm.gz mirror://gentoo/splash.xpm.gz mirror://gentoo/grub-0.92-gentoo-0.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	mount-boot	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

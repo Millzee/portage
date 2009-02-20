@@ -1,22 +1,12 @@
-x11-libs/libXpm media-libs/libpng !games-misc/bsd-games
-x11-libs/libXpm media-libs/libpng !games-misc/bsd-games
-0
-http://www.delorie.com/store/ace/ace-1.2.tar.gz
-
-http://www.delorie.com/store/ace/
-GPL-2
-DJ Delorie's Ace of Penguins solitaire games
-amd64 ppc sparc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=x11-libs/libXpm media-libs/libpng !games-misc/bsd-games
+DESCRIPTION=DJ Delorie's Ace of Penguins solitaire games
+EAPI=2
+HOMEPAGE=http://www.delorie.com/store/ace/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libXpm media-libs/libpng !games-misc/bsd-games
+SLOT=0
+SRC_URI=http://www.delorie.com/store/ace/ace-1.2.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

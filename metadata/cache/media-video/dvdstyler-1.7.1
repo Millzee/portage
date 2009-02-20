@@ -1,22 +1,13 @@
-dev-util/pkgconfig >=sys-devel/gettext-0.17 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-media-video/ffmpeg =x11-libs/wxGTK-2.8* >=media-libs/wxsvg-1.0 >=media-libs/libexif-0.6.16 gnome? ( >=gnome-base/libgnomeui-2.0 ) virtual/cdrtools >=media-video/dvdauthor-0.6.14 >=app-cdr/dvd+rw-tools-7.1 >=app-cdr/dvdisaster-0.71.0
-0
-mirror://sourceforge/dvdstyler/DVDStyler-1.7.1.tar.bz2
-
-http://www.dvdstyler.de
-GPL-2
-DVDStyler is a cross-platform DVD authoring System
-~amd64 ~ppc ~x86
-toolchain-funcs wxwidgets portability multilib libtool autotools eutils
-gnome
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=dev-util/pkgconfig >=sys-devel/gettext-0.17 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=DVDStyler is a cross-platform DVD authoring System
+EAPI=0
+HOMEPAGE=http://www.dvdstyler.de
+IUSE=gnome
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=media-video/ffmpeg =x11-libs/wxGTK-2.8* >=media-libs/wxsvg-1.0 >=media-libs/libexif-0.6.16 gnome? ( >=gnome-base/libgnomeui-2.0 ) virtual/cdrtools >=media-video/dvdauthor-0.6.14 >=app-cdr/dvd+rw-tools-7.1 >=app-cdr/dvdisaster-0.71.0
+SLOT=0
+SRC_URI=mirror://sourceforge/dvdstyler/DVDStyler-1.7.1.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

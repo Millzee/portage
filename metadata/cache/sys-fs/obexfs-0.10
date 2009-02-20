@@ -1,22 +1,12 @@
->=net-wireless/bluez-libs-2.19 >=app-mobilephone/obexftp-0.19 >=sys-fs/fuse-2.4.1-r1 kernel_linux? ( virtual/linux-sources ) =sys-devel/automake-1.7* sys-devel/libtool
->=net-wireless/bluez-libs-2.19 >=app-mobilephone/obexftp-0.19 >=sys-fs/fuse-2.4.1-r1
-0
-http://triq.net/obexftp/obexfs-0.10.tar.gz
-
-http://triq.net/obex/
-GPL-2
-FUSE filesystem interface for ObexFTP
-amd64 x86
-toolchain-funcs portability versionator multilib libtool linux-info autotools eutils
-
-
-
-
-0
-
-install postinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=install postinst setup unpack
+DEPEND=>=net-wireless/bluez-libs-2.19 >=app-mobilephone/obexftp-0.19 >=sys-fs/fuse-2.4.1-r1 kernel_linux? ( virtual/linux-sources ) =sys-devel/automake-1.7* sys-devel/libtool
+DESCRIPTION=FUSE filesystem interface for ObexFTP
+EAPI=0
+HOMEPAGE=http://triq.net/obex/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=>=net-wireless/bluez-libs-2.19 >=app-mobilephone/obexftp-0.19 >=sys-fs/fuse-2.4.1-r1
+SLOT=0
+SRC_URI=http://triq.net/obexftp/obexfs-0.10.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082907

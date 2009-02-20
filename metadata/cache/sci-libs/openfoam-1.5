@@ -1,22 +1,13 @@
-!=sci-libs/openfoam-bin-1.5* !=sci-libs/openfoam-kernel-1.5* !=sci-libs/openfoam-meta-1.5* !=sci-libs/openfoam-solvers-1.5* !=sci-libs/openfoam-utilities-1.5* !=sci-libs/openfoam-wmake-1.5* sci-libs/parmetis sci-libs/parmgridgen || ( >sci-visualization/paraview-3.0 sci-visualization/opendx ) virtual/mpi
-!=sci-libs/openfoam-bin-1.5* !=sci-libs/openfoam-kernel-1.5* !=sci-libs/openfoam-meta-1.5* !=sci-libs/openfoam-solvers-1.5* !=sci-libs/openfoam-utilities-1.5* !=sci-libs/openfoam-wmake-1.5* sci-libs/parmetis sci-libs/parmgridgen || ( >sci-visualization/paraview-3.0 sci-visualization/opendx ) virtual/mpi
-1.5
-mirror://sourceforge/foam/OpenFOAM-1.5.General.gtgz
-
-http://www.opencfd.co.uk/openfoam/
-GPL-2
-Open Field Operation and Manipulation - CFD Simulation Toolbox
-~amd64 ~x86
-toolchain-funcs versionator multilib portability eutils
-examples doc
-
-
-
-0
-
-compile install setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup test unpack
+DEPEND=!=sci-libs/openfoam-bin-1.5* !=sci-libs/openfoam-kernel-1.5* !=sci-libs/openfoam-meta-1.5* !=sci-libs/openfoam-solvers-1.5* !=sci-libs/openfoam-utilities-1.5* !=sci-libs/openfoam-wmake-1.5* sci-libs/parmetis sci-libs/parmgridgen || ( >sci-visualization/paraview-3.0 sci-visualization/opendx ) virtual/mpi
+DESCRIPTION=Open Field Operation and Manipulation - CFD Simulation Toolbox
+EAPI=0
+HOMEPAGE=http://www.opencfd.co.uk/openfoam/
+IUSE=examples doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=!=sci-libs/openfoam-bin-1.5* !=sci-libs/openfoam-kernel-1.5* !=sci-libs/openfoam-meta-1.5* !=sci-libs/openfoam-solvers-1.5* !=sci-libs/openfoam-utilities-1.5* !=sci-libs/openfoam-wmake-1.5* sci-libs/parmetis sci-libs/parmgridgen || ( >sci-visualization/paraview-3.0 sci-visualization/opendx ) virtual/mpi
+SLOT=1.5
+SRC_URI=mirror://sourceforge/foam/OpenFOAM-1.5.General.gtgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

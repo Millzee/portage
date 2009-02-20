@@ -1,22 +1,14 @@
-=x11-libs/gtk+-1.2* app-arch/unzip
-=x11-libs/gtk+-1.2* x11-misc/imake games-emulation/psemu-peopsspu opengl? ( games-emulation/psemu-gpupetemesagl ) !opengl? ( games-emulation/psemu-peopssoftgpu )
-0
-http://www.epsxe.com/files/epsxe160lin.zip
-strip
-http://www.epsxe.com/
-freedist
-ePSXe PlayStation Emulator
--* x86
-toolchain-funcs portability multilib base games eutils
-opengl
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND==x11-libs/gtk+-1.2* app-arch/unzip
+DESCRIPTION=ePSXe PlayStation Emulator
+EAPI=0
+HOMEPAGE=http://www.epsxe.com/
+IUSE=opengl
+KEYWORDS=-* x86
+LICENSE=freedist
+RDEPEND==x11-libs/gtk+-1.2* x11-misc/imake games-emulation/psemu-peopsspu opengl? ( games-emulation/psemu-gpupetemesagl ) !opengl? ( games-emulation/psemu-peopssoftgpu )
+RESTRICT=strip
+SLOT=0
+SRC_URI=http://www.epsxe.com/files/epsxe160lin.zip
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

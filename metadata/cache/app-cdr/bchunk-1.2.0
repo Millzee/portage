@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-http://he.fi/bchunk/bchunk-1.2.0.tar.gz
-
-http://he.fi/bchunk/
-GPL-2
-Converts bin/cue CD-images to iso+wav/cdr
-amd64 ppc sparc x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libc
+DESCRIPTION=Converts bin/cue CD-images to iso+wav/cdr
+EAPI=0
+HOMEPAGE=http://he.fi/bchunk/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://he.fi/bchunk/bchunk-1.2.0.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

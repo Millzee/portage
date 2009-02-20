@@ -1,22 +1,13 @@
-selinux? ( sec-policy/selinux-portmap ) tcpd? ( >=sys-apps/tcp-wrappers-7.6-r7 )
-selinux? ( sec-policy/selinux-portmap ) tcpd? ( >=sys-apps/tcp-wrappers-7.6-r7 )
-0
-http://neil.brown.name/portmap/portmap-6.0.tgz
-
-http://neil.brown.name/portmap/
-as-is
-daemon for implementing remote procedure calls between computer programs
-alpha amd64 arm hppa ia64 mips ppc ppc64 s390 sh sparc x86
-toolchain-funcs multilib portability eutils
-selinux tcpd
-
-
-
-0
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup unpack
+DEPEND=selinux? ( sec-policy/selinux-portmap ) tcpd? ( >=sys-apps/tcp-wrappers-7.6-r7 )
+DESCRIPTION=daemon for implementing remote procedure calls between computer programs
+EAPI=0
+HOMEPAGE=http://neil.brown.name/portmap/
+IUSE=selinux tcpd
+KEYWORDS=alpha amd64 arm hppa ia64 mips ppc ppc64 s390 sh sparc x86
+LICENSE=as-is
+RDEPEND=selinux? ( sec-policy/selinux-portmap ) tcpd? ( >=sys-apps/tcp-wrappers-7.6-r7 )
+SLOT=0
+SRC_URI=http://neil.brown.name/portmap/portmap-6.0.tgz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

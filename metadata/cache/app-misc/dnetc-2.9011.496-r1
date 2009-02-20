@@ -1,22 +1,12 @@
-
-net-dns/bind-tools
-0
-x86? ( http://http.distributed.net/pub/dcti/v2.9011/dnetc496-linux-x86-elf-uclibc.tar.gz ) amd64? ( http://http.distributed.net/pub/dcti/v2.9011/dnetc496-linux-amd64-elf.tar.gz )
-mirror
-http://www.distributed.net
-distributed.net
-distributed.net client
-amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst
+DESCRIPTION=distributed.net client
+EAPI=0
+HOMEPAGE=http://www.distributed.net
+KEYWORDS=amd64 x86
+LICENSE=distributed.net
+RDEPEND=net-dns/bind-tools
+RESTRICT=mirror
+SLOT=0
+SRC_URI=x86? ( http://http.distributed.net/pub/dcti/v2.9011/dnetc496-linux-x86-elf-uclibc.tar.gz ) amd64? ( http://http.distributed.net/pub/dcti/v2.9011/dnetc496-linux-amd64-elf.tar.gz )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

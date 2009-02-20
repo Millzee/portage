@@ -1,22 +1,13 @@
-|| ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 ) =x11-libs/qt-4.3*:4 ) >=media-sound/fluidsynth-1.0.7a
-|| ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 ) =x11-libs/qt-4.3*:4 ) >=media-sound/fluidsynth-1.0.7a
-0
-mirror://sourceforge/qsynth/qsynth-0.3.2.tar.gz
-
-http://qsynth.sourceforge.net/
-GPL-2
-A Qt application to control FluidSynth
-amd64 ppc sparc x86
-qt4 toolchain-funcs portability flag-o-matic versionator multilib eutils
-debug jack alsa
-
-
-
-1
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=|| ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 ) =x11-libs/qt-4.3*:4 ) >=media-sound/fluidsynth-1.0.7a
+DESCRIPTION=A Qt application to control FluidSynth
+EAPI=1
+HOMEPAGE=http://qsynth.sourceforge.net/
+IUSE=debug jack alsa
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=|| ( ( x11-libs/qt-core:4 x11-libs/qt-gui:4 ) =x11-libs/qt-4.3*:4 ) >=media-sound/fluidsynth-1.0.7a
+SLOT=0
+SRC_URI=mirror://sourceforge/qsynth/qsynth-0.3.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

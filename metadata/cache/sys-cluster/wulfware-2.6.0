@@ -1,22 +1,12 @@
-dev-libs/libxml2 sys-libs/ncurses sys-libs/zlib !sys-cluster/wulfstat !sys-cluster/xmlsysd =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-dev-libs/libxml2 sys-libs/ncurses sys-libs/zlib
-0
-http://www.phy.duke.edu/~rgb/Beowulf/wulfware/wulfware-2.6.0.tgz
-
-http://www.phy.duke.edu/~rgb/Beowulf/wulfware.php
-GPL-2
-Applications to monitor on a beowulf- or GRID-style clusters.
-~amd64 ~x86
-toolchain-funcs portability multilib libtool autotools eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=dev-libs/libxml2 sys-libs/ncurses sys-libs/zlib !sys-cluster/wulfstat !sys-cluster/xmlsysd =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Applications to monitor on a beowulf- or GRID-style clusters.
+EAPI=0
+HOMEPAGE=http://www.phy.duke.edu/~rgb/Beowulf/wulfware.php
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/libxml2 sys-libs/ncurses sys-libs/zlib
+SLOT=0
+SRC_URI=http://www.phy.duke.edu/~rgb/Beowulf/wulfware/wulfware-2.6.0.tgz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

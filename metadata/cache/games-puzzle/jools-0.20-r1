@@ -1,22 +1,11 @@
-
-dev-python/pygame
-0
-http://pessimization.com/software/jools/jools-0.20.tar.gz http://pessimization.com/software/jools/jools-musicpack-1.0.tar.gz
-
-http://pessimization.com/software/jools/
-GPL-2
-clone of Bejeweled, a popular pattern-matching game
-~amd64 ~x86
-toolchain-funcs portability python multilib alternatives base games eutils
-
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DESCRIPTION=clone of Bejeweled, a popular pattern-matching game
+EAPI=0
+HOMEPAGE=http://pessimization.com/software/jools/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-python/pygame
+SLOT=0
+SRC_URI=http://pessimization.com/software/jools/jools-0.20.tar.gz http://pessimization.com/software/jools/jools-musicpack-1.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

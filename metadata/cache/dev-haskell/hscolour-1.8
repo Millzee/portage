@@ -1,22 +1,13 @@
-dev-lang/ghc doc? ( dev-haskell/haddock ) >=dev-haskell/cabal-1.1.4
-dev-lang/ghc
-0
-ftp://ftp.cs.york.ac.uk/pub/haskell/contrib/hscolour-1.8.tar.gz
-
-http://www.cs.york.ac.uk/fp/darcs/hscolour/
-GPL-2
-Colourise Haskell code
-~amd64 ~sparc ~x86
-ghc-package toolchain-funcs versionator multilib haskell-cabal
-doc profile
-
-
-
-0
-
-compile install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup unpack
+DEPEND=dev-lang/ghc doc? ( dev-haskell/haddock ) >=dev-haskell/cabal-1.1.4
+DESCRIPTION=Colourise Haskell code
+EAPI=0
+HOMEPAGE=http://www.cs.york.ac.uk/fp/darcs/hscolour/
+IUSE=doc profile
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/ghc
+SLOT=0
+SRC_URI=ftp://ftp.cs.york.ac.uk/pub/haskell/contrib/hscolour-1.8.tar.gz
+_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	haskell-cabal	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

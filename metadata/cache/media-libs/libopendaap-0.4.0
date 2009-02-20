@@ -1,22 +1,10 @@
-
-
-0
-http://crazney.net/programs/itunes/files/libopendaap-0.4.0.tar.bz2
-
-http://crazney.net/programs/itunes/libopendaap.html
-crazney APSL-2
-libopendaap is a library which enables applications to discover and connect to iTunes(R) music shares
-alpha amd64 ppc ppc64 sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DESCRIPTION=libopendaap is a library which enables applications to discover and connect to iTunes(R) music shares
+EAPI=0
+HOMEPAGE=http://crazney.net/programs/itunes/libopendaap.html
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+LICENSE=crazney APSL-2
+SLOT=0
+SRC_URI=http://crazney.net/programs/itunes/files/libopendaap-0.4.0.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

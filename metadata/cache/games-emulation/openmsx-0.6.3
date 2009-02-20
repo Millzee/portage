@@ -1,22 +1,13 @@
-dev-lang/tcl dev-libs/libxml2 media-libs/libpng media-libs/libsdl media-libs/glew media-libs/sdl-image virtual/opengl jack? ( media-sound/jack-audio-connection-kit )
-dev-lang/tcl dev-libs/libxml2 media-libs/libpng media-libs/libsdl media-libs/glew media-libs/sdl-image virtual/opengl jack? ( media-sound/jack-audio-connection-kit )
-0
-mirror://sourceforge/openmsx/openmsx-0.6.3.tar.gz
-
-http://openmsx.sourceforge.net/
-GPL-2
-MSX emulator that aims for perfection
-amd64 ~ppc sparc x86
-toolchain-funcs portability multilib base games eutils
-jack
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=dev-lang/tcl dev-libs/libxml2 media-libs/libpng media-libs/libsdl media-libs/glew media-libs/sdl-image virtual/opengl jack? ( media-sound/jack-audio-connection-kit )
+DESCRIPTION=MSX emulator that aims for perfection
+EAPI=0
+HOMEPAGE=http://openmsx.sourceforge.net/
+IUSE=jack
+KEYWORDS=amd64 ~ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/tcl dev-libs/libxml2 media-libs/libpng media-libs/libsdl media-libs/glew media-libs/sdl-image virtual/opengl jack? ( media-sound/jack-audio-connection-kit )
+SLOT=0
+SRC_URI=mirror://sourceforge/openmsx/openmsx-0.6.3.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

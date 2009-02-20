@@ -1,22 +1,12 @@
-dev-lang/perl
-dev-lang/perl
-0
-mirror://debian/pool/main/u/unp/unp_1.0.15.tar.gz
-
-http://packages.qa.debian.org/u/unp.html
-GPL-2
-Script for unpacking various file formats
-~amd64 ~hppa ~ppc ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/perl
+DESCRIPTION=Script for unpacking various file formats
+EAPI=0
+HOMEPAGE=http://packages.qa.debian.org/u/unp.html
+KEYWORDS=~amd64 ~hppa ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=mirror://debian/pool/main/u/unp/unp_1.0.15.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

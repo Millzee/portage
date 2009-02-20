@@ -1,22 +1,12 @@
-virtual/python
-sci-visualization/gnuplot || ( sci-libs/openfoam-meta sci-libs/openfoam sci-libs/openfoam-bin )
-0
-http://openfoamwiki.net/images/0/01/PyFoam-0.5.0.tar.gz
-
-http://openfoamwiki.net/index.php/Contrib_PyFoam
-GPL-2
-Tool to analyze and plot the residual files of OpenFOAM computations
-~amd64 ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/python
+DESCRIPTION=Tool to analyze and plot the residual files of OpenFOAM computations
+EAPI=0
+HOMEPAGE=http://openfoamwiki.net/index.php/Contrib_PyFoam
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-visualization/gnuplot || ( sci-libs/openfoam-meta sci-libs/openfoam sci-libs/openfoam-bin )
+SLOT=0
+SRC_URI=http://openfoamwiki.net/images/0/01/PyFoam-0.5.0.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

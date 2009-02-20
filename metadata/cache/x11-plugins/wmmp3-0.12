@@ -1,22 +1,12 @@
-x11-libs/libX11 x11-libs/libXext x11-libs/libXpm x11-proto/xextproto >=media-sound/mpg123-0.59s-r2
-x11-libs/libX11 x11-libs/libXext x11-libs/libXpm
-0
-http://www.dotfiles.com/software/wmmp3/wmmp3-0.12.tar.gz
-
-http://www.dotfiles.com/software/wmmp3/
-GPL-2
-Mp3 player dock app for WindowMaker; frontend to mpg123
-~amd64 ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm x11-proto/xextproto >=media-sound/mpg123-0.59s-r2
+DESCRIPTION=Mp3 player dock app for WindowMaker; frontend to mpg123
+EAPI=0
+HOMEPAGE=http://www.dotfiles.com/software/wmmp3/
+KEYWORDS=~amd64 ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/libX11 x11-libs/libXext x11-libs/libXpm
+SLOT=0
+SRC_URI=http://www.dotfiles.com/software/wmmp3/wmmp3-0.12.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082910

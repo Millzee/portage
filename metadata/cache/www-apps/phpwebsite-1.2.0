@@ -1,22 +1,13 @@
-dev-lang/php >=app-admin/webapp-config-1.50.15
-dev-lang/php >=app-admin/webapp-config-1.50.15
-1.2.0
-http://phpwebsite.appstate.edu/downloads/stable/full/1.x.x/phpwebsite_1_2_0.tar.gz
-
-http://phpwebsite.appstate.edu
-LGPL-2.1
-phpWebSite Content Management System
-~alpha ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability depend.php multilib phpconfutils webapp eutils
-vhosts
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=dev-lang/php >=app-admin/webapp-config-1.50.15
+DESCRIPTION=phpWebSite Content Management System
+EAPI=0
+HOMEPAGE=http://phpwebsite.appstate.edu
+IUSE=vhosts
+KEYWORDS=~alpha ~ppc ~ppc64 ~sparc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-lang/php >=app-admin/webapp-config-1.50.15
+SLOT=1.2.0
+SRC_URI=http://phpwebsite.appstate.edu/downloads/stable/full/1.x.x/phpwebsite_1_2_0.tar.gz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

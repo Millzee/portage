@@ -1,22 +1,13 @@
->=dev-lang/mono-2.0 dev-dotnet/dbus-glib-sharp >=dev-dotnet/podsleuth-0.6.4 doc? ( >=virtual/monodoc-1.1.8 ) dev-util/pkgconfig
->=dev-lang/mono-2.0 dev-dotnet/dbus-glib-sharp >=dev-dotnet/podsleuth-0.6.4
-0
-http://banshee-project.org/files/ipod-sharp/ipod-sharp-0.8.2.tar.gz
-
-http://banshee-project.org/Ipod-sharp
-GPL-2
-ipod-sharp provides high-level feature support for Apple's iPod and binds libipoddevice.
-~amd64 ~x86
-mono toolchain-funcs multilib
-doc
-
-
-
-2
-
-compile configure install
-
-
-
-
-
+DEFINED_PHASES=compile configure install
+DEPEND=>=dev-lang/mono-2.0 dev-dotnet/dbus-glib-sharp >=dev-dotnet/podsleuth-0.6.4 doc? ( >=virtual/monodoc-1.1.8 ) dev-util/pkgconfig
+DESCRIPTION=ipod-sharp provides high-level feature support for Apple's iPod and binds libipoddevice.
+EAPI=2
+HOMEPAGE=http://banshee-project.org/Ipod-sharp
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/mono-2.0 dev-dotnet/dbus-glib-sharp >=dev-dotnet/podsleuth-0.6.4
+SLOT=0
+SRC_URI=http://banshee-project.org/files/ipod-sharp/ipod-sharp-0.8.2.tar.gz
+_eclasses_=mono	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082851

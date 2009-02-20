@@ -1,22 +1,11 @@
->=media-sound/pulseaudio-0.9.7 =media-libs/gstreamer-0.10* >=media-libs/gst-plugins-base-0.10.20 dev-util/pkgconfig
->=media-sound/pulseaudio-0.9.7 =media-libs/gstreamer-0.10* >=media-libs/gst-plugins-base-0.10.20
-0.10
-http://0pointer.de/lennart/projects/gst-pulse/gst-pulse-0.9.7.tar.gz
-
-http://0pointer.de/lennart/projects/gst-pulse/
-LGPL-2.1
-gst-pulse is a GStreamer 0.10 plugin for the PulseAudio sound server.
-alpha amd64 sparc x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=media-sound/pulseaudio-0.9.7 =media-libs/gstreamer-0.10* >=media-libs/gst-plugins-base-0.10.20 dev-util/pkgconfig
+DESCRIPTION=gst-pulse is a GStreamer 0.10 plugin for the PulseAudio sound server.
+EAPI=0
+HOMEPAGE=http://0pointer.de/lennart/projects/gst-pulse/
+KEYWORDS=alpha amd64 sparc x86
+LICENSE=LGPL-2.1
+RDEPEND=>=media-sound/pulseaudio-0.9.7 =media-libs/gstreamer-0.10* >=media-libs/gst-plugins-base-0.10.20
+SLOT=0.10
+SRC_URI=http://0pointer.de/lennart/projects/gst-pulse/gst-pulse-0.9.7.tar.gz
+_mtime_=1235082868

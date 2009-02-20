@@ -1,22 +1,10 @@
-
-
-0
-http://gsd.di.uminho.pt/jpo/software/wakeonlan/downloads/wakeonlan-0.41.tar.gz
-
-http://gsd.di.uminho.pt/jpo/software/wakeonlan/
-Artistic GPL-2
-Client for Wake-On-LAN
-amd64 arm ~ppc sparc x86 ~x86-fbsd
-toolchain-funcs perl-app portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DESCRIPTION=Client for Wake-On-LAN
+EAPI=0
+HOMEPAGE=http://gsd.di.uminho.pt/jpo/software/wakeonlan/
+KEYWORDS=amd64 arm ~ppc sparc x86 ~x86-fbsd
+LICENSE=Artistic GPL-2
+SLOT=0
+SRC_URI=http://gsd.di.uminho.pt/jpo/software/wakeonlan/downloads/wakeonlan-0.41.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-app	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

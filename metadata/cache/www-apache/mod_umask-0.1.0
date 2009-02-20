@@ -1,22 +1,12 @@
-=www-servers/apache-2*
-=www-servers/apache-2*
-0
-http://www.apache.org/~pquerna/modules/mod_umask-0.1.0.tar.bz2
-
-http://www.outoforder.cc/projects/apache/mod_umask/
-Apache-2.0
-Sets the Unix umask of the Apache2 webserver process after it has started.
-amd64 x86
-toolchain-funcs apache-module depend.apache multilib
-
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND==www-servers/apache-2*
+DESCRIPTION=Sets the Unix umask of the Apache2 webserver process after it has started.
+EAPI=0
+HOMEPAGE=http://www.outoforder.cc/projects/apache/mod_umask/
+KEYWORDS=amd64 x86
+LICENSE=Apache-2.0
+RDEPEND==www-servers/apache-2*
+SLOT=0
+SRC_URI=http://www.apache.org/~pquerna/modules/mod_umask-0.1.0.tar.bz2
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

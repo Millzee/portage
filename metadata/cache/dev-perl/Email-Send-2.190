@@ -1,22 +1,12 @@
-virtual/perl-Test-Simple >=virtual/perl-Module-Pluggable-2.97 virtual/perl-Scalar-List-Utils >=dev-perl/Return-Value-1.302 virtual/perl-File-Spec dev-perl/Email-Simple dev-perl/Email-Address dev-lang/perl
-virtual/perl-Test-Simple >=virtual/perl-Module-Pluggable-2.97 virtual/perl-Scalar-List-Utils >=dev-perl/Return-Value-1.302 virtual/perl-File-Spec dev-perl/Email-Simple dev-perl/Email-Address dev-lang/perl
-0
-mirror://cpan/authors/id/R/RJ/RJBS/Email-Send-2.190.tar.gz
-
-http://search.cpan.org/~rjbs/
-|| ( Artistic GPL-2 )
-Simply Sending Email
-alpha amd64 ia64 ppc ppc64 sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=virtual/perl-Test-Simple >=virtual/perl-Module-Pluggable-2.97 virtual/perl-Scalar-List-Utils >=dev-perl/Return-Value-1.302 virtual/perl-File-Spec dev-perl/Email-Simple dev-perl/Email-Address dev-lang/perl
+DESCRIPTION=Simply Sending Email
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~rjbs/
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=virtual/perl-Test-Simple >=virtual/perl-Module-Pluggable-2.97 virtual/perl-Scalar-List-Utils >=dev-perl/Return-Value-1.302 virtual/perl-File-Spec dev-perl/Email-Simple dev-perl/Email-Address dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Email-Send-2.190.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

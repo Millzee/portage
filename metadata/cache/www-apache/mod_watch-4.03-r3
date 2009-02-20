@@ -1,22 +1,12 @@
-=www-servers/apache-2*
-=www-servers/apache-2*
-0
-http://www.snert.com/Software/download/mod_watch403.tgz
-
-http://www.snert.com/Software/mod_watch/
-as-is
-Bandwidth graphing module for Apache2 with MRTG.
-ppc x86
-apache-module toolchain-funcs portability multilib depend.apache eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND==www-servers/apache-2*
+DESCRIPTION=Bandwidth graphing module for Apache2 with MRTG.
+EAPI=0
+HOMEPAGE=http://www.snert.com/Software/mod_watch/
+KEYWORDS=ppc x86
+LICENSE=as-is
+RDEPEND==www-servers/apache-2*
+SLOT=0
+SRC_URI=http://www.snert.com/Software/download/mod_watch403.tgz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

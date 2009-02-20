@@ -1,22 +1,11 @@
->=net-misc/asterisk-1.2.0
->=net-misc/asterisk-1.2.0
-0
-http://www.stadt-pforzheim.de/asterisk/dateien/ast_prompts_de_v2_0.tar.gz
-
-http://www.stadt-pforzheim.de/asterisk/
-GPL-2
-German voice prompts for Asterisk from the City of Pforzheim
-~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=net-misc/asterisk-1.2.0
+DESCRIPTION=German voice prompts for Asterisk from the City of Pforzheim
+EAPI=0
+HOMEPAGE=http://www.stadt-pforzheim.de/asterisk/
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=net-misc/asterisk-1.2.0
+SLOT=0
+SRC_URI=http://www.stadt-pforzheim.de/asterisk/dateien/ast_prompts_de_v2_0.tar.gz
+_mtime_=1235082894

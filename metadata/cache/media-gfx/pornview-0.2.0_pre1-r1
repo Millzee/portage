@@ -1,22 +1,13 @@
-media-libs/libpng mplayer? ( media-video/mplayer ) jpeg? ( media-libs/jpeg ) >=x11-libs/gtk+-2 dev-util/pkgconfig nls? ( sys-devel/gettext )
-media-libs/libpng mplayer? ( media-video/mplayer ) jpeg? ( media-libs/jpeg ) >=x11-libs/gtk+-2
-0
-mirror://sourceforge/pornview/pornview-0.2.0pre1.tar.gz
-
-http://pornview.sourceforge.net
-GPL-2
-Image viewer/manager with optional support for MPEG movies.
-amd64 -hppa ppc x86
-toolchain-funcs multilib portability eutils
-jpeg nls mplayer
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/libpng mplayer? ( media-video/mplayer ) jpeg? ( media-libs/jpeg ) >=x11-libs/gtk+-2 dev-util/pkgconfig nls? ( sys-devel/gettext )
+DESCRIPTION=Image viewer/manager with optional support for MPEG movies.
+EAPI=0
+HOMEPAGE=http://pornview.sourceforge.net
+IUSE=jpeg nls mplayer
+KEYWORDS=amd64 -hppa ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng mplayer? ( media-video/mplayer ) jpeg? ( media-libs/jpeg ) >=x11-libs/gtk+-2
+SLOT=0
+SRC_URI=mirror://sourceforge/pornview/pornview-0.2.0pre1.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

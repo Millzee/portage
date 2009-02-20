@@ -1,22 +1,11 @@
-=dev-lang/ghc-6.4*
-=dev-lang/ghc-6.4*
-0
-
-
-http://www.haskell.org/HOpenGL/
-BSD
-GLUT bindings for Haskell
-~x86 ~amd64
-ghc-package versionator
-
-
-
-
-0
-
-install postinst prerm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst prerm setup
+DEPEND==dev-lang/ghc-6.4*
+DESCRIPTION=GLUT bindings for Haskell
+EAPI=0
+HOMEPAGE=http://www.haskell.org/HOpenGL/
+KEYWORDS=~x86 ~amd64
+LICENSE=BSD
+RDEPEND==dev-lang/ghc-6.4*
+SLOT=0
+_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082852

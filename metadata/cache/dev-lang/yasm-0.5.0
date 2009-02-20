@@ -1,22 +1,13 @@
-nls? ( sys-devel/gettext )
-nls? ( virtual/libintl )
-0
-http://www.tortall.net/projects/yasm/releases/yasm-0.5.0.tar.gz
-
-http://www.tortall.net/projects/yasm/
-BSD
-assembler that supports amd64
--* amd64 ~x86
-versionator
-nls
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=nls? ( sys-devel/gettext )
+DESCRIPTION=assembler that supports amd64
+EAPI=0
+HOMEPAGE=http://www.tortall.net/projects/yasm/
+IUSE=nls
+KEYWORDS=-* amd64 ~x86
+LICENSE=BSD
+RDEPEND=nls? ( virtual/libintl )
+SLOT=0
+SRC_URI=http://www.tortall.net/projects/yasm/releases/yasm-0.5.0.tar.gz
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

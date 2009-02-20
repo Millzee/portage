@@ -1,22 +1,12 @@
-~app-crypt/gpgme-0.3.14 virtual/libc sys-apps/gawk sys-apps/grep
-~app-crypt/gpgme-0.3.14 virtual/libc
-0
-mirror://gnupg/alpha/cryptplug/cryptplug-0.3.16.tar.gz
-
-http://www.gnupg.org/
-GPL-2
-GPG and S/MIME encryption plugins. Use by KMail v1.5 (KDE 3.1) and Mutt
-x86 ppc sparc alpha hppa amd64 ia64 ppc64
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=~app-crypt/gpgme-0.3.14 virtual/libc sys-apps/gawk sys-apps/grep
+DESCRIPTION=GPG and S/MIME encryption plugins. Use by KMail v1.5 (KDE 3.1) and Mutt
+EAPI=0
+HOMEPAGE=http://www.gnupg.org/
+KEYWORDS=x86 ppc sparc alpha hppa amd64 ia64 ppc64
+LICENSE=GPL-2
+RDEPEND=~app-crypt/gpgme-0.3.14 virtual/libc
+SLOT=0
+SRC_URI=mirror://gnupg/alpha/cryptplug/cryptplug-0.3.16.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

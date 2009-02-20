@@ -1,22 +1,13 @@
-ssl? ( dev-libs/openssl )
-ssl? ( dev-libs/openssl )
-0
-http://www.acme.com/software/mini_httpd/mini_httpd-1.19.tar.gz
-
-http://www.acme.com/software/mini_httpd/
-BSD
-Small forking webserver with optional ssl and ipv6 support
-amd64 ~ia64 ppc s390 sparc x86
-toolchain-funcs multilib
-ssl ipv6
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=ssl? ( dev-libs/openssl )
+DESCRIPTION=Small forking webserver with optional ssl and ipv6 support
+EAPI=0
+HOMEPAGE=http://www.acme.com/software/mini_httpd/
+IUSE=ssl ipv6
+KEYWORDS=amd64 ~ia64 ppc s390 sparc x86
+LICENSE=BSD
+RDEPEND=ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=http://www.acme.com/software/mini_httpd/mini_httpd-1.19.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

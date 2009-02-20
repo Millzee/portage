@@ -1,22 +1,12 @@
-=x11-libs/wxGTK-2.6*
-=x11-libs/wxGTK-2.6*
-0
-mirror://sourceforge/roadnav/libroadnav-0.16.tar.gz
-
-http://roadnav.sourceforge.net
-LGPL-2.1
-LibRoadnav is a library capable of plotting street maps and providing driving directions for US addresses
-~x86 ~amd64
-toolchain-funcs multilib portability eutils wxwidgets
-
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND==x11-libs/wxGTK-2.6*
+DESCRIPTION=LibRoadnav is a library capable of plotting street maps and providing driving directions for US addresses
+EAPI=0
+HOMEPAGE=http://roadnav.sourceforge.net
+KEYWORDS=~x86 ~amd64
+LICENSE=LGPL-2.1
+RDEPEND==x11-libs/wxGTK-2.6*
+SLOT=0
+SRC_URI=mirror://sourceforge/roadnav/libroadnav-0.16.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

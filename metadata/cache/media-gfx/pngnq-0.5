@@ -1,22 +1,12 @@
-media-libs/libpng
-media-libs/libpng
-0
-mirror://sourceforge/pngnq/pngnq-0.5-src.tar.gz mirror://sourceforge/pngnq/pngnq-0.5-makefile.patch
-
-http://pngnq.sourceforge.net/
-as-is
-Pngnq is a tool for quantizing PNG images in RGBA format.
-amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/libpng
+DESCRIPTION=Pngnq is a tool for quantizing PNG images in RGBA format.
+EAPI=0
+HOMEPAGE=http://pngnq.sourceforge.net/
+KEYWORDS=amd64 x86
+LICENSE=as-is
+RDEPEND=media-libs/libpng
+SLOT=0
+SRC_URI=mirror://sourceforge/pngnq/pngnq-0.5-src.tar.gz mirror://sourceforge/pngnq/pngnq-0.5-makefile.patch
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

@@ -1,22 +1,13 @@
-virtual/opengl virtual/glu x11-libs/libXmu sdl? ( media-libs/libsdl media-libs/smpeg ) !sdl? ( virtual/glut ) vorbis? ( media-libs/libvorbis ) qt3? ( x11-libs/qt:3 ) media-libs/openal media-libs/freealut
-virtual/opengl virtual/glu x11-libs/libXmu sdl? ( media-libs/libsdl media-libs/smpeg ) !sdl? ( virtual/glut ) vorbis? ( media-libs/libvorbis ) qt3? ( x11-libs/qt:3 ) media-libs/openal media-libs/freealut
-0
-http://www.reptilelabour.com/software/files/chromium/chromium-src-0.9.12.tar.gz http://www.reptilelabour.com/software/files/chromium/chromium-data-0.9.12.tar.gz
-
-http://www.reptilelabour.com/software/chromium/
-Artistic
-Chromium B.S.U. - an arcade game
-amd64 ppc sparc x86
-toolchain-funcs qt3 portability flag-o-matic versionator multilib base games eutils
-sdl qt3 vorbis
-
-
-
-1
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/opengl virtual/glu x11-libs/libXmu sdl? ( media-libs/libsdl media-libs/smpeg ) !sdl? ( virtual/glut ) vorbis? ( media-libs/libvorbis ) qt3? ( x11-libs/qt:3 ) media-libs/openal media-libs/freealut
+DESCRIPTION=Chromium B.S.U. - an arcade game
+EAPI=1
+HOMEPAGE=http://www.reptilelabour.com/software/chromium/
+IUSE=sdl qt3 vorbis
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=Artistic
+RDEPEND=virtual/opengl virtual/glu x11-libs/libXmu sdl? ( media-libs/libsdl media-libs/smpeg ) !sdl? ( virtual/glut ) vorbis? ( media-libs/libvorbis ) qt3? ( x11-libs/qt:3 ) media-libs/openal media-libs/freealut
+SLOT=0
+SRC_URI=http://www.reptilelabour.com/software/files/chromium/chromium-src-0.9.12.tar.gz http://www.reptilelabour.com/software/files/chromium/chromium-data-0.9.12.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

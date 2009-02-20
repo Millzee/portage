@@ -1,22 +1,12 @@
-=x11-libs/gtk+-1*
-=x11-libs/gtk+-1*
-0
-http://members.chello.at/erich.kitzmueller/ammoq/padJoy082.tgz
-
-http://www.ammoq.com/
-GPL-2
-PSEmu plugin to use joysticks/gamepads in PSX-emulators
-~ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND==x11-libs/gtk+-1*
+DESCRIPTION=PSEmu plugin to use joysticks/gamepads in PSX-emulators
+EAPI=0
+HOMEPAGE=http://www.ammoq.com/
+KEYWORDS=~ppc x86
+LICENSE=GPL-2
+RDEPEND==x11-libs/gtk+-1*
+SLOT=0
+SRC_URI=http://members.chello.at/erich.kitzmueller/ammoq/padJoy082.tgz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

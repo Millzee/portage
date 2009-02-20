@@ -1,22 +1,12 @@
->=virtual/ruby-1.8 =x11-libs/qt-4* =x11-libs/qwt-5* >=dev-util/cmake-2.4.6 >=dev-util/cmake-2.4.6
->=virtual/ruby-1.8 =x11-libs/qt-4* =x11-libs/qwt-5*
-0
-http://rubyforge.org/frs/download.php/21951/qt4-qtruby-1.4.9.tgz
-
-http://rubyforge.org/projects/korundum
-GPL-2
-Ruby bindings for QT4
-~amd64 ~sparc ~x86
-qt4 toolchain-funcs portability flag-o-matic versionator multilib cmake-utils eutils
-
-
-
-
-0
-
-compile install setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install setup test unpack
+DEPEND=>=virtual/ruby-1.8 =x11-libs/qt-4* =x11-libs/qwt-5* >=dev-util/cmake-2.4.6 >=dev-util/cmake-2.4.6
+DESCRIPTION=Ruby bindings for QT4
+EAPI=0
+HOMEPAGE=http://rubyforge.org/projects/korundum
+KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/ruby-1.8 =x11-libs/qt-4* =x11-libs/qwt-5*
+SLOT=0
+SRC_URI=http://rubyforge.org/frs/download.php/21951/qt4-qtruby-1.4.9.tgz
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	qt4	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

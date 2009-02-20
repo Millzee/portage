@@ -1,22 +1,11 @@
->=sys-kernel/linux-headers-2.6
-
-0
-http://i2o.shadowconnect.com/raidutils/raidutils-0.0.6.tar.bz2
-
-http://i2o.shadowconnect.com/
-Adaptec
-Utilities to manage i2o/dtp RAID controllers.
-x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-kernel/linux-headers-2.6
+DESCRIPTION=Utilities to manage i2o/dtp RAID controllers.
+EAPI=0
+HOMEPAGE=http://i2o.shadowconnect.com/
+KEYWORDS=x86
+LICENSE=Adaptec
+SLOT=0
+SRC_URI=http://i2o.shadowconnect.com/raidutils/raidutils-0.0.6.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

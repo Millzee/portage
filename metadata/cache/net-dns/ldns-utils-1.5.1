@@ -1,22 +1,11 @@
-dev-libs/openssl >=net-libs/ldns-1.5.1 net-libs/libpcap
-dev-libs/openssl >=net-libs/ldns-1.5.1 net-libs/libpcap
-0
-http://www.nlnetlabs.nl/downloads/ldns/ldns-1.5.1.tar.gz
-
-http://www.nlnetlabs.nl/projects/ldns/
-BSD
-Set of utilities to simplify various dns(sec) tasks.
-~amd64 ~x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/openssl >=net-libs/ldns-1.5.1 net-libs/libpcap
+DESCRIPTION=Set of utilities to simplify various dns(sec) tasks.
+EAPI=0
+HOMEPAGE=http://www.nlnetlabs.nl/projects/ldns/
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-libs/openssl >=net-libs/ldns-1.5.1 net-libs/libpcap
+SLOT=0
+SRC_URI=http://www.nlnetlabs.nl/downloads/ldns/ldns-1.5.1.tar.gz
+_mtime_=1235082890

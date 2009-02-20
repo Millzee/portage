@@ -1,22 +1,13 @@
-=dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
-!minimal? ( >=dev-php5/Savant3-Plugin-Form-0.2.1 ) =dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
-0
-http://phpsavant.com/Savant3-3.0.0.tgz
-
-http://phpsavant.com/yawiki/index.php?area=Savant3
-LGPL-2.1
-The simple PHP template alternative to Smarty.
-~amd64 ~x86
-toolchain-funcs portability depend.php multilib phpconfutils php-pear-lib-r1 eutils
-minimal
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND==dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
+DESCRIPTION=The simple PHP template alternative to Smarty.
+EAPI=0
+HOMEPAGE=http://phpsavant.com/yawiki/index.php?area=Savant3
+IUSE=minimal
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=!minimal? ( >=dev-php5/Savant3-Plugin-Form-0.2.1 ) =dev-lang/php-5* dev-lang/php >=dev-php/PEAR-PEAR-1.6.1
+SLOT=0
+SRC_URI=http://phpsavant.com/Savant3-3.0.0.tgz
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	php-pear-lib-r1	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

@@ -1,22 +1,12 @@
->=app-editors/gvim-7.0 sys-libs/readline dev-util/subversion net-misc/rsync
->=app-editors/gvim-7.0 sys-libs/readline sys-devel/gdb
-0
-
-
-http://clewn.sourceforge.net/
-GPL-2
-A small utility which allows debugging from within vim
-~x86
-toolchain-funcs portability multilib subversion vim-doc eutils
-debug
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=app-editors/gvim-7.0 sys-libs/readline dev-util/subversion net-misc/rsync
+DESCRIPTION=A small utility which allows debugging from within vim
+EAPI=0
+HOMEPAGE=http://clewn.sourceforge.net/
+IUSE=debug
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=app-editors/gvim-7.0 sys-libs/readline sys-devel/gdb
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	vim-doc	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082850

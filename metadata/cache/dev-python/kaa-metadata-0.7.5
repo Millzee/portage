@@ -1,22 +1,13 @@
->=dev-python/kaa-base-0.3.0 dvd? ( media-libs/libdvdread ) css? ( media-libs/libdvdcss ) virtual/python
->=dev-python/kaa-base-0.3.0 dvd? ( media-libs/libdvdread ) css? ( media-libs/libdvdcss ) !dev-python/mmpython
-0
-mirror://sourceforge/freevo/kaa-metadata-0.7.5.tar.gz
-
-http://freevo.sourceforge.net/kaa/
-GPL-2
-Powerful media metadata parser for media files in Python, successor of MMPython
-~amd64 ~ppc ~x86
-toolchain-funcs distutils portability python alternatives multilib eutils
-dvd css
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=>=dev-python/kaa-base-0.3.0 dvd? ( media-libs/libdvdread ) css? ( media-libs/libdvdcss ) virtual/python
+DESCRIPTION=Powerful media metadata parser for media files in Python, successor of MMPython
+EAPI=0
+HOMEPAGE=http://freevo.sourceforge.net/kaa/
+IUSE=dvd css
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-python/kaa-base-0.3.0 dvd? ( media-libs/libdvdread ) css? ( media-libs/libdvdcss ) !dev-python/mmpython
+SLOT=0
+SRC_URI=mirror://sourceforge/freevo/kaa-metadata-0.7.5.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082857

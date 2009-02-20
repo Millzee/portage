@@ -1,22 +1,12 @@
-dev-util/gperf sys-devel/bin86
-dev-util/gperf sys-devel/bin86
-0
-http://www.cix.co.uk/~mayday/dev86/Dev86src-0.16.17.tar.gz
-
-http://www.cix.co.uk/~mayday
-GPL-2
-Bruce's C compiler - Simple C compiler to generate 8086 code
-amd64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-util/gperf sys-devel/bin86
+DESCRIPTION=Bruce's C compiler - Simple C compiler to generate 8086 code
+EAPI=0
+HOMEPAGE=http://www.cix.co.uk/~mayday
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-util/gperf sys-devel/bin86
+SLOT=0
+SRC_URI=http://www.cix.co.uk/~mayday/dev86/Dev86src-0.16.17.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

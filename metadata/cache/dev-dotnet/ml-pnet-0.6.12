@@ -1,22 +1,11 @@
-=dev-dotnet/pnetlib-0.6.12*
-=dev-dotnet/pnetlib-0.6.12*
-0
-mirror://gnu/dotgnu/pnet/ml-pnet-0.6.12.tar.gz
-
-http://www.dotgnu.org/
-|| ( GPL-2 X11 )
-Mono C# libraries for Portable.NET
-amd64 arm ia64 ppc x86
-
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND==dev-dotnet/pnetlib-0.6.12*
+DESCRIPTION=Mono C# libraries for Portable.NET
+EAPI=0
+HOMEPAGE=http://www.dotgnu.org/
+KEYWORDS=amd64 arm ia64 ppc x86
+LICENSE=|| ( GPL-2 X11 )
+RDEPEND==dev-dotnet/pnetlib-0.6.12*
+SLOT=0
+SRC_URI=mirror://gnu/dotgnu/pnet/ml-pnet-0.6.12.tar.gz
+_mtime_=1235082851

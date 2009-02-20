@@ -1,22 +1,10 @@
-
-dev-perl/PortageXS app-portage/gentoolkit dev-lang/perl
-0
-mirror://sourceforge/rep-rebuild/rep-rebuild-0.1_alpha3.tar.gz
-
-http://sourceforge.net/projects/rep-rebuild/
-LGPL-2
-A tool to rebuild SVN/CVS packages taking care of dependencies ordering
-~amd64 ~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=A tool to rebuild SVN/CVS packages taking care of dependencies ordering
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/rep-rebuild/
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2
+RDEPEND=dev-perl/PortageXS app-portage/gentoolkit dev-lang/perl
+SLOT=0
+SRC_URI=mirror://sourceforge/rep-rebuild/rep-rebuild-0.1_alpha3.tar.gz
+_mtime_=1235082850

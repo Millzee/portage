@@ -1,22 +1,12 @@
->=media-libs/aubio-0.3.2 media-libs/vamp-plugin-sdk =sci-libs/fftw-3*
->=media-libs/aubio-0.3.2 media-libs/vamp-plugin-sdk =sci-libs/fftw-3*
-0
-mirror://sourceforge/vamp/vamp-aubio-plugins-0.3.2b.tar.gz
-
-http://www.vamp-plugins.org/
-GPL-2
-Onset detection, pitch tracking, note tracking and tempo tracking plugins
-~amd64 ~ppc ppc64 x86
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=media-libs/aubio-0.3.2 media-libs/vamp-plugin-sdk =sci-libs/fftw-3*
+DESCRIPTION=Onset detection, pitch tracking, note tracking and tempo tracking plugins
+EAPI=0
+HOMEPAGE=http://www.vamp-plugins.org/
+KEYWORDS=~amd64 ~ppc ppc64 x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/aubio-0.3.2 media-libs/vamp-plugin-sdk =sci-libs/fftw-3*
+SLOT=0
+SRC_URI=mirror://sourceforge/vamp/vamp-aubio-plugins-0.3.2b.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082868

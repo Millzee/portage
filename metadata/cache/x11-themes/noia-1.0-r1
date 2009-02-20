@@ -1,22 +1,10 @@
-
-
-0
-http://es.kde.org/downloads/noia-kde-icons-1.00.tgz
-binchecks strip
-http://www.carlitus.net
-LGPL-2.1
-The Noia icon theme
-amd64 ppc sparc x86 ~x86-fbsd
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=The Noia icon theme
+EAPI=0
+HOMEPAGE=http://www.carlitus.net
+KEYWORDS=amd64 ppc sparc x86 ~x86-fbsd
+LICENSE=LGPL-2.1
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=http://es.kde.org/downloads/noia-kde-icons-1.00.tgz
+_mtime_=1235082910

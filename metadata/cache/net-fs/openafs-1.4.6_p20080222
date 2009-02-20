@@ -1,22 +1,12 @@
-
-~net-fs/openafs-kernel-1.4.6_p20080222 pam? ( sys-libs/pam ) kerberos? ( virtual/krb5 )
-0
-http://openafs.org/dl/openafs/1.4.6/openafs-1.4.6-src.tar.bz2 doc? ( http://openafs.org/dl/openafs/1.4.6/openafs-1.4.6-doc.tar.bz2 ) mirror://gentoo/openafs-gentoo-0.14.tar.bz2 mirror://gentoo/openafs-1.4.6-cvs20080222.patch.bz2
-
-http://www.openafs.org/
-IBM openafs-krb5 openafs-krb5-a APSL-2 sun-rpc
-The OpenAFS distributed file system
-amd64 ~ppc ~ppc64 ~sparc x86
-toolchain-funcs portability flag-o-matic versionator multilib pam eutils
-debug kerberos pam doc
-
-
-
-0
-
-compile install postinst preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst unpack
+DESCRIPTION=The OpenAFS distributed file system
+EAPI=0
+HOMEPAGE=http://www.openafs.org/
+IUSE=debug kerberos pam doc
+KEYWORDS=amd64 ~ppc ~ppc64 ~sparc x86
+LICENSE=IBM openafs-krb5 openafs-krb5-a APSL-2 sun-rpc
+RDEPEND=~net-fs/openafs-kernel-1.4.6_p20080222 pam? ( sys-libs/pam ) kerberos? ( virtual/krb5 )
+SLOT=0
+SRC_URI=http://openafs.org/dl/openafs/1.4.6/openafs-1.4.6-src.tar.bz2 doc? ( http://openafs.org/dl/openafs/1.4.6/openafs-1.4.6-doc.tar.bz2 ) mirror://gentoo/openafs-gentoo-0.14.tar.bz2 mirror://gentoo/openafs-1.4.6-cvs20080222.patch.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082890

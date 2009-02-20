@@ -1,22 +1,12 @@
-=dev-lang/tcl-8.4* =dev-lang/tk-8.4* dev-tcltk/bwidget virtual/opengl virtual/glut media-libs/jpeg dev-lang/python x11-libs/libXmu x11-libs/libICE x11-libs/libXau x11-libs/libXdmcp x11-libs/libXi x11-libs/libXxf86vm
-=dev-lang/tcl-8.4* =dev-lang/tk-8.4* dev-tcltk/bwidget virtual/opengl virtual/glut media-libs/jpeg dev-lang/python x11-libs/libXmu x11-libs/libICE x11-libs/libXau x11-libs/libXdmcp x11-libs/libXi x11-libs/libXxf86vm
-0
-http://www.csc.fi/gopenmol/distribute/gopenmol-3.00-linux.tar.gz
-
-http://www.csc.fi/gopenmol
-as-is
-gOpenMol is a tool for the visualization and analysis of molecular structures
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND==dev-lang/tcl-8.4* =dev-lang/tk-8.4* dev-tcltk/bwidget virtual/opengl virtual/glut media-libs/jpeg dev-lang/python x11-libs/libXmu x11-libs/libICE x11-libs/libXau x11-libs/libXdmcp x11-libs/libXi x11-libs/libXxf86vm
+DESCRIPTION=gOpenMol is a tool for the visualization and analysis of molecular structures
+EAPI=0
+HOMEPAGE=http://www.csc.fi/gopenmol
+KEYWORDS=~x86
+LICENSE=as-is
+RDEPEND==dev-lang/tcl-8.4* =dev-lang/tk-8.4* dev-tcltk/bwidget virtual/opengl virtual/glut media-libs/jpeg dev-lang/python x11-libs/libXmu x11-libs/libICE x11-libs/libXau x11-libs/libXdmcp x11-libs/libXi x11-libs/libXxf86vm
+SLOT=0
+SRC_URI=http://www.csc.fi/gopenmol/distribute/gopenmol-3.00-linux.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

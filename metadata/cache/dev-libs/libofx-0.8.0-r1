@@ -1,22 +1,12 @@
->=app-text/opensp-1.5 >=net-misc/curl-7.9.7
->=app-text/opensp-1.5 >=net-misc/curl-7.9.7
-0
-mirror://sourceforge/libofx/libofx-0.8.0.tar.gz
-
-http://libofx.sourceforge.net/
-GPL-2
-Library to support the Open Financial eXchange XML Format
-alpha amd64 hppa ia64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=>=app-text/opensp-1.5 >=net-misc/curl-7.9.7
+DESCRIPTION=Library to support the Open Financial eXchange XML Format
+EAPI=0
+HOMEPAGE=http://libofx.sourceforge.net/
+KEYWORDS=alpha amd64 hppa ia64 ppc sparc x86
+LICENSE=GPL-2
+RDEPEND=>=app-text/opensp-1.5 >=net-misc/curl-7.9.7
+SLOT=0
+SRC_URI=mirror://sourceforge/libofx/libofx-0.8.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

@@ -1,22 +1,13 @@
-virtual/libpcap mysql? ( virtual/mysql )
-virtual/libpcap mysql? ( virtual/mysql )
-0
-mirror://sourceforge/ipaudit/ipaudit-1.0BETA2.tar.gz
-
-http://ipaudit.sourceforge.net/
-GPL-2
-IPAudit monitors network activity on a network by host, protocol and port.
-~amd64 ppc x86
-toolchain-funcs multilib portability eutils
-mysql
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=virtual/libpcap mysql? ( virtual/mysql )
+DESCRIPTION=IPAudit monitors network activity on a network by host, protocol and port.
+EAPI=0
+HOMEPAGE=http://ipaudit.sourceforge.net/
+IUSE=mysql
+KEYWORDS=~amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=virtual/libpcap mysql? ( virtual/mysql )
+SLOT=0
+SRC_URI=mirror://sourceforge/ipaudit/ipaudit-1.0BETA2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082889

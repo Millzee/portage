@@ -1,22 +1,13 @@
->=dev-libs/libgpg-error-1.5 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
->=dev-libs/libgpg-error-1.5
-0
-mirror://gnupg/libgcrypt/libgcrypt-1.4.3.tar.bz2 ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.4.3.tar.bz2 !bindist? ( idea? ( mirror://gentoo/libgcrypt-1.4.0-idea.diff.bz2 ) )
-
-http://www.gnupg.org/
-LGPL-2.1
-general purpose crypto library based on the code used in GnuPG
-~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd
-toolchain-funcs portability multilib libtool autotools eutils
-bindist idea
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=dev-libs/libgpg-error-1.5 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=general purpose crypto library based on the code used in GnuPG
+EAPI=0
+HOMEPAGE=http://www.gnupg.org/
+IUSE=bindist idea
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-libs/libgpg-error-1.5
+SLOT=0
+SRC_URI=mirror://gnupg/libgcrypt/libgcrypt-1.4.3.tar.bz2 ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.4.3.tar.bz2 !bindist? ( idea? ( mirror://gentoo/libgcrypt-1.4.0-idea.diff.bz2 ) )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

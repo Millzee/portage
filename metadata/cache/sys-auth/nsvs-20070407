@@ -1,22 +1,12 @@
-virtual/mysql
-virtual/mysql
-0
-http://gentoo.longitekk.com/nsvs-20070407.tar.gz
-
-http://fssos.sourceforge.net/
-GPL-2
-A MySQL database backend for the NSS databases.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=virtual/mysql
+DESCRIPTION=A MySQL database backend for the NSS databases.
+EAPI=0
+HOMEPAGE=http://fssos.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/mysql
+SLOT=0
+SRC_URI=http://gentoo.longitekk.com/nsvs-20070407.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082900

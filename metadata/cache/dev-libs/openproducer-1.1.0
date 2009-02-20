@@ -1,22 +1,13 @@
-virtual/opengl >=dev-libs/openthreads-1.4.3 x11-libs/libXmu x11-libs/libX11 app-arch/unzip doc? ( app-doc/doxygen ) >=sys-apps/sed-4
-virtual/opengl >=dev-libs/openthreads-1.4.3 x11-libs/libXmu x11-libs/libX11
-0
-http://www.openscenegraph.org/downloads/snapshots/OSG_OP_OT-1.2.zip
-
-http://openscenegraph.org/
-OSGPL
-a cross-platform C++/OpenGL library that is focused on Camera control
-~x86
-fixheadtails toolchain-funcs multilib portability eutils
-doc examples
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/opengl >=dev-libs/openthreads-1.4.3 x11-libs/libXmu x11-libs/libX11 app-arch/unzip doc? ( app-doc/doxygen ) >=sys-apps/sed-4
+DESCRIPTION=a cross-platform C++/OpenGL library that is focused on Camera control
+EAPI=0
+HOMEPAGE=http://openscenegraph.org/
+IUSE=doc examples
+KEYWORDS=~x86
+LICENSE=OSGPL
+RDEPEND=virtual/opengl >=dev-libs/openthreads-1.4.3 x11-libs/libXmu x11-libs/libX11
+SLOT=0
+SRC_URI=http://www.openscenegraph.org/downloads/snapshots/OSG_OP_OT-1.2.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

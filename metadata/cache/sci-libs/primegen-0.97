@@ -1,22 +1,12 @@
-virtual/libc
-virtual/libc
-0
-http://cr.yp.to/primegen/primegen-0.97.tar.gz
-
-http://cr.yp.to/primegen.html
-public-domain
-A small, fast library to generate primes in order
-x86 ~amd64 ~ppc
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libc
+DESCRIPTION=A small, fast library to generate primes in order
+EAPI=0
+HOMEPAGE=http://cr.yp.to/primegen.html
+KEYWORDS=x86 ~amd64 ~ppc
+LICENSE=public-domain
+RDEPEND=virtual/libc
+SLOT=0
+SRC_URI=http://cr.yp.to/primegen/primegen-0.97.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

@@ -1,22 +1,12 @@
->=sys-libs/ncurses-5.4-r1
->=sys-libs/ncurses-5.4-r1
-0
-http://oasis.frogfoot.net/code/tint/download/0.03b/tint_0.03b.tar.gz
-
-http://oasis.frogfoot.net/code/tint/
-as-is
-Tint Is Not Tetris, a ncurses based clone of the original Tetris(tm) game
-amd64 ppc ppc64 x86 ~x86-fbsd
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=sys-libs/ncurses-5.4-r1
+DESCRIPTION=Tint Is Not Tetris, a ncurses based clone of the original Tetris(tm) game
+EAPI=0
+HOMEPAGE=http://oasis.frogfoot.net/code/tint/
+KEYWORDS=amd64 ppc ppc64 x86 ~x86-fbsd
+LICENSE=as-is
+RDEPEND=>=sys-libs/ncurses-5.4-r1
+SLOT=0
+SRC_URI=http://oasis.frogfoot.net/code/tint/download/0.03b/tint_0.03b.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

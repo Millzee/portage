@@ -1,22 +1,11 @@
->=dev-libs/libxml2-2.5.6
->=dev-libs/libxml2-2.5.6
-0
-mirror://sourceforge/libidmef/libidmef-1.0.2-beta1.tar.gz
-
-http://sourceforge.net/projects/libidmef/
-GPL-2
-Implementation of the IDMEF XML draft
-~x86
-
-
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=dev-libs/libxml2-2.5.6
+DESCRIPTION=Implementation of the IDMEF XML draft
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/libidmef/
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libxml2-2.5.6
+SLOT=0
+SRC_URI=mirror://sourceforge/libidmef/libidmef-1.0.2-beta1.tar.gz
+_mtime_=1235082853

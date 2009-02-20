@@ -1,22 +1,12 @@
-doc? ( app-doc/doxygen )
-
-0
-mirror://sourceforge/zthread/ZThread-2.3.2.tar.gz
-
-http://zthread.sourceforge.net/
-MIT
-A platform-independent multi-threading and synchronization library for C++
-~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
-toolchain-funcs multilib portability eutils flag-o-matic
-debug doc kernel_linux
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=doc? ( app-doc/doxygen )
+DESCRIPTION=A platform-independent multi-threading and synchronization library for C++
+EAPI=0
+HOMEPAGE=http://zthread.sourceforge.net/
+IUSE=debug doc kernel_linux
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=mirror://sourceforge/zthread/ZThread-2.3.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854

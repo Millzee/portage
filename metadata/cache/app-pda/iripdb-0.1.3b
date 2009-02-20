@@ -1,22 +1,12 @@
-media-libs/taglib sys-libs/zlib app-arch/unzip
-media-libs/taglib sys-libs/zlib
-0
-http://www.fataltourist.com/iripdb/iRipDB-0.1.3b.zip
-
-http://www.fataltourist.com/iripdb/
-GPL-2
-iRipDB allows generating the DB files necessary for the iRiver iHP-1xx series of MP3/Ogg HD Player on Linux and Windows.
-~x86 ~ppc ~amd64
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=media-libs/taglib sys-libs/zlib app-arch/unzip
+DESCRIPTION=iRipDB allows generating the DB files necessary for the iRiver iHP-1xx series of MP3/Ogg HD Player on Linux and Windows.
+EAPI=0
+HOMEPAGE=http://www.fataltourist.com/iripdb/
+KEYWORDS=~x86 ~ppc ~amd64
+LICENSE=GPL-2
+RDEPEND=media-libs/taglib sys-libs/zlib
+SLOT=0
+SRC_URI=http://www.fataltourist.com/iripdb/iRipDB-0.1.3b.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

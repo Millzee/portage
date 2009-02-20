@@ -1,22 +1,12 @@
-dev-python/pygame media-libs/sdl-image[png] media-libs/sdl-mixer[mikmod]
-dev-python/pygame media-libs/sdl-image[png] media-libs/sdl-mixer[mikmod]
-0
-http://sam.zoy.org/projects/monsterz/monsterz-0.7.1.tar.gz
-
-http://sam.zoy.org/projects/monsterz/
-public-domain
-a little puzzle game, similar to the famous Bejeweled or Zookeeper
-amd64 hppa ppc sparc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-2
-
-compile configure install postinst preinst prepare setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEPEND=dev-python/pygame media-libs/sdl-image[png] media-libs/sdl-mixer[mikmod]
+DESCRIPTION=a little puzzle game, similar to the famous Bejeweled or Zookeeper
+EAPI=2
+HOMEPAGE=http://sam.zoy.org/projects/monsterz/
+KEYWORDS=amd64 hppa ppc sparc x86
+LICENSE=public-domain
+RDEPEND=dev-python/pygame media-libs/sdl-image[png] media-libs/sdl-mixer[mikmod]
+SLOT=0
+SRC_URI=http://sam.zoy.org/projects/monsterz/monsterz-0.7.1.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

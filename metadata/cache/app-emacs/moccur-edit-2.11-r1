@@ -1,22 +1,12 @@
-app-emacs/color-moccur >=virtual/emacs-21
-app-emacs/color-moccur >=virtual/emacs-21
-0
-mirror://gentoo/moccur-edit-2.11.el.bz2
-
-http://www.bookshelf.jp/ http://www.emacswiki.org/cgi-bin/wiki/SearchBuffers
-GPL-3
-An improved interface to color-moccur for editing
-~amd64 ~x86
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=app-emacs/color-moccur >=virtual/emacs-21
+DESCRIPTION=An improved interface to color-moccur for editing
+EAPI=0
+HOMEPAGE=http://www.bookshelf.jp/ http://www.emacswiki.org/cgi-bin/wiki/SearchBuffers
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=app-emacs/color-moccur >=virtual/emacs-21
+SLOT=0
+SRC_URI=mirror://gentoo/moccur-edit-2.11.el.bz2
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

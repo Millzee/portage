@@ -1,22 +1,12 @@
-dev-lang/perl >=app-text/docbook2X-0.8.8-r2
-dev-lang/perl
-0
-http://ftp.de.debian.org/debian/pool/main/m/moreutils/moreutils_0.30.tar.gz
-
-http://kitenet.net/~joey/code/moreutils/
-GPL-2
-a growing collection of the unix tools that nobody thought to write thirty years ago
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=dev-lang/perl >=app-text/docbook2X-0.8.8-r2
+DESCRIPTION=a growing collection of the unix tools that nobody thought to write thirty years ago
+EAPI=0
+HOMEPAGE=http://kitenet.net/~joey/code/moreutils/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl
+SLOT=0
+SRC_URI=http://ftp.de.debian.org/debian/pool/main/m/moreutils/moreutils_0.30.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082899

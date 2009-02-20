@@ -1,22 +1,12 @@
->=dev-lang/erlang-12.2.0 >=media-libs/esdl-0.96.0626
->=dev-lang/erlang-12.2.0 >=media-libs/esdl-0.96.0626
-0
-mirror://sourceforge/wings/wings-0.99.03.tar.bz2
-
-http://www.wings3d.com/
-BSD
-excellent 3D polygon mesh modeler
-~alpha ~amd64 ppc ~ppc64 x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=>=dev-lang/erlang-12.2.0 >=media-libs/esdl-0.96.0626
+DESCRIPTION=excellent 3D polygon mesh modeler
+EAPI=0
+HOMEPAGE=http://www.wings3d.com/
+KEYWORDS=~alpha ~amd64 ppc ~ppc64 x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/erlang-12.2.0 >=media-libs/esdl-0.96.0626
+SLOT=0
+SRC_URI=mirror://sourceforge/wings/wings-0.99.03.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

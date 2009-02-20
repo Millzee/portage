@@ -1,22 +1,13 @@
-x11-libs/libXt jpeg? ( >=media-libs/jpeg-6b ) tiff? ( >=media-libs/tiff-3.6.1-r2 ) png? ( >=media-libs/libpng-1.2 >=sys-libs/zlib-1.1.4 )
-x11-libs/libXt jpeg? ( >=media-libs/jpeg-6b ) tiff? ( >=media-libs/tiff-3.6.1-r2 ) png? ( >=media-libs/libpng-1.2 >=sys-libs/zlib-1.1.4 )
-0
-mirror://sourceforge/png-mng/xv-3.10a-jumbo-patches-20070520.tar.gz ftp://ftp.cis.upenn.edu/pub/xv/xv-3.10a.tar.gz
-
-http://www.trilon.com/xv/index.html http://www.sonic.net/~roelofs/greg_xv.html
-xv
-An interactive image manipulation program that supports a wide variety of image formats
-alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils flag-o-matic
-jpeg tiff png
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/libXt jpeg? ( >=media-libs/jpeg-6b ) tiff? ( >=media-libs/tiff-3.6.1-r2 ) png? ( >=media-libs/libpng-1.2 >=sys-libs/zlib-1.1.4 )
+DESCRIPTION=An interactive image manipulation program that supports a wide variety of image formats
+EAPI=0
+HOMEPAGE=http://www.trilon.com/xv/index.html http://www.sonic.net/~roelofs/greg_xv.html
+IUSE=jpeg tiff png
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd
+LICENSE=xv
+RDEPEND=x11-libs/libXt jpeg? ( >=media-libs/jpeg-6b ) tiff? ( >=media-libs/tiff-3.6.1-r2 ) png? ( >=media-libs/libpng-1.2 >=sys-libs/zlib-1.1.4 )
+SLOT=0
+SRC_URI=mirror://sourceforge/png-mng/xv-3.10a-jumbo-patches-20070520.tar.gz ftp://ftp.cis.upenn.edu/pub/xv/xv-3.10a.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

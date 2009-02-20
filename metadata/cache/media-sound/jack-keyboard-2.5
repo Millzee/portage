@@ -1,22 +1,12 @@
->=media-sound/jack-audio-connection-kit-0.103 >=x11-libs/gtk+-2.12:2 >=dev-libs/glib-2.2:2 lash? ( media-sound/lash ) X? ( x11-libs/libX11 ) dev-util/pkgconfig sys-apps/sed
->=media-sound/jack-audio-connection-kit-0.103 >=x11-libs/gtk+-2.12:2 >=dev-libs/glib-2.2:2 lash? ( media-sound/lash ) X? ( x11-libs/libX11 )
-0
-http://pin.if.uz.zgora.pl/~trasz/jack-keyboard/jack-keyboard-2.5.tar.gz
-
-http://pin.if.uz.zgora.pl/~trasz/jack-keyboard/
-public-domain
-A virtual MIDI keyboard for JACK MIDI
-~amd64 ~x86
-
-lash X
-
-
-
-1
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=media-sound/jack-audio-connection-kit-0.103 >=x11-libs/gtk+-2.12:2 >=dev-libs/glib-2.2:2 lash? ( media-sound/lash ) X? ( x11-libs/libX11 ) dev-util/pkgconfig sys-apps/sed
+DESCRIPTION=A virtual MIDI keyboard for JACK MIDI
+EAPI=1
+HOMEPAGE=http://pin.if.uz.zgora.pl/~trasz/jack-keyboard/
+IUSE=lash X
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=media-sound/jack-audio-connection-kit-0.103 >=x11-libs/gtk+-2.12:2 >=dev-libs/glib-2.2:2 lash? ( media-sound/lash ) X? ( x11-libs/libX11 )
+SLOT=0
+SRC_URI=http://pin.if.uz.zgora.pl/~trasz/jack-keyboard/jack-keyboard-2.5.tar.gz
+_mtime_=1235082869

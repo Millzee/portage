@@ -1,22 +1,13 @@
-!net-proxy/sshproxy gtk? ( =x11-libs/gtk+-1.2* ) dev-lang/perl
-!net-proxy/sshproxy gtk? ( =x11-libs/gtk+-1.2* )
-0
-http://the.earth.li/~sgtatham/putty/0.60/putty-0.60.tar.gz
-
-http://www.chiark.greenend.org.uk/~sgtatham/putty/
-MIT
-UNIX port of the famous Telnet and SSH client
-alpha amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils flag-o-matic
-doc gtk ipv6
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=!net-proxy/sshproxy gtk? ( =x11-libs/gtk+-1.2* ) dev-lang/perl
+DESCRIPTION=UNIX port of the famous Telnet and SSH client
+EAPI=0
+HOMEPAGE=http://www.chiark.greenend.org.uk/~sgtatham/putty/
+IUSE=doc gtk ipv6
+KEYWORDS=alpha amd64 ppc sparc x86
+LICENSE=MIT
+RDEPEND=!net-proxy/sshproxy gtk? ( =x11-libs/gtk+-1.2* )
+SLOT=0
+SRC_URI=http://the.earth.li/~sgtatham/putty/0.60/putty-0.60.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082895

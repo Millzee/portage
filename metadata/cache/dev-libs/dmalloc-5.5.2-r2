@@ -1,22 +1,12 @@
-=sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-
-0
-http://dmalloc.com/releases/dmalloc-5.5.2.tgz
-
-http://dmalloc.com
-CCPL-Attribution-ShareAlike-3.0
-A Debug Malloc Library
-alpha amd64 ia64 ppc ppc64 sparc x86
-toolchain-funcs portability multilib libtool autotools eutils
-threads
-
-
-
-0
-
-compile install test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install test unpack
+DEPEND==sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A Debug Malloc Library
+EAPI=0
+HOMEPAGE=http://dmalloc.com
+IUSE=threads
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+LICENSE=CCPL-Attribution-ShareAlike-3.0
+SLOT=0
+SRC_URI=http://dmalloc.com/releases/dmalloc-5.5.2.tgz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

@@ -1,22 +1,13 @@
->=virtual/emacs-21
->=virtual/emacs-21
-0
-http://www.yatex.org/yatex1.72.tar.gz
-
-http://www.yatex.org/
-as-is
-Yet Another TeX mode for Emacs
-alpha ~amd64 ppc ~ppc64 sparc x86
-toolchain-funcs elisp-common portability elisp versionator multilib eutils
-cjk
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-21
+DESCRIPTION=Yet Another TeX mode for Emacs
+EAPI=0
+HOMEPAGE=http://www.yatex.org/
+IUSE=cjk
+KEYWORDS=alpha ~amd64 ppc ~ppc64 sparc x86
+LICENSE=as-is
+RDEPEND=>=virtual/emacs-21
+SLOT=0
+SRC_URI=http://www.yatex.org/yatex1.72.tar.gz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082848

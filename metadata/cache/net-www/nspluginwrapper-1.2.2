@@ -1,22 +1,12 @@
->=x11-libs/gtk+-2 net-misc/curl app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-gtklibs || ( >=sys-apps/util-linux-2.13 sys-apps/setarch ) dev-util/pkgconfig
->=x11-libs/gtk+-2 net-misc/curl app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-gtklibs || ( >=sys-apps/util-linux-2.13 sys-apps/setarch )
-0
-http://www.gibix.net/projects/nspluginwrapper/files/nspluginwrapper-1.2.2.tar.bz2
-
-http://www.gibix.net/projects/nspluginwrapper/
-GPL-2
-Netscape Plugin Wrapper - Load 32bit plugins on 64bit browser
-~amd64
-toolchain-funcs nsplugins multilib portability eutils
-
-
-
-
-0
-
-compile install postinst postrm prerm
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm prerm
+DEPEND=>=x11-libs/gtk+-2 net-misc/curl app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-gtklibs || ( >=sys-apps/util-linux-2.13 sys-apps/setarch ) dev-util/pkgconfig
+DESCRIPTION=Netscape Plugin Wrapper - Load 32bit plugins on 64bit browser
+EAPI=0
+HOMEPAGE=http://www.gibix.net/projects/nspluginwrapper/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2 net-misc/curl app-emulation/emul-linux-x86-xlibs app-emulation/emul-linux-x86-gtklibs || ( >=sys-apps/util-linux-2.13 sys-apps/setarch )
+SLOT=0
+SRC_URI=http://www.gibix.net/projects/nspluginwrapper/files/nspluginwrapper-1.2.2.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	nsplugins	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082896

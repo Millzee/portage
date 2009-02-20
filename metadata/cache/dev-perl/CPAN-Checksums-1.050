@@ -1,22 +1,12 @@
-dev-perl/Data-Compare virtual/perl-Compress-Zlib dev-perl/Compress-Bzip2 virtual/perl-Digest-SHA virtual/perl-File-Temp virtual/perl-Digest-MD5 dev-lang/perl
-dev-perl/Data-Compare virtual/perl-Compress-Zlib dev-perl/Compress-Bzip2 virtual/perl-Digest-SHA virtual/perl-File-Temp virtual/perl-Digest-MD5 dev-lang/perl
-0
-mirror://cpan/authors/id/A/AN/ANDK/CPAN-Checksums-1.050.tar.gz
-
-http://search.cpan.org/~andk/
-Artistic
-Write a CHECKSUMS file for a directory as on CPAN
-amd64 ia64 sparc x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-perl/Data-Compare virtual/perl-Compress-Zlib dev-perl/Compress-Bzip2 virtual/perl-Digest-SHA virtual/perl-File-Temp virtual/perl-Digest-MD5 dev-lang/perl
+DESCRIPTION=Write a CHECKSUMS file for a directory as on CPAN
+EAPI=0
+HOMEPAGE=http://search.cpan.org/~andk/
+KEYWORDS=amd64 ia64 sparc x86
+LICENSE=Artistic
+RDEPEND=dev-perl/Data-Compare virtual/perl-Compress-Zlib dev-perl/Compress-Bzip2 virtual/perl-Digest-SHA virtual/perl-File-Temp virtual/perl-Digest-MD5 dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AN/ANDK/CPAN-Checksums-1.050.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

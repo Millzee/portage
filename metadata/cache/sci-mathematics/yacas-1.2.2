@@ -1,22 +1,13 @@
-java? ( >=virtual/jdk-1.6 ) java? ( >=dev-java/java-config-2.1.6 )
-java? ( >=virtual/jre-1.6 ) java? ( >=dev-java/java-config-2.1.6 )
-0
-http://yacas.sourceforge.net/backups/yacas-1.2.2.tar.gz
-
-http://yacas.sourceforge.net/
-GPL-2
-Powerful general purpose computer algebra system
-amd64 ppc x86
-toolchain-funcs portability java-utils-2 versionator multilib java-pkg-opt-2 eutils
-doc java server elibc_FreeBSD java
-
-
-
-
-
-compile install setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=java? ( >=virtual/jdk-1.6 ) java? ( >=dev-java/java-config-2.1.6 )
+DESCRIPTION=Powerful general purpose computer algebra system
+EAPI=0
+HOMEPAGE=http://yacas.sourceforge.net/
+IUSE=doc java server elibc_FreeBSD java
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=java? ( >=virtual/jre-1.6 ) java? ( >=dev-java/java-config-2.1.6 )
+SLOT=0
+SRC_URI=http://yacas.sourceforge.net/backups/yacas-1.2.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-opt-2	/home/Funtoo/portage/eclass	1235083217	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

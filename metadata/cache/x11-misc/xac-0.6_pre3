@@ -1,22 +1,13 @@
->=dev-lang/python-2.3 sys-apps/pciutils
->=dev-lang/python-2.3 x11-base/xorg-server
-0
-mirror://gentoo/xac-0.6_pre3.tar.bz2
-
-http://dev.gentoo.org/~josejx/xac.html
-GPL-2
-Xorgautoconfig (xac) generates configuration files for X.org
-ppc ppc64 ~x86
-toolchain-funcs multilib
-livecd
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/python-2.3 sys-apps/pciutils
+DESCRIPTION=Xorgautoconfig (xac) generates configuration files for X.org
+EAPI=0
+HOMEPAGE=http://dev.gentoo.org/~josejx/xac.html
+IUSE=livecd
+KEYWORDS=ppc ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/python-2.3 x11-base/xorg-server
+SLOT=0
+SRC_URI=mirror://gentoo/xac-0.6_pre3.tar.bz2
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

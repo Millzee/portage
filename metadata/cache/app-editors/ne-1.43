@@ -1,22 +1,12 @@
->=sys-libs/ncurses-5.2 dev-lang/perl
->=sys-libs/ncurses-5.2
-0
-http://ne.dsi.unimi.it/ne-1.43.tar.gz
-
-http://ne.dsi.unimi.it/
-GPL-2
-the nice editor, easy to use for the beginner and powerful for the wizard
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs multilib
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-libs/ncurses-5.2 dev-lang/perl
+DESCRIPTION=the nice editor, easy to use for the beginner and powerful for the wizard
+EAPI=0
+HOMEPAGE=http://ne.dsi.unimi.it/
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sys-libs/ncurses-5.2
+SLOT=0
+SRC_URI=http://ne.dsi.unimi.it/ne-1.43.tar.gz
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082847

@@ -1,22 +1,14 @@
-dev-lang/perl dev-perl/gtk2-perl >=media-video/lsdvd-0.10 media-video/mplayer encode? ( >=media-sound/lame-3.92 )
-dev-lang/perl dev-perl/gtk2-perl >=media-video/lsdvd-0.10 media-video/mplayer encode? ( >=media-sound/lame-3.92 )
-0
-mirror://gentoo/acidrip-0.14.tar.gz
-mirror
-http://untrepid.com/acidrip/
-GPL-2
-A gtk-perl mplayer/mencoder frontend for ripping DVDs
-amd64 ~ppc x86
-toolchain-funcs perl-app portability multilib base eutils perl-module
-encode
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-lang/perl dev-perl/gtk2-perl >=media-video/lsdvd-0.10 media-video/mplayer encode? ( >=media-sound/lame-3.92 )
+DESCRIPTION=A gtk-perl mplayer/mencoder frontend for ripping DVDs
+EAPI=0
+HOMEPAGE=http://untrepid.com/acidrip/
+IUSE=encode
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl dev-perl/gtk2-perl >=media-video/lsdvd-0.10 media-video/mplayer encode? ( >=media-sound/lame-3.92 )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://gentoo/acidrip-0.14.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-app	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082869

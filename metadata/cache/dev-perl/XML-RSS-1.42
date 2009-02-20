@@ -1,22 +1,13 @@
-dev-perl/HTML-Parser dev-perl/DateTime-Format-Mail dev-perl/DateTime-Format-W3CDTF >=dev-perl/XML-Parser-2.30 dev-lang/perl virtual/perl-Module-Build test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage >=dev-perl/Test-Manifest-0.9 )
-dev-perl/HTML-Parser dev-perl/DateTime-Format-Mail dev-perl/DateTime-Format-W3CDTF >=dev-perl/XML-Parser-2.30 dev-lang/perl
-0
-mirror://cpan/authors/id/S/SH/SHLOMIF//XML-RSS-1.42.tar.gz
-
-http://perl-rss.sourceforge.net/
-|| ( Artistic GPL-2 )
-a basic framework for creating and maintaining RSS files
-~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability multilib base eutils perl-module
-test
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=dev-perl/HTML-Parser dev-perl/DateTime-Format-Mail dev-perl/DateTime-Format-W3CDTF >=dev-perl/XML-Parser-2.30 dev-lang/perl virtual/perl-Module-Build test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage >=dev-perl/Test-Manifest-0.9 )
+DESCRIPTION=a basic framework for creating and maintaining RSS files
+EAPI=0
+HOMEPAGE=http://perl-rss.sourceforge.net/
+IUSE=test
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=dev-perl/HTML-Parser dev-perl/DateTime-Format-Mail dev-perl/DateTime-Format-W3CDTF >=dev-perl/XML-Parser-2.30 dev-lang/perl
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SH/SHLOMIF//XML-RSS-1.42.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082856

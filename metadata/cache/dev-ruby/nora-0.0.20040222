@@ -1,22 +1,12 @@
-virtual/ruby
-virtual/ruby
-0
-http://www.moonwolf.com/ruby/archive/nora-0.0.20040222.tar.gz
-
-http://raa.ruby-lang.org/list.rhtml?name=nora
-Ruby
-Nora - ruby libraries for web application library
-x86
-ruby toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/ruby
+DESCRIPTION=Nora - ruby libraries for web application library
+EAPI=0
+HOMEPAGE=http://raa.ruby-lang.org/list.rhtml?name=nora
+KEYWORDS=x86
+LICENSE=Ruby
+RDEPEND=virtual/ruby
+SLOT=0
+SRC_URI=http://www.moonwolf.com/ruby/archive/nora-0.0.20040222.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

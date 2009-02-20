@@ -1,22 +1,13 @@
->=sys-devel/gcc-2.95 dev-libs/libxslt sys-libs/zlib =www-servers/apache-2* >=app-admin/webapp-config-1.50.15
-=www-servers/apache-2* >=app-admin/webapp-config-1.50.15
-2.1
-mirror://sourceforge/lurker/lurker-2.1.tar.gz mirror://sourceforge/lurker/mimelib-3.1.1.tar.gz
-
-http://lurker.sourceforge.net/
-GPL-2
-An e-mail list archive utility with an extensive web interface and multi-language support
-~ppc ~x86
-toolchain-funcs portability multilib webapp depend.apache eutils
-vhosts
-
-
-
-0
-
-compile install postinst prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst prerm setup unpack
+DEPEND=>=sys-devel/gcc-2.95 dev-libs/libxslt sys-libs/zlib =www-servers/apache-2* >=app-admin/webapp-config-1.50.15
+DESCRIPTION=An e-mail list archive utility with an extensive web interface and multi-language support
+EAPI=0
+HOMEPAGE=http://lurker.sourceforge.net/
+IUSE=vhosts
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND==www-servers/apache-2* >=app-admin/webapp-config-1.50.15
+SLOT=2.1
+SRC_URI=mirror://sourceforge/lurker/lurker-2.1.tar.gz mirror://sourceforge/lurker/mimelib-3.1.1.tar.gz
+_eclasses_=depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	webapp	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

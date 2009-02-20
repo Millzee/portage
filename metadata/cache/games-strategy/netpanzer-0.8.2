@@ -1,22 +1,13 @@
-dedicated? ( app-misc/screen ) media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image dev-games/physfs dev-util/ftjam
-dedicated? ( app-misc/screen ) media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image dev-games/physfs
-0
-mirror://berlios/netpanzer/netpanzer-0.8.2.tar.bz2 mirror://berlios/netpanzer/netpanzer-data-0.8.tar.bz2
-
-http://netpanzer.berlios.de/
-GPL-2
-Fast-action multiplayer strategic network game
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs portability multilib base games eutils
-dedicated
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=dedicated? ( app-misc/screen ) media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image dev-games/physfs dev-util/ftjam
+DESCRIPTION=Fast-action multiplayer strategic network game
+EAPI=0
+HOMEPAGE=http://netpanzer.berlios.de/
+IUSE=dedicated
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=dedicated? ( app-misc/screen ) media-libs/libsdl media-libs/sdl-mixer media-libs/sdl-image dev-games/physfs
+SLOT=0
+SRC_URI=mirror://berlios/netpanzer/netpanzer-0.8.2.tar.bz2 mirror://berlios/netpanzer/netpanzer-data-0.8.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082861

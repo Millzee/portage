@@ -1,22 +1,13 @@
-virtual/libc dev-libs/ffcall emacs? ( virtual/emacs )
-virtual/libc dev-libs/ffcall emacs? ( virtual/emacs )
-0
-ftp://ftp.gnu.org/pub/gnu/gforth/gforth-0.7.0.tar.gz
-
-http://www.gnu.org/software/gforth
-GPL-3
-GNU Forth is a fast and portable implementation of the ANSI Forth language
-~amd64 ~ppc ~x86 ~x86-fbsd
-toolchain-funcs elisp-common portability flag-o-matic multilib eutils
-emacs
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=virtual/libc dev-libs/ffcall emacs? ( virtual/emacs )
+DESCRIPTION=GNU Forth is a fast and portable implementation of the ANSI Forth language
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/gforth
+IUSE=emacs
+KEYWORDS=~amd64 ~ppc ~x86 ~x86-fbsd
+LICENSE=GPL-3
+RDEPEND=virtual/libc dev-libs/ffcall emacs? ( virtual/emacs )
+SLOT=0
+SRC_URI=ftp://ftp.gnu.org/pub/gnu/gforth/gforth-0.7.0.tar.gz
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082853

@@ -1,22 +1,13 @@
-virtual/opengl virtual/glu media-libs/libsdl media-libs/openal media-libs/freealut media-libs/libogg media-libs/libvorbis media-libs/jpeg dev-util/cmake
-virtual/opengl virtual/glu media-libs/libsdl media-libs/openal media-libs/freealut media-libs/libogg media-libs/libvorbis media-libs/jpeg
-0
-mirror://sourceforge/openastromenace/openamenace-src-1.2.0.tar.bz2 mirror://sourceforge/openastromenace/oamenace-data-1.2.0.tar.bz2 mirror://sourceforge/openastromenace/oamenace-lang-en-1.2.0.tar.bz2 linguas_de? ( mirror://sourceforge/openastromenace/oamenace-lang-de-1.2.0.tar.bz2 ) linguas_ru? ( mirror://sourceforge/openastromenace/oamenace-lang-ru-1.2.0.tar.bz2 ) mirror://gentoo/openastromenace.png
-
-http://sourceforge.net/projects/openastromenace/
-GPL-3
-Modern 3D space shooter with spaceship upgrade possibilities
-~amd64 ~x86
-toolchain-funcs portability multilib base games eutils
-linguas_de linguas_ru
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/openal media-libs/freealut media-libs/libogg media-libs/libvorbis media-libs/jpeg dev-util/cmake
+DESCRIPTION=Modern 3D space shooter with spaceship upgrade possibilities
+EAPI=0
+HOMEPAGE=http://sourceforge.net/projects/openastromenace/
+IUSE=linguas_de linguas_ru
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/openal media-libs/freealut media-libs/libogg media-libs/libvorbis media-libs/jpeg
+SLOT=0
+SRC_URI=mirror://sourceforge/openastromenace/openamenace-src-1.2.0.tar.bz2 mirror://sourceforge/openastromenace/oamenace-data-1.2.0.tar.bz2 mirror://sourceforge/openastromenace/oamenace-lang-en-1.2.0.tar.bz2 linguas_de? ( mirror://sourceforge/openastromenace/oamenace-lang-de-1.2.0.tar.bz2 ) linguas_ru? ( mirror://sourceforge/openastromenace/oamenace-lang-ru-1.2.0.tar.bz2 ) mirror://gentoo/openastromenace.png
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082859

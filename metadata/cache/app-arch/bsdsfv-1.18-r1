@@ -1,22 +1,10 @@
-
-
-0
-mirror://sourceforge/bsdsfv/bsdsfv-1.18.tar.gz
-
-http://bsdsfv.sourceforge.net/
-BSD
-all-in-one SFV checksum utility
-amd64 arm ~hppa m68k ppc s390 sh sparc x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=all-in-one SFV checksum utility
+EAPI=0
+HOMEPAGE=http://bsdsfv.sourceforge.net/
+KEYWORDS=amd64 arm ~hppa m68k ppc s390 sh sparc x86 ~x86-fbsd
+LICENSE=BSD
+SLOT=0
+SRC_URI=mirror://sourceforge/bsdsfv/bsdsfv-1.18.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082846

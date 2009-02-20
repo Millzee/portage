@@ -1,22 +1,13 @@
->=dev-libs/glib-2.6 >=dev-libs/libcroco-0.6 >=x11-libs/gtk+-2.6 >=x11-libs/pango-1.14 python? ( dev-lang/python dev-python/pycairo dev-python/pygtk ) dev-util/pkgconfig doc? ( >=dev-util/gtk-doc-1.6 ) >=sys-apps/sed-4
->=dev-libs/glib-2.6 >=dev-libs/libcroco-0.6 >=x11-libs/gtk+-2.6 >=x11-libs/pango-1.14 python? ( dev-lang/python dev-python/pycairo dev-python/pygtk )
-0
-mirror://gnome/sources/hippo-canvas/0.2/hippo-canvas-0.2.31.tar.bz2
-
-http://developer.mugshot.org/wiki/Hippo_Canvas
-LGPL-2
-A canvas library based on GTK+-2, Cairo, and Pango
-~amd64 ~x86
-gnome.org fdo-mime gnome2 gnome2-utils libtool
-doc python
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=dev-libs/glib-2.6 >=dev-libs/libcroco-0.6 >=x11-libs/gtk+-2.6 >=x11-libs/pango-1.14 python? ( dev-lang/python dev-python/pycairo dev-python/pygtk ) dev-util/pkgconfig doc? ( >=dev-util/gtk-doc-1.6 ) >=sys-apps/sed-4
+DESCRIPTION=A canvas library based on GTK+-2, Cairo, and Pango
+EAPI=0
+HOMEPAGE=http://developer.mugshot.org/wiki/Hippo_Canvas
+IUSE=doc python
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2
+RDEPEND=>=dev-libs/glib-2.6 >=dev-libs/libcroco-0.6 >=x11-libs/gtk+-2.6 >=x11-libs/pango-1.14 python? ( dev-lang/python dev-python/pycairo dev-python/pygtk )
+SLOT=0
+SRC_URI=mirror://gnome/sources/hippo-canvas/0.2/hippo-canvas-0.2.31.tar.bz2
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082909

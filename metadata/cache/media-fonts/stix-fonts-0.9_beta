@@ -1,22 +1,13 @@
-app-arch/unzip X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
-
-0
-mirror://gentoo/STIXBeta.zip
-strip binchecks
-http://www.stixfonts.org/
-stixbeta
-Comprehensive OpenType font set of mathematical symbols and alphabets
-~amd64 ~x86
-toolchain-funcs font multilib portability eutils
-X
-
-
-
-0
-
-install postinst postrm setup
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm setup
+DEPEND=app-arch/unzip X? ( x11-apps/mkfontdir media-fonts/encodings ) media-libs/fontconfig
+DESCRIPTION=Comprehensive OpenType font set of mathematical symbols and alphabets
+EAPI=0
+HOMEPAGE=http://www.stixfonts.org/
+IUSE=X
+KEYWORDS=~amd64 ~x86
+LICENSE=stixbeta
+RESTRICT=strip binchecks
+SLOT=0
+SRC_URI=mirror://gentoo/STIXBeta.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	font	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082866

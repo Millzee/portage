@@ -1,22 +1,13 @@
-pam? ( sys-libs/pam )
-pam? ( sys-libs/pam )
-0
-http://cthulhu.c3d2.de/~toidinamai/vlock/archive/vlock-2.2.2.tar.gz
-
-http://cthulhu.c3d2.de/~toidinamai/vlock/vlock.html
-GPL-2
-A console screen locker
-~alpha amd64 ~ia64 ~mips ppc ~ppc64 ~sparc ~x86
-portability toolchain-funcs multilib pam eutils
-pam
-
-
-
-0
-
-compile install setup
-
-
-
-
-
+DEFINED_PHASES=compile install setup
+DEPEND=pam? ( sys-libs/pam )
+DESCRIPTION=A console screen locker
+EAPI=0
+HOMEPAGE=http://cthulhu.c3d2.de/~toidinamai/vlock/vlock.html
+IUSE=pam
+KEYWORDS=~alpha amd64 ~ia64 ~mips ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=pam? ( sys-libs/pam )
+SLOT=0
+SRC_URI=http://cthulhu.c3d2.de/~toidinamai/vlock/archive/vlock-2.2.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pam	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

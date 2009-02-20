@@ -1,22 +1,13 @@
-=x11-libs/fox-1.6* >=x11-libs/fxscintilla-1.62-r1 virtual/ruby
-=x11-libs/fox-1.6* >=x11-libs/fxscintilla-1.62-r1 virtual/ruby
-1.6
-http://rubyforge.org/frs/download.php/27718/FXRuby-1.6.13.tar.gz
-
-http://www.fxruby.org/
-LGPL-2.1
-Ruby language binding to the FOX GUI toolkit
-alpha amd64 hppa ppc ppc64 sparc x86
-ruby toolchain-funcs multilib portability eutils
-examples doc
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND==x11-libs/fox-1.6* >=x11-libs/fxscintilla-1.62-r1 virtual/ruby
+DESCRIPTION=Ruby language binding to the FOX GUI toolkit
+EAPI=0
+HOMEPAGE=http://www.fxruby.org/
+IUSE=examples doc
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86
+LICENSE=LGPL-2.1
+RDEPEND==x11-libs/fox-1.6* >=x11-libs/fxscintilla-1.62-r1 virtual/ruby
+SLOT=1.6
+SRC_URI=http://rubyforge.org/frs/download.php/27718/FXRuby-1.6.13.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	ruby	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082858

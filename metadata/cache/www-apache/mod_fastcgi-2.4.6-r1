@@ -1,22 +1,12 @@
-=www-servers/apache-2*
-=www-servers/apache-2*
-0
-http://www.fastcgi.com/dist/mod_fastcgi-2.4.6.tar.gz
-
-http://fastcgi.com/
-FastCGI
-FastCGI is a open extension to CGI without the limitations of server specific APIs.
-amd64 x86
-apache-module toolchain-funcs portability multilib depend.apache eutils
-
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND==www-servers/apache-2*
+DESCRIPTION=FastCGI is a open extension to CGI without the limitations of server specific APIs.
+EAPI=0
+HOMEPAGE=http://fastcgi.com/
+KEYWORDS=amd64 x86
+LICENSE=FastCGI
+RDEPEND==www-servers/apache-2*
+SLOT=0
+SRC_URI=http://www.fastcgi.com/dist/mod_fastcgi-2.4.6.tar.gz
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082908

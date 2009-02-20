@@ -1,22 +1,12 @@
-net-libs/libnetfilter_conntrack net-libs/libnetfilter_queue
-net-misc/l7-protocols net-libs/libnetfilter_conntrack net-libs/libnetfilter_queue
-0
-mirror://sourceforge/l7-filter/l7-filter-userspace-0.10.tar.gz
-
-http://l7-filter.sourceforge.net
-GPL-2
-Userspace utilities for layer 7 iptables QoS
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-install unpack
-
-
-
-
-
+DEFINED_PHASES=install unpack
+DEPEND=net-libs/libnetfilter_conntrack net-libs/libnetfilter_queue
+DESCRIPTION=Userspace utilities for layer 7 iptables QoS
+EAPI=0
+HOMEPAGE=http://l7-filter.sourceforge.net
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-misc/l7-protocols net-libs/libnetfilter_conntrack net-libs/libnetfilter_queue
+SLOT=0
+SRC_URI=mirror://sourceforge/l7-filter/l7-filter-userspace-0.10.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082894

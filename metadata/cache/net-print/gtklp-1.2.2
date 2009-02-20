@@ -1,22 +1,12 @@
->=x11-libs/gtk+-2 >=net-print/cups-1.1.12 nls? ( sys-devel/gettext ) ssl? ( dev-libs/openssl )
->=x11-libs/gtk+-2 >=net-print/cups-1.1.12 nls? ( sys-devel/gettext ) ssl? ( dev-libs/openssl )
-0
-mirror://sourceforge/gtklp/gtklp-1.2.2.src.tar.gz
-
-http://gtklp.sourceforge.net
-GPL-2
-A GUI for cupsd
-amd64 ppc ~sparc x86
-
-nls ssl
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=>=x11-libs/gtk+-2 >=net-print/cups-1.1.12 nls? ( sys-devel/gettext ) ssl? ( dev-libs/openssl )
+DESCRIPTION=A GUI for cupsd
+EAPI=0
+HOMEPAGE=http://gtklp.sourceforge.net
+IUSE=nls ssl
+KEYWORDS=amd64 ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2 >=net-print/cups-1.1.12 nls? ( sys-devel/gettext ) ssl? ( dev-libs/openssl )
+SLOT=0
+SRC_URI=mirror://sourceforge/gtklp/gtklp-1.2.2.src.tar.gz
+_mtime_=1235082895

@@ -1,22 +1,13 @@
-|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 x11-libs/qt-svg:4 ) x11-libs/qt:4[opengl] ) dev-libs/libpcre virtual/lapack virtual/opengl ncurses? ( >=sys-libs/ncurses-5.4 ) umfpack? ( sci-libs/umfpack ) arpack? ( sci-libs/arpack ) fftw? ( sci-libs/fftw:3.0 ) portaudio? ( media-libs/portaudio ) ffcall? ( dev-libs/ffcall ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 x11-libs/qt-svg:4 ) x11-libs/qt:4[opengl] ) dev-libs/libpcre virtual/lapack virtual/opengl ncurses? ( >=sys-libs/ncurses-5.4 ) umfpack? ( sci-libs/umfpack ) arpack? ( sci-libs/arpack ) fftw? ( sci-libs/fftw:3.0 ) portaudio? ( media-libs/portaudio ) ffcall? ( dev-libs/ffcall )
-0
-mirror://sourceforge/freemat/FreeMat-3.6.tar.gz
-
-http://freemat.sourceforge.net/
-GPL-2
-Environment for rapid engineering and scientific processing
-~amd64 ~x86
-toolchain-funcs portability multilib libtool fdo-mime autotools eutils
-+arpack ffcall +fftw ncurses portaudio +umfpack
-
-
-
-2
-
-configure install postinst postrm prepare
-
-
-
-
-
+DEFINED_PHASES=configure install postinst postrm prepare
+DEPEND=|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 x11-libs/qt-svg:4 ) x11-libs/qt:4[opengl] ) dev-libs/libpcre virtual/lapack virtual/opengl ncurses? ( >=sys-libs/ncurses-5.4 ) umfpack? ( sci-libs/umfpack ) arpack? ( sci-libs/arpack ) fftw? ( sci-libs/fftw:3.0 ) portaudio? ( media-libs/portaudio ) ffcall? ( dev-libs/ffcall ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Environment for rapid engineering and scientific processing
+EAPI=2
+HOMEPAGE=http://freemat.sourceforge.net/
+IUSE=+arpack ffcall +fftw ncurses portaudio +umfpack
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( ( x11-libs/qt-gui:4 x11-libs/qt-opengl:4 x11-libs/qt-svg:4 ) x11-libs/qt:4[opengl] ) dev-libs/libpcre virtual/lapack virtual/opengl ncurses? ( >=sys-libs/ncurses-5.4 ) umfpack? ( sci-libs/umfpack ) arpack? ( sci-libs/arpack ) fftw? ( sci-libs/fftw:3.0 ) portaudio? ( media-libs/portaudio ) ffcall? ( dev-libs/ffcall )
+SLOT=0
+SRC_URI=mirror://sourceforge/freemat/FreeMat-3.6.tar.gz
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082898

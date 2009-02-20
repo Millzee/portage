@@ -1,22 +1,13 @@
-media-libs/libpng X? ( x11-libs/libXaw x11-proto/xextproto )
-media-libs/libpng X? ( x11-libs/libXaw x11-proto/xextproto )
-0
-mirror://gnu/plotutils/plotutils-2.5.tar.gz
-
-http://www.gnu.org/software/plotutils/
-GPL-2
-a powerful C/C++ function library for exporting 2-D vector graphics
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic multilib libtool eutils
-X
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=media-libs/libpng X? ( x11-libs/libXaw x11-proto/xextproto )
+DESCRIPTION=a powerful C/C++ function library for exporting 2-D vector graphics
+EAPI=0
+HOMEPAGE=http://www.gnu.org/software/plotutils/
+IUSE=X
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=media-libs/libpng X? ( x11-libs/libXaw x11-proto/xextproto )
+SLOT=0
+SRC_URI=mirror://gnu/plotutils/plotutils-2.5.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

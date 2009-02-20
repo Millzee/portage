@@ -1,22 +1,12 @@
-sys-devel/autoconf
-virtual/opengl virtual/glut
-0
-http://plib.sourceforge.net/dist/plib-1.6.0.tar.gz
-
-http://plib.sourceforge.net/
-LGPL-2
-multimedia library used by many games
-x86 ppc sparc amd64 alpha hppa
-toolchain-funcs multilib portability eutils flag-o-matic
-
-
-
-
-0
-
-compile install
-
-
-
-
-
+DEFINED_PHASES=compile install
+DEPEND=sys-devel/autoconf
+DESCRIPTION=multimedia library used by many games
+EAPI=0
+HOMEPAGE=http://plib.sourceforge.net/
+KEYWORDS=x86 ppc sparc amd64 alpha hppa
+LICENSE=LGPL-2
+RDEPEND=virtual/opengl virtual/glut
+SLOT=0
+SRC_URI=http://plib.sourceforge.net/dist/plib-1.6.0.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082867

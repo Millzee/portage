@@ -1,22 +1,11 @@
-
-dev-lang/perl virtual/qmail
-0
-http://archives.eyrie.org/software/system/multilog-watch http://www.eyrie.org/%7Eeagle/software/multilog-watch/sample.filter
-
-http://www.eyrie.org/~eagle/software/multilog-watch/
-Artistic GPL-2
-Watches a multilog file for irregularities
-~x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Watches a multilog file for irregularities
+EAPI=0
+HOMEPAGE=http://www.eyrie.org/~eagle/software/multilog-watch/
+KEYWORDS=~x86
+LICENSE=Artistic GPL-2
+RDEPEND=dev-lang/perl virtual/qmail
+SLOT=0
+SRC_URI=http://archives.eyrie.org/software/system/multilog-watch http://www.eyrie.org/%7Eeagle/software/multilog-watch/sample.filter
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082845

@@ -1,22 +1,13 @@
-dev-lang/perl dev-perl/Template-Toolkit >=virtual/perl-Compress-Zlib-1.2.2 vdr? ( media-video/vdr ) virtual/perl-Compress-Zlib dev-perl/Locale-gettext dev-perl/Authen-SASL dev-perl/Digest-HMAC dev-perl/URI sys-devel/gettext
-dev-lang/perl dev-perl/Template-Toolkit >=virtual/perl-Compress-Zlib-1.2.2 vdr? ( media-video/vdr ) virtual/perl-Compress-Zlib dev-perl/Locale-gettext dev-perl/Authen-SASL dev-perl/Digest-HMAC dev-perl/URI sys-devel/gettext
-0
-http://andreas.vdr-developer.org/download/vdradmin-am-3.6.4.tar.bz2
-
-http://andreas.vdr-developer.org/
-GPL-2
-WWW Admin for the Video Disk Recorder
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-+vdr
-
-
-
-1
-
-config install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=config install postinst preinst setup unpack
+DEPEND=dev-lang/perl dev-perl/Template-Toolkit >=virtual/perl-Compress-Zlib-1.2.2 vdr? ( media-video/vdr ) virtual/perl-Compress-Zlib dev-perl/Locale-gettext dev-perl/Authen-SASL dev-perl/Digest-HMAC dev-perl/URI sys-devel/gettext
+DESCRIPTION=WWW Admin for the Video Disk Recorder
+EAPI=1
+HOMEPAGE=http://andreas.vdr-developer.org/
+IUSE=+vdr
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-lang/perl dev-perl/Template-Toolkit >=virtual/perl-Compress-Zlib-1.2.2 vdr? ( media-video/vdr ) virtual/perl-Compress-Zlib dev-perl/Locale-gettext dev-perl/Authen-SASL dev-perl/Digest-HMAC dev-perl/URI sys-devel/gettext
+SLOT=0
+SRC_URI=http://andreas.vdr-developer.org/download/vdradmin-am-3.6.4.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082897

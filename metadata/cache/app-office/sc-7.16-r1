@@ -1,22 +1,12 @@
->=sys-libs/ncurses-5.2
->=sys-libs/ncurses-5.2
-0
-ftp://ibiblio.org/pub/Linux/apps/financial/spreadsheet/sc-7.16.tar.gz
-
-http://ibiblio.org/pub/Linux/apps/financial/spreadsheet/
-public-domain
-sc is a free curses-based spreadsheet program that uses key bindings similar to vi and less.
-amd64 ppc sparc x86
-toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=>=sys-libs/ncurses-5.2
+DESCRIPTION=sc is a free curses-based spreadsheet program that uses key bindings similar to vi and less.
+EAPI=0
+HOMEPAGE=http://ibiblio.org/pub/Linux/apps/financial/spreadsheet/
+KEYWORDS=amd64 ppc sparc x86
+LICENSE=public-domain
+RDEPEND=>=sys-libs/ncurses-5.2
+SLOT=0
+SRC_URI=ftp://ibiblio.org/pub/Linux/apps/financial/spreadsheet/sc-7.16.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082849

@@ -1,22 +1,13 @@
-
->=games-fps/ut2004-data-3186-r2 >=games-fps/ut2004-bonuspack-ece-1-r1 >=games-fps/ut2004-bonuspack-mega-1-r1 opengl? ( virtual/opengl ) =virtual/libstdc++-3.3 x11-libs/libXext x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp >=media-libs/libsdl-1.2 media-libs/openal
-0
-mirror://3dgamers/unrealtourn2k4/ut2004-lnxpatch3369-2.tar.bz2 http://speculum.twistedgamer.com/pub/0day.icculus.org/ut2004/ut2004-lnxpatch3369-2.tar.bz2 http://treefort.icculus.org/ut2004/ut2004-lnxpatch3369-2.tar.bz2 http://sonic-lux.net/data/mirror/ut2004/ut2004-lnxpatch3369-2.tar.bz2
-mirror strip
-http://www.unrealtournament2004.com/
-ut2003
-Editor's Choice Edition plus Mega Pack for the critically-acclaimed first-person shooter
-amd64 x86
-toolchain-funcs portability multilib base games eutils
-dedicated opengl
-
-
-
-0
-
-compile config install postinst postrm preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile config install postinst postrm preinst setup unpack
+DESCRIPTION=Editor's Choice Edition plus Mega Pack for the critically-acclaimed first-person shooter
+EAPI=0
+HOMEPAGE=http://www.unrealtournament2004.com/
+IUSE=dedicated opengl
+KEYWORDS=amd64 x86
+LICENSE=ut2003
+RDEPEND=>=games-fps/ut2004-data-3186-r2 >=games-fps/ut2004-bonuspack-ece-1-r1 >=games-fps/ut2004-bonuspack-mega-1-r1 opengl? ( virtual/opengl ) =virtual/libstdc++-3.3 x11-libs/libXext x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp >=media-libs/libsdl-1.2 media-libs/openal
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=mirror://3dgamers/unrealtourn2k4/ut2004-lnxpatch3369-2.tar.bz2 http://speculum.twistedgamer.com/pub/0day.icculus.org/ut2004/ut2004-lnxpatch3369-2.tar.bz2 http://treefort.icculus.org/ut2004/ut2004-lnxpatch3369-2.tar.bz2 http://sonic-lux.net/data/mirror/ut2004/ut2004-lnxpatch3369-2.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082860

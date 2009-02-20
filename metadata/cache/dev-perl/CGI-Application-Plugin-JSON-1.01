@@ -1,22 +1,12 @@
->=dev-perl/CGI-Application-4.00 >=dev-perl/JSON-Any-1.14 >=dev-perl/JSON-2.02
->=dev-perl/CGI-Application-4.00 >=dev-perl/JSON-Any-1.14 >=dev-perl/JSON-2.02
-0
-mirror://cpan/authors/id/W/WO/WONKO//CGI-Application-Plugin-JSON-1.01.tar.gz
-
-http://search.cpan.org/search?query=CGI-Application-Plugin-JSON&mode=dist
-|| ( Artistic GPL-2 )
-Easy manipulation of JSON headers
-~amd64 ~x86
-toolchain-funcs portability multilib base eutils perl-module
-
-
-
-
-0
-
-compile install postinst postrm preinst prerm setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
+DEPEND=>=dev-perl/CGI-Application-4.00 >=dev-perl/JSON-Any-1.14 >=dev-perl/JSON-2.02
+DESCRIPTION=Easy manipulation of JSON headers
+EAPI=0
+HOMEPAGE=http://search.cpan.org/search?query=CGI-Application-Plugin-JSON&mode=dist
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( Artistic GPL-2 )
+RDEPEND=>=dev-perl/CGI-Application-4.00 >=dev-perl/JSON-Any-1.14 >=dev-perl/JSON-2.02
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/W/WO/WONKO//CGI-Application-Plugin-JSON-1.01.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082855

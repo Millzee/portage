@@ -1,22 +1,12 @@
-dev-lisp/cl-md5 dev-lisp/cl-base64 dev-lisp/cl-rfc2388 dev-lisp/cl-plus-ssl dev-lisp/cl-chunga dev-lisp/cl-ppcre dev-lisp/cl-url-rewrite dev-lisp/cl-who dev-lisp/common-lisp-controller
-dev-lisp/cl-md5 dev-lisp/cl-base64 dev-lisp/cl-rfc2388 dev-lisp/cl-plus-ssl dev-lisp/cl-chunga dev-lisp/cl-ppcre dev-lisp/cl-url-rewrite dev-lisp/cl-who
-0
-mirror://gentoo/hunchentoot_0.4.10.orig.tar.gz
-
-http://weitz.de/hunchentoot/
-BSD
-Hunchentoot is a web server written in Common Lisp and at the same time a toolkit for building dynamic websites with Common Lisp.
-~amd64 ~ppc ~sparc ~x86
-common-lisp-common toolchain-funcs portability multilib common-lisp eutils
-
-
-
-
-0
-
-install postinst postrm preinst
-
-
-
-
-
+DEFINED_PHASES=install postinst postrm preinst
+DEPEND=dev-lisp/cl-md5 dev-lisp/cl-base64 dev-lisp/cl-rfc2388 dev-lisp/cl-plus-ssl dev-lisp/cl-chunga dev-lisp/cl-ppcre dev-lisp/cl-url-rewrite dev-lisp/cl-who dev-lisp/common-lisp-controller
+DESCRIPTION=Hunchentoot is a web server written in Common Lisp and at the same time a toolkit for building dynamic websites with Common Lisp.
+EAPI=0
+HOMEPAGE=http://weitz.de/hunchentoot/
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=BSD
+RDEPEND=dev-lisp/cl-md5 dev-lisp/cl-base64 dev-lisp/cl-rfc2388 dev-lisp/cl-plus-ssl dev-lisp/cl-chunga dev-lisp/cl-ppcre dev-lisp/cl-url-rewrite dev-lisp/cl-who
+SLOT=0
+SRC_URI=mirror://gentoo/hunchentoot_0.4.10.orig.tar.gz
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235082859	common-lisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235082854
