@@ -14,7 +14,7 @@ custom-optimization gnome ipv6 dbus startup-notification elibc_FreeBSD java
 
 
 
-compile install postinst postrm setup unpack
+compile install postinst postrm preinst setup unpack
 
 
 

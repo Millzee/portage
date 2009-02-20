@@ -14,7 +14,7 @@ java doc emacs mono nls elibc_FreeBSD java
 
 
 
-compile install postinst postrm setup unpack
+compile install postinst postrm preinst setup unpack
 
 
 

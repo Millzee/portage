@@ -14,7 +14,7 @@ java python tools elibc_FreeBSD java
 
 
 
-compile install postinst postrm setup
+compile install postinst postrm preinst setup
 
 
 
