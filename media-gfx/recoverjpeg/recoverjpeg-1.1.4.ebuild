@@ -1,6 +1,5 @@
 # Copyright 1999-2009 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 DESCRIPTION="Recover JPEG pictures from a possibly corrupted disk image"
 HOMEPAGE="http://www.rfc1149.net/devel/recoverjpeg"
@@ -8,15 +7,22 @@ SRC_URI="http://www.rfc1149.net/download/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~x86"
-IUSE=""
+KEYWORDS="~amd64 ~x86"
+IUSE="minimal"
 
 DEPEND=""
-RDEPEND="media-gfx/imagemagick
-	media-gfx/exif"
+RDEPEND="!minimal? (
+		media-gfx/imagemagick
+		media-gfx/exif
+		dev-lang/python
+	)"
 
 src_install() {
-	emake DESTDIR="${D}" install || die "emake install failed"
-	dodoc README || die "Installing README failed"
+	if use minimal; then
+		dobin ${PN} || die "cannot install ${PN}"
+		doman ${PN}.1 || die "cannot install manpages"
+	else
+		emake DESTDIR="${D}" install || die "emake install failed"
+	fi
+	dodoc README
 }
-
