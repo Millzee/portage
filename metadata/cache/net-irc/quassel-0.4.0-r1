@@ -3,11 +3,11 @@ DEPEND=x11-libs/qt-core:4 dbus? ( x11-libs/qt-dbus:4 ) monolithic? ( x11-libs/qt
 DESCRIPTION=Qt4/KDE4 IRC client suppporting a remote daemon for 24/7 connectivity.
 EAPI=2
 HOMEPAGE=http://quassel-irc.org/
-IUSE=dbus debug kde monolithic +oxygen phonon +server +ssl webkit +X linguas_cs linguas_da linguas_de linguas_fr linguas_nb_NO linguas_ru linguas_tr
+IUSE=dbus debug kde monolithic +oxygen phonon +server +ssl webkit +X linguas_cs linguas_da linguas_de linguas_fr linguas_hu linguas_nb_NO linguas_ru linguas_sl linguas_tr
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=x11-libs/qt-core:4 dbus? ( x11-libs/qt-dbus:4 ) monolithic? ( x11-libs/qt-sql:4[sqlite] x11-libs/qt-script:4 x11-libs/qt-gui:4 kde? ( >=kde-base/kdelibs-4.1 ) phonon? ( || ( media-sound/phonon x11-libs/qt-phonon ) ) webkit? ( x11-libs/qt-webkit:4 ) ) !monolithic? ( server? ( x11-libs/qt-sql:4[sqlite] x11-libs/qt-script:4 ) X? ( x11-libs/qt-gui:4 kde? ( >=kde-base/kdelibs-4.1 ) phonon? ( || ( media-sound/phonon x11-libs/qt-phonon ) ) webkit? ( x11-libs/qt-webkit:4 ) ) ) ssl? ( dev-libs/openssl x11-libs/qt-core:4[ssl] )
 SLOT=0
 SRC_URI=http://quassel-irc.org/pub/quassel-0.4.0.tar.bz2
-_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235083217
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235211577

@@ -9,5 +9,5 @@ LICENSE=LGPL-2
 RDEPEND=>=dev-libs/glib-2.4 hal? ( =sys-apps/hal-0.5* ) sys-apps/sg3_utils gtk? ( >=x11-libs/gtk+-2 ) python? ( >=dev-lang/python-2.3 >=x11-libs/gtk+-2 media-libs/mutagen gtk? ( >=dev-python/pygobject-2 ) ) test? ( media-libs/taglib )
 SLOT=0
 SRC_URI=mirror://sourceforge/gtkpod/libgpod-0.6.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082867

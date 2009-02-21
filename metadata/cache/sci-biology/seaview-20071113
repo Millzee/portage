@@ -8,5 +8,5 @@ LICENSE=public-domain
 RDEPEND=x11-libs/fltk:1.1 =media-libs/pdflib-7* sci-biology/clustalw sci-biology/muscle
 SLOT=0
 SRC_URI=mirror://gentoo/seaview-20071113.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235211576	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082898

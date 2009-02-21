@@ -9,5 +9,5 @@ LICENSE=GPL-3 LGPL-3
 RDEPEND=virtual/python >=dev-python/pygtk-2 vorbis? ( >=dev-python/pyvorbis-1.4-r1 >=dev-python/pyogg-1 ) geoip? ( >=dev-python/geoip-python-0.2.0 >=dev-libs/geoip-1.2.1 ) spell? ( dev-python/sexy-python ) !net-p2p/nicotine
 SLOT=0
 SRC_URI=mirror://sourceforge/nicotine-plus/nicotine+-1.2.9.tar.bz2
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082895

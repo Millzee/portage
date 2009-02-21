@@ -10,5 +10,5 @@ RDEPEND=>=kde-base/libkonq-4.2.0:4.2 >=kde-base/kdebase-kioslaves-4.2.0:4.2 >=kd
 RESTRICT=test
 SLOT=4.2
 SRC_URI=mirror://kde/stable/4.2.0/src/kdebase-4.2.0.tar.bz2
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde4-base	/home/Funtoo/portage/eclass	1235082859	kde4-functions	/home/Funtoo/portage/eclass	1235082859	kde4-meta	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	kde4-base	/home/Funtoo/portage/eclass	1235082859	kde4-functions	/home/Funtoo/portage/eclass	1235082859	kde4-meta	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082862

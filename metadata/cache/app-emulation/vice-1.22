@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/giflib media-libs/jpeg x11-libs/libX11 x11-libs/libXext x11-libs/libXpm x11-libs/libICE x11-libs/libSM x11-libs/libXt x11-libs/libXv x11-libs/libXxf86dga x11-libs/libXxf86vm x11-libs/libXrandr x11-apps/xset Xaw3d? ( x11-libs/Xaw3d ) !Xaw3d? ( x11-libs/libXaw ) alsa? ( media-libs/alsa-lib ) arts? ( kde-base/arts ) esd? ( media-sound/esound ) gnome? ( gnome-base/libgnomeui ) nls? ( virtual/libintl ) png? ( media-libs/libpng ) readline? ( sys-libs/readline ) resid? ( media-libs/resid ) sdl? ( media-libs/libsdl )
 SLOT=0
 SRC_URI=http://www.zimmers.net/anonftp/pub/cbm/crossplatform/emulators/VICE/vice-1.22.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082848

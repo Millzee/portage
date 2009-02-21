@@ -9,5 +9,5 @@ LICENSE=BSD
 RDEPEND=X? ( x11-libs/libXmu x11-libs/libXext x11-libs/libXp x11-libs/libX11 x11-libs/libXt x11-libs/libSM x11-libs/libICE x11-libs/libXpm x11-libs/libXaw x11-libs/openmotif ) python? ( dev-lang/python ) dbus? ( >=sys-apps/dbus-0.94 >=dev-libs/glib-2.6 dev-libs/dbus-glib ) ntp? ( net-misc/ntp ) usb? ( virtual/dev-manager )
 SLOT=0
 SRC_URI=mirror://berlios/gpsd/gpsd-2.37.tar.gz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082898

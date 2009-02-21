@@ -9,5 +9,5 @@ LICENSE=GPL-1 GPL-2 BSD as-is
 RDEPEND=sys-libs/ncurses >=app-admin/eselect-emacs-1.2 X? ( x11-libs/libX11 )
 SLOT=18
 SRC_URI=mirror://gnu/old-gnu/emacs/emacs-18.59.tar.gz ftp://ftp.splode.com/pub/users/friedman/emacs/emacs-18.59-linux22x-elf-glibc21.diff.gz mirror://gentoo/emacs-18.59-patches-3.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082847

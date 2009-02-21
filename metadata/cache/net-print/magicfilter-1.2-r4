@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/ghostscript >=sys-apps/groff-1.16.1-r1 >=app-arch/bzip2-1.0.1-r4 >=app-arch/gzip-1.2.4a-r6
 SLOT=0
 SRC_URI=ftp://metalab.unc.edu/pub/linux/system/printing/magicfilter-1.2.tar.gz mirror://gentoo/magicfilter-1.2-gentoo.tar.bz2 http://cvs.gentoo.org/~seemant/magicfilter-1.2-gentoo.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082896

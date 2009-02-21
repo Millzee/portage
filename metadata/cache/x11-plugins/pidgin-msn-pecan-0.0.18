@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=net-im/pidgin
 SLOT=0
 SRC_URI=http://msn-pecan.googlecode.com/files/msn-pecan-0.0.18.tar.bz2
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235211576	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082910

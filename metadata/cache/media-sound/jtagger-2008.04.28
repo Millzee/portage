@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=>=virtual/jre-1.5 dev-java/jlayer >=dev-java/jid3-0.46-r1 >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7 source? ( app-arch/zip )
 SLOT=0
 SRC_URI=http://dronten.googlepages.com/jtagger-2008.04.28.zip
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082869

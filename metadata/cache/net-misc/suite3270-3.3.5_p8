@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=X? ( x11-libs/libX11 x11-libs/libXaw x11-libs/libXmu x11-libs/libXt ) cjk? ( dev-libs/icu ) ncurses? ( sys-libs/ncurses sys-libs/readline ) ssl? ( dev-libs/openssl ) tcl? ( dev-lang/tcl )
 SLOT=0
 SRC_URI=http://x3270.bgp.nu/download/suite3270-3.3.5p8.tgz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082895

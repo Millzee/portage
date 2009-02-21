@@ -9,5 +9,5 @@ RDEPEND=>=games-engines/scummvm-0.10.0
 RESTRICT=strip
 SLOT=0
 SRC_URI=http://files.5star-network.com/Games/bs2-demo.zip ftp://ftp.planetmirror.com/pub/gameworld/demos/bs2-demo.zip http://gentooexperimental.org/~unlord/bs2-demo.zip mirror://sourceforge/scummvm/Sword2_Demo_Cutscenes.zip http://gentooexperimental.org/~unlord/Sword2_Demo_Cutscenes.zip
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082860

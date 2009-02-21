@@ -8,5 +8,5 @@ LICENSE=Artistic
 RDEPEND=>=app-text/rman-3.0.9 >=dev-lang/tcl-8.3.3 >=dev-lang/tk-8.3.3
 SLOT=0
 SRC_URI=http://tkman.sourceforge.net/tkman.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082850

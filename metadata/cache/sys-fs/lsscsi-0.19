@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=sys-fs/sysfsutils-1.2.0
 SLOT=0
 SRC_URI=http://sg.danny.cz/scsi/lsscsi-0.19.tgz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235211576	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082907

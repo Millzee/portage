@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=sys-devel/autoconf sys-devel/automake sys-devel/libtool app-arch/sharutils app-arch/gzip dev-lang/perl
 SLOT=0
 SRC_URI=mirror://sourceforge/autotoolset/autotoolset-0.11.4.tar.bz2 mirror://gentoo/autotoolset-0.11.4-misc-pending-upstream-fixes.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fixheadtails	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082858

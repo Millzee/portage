@@ -8,5 +8,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=dev-scheme/guile-1.8 >=x11-libs/cairo-1.4
 SLOT=0
 SRC_URI=http://download.gna.org/guile-cairo/guile-cairo-1.4.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082858

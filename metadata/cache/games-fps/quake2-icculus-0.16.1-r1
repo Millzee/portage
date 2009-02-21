@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=aalib? ( media-libs/aalib ) alsa? ( media-libs/alsa-lib ) arts? ( kde-base/arts ) opengl? ( virtual/opengl ) svga? ( media-libs/svgalib ) sdl? ( media-libs/libsdl ) cdinstall? ( games-fps/quake2-data ) demo? ( games-fps/quake2-demodata )
 SLOT=0
 SRC_URI=http://icculus.org/quake2/files/quake2-r0.16.1.tar.gz qmax? ( http://icculus.org/quake2/files/maxpak.pak ) rogue? ( mirror://idsoftware/quake2/source/roguesrc320.shar.Z ) xatrix? ( mirror://idsoftware/quake2/source/xatrixsrc320.shar.Z )
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082860

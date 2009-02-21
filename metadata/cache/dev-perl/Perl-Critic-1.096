@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=virtual/perl-Module-Pluggable-3.1 >=dev-perl/Config-Tiny-2 dev-perl/List-MoreUtils dev-perl/IO-String dev-perl/String-Format dev-perl/perltidy >=dev-perl/PPI-1.203 >=dev-perl/set-scalar-1.20 dev-perl/B-Keywords dev-perl/Readonly dev-perl/Exception-Class virtual/perl-version dev-lang/perl
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/E/EL/ELLIOTJS//Perl-Critic-1.096.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082856

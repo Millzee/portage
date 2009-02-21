@@ -9,5 +9,5 @@ LICENSE=as-is GPL-2 LGPL-2
 RDEPEND=x11-libs/libXext dga? ( x11-libs/libXxf86dga x11-libs/libXxf86vm ) media-libs/libpng amd64? ( app-emulation/emul-linux-x86-xlibs ) opengl? ( virtual/opengl virtual/glu )
 SLOT=0
 SRC_URI=http://files.ipherswipsite.com/snes9x/snes9x-1.51-src.tar.bz2 http://vincent.grigorieff.free.fr/snes9x/snes9x-1.51-src.tar.bz2
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082860

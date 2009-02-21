@@ -7,5 +7,5 @@ KEYWORDS=~alpha amd64 ~hppa ~ia64 ppc ~ppc64 sparc x86 ~x86-fbsd
 LICENSE=LGPL-2.1 myspell-ru_RU-ALexanderLebedev
 SLOT=0
 SRC_URI=mirror://gentoo/myspell-ru_RU-20060316.zip mirror://gentoo/myspell-ru_RU_ye-20060316.zip mirror://gentoo/myspell-ru_RU_yo-20060316.zip mirror://gentoo/myspell-hyph_ru_RU-20060316.zip
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	myspell	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235211576	myspell	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082847

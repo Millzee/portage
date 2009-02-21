@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=x11-libs/gtk+-2.8.12 >=media-libs/libart_lgpl-2.3.17 >=media-libs/fontconfig-2.2.3 >=x11-libs/libXcursor-1.1.2 >=dev-libs/atk-1.10.3 >=dev-libs/libpcre-4.2 >=dev-libs/boost-1.33.1 >=gnome-extra/libgda-3.0.1 >=x11-libs/pango-1.10.1 >=dev-libs/glib-2.8.5 >=x11-libs/cairo-1.0.2 dbus? ( sys-apps/dbus ) mapnik? ( >=sci-geosciences/mapnik-0.5 ) gdal? ( sci-libs/gdal ) dev-perl/libwww-perl dev-perl/DBI sci-geosciences/gpsd media-fonts/dejavu
 SLOT=0
 SRC_URI=http://www.gpsdrive.de//packages/gpsdrive-2.10pre5.tar.gz
-_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082849

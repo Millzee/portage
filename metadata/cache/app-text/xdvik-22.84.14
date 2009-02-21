@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=media-libs/t1lib-5.0.2 x11-libs/libXmu x11-libs/libXp x11-libs/libXpm motif? ( x11-libs/openmotif ) !motif? ( neXt? ( x11-libs/neXtaw ) !neXt? ( Xaw3d? ( x11-libs/Xaw3d ) ) ) cjk? ( || ( app-text/texlive-core app-text/ptex ) >=media-libs/freetype-2 >=media-fonts/kochi-substitute-20030809-r3 ) !cjk? ( virtual/latex-base ) !<app-text/texlive-2007
 SLOT=0
 SRC_URI=mirror://sourceforge/xdvi/xdvik-22.84.14.tar.gz cjk? ( mirror://sourceforge.jp/xdvi/31972/xdvik-22.84.14-j1.40.patch.gz )
-_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082850

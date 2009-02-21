@@ -9,5 +9,5 @@ RDEPEND=>=games-rpg/nwn-data-1.29-r3 virtual/opengl >=media-libs/libsdl-1.2.5 !<
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=http://dev.gentoo.org/~calchan/distfiles/nwn-libsdl-1.2.13.tar.bz2 http://dev.gentoo.org/~calchan/distfiles/nwn-libelf-0.1.tar.bz2 !sou? ( !hou? ( http://files.bioware.com/neverwinternights/updates/linux/169/English_linuxclient169_orig.tar.gz ) ) sou? ( !hou? ( http://files.bioware.com/neverwinternights/updates/linux/169/English_linuxclient169_xp1.tar.gz ) ) hou? ( http://files.bioware.com/neverwinternights/updates/linux/169/English_linuxclient169_xp2.tar.gz )
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082861

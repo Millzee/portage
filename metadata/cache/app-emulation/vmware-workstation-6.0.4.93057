@@ -9,5 +9,5 @@ RDEPEND=sys-libs/glibc x11-libs/libXrandr x11-libs/libXcursor x11-libs/libXinera
 RESTRICT=strip fetch
 SLOT=0
 SRC_URI=x86? ( mirror://vmware/software/wkst/VMware-workstation-6.0.4-93057.i386.tar.gz http://download.softpedia.ro/linux/VMware-workstation-6.0.4-93057.i386.tar.gz ) amd64? ( mirror://vmware/software/wkst/VMware-workstation-6.0.4-93057.x86_64.tar.gz http://download.softpedia.ro/linux/VMware-workstation-6.0.4-93057.x86_64.tar.gz )
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	pax-utils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859	vmware	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	pax-utils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859	vmware	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082848

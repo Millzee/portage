@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=net-im/jabberd
 SLOT=0
 SRC_URI=http://www.jabberstudio.org/files/yahoo-transport-2/yahoo-transport-2.3.0.tar.gz http://dev.gentoo.org/~humpback/yahoo-transport+newauth.diff http://www.lucas-nussbaum.net/yahoo-transport+authfix.diff
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082890

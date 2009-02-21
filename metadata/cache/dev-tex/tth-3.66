@@ -8,5 +8,5 @@ LICENSE=free-noncomm
 RDEPEND=virtual/libc
 SLOT=0
 SRC_URI=http://hutchinson.belmont.ma.us/tth/tth-noncom/tth_C.tgz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235211576	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082858

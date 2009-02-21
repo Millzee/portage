@@ -10,5 +10,5 @@ PDEPEND=~net-p2p/vuze-coreplugins-4.1.0.0
 RDEPEND=dev-java/json-simple:0 >=dev-java/bcprov-1.35:0 >=dev-java/commons-cli-1.0:1 >=dev-java/log4j-1.2.8:0 >=dev-java/swt-3.4:3.4[cairo,xulrunner] !net-p2p/azureus-bin >=virtual/jre-1.5 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
 SLOT=0
 SRC_URI=mirror://sourceforge/azureus/Vuze_4.1.0.0_source.zip
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	fdo-mime	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082895

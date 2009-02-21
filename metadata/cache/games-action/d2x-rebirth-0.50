@@ -9,5 +9,5 @@ LICENSE=D1X GPL-2 as-is
 RDEPEND=media-libs/alsa-lib media-libs/libpng >=media-libs/libsdl-1.2.9 >=media-libs/sdl-image-1.2.3-r1 >=dev-games/physfs-1.0.1 virtual/glu virtual/opengl x11-libs/libX11 x11-libs/libXext games-action/descent2-data
 SLOT=0
 SRC_URI=http://www.dxx-rebirth.de/download/dxx/oss/src/d2x-rebirth_v0.50-src-20061025.tar.gz http://www.dxx-rebirth.de/download/dxx/res/dxx-rebirth_icons.zip
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082859

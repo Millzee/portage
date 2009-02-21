@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup unpack
+DEPEND=>=dev-lang/erlang-11.2.5[emacs] >=virtual/emacs-21
+DESCRIPTION=Distributed Emacs Lisp for Erlang
+EAPI=2
+HOMEPAGE=http://fresh.homeunix.net/~luke/distel/
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/erlang-11.2.5[emacs] >=virtual/emacs-21
+SLOT=0
+SRC_URI=http://distel.googlecode.com/files/distel-4.03.tgz
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235211576

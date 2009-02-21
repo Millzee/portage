@@ -7,5 +7,5 @@ LICENSE=staden
 RDEPEND=app-shells/pdksh =media-libs/libpng-1.2* =sci-libs/io_lib-1.10* ~dev-tcltk/itcl-3.3 ~dev-tcltk/itk-3.3 ~dev-tcltk/iwidgets-4.0.1 x11-libs/libX11
 SLOT=0
 SRC_URI=mirror://sourceforge/staden/staden-linux-x86-1-7-0.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235211576	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082898

@@ -8,5 +8,5 @@ LICENSE=X11
 RDEPEND=>=app-arch/unzip-5.41 >=dev-libs/libxml2-2.4 >=app-text/docbook-xsl-stylesheets-1.65 >=app-text/build-docbook-catalog-1.2
 SLOT=4.1.2
 SRC_URI=http://www.oasis-open.org/docbook/xml/4.1.2/docbkx412.zip
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	sgml-catalog	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	sgml-catalog	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082850

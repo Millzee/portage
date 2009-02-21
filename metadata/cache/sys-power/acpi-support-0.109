@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=sys-power/acpid sys-apps/kbd sys-apps/dmidecode sys-apps/vbetool sys-apps/ethtool sys-power/powermgmt-base hibernate-script? ( sys-power/hibernate-script ) X? ( x11-apps/xset ) video_cards_radeon? ( app-laptop/radeontool )
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/a/acpi-support/acpi-support_0.109.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082907

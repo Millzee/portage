@@ -7,5 +7,5 @@ IUSE=audiofile +crypt +dcc_voice debug doc +gsm +ipc ipv6 kde +nls profile +phon
 LICENSE=kvirc
 RDEPEND=sys-libs/zlib x11-libs/qt-gui audiofile? ( media-libs/audiofile ) kde? ( >=kde-base/kdelibs-3.9 ) phonon? ( || ( media-sound/phonon x11-libs/qt-phonon ) ) qt-dbus? ( x11-libs/qt-dbus ) qt-webkit? ( x11-libs/qt-webkit ) ssl? ( dev-libs/openssl )
 SLOT=4
-_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082893

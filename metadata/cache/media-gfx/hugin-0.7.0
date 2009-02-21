@@ -9,5 +9,5 @@ LICENSE=GPL-2 SIFT
 RDEPEND=app-arch/zip >=dev-libs/boost-1.30.0 >=media-gfx/enblend-3.0_p20080807 media-gfx/exiv2 media-libs/jpeg media-libs/libpano13 media-libs/libpng media-libs/openexr media-libs/tiff sys-libs/zlib x11-libs/wxGTK:2.8 sift? ( media-gfx/autopano-sift-C )
 SLOT=0
 SRC_URI=mirror://sourceforge/hugin/hugin-0.7.0.tar.gz
-_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082867

@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=dev-lang/ghc-6.4.1 ~dev-haskell/hdbc-1.0.0 >=virtual/postgresql-base-8 dev-lang/ghc
 SLOT=0
 SRC_URI=http://quux.org/devel/hdbc/hdbc-postgresql_1.0.0.0.tar.gz
-_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	haskell-cabal	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	haskell-cabal	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082852

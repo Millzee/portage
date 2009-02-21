@@ -9,5 +9,5 @@ LICENSE=sun-jrl sun-jdl
 RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
 SLOT=0
 SRC_URI=amd64? ( http://download.java.net/media/java3d/builds/stable/1_4_0-build5/java3d-1_4_0-build5-linux-amd64.zip ) x86? ( http://download.java.net/media/java3d/builds/stable/1_4_0-build5/java3d-1_4_0-build5-linux-i586.zip )
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082852

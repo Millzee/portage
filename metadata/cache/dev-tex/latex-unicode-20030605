@@ -9,5 +9,5 @@ LICENSE=LPPL-1.2
 RDEPEND=!dev-texlive/texlive-latexrecommended cjk? ( dev-tex/cjk-latex ) virtual/latex-base
 SLOT=0
 SRC_URI=mirror://gentoo/latex-unicode-20030605.tar.gz http://dev.gentoo.org/~usata/distfiles/latex-unicode-20030605.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	latex-package	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	latex-package	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082858

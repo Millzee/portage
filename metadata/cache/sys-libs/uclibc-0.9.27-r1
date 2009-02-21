@@ -8,5 +8,5 @@ LICENSE=LGPL-2
 RESTRICT=strip
 SLOT=x86_64-pc-linux-uclibc
 SRC_URI=http://www.kernel.org/pub/linux/libs/uclibc/uClibc-0.9.27.tar.bz2 mirror://gentoo/uClibc-0.9.27-cvs-update-20050114.patch.bz2 mirror://gentoo/uClibc-0.9.27-patches-1.6.tar.bz2 nls? ( !userlocales? ( pregen? ( x86? ( http://www.uclibc.org/downloads/uClibc-locale-030818.tgz ) ) ) )
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082907

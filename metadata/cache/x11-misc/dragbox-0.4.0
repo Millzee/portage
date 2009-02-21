@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=dev-python/pygtk gnome-base/libglade sys-apps/dbus x11-libs/gtk+
 SLOT=0
 SRC_URI=http://kaizer.se/publicfiles/dragbox/dragbox-0.4.0.tar.gz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082909

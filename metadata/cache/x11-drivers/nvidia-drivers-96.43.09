@@ -11,5 +11,5 @@ RDEPEND=<x11-base/xorg-server-1.5.99 multilib? ( app-emulation/emul-linux-x86-xl
 RESTRICT=strip
 SLOT=0
 SRC_URI=x86? ( ftp://download.nvidia.com/XFree86/Linux-x86/96.43.09/NVIDIA-Linux-x86-96.43.09-pkg0.run ) amd64? ( ftp://download.nvidia.com/XFree86/Linux-x86_64/96.43.09/NVIDIA-Linux-x86_64-96.43.09-pkg2.run ) x86-fbsd? ( ftp://download.nvidia.com/freebsd/96.43.09/NVIDIA-FreeBSD-x86-96.43.09.tar.gz )
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	nvidia-driver	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	nvidia-driver	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082908

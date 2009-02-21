@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/linux-sources dev-libs/newt dev-libs/pth x11-libs/libX11
 SLOT=0
 SRC_URI=http://vdlinux.sourceforge.jp/dists/unicon-3.0.4-20010924.tar.gz http://vdlinux.sourceforge.jp/dists/vd_unicon-userland-20031122vd.patch
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082848
