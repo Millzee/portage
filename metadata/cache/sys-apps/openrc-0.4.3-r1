@@ -12,9 +12,9 @@ debug elibc_glibc ncurses pam unicode kernel_linux kernel_FreeBSD
 
 
 
-0
+2
 
-compile install postinst preinst setup unpack
+compile install postinst preinst prepare setup
 
 
 

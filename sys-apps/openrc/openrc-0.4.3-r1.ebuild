@@ -2,17 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/sys-apps/openrc/openrc-0.4.3-r1.ebuild,v 1.1 2009/02/13 09:07:16 zzam Exp $
 
+EAPI="2"
+
 inherit eutils flag-o-matic multilib toolchain-funcs
 
-if [[ ${PV} == "9999" ]] ; then
-	ESVN_REPO_URI="svn://roy.marples.name/openrc/trunk"
-	inherit subversion
-else
-	SRC_URI="http://roy.marples.name/downloads/${PN}/${P}.tar.bz2
+SRC_URI="http://roy.marples.name/downloads/${PN}/${P}.tar.bz2
 		mirror://gentoo/${P}.tar.bz2
 		http://dev.gentoo.org/~cardoe/files/${P}.tar.bz2
 		http://dev.gentoo.org/~vapier/dist/${P}.tar.bz2"
-fi
 
 DESCRIPTION="OpenRC manages the services, startup and shutdown of a host"
 HOMEPAGE="http://roy.marples.name/openrc"
@@ -48,20 +45,14 @@ pkg_setup() {
 		MAKE_ARGS="${MAKE_ARGS} OS=FreeBSD"
 		brand="FreeBSD"
 	fi
-	export BRANDING="Gentoo ${brand}"
+	export BRANDING="Regen2 ${brand}"
 
 	export DEBUG=$(usev debug)
 	export MKPAM=$(usev pam)
 	export MKTERMCAP=$(usev ncurses)
 }
 
-src_unpack() {
-	if [[ ${PV} == "9999" ]] ; then
-		subversion_src_unpack
-	else
-		unpack ${A}
-	fi
-	cd "${S}"
+src_prepare() {
 	epatch "${FILESDIR}"/0.4.2/0001-msg-style.patch
 	epatch "${FILESDIR}"/0.4.2/0002-useful-functions.patch
 	epatch "${FILESDIR}"/0.4.2/0003-KV.patch
@@ -74,10 +65,6 @@ src_compile() {
 		die "Your MAKE_ARGS is empty ... are you running 'ebuild' but forgot to execute 'setup' ?"
 	fi
 
-	if [[ ${PV} == "9999" ]] ; then
-		local ver="-svn-$(cd "${ESVN_STORE_DIR}/${ESVN_PROJECT}/${ESVN_REPO_URI##*/}"; LC_ALL=C svnversion)"
-		sed -i "/^SVNVER[[:space:]]*=/s:=.*:=${ver}:" src/rc/Makefile
-	fi
 
 	tc-export CC AR RANLIB
 	echo emake ${MAKE_ARGS}
