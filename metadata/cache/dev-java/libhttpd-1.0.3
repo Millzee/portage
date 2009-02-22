@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 app-arch/unzip test? ( dev-java/junit ) >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-mirror://sourceforge/java-libhttpd/libhttpd-src_v1.03_2007-07-23.zip doc? ( mirror://sourceforge/java-libhttpd/libhttpd-doc_v1.03_2007-07-23.zip )
-
-http://www.blommers-it.nl/libhttpd/
-Apache-2.0
-Blommers IT java HTTP Server Library
-~x86 ~amd64
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD doc source test
-
-
-
-0
-
-compile install preinst setup test
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup test
+DEPEND=>=virtual/jdk-1.4 app-arch/unzip test? ( dev-java/junit ) >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+DESCRIPTION=Blommers IT java HTTP Server Library
+EAPI=0
+HOMEPAGE=http://www.blommers-it.nl/libhttpd/
+IUSE=elibc_FreeBSD doc source test
+KEYWORDS=~x86 ~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=mirror://sourceforge/java-libhttpd/libhttpd-src_v1.03_2007-07-23.zip doc? ( mirror://sourceforge/java-libhttpd/libhttpd-doc_v1.03_2007-07-23.zip )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

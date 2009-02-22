@@ -10,5 +10,5 @@ PROVIDE=virtual/imapd virtual/imap-c-client
 RDEPEND=>=net-mail/mailbase-0.00-r8 !virtual/imapd
 SLOT=0
 SRC_URI=ftp://ftp.cac.washington.edu/imap/imap-2002c1.tar.Z mirror://gentoo/imap-2002c-virtual.patch.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082894

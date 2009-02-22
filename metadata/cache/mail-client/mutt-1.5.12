@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=nls? ( sys-devel/gettext ) >=sys-libs/ncurses-5.2 gdbm? ( sys-libs/gdbm ) !gdbm? ( berkdb? ( >=sys-libs/db-4 ) ) imap? ( gnutls? ( >=net-libs/gnutls-1.0.17 ) !gnutls? ( ssl? ( >=dev-libs/openssl-0.9.6 ) ) sasl? ( >=dev-libs/cyrus-sasl-2 ) ) pop? ( gnutls? ( >=net-libs/gnutls-1.0.17 ) !gnutls? ( ssl? ( >=dev-libs/openssl-0.9.6 ) ) sasl? ( >=dev-libs/cyrus-sasl-2 ) ) idn? ( net-dns/libidn ) gpgme? ( >=app-crypt/gpgme-0.9.0 ) smime? ( >=dev-libs/openssl-0.9.6 ) app-misc/mime-types
 SLOT=0
 SRC_URI=ftp://ftp.mutt.org/mutt/devel/mutt-1.5.12.tar.gz !vanilla? ( mirror://gentoo/mutt-1.5.12-gentoo-patches.tar.bz2 )
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082866

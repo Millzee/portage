@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/sci-mathematics/dataplot-20080225
 DEFINED_PHASES=configure install postinst setup unpack
 DEPEND=opengl? ( virtual/opengl ) gd? ( media-libs/gd[png,jpeg] ) gs? ( virtual/ghostscript media-libs/gd[png,jpeg] ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
 DESCRIPTION=A program for scientific visualization and statistical analyis
@@ -10,29 +9,5 @@ LICENSE=public-domain
 RDEPEND=opengl? ( virtual/opengl ) gd? ( media-libs/gd[png,jpeg] ) gs? ( virtual/ghostscript media-libs/gd[png,jpeg] ) X? ( x11-misc/xdg-utils )
 SLOT=0
 SRC_URI=ftp://ftp.nist.gov/pub/dataplot/unix/dpsrc.02_25_2008.tar.gz ftp://ftp.nist.gov/pub/dataplot/unix/dplib.02_25_2008.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	fortran	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235211577
-=======
-opengl? ( virtual/opengl ) gd? ( media-libs/gd[png,jpeg] ) gs? ( virtual/ghostscript media-libs/gd[png,jpeg] ) dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-opengl? ( virtual/opengl ) gd? ( media-libs/gd[png,jpeg] ) gs? ( virtual/ghostscript media-libs/gd[png,jpeg] ) X? ( x11-misc/xdg-utils )
-0
-ftp://ftp.nist.gov/pub/dataplot/unix/dpsrc.02_25_2008.tar.gz ftp://ftp.nist.gov/pub/dataplot/unix/dplib.02_25_2008.tar.gz
-
-http://www.itl.nist.gov/div898/software/dataplot/
-public-domain
-A program for scientific visualization and statistical analyis
-~amd64 ~x86
-toolchain-funcs portability multilib fortran libtool autotools eutils
-examples gd gs opengl X debug
-
-
-
-2
-
-configure install postinst setup unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/sci-mathematics/dataplot-20080225

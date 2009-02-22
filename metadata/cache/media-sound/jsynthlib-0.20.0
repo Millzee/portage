@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 app-arch/unzip dev-java/groovy >=dev-java/java-config-2.1.6
->=virtual/jre-1.4 dev-java/groovy >=dev-java/java-config-2.1.6
-0
-http://www.jsynthlib.org/JSynthLib-0.20.0.jar
-
-http://www.jsynthlib.org/
-GPL-2
-Java-based MIDI hardware SysEx librarian
-~ppc ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 app-arch/unzip dev-java/groovy >=dev-java/java-config-2.1.6
+DESCRIPTION=Java-based MIDI hardware SysEx librarian
+EAPI=0
+HOMEPAGE=http://www.jsynthlib.org/
+IUSE=elibc_FreeBSD
+KEYWORDS=~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.4 dev-java/groovy >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=http://www.jsynthlib.org/JSynthLib-0.20.0.jar
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303741

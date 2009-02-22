@@ -1,22 +1,12 @@
->=dev-java/java-config-2.1.6
-|| ( dev-java/sun-jdk dev-java/icedtea6 dev-java/gcj-jdk dev-java/ibm-jdk-bin dev-java/blackdown-jdk dev-java/jrockit-jdk-bin dev-java/diablo-jdk ) >=dev-java/java-config-2.1.6
-0
-
-
-http://java.sun.com/javase
-GPL-2
-Java JDK tools
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs portability java-virtuals-2 java-utils-2 versionator multilib eutils
-elibc_FreeBSD
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=dev-java/java-config-2.1.6
+DESCRIPTION=Java JDK tools
+EAPI=0
+HOMEPAGE=http://java.sun.com/javase
+IUSE=elibc_FreeBSD
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( dev-java/sun-jdk dev-java/icedtea6 dev-java/gcj-jdk dev-java/ibm-jdk-bin dev-java/blackdown-jdk dev-java/jrockit-jdk-bin dev-java/diablo-jdk ) >=dev-java/java-config-2.1.6
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-utils-2	/home/Funtoo/portage/eclass	1235084241	java-virtuals-2	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303741

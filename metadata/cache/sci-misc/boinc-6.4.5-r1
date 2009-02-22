@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1
 RDEPEND=!sci-misc/boinc-bin >=app-misc/ca-certificates-20080809 dev-libs/openssl net-misc/curl sys-apps/util-linux sys-libs/zlib cuda? ( >=dev-util/nvidia-cuda-toolkit-2.1 >=x11-drivers/nvidia-drivers-180.22 ) server? ( >=virtual/mysql-5.0 dev-python/mysql-python )
 SLOT=0
 SRC_URI=http://dev.gentooexperimental.org/~scarabeus/boinc-6.4.5.tar.bz2
-_eclasses_=depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=depend.apache	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082898

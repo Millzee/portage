@@ -1,22 +1,12 @@
-virtual/xemacs
-app-xemacs/gnus app-xemacs/mh-e app-xemacs/rmail app-xemacs/vm app-xemacs/mailcrypt app-xemacs/mail-lib app-xemacs/apel app-xemacs/xemacs-base app-xemacs/fsf-compat app-xemacs/sh-script app-xemacs/net-utils app-xemacs/ecrypto
-0
-http://ftp.xemacs.org/pub/xemacs/packages/tm-1.39-pkg.tar.gz
-
-http://xemacs.org/
-GPL-2
-Emacs MIME support. Not needed for gnus >= 5.8.0
-~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86
-xemacs-packages
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/xemacs
+DESCRIPTION=Emacs MIME support. Not needed for gnus >= 5.8.0
+EAPI=0
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=app-xemacs/gnus app-xemacs/mh-e app-xemacs/rmail app-xemacs/vm app-xemacs/mailcrypt app-xemacs/mail-lib app-xemacs/apel app-xemacs/xemacs-base app-xemacs/fsf-compat app-xemacs/sh-script app-xemacs/net-utils app-xemacs/ecrypto
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/tm-1.39-pkg.tar.gz
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303739

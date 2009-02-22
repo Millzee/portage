@@ -1,22 +1,13 @@
-app-arch/zip gtk? ( || ( x11-libs/libXrender x11-proto/xextproto x11-proto/xproto ) ) alsa? ( media-libs/alsa-lib ) doc? ( >=dev-java/gjdoc-0.7.9 ) dssi? ( >=media-libs/dssi-0.9 ) gconf? ( gnome-base/gconf ) gjdoc? ( >=dev-java/antlr-2.7.1 ) gmp? ( >=dev-libs/gmp-4.2.4 ) gstreamer? ( >=media-libs/gstreamer-0.10.10 >=media-libs/gst-plugins-base-0.10.10 dev-libs/glib ) gtk? ( >=x11-libs/gtk+-2.8 >=dev-libs/glib-2.0 media-libs/freetype >=x11-libs/cairo-1.1.9 x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXrandr x11-libs/libXrender x11-libs/libXtst x11-libs/pango ) nsplugin? ( >=x11-libs/gtk+-2.8 || ( www-client/mozilla-firefox net-libs/xulrunner www-client/seamonkey ) ) qt4? ( || ( x11-libs/qt-gui:4 >=x11-libs/qt-4.0 ) ) xml? ( >=dev-libs/libxml2-2.6.8 >=dev-libs/libxslt-1.1.11 ) dev-java/eclipse-ecj:3.3 sys-apps/file >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7
-alsa? ( media-libs/alsa-lib ) doc? ( >=dev-java/gjdoc-0.7.9 ) dssi? ( >=media-libs/dssi-0.9 ) gconf? ( gnome-base/gconf ) gjdoc? ( >=dev-java/antlr-2.7.1 ) gmp? ( >=dev-libs/gmp-4.2.4 ) gstreamer? ( >=media-libs/gstreamer-0.10.10 >=media-libs/gst-plugins-base-0.10.10 dev-libs/glib ) gtk? ( >=x11-libs/gtk+-2.8 >=dev-libs/glib-2.0 media-libs/freetype >=x11-libs/cairo-1.1.9 x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXrandr x11-libs/libXrender x11-libs/libXtst x11-libs/pango ) nsplugin? ( >=x11-libs/gtk+-2.8 || ( www-client/mozilla-firefox net-libs/xulrunner www-client/seamonkey ) ) qt4? ( || ( x11-libs/qt-gui:4 >=x11-libs/qt-4.0 ) ) xml? ( >=dev-libs/libxml2-2.6.8 >=dev-libs/libxslt-1.1.11 ) dev-java/eclipse-ecj:3.3 sys-apps/file >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7
-0.98
-mirror://gnu/classpath/classpath-0.98.tar.gz
-
-http://www.gnu.org/software/classpath
-GPL-2-with-linking-exception
-Free core class libraries for use with virtual machines and compilers for the Java programming language
-~amd64 ~ppc
-toolchain-funcs java-pkg-2 portability flag-o-matic java-utils-2 versionator multilib eutils
-alsa debug doc dssi examples gconf gjdoc gmp gtk gstreamer nsplugin qt4 xml elibc_FreeBSD
-
-
-
-1
-
-compile install preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup
+DEPEND=app-arch/zip gtk? ( || ( x11-libs/libXrender x11-proto/xextproto x11-proto/xproto ) ) alsa? ( media-libs/alsa-lib ) doc? ( >=dev-java/gjdoc-0.7.9 ) dssi? ( >=media-libs/dssi-0.9 ) gconf? ( gnome-base/gconf ) gjdoc? ( >=dev-java/antlr-2.7.1 ) gmp? ( >=dev-libs/gmp-4.2.4 ) gstreamer? ( >=media-libs/gstreamer-0.10.10 >=media-libs/gst-plugins-base-0.10.10 dev-libs/glib ) gtk? ( >=x11-libs/gtk+-2.8 >=dev-libs/glib-2.0 media-libs/freetype >=x11-libs/cairo-1.1.9 x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXrandr x11-libs/libXrender x11-libs/libXtst x11-libs/pango ) nsplugin? ( >=x11-libs/gtk+-2.8 || ( www-client/mozilla-firefox net-libs/xulrunner www-client/seamonkey ) ) qt4? ( || ( x11-libs/qt-gui:4 >=x11-libs/qt-4.0 ) ) xml? ( >=dev-libs/libxml2-2.6.8 >=dev-libs/libxslt-1.1.11 ) dev-java/eclipse-ecj:3.3 sys-apps/file >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7
+DESCRIPTION=Free core class libraries for use with virtual machines and compilers for the Java programming language
+EAPI=1
+HOMEPAGE=http://www.gnu.org/software/classpath
+IUSE=alsa debug doc dssi examples gconf gjdoc gmp gtk gstreamer nsplugin qt4 xml elibc_FreeBSD
+KEYWORDS=~amd64 ~ppc
+LICENSE=GPL-2-with-linking-exception
+RDEPEND=alsa? ( media-libs/alsa-lib ) doc? ( >=dev-java/gjdoc-0.7.9 ) dssi? ( >=media-libs/dssi-0.9 ) gconf? ( gnome-base/gconf ) gjdoc? ( >=dev-java/antlr-2.7.1 ) gmp? ( >=dev-libs/gmp-4.2.4 ) gstreamer? ( >=media-libs/gstreamer-0.10.10 >=media-libs/gst-plugins-base-0.10.10 dev-libs/glib ) gtk? ( >=x11-libs/gtk+-2.8 >=dev-libs/glib-2.0 media-libs/freetype >=x11-libs/cairo-1.1.9 x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXrandr x11-libs/libXrender x11-libs/libXtst x11-libs/pango ) nsplugin? ( >=x11-libs/gtk+-2.8 || ( www-client/mozilla-firefox net-libs/xulrunner www-client/seamonkey ) ) qt4? ( || ( x11-libs/qt-gui:4 >=x11-libs/qt-4.0 ) ) xml? ( >=dev-libs/libxml2-2.6.8 >=dev-libs/libxslt-1.1.11 ) dev-java/eclipse-ecj:3.3 sys-apps/file >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7
+SLOT=0.98
+SRC_URI=mirror://gnu/classpath/classpath-0.98.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

@@ -10,5 +10,5 @@ RDEPEND=games-fps/ut2004
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=mirror://liflg/alien.swarm_1.3-english.run mirror://liflg/alien.swarm_phalanx.campaign-addon.run mirror://liflg/alien.swarm_telic.campaign-addon.run http://www.night-blade.com/AS/AlienSwarm_13_to_131_Patch.zip
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	games-mods	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	games	/home/Funtoo/portage/eclass	1235082859	games-mods	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082860

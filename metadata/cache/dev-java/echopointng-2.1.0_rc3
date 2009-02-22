@@ -1,22 +1,12 @@
->=virtual/jdk-1.4 dev-java/junit source? ( app-arch/zip app-arch/unzip ) =dev-java/servletapi-2.4* >=dev-java/echo2-2.1.0_beta5 >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.4 =dev-java/servletapi-2.4* >=dev-java/echo2-2.1.0_beta5 >=dev-java/java-config-2.1.6
-0
-mirror://sourceforge/echopoint/echopointng-src-2.1.0rc3.zip
-
-http://echopoint.sourceforge.net/
-MPL-1.1 GPL-2 LGPL-2.1
-A rich collection of web components which seamlessly integrate with the Echo Web Framework
-
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-doc source elibc_FreeBSD elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 dev-java/junit source? ( app-arch/zip app-arch/unzip ) =dev-java/servletapi-2.4* >=dev-java/echo2-2.1.0_beta5 >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=A rich collection of web components which seamlessly integrate with the Echo Web Framework
+EAPI=0
+HOMEPAGE=http://echopoint.sourceforge.net/
+IUSE=doc source elibc_FreeBSD elibc_FreeBSD
+LICENSE=MPL-1.1 GPL-2 LGPL-2.1
+RDEPEND=>=virtual/jre-1.4 =dev-java/servletapi-2.4* >=dev-java/echo2-2.1.0_beta5 >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=mirror://sourceforge/echopoint/echopointng-src-2.1.0rc3.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

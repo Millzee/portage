@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 app-arch/unzip dev-java/ant-core >=dev-java/cpptasks-1.0_beta4-r2 dev-java/gluegen cg? ( media-gfx/nvidia-cg-toolkit ) virtual/opengl x11-libs/libX11 x11-libs/libXxf86vm >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 dev-java/ant-antlr >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.4 dev-java/ant-core >=dev-java/cpptasks-1.0_beta4-r2 dev-java/gluegen cg? ( media-gfx/nvidia-cg-toolkit ) virtual/opengl x11-libs/libX11 x11-libs/libXxf86vm >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-http://download.java.net/media/jogl/builds/archive/jsr-231-1.1.0/jogl-1.1.0-src.zip
-
-https://jogl.dev.java.net
-BSD
-Java(TM) Binding fot the OpenGL(TM) API
-~amd64
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD cg source doc elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 app-arch/unzip dev-java/ant-core >=dev-java/cpptasks-1.0_beta4-r2 dev-java/gluegen cg? ( media-gfx/nvidia-cg-toolkit ) virtual/opengl x11-libs/libX11 x11-libs/libXxf86vm >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 dev-java/ant-antlr >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Java(TM) Binding fot the OpenGL(TM) API
+EAPI=0
+HOMEPAGE=https://jogl.dev.java.net
+IUSE=elibc_FreeBSD cg source doc elibc_FreeBSD
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=virtual/jre-1.4 dev-java/ant-core >=dev-java/cpptasks-1.0_beta4-r2 dev-java/gluegen cg? ( media-gfx/nvidia-cg-toolkit ) virtual/opengl x11-libs/libX11 x11-libs/libXxf86vm >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=http://download.java.net/media/jogl/builds/archive/jsr-231-1.1.0/jogl-1.1.0-src.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

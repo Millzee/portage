@@ -1,22 +1,12 @@
->=virtual/jdk-1.4 dev-java/ant-core app-arch/unzip dev-java/apple-java-extensions-bin ~dev-java/jdom-1.0_beta10 >=dev-java/xerces-2.7 =dev-java/gnu-regexp-1* dev-java/bsh >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.4 dev-java/apple-java-extensions-bin ~dev-java/jdom-1.0_beta10 >=dev-java/xerces-2.7 =dev-java/gnu-regexp-1* dev-java/bsh >=dev-java/java-config-2.1.6
-0.13
-mirror://sourceforge/abbot/abbot-0.13.1-src.jar
-
-http://abbot.sourceforge.net/
-CPL-1.0
-Java GUI Test Framework.
-
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-doc elibc_FreeBSD elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup test unpack
+DEPEND=>=virtual/jdk-1.4 dev-java/ant-core app-arch/unzip dev-java/apple-java-extensions-bin ~dev-java/jdom-1.0_beta10 >=dev-java/xerces-2.7 =dev-java/gnu-regexp-1* dev-java/bsh >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Java GUI Test Framework.
+EAPI=0
+HOMEPAGE=http://abbot.sourceforge.net/
+IUSE=doc elibc_FreeBSD elibc_FreeBSD
+LICENSE=CPL-1.0
+RDEPEND=>=virtual/jre-1.4 dev-java/apple-java-extensions-bin ~dev-java/jdom-1.0_beta10 >=dev-java/xerces-2.7 =dev-java/gnu-regexp-1* dev-java/bsh >=dev-java/java-config-2.1.6
+SLOT=0.13
+SRC_URI=mirror://sourceforge/abbot/abbot-0.13.1-src.jar
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

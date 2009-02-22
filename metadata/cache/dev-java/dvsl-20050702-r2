@@ -1,22 +1,12 @@
->=virtual/jdk-1.4 =dev-java/crimson-1* =dev-java/dom4j-1* dev-java/gnu-jaxp dev-java/velocity dev-java/xalan =dev-java/xerces-1* >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.4 dev-java/ant-core =dev-java/crimson-1* =dev-java/dom4j-1* dev-java/gnu-jaxp dev-java/velocity dev-java/xalan =dev-java/xerces-1* >=dev-java/java-config-2.1.6
-0
-http://gentooexperimental.org/distfiles/dvsl-20050702.tar.bz2
-
-http://jakarta.apache.org/velocity/dvsl/index.html
-Apache-1.1
-Declarative Velocity Style Language.
-
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-doc elibc_FreeBSD elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 =dev-java/crimson-1* =dev-java/dom4j-1* dev-java/gnu-jaxp dev-java/velocity dev-java/xalan =dev-java/xerces-1* >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Declarative Velocity Style Language.
+EAPI=0
+HOMEPAGE=http://jakarta.apache.org/velocity/dvsl/index.html
+IUSE=doc elibc_FreeBSD elibc_FreeBSD
+LICENSE=Apache-1.1
+RDEPEND=>=virtual/jre-1.4 dev-java/ant-core =dev-java/crimson-1* =dev-java/dom4j-1* dev-java/gnu-jaxp dev-java/velocity dev-java/xalan =dev-java/xerces-1* >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=http://gentooexperimental.org/distfiles/dvsl-20050702.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

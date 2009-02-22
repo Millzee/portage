@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 app-arch/unzip dev-java/ant-core dev-java/antlr >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 dev-java/ant-antlr >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.4 dev-java/ant-core dev-java/antlr >=dev-java/java-config-2.1.6
-0
-http://dev.gentoo.org/~ali_bush/distfiles/gluegen-20080727.tar.bz2
-
-https://gluegen.dev.java.net
-BSD
-GlueGen is a tool which automatically generates the Java and JNI code necessary to call C libraries
-~amd64
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 app-arch/unzip dev-java/ant-core dev-java/antlr >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 dev-java/ant-antlr >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=GlueGen is a tool which automatically generates the Java and JNI code necessary to call C libraries
+EAPI=0
+HOMEPAGE=https://gluegen.dev.java.net
+IUSE=elibc_FreeBSD elibc_FreeBSD
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=virtual/jre-1.4 dev-java/ant-core dev-java/antlr >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~ali_bush/distfiles/gluegen-20080727.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

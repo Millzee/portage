@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/ocaml-3.09 dev-ml/camlp5
 RESTRICT=installsources
 SLOT=0
 SRC_URI=http://pauillac.inria.fr/~ddr/ledit/distrib/src/ledit-2.01.tgz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082849

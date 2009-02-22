@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=dev-lang/perl sys-process/procps ssl? ( dev-perl/Net-SSLeay ) mysql? ( virtual/mysql ) postgres? ( dev-perl/DBD-Pg virtual/postgresql-base ) irc? ( dev-perl/Net-IRC ) dev-perl/DateManip dev-perl/Net-Netmask dev-perl/Net-SNMP dev-perl/libwww-perl dev-perl/net-server virtual/perl-Digest-MD5 virtual/perl-Getopt-Long virtual/perl-MIME-Base64 virtual/perl-Storable virtual/perl-Text-Balanced virtual/perl-Time-HiRes !minimal? ( dev-perl/HTML-Template net-analyzer/rrdtool ) !minimal? ( virtual/cron )
 SLOT=0
 SRC_URI=mirror://sourceforge/munin/munin_1.3.4.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082889

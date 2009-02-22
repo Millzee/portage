@@ -8,5 +8,5 @@ RDEPEND=sys-libs/glibc virtual/opengl x86? ( sys-libs/lib-compat virtual/glu vir
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=ftp://ftp.planetmirror.com/pub/parsec/0197/parsec_lan_build0197.tar.gz ftp://ftp.linuxforum.hu/Games/parsec/parsec_lan_build0197.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082859

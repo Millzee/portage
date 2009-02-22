@@ -1,22 +1,12 @@
-virtual/xemacs
-app-xemacs/ediff app-xemacs/xemacs-base app-xemacs/jde app-xemacs/mail-lib app-xemacs/dired app-xemacs/prog-modes
-0
-http://ftp.xemacs.org/pub/xemacs/packages/xetla-1.02-pkg.tar.gz
-
-http://xemacs.org/
-GPL-2
-Arch (tla) interface for XEmacs
-~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86
-xemacs-packages
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/xemacs
+DESCRIPTION=Arch (tla) interface for XEmacs
+EAPI=0
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=app-xemacs/ediff app-xemacs/xemacs-base app-xemacs/jde app-xemacs/mail-lib app-xemacs/dired app-xemacs/prog-modes
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/xetla-1.02-pkg.tar.gz
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

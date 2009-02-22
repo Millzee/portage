@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/net-analyzer/pnp4nagios-0.4.13
 DEFINED_PHASES=compile install postinst setup
 DEPEND=>=dev-lang/php-4.3 >=net-analyzer/rrdtool-1.2 net-analyzer/nagios-core
 DESCRIPTION=A performance data analyzer for nagios
@@ -9,29 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-lang/php-4.3 >=net-analyzer/rrdtool-1.2 net-analyzer/nagios-core virtual/perl-Getopt-Long virtual/perl-Time-HiRes
 SLOT=0
 SRC_URI=mirror://sourceforge/pnp4nagios/pnp-0.4.13.tar.gz
-_eclasses_=confutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=confutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235211576
-=======
->=dev-lang/php-4.3 >=net-analyzer/rrdtool-1.2 net-analyzer/nagios-core
->=dev-lang/php-4.3 >=net-analyzer/rrdtool-1.2 net-analyzer/nagios-core virtual/perl-Getopt-Long virtual/perl-Time-HiRes
-0
-mirror://sourceforge/pnp4nagios/pnp-0.4.13.tar.gz
-
-http://www.pnp4nagios.org
-GPL-2
-A performance data analyzer for nagios
-~amd64 ~ppc ~ppc64 ~x86
-confutils toolchain-funcs multilib portability eutils
-
-
-
-
-0
-
-compile install postinst setup
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/net-analyzer/pnp4nagios-0.4.13

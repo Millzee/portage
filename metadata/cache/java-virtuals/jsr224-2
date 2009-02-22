@@ -1,22 +1,12 @@
->=dev-java/java-config-2.1.6
-|| ( =virtual/jdk-1.6* dev-java/jax-ws-api:2 ) >=dev-java/java-config-2.1.6 >=dev-java/java-config-2.1.6
-0
-
-
-http://www.gentoo.org
-GPL-2
-Virtual for the Java API for XML Web Services (JAX-WS, JSR 224)
-amd64 ppc x86 ~x86-fbsd
-toolchain-funcs portability java-virtuals-2 java-utils-2 versionator multilib eutils
-elibc_FreeBSD
-
-
-
-1
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DEPEND=>=dev-java/java-config-2.1.6
+DESCRIPTION=Virtual for the Java API for XML Web Services (JAX-WS, JSR 224)
+EAPI=1
+HOMEPAGE=http://www.gentoo.org
+IUSE=elibc_FreeBSD
+KEYWORDS=amd64 ppc x86 ~x86-fbsd
+LICENSE=GPL-2
+RDEPEND=|| ( =virtual/jdk-1.6* dev-java/jax-ws-api:2 ) >=dev-java/java-config-2.1.6 >=dev-java/java-config-2.1.6
+SLOT=0
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-utils-2	/home/Funtoo/portage/eclass	1235084241	java-virtuals-2	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303741

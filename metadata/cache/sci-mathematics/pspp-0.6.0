@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=sci-libs/gsl sys-libs/readline >=sys-devel/gettext-0.14.1 >=dev-lang/perl-5.6 virtual/libiconv ncurses? ( >=sys-libs/ncurses-5.4 ) plotutils? ( >=media-libs/plotutils-2.4.1 ) emacs? ( virtual/emacs ) psppire? ( >=x11-libs/gtk+-2.12 >=gnome-base/libglade-2.6 )
 SLOT=0
 SRC_URI=ftp://ftp.gnu.org/pub/gnu/pspp/pspp-0.6.0.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082898

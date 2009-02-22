@@ -1,22 +1,13 @@
->=virtual/jdk-1.5 >=dev-java/java-config-2.1.6
->=virtual/jre-1.5 =dev-java/hibernate-3.1* =dev-java/lucene-1* >=dev-java/java-config-2.1.6
-3.1
-mirror://sourceforge/hibernate/hibernate-annotations-3.1beta8.tar.gz mirror://sourceforge/hibernate/hibernate-3.1.2.tar.gz
-
-http://annotations.hibernate.org
-LGPL-2
-Annotations support for Hibernate
-~amd64 ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-doc source elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.5 >=dev-java/java-config-2.1.6
+DESCRIPTION=Annotations support for Hibernate
+EAPI=0
+HOMEPAGE=http://annotations.hibernate.org
+IUSE=doc source elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2
+RDEPEND=>=virtual/jre-1.5 =dev-java/hibernate-3.1* =dev-java/lucene-1* >=dev-java/java-config-2.1.6
+SLOT=3.1
+SRC_URI=mirror://sourceforge/hibernate/hibernate-annotations-3.1beta8.tar.gz mirror://sourceforge/hibernate/hibernate-3.1.2.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

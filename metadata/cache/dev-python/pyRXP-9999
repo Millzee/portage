@@ -1,22 +1,10 @@
-virtual/python dev-util/subversion net-misc/rsync
-
-0
-
-
-http://www.reportlab.org/pyrxp.html
-as-is
-Binding to RXP, a very fast validating XML parser.
-
-toolchain-funcs distutils portability python alternatives multilib subversion eutils
-doc examples
-
-
-
-0
-
-compile install postinst postrm preinst unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=virtual/python dev-util/subversion net-misc/rsync
+DESCRIPTION=Binding to RXP, a very fast validating XML parser.
+EAPI=0
+HOMEPAGE=http://www.reportlab.org/pyrxp.html
+IUSE=doc examples
+LICENSE=as-is
+SLOT=0
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303741

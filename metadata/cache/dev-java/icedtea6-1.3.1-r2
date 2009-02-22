@@ -1,22 +1,14 @@
->=net-print/cups-1.2.12 >=x11-libs/libX11-1.1.3 >=media-libs/freetype-2.3.5 >=media-libs/alsa-lib-1.0 >=x11-libs/gtk+-2.8 >=x11-libs/libXinerama-1.0.2 >=x11-libs/libXp-1.0.0 >=x11-libs/libXi-1.1.3 >=x11-libs/libXau-1.0.3 >=x11-libs/libXdmcp-1.0.2 >=x11-libs/libXtst-1.0.3 >=media-libs/jpeg-6b >=media-libs/libpng-1.2 >=media-libs/giflib-4.1.6 >=sys-libs/zlib-1.2.3 x11-proto/inputproto x11-proto/xineramaproto nsplugin? ( >=net-libs/xulrunner-1.9 ) pulseaudio? ( >=media-sound/pulseaudio-0.9.11 ) javascript? ( dev-java/rhino:1.6 ) zero? ( sys-devel/gcc[libffi] ) || ( >=virtual/gnu-classpath-jdk-1.5 dev-java/icedtea6 dev-java/icedtea6-bin ) >=virtual/jdk-1.5 >=app-arch/unzip-5.52 >=dev-java/xalan-2.7.0:0 >=dev-java/xerces-2.9.1:2 || ( =dev-java/ant-core-1.7.0-r3 >=dev-java/ant-core-1.7.1-r2 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=dev-java/java-config-2.1.6 =dev-java/java-config-2*
->=net-print/cups-1.2.12 >=x11-libs/libX11-1.1.3 >=media-libs/freetype-2.3.5 >=media-libs/alsa-lib-1.0 >=x11-libs/gtk+-2.8 >=x11-libs/libXinerama-1.0.2 >=x11-libs/libXp-1.0.0 >=x11-libs/libXi-1.1.3 >=x11-libs/libXau-1.0.3 >=x11-libs/libXdmcp-1.0.2 >=x11-libs/libXtst-1.0.3 >=media-libs/jpeg-6b >=media-libs/libpng-1.2 >=media-libs/giflib-4.1.6 >=sys-libs/zlib-1.2.3 x11-proto/inputproto x11-proto/xineramaproto nsplugin? ( >=net-libs/xulrunner-1.9 ) pulseaudio? ( >=media-sound/pulseaudio-0.9.11 ) javascript? ( dev-java/rhino:1.6 ) zero? ( sys-devel/gcc[libffi] ) >=dev-java/java-config-2.1.6 =dev-java/java-config-2*
-0
-http://icedtea.classpath.org/download/source/icedtea6-1.3.1.tar.gz http://download.java.net/openjdk/jdk6/promoted/b12/openjdk-6-src-b12-28_aug_2008.tar.gz cacao? ( http://www.complang.tuwien.ac.at/cacaojvm/download/cacao-0.99.3/cacao-0.99.3.tar.gz )
-test
-http://icedtea.classpath.org
-GPL-2-with-linking-exception
-A harness to build the OpenJDK using Free Software build tools and dependencies
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib pax-utils libtool eutils fdo-mime autotools java-vm-2
-cacao debug doc examples javascript nsplugin pulseaudio shark zero elibc_FreeBSD
-
-
-
-2
-
-compile configure install postinst postrm preinst prepare prerm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare prerm setup unpack
+DEPEND=>=net-print/cups-1.2.12 >=x11-libs/libX11-1.1.3 >=media-libs/freetype-2.3.5 >=media-libs/alsa-lib-1.0 >=x11-libs/gtk+-2.8 >=x11-libs/libXinerama-1.0.2 >=x11-libs/libXp-1.0.0 >=x11-libs/libXi-1.1.3 >=x11-libs/libXau-1.0.3 >=x11-libs/libXdmcp-1.0.2 >=x11-libs/libXtst-1.0.3 >=media-libs/jpeg-6b >=media-libs/libpng-1.2 >=media-libs/giflib-4.1.6 >=sys-libs/zlib-1.2.3 x11-proto/inputproto x11-proto/xineramaproto nsplugin? ( >=net-libs/xulrunner-1.9 ) pulseaudio? ( >=media-sound/pulseaudio-0.9.11 ) javascript? ( dev-java/rhino:1.6 ) zero? ( sys-devel/gcc[libffi] ) || ( >=virtual/gnu-classpath-jdk-1.5 dev-java/icedtea6 dev-java/icedtea6-bin ) >=virtual/jdk-1.5 >=app-arch/unzip-5.52 >=dev-java/xalan-2.7.0:0 >=dev-java/xerces-2.9.1:2 || ( =dev-java/ant-core-1.7.0-r3 >=dev-java/ant-core-1.7.1-r2 ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=dev-java/java-config-2.1.6 =dev-java/java-config-2*
+DESCRIPTION=A harness to build the OpenJDK using Free Software build tools and dependencies
+EAPI=2
+HOMEPAGE=http://icedtea.classpath.org
+IUSE=cacao debug doc examples javascript nsplugin pulseaudio shark zero elibc_FreeBSD
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2-with-linking-exception
+RDEPEND=>=net-print/cups-1.2.12 >=x11-libs/libX11-1.1.3 >=media-libs/freetype-2.3.5 >=media-libs/alsa-lib-1.0 >=x11-libs/gtk+-2.8 >=x11-libs/libXinerama-1.0.2 >=x11-libs/libXp-1.0.0 >=x11-libs/libXi-1.1.3 >=x11-libs/libXau-1.0.3 >=x11-libs/libXdmcp-1.0.2 >=x11-libs/libXtst-1.0.3 >=media-libs/jpeg-6b >=media-libs/libpng-1.2 >=media-libs/giflib-4.1.6 >=sys-libs/zlib-1.2.3 x11-proto/inputproto x11-proto/xineramaproto nsplugin? ( >=net-libs/xulrunner-1.9 ) pulseaudio? ( >=media-sound/pulseaudio-0.9.11 ) javascript? ( dev-java/rhino:1.6 ) zero? ( sys-devel/gcc[libffi] ) >=dev-java/java-config-2.1.6 =dev-java/java-config-2*
+RESTRICT=test
+SLOT=0
+SRC_URI=http://icedtea.classpath.org/download/source/icedtea6-1.3.1.tar.gz http://download.java.net/openjdk/jdk6/promoted/b12/openjdk-6-src-b12-28_aug_2008.tar.gz cacao? ( http://www.complang.tuwien.ac.at/cacaojvm/download/cacao-0.99.3/cacao-0.99.3.tar.gz )
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	fdo-mime	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	java-vm-2	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	pax-utils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

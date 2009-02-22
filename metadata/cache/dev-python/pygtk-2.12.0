@@ -10,5 +10,5 @@ RDEPEND=>=dev-libs/glib-2.8.0 >=x11-libs/pango-1.16.0 >=dev-libs/atk-1.12.0 >=x1
 RESTRICT=test
 SLOT=2
 SRC_URI=mirror://gnome/sources/pygtk/2.12/pygtk-2.12.0.tar.bz2 doc? ( mirror://gnome/sources/pygtk2reference/2.9/pygtk2reference-2.9.0.tar.bz2 )
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082857

@@ -9,5 +9,5 @@ RDEPEND=>=x11-misc/icon-naming-utils-0.8.2
 RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=mirror://gentoo/echo-icon-theme-0.3.89.0_pre20081031.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082910

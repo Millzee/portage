@@ -1,22 +1,13 @@
-|| ( x11-libs/qt-gui:4 =x11-libs/qt-4.3*:4 ) media-libs/taglib alsa? ( media-libs/alsa-lib ) dbus? ( sys-apps/dbus ) flac? ( media-libs/flac ) libsamplerate? ( media-libs/libsamplerate ) mad? ( media-libs/libmad ) musepack? ( >=media-libs/libmpcdec-1.2.5 ) modplug? ( >=media-libs/libmodplug-0.8.4 ) vorbis? ( media-libs/libvorbis media-libs/libogg ) jack? ( media-sound/jack-audio-connection-kit media-libs/libsamplerate ) ffmpeg? ( media-video/ffmpeg ) pulseaudio? ( >=media-sound/pulseaudio-0.9.9 ) wavpack? ( media-sound/wavpack ) scrobbler? ( net-misc/curl ) sndfile? ( media-libs/libsndfile ) >=dev-util/cmake-2.4.8 >=dev-util/cmake-2.4.6
-|| ( x11-libs/qt-gui:4 =x11-libs/qt-4.3*:4 ) media-libs/taglib alsa? ( media-libs/alsa-lib ) dbus? ( sys-apps/dbus ) flac? ( media-libs/flac ) libsamplerate? ( media-libs/libsamplerate ) mad? ( media-libs/libmad ) musepack? ( >=media-libs/libmpcdec-1.2.5 ) modplug? ( >=media-libs/libmodplug-0.8.4 ) vorbis? ( media-libs/libvorbis media-libs/libogg ) jack? ( media-sound/jack-audio-connection-kit media-libs/libsamplerate ) ffmpeg? ( media-video/ffmpeg ) pulseaudio? ( >=media-sound/pulseaudio-0.9.9 ) wavpack? ( media-sound/wavpack ) scrobbler? ( net-misc/curl ) sndfile? ( media-libs/libsndfile )
-0
-http://qmmp.ylsoftware.com/files/qmmp-0.2.3.tar.bz2
-
-http://qmmp.ylsoftware.com/index_en.php
-GPL-2
-Qt4-based audio player with winamp/xmms skins support
-~amd64 ~x86
-toolchain-funcs portability flag-o-matic multilib cmake-utils eutils
-+alsa +dbus ffmpeg flac jack libsamplerate +mad modplug musepack oss pulseaudio scrobbler sndfile +vorbis wavpack
-
-
-
-2
-
-compile configure install prepare test
-
-
-
-
-
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=|| ( x11-libs/qt-gui:4 =x11-libs/qt-4.3*:4 ) media-libs/taglib alsa? ( media-libs/alsa-lib ) dbus? ( sys-apps/dbus ) flac? ( media-libs/flac ) libsamplerate? ( media-libs/libsamplerate ) mad? ( media-libs/libmad ) musepack? ( >=media-libs/libmpcdec-1.2.5 ) modplug? ( >=media-libs/libmodplug-0.8.4 ) vorbis? ( media-libs/libvorbis media-libs/libogg ) jack? ( media-sound/jack-audio-connection-kit media-libs/libsamplerate ) ffmpeg? ( media-video/ffmpeg ) pulseaudio? ( >=media-sound/pulseaudio-0.9.9 ) wavpack? ( media-sound/wavpack ) scrobbler? ( net-misc/curl ) sndfile? ( media-libs/libsndfile ) >=dev-util/cmake-2.4.8 >=dev-util/cmake-2.4.6
+DESCRIPTION=Qt4-based audio player with winamp/xmms skins support
+EAPI=2
+HOMEPAGE=http://qmmp.ylsoftware.com/index_en.php
+IUSE=+alsa +dbus ffmpeg flac jack libsamplerate +mad modplug musepack oss pulseaudio scrobbler sndfile +vorbis wavpack
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( x11-libs/qt-gui:4 =x11-libs/qt-4.3*:4 ) media-libs/taglib alsa? ( media-libs/alsa-lib ) dbus? ( sys-apps/dbus ) flac? ( media-libs/flac ) libsamplerate? ( media-libs/libsamplerate ) mad? ( media-libs/libmad ) musepack? ( >=media-libs/libmpcdec-1.2.5 ) modplug? ( >=media-libs/libmodplug-0.8.4 ) vorbis? ( media-libs/libvorbis media-libs/libogg ) jack? ( media-sound/jack-audio-connection-kit media-libs/libsamplerate ) ffmpeg? ( media-video/ffmpeg ) pulseaudio? ( >=media-sound/pulseaudio-0.9.9 ) wavpack? ( media-sound/wavpack ) scrobbler? ( net-misc/curl ) sndfile? ( media-libs/libsndfile )
+SLOT=0
+SRC_URI=http://qmmp.ylsoftware.com/files/qmmp-0.2.3.tar.bz2
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303741

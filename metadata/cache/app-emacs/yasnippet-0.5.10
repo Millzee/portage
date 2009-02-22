@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/app-emacs/yasnippet-0.5.10
 DEFINED_PHASES=compile install postinst postrm setup unpack
 DEPEND=>=app-emacs/dropdown-list-20080316 >=virtual/emacs-21
 DESCRIPTION=Yet another snippet extension for Emacs
@@ -12,27 +11,3 @@ SLOT=0
 SRC_URI=http://yasnippet.googlecode.com/files/yasnippet-0.5.10.tar.bz2 doc? ( http://yasnippet.googlecode.com/files/yasnippet-doc-0.5.10.tar.bz2 )
 _eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235211576
-=======
->=app-emacs/dropdown-list-20080316 >=virtual/emacs-21
->=app-emacs/dropdown-list-20080316 >=virtual/emacs-21
-0
-http://yasnippet.googlecode.com/files/yasnippet-0.5.10.tar.bz2 doc? ( http://yasnippet.googlecode.com/files/yasnippet-doc-0.5.10.tar.bz2 )
-
-http://code.google.com/p/yasnippet/
-MIT GPL-2
-Yet another snippet extension for Emacs
-~amd64 ~x86
-versionator elisp elisp-common
-doc
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/app-emacs/yasnippet-0.5.10

@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=media-video/dvdauthor-0.6.10 >=media-video/mjpegtools-1.6.2 >=media-video/vdrsync-0.1.3_pre1-r5 >=media-video/m2vrequantizer-20060306 media-video/transcode media-fonts/ttf-bitstream-vera media-video/vdrtools-genindex virtual/eject virtual/cdrtools >=app-cdr/dvd+rw-tools-5.21 projectx? ( >=media-video/projectx-0.90.4.00-r4 ) >=media-tv/gentoo-vdr-scripts-0.4.2 >=app-admin/eselect-vdr-0.0.2
 SLOT=0
 SRC_URI=http://www.magoa.net/linux/contrib/vdr-burn-0.1.0-pre21.tgz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	vdr-plugin	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	vdr-plugin	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082868

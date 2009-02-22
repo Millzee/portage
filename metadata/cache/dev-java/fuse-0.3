@@ -1,22 +1,13 @@
->=virtual/jdk-1.5 app-arch/unzip >=virtual/jre-1.5 dev-java/cssparser =dev-java/swt-3* >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.5 dev-java/cssparser =dev-java/swt-3* >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-https://fuse.dev.java.net/files/documents/4589/32550/fuse-src-0.3.zip
-
-https://fuse.dev.java.net
-BSD
-Fuse is a lightweight resource injection library specifically designed for GUI programming.
-~amd64
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD doc source examples elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.5 app-arch/unzip >=virtual/jre-1.5 dev-java/cssparser =dev-java/swt-3* >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Fuse is a lightweight resource injection library specifically designed for GUI programming.
+EAPI=0
+HOMEPAGE=https://fuse.dev.java.net
+IUSE=elibc_FreeBSD doc source examples elibc_FreeBSD
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=virtual/jre-1.5 dev-java/cssparser =dev-java/swt-3* >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=https://fuse.dev.java.net/files/documents/4589/32550/fuse-src-0.3.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

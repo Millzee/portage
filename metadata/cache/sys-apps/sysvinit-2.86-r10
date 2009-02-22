@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=selinux? ( >=sys-libs/libselinux-1.28 )
 SLOT=0
 SRC_URI=ftp://ftp.cistron.nl/pub/people/miquels/software/sysvinit-2.86.tar.gz ftp://sunsite.unc.edu/pub/Linux/system/daemons/init/sysvinit-2.86.tar.gz http://www.gc-linux.org/down/isobel/kexec/sysvinit/sysvinit-2.86-kexec.patch
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082899

@@ -1,22 +1,14 @@
->=virtual/jdk-1.4 =dev-java/jdom-1.0* >=dev-java/plexus-utils-1.4.7_pre20071021 >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 source? ( app-arch/zip ) >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.4 =dev-java/jdom-1.0* >=dev-java/plexus-utils-1.4.7_pre20071021 >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/javatoolkit-0.3.0-r2
-0
-http://dev.gentooexperimental.org/~kiorky/maven-model-2.1_pre20071021.tar.bz2 http://dev.gentooexperimental.org/~kiorky/maven-model-2.1_pre20071021-gen-src.tar.bz2
-test
-http://maven.apache.org/
-Apache-2.0
-Maven is a software project management and comprehension tool.
-~amd64 ~x86
-toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib base java-ant-2 eutils java-maven-2
-elibc_FreeBSD source elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 =dev-java/jdom-1.0* >=dev-java/plexus-utils-1.4.7_pre20071021 >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 source? ( app-arch/zip ) >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Maven is a software project management and comprehension tool.
+EAPI=0
+HOMEPAGE=http://maven.apache.org/
+IUSE=elibc_FreeBSD source elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.4 =dev-java/jdom-1.0* >=dev-java/plexus-utils-1.4.7_pre20071021 >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/javatoolkit-0.3.0-r2
+RESTRICT=test
+SLOT=0
+SRC_URI=http://dev.gentooexperimental.org/~kiorky/maven-model-2.1_pre20071021.tar.bz2 http://dev.gentooexperimental.org/~kiorky/maven-model-2.1_pre20071021-gen-src.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-maven-2	/home/Funtoo/portage/eclass	1235303741	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

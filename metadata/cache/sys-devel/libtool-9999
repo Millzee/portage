@@ -7,5 +7,5 @@ IUSE=vanilla
 LICENSE=GPL-2
 RDEPEND=sys-devel/gnuconfig >=sys-devel/autoconf-2.60 >=sys-devel/automake-1.10
 SLOT=1.5
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	git	/home/Funtoo/portage/eclass	1235114495	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	git	/home/Funtoo/portage/eclass	1235114495	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082906

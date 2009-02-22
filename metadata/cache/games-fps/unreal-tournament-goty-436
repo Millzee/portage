@@ -9,5 +9,5 @@ LICENSE=as-is
 RDEPEND=opengl? ( virtual/opengl ) x11-libs/libXext x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp
 SLOT=0
 SRC_URI=ftp://ftp.lokigames.com/pub/beta/ut/ut-install-436-GOTY.run ftp://ftp.lokigames.com/pub/patches/ut/IpDrv-436-Linux-08-20-02.zip
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082860

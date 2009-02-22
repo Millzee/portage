@@ -1,22 +1,13 @@
->=virtual/jdk-1.4 !<dev-java/ant-tasks-1.7.0 !<dev-java/ant-1.7.0 !dev-java/ant-optional source? ( app-arch/zip ) >=dev-java/java-config-2.1.6 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jdk-1.4 !<dev-java/ant-tasks-1.7.0 !<dev-java/ant-1.7.0 !dev-java/ant-optional >=dev-java/java-config-2.1.6
-0
-mirror://apache/ant/source/apache-ant-1.7.0-src.tar.bz2 mirror://gentoo/ant-1.7.0-gentoo.tar.bz2
-
-http://ant.apache.org/
-Apache-2.0
-Java-based build tool similar to 'make' that uses XML configuration files.
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-doc source elibc_FreeBSD elibc_FreeBSD
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 !<dev-java/ant-tasks-1.7.0 !<dev-java/ant-1.7.0 !dev-java/ant-optional source? ( app-arch/zip ) >=dev-java/java-config-2.1.6 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Java-based build tool similar to 'make' that uses XML configuration files.
+EAPI=0
+HOMEPAGE=http://ant.apache.org/
+IUSE=doc source elibc_FreeBSD elibc_FreeBSD
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jdk-1.4 !<dev-java/ant-tasks-1.7.0 !<dev-java/ant-1.7.0 !dev-java/ant-optional >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=mirror://apache/ant/source/apache-ant-1.7.0-src.tar.bz2 mirror://gentoo/ant-1.7.0-gentoo.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

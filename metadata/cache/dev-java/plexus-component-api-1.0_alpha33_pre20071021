@@ -1,22 +1,14 @@
->=virtual/jdk-1.4 =dev-java/plexus-classworlds-1.2* >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 source? ( app-arch/zip ) >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.4 =dev-java/plexus-classworlds-1.2* >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/javatoolkit-0.3.0-r2
-1.0_alpha33
-http://dev.gentooexperimental.org/~kiorky/plexus-component-api-1.0_alpha33_pre20071021.tar.bz2
-test
-http://plexus.codehaus.org/
-as-is
-The Plexus project provides a full software stack for creating and executing software projects.
-~amd64 ~x86
-toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib base java-ant-2 eutils java-maven-2
-elibc_FreeBSD source elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.4 =dev-java/plexus-classworlds-1.2* >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 source? ( app-arch/zip ) >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=The Plexus project provides a full software stack for creating and executing software projects.
+EAPI=0
+HOMEPAGE=http://plexus.codehaus.org/
+IUSE=elibc_FreeBSD source elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+LICENSE=as-is
+RDEPEND=>=virtual/jre-1.4 =dev-java/plexus-classworlds-1.2* >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/javatoolkit-0.3.0-r2
+RESTRICT=test
+SLOT=1.0_alpha33
+SRC_URI=http://dev.gentooexperimental.org/~kiorky/plexus-component-api-1.0_alpha33_pre20071021.tar.bz2
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-maven-2	/home/Funtoo/portage/eclass	1235303741	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

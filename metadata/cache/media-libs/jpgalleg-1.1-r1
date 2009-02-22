@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=media-libs/allegro-4.0.0 >=app-arch/unzip-5.50 >=sys-apps/sed-4
 SLOT=0
 SRC_URI=http://orbflux.com/jpgalleg/jpgalleg.zip http://www.dribin.org/dave/game_launcher/jpgal11b.zip
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082867

@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=sdl? ( media-libs/libsdl media-libs/sdl-gfx ui? ( x11-libs/gtk+ ) alsa? ( media-libs/alsa-lib ) ) !sdl? ( X? ( x11-libs/libXext dga? ( x11-libs/libXxf86dga x11-libs/libXxf86vm ) ui? ( x11-libs/gtk+ ) ) !X? ( svga? ( media-libs/svgalib ui? ( sys-libs/ncurses ) ) !svga? ( aalib? ( media-libs/aalib ui? ( sys-libs/ncurses ) ) ) !aalib? ( media-libs/libsdl ui? ( x11-libs/gtk+ ) ) ) alsa? ( media-libs/alsa-lib ) ) scsi? ( app-cdr/cdrtools )
 SLOT=0
 SRC_URI=ftp://ftp.coresystems.de/pub/uae/sources/develop/uae-0.8.26.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082848

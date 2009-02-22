@@ -1,22 +1,13 @@
->=virtual/jdk-1.5 app-arch/unzip =dev-java/eclipse-ecj-3.2* dev-java/vecmath dev-java/vecmath >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 dev-java/ant-nodeps >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.5 dev-java/vecmath >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-http://dev.gentoo.org/~ali_bush/distfiles/j3d-core-1.5.1.tar.bz2 http://dev.gentoo.org/~ali_bush/distfiles/j3d-core-utils-1.5.1.tar.bz2
-
-https://java3d.dev.java.net/
-|| ( sun-jrl sun-jdl )
-Java3D Core API and Utils package
-~amd64 ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD doc source elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.5 app-arch/unzip =dev-java/eclipse-ecj-3.2* dev-java/vecmath dev-java/vecmath >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 dev-java/ant-nodeps >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Java3D Core API and Utils package
+EAPI=0
+HOMEPAGE=https://java3d.dev.java.net/
+IUSE=elibc_FreeBSD doc source elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( sun-jrl sun-jdl )
+RDEPEND=>=virtual/jre-1.5 dev-java/vecmath >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=http://dev.gentoo.org/~ali_bush/distfiles/j3d-core-1.5.1.tar.bz2 http://dev.gentoo.org/~ali_bush/distfiles/j3d-core-utils-1.5.1.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

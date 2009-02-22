@@ -10,5 +10,5 @@ RDEPEND=dev-libs/expat >=dev-games/hawknl-1.66 >=media-libs/allegro-4.2.0 >=medi
 RESTRICT=test
 SLOT=0
 SRC_URI=mirror://sourceforge/ufo2000/ufo2000-0.7.1062-src.tar.bz2 vorbis? ( mirror://sourceforge/ufo2000/ufo2000-music-20041222.zip )
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082861

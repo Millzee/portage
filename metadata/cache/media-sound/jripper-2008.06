@@ -1,22 +1,13 @@
->=virtual/jdk-1.5 app-arch/unzip >=dev-java/java-config-2.1.6
->=virtual/jre-1.5 virtual/cdrtools aac? ( media-libs/faac media-libs/faad2 ) cddb? ( media-libs/libcddb ) flac? ( media-libs/flac ) gtk? ( >=x11-libs/gtk+-2 ) mp3? ( media-sound/lame ) vorbis? ( media-sound/vorbis-tools ) >=dev-java/java-config-2.1.6
-0
-http://dronten.googlepages.com/jripper-2008.06.zip
-
-http://dronten.googlepages.com/jripper
-GPL-2
-jRipper, a Java frontend to CD ripper and encoder tools
-~amd64
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-aac cddb flac gtk mp3 vorbis elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.5 app-arch/unzip >=dev-java/java-config-2.1.6
+DESCRIPTION=jRipper, a Java frontend to CD ripper and encoder tools
+EAPI=0
+HOMEPAGE=http://dronten.googlepages.com/jripper
+IUSE=aac cddb flac gtk mp3 vorbis elibc_FreeBSD
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=virtual/jre-1.5 virtual/cdrtools aac? ( media-libs/faac media-libs/faad2 ) cddb? ( media-libs/libcddb ) flac? ( media-libs/flac ) gtk? ( >=x11-libs/gtk+-2 ) mp3? ( media-sound/lame ) vorbis? ( media-sound/vorbis-tools ) >=dev-java/java-config-2.1.6
+SLOT=0
+SRC_URI=http://dronten.googlepages.com/jripper-2008.06.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303741

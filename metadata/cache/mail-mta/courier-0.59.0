@@ -11,5 +11,5 @@ PROVIDE=virtual/mta virtual/mda virtual/imapd
 RDEPEND=>=net-libs/courier-authlib-0.59 >=dev-libs/openssl-0.9.6 >=sys-libs/gdbm-1.8.0 dev-libs/libpcre app-misc/mime-types fax? ( >=media-libs/netpbm-9.12 virtual/ghostscript >=net-dialup/mgetty-1.1.28 ) pam? ( virtual/pam ) mysql? ( virtual/mysql ) ldap? ( >=net-nds/openldap-1.2.11 ) postgres? ( virtual/postgresql-base ) spell? ( virtual/aspell-dict ) fam? ( virtual/fam ) !mailwrapper? ( !virtual/mta ) !virtual/imapd !mail-filter/maildrop dev-lang/perl sys-process/procps
 SLOT=0
 SRC_URI=mirror://sourceforge/courier/courier-0.59.0.tar.bz2
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082866

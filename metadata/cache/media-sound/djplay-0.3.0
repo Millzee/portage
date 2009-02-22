@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/alsa-lib x11-libs/qt:3 =dev-libs/glib-1.2* media-libs/libsamplerate media-libs/libmpeg3 media-libs/id3lib media-libs/libmad media-libs/audiofile dev-libs/libxml2 media-plugins/tap-plugins media-plugins/swh-plugins media-sound/jack-audio-connection-kit media-libs/libogg media-libs/libvorbis
 SLOT=0
 SRC_URI=mirror://sourceforge/djplay/djplay-0.3.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	qt3	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082868

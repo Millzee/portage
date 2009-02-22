@@ -8,5 +8,5 @@ LICENSE=as-is
 RDEPEND=|| ( games-fps/unreal-tournament games-fps/unreal-tournament-goty )
 SLOT=0
 SRC_URI=mirror://gentoo/sf_180_server_files.tar.gz mirror://gentoo/unreal-tournament-strikeforce-1.81.tar.bz2 mirror://gentoo/sf180lnx.zip
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082860

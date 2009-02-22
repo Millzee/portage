@@ -1,22 +1,12 @@
-dev-java/gnu-classpath:0.97 =dev-java/java-config-2* >=sys-apps/portage-2.1
-dev-java/gnu-classpath:0.97 =dev-java/java-config-2*
-0
-http://www.complang.tuwien.ac.at/cacaojvm/download/cacao-0.99.3/cacao-0.99.3.tar.bz2
-
-http://www.cacaojvm.org/
-GPL-2
-Cacao Java Virtual Machine
-~amd64 ~ppc ~ppc64 ~x86
-toolchain-funcs portability flag-o-matic multilib eutils fdo-mime java-vm-2
-
-
-
-
-1
-
-compile install postinst postrm prerm setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm prerm setup
+DEPEND=dev-java/gnu-classpath:0.97 =dev-java/java-config-2* >=sys-apps/portage-2.1
+DESCRIPTION=Cacao Java Virtual Machine
+EAPI=1
+HOMEPAGE=http://www.cacaojvm.org/
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-java/gnu-classpath:0.97 =dev-java/java-config-2*
+SLOT=0
+SRC_URI=http://www.complang.tuwien.ac.at/cacaojvm/download/cacao-0.99.3/cacao-0.99.3.tar.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	fdo-mime	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	java-vm-2	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

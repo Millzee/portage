@@ -1,22 +1,14 @@
-ejb3? ( >=virtual/jdk-1.5 ) !ejb3? ( >=virtual/jdk-1.4 ) app-arch/unzip dev-java/ant-core dev-java/ant-contrib >=dev-java/java-config-2.1.6
-ejb3? ( >=virtual/jdk-1.5 ) !ejb3? ( >=virtual/jdk-1.4 ) >=dev-java/java-config-2.1.6
-4
-mirror://sourceforge/jboss/jboss-4.0.5.GA.zip ejb3? ( mirror://sourceforge/jboss/jboss-EJB-3.0_RC9_Patch_1.zip )
-nomirror
-http://www.jboss.org
-LGPL-2
-An open source, standards-compliant, J2EE-based application server implemented in 100% Pure Java.
-~amd64 x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-doc ejb3 srvdir elibc_FreeBSD
-
-
-
-0
-
-compile install postinst preinst setup
-
-
-
-
-
+DEFINED_PHASES=compile install postinst preinst setup
+DEPEND=ejb3? ( >=virtual/jdk-1.5 ) !ejb3? ( >=virtual/jdk-1.4 ) app-arch/unzip dev-java/ant-core dev-java/ant-contrib >=dev-java/java-config-2.1.6
+DESCRIPTION=An open source, standards-compliant, J2EE-based application server implemented in 100% Pure Java.
+EAPI=0
+HOMEPAGE=http://www.jboss.org
+IUSE=doc ejb3 srvdir elibc_FreeBSD
+KEYWORDS=~amd64 x86
+LICENSE=LGPL-2
+RDEPEND=ejb3? ( >=virtual/jdk-1.5 ) !ejb3? ( >=virtual/jdk-1.4 ) >=dev-java/java-config-2.1.6
+RESTRICT=nomirror
+SLOT=4
+SRC_URI=mirror://sourceforge/jboss/jboss-4.0.5.GA.zip ejb3? ( mirror://sourceforge/jboss/jboss-EJB-3.0_RC9_Patch_1.zip )
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303743

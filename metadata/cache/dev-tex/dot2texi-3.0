@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=pstricks? ( || ( dev-texlive/texlive-pstricks app-text/tetex ) ) pgf? ( dev-tex/pgf ) || ( ( dev-texlive/texlive-latexrecommended dev-texlive/texlive-latexextra ) ( app-text/tetex dev-tex/xkeyval ) ) >=dev-tex/dot2tex-2.7.0 virtual/latex-base
 SLOT=0
 SRC_URI=mirror://gentoo/dot2texi-3.0.zip
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	latex-package	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	latex-package	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082858

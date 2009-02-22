@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND==dev-libs/glib-1.2* >=sys-libs/ncurses-5 >=sys-libs/readline-4 dev-libs/libxml2 sys-libs/zlib debug? ( dev-libs/dmalloc )
 SLOT=0
 SRC_URI=ftp://ftp.ibr.cs.tu-bs.de/pub/local/scli/scli-0.2.12.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082889

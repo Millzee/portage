@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-python/pyao-0.81 alsa? ( >=dev-python/pyalsaaudio-0.2 ) mp3? ( >=dev-python/pymad-0.4.1 >=dev-python/pyid3lib-0.5.1 ) vorbis? ( >=dev-python/pyvorbis-1.1 ) >=rox-base/rox-2.1.0 >=rox-base/rox-lib-2.0.0
 SLOT=0
 SRC_URI=http://rox-musicbox.googlecode.com/files/MusicBox-027.tgz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	rox	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	rox	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082897

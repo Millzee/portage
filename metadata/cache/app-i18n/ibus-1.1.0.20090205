@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=dev-libs/glib-2.18 >=x11-libs/gtk+-2 >=gnome-base/gconf-2.11.1 >=gnome-base/librsvg-2 sys-apps/dbus qt4? ( >=x11-libs/qt-core-4.4:4 >=x11-libs/qt-dbus-4.4:4 ) app-text/iso-codes x11-libs/libX11 >=dev-lang/python-2.5 >=dev-python/pygobject-2.15 nls? ( virtual/libintl ) dev-python/pygtk >=dev-python/dbus-python-0.83 dev-python/pyxdg x11-misc/notification-daemon
 SLOT=0
 SRC_URI=http://ibus.googlecode.com/files/ibus-1.1.0.20090205.tar.gz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082848

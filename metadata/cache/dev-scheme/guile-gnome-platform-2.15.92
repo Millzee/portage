@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-scheme/guile-1.6.4 >=dev-libs/g-wrap-1.9.8 dev-scheme/guile-cairo dev-libs/atk gnome-base/libbonobo gnome-base/orbit gnome-base/gconf >=dev-libs/glib-2.4 >=gnome-base/gnome-vfs-2.8 >=x11-libs/gtk+-2.4 >=gnome-base/libglade-2 gnome-base/libgnomecanvas >=gnome-base/libgnomeui-2.8 x11-libs/pango
 SLOT=0
 SRC_URI=http://ftp.gnu.org/pub/gnu/guile-gnome/guile-gnome-platform/guile-gnome-platform-2.15.92.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082858

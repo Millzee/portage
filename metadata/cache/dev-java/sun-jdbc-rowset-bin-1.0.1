@@ -1,22 +1,13 @@
-app-arch/unzip >=dev-java/java-config-2.1.6
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6
-0
-https://sdlcweb3c.sun.com/ECom/EComActionServlet;jsessionid=30F646A663A4F3E3C1D042C56374E99C#http://192.18.97.120/ECom/EComTicketServlet/BEGIN30F646A663A4F3E3C1D042C56374E99C/-2147483648/914138883/1/495722/495710/914138883/2ts+/westCoastFSEND/jdbc_rowset_tiger-1_0_1-mrel-ri-oth-JPR/jdbc_rowset_tiger-1_0_1-mrel-ri-oth-JPR:1/jdbc_rowset_tiger-1_0_1-mrel-ri.zip
-fetch
-http://java.sun.com/products/jdbc/
-
-JDBC Rowset for Java releases prior to 1.5
-~amd64 ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-doc elibc_FreeBSD
-
-
-
-0
-
-compile install nofetch preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install nofetch preinst setup unpack
+DEPEND=app-arch/unzip >=dev-java/java-config-2.1.6
+DESCRIPTION=JDBC Rowset for Java releases prior to 1.5
+EAPI=0
+HOMEPAGE=http://java.sun.com/products/jdbc/
+IUSE=doc elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+RESTRICT=fetch
+SLOT=0
+SRC_URI=https://sdlcweb3c.sun.com/ECom/EComActionServlet;jsessionid=30F646A663A4F3E3C1D042C56374E99C#http://192.18.97.120/ECom/EComTicketServlet/BEGIN30F646A663A4F3E3C1D042C56374E99C/-2147483648/914138883/1/495722/495710/914138883/2ts+/westCoastFSEND/jdbc_rowset_tiger-1_0_1-mrel-ri-oth-JPR/jdbc_rowset_tiger-1_0_1-mrel-ri-oth-JPR:1/jdbc_rowset_tiger-1_0_1-mrel-ri.zip
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303741

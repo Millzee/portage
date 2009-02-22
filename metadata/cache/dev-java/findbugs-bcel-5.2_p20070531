@@ -1,22 +1,13 @@
->=virtual/jdk-1.5 app-arch/unzip >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.5 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-mirror://apache/jakarta/bcel/source/bcel-5.2-src.tar.gz http://dev.gentoo.org/~fordfrog/distfiles/findbugs-bcel-5.2_p20070531.patch.bz2
-
-http://jakarta.apache.org/bcel/
-Apache-2.0
-The Byte Code Engineering Library patched for performance for findbugs package
-~amd64 ~x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD source elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND=>=virtual/jdk-1.5 app-arch/unzip >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=The Byte Code Engineering Library patched for performance for findbugs package
+EAPI=0
+HOMEPAGE=http://jakarta.apache.org/bcel/
+IUSE=elibc_FreeBSD source elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.5 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+SLOT=0
+SRC_URI=mirror://apache/jakarta/bcel/source/bcel-5.2-src.tar.gz http://dev.gentoo.org/~fordfrog/distfiles/findbugs-bcel-5.2_p20070531.patch.bz2
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303740

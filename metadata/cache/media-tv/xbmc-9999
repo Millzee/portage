@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/media-tv/xbmc-9999
 DEFINED_PHASES=configure install postinst preinst unpack
 DEPEND=opengl? ( virtual/opengl ) app-arch/bzip2 app-arch/unrar app-arch/unzip app-i18n/enca >=dev-lang/python-2.4 dev-libs/boost dev-libs/fribidi dev-libs/libpcre dev-libs/lzo dev-libs/tre >=dev-python/pysqlite-2 media-libs/alsa-lib media-libs/faac media-libs/fontconfig media-libs/freetype media-libs/glew media-libs/jasper media-libs/libmad media-libs/libogg media-libs/libvorbis media-libs/libsdl[alsa,X] media-libs/sdl-gfx media-libs/sdl-image[gif,jpeg,png] media-libs/sdl-mixer media-libs/sdl-sound net-misc/curl sys-apps/dbus sys-apps/hal sys-apps/pmount virtual/mysql x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXrender x11-proto/xineramaproto dev-util/cmake x86? ( dev-lang/nasm ) dev-util/subversion net-misc/rsync
 DESCRIPTION=XBMC is a free and open source media-player and entertainment hub
@@ -8,29 +7,5 @@ IUSE=alsa debug joystick opengl profile pulseaudio
 LICENSE=GPL-2
 RDEPEND=opengl? ( virtual/opengl ) app-arch/bzip2 app-arch/unrar app-arch/unzip app-i18n/enca >=dev-lang/python-2.4 dev-libs/boost dev-libs/fribidi dev-libs/libpcre dev-libs/lzo dev-libs/tre >=dev-python/pysqlite-2 media-libs/alsa-lib media-libs/faac media-libs/fontconfig media-libs/freetype media-libs/glew media-libs/jasper media-libs/libmad media-libs/libogg media-libs/libvorbis media-libs/libsdl[alsa,X] media-libs/sdl-gfx media-libs/sdl-image[gif,jpeg,png] media-libs/sdl-mixer media-libs/sdl-sound net-misc/curl sys-apps/dbus sys-apps/hal sys-apps/pmount virtual/mysql x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXrender
 SLOT=0
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235211576
-=======
-opengl? ( virtual/opengl ) app-arch/bzip2 app-arch/unrar app-arch/unzip app-i18n/enca >=dev-lang/python-2.4 dev-libs/boost dev-libs/fribidi dev-libs/libpcre dev-libs/lzo dev-libs/tre >=dev-python/pysqlite-2 media-libs/alsa-lib media-libs/faac media-libs/fontconfig media-libs/freetype media-libs/glew media-libs/jasper media-libs/libmad media-libs/libogg media-libs/libvorbis media-libs/libsdl[alsa,X] media-libs/sdl-gfx media-libs/sdl-image[gif,jpeg,png] media-libs/sdl-mixer media-libs/sdl-sound net-misc/curl sys-apps/dbus sys-apps/hal sys-apps/pmount virtual/mysql x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXrender x11-proto/xineramaproto dev-util/cmake x86? ( dev-lang/nasm ) dev-util/subversion net-misc/rsync
-opengl? ( virtual/opengl ) app-arch/bzip2 app-arch/unrar app-arch/unzip app-i18n/enca >=dev-lang/python-2.4 dev-libs/boost dev-libs/fribidi dev-libs/libpcre dev-libs/lzo dev-libs/tre >=dev-python/pysqlite-2 media-libs/alsa-lib media-libs/faac media-libs/fontconfig media-libs/freetype media-libs/glew media-libs/jasper media-libs/libmad media-libs/libogg media-libs/libvorbis media-libs/libsdl[alsa,X] media-libs/sdl-gfx media-libs/sdl-image[gif,jpeg,png] media-libs/sdl-mixer media-libs/sdl-sound net-misc/curl sys-apps/dbus sys-apps/hal sys-apps/pmount virtual/mysql x11-libs/libXinerama x11-libs/libXrandr x11-libs/libXrender
-0
-
-
-http://xbmc.org/
-GPL-2
-XBMC is a free and open source media-player and entertainment hub
-
-subversion toolchain-funcs multilib portability eutils
-alsa debug joystick opengl profile pulseaudio
-
-
-
-2
-
-configure install postinst preinst unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/media-tv/xbmc-9999
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	subversion	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303741

@@ -8,5 +8,5 @@ LICENSE=BSD
 RDEPEND=>=media-libs/freetype-2.1.9-r1 >=x11-libs/gtk+-2.10.6 >=dev-libs/glib-2.12.4-r1 >=media-libs/jpeg-6b-r5 >=media-libs/libpng-1.2.8 >=sys-libs/zlib-1.2.3 >=media-libs/fmod-3.74 >=media-libs/sdl-sound-1.0.1-r1 >=media-libs/sdl-mixer-1.2.7
 SLOT=0
 SRC_URI=http://ccxvii.net/gargoyle/download/gargoyle-2006-09-17-source.zip
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082860

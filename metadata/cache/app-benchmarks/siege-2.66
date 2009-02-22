@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/app-benchmarks/siege-2.66
 DEFINED_PHASES=compile install postinst unpack
 DEPEND=ssl? ( >=dev-libs/openssl-0.9.6d ) =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool
 DESCRIPTION=A HTTP regression testing and benchmarking utility
@@ -10,29 +9,5 @@ LICENSE=GPL-2
 RDEPEND=ssl? ( >=dev-libs/openssl-0.9.6d ) bash-completion? ( app-admin/eselect )
 SLOT=0
 SRC_URI=ftp://sid.joedog.org/pub/siege/siege-2.66.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	bash-completion	/home/Funtoo/portage/eclass	1235139394	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	bash-completion	/home/Funtoo/portage/eclass	1235303741	eutils	/home/Funtoo/portage/eclass	1235303741	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082846
-=======
-ssl? ( >=dev-libs/openssl-0.9.6d ) =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool
-ssl? ( >=dev-libs/openssl-0.9.6d ) bash-completion? ( app-admin/eselect )
-0
-ftp://sid.joedog.org/pub/siege/siege-2.66.tar.gz
-
-http://www.joedog.org/JoeDog/Siege
-GPL-2
-A HTTP regression testing and benchmarking utility
-amd64 ~hppa ~mips ppc x86
-toolchain-funcs portability multilib bash-completion libtool autotools eutils
-debug ssl bash-completion
-
-
-
-
-
-compile install postinst unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/app-benchmarks/siege-2.66

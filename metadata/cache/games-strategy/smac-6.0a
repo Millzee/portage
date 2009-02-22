@@ -10,5 +10,5 @@ RDEPEND=sys-libs/glibc x11-libs/libX11 x11-libs/libXext x11-libs/libXau x11-libs
 RESTRICT=strip
 SLOT=0
 SRC_URI=x86? ( mirror://lokigames/smac/smac-6.0a-x86.run ) amd64? ( mirror://lokigames/smac/smac-6.0a-x86.run ) ppc? ( http://mirrors.dotsrc.org/lokigames/installers/smac/smac-install-ppc.run )
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082861

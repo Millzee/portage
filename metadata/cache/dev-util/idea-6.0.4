@@ -1,22 +1,13 @@
-
-=virtual/jdk-1.5*
-0
-http://download.jetbrains.com/idea/idea-6.0.4.tar.gz
-mirror strip
-http://www.jetbrains.com/idea/index.html
-|| ( IntelliJ-IDEA-academic IntelliJ-IDEA-classroom IntelliJ-IDEA-commercial IntelliJ-IDEA-opensource )
-An intelligent Java IDE intensely focused on developer productivity.
-~amd64 ~x86
-toolchain-funcs multilib portability eutils
-eclipse
-
-
-
-0
-
-install
-
-
-
-
-
+DEFINED_PHASES=install
+DESCRIPTION=An intelligent Java IDE intensely focused on developer productivity.
+EAPI=0
+HOMEPAGE=http://www.jetbrains.com/idea/index.html
+IUSE=eclipse
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( IntelliJ-IDEA-academic IntelliJ-IDEA-classroom IntelliJ-IDEA-commercial IntelliJ-IDEA-opensource )
+RDEPEND==virtual/jdk-1.5*
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=http://download.jetbrains.com/idea/idea-6.0.4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_mtime_=1235303741

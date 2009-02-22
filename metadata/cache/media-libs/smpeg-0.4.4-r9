@@ -9,5 +9,5 @@ LICENSE=LGPL-2
 RDEPEND=>=media-libs/libsdl-1.2.0 opengl? ( virtual/opengl virtual/glu ) X? ( x11-libs/libXext x11-libs/libXi x11-libs/libX11 )
 SLOT=0
 SRC_URI=ftp://ftp.lokigames.com/pub/open-source/smpeg/smpeg-0.4.4.tar.gz mirror://gentoo/smpeg-0.4.4-gtkm4.patch.bz2
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082868
