@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-perl/Variable-Magic-0.31
 DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
 DEPEND=dev-lang/perl test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage )
 DESCRIPTION=Associate user-defined magic to variables from Perl
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://cpan/authors/id/V/VP/VPIT//Variable-Magic-0.31.tar.gz
 _eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235139394
+=======
+dev-lang/perl test? ( dev-perl/Test-Pod dev-perl/Test-Pod-Coverage )
+dev-lang/perl
+0
+mirror://cpan/authors/id/V/VP/VPIT//Variable-Magic-0.31.tar.gz
+
+http://search.cpan.org/search?query=Variable-Magic&mode=dist
+|| ( Artistic GPL-2 )
+Associate user-defined magic to variables from Perl
+~amd64 ~x86
+toolchain-funcs portability multilib base eutils perl-module
+test
+
+
+
+0
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-perl/Variable-Magic-0.31

@@ -1,6 +1,5 @@
 # ChangeLog for dev-java/batik
-# Copyright 2000-2008 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/batik/ChangeLog,v 1.54 2008/01/20 22:27:27 caster Exp $
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 
   20 Jan 2008; Vlastimil Babka <caster@gentoo.org> -batik-1.5-r1.ebuild,
   batik-1.6-r3.ebuild:
@@ -209,3 +208,11 @@
   27 Apr 2003; Todd Berman <tberman@gentoo.org> batik-1.1.1.ebuild:
   Initial import.
 
+  20 Jan 2009; Alistair Bush <ali_bush@gentoo.org> +metadata.xml,
+  batik-1.6-r4.ebuild:
+  QA Fixes.
+
+* batik-1.7 (19 01 2009)
+	
+  19 Jan 2009; Andrew John Hughes <gnu_andrew@member.fsf.org> batik-1.7.ebuild:
+	Added new ebuild.

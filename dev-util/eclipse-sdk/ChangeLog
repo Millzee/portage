@@ -1,6 +1,33 @@
 # ChangeLog for dev-util/eclipse-sdk
 # Copyright 2003-2008 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-util/eclipse-sdk/ChangeLog,v 1.147 2008/08/05 08:07:53 elvanor Exp $
+
+*eclipse-sdk-3.4.1 (30 Sep 2008)
+
+  30 Sep 2008; James Le Cuirot <chewi@aura-online.co.uk>
+  -eclipse-sdk-3.4-r4.ebuild, -files/3.4/eclipse_String.compareTo.diff,
+  +eclipse-sdk-3.4.1.ebuild:
+  Version bump. Only a couple of small changes. Fixed source USE flag.
+
+*eclipse-sdk-3.4-r4 (14 Aug 2008)
+
+  14 Aug 2008; James Le Cuirot <chewi@aura-online.co.uk>
+  -eclipse-sdk-3.4-r3.ebuild, +eclipse-sdk-3.4-r4.ebuild:
+  Fixed the unbundling of JARs. The "external" directive does not work when
+  the plugins are packed as JARs and so they must remain unpacked.
+
+*eclipse-sdk-3.4-r3 (13 Aug 2008)
+
+  13 Aug 2008; James Le Cuirot <chewi@aura-online.co.uk>
+  -files/3.4/fedora, -files/3.4/ant-osgi-manifest.mf,
+  -files/3.4/eclipse_buildfix-pde.diff, -files/3.4/eclipserc,
+  +files/3.4/eclipserc-3.4, -eclipse-sdk-3.4-r2.ebuild,
+  +eclipse-sdk-3.4-r3.ebuild:
+  Almost a total rewrite. P2 works by generating metadata and installing with 
+  the director app. JARs are unbundled in an OSGi-friendly way. Files are 
+  needlessly archived/copied less. sed fixes shortened. Launcher optimization 
+  simplified. Docs actually built and are optional. Sources are also optional. 
+  Fedora plugin patch removed because it's not very useful for Gentoo. 
+  chewi-overlay handles this instead. More JARs like sat4j unbundled. Phew!
 
 *eclipse-sdk-3.4-r2 (05 Aug 2008)
 

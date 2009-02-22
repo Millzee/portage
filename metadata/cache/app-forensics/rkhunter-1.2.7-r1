@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-forensics/rkhunter-1.2.7-r1
 DEFINED_PHASES=install postinst prerm unpack
 DESCRIPTION=Rootkit Hunter scans for known and unknown rootkits, backdoors, and sniffers.
 EAPI=0
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://downloads.rootkit.nl/rkhunter-1.2.7.tar.gz
 _eclasses_=bash-completion	/home/Funtoo/portage/eclass	1235139394	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082848
+=======
+
+virtual/mta app-shells/bash dev-lang/perl sys-process/lsof bash-completion? ( app-admin/eselect )
+0
+http://downloads.rootkit.nl/rkhunter-1.2.7.tar.gz
+
+http://www.rootkit.nl/
+GPL-2
+Rootkit Hunter scans for known and unknown rootkits, backdoors, and sniffers.
+alpha amd64 mips ppc sparc x86
+portability toolchain-funcs multilib eutils bash-completion
+bash-completion
+
+
+
+
+
+install postinst prerm unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-forensics/rkhunter-1.2.7-r1

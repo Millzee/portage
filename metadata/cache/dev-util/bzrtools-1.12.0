@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-util/bzrtools-1.12.0
 DEFINED_PHASES=compile install postinst postrm test unpack
 DEPEND==dev-util/bzr-1.12* >=dev-lang/python-2.4 virtual/python
 DESCRIPTION=bzrtools is a useful collection of utilities for bzr.
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://launchpad.net/bzrtools/stable/1.12.0/+download/bzrtools-1.12.0.tar.gz
 _eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235211576
+=======
+=dev-util/bzr-1.12* >=dev-lang/python-2.4 virtual/python
+=dev-util/bzr-1.12* >=dev-lang/python-2.4
+0
+http://launchpad.net/bzrtools/stable/1.12.0/+download/bzrtools-1.12.0.tar.gz
+
+http://bazaar-vcs.org/BzrTools
+GPL-2
+bzrtools is a useful collection of utilities for bzr.
+~amd64 ~ia64 ~ppc ~sparc ~x86
+toolchain-funcs distutils portability python alternatives versionator multilib eutils
+
+
+
+
+0
+
+compile install postinst postrm test unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-util/bzrtools-1.12.0

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-crypt/ophcrack-3.1.0-r2
 DEFINED_PHASES=compile install
 DEPEND=app-arch/unzip >=dev-util/pkgconfig-0.22 dev-libs/openssl net-libs/netwib qt4? ( >=x11-libs/qt-gui-4 )
 DESCRIPTION=A time-memory-trade-off-cracker
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/ophcrack/ophcrack-3.1.0.tar.bz2
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235139394
+=======
+app-arch/unzip >=dev-util/pkgconfig-0.22 dev-libs/openssl net-libs/netwib qt4? ( >=x11-libs/qt-gui-4 )
+app-crypt/ophcrack-tables dev-libs/openssl net-libs/netwib qt4? ( >=x11-libs/qt-gui-4 )
+0
+mirror://sourceforge/ophcrack/ophcrack-3.1.0.tar.bz2
+
+http://ophcrack.sourceforge.net/
+GPL-2
+A time-memory-trade-off-cracker
+~amd64 ~ppc ~x86
+toolchain-funcs multilib portability eutils
+qt4 debug
+
+
+
+0
+
+compile install
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-crypt/ophcrack-3.1.0-r2

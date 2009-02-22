@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-benchmarks/jmeter-2.0.1-r2
 DEFINED_PHASES=compile install preinst setup unpack
 DEPEND=>=virtual/jdk-1.4 doc? ( >=dev-java/velocity-1.4 ) dev-java/ant-nodeps beanshell? ( dev-java/bsh ) >=dev-java/bsf-2.3 =dev-java/junit-3.8* dev-java/sun-javamail >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
 DESCRIPTION=Load test and measure performance on HTTP/FTP services and databases.
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://apache/jakarta/jmeter/source/jakarta-jmeter-2.0.1_src.tgz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082846
+=======
+>=virtual/jdk-1.4 dev-java/ant-core doc? ( >=dev-java/velocity-1.4 ) dev-java/bsh =dev-java/rhino-1.5* dev-java/commons-collections =dev-java/commons-httpclient-2* dev-java/commons-logging =dev-java/avalon-framework-4.2* =dev-java/jakarta-oro-2* =dev-java/xerces-2* =dev-java/jdom-1.0_beta9* dev-java/soap dev-java/xalan >=dev-java/avalon-logkit-1.2 <dev-java/avalon-logkit-2 >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 dev-java/junit dev-java/bsh =dev-java/rhino-1.5* dev-java/commons-collections =dev-java/commons-httpclient-2* dev-java/commons-logging =dev-java/avalon-framework-4.2* =dev-java/jakarta-oro-2* =dev-java/xerces-2* =dev-java/jdom-1.0_beta9* dev-java/soap dev-java/xalan >=dev-java/avalon-logkit-1.2 <dev-java/avalon-logkit-2 >=dev-java/java-config-2.1.6
+0
+mirror://apache/jakarta/jmeter/source/jakarta-jmeter-2.0.1_src.tgz
+
+http://jakarta.apache.org/jmeter
+Apache-2.0
+Load test and measure performance on HTTP/FTP services and databases.
+~amd64 ~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+doc elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-benchmarks/jmeter-2.0.1-r2

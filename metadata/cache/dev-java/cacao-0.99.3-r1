@@ -1,0 +1,22 @@
+dev-java/gnu-classpath:0.97 =dev-java/java-config-2* >=sys-apps/portage-2.1
+dev-java/gnu-classpath:0.97 =dev-java/java-config-2*
+0
+http://www.complang.tuwien.ac.at/cacaojvm/download/cacao-0.99.3/cacao-0.99.3.tar.bz2
+
+http://www.cacaojvm.org/
+GPL-2
+Cacao Java Virtual Machine
+~amd64 ~ppc ~ppc64 ~x86
+toolchain-funcs portability flag-o-matic multilib eutils fdo-mime java-vm-2
+
+
+
+
+1
+
+compile install postinst postrm prerm setup
+
+
+
+
+

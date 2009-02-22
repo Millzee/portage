@@ -1,6 +1,5 @@
 # ChangeLog for app-benchmarks/jmeter
 # Copyright 2000-2008 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-benchmarks/jmeter/ChangeLog,v 1.36 2008/10/24 20:36:23 maekke Exp $
 
   24 Oct 2008; Markus Meier <maekke@gentoo.org> jmeter-2.0.1-r4.ebuild:
   amd64/x86 stable, bug #225537
@@ -43,6 +42,9 @@
   Migrate to splitted ant, fix emerging with JAVA_PKG_STRICT and make
   dependency on bsh optional via the beanshell use flag.
 
+  28 Sep 2007; Petteri Räty <betelgeuse@gentoo.org> jmeter-2.0.1-r2.ebuild:
+  Fix commons-httpclient to match needed slot.
+
   05 Aug 2006; Joshua Nichols <nichoj@gentoo.org> jmeter-2.0.1-r1.ebuild:
   Fixed dependencies to account for java-strict.
 
@@ -51,7 +53,7 @@
   Fix digests.
 
   22 Jul 2006; Krzysiek Pawlik <nelchael@gentoo.org>
-  jmeter-2.0.1-r1.ebuild:
+  +jmeter-2.0.1-r1.ebuild:
   Migrated to Generation 2.
 
   13 Dec 2005; Joshua Nichols <nichoj@gentoo.org> jmeter-1.9.1.ebuild,

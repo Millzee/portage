@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/net-misc/anyremote-4.17
 DEFINED_PHASES=configure install
 DEPEND=bluetooth? ( net-wireless/bluez-libs net-wireless/bluez-utils ) x11-libs/libXtst
 DESCRIPTION=Anyremote provides wireless Bluetooth or infrared remote control service, but works also with cable
@@ -11,3 +12,27 @@ RDEPEND=bluetooth? ( net-wireless/bluez-libs net-wireless/bluez-utils ) x11-libs
 SLOT=0
 SRC_URI=mirror://sourceforge/anyremote/anyremote-4.17.tar.gz
 _mtime_=1235082894
+=======
+bluetooth? ( || ( ( net-wireless/bluez-libs net-wireless/bluez-utils ) net-wireless/bluez ) ) x11-libs/libXtst
+bluetooth? ( || ( ( net-wireless/bluez-libs net-wireless/bluez-utils ) net-wireless/bluez ) ) x11-libs/libXtst
+0
+mirror://sourceforge/anyremote/anyremote-4.17.tar.gz
+
+http://anyremote.sourceforge.net/
+GPL-2
+Anyremote provides wireless Bluetooth or infrared remote control service, but works also with cable
+~amd64 ~x86
+
+bluetooth gnome kde
+
+kde? ( net-misc/kanyremote ) gnome? ( net-misc/ganyremote )
+
+2
+
+configure install
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/net-misc/anyremote-4.17

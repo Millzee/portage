@@ -1,6 +1,6 @@
 # Copyright 1999-2009 Gentoo Foundation.
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/profiles/use.local.desc,v 1.4217 2009/02/20 20:27:45 robbat2 Exp $
+# $Header: /var/cvsroot/gentoo-x86/profiles/use.local.desc,v 1.4220 2009/02/21 23:47:43 robbat2 Exp $
 # This file contains descriptions of local USE flags, and the ebuilds which
 # contain them.
 # Keep it sorted (use "LC_ALL=C sort -t: -k1,1 -k2 | LC_ALL=C sort -s -t/ -k1,1")
@@ -1683,6 +1683,7 @@ media-video/dvd-slideshow:themes - Install theme pack
 media-video/dvdrip:fping - Enables fping support for cluster rendering
 media-video/dvdrip:subtitles - Enables support for subtitle ripping
 media-video/ffmpeg:amr - Enables Adaptive Multi-Rate Audio support
+media-video/ffmpeg:custom-cflags - Enables custom CFLAGS (UNSUPPORTED)
 media-video/ffmpeg:dirac - Enable Dirac video support (an advanced royalty-free video compression format) via the reference library: dirac.
 media-video/ffmpeg:gsm - Enables support for the gsm lossy speech compression codec via libgsm.
 media-video/ffmpeg:hardcoded-tables - Use pre-calculated tables rather than calculating them on the fly.
@@ -2973,9 +2974,9 @@ x11-themes/gentoo-artwork:icons - Install icons
 x11-themes/gentoo-artwork:lilo - Install extra sys-boot/lilo themes
 x11-themes/gentoo-artwork:pixmaps - Install pixmaps
 x11-themes/gtk-engines-qt:gnome - Enable proper theming of buttons in gnome toolbars (as opposed to just plain gtk+ toolbars)
-x11-themes/gtk-engines-qtcurve:firefox3 - Install GUI theme tweaks for version 3 of www-client/mozilla-firefox
-x11-themes/gtk-engines-qtcurve:mozilla - Install GUI theme tweaks for mozilla based browsers, including version 2 of www-client/mozilla-firefox
-x11-themes/qtcurve-qt4:kde - Enable KDE4 support. This adds a QtCurve configuration module to KDE's SystemSettings.
+x11-themes/gtk-engines-qtcurve:firefox3 - Install GUI theme tweaks for version 3 of www-client/mozilla-firefox 
+x11-themes/gtk-engines-qtcurve:mozilla - Install GUI theme tweaks for mozilla based browsers, including version 2 of www-client/mozilla-firefox 
+x11-themes/qtcurve-qt4:kde - Enable KDE4 support. This adds a QtCurve configuration module to KDE's SystemSettings. 
 x11-themes/redhat-artwork:audacious - Install media-sound/audacious theme
 x11-themes/redhat-artwork:cursors - Install Bluecurve cursors
 x11-themes/redhat-artwork:gdm - Install Bluecurve gnome-base/gdm theme
@@ -3047,3 +3048,55 @@ media-sound/mpd:oggflac - Enable support for OggFLAC files.
 media-sound/mpd:zip - Enable support for audio in zip archive.
 
 media-sound/sonata:scrobbler - Enable support for AudioScrobbler.
+www-servers/jboss:ejb3 - Add EJB 3 support
+www-servers/jboss:srvdir - Add SRVDIR support
+www-servers/jboss-bin:ejb3 - Add EJB 3 support
+www-servers/jboss-bin:srvdir - Add SRVDIR support
+dev-java/jogl:cg - Enable nvidia cg bindings
+dev-db/hsqldb:sqltools - Add data managment tools
+dev-java/quartz:servlet-2.3 - Use the 2.3 servlet specification
+dev-java/quartz:servlet-2.4 - Use the 2.4 servlet specification
+dev-util/netbeans:mobility - Add Netbeans Mobility Pack
+dev-util/netbeans:profiler - Add Netbeans Profiler
+
+dev-java/geronimo-specs:activation - Enable to install the 'activation' geronimo specification
+dev-java/geronimo-specs:commonj - Enable to install the 'commonj' geronimo specification
+dev-java/geronimo-specs:corba - Enable to install the 'corba' geronimo specification
+dev-java/geronimo-specs:corba-2.3 - Enable to install the 'corba-2.3' geronimo specification
+dev-java/geronimo-specs:corba-3.0 - Enable to install the 'corba-3.0' geronimo specification
+dev-java/geronimo-specs:ejb - Enable to install the 'ejb' geronimo specification
+dev-java/geronimo-specs:j2ee-connector - Enable to install the 'j2ee-connector' geronimo specification
+dev-java/geronimo-specs:j2ee-deployment - Enable to install the 'j2ee-deployment' geronimo specification
+dev-java/geronimo-specs:j2ee-jacc - Enable to install the 'j2ee-jacc' geronimo specification
+dev-java/geronimo-specs:j2ee-management - Enable to install the 'j2ee-management' geronimo specification
+dev-java/geronimo-specs:javamail - Enable to install the 'javamail' geronimo specification
+dev-java/geronimo-specs:jaxr - Enable to install the 'jaxr' geronimo specification
+dev-java/geronimo-specs:jaxrpc - Enable to install the 'jaxrpc' geronimo specification
+dev-java/geronimo-specs:jms - Enable to install the 'jms' geronimo specification
+dev-java/geronimo-specs:jsp - Enable to install the 'jsp' geronimo specification
+dev-java/geronimo-specs:jta - Enable to install the 'jta' geronimo specification
+dev-java/geronimo-specs:qname - Enable to install the 'qname' geronimo specification
+dev-java/geronimo-specs:saaj - Enable to install the 'saaj' geronimo specification
+dev-java/geronimo-specs:servlet - Enable to install the 'servlet' geronimo specification
+
+dev-java/guice:servletapi - Add optional support for servletapi
+
+dev-java/jboss-commons-logging:avalon-logkit - Add support for avalon-logkit
+dev-java/jboss-commons-logging:log4j - Add support for log4j
+dev-java/jboss-commons-logging:servletapi - Add support for servletapi
+dev-java/jboss-commons-logging:avalon-framework - Add support for avalon-framework
+media-sound/tuxguitar:fluidsynth - compile with support for fluidsynth
+
+dev-util/netbeans:apisupport - Enables 'apisupport' cluster which enables netbeans module support in netbeans
+dev-util/netbeans:cnd Enables 'cnd' cluster which enables C/C++ development support in netbeans
+dev-util/netbeans:gsf - Enables 'gsf' cluster which enables GNOME Structured File and other web development related support in netbeans needed for some other clusters
+dev-util/netbeans:harness - Enables 'harness' cluster
+dev-util/netbeans:ide - Enables 'ide' cluster which enables IDE support in netbeans
+dev-util/netbeans:identity - Enables 'identity' cluster which enables identity management support in netbeans
+dev-util/netbeans:j2ee - Enables 'j2ee' cluster which enables J2EE development in netbeans
+dev-util/netbeans:mobility - Enables 'mobility' cluster which enables mobility development support in netbeans
+dev-util/netbeans:nb - Enables 'nb' cluster which enables netbeans branding
+dev-util/netbeans:profiler - Enables 'profiler' cluster which enables profiler support in netbeans
+dev-util/netbeans:soa - Enables 'soa' cluster which enables service-oriented architecture development in netbeans
+dev-util/netbeans:uml - Enables 'uml' cluster which enables UML support in netbeans
+dev-util/netbeans:visualweb - Enables 'visualweb' cluster which enables web apps development in netbeans

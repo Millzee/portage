@@ -1,0 +1,22 @@
+>=virtual/jdk-1.4 app-arch/unzip dev-java/antlr =dev-java/avalon-framework-4.1* dev-java/concurrent-util =dev-java/avalon-logkit-2* =dev-java/java-service-wrapper-3.1* >=dev-java/picocontainer-1.2 dev-java/log4j dev-java/backport-util-concurrent dev-java/ant-core >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 dev-java/antlr =dev-java/avalon-framework-4.1* dev-java/concurrent-util =dev-java/avalon-logkit-2* =dev-java/java-service-wrapper-3.1* >=dev-java/picocontainer-1.2 dev-java/log4j dev-java/backport-util-concurrent dev-java/ant-core >=dev-java/java-config-2.1.6
+2.2
+http://www.jacorb.org/releases/2.2.4/JacORB-2.2.4-source.zip
+
+http://www.jacorb.org/
+GPL-2
+The free Java implementation of the OMG's CORBA standard.
+~amd64 ~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+doc elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

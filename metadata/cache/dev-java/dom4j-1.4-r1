@@ -1,0 +1,22 @@
+=virtual/jdk-1.4* =dev-java/jaxen-1.1* dev-java/msv dev-java/xpp2 dev-java/saxpath dev-java/relaxng-datatype dev-java/fop dev-java/xsdlib >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 =dev-java/jaxen-1.1* dev-java/msv dev-java/xpp2 dev-java/saxpath dev-java/relaxng-datatype dev-java/fop dev-java/xsdlib >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+1.4
+mirror://sourceforge/dom4j/dom4j-1.4.tar.gz
+
+http://dom4j.sourceforge.net/
+dom4j
+Easy to use, open source library for working with XML, XPath and XSLT.
+~amd64 ~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+elibc_FreeBSD doc source elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

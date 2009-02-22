@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/net-ftp/filezilla-3.2.0
 DEFINED_PHASES=compile install setup
 DEPEND=net-dns/libidn >=x11-libs/wxGTK-2.8.9 >=app-admin/eselect-wxwidgets-0.7-r1 >=sys-devel/libtool-1.4 >=sys-devel/gettext-0.11 >=net-libs/gnutls-2.0.4
 DESCRIPTION=FTP client with lots of useful features and an intuitive interface
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/filezilla/FileZilla_3.2.0_src.tar.bz2
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235211577
+=======
+net-dns/libidn >=x11-libs/wxGTK-2.8.9 >=app-admin/eselect-wxwidgets-0.7-r1 >=sys-devel/libtool-1.4 >=sys-devel/gettext-0.11 >=net-libs/gnutls-2.0.4
+net-dns/libidn >=x11-libs/wxGTK-2.8.9 >=app-admin/eselect-wxwidgets-0.7-r1
+0
+mirror://sourceforge/filezilla/FileZilla_3.2.0_src.tar.bz2
+
+http://filezilla-project.org/
+GPL-2
+FTP client with lots of useful features and an intuitive interface
+amd64 ~ia64 ppc ~sparc ~x86
+toolchain-funcs multilib portability eutils wxwidgets
+dbus
+
+
+
+0
+
+compile install setup
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/net-ftp/filezilla-3.2.0

@@ -1,0 +1,22 @@
+>=virtual/jdk-1.4 app-arch/unzip dev-java/log4j dev-java/p6spy =dev-java/velocity-1* dev-java/ant-core dev-java/junit >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 dev-java/log4j dev-java/p6spy =dev-java/velocity-1* dev-java/ant-core dev-java/junit >=dev-java/java-config-2.1.6
+0
+http://download.forge.objectweb.org/monolog/Monolog_1.9.1_src.zip
+
+http://monolog.objectweb.org/
+LGPL-2.1
+The goal of Monolog is to define and maintain the ObjectWeb API for the logging.
+~amd64 ~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

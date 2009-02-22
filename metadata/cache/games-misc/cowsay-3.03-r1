@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/games-misc/cowsay-3.03-r1
 DEFINED_PHASES=install postinst unpack
 DESCRIPTION=configurable talking ASCII cow (and other characters)
 EAPI=0
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://www.nog.net/~tony/warez/cowsay-3.03.tar.gz
 _eclasses_=bash-completion	/home/Funtoo/portage/eclass	1235139394	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082860
+=======
+
+>=dev-lang/perl-5 bash-completion? ( app-admin/eselect )
+0
+http://www.nog.net/~tony/warez/cowsay-3.03.tar.gz
+
+http://www.nog.net/~tony/warez/cowsay.shtml
+GPL-2
+configurable talking ASCII cow (and other characters)
+alpha amd64 hppa ~ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd
+portability toolchain-funcs multilib eutils bash-completion
+bash-completion
+
+
+
+
+
+install postinst unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/games-misc/cowsay-3.03-r1

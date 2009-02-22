@@ -1,0 +1,22 @@
+>=virtual/jdk-1.4 dev-java/jutils >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 dev-java/ant-nodeps >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 >=virtual/jdk-1.4 dev-java/jutils >=dev-java/java-config-2.1.6
+0
+http://www.counties.co.nz/alistair/distfiles/jinput-1_pre20060905.tar.gz
+
+https://jinput.dev.java.net
+BSD
+Jinput is an implementation of an API for game controller discovery and polled input
+~amd64 ~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup test unpack
+
+
+
+
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/virtual/perl-Test-Harness-3.16
 DEFINED_PHASES=-
 DESCRIPTION=Virtual for Test-Harness
 EAPI=0
@@ -7,3 +8,27 @@ LICENSE=GPL-2
 RDEPEND=~perl-core/Test-Harness-3.16
 SLOT=0
 _mtime_=1235211577
+=======
+
+~perl-core/Test-Harness-3.16
+0
+
+
+http://www.gentoo.org/proj/en/perl/
+GPL-2
+Virtual for Test-Harness
+~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd
+
+
+
+
+
+0
+
+-
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/virtual/perl-Test-Harness-3.16

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-perl/B-Hooks-EndOfScope-0.07
 DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
 DEPEND=dev-lang/perl >=dev-perl/Variable-Magic-0.31 dev-perl/Sub-Exporter
 DESCRIPTION=Execute code after a scope finished compilation
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=mirror://cpan/authors/id/F/FL/FLORA//B-Hooks-EndOfScope-0.07.tar.gz
 _eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235211576
+=======
+dev-lang/perl >=dev-perl/Variable-Magic-0.31 dev-perl/Sub-Exporter
+dev-lang/perl >=dev-perl/Variable-Magic-0.31 dev-perl/Sub-Exporter
+0
+mirror://cpan/authors/id/F/FL/FLORA//B-Hooks-EndOfScope-0.07.tar.gz
+
+http://search.cpan.org/search?query=B-Hooks-EndOfScope&mode=dist
+|| ( Artistic GPL-2 )
+Execute code after a scope finished compilation
+~amd64 ~x86
+toolchain-funcs portability multilib base eutils perl-module
+
+
+
+
+0
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-perl/B-Hooks-EndOfScope-0.07

@@ -1,6 +1,5 @@
 # ChangeLog for dev-java/itext
 # Copyright 1999-2008 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/itext/ChangeLog,v 1.81 2008/12/08 02:00:15 jmbsvicetto Exp $
 
   08 Dec 2008; Jorge Manuel B. S. Vicetto <jmbsvicetto@gentoo.org>
   metadata.xml:
@@ -144,6 +143,13 @@
 
   16 Jun 2007; Tobias Scherbaum <dertobi123@gentoo.org> itext-2.0.4.ebuild:
   Added ~ppc, bug #180394
+
+  11 Mar 2008; Serkan Kaba <serkan_kaba@yahoo.com> +files/itext-1.4-jdk7fix.patch, itext-1.4.ebuild:
+  Add patch to remove com.sun.* classes usage
+
+  11 Jun 2007; kiorky <kiorky@cryptelium.net> +itext-1.4.ebuild,
+  +metadata.xml:
+  Resurrectin' 1.4 for doxia (maven stuff)
 
   07 Jun 2007; Markus Rothe <corsair@gentoo.org> itext-2.0.4.ebuild:
   Added ~ppc64; bug #180394

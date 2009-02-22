@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/sys-apps/ack-1.88
 DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
 DEPEND=>=dev-perl/File-Next-1.02 dev-lang/perl
 DESCRIPTION=ack is a tool like grep, aimed at programmers with large trees of heterogeneous source code
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://cpan/authors/id/P/PE/PETDANCE/ack-1.88.tar.gz
 _eclasses_=base	/home/Funtoo/portage/eclass	1235082859	bash-completion	/home/Funtoo/portage/eclass	1235139394	eutils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
 _mtime_=1235082899
+=======
+>=dev-perl/File-Next-1.02 dev-lang/perl
+>=dev-perl/File-Next-1.02 dev-lang/perl bash-completion? ( app-admin/eselect )
+0
+mirror://cpan/authors/id/P/PE/PETDANCE/ack-1.88.tar.gz
+
+http://www.petdance.com/ack/
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+ack is a tool like grep, aimed at programmers with large trees of heterogeneous source code
+~amd64 ~x86
+toolchain-funcs portability multilib bash-completion base eutils perl-module
+bash-completion
+
+
+
+
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/sys-apps/ack-1.88

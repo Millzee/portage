@@ -1,0 +1,22 @@
+>=virtual/jdk-1.4 =dev-java/commons-beanutils-1.6* dev-java/commons-collections dev-java/commons-digester dev-java/commons-logging dev-java/commons-validator =dev-java/dom4j-1* dev-java/dvsl =dev-java/jaxen-1.1* =dev-java/servletapi-2.3* =dev-java/struts-1.1* =dev-java/struts-sslext-1.1* dev-java/velocity dev-java/dvsl >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 =dev-java/commons-beanutils-1.6* dev-java/commons-collections dev-java/commons-digester dev-java/commons-logging dev-java/commons-validator =dev-java/dom4j-1* dev-java/dvsl =dev-java/jaxen-1.1* =dev-java/servletapi-2.3* =dev-java/struts-1.1* =dev-java/struts-sslext-1.1* dev-java/velocity dev-java/dvsl >=dev-java/java-config-2.1.6
+0
+http://archive.apache.org/dist/jakarta/velocity-tools/source/velocity-tools-1.1-src.tar.gz
+
+http://jakarta.apache.org/velocity/tools/
+Apache-2.0
+A collection of Velocity subprojects for web and non-web apps using the Velocity template engine.
+
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+elibc_FreeBSD doc elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

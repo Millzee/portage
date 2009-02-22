@@ -1,0 +1,22 @@
+|| ( =virtual/jdk-1.4* =virtual/jdk-1.5* ) dev-java/ant-core >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 =dev-java/servletapi-2.4* =dev-java/gnu-jaf-1* =www-servers/axis-1* dev-java/commons-collections dev-java/commons-dbcp dev-java/commons-discovery dev-java/commons-logging dev-java/commons-pool dev-java/log4j dev-java/wsdl4j >=dev-java/java-config-2.1.6
+0
+http://archive.apache.org/dist/ws/juddi/0_9RC4/juddi-0.9rc4-src.tar.gz
+
+http://ws.apache.org/juddi/
+Apache-2.0
+jUDDI is an open source Java implementation of the Universal Description, Discovery, and Integration (UDDI) specification for Web Services.
+~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+doc elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

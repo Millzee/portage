@@ -1,0 +1,22 @@
+>=virtual/jdk-1.4 dev-java/ant-core >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 >=app-arch/rpm2targz-9.0-r1
+>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+0
+http://mirrors.dotsrc.org/jpackage/1.6/generic/free/SRPMS/gjt-jpl-pattern-0.2-2jpp.src.rpm
+
+http://www.gjt.org/pkgdoc/org/gjt/lindfors/pattern/
+GPL-2
+A set of interfaces used to recognize well known design patterns in a software system.
+~amd64 ~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib rpm eutils java-ant-2
+doc elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

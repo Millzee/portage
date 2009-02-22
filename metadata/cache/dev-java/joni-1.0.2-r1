@@ -1,0 +1,22 @@
+>=virtual/jdk-1.5 >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
+0
+http://dev.gentooexperimental.org/~chewi/distfiles/joni-1.0.2.tar.bz2
+
+http://jruby.codehaus.org/
+MIT
+Java port of the Oniguruma regular expression engine
+~amd64 ~x86
+toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib base eutils java-ant-2
+elibc_FreeBSD source elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

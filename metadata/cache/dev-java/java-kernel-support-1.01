@@ -1,0 +1,22 @@
+>=virtual/jre-1.4 kernel_linux? ( virtual/linux-sources )
+>=virtual/jre-1.4
+0
+http://gentooexperimental.org/distfiles/java-kernel-support-gentoo-20050425.tar.bz2
+
+http://www.linuxhq.com/java.html
+GPL-2
+Java(tm) Binary Kernel Support for Linux
+~x86
+toolchain-funcs portability versionator multilib linux-info eutils
+
+
+
+
+0
+
+compile install postinst setup
+
+
+
+
+
