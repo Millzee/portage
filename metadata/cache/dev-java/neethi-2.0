@@ -1,0 +1,22 @@
+>=virtual/jdk-1.5 source? ( app-arch/zip ) dev-java/axiom dev-java/junit dev-java/stax dev-java/commons-logging =www-servers/axis-1* dev-java/wsdl4j >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jdk-1.5 source? ( app-arch/zip ) dev-java/axiom dev-java/junit dev-java/stax dev-java/commons-logging =www-servers/axis-1* dev-java/wsdl4j >=virtual/jre-1.5 >=dev-java/java-config-2.1.6
+2
+http://dev.gentooexperimental.org/~kiorky/neethi-2.0.tar.bz2
+
+http://ws.apache.org/wss4j/index.html
+Apache-2.0
+Apache WSS4J is an implementation of the OASIS Web Services Security (WS-Security)
+~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+doc source elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

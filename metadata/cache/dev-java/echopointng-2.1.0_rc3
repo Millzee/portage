@@ -1,0 +1,22 @@
+>=virtual/jdk-1.4 dev-java/junit source? ( app-arch/zip app-arch/unzip ) =dev-java/servletapi-2.4* >=dev-java/echo2-2.1.0_beta5 >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 =dev-java/servletapi-2.4* >=dev-java/echo2-2.1.0_beta5 >=dev-java/java-config-2.1.6
+0
+mirror://sourceforge/echopoint/echopointng-src-2.1.0rc3.zip
+
+http://echopoint.sourceforge.net/
+MPL-1.1 GPL-2 LGPL-2.1
+A rich collection of web components which seamlessly integrate with the Echo Web Framework
+
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+doc source elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

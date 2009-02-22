@@ -1,6 +1,5 @@
 # ChangeLog for app-editors/jext
 # Copyright 2000-2009 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/app-editors/jext/ChangeLog,v 1.17 2009/01/10 13:20:37 ali_bush Exp $
 
   10 Jan 2009; Alistair Bush <ali_bush@gentoo.org> jext-3.2_pre3-r1.ebuild:
   Fixed incorrect LICENSE. see #252951
@@ -21,6 +20,9 @@
   05 Oct 2006; Gustavo Zacarias <gustavoz@gentoo.org> jext-3.2_pre3.ebuild,
   jext-3.2_pre3-r1.ebuild:
   Dropping sparc keywords, see #96229
+
+  19 Jan 2009; Alistair Bush <ali_bush@gentoo.org> jext-5.0.ebuild:
+  Drop ~spac keyword as not supported.
 
 *jext-3.2_pre3-r1 (31 Jul 2006)
 

@@ -1,0 +1,22 @@
+>=virtual/jdk-1.5 app-arch/unzip dev-java/ant-core dev-java/ant-pretty =dev-java/findbugs-0.8* =dev-java/jaxen-1.1* dev-java/saxpath dev-java/sun-jai-bin source? ( app-arch/zip ) >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jdk-1.5 app-arch/unzip dev-java/ant-core dev-java/ant-pretty =dev-java/findbugs-0.8* =dev-java/jaxen-1.1* dev-java/saxpath dev-java/sun-jai-bin source? ( app-arch/zip ) >=virtual/jre-1.5 >=dev-java/java-config-2.1.6
+0
+mirror://sourceforge/jrefactory/jrefactory-2.9.19-source.zip
+
+http://jrefactory.sourceforge.net/
+as-is
+Open source Java refactoring tool
+~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+doc source elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

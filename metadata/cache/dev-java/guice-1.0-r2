@@ -1,0 +1,22 @@
+>=virtual/jdk-1.5 test? ( dev-java/junit ) dev-java/aopalliance dev-java/asm:3 dev-java/cglib:2.2 servletapi? ( java-virtuals/servlet-api:2.5 ) >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=sys-apps/portage-2.1.2.7 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.5 dev-java/aopalliance dev-java/asm:3 dev-java/cglib:2.2 servletapi? ( java-virtuals/servlet-api:2.5 ) >=dev-java/java-config-2.1.6 >=sys-apps/portage-2.1.2.7 source? ( app-arch/zip )
+0
+http://google-guice.googlecode.com/files/guice-1.0-src.zip
+test
+http://code.google.com/p/google-guice/
+Apache-2.0
+Guice is a lightweight dependency injection framework for Java 5 and above.
+~amd64 ~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+servletapi elibc_FreeBSD doc source elibc_FreeBSD
+
+
+
+1
+
+compile install preinst setup test unpack
+
+
+
+
+

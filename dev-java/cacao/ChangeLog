@@ -1,9 +1,44 @@
 # ChangeLog for dev-java/cacao
 # Copyright 1999-2007 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/cacao/ChangeLog,v 1.13 2007/02/21 23:29:54 peper Exp $
 
   21 Feb 2007; Piotr Jaroszyński <peper@gentoo.org> ChangeLog:
   Transition to Manifest2.
+
+  04 Feb 2009; Andrew John Hughes <gnu_andrew@member.fsf.org> cacao-0.99.3-r1.ebuild:
+  Bump.  Install symlinks in jre/lib/${arch} for libjvm.so and libjawt.so.
+
+* cacao-0.99.3 (23 Dec 2008)
+
+  23 Dec 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> cacao-0.99.3.ebuild:
+  Bump.  Use /usr/cacao rather than including version.
+	
+  29 Oct 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> cacao-0.99.2-r1.ebuild:
+  Depend on eclipse-ecj-3.3.0-r7 or later revisions and bump to revision 1.
+	
+  22 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> cacao-0.99.2.ebuild:
+  Install tools.jar not tools.zip
+
+  18 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> cacao-0.97.ebuild cacao-0.98.ebuild:
+  Removed due to missing GNU Classpath versions.
+	
+  15 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> cacao-0.99.2.ebuild cacao-0.98.ebuild:
+  Add -1 to ls in finding ecj.
+
+  08 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> cacao-0.99.2.ebuild cacao-0.98.ebuild:
+  Provide CACAO as a JDK to java-config.
+	
+* cacao-0.99.2 (08 Jul 2008)
+	
+  08 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> cacao-0.99.2.ebuild:
+  New ebuild for 0.99.2
+	
+  18 Jun 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> cacao-0.98.ebuild:
+  Unset JAVAC.
+
+*cacao-0.98 (26 May 2008)
+	
+  26 May 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> cacao-0.98.ebuild:
+  Support CACAO 0.98 using GNU Classpath 0.96.1.
 
   06 Oct 2006; Vlastimil Babka <caster@gentoo.org> cacao-0.95.ebuild:
   Fixed typo in DEPEND wrt bug #150283.

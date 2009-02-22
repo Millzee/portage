@@ -1,6 +1,5 @@
 # ChangeLog for dev-java/commons-graph
 # Copyright 1999-2007 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/commons-graph/ChangeLog,v 1.7 2007/04/27 22:17:36 betelgeuse Exp $
 
   27 Apr 2007; Petteri Räty <betelgeuse@gentoo.org>
   -commons-graph-0.8.1_p20040118.ebuild,
@@ -13,6 +12,11 @@
   commons-graph-0.8.1_p20040118-r1.ebuild,
   +commons-graph-0.8.1_p20040118-r2.ebuild:
   Fix dependencies, migrate to splitted ant and add the source use flag.
+
+  02 Mar 2007; kiorky <kiorky@cryptelium.net> ChangeLog:
+  Adding as i must do something else for now
+      Will finnish later
+      It s maven related stuff
 
 *commons-graph-0.8.1_p20040118-r1 (22 Jul 2006)
 

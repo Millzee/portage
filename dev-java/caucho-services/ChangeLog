@@ -1,6 +1,5 @@
 # ChangeLog for dev-java/caucho-services
 # Copyright 1999-2008 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/caucho-services/ChangeLog,v 1.12 2008/05/03 03:01:37 ken69267 Exp $
 
   03 May 2008; Kenneth Prugh <ken69267@gentoo.org>
   caucho-services-3.0.8-r2.ebuild:
@@ -60,3 +59,6 @@
   +caucho-services-2.1.12.ebuild:
   Initial addition by myself. Splitted from dev-java/hessian-2.1.12.
 
+  01 Nov 2007; Petteri Räty <betelgeuse@gentoo.org> +metadata.xml,
+  +caucho-services-2.1.12-r1.ebuild:
+  Move 2.1 slot here from main tree.

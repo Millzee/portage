@@ -1,0 +1,22 @@
+
+>=virtual/jdk-1.4
+2.0
+mirror://apache/maven/binaries/maven-2.0.7-bin.tar.bz2
+
+http://maven.apache.org/
+Apache-2.0
+Project Management and Comprehension Tool for Java
+~amd64 ~ppc ~x86
+
+
+
+
+
+0
+
+install unpack
+
+
+
+
+

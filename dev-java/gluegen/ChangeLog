@@ -1,0 +1,14 @@
+# ChangeLog for dev-java/gluegen
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  22 Jan 2009; Alistair Bush <ali_bush@gentoo.org> gluegen-20070220.ebuild,
+  gluegen-20080727.ebuild:
+  QA Fixes.
+
+  27 Jul 2008; Alistair Bush <ali_bush@gentoo.org> +gluegen-20080727.ebuild:
+  "Version" Bump gluegen.
+
+  29 Apr 2007; William L. Thomson Jr. <wltjr@gentoo.org> ChangeLog:
+  Added dep of ant-core, dropped second IUSE already has JAVA_PKG_IUSE
+

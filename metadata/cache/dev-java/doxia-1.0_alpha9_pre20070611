@@ -1,0 +1,22 @@
+>=virtual/jdk-1.4 >=dev-java/plexus-container-default-1.0_alpha33_pre20071021 >=dev-java/plexus-utils-1.4.7_pre20071021 =dev-java/jakarta-oro-2.0* dev-java/junit dev-java/plexus-i18n dev-java/velocity =dev-java/itext-1.4 dev-java/plexus-velocity >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 source? ( app-arch/zip ) >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 >=dev-java/plexus-container-default-1.0_alpha33_pre20071021 >=dev-java/plexus-utils-1.4.7_pre20071021 =dev-java/jakarta-oro-2.0* dev-java/junit dev-java/plexus-i18n dev-java/velocity =dev-java/itext-1.4 dev-java/plexus-velocity >=dev-java/java-config-2.1.6 >=dev-java/javatoolkit-0.3.0-r2
+0
+http://dev.gentooexperimental.org/~kiorky/doxia-1.0_alpha9_pre20070611.tar.bz2 http://dev.gentooexperimental.org/~kiorky/doxia-1.0_alpha9_pre20070611-gen-src.tar.bz2
+
+http://maven.apache.org/
+Apache-2.0
+Maven is a software project management and comprehension tool.
+~x86 ~amd64
+toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib base java-ant-2 eutils java-maven-2
+source doc elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

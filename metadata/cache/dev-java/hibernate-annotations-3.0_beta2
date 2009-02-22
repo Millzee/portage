@@ -1,0 +1,22 @@
+>=virtual/jdk-1.5 >=dev-java/java-config-2.1.6
+>=virtual/jre-1.5 =dev-java/hibernate-3.1* =dev-java/lucene-1* >=dev-java/java-config-2.1.6
+3.0
+mirror://sourceforge/hibernate/hibernate-annotations-3.0beta2.tar.gz mirror://sourceforge/hibernate/hibernate-3.0.5.tar.gz
+
+http://annotations.hibernate.org
+LGPL-2
+Annotations support for Hibernate
+~amd64 ~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
+doc elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+

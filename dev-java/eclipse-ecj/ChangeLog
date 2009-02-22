@@ -1,6 +1,5 @@
 # ChangeLog for dev-java/eclipse-ecj
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/eclipse-ecj/ChangeLog,v 1.53 2009/02/13 12:02:01 elvanor Exp $
 
 *eclipse-ecj-3.4-r4 (13 Feb 2009)
 
@@ -40,6 +39,22 @@
   eclipse-ecj-3.4-r2.ebuild:
   Make gcj support work with stable gcc.
 
+  29 Oct 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r7.ebuild:
+	Switch gcj build to creating a library and registering this using
+	gcj-dbtool.  Bump revision to recognise this change.
+	
+  29 Oct 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r6.ebuild:
+	Remove LD_LIBRARY_PATH change.
+	
+  22 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r5.ebuild:
+	Set LD_LIBRARY_PATH when running gcj.
+
+*eclipse-ecj-3.4.1 (29 Sep 2008)
+
+  29 Sep 2009; James Le Cuirot <chewi@aura-online.co.uk> 
+  +eclipse-ecj-3.4.1.ebuild:
+  Version bump. No changes.
+
   17 Sep 2008; Vlastimil Babka <caster@gentoo.org>
   eclipse-ecj-3.4-r2.ebuild:
   Don't restrict gcc dependency.
@@ -49,6 +64,9 @@
   01 Aug 2008; Jean-Noël Rivasseau <elvanor@gentoo.org> +files/ecj-3.4,
   +eclipse-ecj-3.4-r2.ebuild:
   Bumping eclipse-ecj-3.4, moving from overlay to tree.
+
+  22 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r5.ebuild eclipse-ecj-3.4.0-r2.ebuild:
+  Installed GCJ file should be ecj-3.3 in 3.3 ebuild.  Depend on current version of eselect-ecj.
 
 *eclipse-ecj-3.3.0-r3 (21 Jul 2008)
 *eclipse-ecj-3.2.2-r1 (21 Jul 2008)
@@ -60,6 +78,49 @@
   21 Jul 2008; Petteri Räty <betelgeuse@gentoo.org>
   -eclipse-ecj-3.2.ebuild, -eclipse-ecj-3.3.0-r1.ebuild:
   Remove old ebuilds.
+	
+  14 Jul 2008; James Le Cuirot <chewi@aura-online.co.uk>
+  eclipse-ecj-3.3.0-r5.ebuild, eclipse-ecj-3.4.0-r2.ebuild:
+  Sorry about deleting the script. Didn't notice the update and thought it was
+  old. Make sure we only pass one file to gcc-config. Don't install /usr/bin/ecj
+  as it is handled by eselect. Don't install /usr/bin/native_ecj either as this
+  would have to be handled by eselect too but actually we don't need it at all.
+
+  12 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r5.ebuild eclipse-ecj-3.4.0-r2.ebuild:
+  Add ecj script (AGAIN!!!) to ensure library path is correct for native ecj.
+
+  09 Jul 2008; James Le Cuirot <chewi@aura-online.co.uk>
+  -eclipse-ecj-3.4.ebuild, -eclipse-ecj-3.3.0-r3.ebuild, -files/ecj-3.4,
+  -files/ecj, -files/eclipse-ecj-3.4-gcj.diff, +eclipse-ecj-3.3.0-r4.ebuild,
+  +eclipse-ecj-3.4-r1.ebuild:
+  Use eselect-ecj to select between ECJ versions. Remove native_ecj symlinks.
+  Bring 3.3 in line with 3.4.
+
+  09 Jul 2008; James Le Cuirot <chewi@aura-online.co.uk>
+  -eclipse-ecj-3.4_rc4.ebuild, -files/eclipse-ecj-3.4_pre6-gcj.diff,
+  +eclipse-ecj-3.4.ebuild, +files/eclipse-ecj-3.4-gcj.diff:
+  Version bump to 3.4 final. This version also builds using GCJ without a JDK.
+
+  08 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r3.ebuild:
+  Add ecj script to ensure library path is correct for native ecj.
+
+  08 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r3.ebuild:
+  Fix mistakes in DEPEND and add RDEPEND.
+
+  08 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r3.ebuild:
+  Make gcj build work without a JDK.
+
+  03 Jul 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r3.ebuild:
+  Work with gcj from sys-devel/gcc-4.3.1.
+	
+  16 Jun 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r3.ebuild:
+  Depend on gcj-jdk not gcj.
+
+  02 Jun 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r3.ebuild:
+  Re-introduce pure Java builds, making GCJ a USE flag, and install ecj.jar correctly.
+
+  26 May 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> eclipse-ecj-3.3.0-r3.ebuild:
+  Provide better support for native builds with GCJ.
 
   07 Apr 2008; Kenneth Prugh <ken69267@gentoo.org> eclipse-ecj-3.2.2.ebuild:
   amd64 stable, bug #212643

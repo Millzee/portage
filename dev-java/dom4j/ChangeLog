@@ -1,6 +1,5 @@
 # ChangeLog for dev-java/dom4j
-# Copyright 2002-2008 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/dom4j/ChangeLog,v 1.48 2008/10/25 17:21:50 nixnut Exp $
+# Copyright 2002-2009 Gentoo Foundation; Distributed under the GPL v2
 
   25 Oct 2008; nixnut <nixnut@gentoo.org> dom4j-1.6.1-r3.ebuild:
   Stable on ppc wrt bug 242970
@@ -30,6 +29,37 @@
 
   09 May 2007; Raúl Porcel <armin76@gentoo.org> dom4j-1.6.1-r2.ebuild:
   Add ~ia64 wrt #160813
+
+  19 Jan 2009; Alistair Bush <ali_bush@gentoo.org> metadata.xml,
+  dom4j-1.4-r1.ebuild, dom4j-1.6.1-r4.ebuild:
+  QA Fixes. Drop keywords ~ppc64 ~ia64 due to unsatisfied deps.
+
+  15 Oct 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> dom4j-1.6.1-r4.ebuild:
+  Rename to stax-api.
+
+  14 Oct 2008; Serkan Kaba <serkan@gentoo.org> -dom4j-1.6.1-r3.ebuild,
+  +dom4j-1.6.1-r4.ebuild:
+  Revbump the version that uses virtuals.
+
+  23 Sep 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> dom4j-1.6.1-r3.ebuild:
+  Use slot 1 for jaxb virtual.
+	
+  01 Sep 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> dom4j-1.6.1-r3.ebuild:
+  Depend on virtuals to avoid pulling in useless dependencies with 1.6 JDKs.
+
+  26 Jul 2007; Miroslav Šulc <fordfrog@gentoo.org> dom4j-1.4.ebuild:
+  Quickfix of problem with missing commons-logging on classpath.
+
+  09 Jun 2007; Joshua Nichols <nichoj@gentoo.org> ChangeLog:
+  Added ~amd64.
+
+  18 Feb 2007; kiorky <kiorky@cryptelium.net> ChangeLog:
+  Ressurecting 1.4 as it is a "findbugs" dependency
+  see #93232
+
+  25 May 2007; kiorky <kiorky@cryptelium.net> dom4j-1.4.ebuild,
+  +files/makethingscompile.diff, +makethingscompile.diff:
+  fix patches
 
   10 Jan 2007; Vlastimil Babka <caster@gentoo.org> -dom4j-1.4-r1.ebuild,
   -dom4j-1.5.ebuild, -dom4j-1.6.1.ebuild:

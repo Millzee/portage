@@ -1,0 +1,22 @@
+>=virtual/jdk-1.4 >=dev-java/java-config-2.1.6
+>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+0
+
+
+http://www.gentoo.org
+GPL-2
+a void jar
+~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
+elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup
+
+
+
+
+

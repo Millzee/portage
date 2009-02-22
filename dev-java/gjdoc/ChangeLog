@@ -1,6 +1,5 @@
 # ChangeLog for dev-java/gjdoc
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/gjdoc/ChangeLog,v 1.37 2009/02/16 14:10:53 ranger Exp $
 
   16 Feb 2009; Brent Baude <ranger@gentoo.org> gjdoc-0.7.9.ebuild:
   stable ppc, bug 259036
@@ -22,6 +21,44 @@
   Use EAPI 2 use dependencies to require antlr with the java use flag. Fixes
   bug #233765.
 
+
+  19 Jan 2009; Alistair Bush <ali_bush@gentoo.org> metadata.xml,
+  -gjdoc-0.7.8.ebuild, gjdoc-0.7.9.ebuild:
+  Removed old version and dropped ~ai64 keyword with unsatisfied deps.
+
+  29 Sep 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> gjdoc-0.7.9.ebuild:
+  Remove stupid flags given to JAVAC.
+
+  29 Sep 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> gjdoc-0.7.9.ebuild:
+  Fix gcj-jdk depedency and remove changes which break the ebuild.
+
+  27 Sep 2008; Petteri Räty <betelgeuse@gentoo.org> gjdoc-0.7.9.ebuild:
+  USE deps for antlr.
+
+  12 Sep 2008; Petteri Räty <betelgeuse@gentoo.org> gjdoc-0.7.9.ebuild:
+  Use JAVA_PKG_IUSE and emake.
+
+  20 Aug 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> gjdoc:
+  Fix LD_LIBRARY_PATH for use with gcc 4.3.
+	
+  03 Aug 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> gjdoc-0.7.9.ebuild:
+  Generalise Vlastimil's fix to all compiles.
+
+  01 Aug 2008; Vlastimil Babka <caster@gentoo.org> gjdoc-0.7.9.ebuild:
+  Fix wrong bytecode version issue when building with >1.4 JDK and not gcj.
+
+  16 Jun 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> gjdoc-0.7.9.ebuild:
+  Depend on gcj-jdk not gcj.
+
+  16 Jun 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> gjdoc-0.7.8.ebuild:
+  Depend on gcj-jdk not gcj.
+
+  26 May 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> gjdoc-0.7.9.ebuild:
+  Provide native support via GCJ.
+
+  26 May 2008; Andrew John Hughes <gnu_andrew@member.fsf.org> gjdoc-0.7.8.ebuild:
+  Provide native support via GCJ.
+	
 *gjdoc-0.7.9 (22 Apr 2008)
 
   22 Apr 2008; Petteri Räty <betelgeuse@gentoo.org> +gjdoc-0.7.9.ebuild:

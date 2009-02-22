@@ -1,6 +1,5 @@
 # ChangeLog for www-servers/axis
 # Copyright 1999-2008 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/www-servers/axis/ChangeLog,v 1.21 2008/03/22 22:31:00 betelgeuse Exp $
 
   22 Mar 2008; Petteri Räty <betelgeuse@gentoo.org>
   -axis-1.2_rc2-r2.ebuild:
@@ -85,3 +84,24 @@
   +files/axis-1.2-gentoo.patch, +axis-1.2_rc2.ebuild:
   Initial import. Ebuild contributions by various people, see #38899.
 
+  29 Jan 2008; Alistair Bush <ali_bush@gentoo.org> +axis-1.4-r1.ebuild:
+  Bump axis to use java-virtuals/javamail.
+
+  09 Sep 2007; William L. Thomson Jr. <wltjr@gentoo.org> axis-1.4.ebuild:
+  Bumped dep on castor from -1.0 to 1.1, since 1.0 no longer exists :)
+
+  09 May 2007; Vlastimil Babka <caster@gentoo.org> axis-1.4.ebuild:
+  Remove xmlbeans dep.
+
+  08 May 2007; Vlastimil Babka <caster@gentoo.org> axis-1.4.ebuild:
+  Update bsf dep.
+
+  07 May 2007; Vlastimil Babka <caster@gentoo.org> axis-1.4.ebuild:
+  Migrate to split-ant.
+
+  02 Oct 2006; Vlastimil Babka <caster@gentoo.org> +axis-1.4.ebuild,
+  +files/axis-1.4-build.xml.patch, +files/axis-1.4-path_refs.xml.patch,
+  +files/axis-1.4-targets.xml.patch, +files/axis-1.4-tools-build.xml.patch,
+  +files/build.properties:
+  Version bump, migrated to gen-2 eclasses, removed automagical dependency
+  checks.

@@ -1,6 +1,5 @@
 # ChangeLog for dev-java/picocontainer
 # Copyright 2000-2008 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/picocontainer/ChangeLog,v 1.26 2008/03/18 01:38:01 betelgeuse Exp $
 
   18 Mar 2008; Petteri Räty <betelgeuse@gentoo.org>
   picocontainer-1.1-r1.ebuild:
@@ -28,6 +27,30 @@
   13 Feb 2007; Petteri Räty <betelgeuse@gentoo.org>
   -files/build-1.0_beta4.xml, -picocontainer-1.0_beta4.ebuild:
   Remove an old version.
+
+  27 May 2007; Vlastimil Babka <caster@gentoo.org>
+  -picocontainer-1.2.ebuild, +picocontainer-1.2-r1.ebuild:
+  Revbump to move to slot 1.2, deskzilla doesn't work with 1.2 so it can't go
+  to same slot.
+
+  02 Mar 2007; Joshua Nichols <nichoj@gentoo.org> picocontainer-1.2.ebuild:
+  Added ~amd64
+
+  13 Feb 2007; Vlastimil Babka <caster@gentoo.org>
+  -picocontainer-1.0_beta4.ebuild, -files/build-1.0_beta4.xml,
+  -picocontainer-1.1.ebuild, -picocontainer-1.1-r1.ebuild:
+  Remove versions in portage.
+
+  13 Feb 2007; kiorky <kiorky@cryptelium.net> +picocontainer-1.2.ebuild:
+  Bumped to version 1.2
+      see #166693 and #128398
+
+  13 Feb 2007; kiorky <kiorky@cryptelium.net> ChangeLog:
+  ChangeLog files Manifest metadata.xml picocontainer-1.0_beta4.ebuild
+  picocontainer-1.1.ebuild picocontainer-1.1-r1.ebuild
+  picocontainer-1.2_beta1.ebuild
+  Bumped to version 1.2_beta1
+  see #166693 and #128398
 
 *picocontainer-1.1-r1 (01 Aug 2006)
 

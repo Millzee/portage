@@ -1,6 +1,5 @@
 # ChangeLog for dev-java/jdbm
 # Copyright 1999-2008 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/jdbm/ChangeLog,v 1.12 2008/10/23 21:46:47 maekke Exp $
 
   23 Oct 2008; Markus Meier <maekke@gentoo.org> jdbm-0.12-r2.ebuild:
   add empty IUSE to make repoman happy
@@ -47,3 +46,12 @@
   +files/jdbm-0.12-buildfile.patch, +jdbm-0.12.ebuild:
   Initial import, package needed as a indirect dependency of openjms.
 
+  09 May 2008; Alistair Bush <ali_bush@gentoo.org> +metadata.xml,
+  jdbm-1.0.ebuild:
+  Add test use flag. Add metadata.xml
+
+  02 Mar 2008; Alistair Bush <ali_bush@gentoo.org> jdbm-1.0.ebuild:
+  Added JAVA_PKG_IUSE to resolve zip dependency.
+
+  26 Jan 2007; Vlastimil Babka <caster@gentoo.org> jdbm-1.0.ebuild:
+  Fix manifest version and src_install.

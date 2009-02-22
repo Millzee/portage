@@ -1,6 +1,5 @@
 # ChangeLog for dev-java/struts
 # Copyright 2000-2009 Gentoo Foundation; Distributed under the GPL v2
-# $Header: /var/cvsroot/gentoo-x86/dev-java/struts/ChangeLog,v 1.42 2009/02/15 17:36:34 caster Exp $
 
   15 Feb 2009; Vlastimil Babka <caster@gentoo.org> -struts-1.2.9-r1.ebuild:
   Cleanup.
@@ -183,4 +182,20 @@
   struts-1.1.ebuild:
   Initial Import. Thanks to Pavel <hlobil@sympatico.ca> for input. Closes
   #43253, #14382, #21930
+
+  15 Feb 2009; Vlastimil Babka <caster@gentoo.org> struts-1.3.8.ebuild:
+  Slot dep on commons-beanutils.
+
+  20 Jan 2009; Alistair Bush <ali_bush@gentoo.org> +metadata.xml,
+  struts-1.1-r5.ebuild, -struts-1.3.5.ebuild, struts-1.3.8.ebuild:
+  Drop ~ppc as unsatisfied deps. QA Fixes.
+
+  08 Feb 2008; Petteri Räty <betelgeuse@gentoo.org> +struts-1.1-r5.ebuild:
+  Add struts:1.1 from the main tree. Nothing there needs it.
+
+  26 Dec 2007; <alistair@gentoo.org> +struts-1.3.8.ebuild:
+  Bumped struts to 1.3.8
+
+  08 May 2007; Vlastimil Babka <caster@gentoo.org> struts-1.3.5.ebuild:
+  Update bsf dep.
 
