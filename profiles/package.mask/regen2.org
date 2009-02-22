@@ -1,4 +1,8 @@
 # Caleb Cushing <xenoterracide@gmail.com> (15 Feb 2009)
+# Mask new versions for caution
+>sys-apps/openrc-0.4.2
+
+# Caleb Cushing <xenoterracide@gmail.com> (15 Feb 2009)
 # Masking because of bug 258442
 =sys-apps/module-init-tools-3.6
 
