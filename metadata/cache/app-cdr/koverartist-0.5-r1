@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/app-cdr/koverartist-0.5-r1
 DEFINED_PHASES=compile install postinst postrm preinst setup unpack
 DEPEND=!app-cdr/kover =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
 DESCRIPTION=Koverartist is a KDE program for fast creation of covers for cd/dvd cases and boxes.
@@ -12,27 +11,3 @@ SLOT=0
 SRC_URI=http://members.inode.at/499177/software/koverartist/koverartist-0.5.tar.bz2
 _eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	kde	/home/Funtoo/portage/eclass	1235373829	kde-functions	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt3	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
-=======
-!app-cdr/kover =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
-!app-cdr/kover cddb? ( || ( ( kde-base/libkcddb:3.5 kde-base/kdemultimedia-kioslaves:3.5 ) kde-base/kdemultimedia:3.5 ) ) =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
-0
-http://members.inode.at/499177/software/koverartist/koverartist-0.5.tar.bz2
-
-http://www.kde-apps.org/content/show.php?content=38195
-GPL-2
-Koverartist is a KDE program for fast creation of covers for cd/dvd cases and boxes.
-~amd64 ~ppc ~sparc ~x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions libtool base autotools eutils
-cddb debug elibc_FreeBSD xinerama
-
-
-
-1
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/app-cdr/koverartist-0.5-r1

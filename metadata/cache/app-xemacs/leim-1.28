@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/app-xemacs/leim-1.28
 DEFINED_PHASES=compile install unpack
 DEPEND=virtual/xemacs
 DESCRIPTION=MULE: Quail. All non-English and non-Japanese language support.
@@ -11,27 +10,3 @@ SLOT=0
 SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/leim-1.28-pkg.tar.gz
 _eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
-=======
-virtual/xemacs
-app-xemacs/mule-base app-xemacs/fsf-compat app-xemacs/xemacs-base app-xemacs/latin-euro-standards
-0
-http://ftp.xemacs.org/pub/xemacs/packages/leim-1.28-pkg.tar.gz
-
-http://xemacs.org/
-GPL-2
-MULE: Quail. All non-English and non-Japanese language support.
-~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86
-xemacs-packages
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/app-xemacs/leim-1.28

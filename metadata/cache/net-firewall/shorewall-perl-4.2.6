@@ -1,22 +1,13 @@
-net-firewall/iptables sys-apps/iproute2 dev-lang/perl !<net-firewall/shorewall-4.0
-net-firewall/iptables sys-apps/iproute2 dev-lang/perl !<net-firewall/shorewall-4.0
-0
-http://www1.shorewall.net/pub/shorewall/4.2/shorewall-4.2.6/shorewall-perl-4.2.6.tar.bz2
-
-http://www.shorewall.net/
-GPL-2
-Shoreline Firewall Perl-based compiler that allows faster compilation and execution.
-~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-versionator
-
-
-=net-firewall/shorewall-common-4.2.6*
-
-0
-
-compile install postinst
-
-
-
-
-
+DEFINED_PHASES=compile install postinst
+DEPEND=net-firewall/iptables sys-apps/iproute2 dev-lang/perl !<net-firewall/shorewall-4.0
+DESCRIPTION=Shoreline Firewall Perl-based compiler that allows faster compilation and execution.
+EAPI=0
+HOMEPAGE=http://www.shorewall.net/
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+PDEPEND==net-firewall/shorewall-common-4.2.6*
+RDEPEND=net-firewall/iptables sys-apps/iproute2 dev-lang/perl !<net-firewall/shorewall-4.0
+SLOT=0
+SRC_URI=http://www1.shorewall.net/pub/shorewall/4.2/shorewall-4.2.6/shorewall-perl-4.2.6.tar.bz2
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235375254

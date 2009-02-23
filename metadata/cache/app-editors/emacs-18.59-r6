@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/app-editors/emacs-18.59-r6
 DEFINED_PHASES=compile configure install postinst postrm prepare
 DEPEND=sys-libs/ncurses >=app-admin/eselect-emacs-1.2 X? ( x11-libs/libX11[-xcb] )
 DESCRIPTION=The extensible self-documenting text editor
@@ -12,27 +11,3 @@ SLOT=18
 SRC_URI=mirror://gnu/old-gnu/emacs/emacs-18.59.tar.gz ftp://ftp.splode.com/pub/users/friedman/emacs/emacs-18.59-linux22x-elf-glibc21.diff.gz mirror://gentoo/emacs-18.59-patches-3.tar.bz2
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
-=======
-sys-libs/ncurses >=app-admin/eselect-emacs-1.2 X? ( x11-libs/libX11[-xcb] )
-sys-libs/ncurses >=app-admin/eselect-emacs-1.2 X? ( x11-libs/libX11[-xcb] )
-18
-mirror://gnu/old-gnu/emacs/emacs-18.59.tar.gz ftp://ftp.splode.com/pub/users/friedman/emacs/emacs-18.59-linux22x-elf-glibc21.diff.gz mirror://gentoo/emacs-18.59-patches-3.tar.bz2
-
-http://www.gnu.org/software/emacs/
-GPL-1 GPL-2 BSD as-is
-The extensible self-documenting text editor
-x86
-toolchain-funcs multilib portability eutils flag-o-matic
-X
-
-
-
-2
-
-compile configure install postinst postrm prepare
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/app-editors/emacs-18.59-r6

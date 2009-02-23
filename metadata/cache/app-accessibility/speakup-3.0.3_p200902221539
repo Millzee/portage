@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/app-accessibility/speakup-3.0.3_p200902221539
 DEFINED_PHASES=compile install postinst postrm preinst setup
 DEPEND=kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
 DESCRIPTION=The speakup linux kernel based screen reader.
@@ -11,28 +10,4 @@ RDEPEND=kernel_linux? ( virtual/modutils )
 SLOT=0
 SRC_URI=mirror://gentoo/speakup-3.0.3_p200902221539.tar.bz2
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	linux-info	/home/Funtoo/portage/eclass	1235373829	linux-mod	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235375253
-=======
-kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-kernel_linux? ( virtual/modutils )
-0
-mirror://gentoo/speakup-3.0.3_p200902221539.tar.bz2
-
-http://linux-speakup.org
-GPL-2
-The speakup linux kernel based screen reader.
-~amd64 ~x86
-toolchain-funcs portability versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/app-accessibility/speakup-3.0.3_p200902221539
+_mtime_=1235387675

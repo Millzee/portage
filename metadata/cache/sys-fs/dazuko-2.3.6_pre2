@@ -1,22 +1,13 @@
-kernel_linux? ( >=virtual/linux-sources-2.6.27 ) ~sys-fs/redirfs-0.6 kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
-kernel_linux? ( >=virtual/linux-sources-2.6.27 ) ~sys-fs/redirfs-0.6 kernel_linux? ( virtual/modutils )
-0
-http://dazuko.dnsalias.org/files/dazuko-2.3.6-pre2.tar.gz http://www.redirfs.org/packages/redirfs-0.6.tar.gz
-
-http://www.dazuko.org
-GPL-2 BSD
-Linux kernel module and interface providing file access control
-~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
-toolchain-funcs portability flag-o-matic versionator multilib linux-info linux-mod eutils
-kernel_linux
-
-
-
-0
-
-compile install postinst postrm preinst setup test unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm preinst setup test unpack
+DEPEND=kernel_linux? ( >=virtual/linux-sources-2.6.27 ) ~sys-fs/redirfs-0.6 kernel_linux? ( virtual/linux-sources ) kernel_linux? ( virtual/modutils ) sys-apps/sed
+DESCRIPTION=Linux kernel module and interface providing file access control
+EAPI=0
+HOMEPAGE=http://www.dazuko.org
+IUSE=kernel_linux
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=GPL-2 BSD
+RDEPEND=kernel_linux? ( >=virtual/linux-sources-2.6.27 ) ~sys-fs/redirfs-0.6 kernel_linux? ( virtual/modutils )
+SLOT=0
+SRC_URI=http://dazuko.dnsalias.org/files/dazuko-2.3.6-pre2.tar.gz http://www.redirfs.org/packages/redirfs-0.6.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	linux-info	/home/Funtoo/portage/eclass	1235373829	linux-mod	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235375254

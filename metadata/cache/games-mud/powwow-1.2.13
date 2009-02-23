@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/games-mud/powwow-1.2.13
 DEFINED_PHASES=compile install postinst preinst setup unpack
 DESCRIPTION=PowWow Console MUD Client
 EAPI=0
@@ -9,27 +8,3 @@ SLOT=0
 SRC_URI=http://hoopajoo.net/static/projects/powwow-1.2.13.tar.gz
 _eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
-=======
-
-
-0
-http://hoopajoo.net/static/projects/powwow-1.2.13.tar.gz
-
-http://hoopajoo.net/projects/powwow.html
-GPL-2
-PowWow Console MUD Client
-~amd64 ~ppc x86
-toolchain-funcs portability multilib base games eutils
-
-
-
-
-0
-
-compile install postinst preinst setup unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/games-mud/powwow-1.2.13

@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/sys-freebsd/freebsd-lib-7.1-r2
 DEFINED_PHASES=compile install setup unpack
 DEPEND=ssl? ( dev-libs/openssl ) hesiod? ( net-dns/hesiod ) kerberos? ( virtual/krb5 ) !sys-freebsd/freebsd-headers dev-libs/libelf >=sys-devel/flex-2.5.31-r2 =sys-freebsd/freebsd-sources-7.1* !bootstrap? ( app-arch/bzip2 ) =sys-freebsd/freebsd-mk-defs-7.1* virtual/pmake virtual/pmake
 DESCRIPTION=FreeBSD's base system libraries
@@ -13,27 +12,3 @@ SLOT=7.0
 SRC_URI=mirror://gentoo/freebsd-lib-7.1.tar.bz2 mirror://gentoo/freebsd-contrib-7.1.tar.bz2 mirror://gentoo/freebsd-crypto-7.1.tar.bz2 mirror://gentoo/freebsd-libexec-7.1.tar.bz2 mirror://gentoo/freebsd-etc-7.1.tar.bz2 mirror://gentoo/freebsd-include-7.1.tar.bz2 nis? ( mirror://gentoo/freebsd-usbin-7.1.tar.bz2 ) build? ( mirror://gentoo/freebsd-sys-7.1.tar.bz2 )
 _eclasses_=bsdmk	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	freebsd	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375254
-=======
-ssl? ( dev-libs/openssl ) hesiod? ( net-dns/hesiod ) kerberos? ( virtual/krb5 ) !sys-freebsd/freebsd-headers dev-libs/libelf >=sys-devel/flex-2.5.31-r2 =sys-freebsd/freebsd-sources-7.1* !bootstrap? ( app-arch/bzip2 ) =sys-freebsd/freebsd-mk-defs-7.1* virtual/pmake virtual/pmake
-ssl? ( dev-libs/openssl ) hesiod? ( net-dns/hesiod ) kerberos? ( virtual/krb5 ) !sys-freebsd/freebsd-headers dev-libs/libelf
-7.0
-mirror://gentoo/freebsd-lib-7.1.tar.bz2 mirror://gentoo/freebsd-contrib-7.1.tar.bz2 mirror://gentoo/freebsd-crypto-7.1.tar.bz2 mirror://gentoo/freebsd-libexec-7.1.tar.bz2 mirror://gentoo/freebsd-etc-7.1.tar.bz2 mirror://gentoo/freebsd-include-7.1.tar.bz2 nis? ( mirror://gentoo/freebsd-usbin-7.1.tar.bz2 ) build? ( mirror://gentoo/freebsd-sys-7.1.tar.bz2 )
-
-http://www.freebsd.org/
-BSD
-FreeBSD's base system libraries
-~sparc-fbsd ~x86-fbsd
-toolchain-funcs portability flag-o-matic versionator multilib freebsd bsdmk eutils
-atm bluetooth ssl hesiod ipv6 kerberos nis gpib build bootstrap crosscompile_opts_headers-only profile
-
-
-virtual/libc virtual/os-headers
-0
-
-compile install setup unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/sys-freebsd/freebsd-lib-7.1-r2

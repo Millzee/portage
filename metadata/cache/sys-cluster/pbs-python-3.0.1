@@ -1,22 +1,12 @@
-sys-cluster/torque virtual/python
-sys-cluster/torque
-0
-ftp://ftp.sara.nl/pub/outgoing/pbs_python-3.0.1.tar.gz
-
-https://subtrac.sara.nl/oss/pbs_python/
-openpbs as-is
-Python bindings to the PBS C API
-~amd64
-toolchain-funcs distutils portability python alternatives multilib eutils
-
-
-
-
-0
-
-compile install postinst postrm unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm unpack
+DEPEND=sys-cluster/torque virtual/python
+DESCRIPTION=Python bindings to the PBS C API
+EAPI=0
+HOMEPAGE=https://subtrac.sara.nl/oss/pbs_python/
+KEYWORDS=~amd64
+LICENSE=openpbs as-is
+RDEPEND=sys-cluster/torque
+SLOT=0
+SRC_URI=ftp://ftp.sara.nl/pub/outgoing/pbs_python-3.0.1.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	distutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235375254

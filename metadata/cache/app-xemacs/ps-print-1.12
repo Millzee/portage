@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/app-xemacs/ps-print-1.12
 DEFINED_PHASES=compile install unpack
 DEPEND=virtual/xemacs
 DESCRIPTION=Printing functions and utilities
@@ -11,27 +10,3 @@ SLOT=0
 SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/ps-print-1.12-pkg.tar.gz
 _eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
-=======
-virtual/xemacs
-app-xemacs/text-modes app-xemacs/xemacs-base
-0
-http://ftp.xemacs.org/pub/xemacs/packages/ps-print-1.12-pkg.tar.gz
-
-http://xemacs.org/
-GPL-2
-Printing functions and utilities
-~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86
-xemacs-packages
-
-
-
-
-0
-
-compile install unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/app-xemacs/ps-print-1.12
