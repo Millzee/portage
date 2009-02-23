@@ -30,9 +30,9 @@
 # Mask new versions for caution
 >sys-fs/udev-135-r3
 
-# Caleb Cushing <xenoterracide@gmail.com> (19 Jan 2008)
+# Caleb Cushing <xenoterracide@gmail.com> (22 Feb 2009)
 # Mask new versions for caution
->sys-libs/glibc-2.9_p20081201-r1
+>sys-libs/glibc-2.9_p20081201-r2
 
 # Caleb Cushing <xenoterracide@gmail.com> (19 Jan 2008)
 # Mask new versions for caution
