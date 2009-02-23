@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-xemacs/eudc-1.40
 DEFINED_PHASES=compile install unpack
 DEPEND=virtual/xemacs
 DESCRIPTION=Emacs Unified Directory Client (LDAP, PH).
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/eudc-1.40-pkg.tar.gz
 _eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
+=======
+virtual/xemacs
+app-xemacs/fsf-compat app-xemacs/xemacs-base app-xemacs/bbdb app-xemacs/mail-lib app-xemacs/gnus app-xemacs/rmail app-xemacs/tm app-xemacs/apel app-xemacs/xemacs-eterm app-xemacs/sh-script app-xemacs/net-utils app-xemacs/ecrypto
+0
+http://ftp.xemacs.org/pub/xemacs/packages/eudc-1.40-pkg.tar.gz
+
+http://xemacs.org/
+GPL-2
+Emacs Unified Directory Client (LDAP, PH).
+~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86
+xemacs-packages
+
+
+
+
+0
+
+compile install unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-xemacs/eudc-1.40

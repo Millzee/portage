@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/x11-plugins/gkrellm-gamma-2.03-r1
 DEFINED_PHASES=install setup unpack
 DEPEND=x11-libs/libXxf86vm x11-proto/xf86vidmodeproto =app-admin/gkrellm-2* dev-util/pkgconfig
 DESCRIPTION=A gamma control plugin for gkrellm
@@ -10,3 +11,27 @@ SLOT=2
 SRC_URI=http://tripie.sweb.cz/gkrellm/gamma/dist/gkrellm-gamma-2.03.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	gkrellm-plugin	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375255
+=======
+x11-libs/libXxf86vm x11-proto/xf86vidmodeproto =app-admin/gkrellm-2* dev-util/pkgconfig
+x11-libs/libXxf86vm =app-admin/gkrellm-2*
+2
+http://tripie.sweb.cz/gkrellm/gamma/dist/gkrellm-gamma-2.03.tar.gz
+
+http://tripie.sweb.cz/gkrellm/gamma/
+GPL-2
+A gamma control plugin for gkrellm
+ppc sparc x86
+multilib toolchain-funcs gkrellm-plugin portability eutils
+
+
+
+
+0
+
+install setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/x11-plugins/gkrellm-gamma-2.03-r1

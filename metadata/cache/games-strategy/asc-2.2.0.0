@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/games-strategy/asc-2.2.0.0
 DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
 DEPEND=app-arch/bzip2 media-libs/jpeg media-libs/libsdl media-libs/libpng media-libs/sdl-image[gif,jpeg,png] media-libs/sdl-mixer[vorbis] media-libs/sdl-sound dev-libs/boost dev-games/physfs media-libs/libvorbis media-libs/xvid dev-libs/expat media-libs/freetype dev-libs/libsigc++:1.2 dev-lang/perl dev-util/pkgconfig
 DESCRIPTION=turn based strategy game designed in the tradition of the Battle Isle series
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/asc-hq/asc-2.2.0.0.tar.bz2 http://www.asc-hq.org/music/frontiers.ogg http://www.asc-hq.org/music/time_to_strike.ogg http://www.asc-hq.org/music/machine_wars.ogg
 _eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
+=======
+app-arch/bzip2 media-libs/jpeg media-libs/libsdl media-libs/libpng media-libs/sdl-image[gif,jpeg,png] media-libs/sdl-mixer[vorbis] media-libs/sdl-sound dev-libs/boost dev-games/physfs media-libs/libvorbis media-libs/xvid dev-libs/expat media-libs/freetype dev-libs/libsigc++:1.2 dev-lang/perl dev-util/pkgconfig
+app-arch/bzip2 media-libs/jpeg media-libs/libsdl media-libs/libpng media-libs/sdl-image[gif,jpeg,png] media-libs/sdl-mixer[vorbis] media-libs/sdl-sound dev-libs/boost dev-games/physfs media-libs/libvorbis media-libs/xvid dev-libs/expat media-libs/freetype dev-libs/libsigc++:1.2
+0
+mirror://sourceforge/asc-hq/asc-2.2.0.0.tar.bz2 http://www.asc-hq.org/music/frontiers.ogg http://www.asc-hq.org/music/time_to_strike.ogg http://www.asc-hq.org/music/machine_wars.ogg
+
+http://www.asc-hq.org/
+GPL-2
+turn based strategy game designed in the tradition of the Battle Isle series
+~amd64 x86
+toolchain-funcs portability flag-o-matic multilib base games eutils
+
+
+
+
+2
+
+compile configure install postinst preinst prepare setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/games-strategy/asc-2.2.0.0

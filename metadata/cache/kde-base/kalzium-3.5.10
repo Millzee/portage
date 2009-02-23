@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/kde-base/kalzium-3.5.10
 DEFINED_PHASES=compile install postinst postrm preinst setup unpack
 DEPEND=>=kde-base/libkdeedu-3.5.10:3.5 solver? ( >=dev-ml/facile-1.1 ) =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdeedu-3.5*
 DESCRIPTION=KDE: periodic table of the elements
@@ -11,3 +12,27 @@ SLOT=3.5
 SRC_URI=mirror://kde/stable/3.5.10/src/kdeedu-3.5.10.tar.bz2
 _eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	kde	/home/Funtoo/portage/eclass	1235373829	kde-functions	/home/Funtoo/portage/eclass	1235373829	kde-meta	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt3	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
+=======
+>=kde-base/libkdeedu-3.5.10:3.5 solver? ( >=dev-ml/facile-1.1 ) =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdeedu-3.5*
+>=kde-base/libkdeedu-3.5.10:3.5 solver? ( >=dev-ml/facile-1.1 ) ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdeedu-3.5*
+3.5
+mirror://kde/stable/3.5.10/src/kdeedu-3.5.10.tar.bz2
+
+http://edu.kde.org/kalzium/
+GPL-2
+KDE: periodic table of the elements
+~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions kde-meta base libtool autotools eutils
+solver debug elibc_FreeBSD
+
+
+
+1
+
+compile install postinst postrm preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/kde-base/kalzium-3.5.10

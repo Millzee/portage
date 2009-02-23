@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/games-puzzle/xblockout-1.1.5-r1
 DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
 DEPEND=x11-libs/libXext
 DESCRIPTION=X Window block dropping game in 3 Dimension
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://www710.univ-lyon1.fr/~exco/XBL/xbl-1.1.5.tar.gz
 _eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
+=======
+x11-libs/libXext
+x11-libs/libXext
+0
+http://www710.univ-lyon1.fr/~exco/XBL/xbl-1.1.5.tar.gz
+
+http://www710.univ-lyon1.fr/ftp/xbl/xbl.html
+GPL-1
+X Window block dropping game in 3 Dimension
+amd64 ppc x86
+toolchain-funcs portability flag-o-matic multilib base games eutils
+
+
+
+
+2
+
+compile configure install postinst preinst prepare setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/games-puzzle/xblockout-1.1.5-r1

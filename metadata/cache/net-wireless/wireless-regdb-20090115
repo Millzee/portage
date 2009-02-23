@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/net-wireless/wireless-regdb-20090115
 DEFINED_PHASES=compile install
 DEPEND=dev-libs/openssl dev-lang/python
 DESCRIPTION=Binary regulatory database for CRDA
@@ -9,3 +10,27 @@ RDEPEND=dev-libs/openssl dev-lang/python
 SLOT=0
 SRC_URI=http://wireless.kernel.org/download/wireless-regdb/wireless-regdb-2009.01.15.tar.bz2
 _mtime_=1235375254
+=======
+dev-libs/openssl dev-lang/python
+dev-libs/openssl dev-lang/python
+0
+http://wireless.kernel.org/download/wireless-regdb/wireless-regdb-2009.01.15.tar.bz2
+
+http://wireless.kernel.org/en/developers/Regulatory
+as-is
+Binary regulatory database for CRDA
+amd64 ppc ~ppc64 x86
+
+
+
+
+
+0
+
+compile install
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/net-wireless/wireless-regdb-20090115

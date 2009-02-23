@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/games-fps/legends-0.4.1.43
 DEFINED_PHASES=compile install postinst preinst setup unpack
 DESCRIPTION=Fast-paced first-person-shooter online multiplayer game, similar to Tribes
 EAPI=0
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=http://legendsthegame.net/files/legends_linux-0.4.1.43.run mirror://gentoo/legends.png http://dev.gentoo.org/~wolf31o2/sources/dump/legends.png
 _eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
+=======
+
+>=media-libs/libsdl-1.2 media-libs/libogg media-libs/libvorbis media-libs/openal sys-libs/glibc amd64? ( >=app-emulation/emul-linux-x86-sdl-2.1 >=app-emulation/emul-linux-x86-soundlibs-2.1 ) media-fonts/font-adobe-75dpi
+0
+http://legendsthegame.net/files/legends_linux-0.4.1.43.run mirror://gentoo/legends.png http://dev.gentoo.org/~wolf31o2/sources/dump/legends.png
+strip
+http://legendsthegame.net/
+as-is
+Fast-paced first-person-shooter online multiplayer game, similar to Tribes
+-* x86
+toolchain-funcs portability multilib base games eutils
+dedicated
+
+
+
+0
+
+compile install postinst preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/games-fps/legends-0.4.1.43

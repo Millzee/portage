@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-xemacs/oo-browser-1.05
 DEFINED_PHASES=compile install unpack
 DEPEND=virtual/xemacs
 DESCRIPTION=The Multi-Language Object-Oriented Code Browser.
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/oo-browser-1.05-pkg.tar.gz
 _eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253
+=======
+virtual/xemacs
+app-xemacs/xemacs-base app-xemacs/hyperbole app-xemacs/gnus app-xemacs/sh-script
+0
+http://ftp.xemacs.org/pub/xemacs/packages/oo-browser-1.05-pkg.tar.gz
+
+http://xemacs.org/
+GPL-2
+The Multi-Language Object-Oriented Code Browser.
+~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86
+xemacs-packages
+
+
+
+
+0
+
+compile install unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-xemacs/oo-browser-1.05
