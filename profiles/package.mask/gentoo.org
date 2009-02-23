@@ -1414,10 +1414,7 @@ app-benchmarks/ltp
 sys-apps/gli
 
 # Luca Longinotti <chtekk@gentoo.org> (12 Jan 2007)
-# Mask MySQL 5.1.* and the alpha versions
->=dev-db/mysql-5.1
->=dev-db/mysql-community-5.1
->=virtual/mysql-5.1
+# Mask MySQL alpha versions
 =dev-db/mysql-4.1.23_alpha20070101-r61
 
 # Matthew Kennedy <mkennedy@gentoo.org> (31 Jul 2005)
