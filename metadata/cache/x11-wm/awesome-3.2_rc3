@@ -10,4 +10,4 @@ RDEPEND=>=dev-lang/lua-5.1 >=dev-libs/glib-2 dev-libs/libev dev-util/gperf sys-l
 SLOT=0
 SRC_URI=http://awesome.naquadah.org/download/awesome-3.2-rc3.tar.bz2
 _eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235373895
+_mtime_=1235403626

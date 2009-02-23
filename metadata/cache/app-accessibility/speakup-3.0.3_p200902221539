@@ -10,4 +10,4 @@ RDEPEND=kernel_linux? ( virtual/modutils )
 SLOT=0
 SRC_URI=mirror://gentoo/speakup-3.0.3_p200902221539.tar.bz2
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	linux-info	/home/Funtoo/portage/eclass	1235373829	linux-mod	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235387675
+_mtime_=1235403626
