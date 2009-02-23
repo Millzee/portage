@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/dbus-glib-0.51 >=dev-libs/glib-2.16.0 >=x11-libs/gtk+-2.12.0 >=gnome-base/gconf-2 >=gnome-base/libglade-2 applet? ( >=gnome-base/gnome-panel-2.10 ) >=net-libs/telepathy-glib-0.7.7 >=net-im/telepathy-mission-control-4.61 dev-libs/libxml2 >=gnome-extra/evolution-data-server-1.2 spell? ( app-text/enchant app-text/iso-codes ) python? ( >=dev-lang/python-2.4.4-r5 >=dev-python/pygtk-2 )
 SLOT=0
 SRC_URI=mirror://gnome/sources/empathy/2.24/empathy-2.24.0.tar.bz2
-_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082890
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373873

@@ -9,5 +9,5 @@ LICENSE=LGPL-2
 RDEPEND=net-dialup/capi4k-utils kernel_linux? ( virtual/modutils )
 SLOT=0
 SRC_URI=!amd64? ( ftp://ftp.suse.com/pub/suse/i386/10.1/SUSE-Linux10.1-Beta3-Extra/suse/i586/km_fritzcapi-2.6-43.i586.rpm ) amd64? ( ftp://ftp.suse.com/pub/suse/i386/10.1/SUSE-Linux10.1-Beta3-Extra/suse/x86_64/km_fritzcapi-2.6-43.x86_64.rpm )
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	rpm	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082889
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	linux-info	/home/Funtoo/portage/eclass	1235373829	linux-mod	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	rpm	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373869

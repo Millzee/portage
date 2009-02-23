@@ -8,4 +8,4 @@ LICENSE=LGPL-2.1
 RDEPEND==app-pda/libopensync-0.22* >=dev-lang/python-2.0
 SLOT=0
 SRC_URI=http://dev.gentooexperimental.org/~peper/distfiles/libopensync-plugin-python-0.22.tar.bz2
-_mtime_=1235082849
+_mtime_=1235373819

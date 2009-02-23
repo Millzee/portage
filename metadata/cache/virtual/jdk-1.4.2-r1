@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DEPEND=|| ( =dev-java/jamvm-1.4.2* =dev-java/kaffe-1.1* =dev-java/blackdown-jdk-1.4.2* =dev-java/sun-jdk-1.4.2* =dev-java/ibm-jdk-bin-1.4.2* =dev-java/jrockit-jdk-bin-1.4.2* )
+DESCRIPTION=Virtual for JDK
+EAPI=0
+HOMEPAGE=http://java.sun.com/
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+LICENSE=as-is
+RDEPEND=|| ( =dev-java/jamvm-1.4.2* =dev-java/kaffe-1.1* =dev-java/blackdown-jdk-1.4.2* =dev-java/sun-jdk-1.4.2* =dev-java/ibm-jdk-bin-1.4.2* =dev-java/jrockit-jdk-bin-1.4.2* )
+SLOT=1.4
+_mtime_=1235373892

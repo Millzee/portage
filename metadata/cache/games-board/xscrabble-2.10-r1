@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=x11-libs/libXaw x11-libs/libXp
 SLOT=0
 SRC_URI=ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble-2.10.tgz linguas_fr? ( ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble_fr.tgz ) ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble_en.tgz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082860
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373830

@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-util/git-1.5.5.4 >=dev-python/setuptools-0.6_rc5 !dev-util/gitosis-gentoo
 SLOT=0
 SRC_URI=mirror://gentoo/gitosis.git-20080825-73a032520493f6b4186185d4826d12edb5614135.tar.gz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	distutils	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082859
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	distutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373829

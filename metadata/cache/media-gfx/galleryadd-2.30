@@ -7,4 +7,4 @@ LICENSE=GPL-2
 RDEPEND=dev-perl/libwww-perl virtual/perl-Time-HiRes
 SLOT=0
 SRC_URI=http://iainlea.dyndns.org/software/galleryadd/galleryadd-2.30.tar.gz
-_mtime_=1235082867
+_mtime_=1235373838

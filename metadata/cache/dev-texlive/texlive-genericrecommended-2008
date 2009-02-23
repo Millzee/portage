@@ -9,5 +9,5 @@ LICENSE=GPL-2 GPL-1 LPPL-1.3 public-domain
 RDEPEND=>=dev-texlive/texlive-basic-2008 !=dev-texlive/texlive-basic-2007* >=app-text/texlive-core-2008
 SLOT=0
 SRC_URI=mirror://gentoo/texlive-module-epsf-2008.tar.lzma mirror://gentoo/texlive-module-fontname-2008.tar.lzma mirror://gentoo/texlive-module-genmisc-2008.tar.lzma mirror://gentoo/texlive-module-multido-2008.tar.lzma mirror://gentoo/texlive-module-tex-ps-2008.tar.lzma mirror://gentoo/texlive-module-collection-genericrecommended-2008.tar.lzma doc? ( mirror://gentoo/texlive-module-epsf.doc-2008.tar.lzma mirror://gentoo/texlive-module-fontname.doc-2008.tar.lzma mirror://gentoo/texlive-module-multido.doc-2008.tar.lzma mirror://gentoo/texlive-module-tex-ps.doc-2008.tar.lzma )
-_eclasses_=texlive-common	/home/Funtoo/portage/eclass	1235082859	texlive-module	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082858
+_eclasses_=texlive-common	/home/Funtoo/portage/eclass	1235373829	texlive-module	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373829

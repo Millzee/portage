@@ -9,5 +9,5 @@ LICENSE=Smart-Link
 RDEPEND=alsa? ( media-libs/alsa-lib ) amd64? ( app-emulation/emul-linux-x86-soundlibs ) virtual/logger kernel_linux? ( virtual/modutils )
 SLOT=0
 SRC_URI=http://linmodems.technion.ac.il/packages/smartlink/slmodem-2.9.11-20080417.tar.gz http://linmodems.technion.ac.il/packages/smartlink/ungrab-winmodem-2.9.11-20080126.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	linux-info	/home/Funtoo/portage/eclass	1235082859	linux-mod	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082890
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	linux-info	/home/Funtoo/portage/eclass	1235373829	linux-mod	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373869

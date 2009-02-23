@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/openssl-0.9.7d-r1 virtual/logger
 SLOT=0
 SRC_URI=http://www.eterna.com.au/bozohttpd/bozohttpd-20040823.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082908
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373893

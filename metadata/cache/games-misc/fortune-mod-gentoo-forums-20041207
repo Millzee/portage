@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=games-misc/fortune-mod
 SLOT=0
 SRC_URI=mirror://gentoo/gentoo-forums-20041207.gz offensive? ( mirror://gentoo/gentoo-forums-offensive-20041207.gz )
-_mtime_=1235082860
+_mtime_=1235373831

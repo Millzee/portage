@@ -6,4 +6,4 @@ KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc
 LICENSE=PSF-2.2
 SLOT=3.0
 SRC_URI=http://www.python.org/ftp/python/doc/3.0/python-3.0-docs-html.tar.bz2
-_mtime_=1235082857
+_mtime_=1235373827

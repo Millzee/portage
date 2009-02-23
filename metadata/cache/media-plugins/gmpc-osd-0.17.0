@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=>=media-sound/gmpc-0.17.0 dev-libs/libxml2 x11-libs/xosd
 SLOT=0
 SRC_URI=mirror://sourceforge/musicpd/gmpc-osd-0.17.0.tar.gz
-_mtime_=1235082868
+_mtime_=1235373840

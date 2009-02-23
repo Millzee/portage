@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=socks5? ( net-proxy/dante )
 SLOT=0
 SRC_URI=mirror://sourceforge/tinyproxy/tinyproxy-1.6.3.tar.gz
-_mtime_=1235082896
+_mtime_=1235373882

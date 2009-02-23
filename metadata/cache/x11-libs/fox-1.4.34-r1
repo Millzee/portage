@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1
 RDEPEND=x11-libs/libXrandr x11-libs/libXcursor x11-libs/fox-wrapper bzip2? ( >=app-arch/bzip2-1.0.2 ) cups? ( net-print/cups ) jpeg? ( >=media-libs/jpeg-6b ) opengl? ( virtual/opengl virtual/glu ) png? ( >=media-libs/libpng-1.2.5 ) tiff? ( >=media-libs/tiff-3.5.7 ) truetype? ( =media-libs/freetype-2* x11-libs/libXft ) zlib? ( >=sys-libs/zlib-1.1.4 )
 SLOT=1.4
 SRC_URI=http://www.fox-toolkit.org/ftp/fox-1.4.34.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	fox	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082909
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fox	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373893

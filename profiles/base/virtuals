@@ -11,7 +11,6 @@
 virtual/alsa				sys-kernel/gentoo-sources
 virtual/antivirus			app-antivirus/clamav
 virtual/aspell-dict			app-dicts/aspell-en
-virtual/baselayout			sys-apps/openrc
 virtual/blackbox			x11-wm/blackbox
 virtual/cdrtools			app-cdr/cdrkit
 virtual/commonlisp			dev-lisp/sbcl

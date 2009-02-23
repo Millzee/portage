@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/xemacs
+DESCRIPTION=Interface over GNU patch.
+EAPI=0
+HOMEPAGE=http://xemacs.org/
+KEYWORDS=~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=app-xemacs/pcl-cvs app-xemacs/elib app-xemacs/dired app-xemacs/xemacs-base app-xemacs/edebug app-xemacs/prog-modes app-xemacs/gnus app-xemacs/tramp app-xemacs/vc
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/ediff-1.77-pkg.tar.gz
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235375253

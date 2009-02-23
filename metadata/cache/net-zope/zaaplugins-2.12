@@ -8,5 +8,5 @@ LICENSE=ZPL
 RDEPEND=>=net-zope/zattachmentattribute-2.12 >=app-text/wv-1.0.0 >=app-text/xlhtml-0.5 >=app-text/poppler-0.5 net-zope/zope app-admin/zprod-manager
 SLOT=0
 SRC_URI=mirror://sourceforge/ingeniweb/ZAAPlugins-2.12.tar.gz
-_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082897
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373883

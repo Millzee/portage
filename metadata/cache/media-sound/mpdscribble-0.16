@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/glib:2 || ( >=dev-libs/glib-2.16:2 dev-libs/libgcrypt ) net-libs/libsoup:2.4
 SLOT=0
 SRC_URI=mirror://sourceforge/musicpd/mpdscribble-0.16.tar.bz2
-_mtime_=1235082869
+_mtime_=1235373841

@@ -7,4 +7,4 @@ LICENSE=public-domain
 RDEPEND=dev-lang/python
 SLOT=0
 SRC_URI=http://kassiopeia.juls.savba.sk/~garabik/software/pydf/pydf_6.tar.gz
-_mtime_=1235082846
+_mtime_=1235373815

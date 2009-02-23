@@ -6,4 +6,4 @@ KEYWORDS=~alpha amd64 ~hppa ~mips ~ppc ~ppc64 sparc ~x86
 LICENSE=GPL-2
 RDEPEND=~perl-core/Sys-Syslog-0.17
 SLOT=0
-_mtime_=1235082908
+_mtime_=1235373892

@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=>=sys-apps/lm_sensors-2.6.3
 SLOT=0
 SRC_URI=mirror://sourceforge/mondo-daemon/mondo-0.9a.tar.bz2
-_mtime_=1235082899
+_mtime_=1235373888

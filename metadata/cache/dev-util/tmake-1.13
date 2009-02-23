@@ -7,4 +7,4 @@ LICENSE=as-is
 RDEPEND=dev-lang/perl
 SLOT=0
 SRC_URI=ftp://ftp.trolltech.com/freebies/tmake/tmake-1.13.tar.gz
-_mtime_=1235082859
+_mtime_=1235373829

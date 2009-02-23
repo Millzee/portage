@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=app-emacs/apel-10.6 virtual/flim app-emacs/semi bbdb? ( app-emacs/bbdb ) !app-emacs/wanderlust-cvs >=virtual/emacs-21
 SLOT=0
 SRC_URI=ftp://ftp.gohome.org/wl/stable/wl-2.14.0.tar.gz ftp://ftp.gohome.org/wl/beta/wl-2.14.0.tar.gz http://dev.gentoo.org/~usata/distfiles/wl-2.14.0-20050405.diff
-_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082848
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373817

@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=|| ( ~perl-core/Module-CoreList-2.15 )
 SLOT=0
-_mtime_=1235082908
+_mtime_=1235373892

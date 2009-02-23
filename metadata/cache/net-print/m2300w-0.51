@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=net-print/foomatic-filters net-print/cups
 SLOT=0
 SRC_URI=mirror://sourceforge/m2300w/m2300w-0.51.tar.gz
-_mtime_=1235082896
+_mtime_=1235373882

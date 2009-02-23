@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=sys-libs/ncurses X? ( x11-libs/libX11 )
 SLOT=0
 SRC_URI=http://wwwhome.cs.utwente.nl/~ptdeboer/ham/ibp-0.21.tgz
-_mtime_=1235082868
+_mtime_=1235373840

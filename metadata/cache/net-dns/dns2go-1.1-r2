@@ -8,4 +8,4 @@ LICENSE=DNS2GO
 RDEPEND=virtual/libc
 SLOT=0
 SRC_URI=http://home.planetinternet.be/~felixdv/d2gsetup.tar.gz
-_mtime_=1235082890
+_mtime_=1235373871

@@ -7,4 +7,4 @@ LICENSE=Apache-2.0
 RDEPEND=>=virtual/jdk-1.4
 SLOT=2.0
 SRC_URI=mirror://apache/maven/binaries/maven-2.0.7-bin.tar.bz2
-_mtime_=1235303740
+_mtime_=1235373822

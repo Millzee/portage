@@ -2,7 +2,7 @@ DEFINED_PHASES=compile install postinst preinst setup unpack
 DEPEND=!build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 )
 DESCRIPTION=TuxOnIce + Gentoo patchset sources
 EAPI=0
-HOMEPAGE=http://dev.gentoo.org/~dsd/genpatches http://www.tuxonice.net
+HOMEPAGE=http://dev.gentoo.org/~dsd/genpatches/ http://www.tuxonice.net
 IUSE=symlink build
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
@@ -11,5 +11,5 @@ RDEPEND=>=sys-apps/tuxonice-userui-0.7.3 >=sys-power/hibernate-script-1.99 !buil
 RESTRICT=binchecks strip
 SLOT=2.6.28-r3
 SRC_URI=mirror://kernel/linux/kernel/v2.6/linux-2.6.28.tar.bz2 mirror://gentoo/genpatches-2.6.28-3.base.tar.bz2 mirror://gentoo/genpatches-2.6.28-3.extras.tar.bz2 http://www.tuxonice.net/downloads/all/current-tuxonice-for-2.6.28.patch-20090214-v1.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	kernel-2	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082907
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	kernel-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235375255

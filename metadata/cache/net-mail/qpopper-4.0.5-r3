@@ -9,5 +9,5 @@ LICENSE=qpopper
 RDEPEND=virtual/mta xinetd? ( virtual/inetd ) gdbm? ( sys-libs/gdbm ) !gdbm? ( ~sys-libs/db-1.85 ) pam? ( virtual/pam >=net-mail/mailbase-0.00-r8 ) ssl? ( dev-libs/openssl )
 SLOT=0
 SRC_URI=ftp://ftp.qualcomm.com/eudora/servers/unix/popper/qpopper4.0.5.tar.gz http://www.ibiblio.org/gentoo/distfiles/qpopper-files.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082894
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373874

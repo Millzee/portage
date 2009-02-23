@@ -8,4 +8,4 @@ LICENSE=OPL
 RDEPEND=>=app-doc/linux-gazette-base-32
 SLOT=32
 SRC_URI=http://linuxgazette.net/ftpfiles/lg-issue32.tar.gz
-_mtime_=1235082847
+_mtime_=1235373816

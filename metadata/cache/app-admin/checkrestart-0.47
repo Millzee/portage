@@ -7,4 +7,4 @@ LICENSE=GPL-2
 RDEPEND=sys-apps/lsb-release app-portage/portage-utils sys-process/lsof
 SLOT=0
 SRC_URI=http://arcdraco.net/~dragon/checkrestart-0.47-sep.tar.bz2
-_mtime_=1235082845
+_mtime_=1235373814

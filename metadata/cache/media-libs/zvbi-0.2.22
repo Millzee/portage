@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=X? ( x11-libs/libX11 ) media-libs/libpng sys-libs/zlib nls? ( virtual/libintl )
 SLOT=0
 SRC_URI=mirror://sourceforge/zapping/zvbi-0.2.22.tar.bz2
-_eclasses_=libtool	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082868
+_eclasses_=libtool	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373840

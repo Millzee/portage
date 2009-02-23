@@ -7,5 +7,5 @@ LICENSE=GPL-2
 RDEPEND=>=net-zope/plone-1.0.1 net-zope/portaltransforms net-zope/zope app-admin/zprod-manager
 SLOT=1.2
 SRC_URI=mirror://sourceforge/archetypes/Archetypes-1.2.5-rc5.tar.gz
-_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082897
+_eclasses_=zproduct	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373883

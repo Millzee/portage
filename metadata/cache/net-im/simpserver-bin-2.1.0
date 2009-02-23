@@ -7,4 +7,4 @@ LICENSE=simpserver-test
 RESTRICT=strip
 SLOT=0
 SRC_URI=http://download.secway.com/public/products/simpserver/simpserver-2.1.0-linux-x86.tgz
-_mtime_=1235082890
+_mtime_=1235373873

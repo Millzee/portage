@@ -10,5 +10,5 @@ RDEPEND=>=app-emacs/muse-3.02.6a app-emacs/bbdb app-emacs/emacs-w3m >=virtual/em
 RESTRICT=test
 SLOT=0
 SRC_URI=http://download.gna.org/planner-el/planner-3.41.tar.gz
-_eclasses_=elisp	/home/Funtoo/portage/eclass	1235082859	elisp-common	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082848
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373817

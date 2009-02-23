@@ -8,4 +8,4 @@ KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
 LICENSE=LGPL-2.1
 SLOT=0
 SRC_URI=http://download.savannah.nongnu.org/releases/linphone/ortp/sources/ortp-0.13.1.tar.gz
-_mtime_=1235082894
+_mtime_=1235373873

@@ -9,4 +9,4 @@ RDEPEND=!app-arch/upx-ucl
 RESTRICT=strip
 SLOT=0
 SRC_URI=http://upx.sourceforge.net/download/upx-1.25-linux.tar.gz
-_mtime_=1235082846
+_mtime_=1235373815

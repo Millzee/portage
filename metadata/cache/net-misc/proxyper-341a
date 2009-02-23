@@ -8,4 +8,4 @@ RDEPEND=net-dns/host
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=http://http.distributed.net/pub/dcti/proxyper/proxyper341a-linux-x86-uclibc.tar.gz
-_mtime_=1235082895
+_mtime_=1235373879

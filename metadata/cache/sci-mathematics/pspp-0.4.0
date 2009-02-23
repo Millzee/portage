@@ -10,5 +10,5 @@ RDEPEND=!bindist? ( sci-libs/gsl ) bindist? ( <sci-libs/gsl-1.10 ) sys-libs/read
 RESTRICT=test
 SLOT=0
 SRC_URI=ftp://ftp.gnu.org/pub/gnu/pspp/pspp-0.4.0.tar.gz
-_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082898
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373887

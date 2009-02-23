@@ -9,4 +9,4 @@ RDEPEND=X? ( gnome-base/libglade dev-python/pygtk )
 RESTRICT=strip
 SLOT=0
 SRC_URI=http://www.onlinetvrecorder.com/downloads/otrdecoder-bin-linux-static-v518.tar.bz2
-_mtime_=1235082869
+_mtime_=1235373842

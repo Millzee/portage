@@ -7,4 +7,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=>=net-analyzer/openvas-libraries-2.0.0 >=net-analyzer/openvas-libnasl-2.0.0 >=net-analyzer/openvas-server-2.0.0 >=net-analyzer/openvas-plugins-1.0.5 >=net-analyzer/openvas-client-2.0.0
 SLOT=0
-_mtime_=1235082889
+_mtime_=1235373868

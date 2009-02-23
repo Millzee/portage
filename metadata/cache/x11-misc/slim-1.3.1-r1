@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=x11-proto/xproto x11-libs/libXmu x11-libs/libX11 x11-libs/libXpm x11-libs/libXft media-libs/libpng media-libs/jpeg pam? ( virtual/pam ) x11-apps/sessreg
 SLOT=0
 SRC_URI=mirror://berlios/slim/slim-1.3.1.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235211576	pam	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082909
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	pam	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373894

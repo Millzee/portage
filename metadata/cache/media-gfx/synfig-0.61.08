@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/libsigc++-2.0.0 >=dev-cpp/libxmlpp-2.6.1 >=dev-cpp/ETL-0.04.10 media-libs/jpeg media-libs/tiff media-libs/libpng dv? ( media-libs/libdv ) ffmpeg? ( media-video/ffmpeg ) fontconfig? ( media-libs/fontconfig ) imagemagick? ( media-gfx/imagemagick ) openexr? ( media-libs/openexr ) truetype? ( >=media-libs/freetype-2.1.9 )
 SLOT=0
 SRC_URI=mirror://sourceforge/synfig/synfig-0.61.08.tar.gz
-_mtime_=1235082867
+_mtime_=1235373839

@@ -8,5 +8,5 @@ LICENSE=as-is
 RDEPEND=amd64? ( >=sys-libs/glibc-2.3.4.20041102 )
 SLOT=0
 SRC_URI=ftp://ftp.freenet.de/pub/4players/teamspeak.org/releases/ts2_server_rc2_202319.tar.bz2 mirror://gentoo/server_linux-202401.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082869
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373842

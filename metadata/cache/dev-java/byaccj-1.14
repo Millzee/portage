@@ -5,4 +5,4 @@ HOMEPAGE=http://byaccj.sourceforge.net/
 LICENSE=as-is
 SLOT=0
 SRC_URI=mirror://sourceforge/byaccj/byaccj1.14_src.tar.gz
-_mtime_=1235303740
+_mtime_=1235373821

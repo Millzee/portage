@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=>=dev-util/treecc-0.3.0
 SLOT=0
 SRC_URI=mirror://gnu/dotgnu/pnet/pnet-0.6.12.tar.gz
-_mtime_=1235082851
+_mtime_=1235373821

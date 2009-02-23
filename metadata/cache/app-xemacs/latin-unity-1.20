@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=app-xemacs/mule-base app-xemacs/latin-euro-standards app-xemacs/mule-ucs app-xemacs/leim app-xemacs/fsf-compat app-xemacs/dired
 SLOT=0
 SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/latin-unity-1.20-pkg.tar.gz
-_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082851
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373820

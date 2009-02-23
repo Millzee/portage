@@ -7,4 +7,4 @@ LICENSE=|| ( MPL-1.1 LGPL-2 )
 RESTRICT=test
 SLOT=0
 SRC_URI=http://easyinstall.citadel.org/libical-0.43.tar.gz
-_mtime_=1235082853
+_mtime_=1235373824

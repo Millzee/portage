@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-perl/libwww-perl-5.65 >=dev-perl/XML-Parser-2.34 >=dev-perl/XML-Twig-3.10 >=dev-perl/DateManip-5.42 >=dev-perl/XML-Writer-0.6 virtual/perl-Memoize virtual/perl-Storable >=dev-perl/Lingua-Preferred-0.2.4 >=dev-perl/Term-ProgressBar-2.03 perl-core/Compress-Zlib dev-perl/Unicode-String dev-perl/TermReadKey dev-perl/File-Slurp >=dev-lang/perl-5.6.1 dev-perl/XML-LibXML
 SLOT=0
 SRC_URI=mirror://sourceforge/xmltv//xmltv-0.5.53.tar.bz2
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082869
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373842

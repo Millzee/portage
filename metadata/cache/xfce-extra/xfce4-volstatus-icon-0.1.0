@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=x11-libs/gtk+-2.10 >=xfce-base/libxfce4util-4.4.0 >=xfce-base/libxfcegui4-4.4.0 >=xfce-extra/exo-0.3.2 >=sys-apps/hal-0.5.9 dev-libs/dbus-glib
 SLOT=0
 SRC_URI=http://goodies.xfce.org/releases/xfce4-volstatus-icon/xfce4-volstatus-icon-0.1.0.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	xfce44	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082913
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	xfce44	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373896

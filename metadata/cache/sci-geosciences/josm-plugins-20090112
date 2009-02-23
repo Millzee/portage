@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=>=sci-geosciences/josm-1.5_p1212
 SLOT=0
 SRC_URI=mirror://gentoo/josm-plugins-20090112.tar.lzma
-_mtime_=1235082898
+_mtime_=1235373884

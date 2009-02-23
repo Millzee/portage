@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=net-libs/libgadu >=x11-libs/gtk+-2.4.0 jabber? ( >=net-libs/loudmouth-0.17 ) xosd? ( x11-libs/xosd ) perl? ( dev-lang/perl dev-perl/XML-Parser ) arts? ( >=kde-base/arts-0.9.5 ) esd? ( media-sound/esound ) tlen? ( net-libs/libtlen ) spell? ( app-text/gtkspell ) gnutls? ( net-libs/gnutls )
 SLOT=0
 SRC_URI=mirror://sourceforge/ggadu/gg2-2.2.6.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082890
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373873

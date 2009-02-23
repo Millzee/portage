@@ -8,5 +8,5 @@ LICENSE=BSD
 RDEPEND=dev-libs/openssl >=net-misc/curl-7.12
 SLOT=0
 SRC_URI=mirror://sourceforge/esniper/esniper-2-19-0.tgz
-_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082894
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373879

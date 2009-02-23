@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=app-dicts/stardict !app-dicts/stardict-freedict-eng-rus
 SLOT=0
 SRC_URI=ftp://ftp.msiu.ru/education/FSF-Windows/stardict/dicts/stardict-dicts.exe
-_mtime_=1235082847
+_mtime_=1235373816

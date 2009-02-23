@@ -9,4 +9,4 @@ LICENSE=GPL-1
 RDEPEND=virtual/libc sys-libs/ncurses sys-libs/zlib
 SLOT=0
 SRC_URI=ftp://ftp.irc.org/irc/server/irc2.10.3p7.tgz
-_mtime_=1235082890
+_mtime_=1235373873

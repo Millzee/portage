@@ -9,5 +9,5 @@ LICENSE=Apache-2.0
 RDEPEND=>=dev-java/jdom-1.0_beta9 >=dev-java/juddi-0.9_rc4 >=dev-java/log4j-1.2.13 >=dev-java/commons-logging-1.0.4-r1 >=dev-java/junit-3.8.2 >=www-servers/axis-1.2_rc2 >=dev-java/sun-javamail-1.4 >=dev-java/commons-discovery-0.2-r2 >=virtual/jre-1.4 >=dev-java/java-config-2.1.6
 SLOT=0
 SRC_URI=http://dev.gentooexperimental.org/~kiorky/scout-0.7_rc2.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	java-ant-2	/home/Funtoo/portage/eclass	1235082859	java-pkg-2	/home/Funtoo/portage/eclass	1235084193	java-utils-2	/home/Funtoo/portage/eclass	1235084241	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235303740
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373823

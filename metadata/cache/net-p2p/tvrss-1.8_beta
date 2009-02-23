@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=x11-libs/gtk+ >=dev-lang/perl-5.8.6 dev-perl/XML-RAI dev-perl/glib-perl dev-perl/gtk2-perl
 SLOT=0
 SRC_URI=mirror://sourceforge/tvtrss/tvrss-1.8beta.tar.gz
-_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082895
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373881

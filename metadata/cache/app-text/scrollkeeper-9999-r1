@@ -8,4 +8,4 @@ LICENSE=GPL-2
 PDEPEND=app-text/rarian
 RDEPEND==app-text/scrollkeeper-dtd-1.0
 SLOT=0
-_mtime_=1235082850
+_mtime_=1235373820

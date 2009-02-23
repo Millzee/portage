@@ -7,5 +7,5 @@ KEYWORDS=x86 ppc sparc alpha
 LICENSE=GPL-2 public-domain
 SLOT=0
 SRC_URI=http://bonobo.gnome.gr.jp/~nakai/canna/zipcode-20021021.tar.bz2 http://gentoojp.sourceforge.jp/distfiles/ken_all_030726.lzh http://gentoojp.sourceforge.jp/distfiles/jigyosyo_030726.lzh
-_eclasses_=cannadic	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082847
+_eclasses_=cannadic	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373816

@@ -10,5 +10,5 @@ RDEPEND=virtual/opengl virtual/glu x86? ( media-libs/libsdl ) ppc? ( media-libs/
 RESTRICT=strip
 SLOT=0
 SRC_URI=x86? ( http://www.shrapnelgames.com/downloads/dompatch216_linux_x86.tgz ) amd64? ( http://www.shrapnelgames.com/downloads/dompatch216_linux_x86.tgz ) ppc? ( http://www.shrapnelgames.com/downloads/dompatch216_linux_ppc.tgz ) doc? ( http://www.shrapnelgames.com/downloads/DOM2_Walkthrough.pdf http://www.shrapnelgames.com/downloads/manual_addenda.pdf ) mirror://gentoo/dominions2.png
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	games	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082861
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373831

@@ -9,5 +9,5 @@ LICENSE=as-is
 RDEPEND=<dev-lang/ghc-6.6 >=dev-haskell/haskell-src-exts-0.2 dev-haskell/cabal
 SLOT=0
 SRC_URI=ftp://ftp.cse.unsw.edu.au/pub/users/dons/hs-plugins/hs-plugins-0.9.10.tar.gz doc? ( http://www.cse.unsw.edu.au/~dons/hs-plugins/hs-plugins.html.tar.gz )
-_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082852
+_eclasses_=ghc-package	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373821

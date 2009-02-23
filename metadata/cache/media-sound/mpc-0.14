@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=nls? ( || ( sys-libs/glibc dev-libs/libiconv ) ) bash-completion? ( app-admin/eselect )
 SLOT=0
 SRC_URI=mirror://sourceforge/musicpd/mpc-0.14.tar.bz2
-_eclasses_=bash-completion	/home/Funtoo/portage/eclass	1235303741
-_mtime_=1235082869
+_eclasses_=bash-completion	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373841

@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=sys-apps/man
 SLOT=0
 SRC_URI=http://smarden.org/pape/djb/manpages/daemontools-0.76-man-20020131.tar.gz
-_mtime_=1235082847
+_mtime_=1235373816

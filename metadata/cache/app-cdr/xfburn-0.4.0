@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/libburn-0.4.2 >=dev-libs/libisofs-0.6.2 >=x11-libs/gtk+-2.10:2 >=xfce-base/libxfcegui4-4.4 >=xfce-extra/exo-0.3 dbus? ( dev-libs/dbus-glib ) gstreamer? ( media-libs/gstreamer >=media-libs/gst-plugins-base-0.10.20 ) hal? ( sys-apps/hal ) xfce? ( xfce-base/thunar )
 SLOT=0
 SRC_URI=http://goodies.xfce.org/releases/xfburn/xfburn-0.4.0.tar.bz2
-_eclasses_=gnome2-utils	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082846
+_eclasses_=gnome2-utils	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373816

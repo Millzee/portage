@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=app-text/ispell
 SLOT=0
 SRC_URI=http://lisa.goe.net/~bjacke/igerman98/dict/igerman98-20011124.tar.bz2
-_mtime_=1235082847
+_mtime_=1235373816

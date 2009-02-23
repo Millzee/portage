@@ -7,4 +7,4 @@ LICENSE=GPL-2
 RDEPEND=!<=dev-java/kaffe-1.1.7-r5
 SLOT=0
 SRC_URI=http://download.savannah.nongnu.org/releases/fastjar/fastjar-0.95.tar.gz
-_mtime_=1235082846
+_mtime_=1235373815

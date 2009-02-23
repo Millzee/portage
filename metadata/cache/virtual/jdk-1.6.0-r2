@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for JDK
+EAPI=0
+HOMEPAGE=http://java.sun.com/
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+LICENSE=as-is
+RDEPEND=|| ( dev-java/icedtea6-bin =virtual/icedtea-jdk-1.6 =dev-java/sun-jdk-1.6.0* =dev-java/ibm-jdk-bin-1.6.0* )
+SLOT=1.6
+_mtime_=1235373892

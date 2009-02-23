@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=>app-shells/bash-2.04
 SLOT=0
 SRC_URI=mirror://gentoo/bashforth_v0.54a.gz
-_mtime_=1235082853
+_mtime_=1235373823

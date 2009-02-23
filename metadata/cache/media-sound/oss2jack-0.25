@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=media-libs/libsamplerate media-sound/fusd-kor sys-apps/realtime-lsm
 SLOT=0
 SRC_URI=http://fort2.xdas.com/~kor/oss2jack/oss2jack-0.25.tar.gz
-_mtime_=1235082869
+_mtime_=1235373841

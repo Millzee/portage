@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=!<app-text/ptex-3.1.9 sys-apps/ed sys-libs/zlib X? ( x11-libs/libXmu x11-libs/libXp x11-libs/libXpm x11-libs/libICE x11-libs/libSM x11-libs/libXaw x11-libs/libXfont ) >=media-libs/libpng-1.2.1 sys-libs/ncurses >=net-libs/libwww-5.3.2-r1 !app-text/dvipdfm !dev-tex/currvita >=dev-lang/perl-5.2 tk? ( dev-perl/perl-tk ) dev-util/dialog
 SLOT=0
 SRC_URI=ftp://cam.ctan.org/tex-archive/systems/unix/teTeX/2.0/distrib/tetex-src-2.0.2.tar.gz ftp://cam.ctan.org/tex-archive/systems/unix/teTeX/2.0/distrib/tetex-texmf-2.0.2.tar.gz ftp://cam.ctan.org/tex-archive/systems/unix/teTeX/2.0/distrib/tetex-texmfsrc-2.0.2.tar.gz mirror://gentoo/tetex-2.0.2-gentoo.tar.gz http://dev.gentoo.org/~usata/distfiles/tetex-2.0.2-gentoo.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	tetex	/home/Funtoo/portage/eclass	1235082859	tetex-2	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082850
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	tetex	/home/Funtoo/portage/eclass	1235373829	tetex-2	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373820

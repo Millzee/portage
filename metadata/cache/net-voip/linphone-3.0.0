@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/glib dev-perl/XML-Parser net-dns/bind-tools >=net-libs/libosip-3.0.3 >=net-libs/libeXosip-3.0.3 >=media-libs/speex-1.1.12 gsm? ( >=media-sound/gsm-1.0.12-r1 ) gtk? ( >=x11-libs/gtk+-2 gnome-base/libglade ) alsa? ( media-libs/alsa-lib ) arts? ( kde-base/arts ) ilbc? ( dev-libs/ilbc-rfc3951 ) video? ( >=media-libs/libsdl-1.2.9 media-video/ffmpeg >=media-libs/libtheora-1.0_alpha7 )
 SLOT=1
 SRC_URI=http://download.savannah.nongnu.org/releases/linphone/stable/sources/linphone-3.0.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082896
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373882

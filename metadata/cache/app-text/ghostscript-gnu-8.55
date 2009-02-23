@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/libc >=media-libs/jpeg-6b >=media-libs/libpng-1.2.5 >=sys-libs/zlib-1.1.4 >=media-libs/tiff-3.7 X? ( x11-libs/libXt ) gtk? ( >=x11-libs/gtk+-2.0 ) cups? ( >=net-print/cups-1.1.20 ) jpeg2k? ( media-libs/jasper ) !app-text/ghostscript-esp !app-text/ghostscript-gpl cjk? ( media-fonts/arphicfonts media-fonts/kochi-substitute media-fonts/baekmuk-fonts ) media-fonts/gnu-gs-fonts-std
 SLOT=0
 SRC_URI=cjk? ( ftp://ftp.gyve.org/pub/gs-cjk/adobe-cmaps-200406.tar.gz ftp://ftp.gyve.org/pub/gs-cjk/acro5-cmaps-2001.tar.gz ) cups? ( mirror://gentoo/cups-1.1.23-source.tar.bz2 ) mirror://gnu/ghostscript/gnu-ghostscript-8.55.tar.bz2
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082850
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373819

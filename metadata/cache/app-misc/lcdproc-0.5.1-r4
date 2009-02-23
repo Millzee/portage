@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=ldap? ( net-nds/openldap ) usb? ( dev-libs/libusb ) lirc? ( app-misc/lirc ) irman? ( media-libs/libirman ) lcd_devices_graphlcd? ( app-misc/graphlcd-base app-misc/glcdprocdriver ) lcd_devices_g15? ( dev-libs/libg15 >=dev-libs/libg15render-1.1.1 ) lcd_devices_ncurses? ( sys-libs/ncurses ) lcd_devices_svga? ( media-libs/svgalib ) lcd_devices_ula200? ( dev-embedded/libftdi dev-libs/libusb ) lcd_devices_xosd? ( x11-libs/xosd x11-libs/libX11 x11-libs/libXext ) lcd_devices_cfontzpacket? ( dev-libs/libusb ) lcd_devices_cwlinux? ( dev-libs/libusb ) lcd_devices_pyramid? ( dev-libs/libusb ) lcd_devices_g15? ( app-misc/g15daemon )
 SLOT=0
 SRC_URI=mirror://sourceforge/lcdproc/lcdproc-0.5.1.tar.gz mirror://gentoo/lcdproc-0.5.1-patches.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	libtool	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082849
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373818

@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=virtual/mta app-arch/sharutils >=sys-libs/slang-2.1.3 ssl? ( dev-libs/openssl ) uudeview? ( dev-libs/uulib )
 SLOT=0
 SRC_URI=http://slrn.sourceforge.net/patches/slrn-0.9.8.1pl1.tar.gz
-_mtime_=1235082895
+_mtime_=1235373880

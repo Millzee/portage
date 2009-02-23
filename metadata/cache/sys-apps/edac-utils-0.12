@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=sys-fs/sysfsutils sys-apps/dmidecode
 SLOT=0
 SRC_URI=mirror://sourceforge/edac-utils/edac-utils-0.12.tar.bz2
-_mtime_=1235082899
+_mtime_=1235373888

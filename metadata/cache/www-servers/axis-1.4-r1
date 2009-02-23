@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install preinst setup unpack
+DEPEND==virtual/jdk-1.4* >=dev-java/commons-discovery-0.2 >=dev-java/wsdl4j-1.5.1 dev-java/sun-jaf >=dev-java/commons-logging-1.0.4 java-virtuals/javamail >=dev-java/bsf-2.3 =dev-java/castor-1.1* =dev-java/commons-httpclient-3* dev-java/commons-net dev-java/sun-jimi =dev-java/servletapi-2.4* >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 dev-java/ant-nodeps >=dev-java/javatoolkit-0.3.0-r2
+DESCRIPTION=Apache's implementation of the SOAP (Simple Object Access Protocol)
+EAPI=0
+HOMEPAGE=http://ws.apache.org/axis/
+IUSE=debug doc elibc_FreeBSD elibc_FreeBSD
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.4 >=dev-java/commons-discovery-0.2 >=dev-java/wsdl4j-1.5.1 dev-java/sun-jaf >=dev-java/commons-logging-1.0.4 java-virtuals/javamail >=dev-java/bsf-2.3 =dev-java/castor-1.1* =dev-java/commons-httpclient-3* dev-java/commons-net dev-java/sun-jimi =dev-java/servletapi-2.4* >=dev-java/java-config-2.1.6
+SLOT=1
+SRC_URI=mirror://apache/ws/axis/1_4/axis-src-1_4.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373893

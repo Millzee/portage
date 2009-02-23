@@ -9,4 +9,4 @@ LICENSE=LGPL-2.1
 RDEPEND=>=net-libs/sofia-sip-1.12.10 >=net-libs/telepathy-glib-0.7.17 >=dev-libs/glib-2.16 sys-apps/dbus dev-libs/dbus-glib
 SLOT=0
 SRC_URI=mirror://sourceforge/tp-sofiasip/telepathy-sofiasip-0.5.14.tar.gz
-_mtime_=1235082896
+_mtime_=1235373882

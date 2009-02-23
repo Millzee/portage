@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=app-xemacs/xemacs-base app-xemacs/xemacs-ispell app-xemacs/mail-lib app-xemacs/gnus app-xemacs/rmail app-xemacs/tm app-xemacs/apel app-xemacs/sh-script app-xemacs/net-utils app-xemacs/xemacs-eterm app-xemacs/ecrypto
 SLOT=0
 SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/xemacs-devel-1.75-pkg.tar.gz
-_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082851
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373820

@@ -8,4 +8,4 @@ LICENSE=MIT
 RDEPEND=dev-lang/python >=dev-python/pyrex-0.9.6 >=dev-libs/check-0.8.2 ~app-pda/synce-libsynce-0.11.1
 SLOT=0
 SRC_URI=mirror://sourceforge/synce/librapi2-0.11.1.tar.gz
-_mtime_=1235082849
+_mtime_=1235373819

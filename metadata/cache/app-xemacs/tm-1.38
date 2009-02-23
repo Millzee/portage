@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=app-xemacs/gnus app-xemacs/mh-e app-xemacs/rmail app-xemacs/vm app-xemacs/mailcrypt app-xemacs/mail-lib app-xemacs/apel app-xemacs/xemacs-base app-xemacs/fsf-compat app-xemacs/sh-script app-xemacs/net-utils app-xemacs/ecrypto
 SLOT=0
 SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/tm-1.38-pkg.tar.gz
-_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082851
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373820

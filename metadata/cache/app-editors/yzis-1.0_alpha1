@@ -8,4 +8,4 @@ LICENSE=GPL-2 LGPL-2.1
 RDEPEND=>=dev-lang/lua-5.1 sys-libs/ncurses >=x11-libs/qt-4.1.0
 SLOT=0
 SRC_URI=http://dl.freehackers.org/yzis/yzis-1.0-alpha1.tar.bz2
-_mtime_=1235082847
+_mtime_=1235373817

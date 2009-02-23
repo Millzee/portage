@@ -9,5 +9,5 @@ PROVIDE=virtual/aspell-dict
 RDEPEND=!<app-dicts/aspell-pt-0.50.2-r1 >=app-text/aspell-0.60
 SLOT=0
 SRC_URI=mirror://gnu/aspell/dict/pt_BR/aspell6-pt_BR-20070411-0.tar.bz2
-_eclasses_=aspell-dict	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082847
+_eclasses_=aspell-dict	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373816

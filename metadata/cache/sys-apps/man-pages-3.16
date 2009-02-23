@@ -10,4 +10,4 @@ RDEPEND=virtual/man
 RESTRICT=binchecks
 SLOT=0
 SRC_URI=mirror://kernel/linux/docs/manpages/Archive/man-pages-3.16.tar.bz2 mirror://gentoo/man-pages-gentoo-2.tar.bz2 http://dev.gentoo.org/~cardoe/files/man-pages-gentoo-2.tar.bz2
-_mtime_=1235082899
+_mtime_=1235373888

@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=virtual/libc
 SLOT=0
 SRC_URI=ftp://ftp.habets.pp.se/pub/synscan/pipebench-0.40.tar.gz
-_mtime_=1235082846
+_mtime_=1235373815

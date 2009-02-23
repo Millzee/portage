@@ -7,4 +7,4 @@ KEYWORDS=~x86
 LICENSE=public-domain
 SLOT=0
 SRC_URI=mirror://sourceforge/hugin/PTLensDB_06-02-08.zip
-_mtime_=1235082867
+_mtime_=1235373838

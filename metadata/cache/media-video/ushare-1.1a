@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=dlna? ( media-libs/libdlna ) net-libs/libupnp
 SLOT=0
 SRC_URI=http://ushare.geexbox.org/releases/ushare-1.1a.tar.bz2
-_mtime_=1235082870
+_mtime_=1235373842

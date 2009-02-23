@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=>=gnome-base/gnome-vfs-2.0 =app-pda/synce-libsynce-0.13* =app-pda/synce-librapi2-0.13*
 SLOT=0
 SRC_URI=mirror://sourceforge/synce/synce-gnomevfs-0.13.tar.gz
-_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082849
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373819

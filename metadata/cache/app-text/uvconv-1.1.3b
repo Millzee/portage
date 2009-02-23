@@ -6,4 +6,4 @@ KEYWORDS=x86
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=mirror://sourceforge/unikey/uvconv-1.1.3b.tar.gz
-_mtime_=1235082850
+_mtime_=1235373820

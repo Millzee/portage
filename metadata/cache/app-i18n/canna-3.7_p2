@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=virtual/libc
 SLOT=0
 SRC_URI=mirror://sourceforge.jp/canna/9558/Canna37p2.tar.bz2
-_eclasses_=cannadic	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082848
+_eclasses_=cannadic	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373818

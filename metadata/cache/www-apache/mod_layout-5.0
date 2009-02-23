@@ -8,5 +8,5 @@ LICENSE=as-is
 RDEPEND==www-servers/apache-2.2*
 SLOT=2
 SRC_URI=http://download.tangent.org/mod_layout-5.0.tar.gz
-_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235082859	depend.apache	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082908
+_eclasses_=apache-module	/home/Funtoo/portage/eclass	1235373829	depend.apache	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373892

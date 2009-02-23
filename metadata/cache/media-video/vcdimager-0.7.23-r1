@@ -10,4 +10,4 @@ RDEPEND=>=dev-libs/libcdio-0.71[-minimal] !minimal? ( dev-libs/popt ) xml? ( >=d
 RESTRICT=test
 SLOT=0
 SRC_URI=http://www.vcdimager.org/pub/vcdimager/vcdimager-0.7/vcdimager-0.7.23.tar.gz
-_mtime_=1235082870
+_mtime_=1235373842

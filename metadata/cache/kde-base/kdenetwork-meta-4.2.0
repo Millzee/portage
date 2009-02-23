@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
 LICENSE=GPL-2
 RDEPEND=>=kde-base/kdenetwork-filesharing-4.2.0:4.2 >=kde-base/kdnssd-4.2.0:4.2 >=kde-base/kget-4.2.0:4.2 >=kde-base/kopete-4.2.0:4.2 >=kde-base/kppp-4.2.0:4.2 >=kde-base/krdc-4.2.0:4.2 >=kde-base/krfb-4.2.0:4.2
 SLOT=4.2
-_eclasses_=kde4-functions	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082862
+_eclasses_=kde4-functions	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373833

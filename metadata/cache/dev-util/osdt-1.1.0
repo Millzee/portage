@@ -8,4 +8,4 @@ RDEPEND=>=dev-lang/perl-5 dev-perl/XML-Simple sys-devel/m4
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sourceforge/osdt/osdt-1.1.0.tbz2
-_mtime_=1235082859
+_mtime_=1235373829

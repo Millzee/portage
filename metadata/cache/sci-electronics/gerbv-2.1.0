@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND==x11-libs/gtk+-2* cairo? ( x11-libs/cairo ) png? ( media-libs/libpng )
 SLOT=0
 SRC_URI=mirror://sourceforge/gerbv/gerbv-2.1.0.tar.gz
-_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082898
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373884

@@ -8,4 +8,4 @@ RDEPEND=net-dns/bind-tools
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://http.distributed.net/pub/dcti/v2.9002/dnetc479-linux-hppa32.tar.gz
-_mtime_=1235082849
+_mtime_=1235373818

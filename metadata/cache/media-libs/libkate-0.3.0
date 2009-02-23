@@ -9,4 +9,4 @@ LICENSE=BSD
 RDEPEND=media-libs/libogg media-libs/libpng wxwindows? ( =dev-python/wxpython-2.8* media-libs/liboggz )
 SLOT=0
 SRC_URI=http://libkate.googlecode.com/files/libkate-0.3.0.tar.gz
-_mtime_=1235082867
+_mtime_=1235373839

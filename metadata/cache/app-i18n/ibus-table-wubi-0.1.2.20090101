@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND==app-i18n/ibus-table-0.1* extra-phrases? ( >=app-i18n/ibus-table-extraphrase-0.1.2 ) >=dev-lang/python-2.5
 SLOT=0
 SRC_URI=http://ibus.googlecode.com/files/ibus-table-wubi-0.1.2.20090101.tar.gz
-_mtime_=1235082848
+_mtime_=1235373818

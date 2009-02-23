@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=net-libs/libtlen >=x11-libs/gtk+-2.0 x11-libs/libXScrnSaver
 SLOT=0
 SRC_URI=mirror://sourceforge/tleenx/TleenX2-20041125.tar.gz
-_mtime_=1235082890
+_mtime_=1235373873

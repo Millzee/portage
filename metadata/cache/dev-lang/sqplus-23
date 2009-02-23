@@ -9,4 +9,4 @@ LICENSE=ZLIB
 RDEPEND==dev-lang/squirrel-2.1.1
 SLOT=0
 SRC_URI=http://www.brightland.com/sq/SQUIRREL2_1_1_sqplus_23.zip
-_mtime_=1235082853
+_mtime_=1235373823

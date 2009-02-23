@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=!media-video/requant
 SLOT=0
 SRC_URI=mirror://vdrfiles/requant/M2VRequantizer-20060306.tgz
-_mtime_=1235082869
+_mtime_=1235373842

@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=>=dev-cpp/gtkmm-2.4.0 >=media-gfx/synfig-0.61.08 >=dev-libs/libsigc++-2.0 fmod? ( media-libs/fmod )
 SLOT=0
 SRC_URI=mirror://sourceforge/synfig/synfigstudio-0.61.08.tar.gz
-_mtime_=1235082867
+_mtime_=1235373839

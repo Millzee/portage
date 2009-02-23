@@ -10,5 +10,5 @@ PDEPEND=doc? ( dev-php/smarty-docs )
 RDEPEND=dev-lang/php dev-lang/php
 SLOT=0
 SRC_URI=http://www.smarty.net/distributions/Smarty-2.6.21.tar.gz
-_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	php-lib-r1	/home/Funtoo/portage/eclass	1235082859	phpconfutils	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082856
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	php-lib-r1	/home/Funtoo/portage/eclass	1235373829	phpconfutils	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373827

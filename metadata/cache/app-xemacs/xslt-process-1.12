@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=app-xemacs/jde app-xemacs/cc-mode app-xemacs/semantic app-xemacs/debug app-xemacs/speedbar app-xemacs/edit-utils app-xemacs/xemacs-eterm app-xemacs/mail-lib app-xemacs/xemacs-base app-xemacs/elib app-xemacs/eieio app-xemacs/sh-script app-xemacs/fsf-compat app-xemacs/xemacs-devel
 SLOT=0
 SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/xslt-process-1.12-pkg.tar.gz
-_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082851
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373820

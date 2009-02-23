@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=app-xemacs/dired app-xemacs/xemacs-base
 SLOT=0
 SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/vc-cc-1.22-pkg.tar.gz
-_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082851
+_eclasses_=xemacs-packages	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373820

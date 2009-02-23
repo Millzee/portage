@@ -8,4 +8,4 @@ LICENSE=as-is
 RDEPEND=dev-libs/openssl dev-lang/python
 SLOT=0
 SRC_URI=http://wireless.kernel.org/download/wireless-regdb/wireless-regdb-2009.01.30.tar.bz2
-_mtime_=1235082896
+_mtime_=1235373883

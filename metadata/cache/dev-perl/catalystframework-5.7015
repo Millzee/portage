@@ -7,4 +7,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/Task-Catalyst-3.0000 dev-perl/Catalyst-Manual
 SLOT=0
-_mtime_=1235082856
+_mtime_=1235373826

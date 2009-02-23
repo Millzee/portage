@@ -76,5 +76,3 @@
 *virtual/pager
 *virtual/portage
 *virtual/ssh
-*virtual/init
-*virtual/baselayout

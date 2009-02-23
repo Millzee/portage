@@ -9,5 +9,5 @@ LICENSE=GPL-2 Scintilla
 RDEPEND=>=x11-libs/gtk+-2.10 vte? ( x11-libs/vte )
 SLOT=0
 SRC_URI=mirror://sourceforge/geany/geany-0.15.tar.bz2 http://files.uvena.de/geany/geany-0.15.tar.bz2
-_eclasses_=gnome2-utils	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082859
+_eclasses_=gnome2-utils	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373829

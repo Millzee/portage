@@ -8,4 +8,4 @@ LICENSE=BSD
 RDEPEND=virtual/libc
 SLOT=0
 SRC_URI=http://fondu.sourceforge.net/fondu_src-040527.tgz
-_mtime_=1235082867
+_mtime_=1235373838

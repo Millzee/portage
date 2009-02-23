@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/glib-2.10:2 dev-perl/XML-Parser >=gnome-base/libglade-2.3 >=media-libs/libmpd-0.17 net-misc/curl >=x11-libs/gtk+-2.12:2 x11-libs/libsexy session? ( x11-libs/libSM )
 SLOT=0
 SRC_URI=mirror://sourceforge/musicpd/gmpc-0.17.0.tar.gz
-_eclasses_=gnome2-utils	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082868
+_eclasses_=gnome2-utils	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373841

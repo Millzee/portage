@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=sys-apps/sed-4 emacs? ( virtual/emacs ) java? ( virtual/jdk app-arch/zip )
 SLOT=0
 SRC_URI=ftp://ftp-sop.inria.fr/mimosa/fp/Bigloo/bigloo2.7a-r2.tar.gz
-_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082858
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373828

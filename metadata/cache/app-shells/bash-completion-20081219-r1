@@ -8,4 +8,4 @@ PDEPEND=app-shells/gentoo-bashcomp
 RDEPEND=app-admin/eselect || ( >=app-shells/bash-2.05a app-shells/zsh )
 SLOT=0
 SRC_URI=mirror://gentoo/bash-completion-20081219.tar.bz2
-_mtime_=1235303739
+_mtime_=1235373819

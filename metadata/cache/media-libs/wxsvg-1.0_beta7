@@ -8,5 +8,5 @@ LICENSE=wxWinLL-3
 RDEPEND==x11-libs/wxGTK-2.6* >=dev-libs/glib-2.12 >=dev-libs/libxml2-2.6.26 >=media-libs/fontconfig-2.4 >=media-libs/freetype-2.2.0 >=media-libs/libart_lgpl-2.3.17 >=x11-libs/pango-1.14.9
 SLOT=0
 SRC_URI=mirror://sourceforge/wxsvg/wxsvg-1.0b7_1.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	wxwidgets	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082868
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	wxwidgets	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373840

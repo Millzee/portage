@@ -9,5 +9,5 @@ LICENSE=SNNS-4.2
 RDEPEND=X? ( x11-proto/xproto x11-libs/Xaw3d ) >=sys-apps/sed-4 python? ( >=dev-lang/python-2.3 )
 SLOT=0
 SRC_URI=http://www-ra.informatik.uni-tuebingen.de/downloads/SNNS/SNNSv4.2.tar.gz http://download.berlios.de/snns-dev/snns-4.2-20040227.patch.gz doc? ( http://www-ra.informatik.uni-tuebingen.de/downloads/SNNS/SNNSv4.2.Manual.pdf ) python? ( http://download.berlios.de/snns-dev/PySNNS-20040605.tar.gz http://download.berlios.de/snns-dev/PythonFunctionSupport-20050210.patch.gz )
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082898
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373887

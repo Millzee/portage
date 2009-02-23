@@ -9,4 +9,4 @@ LICENSE=Omni
 RDEPEND=java? ( virtual/jdk )
 SLOT=0
 SRC_URI=http://www.hpcc.jp/Omni/ftp/Omni/Omni-1.6.tar.gz
-_mtime_=1235082906
+_mtime_=1235373889

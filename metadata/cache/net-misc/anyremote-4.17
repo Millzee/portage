@@ -10,4 +10,4 @@ PDEPEND=kde? ( net-misc/kanyremote ) gnome? ( net-misc/ganyremote )
 RDEPEND=bluetooth? ( || ( ( net-wireless/bluez-libs net-wireless/bluez-utils ) net-wireless/bluez ) ) x11-libs/libXtst
 SLOT=0
 SRC_URI=mirror://sourceforge/anyremote/anyremote-4.17.tar.gz
-_mtime_=1235303742
+_mtime_=1235373874

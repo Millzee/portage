@@ -1,6 +1,8 @@
 # Copyright 1999-2008 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
+EAPI="2"
+
 inherit eutils flag-o-matic multilib toolchain-funcs
 
 SRC_URI="http://roy.marples.name/downloads/openrc/openrc-${PV}.tar.bz2 ftp://roy.marples.name/downloads/openrc/openrc-${PV}.tar.bz2"

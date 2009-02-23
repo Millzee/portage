@@ -8,5 +8,5 @@ RDEPEND=amd64? ( app-emulation/emul-linux-x86-baselibs ) sys-libs/zlib
 RESTRICT=fetch strip
 SLOT=0
 SRC_URI=StudioExpress-lin-x86-2008-11-ii.sh
-_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082853
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373823

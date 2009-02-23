@@ -8,4 +8,4 @@ LICENSE=GPL-3
 RDEPEND=>=gnome-base/libgnomeui-2.22.1 gnome-base/gconf >=gnome-base/libglade-2.6.2 >=dev-libs/glib-2 >=x11-libs/gtk+-2 >=media-libs/gstreamer-0.10.20 dev-libs/libxslt dev-libs/libxml2 x11-libs/pango
 SLOT=0
 SRC_URI=http://homepages.ihug.co.nz/~trmusson/stuff/ignuit-0.0.11.tar.gz
-_mtime_=1235082849
+_mtime_=1235373818

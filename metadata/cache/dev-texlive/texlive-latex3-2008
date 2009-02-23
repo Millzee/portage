@@ -9,5 +9,5 @@ LICENSE=GPL-2 LPPL-1.3
 RDEPEND=>=dev-texlive/texlive-latex-2008 !=dev-texlive/texlive-latexextra-2007* >=app-text/texlive-core-2008
 SLOT=0
 SRC_URI=mirror://gentoo/texlive-module-expl3-2008.tar.lzma mirror://gentoo/texlive-module-xpackages-2008.tar.lzma mirror://gentoo/texlive-module-collection-latex3-2008.tar.lzma doc? ( mirror://gentoo/texlive-module-expl3.doc-2008.tar.lzma mirror://gentoo/texlive-module-xpackages.doc-2008.tar.lzma ) source? ( mirror://gentoo/texlive-module-expl3.source-2008.tar.lzma mirror://gentoo/texlive-module-xpackages.source-2008.tar.lzma )
-_eclasses_=texlive-common	/home/Funtoo/portage/eclass	1235082859	texlive-module	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082858
+_eclasses_=texlive-common	/home/Funtoo/portage/eclass	1235373829	texlive-module	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373829

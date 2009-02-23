@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=>=sys-apps/sed-4.0
 SLOT=0
 SRC_URI=mirror://sourceforge/vifm/vifm-0.2a.tar.gz
-_mtime_=1235082849
+_mtime_=1235373818

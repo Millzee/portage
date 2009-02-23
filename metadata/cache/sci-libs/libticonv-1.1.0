@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/glib-2.6.0 nls? ( virtual/libintl )
 SLOT=0
 SRC_URI=mirror://sourceforge/gtktiemu/libticonv-1.1.0.tar.bz2
-_mtime_=1235087879
+_mtime_=1235373887

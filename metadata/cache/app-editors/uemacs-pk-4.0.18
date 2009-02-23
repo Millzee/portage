@@ -8,5 +8,5 @@ LICENSE=free-noncomm
 RDEPEND=sys-libs/ncurses
 SLOT=0
 SRC_URI=ftp://ftp.cs.helsinki.fi/pub/Software/Local/uEmacs-PK/em-4.0.18.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082847
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373817

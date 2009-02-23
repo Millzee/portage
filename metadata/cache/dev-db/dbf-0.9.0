@@ -9,4 +9,4 @@ LICENSE=LGPL-2
 RDEPEND=dev-libs/libdbf
 SLOT=0
 SRC_URI=mirror://berlios/dbf/dbf-core-0.9.0.src.zip
-_mtime_=1235082851
+_mtime_=1235373820

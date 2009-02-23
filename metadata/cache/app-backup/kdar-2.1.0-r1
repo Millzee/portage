@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup unpack
+DEPEND=>=app-backup/dar-2.3.5[dar32?,dar64?] >=app-arch/bzip2-1.0.2 >=sys-libs/zlib-1.1.4 =kde-base/kdelibs-3.5* =x11-libs/qt-3* =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl x11-libs/libXt x11-proto/xf86vidmodeproto xinerama? ( x11-proto/xineramaproto )
+DESCRIPTION=KDE Disk Archiver.
+EAPI=2
+HOMEPAGE=http://kdar.sourceforge.net/
+IUSE=dar32 dar64 debug elibc_FreeBSD xinerama
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-backup/dar-2.3.5[dar32?,dar64?] >=app-arch/bzip2-1.0.2 >=sys-libs/zlib-1.1.4 =kde-base/kdelibs-3.5* =x11-libs/qt-3* xinerama? ( x11-libs/libXinerama )
+SLOT=0
+SRC_URI=mirror://sourceforge/kdar/kdar-2.1.0.tar.bz2 mirror://gentoo/kde-admindir-3.5.5.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	kde	/home/Funtoo/portage/eclass	1235373829	kde-functions	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt3	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235375253

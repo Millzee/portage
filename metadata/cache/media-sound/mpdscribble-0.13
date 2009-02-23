@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/glib:2 net-libs/libsoup:2.4
 SLOT=0
 SRC_URI=mirror://sourceforge/musicpd/mpdscribble-0.13.tar.bz2
-_mtime_=1235082869
+_mtime_=1235373841

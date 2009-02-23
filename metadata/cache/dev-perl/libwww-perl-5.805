@@ -9,5 +9,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=virtual/perl-libnet >=dev-perl/HTML-Parser-3.34 >=dev-perl/URI-1.10 >=virtual/perl-Digest-MD5-2.12 dev-perl/HTML-Tree >=virtual/perl-MIME-Base64-2.12 >=virtual/perl-Compress-Zlib-1.10 ssl? ( dev-perl/Crypt-SSLeay ) dev-lang/perl
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/G/GA/GAAS/libwww-perl-5.805.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082856
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373826

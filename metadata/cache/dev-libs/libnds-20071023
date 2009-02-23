@@ -9,4 +9,4 @@ RDEPEND=dev-util/devkitarm-bin
 RESTRICT=strip
 SLOT=0
 SRC_URI=mirror://sourceforge/devkitpro/libnds-src-20071023.tar.bz2
-_mtime_=1235082853
+_mtime_=1235373824

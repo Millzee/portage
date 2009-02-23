@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=net-zope/plone-2.1 net-zope/zope app-admin/zprod-manager
 SLOT=0
 SRC_URI=http://plone.org/products/richdocument/releases/2.0/RichDocument-2.0rc1.tar.gz
-_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859	zproduct	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082897
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235373829	zproduct	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373883

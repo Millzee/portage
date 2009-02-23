@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=x11-libs/gtk+-2.4 dev-libs/libxml2 dev-libs/libxslt >=gnome-base/libgnomeprint-1.116 >=gnome-base/libgnomeprintui-1.116 >=gnome-base/libbonobo-2 >=gnome-base/libbonoboui-2 >=gnome-base/libgnomeui-2 >=gnome-base/libglade-2 =x11-libs/gtksourceview-1* spell? ( >=app-text/enchant-0.1 )
 SLOT=0
 SRC_URI=mirror://sourceforge/conglomerate/conglomerate-0.9.0.tar.gz
-_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235082859	gnome.org	/home/Funtoo/portage/eclass	1235082859	gnome2	/home/Funtoo/portage/eclass	1235082859	gnome2-utils	/home/Funtoo/portage/eclass	1235082859	libtool	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082847
+_eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373816

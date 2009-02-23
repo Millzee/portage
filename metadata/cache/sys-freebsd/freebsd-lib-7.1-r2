@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install setup unpack
-DEPEND=ssl? ( dev-libs/openssl ) hesiod? ( net-dns/hesiod ) kerberos? ( virtual/krb5 ) !sys-freebsd/freebsd-headers >=sys-devel/flex-2.5.31-r2 =sys-freebsd/freebsd-sources-7.1* !bootstrap? ( app-arch/bzip2 ) =sys-freebsd/freebsd-mk-defs-7.1* virtual/pmake virtual/pmake
+DEPEND=ssl? ( dev-libs/openssl ) hesiod? ( net-dns/hesiod ) kerberos? ( virtual/krb5 ) !sys-freebsd/freebsd-headers dev-libs/libelf >=sys-devel/flex-2.5.31-r2 =sys-freebsd/freebsd-sources-7.1* !bootstrap? ( app-arch/bzip2 ) =sys-freebsd/freebsd-mk-defs-7.1* virtual/pmake virtual/pmake
 DESCRIPTION=FreeBSD's base system libraries
 EAPI=0
 HOMEPAGE=http://www.freebsd.org/
@@ -7,8 +7,8 @@ IUSE=atm bluetooth ssl hesiod ipv6 kerberos nis gpib build bootstrap crosscompil
 KEYWORDS=~sparc-fbsd ~x86-fbsd
 LICENSE=BSD
 PROVIDE=virtual/libc virtual/os-headers
-RDEPEND=ssl? ( dev-libs/openssl ) hesiod? ( net-dns/hesiod ) kerberos? ( virtual/krb5 ) !sys-freebsd/freebsd-headers
+RDEPEND=ssl? ( dev-libs/openssl ) hesiod? ( net-dns/hesiod ) kerberos? ( virtual/krb5 ) !sys-freebsd/freebsd-headers dev-libs/libelf
 SLOT=7.0
 SRC_URI=mirror://gentoo/freebsd-lib-7.1.tar.bz2 mirror://gentoo/freebsd-contrib-7.1.tar.bz2 mirror://gentoo/freebsd-crypto-7.1.tar.bz2 mirror://gentoo/freebsd-libexec-7.1.tar.bz2 mirror://gentoo/freebsd-etc-7.1.tar.bz2 mirror://gentoo/freebsd-include-7.1.tar.bz2 nis? ( mirror://gentoo/freebsd-usbin-7.1.tar.bz2 ) build? ( mirror://gentoo/freebsd-sys-7.1.tar.bz2 )
-_eclasses_=bsdmk	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	flag-o-matic	/home/Funtoo/portage/eclass	1235082859	freebsd	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859	versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082906
+_eclasses_=bsdmk	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	freebsd	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235375254

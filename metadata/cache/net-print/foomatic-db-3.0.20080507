@@ -7,5 +7,5 @@ LICENSE=GPL-2
 RDEPEND=net-print/foomatic-db-engine
 SLOT=0
 SRC_URI=http://gentooexperimental.org/~genstef/dist/foomatic-db-3.0-20080507.tar.gz http://linuxprinting.org/download/foomatic/foomatic-db-3.0-20080507.tar.gz
-_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082895
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373882

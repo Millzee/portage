@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=kerberos? ( net-libs/libgssglue )
 SLOT=0
 SRC_URI=mirror://sourceforge/libtirpc/libtirpc-0.1.10.tar.bz2
-_mtime_=1235082894
+_mtime_=1235373873

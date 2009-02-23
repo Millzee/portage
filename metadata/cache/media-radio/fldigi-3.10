@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=>=x11-libs/fltk-1.1.7 dev-libs/libxml2 media-libs/libsamplerate media-libs/jpeg media-libs/libpng x11-misc/xdg-utils hamlib? ( media-libs/hamlib ) portaudio? ( >=media-libs/portaudio-19_pre20071207 ) pulseaudio? ( media-sound/pulseaudio ) sndfile? ( >=media-libs/libsndfile-1.0.10 ) xmlrpc? ( dev-libs/xmlrpc-c )
 SLOT=0
 SRC_URI=mirror://berlios/fldigi/fldigi-3.10.tar.gz doc? ( mirror://berlios/fldigi/fldigi-3.1.pdf )
-_mtime_=1235082868
+_mtime_=1235373840

@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=virtual/python-1.5 app-text/sgml-common ~app-text/docbook-sgml-dtd-3.1 app-text/docbook-dsssl-stylesheets app-text/openjade jadetex? ( app-text/jadetex ) || ( www-client/w3m www-client/lynx )
 SLOT=0
 SRC_URI=mirror://sourceforge/sgmltools-lite/sgmltools-lite-3.0.3.tar.gz mirror://sourceforge/sgmltools-lite/nw-eps-icons-0.0.1.tar.gz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235082859	base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	python	/home/Funtoo/portage/eclass	1235082859	sgml-catalog	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082850
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	sgml-catalog	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373820

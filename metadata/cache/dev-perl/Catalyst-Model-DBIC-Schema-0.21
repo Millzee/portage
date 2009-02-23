@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=>=dev-perl/DBIx-Class-0.07006 dev-perl/Catalyst-Runtime >=dev-perl/UNIVERSAL-require-0.10 >=dev-perl/Class-Data-Accessor-0.02 >=dev-perl/Class-Accessor-0.22 >=dev-perl/Catalyst-Devel-1.0 >=dev-perl/DBIx-Class-Schema-Loader-0.03012
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/B/BO/BOGDAN//Catalyst-Model-DBIC-Schema-0.21.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235082859	eutils	/home/Funtoo/portage/eclass	1235303741	multilib	/home/Funtoo/portage/eclass	1235211576	perl-module	/home/Funtoo/portage/eclass	1235082859	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082855
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373825

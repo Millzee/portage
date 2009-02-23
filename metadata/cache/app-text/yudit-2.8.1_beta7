@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=x11-libs/libX11 >=sys-devel/gettext-0.10
 SLOT=0
 SRC_URI=http://yudit.org/download/yudit-2.8.1.beta7.tar.gz
-_eclasses_=versionator	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082850
+_eclasses_=versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235373820

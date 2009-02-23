@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Module-CoreList
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/perl/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=~perl-core/Module-CoreList-2.17
+SLOT=0
+_mtime_=1235373892

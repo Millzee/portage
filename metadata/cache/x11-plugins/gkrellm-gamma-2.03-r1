@@ -2,11 +2,11 @@ DEFINED_PHASES=install setup unpack
 DEPEND=x11-libs/libXxf86vm x11-proto/xf86vidmodeproto =app-admin/gkrellm-2* dev-util/pkgconfig
 DESCRIPTION=A gamma control plugin for gkrellm
 EAPI=0
-HOMEPAGE=http://sweb.cz/tripie/gkrellm/gamma/
+HOMEPAGE=http://tripie.sweb.cz/gkrellm/gamma/
 KEYWORDS=ppc sparc x86
 LICENSE=GPL-2
 RDEPEND=x11-libs/libXxf86vm =app-admin/gkrellm-2*
 SLOT=2
-SRC_URI=http://sweb.cz/tripie/gkrellm/gamma/dist/gkrellm-gamma-2.03.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235303741	gkrellm-plugin	/home/Funtoo/portage/eclass	1235082859	multilib	/home/Funtoo/portage/eclass	1235211576	portability	/home/Funtoo/portage/eclass	1235082859	toolchain-funcs	/home/Funtoo/portage/eclass	1235082859
-_mtime_=1235082910
+SRC_URI=http://tripie.sweb.cz/gkrellm/gamma/dist/gkrellm-gamma-2.03.tar.gz
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	gkrellm-plugin	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235375255
