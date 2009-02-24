@@ -1,3 +1,7 @@
+# Caleb Cushing <xenoterracide@gmail.com> (23 Feb 2009)
+# Mask php 5.3.0 beta
+=dev-lang/php-5.3.0_beta*
+
 # Caleb Cushing <xenoterracide@gmail.com> (22 Feb 2009)
 # Mask new versions for caution
 >sys-apps/openrc-0.4.3-r1
