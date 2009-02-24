@@ -10,4 +10,4 @@ RDEPEND=>=media-libs/libsdl-1.2.7 media-libs/sdl-net dev-libs/boost !dedicated? 
 SLOT=0
 SRC_URI=mirror://sourceforge/wesnoth/wesnoth-1.4.4.tar.bz2
 _eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235462056
+_mtime_=1235484294

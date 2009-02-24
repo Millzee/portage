@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=sys-libs/zlib ssl? ( gnutls? ( >=net-libs/gnutls-1.2.9 ) !gnutls? ( dev-libs/openssl ) ) ares? ( >=net-dns/c-ares-1.5.0 ) bittorrent? ( gnutls? ( >=net-libs/gnutls-1.2.9 >=dev-libs/libgcrypt-1.2.2 ) !gnutls? ( dev-libs/openssl ) ) metalink? ( !expat? ( >=dev-libs/libxml2-2.6.26 ) expat? ( dev-libs/expat ) ) sqlite3? ( dev-db/sqlite:3 ) nls? ( virtual/libiconv virtual/libintl )
 SLOT=0
 SRC_URI=mirror://sourceforge/aria2/aria2-1.2.0.tar.bz2
-_mtime_=1235462057
+_mtime_=1235484294
