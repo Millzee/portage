@@ -1,7 +1,7 @@
 >=sys-libs/ncurses-5.2-r2
 >=sys-libs/ncurses-5.2-r2 !<sys-apps/portage-2.1.5 !<sys-apps/paludis-0.26.0_alpha5
 0
-mirror://gnu/bash/bash-4.0.tar.gz ftp://ftp.cwru.edu/pub/bash/bash-4.0.tar.gz
+mirror://gnu/bash/bash-4.0.tar.gz
 
 http://cnswww.cns.cwru.edu/~chet/bash/bashtop.html
 GPL-2
