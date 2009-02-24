@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-java/jss-3.4-r1
 DEFINED_PHASES=compile install preinst setup unpack
 DEPEND=>=virtual/jdk-1.4 >=virtual/jre-1.4 >=dev-libs/nspr-4.3 >=dev-libs/nss-3.9.2 app-arch/zip >=sys-apps/sed-4 >=dev-java/java-config-2.1.6 kernel_linux? ( virtual/linux-sources )
 DESCRIPTION=Network Security Services for Java (JSS)
@@ -11,3 +12,27 @@ SLOT=3.4
 SRC_URI=ftp://ftp.mozilla.org/pub/mozilla.org/security/jss/releases/JSS_3_4_RTM/src/jss-3.4-src.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	linux-info	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373822
+=======
+>=virtual/jdk-1.4 >=virtual/jre-1.4 >=dev-libs/nspr-4.3 >=dev-libs/nss-3.9.2 app-arch/zip >=sys-apps/sed-4 >=dev-java/java-config-2.1.6 kernel_linux? ( virtual/linux-sources )
+>=virtual/jre-1.4 >=dev-libs/nspr-4.3 >=dev-libs/nss-3.9.2 >=dev-java/java-config-2.1.6
+3.4
+ftp://ftp.mozilla.org/pub/mozilla.org/security/jss/releases/JSS_3_4_RTM/src/jss-3.4-src.tar.gz
+
+http://www.mozilla.org/projects/security/pki/jss/
+MPL-1.1
+Network Security Services for Java (JSS)
+amd64 x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib linux-info eutils
+elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-java/jss-3.4-r1

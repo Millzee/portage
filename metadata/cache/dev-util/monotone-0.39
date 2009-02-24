@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-util/monotone-0.39
 DEFINED_PHASES=compile install postinst postrm setup test
 DEPEND=sys-libs/zlib emacs? ( virtual/emacs ) >=dev-libs/libpcre-7.6 >=dev-libs/boost-1.33.1 nls? ( >=sys-devel/gettext-0.11.5 ) doc? ( sys-apps/texinfo )
 DESCRIPTION=Monotone Distributed Version Control System
@@ -11,3 +12,27 @@ SLOT=1
 SRC_URI=http://monotone.ca/downloads/0.39/monotone-0.39.tar.gz
 _eclasses_=bash-completion	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373829
+=======
+sys-libs/zlib emacs? ( virtual/emacs ) >=dev-libs/libpcre-7.6 >=dev-libs/boost-1.33.1 nls? ( >=sys-devel/gettext-0.11.5 ) doc? ( sys-apps/texinfo )
+sys-libs/zlib emacs? ( virtual/emacs ) >=dev-libs/libpcre-7.6 bash-completion? ( app-admin/eselect )
+1
+http://monotone.ca/downloads/0.39/monotone-0.39.tar.gz
+
+http://monotone.ca
+GPL-2
+Monotone Distributed Version Control System
+~amd64 ~ia64 ~ppc ~x86
+toolchain-funcs elisp-common portability flag-o-matic multilib bash-completion eutils
+doc emacs ipv6 nls bash-completion
+
+
+
+0
+
+compile install postinst postrm setup test
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-util/monotone-0.39

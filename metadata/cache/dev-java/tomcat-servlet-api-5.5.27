@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-java/tomcat-servlet-api-5.5.27
 DEFINED_PHASES=compile install preinst setup
 DEPEND=java5? ( >=virtual/jdk-1.5 ) !java5? ( =virtual/jdk-1.4* ) source? ( app-arch/zip ) >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
 DESCRIPTION=Tomcat's Servlet API 2.4/JSP API 2.0 implementation
@@ -11,3 +12,27 @@ SLOT=2.4
 SRC_URI=mirror://apache/tomcat/tomcat-5/v5.5.27/src/apache-tomcat-5.5.27-src.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-osgi	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373823
+=======
+java5? ( >=virtual/jdk-1.5 ) !java5? ( =virtual/jdk-1.4* ) source? ( app-arch/zip ) >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+java5? ( >=virtual/jdk-1.5 ) !java5? ( =virtual/jdk-1.4* ) >=dev-java/java-config-2.1.6
+2.4
+mirror://apache/tomcat/tomcat-5/v5.5.27/src/apache-tomcat-5.5.27-src.tar.gz
+
+http://tomcat.apache.org/
+Apache-1.1
+Tomcat's Servlet API 2.4/JSP API 2.0 implementation
+amd64 ~ppc x86 ~x86-fbsd
+toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib java-osgi eutils java-ant-2
+doc java5 source elibc_FreeBSD elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-java/tomcat-servlet-api-5.5.27

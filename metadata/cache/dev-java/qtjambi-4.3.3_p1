@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-java/qtjambi-4.3.3_p1
 DEFINED_PHASES=compile install preinst setup unpack
 DEPEND=~x11-libs/qt-4.3.3 >=virtual/jdk-1.5 >=dev-java/java-config-2.1.6
 DESCRIPTION=QtJambi is a set of Java bindings and utilities for the Qt C++ toolkit.
@@ -11,3 +12,27 @@ SLOT=4
 SRC_URI=ftp://ftp.trolltech.com/pub/qtjambi/source/qtjambi-gpl-src-4.3.3_01.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373823
+=======
+~x11-libs/qt-4.3.3 >=virtual/jdk-1.5 >=dev-java/java-config-2.1.6
+~x11-libs/qt-4.3.3 >=virtual/jre-1.5 >=dev-java/java-config-2.1.6
+4
+ftp://ftp.trolltech.com/pub/qtjambi/source/qtjambi-gpl-src-4.3.3_01.tar.gz
+
+http://www.trolltech.com/
+GPL-2
+QtJambi is a set of Java bindings and utilities for the Qt C++ toolkit.
+~amd64 ~x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
+elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-java/qtjambi-4.3.3_p1

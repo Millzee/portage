@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-java/commons-daemon-1.0.1-r2
 DEFINED_PHASES=compile install preinst setup unpack
 DEPEND=>=virtual/jdk-1.4 dev-java/ant-core source? ( app-arch/zip ) >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
 DESCRIPTION=Tools to allow java programs to run as unix daemons
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://apache/jakarta/commons/daemon/source/daemon-1.0.1.tar.gz
 _eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373822
+=======
+>=virtual/jdk-1.4 dev-java/ant-core source? ( app-arch/zip ) >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
+0
+mirror://apache/jakarta/commons/daemon/source/daemon-1.0.1.tar.gz
+
+http://jakarta.apache.org/commons/daemon/
+Apache-1.1
+Tools to allow java programs to run as unix daemons
+amd64 ppc ppc64 x86 ~x86-fbsd
+toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib libtool autotools eutils java-ant-2
+doc examples source elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-java/commons-daemon-1.0.1-r2

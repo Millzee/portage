@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-crypt/jacksum-1.7.0
 DEFINED_PHASES=compile install preinst setup unpack
 DEPEND=>=virtual/jdk-1.3.1 dev-java/ant-core app-arch/unzip >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
 DESCRIPTION=Java utility for computing and verifying checksums: CRC*, MD*, RIPEMD*, SHA*, TIGER*, WHIRLPOOL
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/jacksum/jacksum-1.7.0.zip
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373816
+=======
+>=virtual/jdk-1.3.1 dev-java/ant-core app-arch/unzip >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.3.1 >=dev-java/java-config-2.1.6
+0
+mirror://sourceforge/jacksum/jacksum-1.7.0.zip
+
+http://www.jonelo.de/java/jacksum/
+GPL-2
+Java utility for computing and verifying checksums: CRC*, MD*, RIPEMD*, SHA*, TIGER*, WHIRLPOOL
+amd64 ppc x86
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-crypt/jacksum-1.7.0

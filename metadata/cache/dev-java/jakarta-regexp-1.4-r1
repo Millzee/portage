@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-java/jakarta-regexp-1.4-r1
 DEFINED_PHASES=compile install preinst setup unpack
 DEPEND=>=virtual/jdk-1.4 dev-java/ant-core source? ( app-arch/zip ) >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
 DESCRIPTION=100% Pure Java Regular Expression package
@@ -11,3 +12,27 @@ SLOT=1.4
 SRC_URI=mirror://apache/jakarta/regexp/source/jakarta-regexp-1.4.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373822
+=======
+>=virtual/jdk-1.4 dev-java/ant-core source? ( app-arch/zip ) >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.3 >=dev-java/java-config-2.1.6
+1.4
+mirror://apache/jakarta/regexp/source/jakarta-regexp-1.4.tar.gz
+
+http://jakarta.apache.org/
+Apache-1.1
+100% Pure Java Regular Expression package
+amd64 ~ia64 ppc ppc64 x86 ~x86-fbsd
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+doc source elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-java/jakarta-regexp-1.4-r1

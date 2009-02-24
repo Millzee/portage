@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-java/commons-modeler-2.0
 DEFINED_PHASES=compile install preinst setup test unpack
 DEPEND=>=virtual/jdk-1.4 >=virtual/jre-1.4 =dev-java/mx4j-core-3* >=dev-java/commons-logging-1.0.3 dev-java/ant-core commons-digester? ( >=dev-java/commons-digester-1.4.1 ) source? ( app-arch/zip ) test? ( =dev-java/junit-3.8* ) >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
 DESCRIPTION=A lib to make the setup of Java Management Extensions easier
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://apache/jakarta/commons/modeler/source/commons-modeler-2.0-src.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373822
+=======
+>=virtual/jdk-1.4 >=virtual/jre-1.4 =dev-java/mx4j-core-3* >=dev-java/commons-logging-1.0.3 dev-java/ant-core commons-digester? ( >=dev-java/commons-digester-1.4.1 ) source? ( app-arch/zip ) test? ( =dev-java/junit-3.8* ) >=dev-java/java-config-2.1.6 >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
+>=virtual/jre-1.4 =dev-java/mx4j-core-3* >=dev-java/commons-logging-1.0.3 dev-java/ant-core commons-digester? ( >=dev-java/commons-digester-1.4.1 ) >=dev-java/java-config-2.1.6
+0
+mirror://apache/jakarta/commons/modeler/source/commons-modeler-2.0-src.tar.gz
+
+http://jakarta.apache.org/commons/modeler/
+Apache-2.0
+A lib to make the setup of Java Management Extensions easier
+amd64 ppc64 x86 ~x86-fbsd
+toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
+commons-digester doc source test elibc_FreeBSD elibc_FreeBSD
+
+
+
+0
+
+compile install preinst setup test unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-java/commons-modeler-2.0

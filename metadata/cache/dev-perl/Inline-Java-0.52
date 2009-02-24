@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-perl/Inline-Java-0.52
 DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
 DEPEND=>=dev-perl/Inline-0.44 >=virtual/perl-Test-1.13 >=virtual/jdk-1.4 dev-lang/perl >=dev-java/java-config-2.1.6
 DESCRIPTION=Easy implementation of Java extensions
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://cpan/authors/id/P/PA/PATL/Inline-Java-0.52.tar.gz
 _eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373826
+=======
+>=dev-perl/Inline-0.44 >=virtual/perl-Test-1.13 >=virtual/jdk-1.4 dev-lang/perl >=dev-java/java-config-2.1.6
+>=dev-perl/Inline-0.44 >=virtual/perl-Test-1.13 >=virtual/jdk-1.4 dev-lang/perl >=dev-java/java-config-2.1.6
+0
+mirror://cpan/authors/id/P/PA/PATL/Inline-Java-0.52.tar.gz
+
+http://search.cpan.org/~patl/
+Artistic
+Easy implementation of Java extensions
+amd64 x86
+toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib base eutils perl-module
+elibc_FreeBSD
+
+
+
+0
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-perl/Inline-Java-0.52

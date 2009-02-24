@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/net-misc/bti-014
 DEFINED_PHASES=install postinst
 DEPEND=net-misc/curl sys-libs/readline
 DESCRIPTION=A command line twitter/identi.ca client
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://kernel/linux/kernel/people/gregkh/bti/bti-014.tar.bz2
 _eclasses_=bash-completion	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373878
+=======
+net-misc/curl sys-libs/readline
+net-misc/curl sys-libs/readline bash-completion? ( app-admin/eselect )
+0
+mirror://kernel/linux/kernel/people/gregkh/bti/bti-014.tar.bz2
+
+http://www.kernel.org/pub/linux/kernel/people/gregkh/bti/
+GPL-2
+A command line twitter/identi.ca client
+~amd64 ~x86
+bash-completion
+bash-completion
+
+
+
+0
+
+install postinst
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/net-misc/bti-014

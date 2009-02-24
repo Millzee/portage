@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-java/diablo-jdk-1.6.0.07.02
 DEFINED_PHASES=install nofetch postinst postrm prerm setup
 DEPEND=jce? ( =dev-java/sun-jce-bin-1.6.0* ) =dev-java/java-config-2*
 DESCRIPTION=Java Development Kit
@@ -12,3 +13,27 @@ SLOT=1.6
 SRC_URI=diablo-caffe-freebsd7-i386-1.6.0_07-b02.tar.bz2
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	java-vm-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373822
+=======
+jce? ( =dev-java/sun-jce-bin-1.6.0* ) =dev-java/java-config-2*
+X? ( x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext x11-libs/libXi x11-libs/libXp x11-libs/libXt x11-libs/libXtst ) =sys-freebsd/freebsd-lib-7* jce? ( =dev-java/sun-jce-bin-1.6.0* ) =dev-java/java-config-2*
+1.6
+diablo-caffe-freebsd7-i386-1.6.0_07-b02.tar.bz2
+fetch
+http://www.FreeBSDFoundation.org/downloads/java.shtml
+sun-bcla-java-vm
+Java Development Kit
+-* ~x86-fbsd
+toolchain-funcs portability versionator multilib eutils fdo-mime java-vm-2
+X examples nsplugin jce
+
+
+
+0
+
+install nofetch postinst postrm prerm setup
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-java/diablo-jdk-1.6.0.07.02

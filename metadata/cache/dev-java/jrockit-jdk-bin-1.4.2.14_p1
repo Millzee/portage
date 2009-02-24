@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-java/jrockit-jdk-bin-1.4.2.14_p1
 DEFINED_PHASES=install postinst postrm prerm setup
 DEPEND==dev-java/java-config-2* =dev-java/java-config-1.3*
 DESCRIPTION=BEA WebLogic's J2SE Development Kit
@@ -12,3 +13,27 @@ SLOT=1.4
 SRC_URI=ia64? ( ftp://anonymous:dev2dev%40bea%2Ecom@ftpna.bea.com/pub/releases/security/jrockit-jdk1.4.2_14-linux_ia64.tar.gz ) x86? ( ftp://anonymous:dev2dev%40bea%2Ecom@ftpna.bea.com/pub/releases/security/jrockit-jdk1.4.2_14-linux_ia32.tar.gz )
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	java-vm-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373822
+=======
+=dev-java/java-config-2* =dev-java/java-config-1.3*
+doc? ( =dev-java/java-sdk-docs-1.4.2* ) =dev-java/java-config-2* =dev-java/java-config-1.3*
+1.4
+ia64? ( ftp://anonymous:dev2dev%40bea%2Ecom@ftpna.bea.com/pub/releases/security/jrockit-jdk1.4.2_14-linux_ia64.tar.gz ) x86? ( ftp://anonymous:dev2dev%40bea%2Ecom@ftpna.bea.com/pub/releases/security/jrockit-jdk1.4.2_14-linux_ia32.tar.gz )
+strip mirror
+http://commerce.bea.com/products/weblogicjrockit/jrockit_prod_fam.jsp
+jrockit
+BEA WebLogic's J2SE Development Kit
+-* ia64 x86
+toolchain-funcs portability versionator multilib eutils fdo-mime java-vm-2
+doc examples
+
+
+
+0
+
+install postinst postrm prerm setup
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-java/jrockit-jdk-bin-1.4.2.14_p1

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-util/astyle-1.22
 DEFINED_PHASES=compile install preinst setup unpack
 DEPEND=java? ( >=virtual/jdk-1.6 ) java? ( >=dev-java/java-config-2.1.6 )
 DESCRIPTION=Artistic Style is a reindenter and reformatter of C++, C and Java source code
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/astyle/astyle_1.22_linux.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-opt-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373829
+=======
+java? ( >=virtual/jdk-1.6 ) java? ( >=dev-java/java-config-2.1.6 )
+java? ( >=virtual/jdk-1.6 ) java? ( >=dev-java/java-config-2.1.6 )
+0
+mirror://sourceforge/astyle/astyle_1.22_linux.tar.gz
+
+http://astyle.sourceforge.net/
+LGPL-2.1
+Artistic Style is a reindenter and reformatter of C++, C and Java source code
+alpha amd64 ppc ~ppc64 sparc x86
+toolchain-funcs portability java-utils-2 versionator multilib java-pkg-opt-2 eutils
+debug java libs elibc_FreeBSD java
+
+
+
+0
+
+compile install preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-util/astyle-1.22
