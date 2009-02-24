@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/dev-java/commons-lang-2.0-r2
 DEFINED_PHASES=compile install preinst setup
 DEPEND=>=virtual/jdk-1.4 test? ( dev-java/ant-junit ) >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
 DESCRIPTION=Jakarta components to manipulate core java classes
@@ -12,27 +11,3 @@ SLOT=0
 SRC_URI=mirror://apache/jakarta/commons/lang/source/commons-lang-2.0-src.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373822
-=======
->=virtual/jdk-1.4 test? ( dev-java/ant-junit ) >=dev-java/java-config-2.1.6 source? ( app-arch/zip ) >=dev-java/ant-core-1.7.0 >=dev-java/javatoolkit-0.3.0-r2
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6 source? ( app-arch/zip )
-0
-mirror://apache/jakarta/commons/lang/source/commons-lang-2.0-src.tar.gz
-
-http://jakarta.apache.org/commons/lang/
-Apache-1.1
-Jakarta components to manipulate core java classes
-amd64 ppc ppc64 x86 ~x86-fbsd
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils java-ant-2
-elibc_FreeBSD doc source test elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/dev-java/commons-lang-2.0-r2

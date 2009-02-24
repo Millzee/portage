@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/dev-java/blackdown-jdk-1.4.2.03-r15
 DEFINED_PHASES=install postinst postrm prerm setup unpack
 DEPEND=>=dev-java/java-config-1.2.11 doc? ( =dev-java/java-sdk-docs-1.4.2* ) =dev-java/java-config-2* =dev-java/java-config-1.3*
 DESCRIPTION=Blackdown Java Development Kit
@@ -13,27 +12,3 @@ SLOT=1.4.2
 SRC_URI=amd64? ( mirror://blackdown.org/JDK-1.4.2/amd64/03/j2sdk-1.4.2-03-linux-amd64.bin ) x86? ( mirror://blackdown.org/JDK-1.4.2/i386/03/j2sdk-1.4.2-03-linux-i586.bin )
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	java-vm-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	pax-utils	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373821
-=======
->=dev-java/java-config-1.2.11 doc? ( =dev-java/java-sdk-docs-1.4.2* ) =dev-java/java-config-2* =dev-java/java-config-1.3*
->=dev-java/java-config-1.2.11 doc? ( =dev-java/java-sdk-docs-1.4.2* ) =dev-java/java-config-2* =dev-java/java-config-1.3*
-1.4.2
-amd64? ( mirror://blackdown.org/JDK-1.4.2/amd64/03/j2sdk-1.4.2-03-linux-amd64.bin ) x86? ( mirror://blackdown.org/JDK-1.4.2/i386/03/j2sdk-1.4.2-03-linux-i586.bin )
-strip
-http://www.blackdown.org
-sun-bcla-java-vm
-Blackdown Java Development Kit
--* amd64 x86
-toolchain-funcs portability versionator multilib pax-utils eutils fdo-mime java-vm-2
-doc nsplugin
-
-
-
-0
-
-install postinst postrm prerm setup unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/dev-java/blackdown-jdk-1.4.2.03-r15

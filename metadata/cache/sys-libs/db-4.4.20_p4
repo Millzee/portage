@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/sys-libs/db-4.4.20_p4
 DEFINED_PHASES=compile install postinst postrm preinst setup test unpack
 DEPEND=tcl? ( >=dev-lang/tcl-8.4 ) java? ( >=virtual/jdk-1.4 ) >=sys-devel/binutils-2.16.1 test? ( >=dev-lang/tcl-8.4 ) java? ( >=dev-java/java-config-2.1.6 )
 DESCRIPTION=Oracle Berkeley DB
@@ -12,27 +11,3 @@ SLOT=4.4
 SRC_URI=http://download.oracle.com/berkeley-db/db-4.4.20.tar.gz http://www.oracle.com/technology/products/berkeley-db/db/update/4.4.20/patch.4.4.20.1 http://www.oracle.com/technology/products/berkeley-db/db/update/4.4.20/patch.4.4.20.2 http://www.oracle.com/technology/products/berkeley-db/db/update/4.4.20/patch.4.4.20.3 http://www.oracle.com/technology/products/berkeley-db/db/update/4.4.20/patch.4.4.20.4
 _eclasses_=db	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	java-pkg-opt-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373891
-=======
-tcl? ( >=dev-lang/tcl-8.4 ) java? ( >=virtual/jdk-1.4 ) >=sys-devel/binutils-2.16.1 test? ( >=dev-lang/tcl-8.4 ) java? ( >=dev-java/java-config-2.1.6 )
-tcl? ( dev-lang/tcl ) java? ( >=virtual/jre-1.4 ) java? ( >=dev-java/java-config-2.1.6 )
-4.4
-http://download.oracle.com/berkeley-db/db-4.4.20.tar.gz http://www.oracle.com/technology/products/berkeley-db/db/update/4.4.20/patch.4.4.20.1 http://www.oracle.com/technology/products/berkeley-db/db/update/4.4.20/patch.4.4.20.2 http://www.oracle.com/technology/products/berkeley-db/db/update/4.4.20/patch.4.4.20.3 http://www.oracle.com/technology/products/berkeley-db/db/update/4.4.20/patch.4.4.20.4
-
-http://www.oracle.com/technology/software/products/berkeley-db/index.html
-OracleDB
-Oracle Berkeley DB
-~amd64 ~arm ~ia64 ~m68k ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd
-multilib portability flag-o-matic java-utils-2 versionator db java-pkg-opt-2 toolchain-funcs eutils
-tcl java doc nocxx bootstrap doc test elibc_FreeBSD java
-
-
-
-0
-
-compile install postinst postrm preinst setup test unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/sys-libs/db-4.4.20_p4

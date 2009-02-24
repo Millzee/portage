@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/www-apache/mod_jk-1.2.27
 DEFINED_PHASES=compile install postinst preinst setup
 DEPEND=>=virtual/jdk-1.4 >=dev-java/java-config-2.1.6
 DESCRIPTION=JK module for connecting Tomcat and Apache using the ajp13 protocol.
@@ -12,27 +11,3 @@ SLOT=0
 SRC_URI=mirror://apache/tomcat/tomcat-connectors/jk/source/jk-1.2.27/tomcat-connectors-1.2.27-src.tar.gz
 _eclasses_=apache-module	/home/Funtoo/portage/eclass	1235373829	depend.apache	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373892
-=======
->=virtual/jdk-1.4 >=dev-java/java-config-2.1.6
-=www-servers/apache-2* >=dev-java/java-config-2.1.6
-0
-mirror://apache/tomcat/tomcat-connectors/jk/source/jk-1.2.27/tomcat-connectors-1.2.27-src.tar.gz
-
-http://tomcat.apache.org/connectors-doc/
-Apache-2.0
-JK module for connecting Tomcat and Apache using the ajp13 protocol.
-~amd64 ~ppc ~x86
-apache-module toolchain-funcs portability java-pkg-2 java-utils-2 versionator multilib depend.apache eutils
-elibc_FreeBSD
-
-
-
-0
-
-compile install postinst preinst setup
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/www-apache/mod_jk-1.2.27

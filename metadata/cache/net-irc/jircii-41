@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/net-irc/jircii-41
 DEFINED_PHASES=compile install preinst setup
 DEPEND=>=dev-java/java-config-2.1.6
 DESCRIPTION=jIRCii - IRC client written in Java
@@ -12,27 +11,3 @@ SLOT=0
 SRC_URI=http://jirc.hick.org/download/jerkb41.tgz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373873
-=======
->=dev-java/java-config-2.1.6
->=virtual/jre-1.4 >=dev-java/java-config-2.1.6
-0
-http://jirc.hick.org/download/jerkb41.tgz
-
-http://jirc.hick.org/
-Artistic
-jIRCii - IRC client written in Java
-~amd64 ~ppc x86
-toolchain-funcs java-pkg-2 portability java-utils-2 versionator multilib eutils
-elibc_FreeBSD
-
-
-
-0
-
-compile install preinst setup
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/net-irc/jircii-41

@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/sys-cluster/vzctl-3.0.22-r2
 DEFINED_PHASES=compile install postinst unpack
 DEPEND=logrotate? ( app-admin/logrotate ) net-firewall/iptables sys-apps/ed sys-apps/iproute2 sys-fs/vzquota virtual/cron
 DESCRIPTION=OpenVZ VE control utility
@@ -12,27 +11,3 @@ SLOT=0
 SRC_URI=http://download.openvz.org/utils/vzctl/3.0.22/src/vzctl-3.0.22.tar.bz2
 _eclasses_=bash-completion	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373889
-=======
-logrotate? ( app-admin/logrotate ) net-firewall/iptables sys-apps/ed sys-apps/iproute2 sys-fs/vzquota virtual/cron
-logrotate? ( app-admin/logrotate ) net-firewall/iptables sys-apps/ed sys-apps/iproute2 sys-fs/vzquota virtual/cron bash-completion? ( app-admin/eselect )
-0
-http://download.openvz.org/utils/vzctl/3.0.22/src/vzctl-3.0.22.tar.bz2
-
-http://openvz.org/
-GPL-2
-OpenVZ VE control utility
-~amd64 ~ia64 ~ppc64 ~sparc ~x86
-portability toolchain-funcs multilib eutils bash-completion
-bash-completion logrotate bash-completion
-
-
-
-0
-
-compile install postinst unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/sys-cluster/vzctl-3.0.22-r2
