@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst
+DEPEND=ssl? ( dev-libs/openssl )
+DESCRIPTION=Multiuser IRC proxy with ssl support
+EAPI=0
+HOMEPAGE=http://bip.t1r.net/
+IUSE=ssl vim-syntax oidentd
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=ssl? ( dev-libs/openssl ) vim-syntax? ( || ( app-editors/vim app-editors/gvim ) ) oidentd? ( >=net-misc/oidentd-2.0 )
+SLOT=0
+SRC_URI=http://bip.t1r.net/downloads/bip-0.8.0-rc1.tar.gz
+_mtime_=1235462056

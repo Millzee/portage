@@ -4,10 +4,10 @@ DESCRIPTION=X.Org xdm application
 EAPI=0
 HOMEPAGE=http://xorg.freedesktop.org/
 IUSE=xprint ipv6 pam debug
-KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc64 ~sparc ~x86
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
 LICENSE=xdm
 RDEPEND=x11-libs/libXdmcp x11-libs/libXaw >=x11-apps/xinit-1.0.2-r3 x11-libs/libXinerama x11-libs/libX11 x11-libs/libXt pam? ( virtual/pam ) x11-apps/xrdb x11-apps/sessreg pam? ( sys-auth/pambase ) !<=x11-base/xorg-x11-6.9
 SLOT=0
 SRC_URI=http://xorg.freedesktop.org/releases/individual/app/xdm-1.1.6.tar.bz2
 _eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	pam	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	x-modular	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235373893
+_mtime_=1235462057

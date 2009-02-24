@@ -5,8 +5,8 @@ EAPI=0
 HOMEPAGE=http://www.gentoo.org/proj/en/lisp/emacs/
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=>=virtual/emacs-23 >=sys-apps/openrc-0.3.0-r1 >=virtual/emacs-21
+RDEPEND=>=virtual/emacs-23 >=sys-apps/openrc-0.4 >=virtual/emacs-21
 SLOT=0
-SRC_URI=mirror://gentoo/emacs-daemon-0.11.tar.bz2
+SRC_URI=mirror://gentoo/emacs-daemon-0.13.tar.bz2
 _eclasses_=elisp	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235373817
+_mtime_=1235462055

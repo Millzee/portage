@@ -4,10 +4,10 @@ DESCRIPTION=Command-line tools for building SSL client-server applications.
 EAPI=0
 HOMEPAGE=http://www.superscript.com/ucspi-ssl/intro.html
 IUSE=perl tls
-KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
 LICENSE=as-is
 RDEPEND=>=dev-libs/openssl-0.9.6g sys-apps/ucspi-tcp
 SLOT=0
 SRC_URI=http://www.superscript.com/ucspi-ssl/ucspi-ssl-0.70.tar.gz http://www.suspectclass.com/~sgifford/ucspi-tls/files/ucspi-ssl-0.70-ucspitls-0.1.patch
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fixheadtails	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qmail	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235373888
+_mtime_=1235462057

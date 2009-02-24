@@ -4,11 +4,11 @@ DESCRIPTION=Bluetooth helpers for GNOME
 EAPI=0
 HOMEPAGE=http://www.bluez.org/
 IUSE=gnome debug
-KEYWORDS=~amd64 hppa sparc ~x86
+KEYWORDS=~amd64 hppa ~ppc sparc ~x86
 LICENSE=GPL-2
 PDEPEND=gnome? ( gnome-extra/gnome-vfs-obexftp )
 RDEPEND==net-wireless/bluez-utils-3* gnome? ( gnome-base/nautilus ) =app-mobilephone/obex-data-server-0.3* >=dev-libs/glib-2.0 >=x11-libs/libnotify-0.3.2 >=gnome-base/gconf-2.6 >=dev-libs/dbus-glib-0.60 sys-apps/hal >=x11-libs/gtk+-2.6
 SLOT=0
 SRC_URI=http://bluez.sourceforge.net/download/bluez-gnome-0.28.tar.gz
 _eclasses_=fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235373882
+_mtime_=1235462057

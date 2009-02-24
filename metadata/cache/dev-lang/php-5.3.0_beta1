@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst preinst test unpack
+DEPEND==sys-devel/libtool-1.5.26 libxml? ( dev-libs/libxml2 ) ssl? ( >=dev-libs/openssl-0.9.6 ) sqlite3? ( >=dev-db/sqlite-3.0.0 ) zlib? ( >=sys-libs/zlib-1.0.9 ) bz2? ( app-arch/bzip2 ) curl? ( net-misc/curl ) mysql? ( || ( dev-db/mysql dev-db/mysql-community ) ) =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=A widely-used general-purpose scripting language.
+EAPI=0
+HOMEPAGE=http://qa.php.net/
+IUSE=+cli +cgi -short-tags -ipv6 +libxml -ssl +sqlite3 +zlib +bz2 -curl +dom -exif -ftp +json +mbstring +mcrypt +mysql -pear +spawn-fcgi
+KEYWORDS=~x86 ~amd64
+LICENSE=PHP-3.01
+RDEPEND==sys-devel/libtool-1.5.26 libxml? ( dev-libs/libxml2 ) ssl? ( >=dev-libs/openssl-0.9.6 ) sqlite3? ( >=dev-db/sqlite-3.0.0 ) zlib? ( >=sys-libs/zlib-1.0.9 ) bz2? ( app-arch/bzip2 ) curl? ( net-misc/curl ) mysql? ( || ( dev-db/mysql dev-db/mysql-community ) )
+SLOT=5
+SRC_URI=http://downloads.php.net/johannes/php-5.3.0beta1.tar.bz2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235461229

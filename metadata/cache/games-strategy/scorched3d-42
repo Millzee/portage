@@ -10,4 +10,4 @@ RDEPEND=media-libs/libsdl media-libs/sdl-net media-libs/libpng media-libs/jpeg d
 SLOT=0
 SRC_URI=mirror://sourceforge/scorched3d/Scorched3D-42-src.tar.gz -> Scorched3D-42-src.tar
 _eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	wxwidgets	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235373831
+_mtime_=1235462056
