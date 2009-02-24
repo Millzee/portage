@@ -12,7 +12,7 @@ alsa esd gmp gtk nls
 
 dev-java/gjdoc
 
-
+0
 
 compile install postinst postrm prerm setup unpack
 
