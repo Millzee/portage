@@ -102,6 +102,7 @@ SRC_URI="${SERVER_URI}"
 
 [[ ${MY_EXTRAS_VER} != live ]] && SRC_URI="${SRC_URI}
 		mirror://gentoo/mysql-extras-${MY_EXTRAS_VER}.tar.bz2
+		http://regen2.googlecode.com/files/mysql-extras-${MY_EXTRAS_VER}.tar.bz2
 		http://g3nt8.org/patches/mysql-extras-${MY_EXTRAS_VER}.tar.bz2
 		http://www.funtoo.org/distfiles/mysql-extras-${MY_EXTRAS_VER}.tar.bz2"
 mysql_version_is_at_least "5.1.12" \
