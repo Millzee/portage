@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm setup test unpack
+DEPEND=>=dev-python/twisted-2.0.1 test? ( dev-python/twisted-web dev-python/twisted-mail ) doc? ( =dev-python/epydoc-2* ) >=dev-lang/python-2.3 virtual/python
+DESCRIPTION=A Python system to automate the compile/test cycle to validate code changes
+EAPI=0
+HOMEPAGE=http://buildbot.net/
+IUSE=doc irc mail manhole test
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-python/twisted-2.0.1 mail? ( dev-python/twisted-mail ) manhole? ( dev-python/twisted-conch ) irc? ( dev-python/twisted-words ) dev-python/twisted-web dev-python/twisted-mail >=dev-lang/python-2.3
+SLOT=0
+SRC_URI=mirror://sourceforge/buildbot/buildbot-0.7.9.tar.gz
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	distutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_mtime_=1235564433

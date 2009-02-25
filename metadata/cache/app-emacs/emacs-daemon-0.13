@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst postrm setup unpack
-DEPEND=>=virtual/emacs-23 >=virtual/emacs-21
+DEPEND=>=virtual/emacs-23
 DESCRIPTION=Gentoo support for Emacs running as a server in the background
 EAPI=0
 HOMEPAGE=http://www.gentoo.org/proj/en/lisp/emacs/
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=>=virtual/emacs-23 >=sys-apps/openrc-0.4 >=virtual/emacs-21
+RDEPEND=>=sys-apps/openrc-0.4 >=virtual/emacs-23
 SLOT=0
 SRC_URI=mirror://gentoo/emacs-daemon-0.13.tar.bz2
 _eclasses_=elisp	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235484294
+_mtime_=1235587967

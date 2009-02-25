@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=sys-libs/readline
+DESCRIPTION=A library for changing configuration files
+EAPI=0
+HOMEPAGE=http://augeas.net/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=sys-libs/readline test? ( dev-lang/ruby )
+SLOT=0
+SRC_URI=http://augeas.net/download/augeas-0.4.0.tar.gz
+_mtime_=1235564433

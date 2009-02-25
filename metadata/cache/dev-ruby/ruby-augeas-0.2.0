@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=app-admin/augeas virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
+DESCRIPTION=Ruby bindings for Augeas
+EAPI=0
+HOMEPAGE=http://augeas.net/
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=app-admin/augeas virtual/ruby >=dev-ruby/rubygems-0.9.4 !dev-ruby/rdoc
+SLOT=0
+SRC_URI=http://augeas.net/download/ruby/ruby-augeas-0.2.0.gem
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	gems	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	ruby	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_mtime_=1235564433

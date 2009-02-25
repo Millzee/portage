@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm preinst setup unpack
+DEPEND=>=sys-apps/sed-4 java? ( >=virtual/jdk-1.5 ) virtual/latex-base >=sys-apps/texinfo-4.2-r5 java? ( >=dev-java/java-config-2.1.6 )
+DESCRIPTION=Converts (La)TeX to (X)HTML, XML and OO.org
+EAPI=0
+HOMEPAGE=http://www.cse.ohio-state.edu/~gurari/TeX4ht/ http://www.cse.ohio-state.edu/~gurari/TeX4ht/bugfixes.html
+IUSE=java elibc_FreeBSD java
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+LICENSE=LPPL-1.2
+RDEPEND=virtual/ghostscript media-gfx/imagemagick java? ( >=virtual/jre-1.5 ) virtual/latex-base java? ( >=dev-java/java-config-2.1.6 )
+SLOT=0
+SRC_URI=http://www.cse.ohio-state.edu/~gurari/TeX4ht/fix/tex4ht-1.0.2009_02_23_2217.tar.gz
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-opt-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	latex-package	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235587967
