@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/media-video/griffith-9999
 DEFINED_PHASES=compile install postinst postrm preinst setup unpack
 DEPEND=dev-python/imaging dev-python/pyxml >=dev-python/pygtk-2.6.1 dev-python/pysqlite:2 >=dev-python/reportlab-1.19 >=dev-python/sqlalchemy-0.4.6 csv? ( dev-python/chardet ) spell? ( >=dev-python/gnome-python-extras-2.0 ) doc? ( app-text/docbook2X ) dev-util/subversion net-misc/rsync
 DESCRIPTION=Movie collection manager
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://berlios/griffith/griffith-extra-artwork-0.9.4.tar.gz
 _eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	subversion	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373842
+=======
+dev-python/imaging dev-python/pyxml >=dev-python/pygtk-2.6.1 dev-python/pysqlite:2 >=dev-python/reportlab-1.19 >=dev-python/sqlalchemy-0.4.6 csv? ( dev-python/chardet ) spell? ( >=dev-python/gnome-python-extras-2.0 ) doc? ( app-text/docbook2X ) dev-util/subversion net-misc/rsync
+dev-python/imaging dev-python/pyxml >=dev-python/pygtk-2.6.1 dev-python/pysqlite:2 >=dev-python/reportlab-1.19 >=dev-python/sqlalchemy-0.4.6 csv? ( dev-python/chardet ) spell? ( >=dev-python/gnome-python-extras-2.0 )
+0
+mirror://berlios/griffith/griffith-extra-artwork-0.9.4.tar.gz
+
+http://griffith.berlios.de/
+GPL-2
+Movie collection manager
+
+toolchain-funcs portability python alternatives multilib subversion eutils
+csv doc spell
+
+
+
+1
+
+compile install postinst postrm preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/media-video/griffith-9999

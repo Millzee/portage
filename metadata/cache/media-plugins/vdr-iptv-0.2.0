@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/media-plugins/vdr-iptv-0.2.0
 DEFINED_PHASES=compile config configure install postinst postrm prepare setup unpack
 DEPEND=>=media-video/vdr-1.6.0[iptv] >=media-tv/gentoo-vdr-scripts-0.4.2 media-tv/linuxtv-dvb-headers
 DESCRIPTION=VDR plugin: Add a logical device capable of receiving IPTV
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://www.saunalahti.fi/~rahrenbe/vdr/iptv/files/vdr-iptv-0.2.0.tgz
 _eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	vdr-plugin	/home/Funtoo/portage/eclass	1235462056
 _mtime_=1235462056
+=======
+>=media-video/vdr-1.6.0[iptv] >=media-tv/gentoo-vdr-scripts-0.4.2 media-tv/linuxtv-dvb-headers
+>=media-video/vdr-1.6.0[iptv] >=media-tv/gentoo-vdr-scripts-0.4.2 >=app-admin/eselect-vdr-0.0.2
+0
+http://www.saunalahti.fi/~rahrenbe/vdr/iptv/files/vdr-iptv-0.2.0.tgz
+
+http://www.saunalahti.fi/~rahrenbe/vdr/iptv/
+GPL-2
+VDR plugin: Add a logical device capable of receiving IPTV
+~amd64 ~x86
+toolchain-funcs portability flag-o-matic multilib vdr-plugin base eutils
+
+
+
+
+2
+
+compile config configure install postinst postrm prepare setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/media-plugins/vdr-iptv-0.2.0

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/sci-libs/coot-data-1
 DEFINED_PHASES=install
 DESCRIPTION=Data for the Crystallographic Object-Oriented Toolkit
 EAPI=0
@@ -7,3 +8,27 @@ LICENSE=GPL-2
 SLOT=0
 SRC_URI=http://www.ysbl.york.ac.uk/~emsley/software/extras/reference-structures.tar.gz http://www.ysbl.york.ac.uk/~emsley/software/extras/refmac-lib-data-monomers.tar.gz
 _mtime_=1235403624
+=======
+
+
+0
+http://www.ysbl.york.ac.uk/~emsley/software/extras/reference-structures.tar.gz http://www.ysbl.york.ac.uk/~emsley/software/extras/refmac-lib-data-monomers.tar.gz
+
+http://www.ysbl.york.ac.uk/~emsley/coot/
+GPL-2
+Data for the Crystallographic Object-Oriented Toolkit
+~amd64 ppc x86
+
+
+
+
+
+0
+
+install
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/sci-libs/coot-data-1

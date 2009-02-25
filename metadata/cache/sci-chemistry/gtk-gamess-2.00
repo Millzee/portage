@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/sci-chemistry/gtk-gamess-2.00
 DEFINED_PHASES=install
 DEPEND=>=gnome-base/libglade-2.4 >=x11-libs/gtk+-2.6 dev-libs/libxml2 sci-chemistry/gamess dev-util/pkgconfig
 DESCRIPTION=GTK-GAMESS is a graphical frontend for GAMESS, a General Atomic and Molecular Electronic Structure System
@@ -9,3 +10,27 @@ RDEPEND=>=gnome-base/libglade-2.4 >=x11-libs/gtk+-2.6 dev-libs/libxml2 sci-chemi
 SLOT=0
 SRC_URI=mirror://sourceforge/gtk-gamess/gtk-gamess-2.00.tar.gz
 _mtime_=1235462057
+=======
+>=gnome-base/libglade-2.4 >=x11-libs/gtk+-2.6 dev-libs/libxml2 sci-chemistry/gamess dev-util/pkgconfig
+>=gnome-base/libglade-2.4 >=x11-libs/gtk+-2.6 dev-libs/libxml2 sci-chemistry/gamess
+0
+mirror://sourceforge/gtk-gamess/gtk-gamess-2.00.tar.gz
+
+http://sourceforge.net/projects/gtk-gamess/
+GPL-2
+GTK-GAMESS is a graphical frontend for GAMESS, a General Atomic and Molecular Electronic Structure System
+~ppc ~x86
+
+
+
+
+
+0
+
+install
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/sci-chemistry/gtk-gamess-2.00

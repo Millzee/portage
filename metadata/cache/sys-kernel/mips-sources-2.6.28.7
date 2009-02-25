@@ -1,14 +1,22 @@
-DEFINED_PHASES=compile install postinst preinst setup unpack
-DEPEND=>=sys-devel/gcc-4.1.1 !build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) app-admin/addpatches
-DESCRIPTION=Linux-Mips GIT sources for MIPS-based machines, dated 20090223
-EAPI=0
-HOMEPAGE=http://www.linux-mips.org/ http://www.gentoo.org/
-IUSE=cobalt ip27 ip28 ip30 ip32r10k build
-KEYWORDS=-* ~mips
-LICENSE=GPL-2
-PROVIDE=virtual/linux-sources virtual/alsa
-RDEPEND=>=sys-devel/gcc-4.1.1 !build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) app-admin/addpatches !build? ( >=sys-libs/ncurses-5.2 dev-lang/perl virtual/modutils sys-devel/make )
-SLOT=2.6.28.7
-SRC_URI=mirror://kernel/linux/kernel/v2.6/linux-2.6.28.tar.bz2 mirror://gentoo/mipsgit-2.6.28-20090223.diff.lzma mirror://gentoo/mips-sources-generic_patches-1.34.tar.bz2 mirror://kernel/linux/kernel/v2.6/patch-2.6.28.7.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	kernel	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235484294
+>=sys-devel/gcc-4.1.1 !build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) app-admin/addpatches
+>=sys-devel/gcc-4.1.1 !build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) app-admin/addpatches !build? ( >=sys-libs/ncurses-5.2 dev-lang/perl virtual/modutils sys-devel/make )
+2.6.28.7
+mirror://kernel/linux/kernel/v2.6/linux-2.6.28.tar.bz2 mirror://gentoo/mipsgit-2.6.28-20090223.diff.lzma mirror://gentoo/mips-sources-generic_patches-1.34.tar.bz2 mirror://kernel/linux/kernel/v2.6/patch-2.6.28.7.bz2
+
+http://www.linux-mips.org/ http://www.gentoo.org/
+GPL-2
+Linux-Mips GIT sources for MIPS-based machines, dated 20090223
+-* ~mips
+kernel toolchain-funcs portability versionator multilib eutils
+cobalt ip27 ip28 ip30 ip32r10k build
+
+
+virtual/linux-sources virtual/alsa
+0
+
+compile install postinst preinst setup unpack
+
+
+
+
+

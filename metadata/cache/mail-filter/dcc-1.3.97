@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/mail-filter/dcc-1.3.97
 DEFINED_PHASES=compile install unpack
 DEPEND=sys-apps/sed sys-devel/gcc dev-lang/perl rrdtool? ( net-analyzer/rrdtool ) || ( net-misc/wget www-client/fetch net-misc/curl net-ftp/ftp ) milter? ( mail-filter/libmilter ) virtual/libc
 DESCRIPTION=Distributed Checksum Clearinghouse
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=http://www.rhyolite.com/anti-spam/dcc/source/old/dcc-1.3.97.tar.Z
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235484293
+=======
+sys-apps/sed sys-devel/gcc dev-lang/perl rrdtool? ( net-analyzer/rrdtool ) || ( net-misc/wget www-client/fetch net-misc/curl net-ftp/ftp ) milter? ( mail-filter/libmilter ) virtual/libc
+dev-lang/perl rrdtool? ( net-analyzer/rrdtool ) || ( net-misc/wget www-client/fetch net-misc/curl net-ftp/ftp ) milter? ( mail-filter/libmilter ) virtual/libc
+0
+http://www.rhyolite.com/anti-spam/dcc/source/old/dcc-1.3.97.tar.Z
+
+http://www.rhyolite.com/anti-spam/dcc/
+DCC
+Distributed Checksum Clearinghouse
+~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+toolchain-funcs multilib portability eutils flag-o-matic
+ipv6 rrdtool milter
+
+
+
+0
+
+compile install unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/mail-filter/dcc-1.3.97

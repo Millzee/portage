@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/sci-astronomy/ast-4.6.2-r2
 DEFINED_PHASES=configure install prepare
 DEPEND=sci-libs/pgplot
 DESCRIPTION=Library for handling World Coordinate Systems in astronomy
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=http://www.starlink.ac.uk/~dsb/ast/ast-4.6-2.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235462057
+=======
+sci-libs/pgplot
+sci-libs/pgplot
+0
+http://www.starlink.ac.uk/~dsb/ast/ast-4.6-2.tar.gz
+
+http://www.starlink.ac.uk/~dsb/ast/ast.html
+GPL-2
+Library for handling World Coordinate Systems in astronomy
+~amd64 ~ppc ~x86
+toolchain-funcs versionator multilib portability eutils
+doc
+
+
+
+2
+
+configure install prepare
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/sci-astronomy/ast-4.6.2-r2

@@ -72,6 +72,7 @@ src_unpack() {
 	else
 		unpack ${A}
 	fi
+	cd "${S}"
 
 	# Avoid help2man
 	sed -i \
@@ -79,12 +80,7 @@ src_unpack() {
 		xbmc/lib/libcdio/libcdio/src/Makefile.in
 
 	# Tweak autotool timestamps to avoid regeneration
-	local dir
-	for dir in $(find "${S}" -name configure) ; do
-		cd "${dir%configure}"
-		find . -type f -print0 | xargs -0 touch -r configure
-	done
-	cd "${S}"
+	find . -type f -print0 | xargs -0 touch -r configure
 
 	# Fix XBMC's final version string showing as "exported"
 	# instead of the SVN revision number.  Also cleanup flags.

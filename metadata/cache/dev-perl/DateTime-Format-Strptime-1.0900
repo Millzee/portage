@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-perl/DateTime-Format-Strptime-1.0900
 DEFINED_PHASES=compile install postinst postrm preinst prerm setup test unpack
 DEPEND=dev-perl/DateTime dev-perl/DateTime-Locale dev-perl/DateTime-TimeZone >=dev-perl/Params-Validate-0.91 dev-lang/perl
 DESCRIPTION=Parse and Format DateTimes using Strptime
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RI/RICKM//DateTime-Format-Strptime-1.0900.tgz
 _eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235403624
+=======
+dev-perl/DateTime dev-perl/DateTime-Locale dev-perl/DateTime-TimeZone >=dev-perl/Params-Validate-0.91 dev-lang/perl
+dev-perl/DateTime dev-perl/DateTime-Locale dev-perl/DateTime-TimeZone >=dev-perl/Params-Validate-0.91 dev-lang/perl
+0
+mirror://cpan/authors/id/R/RI/RICKM//DateTime-Format-Strptime-1.0900.tgz
+
+http://search.cpan.org/search?query=DateTime-Format-Strptime&mode=dist
+|| ( Artistic GPL-2 )
+Parse and Format DateTimes using Strptime
+~amd64 ~x86
+toolchain-funcs portability multilib base eutils perl-module
+
+
+
+
+0
+
+compile install postinst postrm preinst prerm setup test unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-perl/DateTime-Format-Strptime-1.0900

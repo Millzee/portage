@@ -2,6 +2,13 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 
   24 Feb 2009; Mike Frysinger <vapier@gentoo.org>
+  +files/bash-4.0-pcomplete-save-parser-state.patch, bash-4.0.ebuild:
+  Add another fix from upstream.
+
+  24 Feb 2009; Mike Frysinger <vapier@gentoo.org> bash-4.0.ebuild:
+  Drop BSD patch as it causes bad behavior on Linux #259860.
+
+  24 Feb 2009; Mike Frysinger <vapier@gentoo.org>
   +files/bash-4.0-exit-checkjobs.patch,
   +files/bash-4.0-negative-return.patch,
   +files/bash-4.0-save-current-token.patch, bash-4.0.ebuild:

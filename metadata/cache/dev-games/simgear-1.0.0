@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-games/simgear-1.0.0
 DEFINED_PHASES=compile install unpack
 DEPEND=>=media-libs/plib-1.8.4 media-libs/openal media-libs/freealut
 DESCRIPTION=Development library for simulation games
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=mirror://simgear/Source/SimGear-1.0.0.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373821
+=======
+>=media-libs/plib-1.8.4 media-libs/openal media-libs/freealut
+>=media-libs/plib-1.8.4 media-libs/openal media-libs/freealut
+0
+mirror://simgear/Source/SimGear-1.0.0.tar.gz
+
+http://www.simgear.org/
+GPL-2
+Development library for simulation games
+amd64 ppc ~sparc x86
+toolchain-funcs multilib portability eutils
+
+
+
+
+0
+
+compile install unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-games/simgear-1.0.0
