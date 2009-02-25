@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=dev-lisp/cl-split-sequence dev-lisp/cl-araneida dev-lisp/cl-net-telent-date dev-lisp/cl-md5 dev-lisp/cl-html-encode dev-lisp/cl-ppcre dev-lisp/cl-trivial-http dev-lisp/cl-trivial-configuration-parser
 SLOT=0
 SRC_URI=mirror://gentoo/cl-blog-20050707.tar.gz
-_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235373829	common-lisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235373829	common-lisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373824

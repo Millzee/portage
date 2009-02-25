@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=x11-libs/fltk-1.1.2:1.1 >=media-libs/alsa-lib-0.9.0
 SLOT=0
 SRC_URI=http://personal.telefonica.terra.es/web/soudfontcombi/gmorgan-0.23.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373841

@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=emacs? ( virtual/emacs ) java? ( virtual/jdk )
 SLOT=0
 SRC_URI=ftp://ftp-sop.inria.fr/mimosa/fp/Bigloo/bigloo3.0b-2.tar.gz
-_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373828

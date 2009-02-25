@@ -1,22 +1,12 @@
->=virtual/emacs-23 >=virtual/emacs-21
->=virtual/emacs-23 >=sys-apps/openrc-0.4 >=virtual/emacs-21
-0
-mirror://gentoo/emacs-daemon-0.13.tar.bz2
-
-http://www.gentoo.org/proj/en/lisp/emacs/
-GPL-2
-Gentoo support for Emacs running as a server in the background
-~amd64 ~x86
-versionator elisp elisp-common
-
-
-
-
-0
-
-compile install postinst postrm setup unpack
-
-
-
-
-
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=>=virtual/emacs-23 >=virtual/emacs-21
+DESCRIPTION=Gentoo support for Emacs running as a server in the background
+EAPI=0
+HOMEPAGE=http://www.gentoo.org/proj/en/lisp/emacs/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=virtual/emacs-23 >=sys-apps/openrc-0.4 >=virtual/emacs-21
+SLOT=0
+SRC_URI=mirror://gentoo/emacs-daemon-0.13.tar.bz2
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235484294

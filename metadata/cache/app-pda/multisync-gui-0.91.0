@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=<=app-pda/libopensync-0.35 evo? ( >=app-pda/libopensync-plugin-evolution2-0.20 ) >=gnome-base/libgnomeui-2 >=x11-libs/gtk+-2.6
 SLOT=0
 SRC_URI=http://dev.gentooexperimental.org/~peper/distfiles/multisync-gui-0.91.0.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373819

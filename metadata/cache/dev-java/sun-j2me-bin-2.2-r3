@@ -10,5 +10,5 @@ RDEPEND=dev-java/sun-jaf dev-java/sun-javamail dev-java/xsdlib >=virtual/jdk-1.4
 RESTRICT=fetch
 SLOT=0
 SRC_URI=j2me_wireless_toolkit-2_2-linux-i386.bin j2me_wireless_toolkit-2_2-update_2-linux.zip
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373823

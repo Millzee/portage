@@ -10,5 +10,5 @@ PROVIDE=virtual/linux-sources virtual/alsa
 RDEPEND=>=sys-devel/gcc-4.1.1 !build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 ) app-admin/addpatches !build? ( >=sys-libs/ncurses-5.2 dev-lang/perl virtual/modutils sys-devel/make )
 SLOT=2.6.20.18
 SRC_URI=mirror://kernel/linux/kernel/v2.6/linux-2.6.20.tar.bz2 mirror://gentoo/mipsgit-2.6.20-20070902.diff.bz2 mirror://gentoo/mips-sources-generic_patches-1.30.tar.bz2 mirror://kernel/linux/kernel/v2.6/patch-2.6.20.18.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	kernel	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	kernel	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373891

@@ -10,5 +10,5 @@ PDEPEND=x11-themes/gnome-icon-theme
 RDEPEND=>=dev-libs/libxml2-2.4.20 >=gnome-base/libgnome-2.13.7 >=gnome-base/libgnomecanvas-2 >=gnome-base/libbonoboui-2.13.1 >=gnome-base/gconf-2 >=x11-libs/pango-1.1.2 >=dev-libs/glib-2.16 >=x11-libs/gtk+-2.14 >=gnome-base/gnome-vfs-2.7.3 >=gnome-base/libglade-2 >=gnome-base/gnome-keyring-0.4 >=dev-libs/popt-1.5
 SLOT=0
 SRC_URI=mirror://gnome/sources/libgnomeui/2.24/libgnomeui-2.24.0.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373832

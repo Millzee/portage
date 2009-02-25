@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=ncurses? ( sys-libs/ncurses ) qt3? ( =x11-libs/qt-3* )
 SLOT=0
 SRC_URI=ftp://metalab.unc.edu/pub/Linux/apps/ham/morse/unixcw-2.3.tgz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373840

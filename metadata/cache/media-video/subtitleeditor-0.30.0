@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=x11-libs/gtk+-2.12 >=dev-cpp/gtkmm-2.12 >=dev-cpp/glibmm-2.16.3 >=dev-cpp/libglademm-2.4 >=dev-cpp/libxmlpp-2.10 >=app-text/enchant-1.1.0 opengl? ( >=dev-cpp/gtkglextmm-1.2 ) >=media-libs/gstreamer-0.10 >=media-libs/gst-plugins-good-0.10 >=media-plugins/gst-plugins-meta-0.10-r2:0.10 app-text/iso-codes
 SLOT=0
 SRC_URI=http://download.gna.org/subtitleeditor/0.30/subtitleeditor-0.30.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373842

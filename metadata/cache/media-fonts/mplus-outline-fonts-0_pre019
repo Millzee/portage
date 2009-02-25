@@ -9,5 +9,5 @@ LICENSE=mplus-fonts grass-ipafonts
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=mirror://sourceforge.jp/mplus-fonts/6650/mplus-TESTFLIGHT-019.tar.gz mirror://sourceforge.jp/opfc/13897/opfc-ModuleHP-1.1.1_withIPAFonts.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	font	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	font	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373838

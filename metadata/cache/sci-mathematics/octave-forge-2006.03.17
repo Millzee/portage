@@ -9,5 +9,5 @@ LICENSE=as-is
 RDEPEND==sci-mathematics/octave-2.1.7* sci-libs/netcdf media-libs/jpeg media-libs/libpng sci-libs/gsl dev-libs/libpcre sys-libs/readline sys-apps/texinfo sys-libs/ncurses virtual/lapack virtual/blas X? ( x11-libs/libX11 ) !amd64? ( ginac? ( sci-mathematics/ginac ) ) qhull? ( >=media-libs/qhull-3.1-r1 )
 SLOT=0
 SRC_URI=mirror://sourceforge/octave/octave-forge-2006.03.17.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373887

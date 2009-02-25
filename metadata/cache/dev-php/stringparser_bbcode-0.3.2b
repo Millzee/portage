@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=dev-lang/php
 SLOT=0
 SRC_URI=http://christian-seiler.de/projekte/php/bbcode/download/stringparser_bbcode-0.3.2b.tar.gz
-_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	php-lib-r1	/home/Funtoo/portage/eclass	1235373829	phpconfutils	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=depend.php	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	php-lib-r1	/home/Funtoo/portage/eclass	1235373829	phpconfutils	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373827

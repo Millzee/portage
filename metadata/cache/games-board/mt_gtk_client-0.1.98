@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND==dev-libs/glib-2* dev-libs/libxml2 dev-games/libmaitretarot dev-games/libmt_client gnome-base/libgnomeui =x11-libs/gtk+-2* dev-games/cardpics
 SLOT=0
 SRC_URI=http://savannah.nongnu.org/download/maitretarot/mt_gtk_client.pkg/0.1.98/mt_gtk_client-0.1.98.tar.bz2
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830

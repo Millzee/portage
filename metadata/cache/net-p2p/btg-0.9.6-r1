@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/boost dev-libs/expat dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/libtasn1 dev-util/dialog net-libs/gnutls =net-libs/rb_libtorrent-0.12* gtk? ( >=dev-cpp/gtkmm-2.4 x11-libs/pango ) webinterface? ( =dev-lang/php-5* )
 SLOT=0
 SRC_URI=mirror://berlios/btg/btg-0.9.6-p1.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373880

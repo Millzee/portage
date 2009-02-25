@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=dev-games/kyra media-libs/sdl-mixer virtual/opengl media-libs/sdl-net media-libs/libpng
 SLOT=0
 SRC_URI=mirror://sourceforge/gemhun/GemHunters-src-20040529.tar.gz mirror://sourceforge/gemhun/fairylands-bin-20040529.tar.gz mirror://sourceforge/gemhun/stars_in_the_night-bin-20040529.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373831

@@ -8,5 +8,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=dev-libs/libxml2-2.5.8
 SLOT=0
 SRC_URI=mirror://gnome/sources/libxml++/1.0/libxml++-1.0.4.tar.bz2
-_eclasses_=libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373820

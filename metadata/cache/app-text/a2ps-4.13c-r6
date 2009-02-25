@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/ghostscript userland_GNU? ( || ( >=sys-apps/coreutils-6.10-r1 sys-apps/mktemp ) ) userland_BSD? ( sys-freebsd/freebsd-ubin ) >=app-text/psutils-1.17 emacs? ( virtual/emacs ) latex? ( virtual/latex-base ) nls? ( virtual/libintl )
 SLOT=0
 SRC_URI=mirror://gentoo/a2ps-4.13c.tar.gz cjk? ( mirror://gentoo/a2ps-4.13c-ja_nls.patch.gz )
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373819

@@ -7,5 +7,5 @@ LICENSE=GPL-2
 RDEPEND=sys-apps/xinetd net-misc/rsync net-misc/wget
 SLOT=0
 SRC_URI=mirror://sourceforge/apt-proxy/apt-proxy_1.3.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373874

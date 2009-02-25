@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/python >=dev-python/egenix-mx-base-2.0.3 >=virtual/postgresql-base-7.1.3
 SLOT=0
 SRC_URI=http://initd.org/pub/software/psycopg/psycopg-1.1.21.tar.gz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373827

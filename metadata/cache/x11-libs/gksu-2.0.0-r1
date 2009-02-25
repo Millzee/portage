@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=x11-libs/libgksu-2 >=x11-libs/gtk+-2.4.0 >=gnome-base/gconf-2.0 gnome? ( >=gnome-base/gnome-vfs-2 >=gnome-base/nautilus-2 x11-terms/gnome-terminal )
 SLOT=0
 SRC_URI=http://people.debian.org/~kov/gksu/gksu-2.0.0.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	fixheadtails	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	fixheadtails	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373893

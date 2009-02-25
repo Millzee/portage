@@ -9,5 +9,5 @@ LICENSE=Moria
 RDEPEND=>=sys-libs/ncurses-5 sys-libs/zlib tk? ( dev-lang/tcl dev-lang/tk ) gtk? ( =x11-libs/gtk+-1* ) x11-libs/libXaw
 SLOT=0
 SRC_URI=ftp://clockwork.dementia.org/angband/Variant/ZAngband/zangband-2.7.4b.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373831

@@ -9,5 +9,5 @@ LICENSE=BSD LGPL-2.1
 RDEPEND=>=dev-libs/expat-1.95.8 >=dev-libs/uriparser-0.7.2
 SLOT=0
 SRC_URI=mirror://sourceforge/libspiff/libspiff-1.0.0.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373839

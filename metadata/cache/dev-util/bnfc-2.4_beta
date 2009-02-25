@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/libc
 SLOT=0
 SRC_URI=http://www.cs.chalmers.se/Cs/Research/Language-technology/BNFC/download/BNFC-2.4b.tgz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	ghc-package	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	ghc-package	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373829

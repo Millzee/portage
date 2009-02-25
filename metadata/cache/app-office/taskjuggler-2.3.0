@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=x11-libs/qt:3 kde? ( kde-base/kdelibs:3.5 || ( kde-base/libkdepim:3.5 kde-base/kdepim:3.5 ) || ( kde-base/libkcal:3.5 kde-base/kdepim:3.5 ) ) app-text/openjade dev-libs/libxslt >=dev-perl/Class-MethodMaker-2.02 dev-perl/Date-Calc dev-perl/PostScript-Simple dev-perl/XML-Parser net-print/poster
 SLOT=0
 SRC_URI=http://www.taskjuggler.org/download/taskjuggler-2.3.0.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt3	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt3	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373819

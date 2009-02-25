@@ -10,5 +10,5 @@ RDEPEND=games-fps/enemy-territory
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=http://www.sonnensturm.net/download/etf_1.6-english-2.run http://www.playlinux.net/files/native/etf_1.6-english-2.run http://liflg.httpdnet.com/files/native/etf_1.6-english-2.run http://www.sonnensturm.net/download/etf_1.6-english-2.run
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	games-mods	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	games-mods	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830

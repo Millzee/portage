@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=libnotify? ( >=dev-python/dbus-python-0.71 x11-libs/libnotify ) >=rox-base/rox-2.1.0 >=rox-base/rox-lib-1.9.8
 SLOT=0
 SRC_URI=mirror://sourceforge/rox/memo-2.0.tar.bz2
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	rox	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	rox	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373884

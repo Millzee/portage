@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-libs/bglibs-1.104 app-crypt/nistp224 >=dev-libs/libtomcrypt-1.03
 SLOT=0
 SRC_URI=http://untroubled.org/srlog2/archive/srlog2-0.85.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373815

@@ -8,5 +8,5 @@ LICENSE=Artistic
 RDEPEND=>=dev-lang/perl-5.8.4 virtual/perl-Memoize dev-perl/Tie-Array-Sorted dev-perl/Encode-compat dev-perl/File-Slurp dev-perl/Class-Virtual dev-perl/Class-Accessor virtual/perl-Time-Piece >=virtual/perl-Scalar-List-Utils-1.13 dev-perl/Lingua-Stem dev-perl/Bit-Vector-Minimal dev-perl/IO-stringy
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/T/TM/TMTM/Plucene-1.24.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373826

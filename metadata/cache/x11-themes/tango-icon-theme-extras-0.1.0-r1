@@ -10,5 +10,5 @@ RDEPEND=>=x11-misc/icon-naming-utils-0.6.0 media-gfx/imagemagick >=gnome-base/li
 RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=http://tango.freedesktop.org/releases/tango-icon-theme-extras-0.1.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373895

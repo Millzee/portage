@@ -9,5 +9,5 @@ LICENSE=XMAME
 RDEPEND=sys-libs/zlib alsa? ( media-libs/alsa-lib ) arts? ( kde-base/arts ) dga? ( x11-libs/libXxf86dga x11-libs/libXxf86vm ) esd? ( >=media-sound/esound-0.2.29 ) expat? ( dev-libs/expat ) ggi? ( media-libs/libggi ) lirc? ( app-misc/lirc ) opengl? ( virtual/opengl virtual/glu ) sdl? ( >=media-libs/libsdl-1.2.0 ) svga? ( media-libs/svgalib ) xinerama? ( x11-libs/libXinerama ) xv? ( x11-libs/libXv ) X? ( x11-libs/libXext )
 SLOT=0
 SRC_URI=http://x.mame.net/download/xmame-0.106.tar.bz2
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830

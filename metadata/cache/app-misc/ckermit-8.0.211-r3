@@ -8,5 +8,5 @@ LICENSE=Kermit
 RDEPEND=>=sys-libs/ncurses-5.2 net-dialup/lrzsz
 SLOT=0
 SRC_URI=ftp://kermit.columbia.edu/kermit/archives/cku211.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373818

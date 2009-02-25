@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/ruby dev-ruby/ruby-romkan dev-ruby/ruby-bsearch app-dicts/migemo-dict emacs? ( virtual/emacs app-emacs/apel )
 SLOT=0
 SRC_URI=http://0xcc.net/migemo/stable/migemo-0.40.tar.gz
-_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373820

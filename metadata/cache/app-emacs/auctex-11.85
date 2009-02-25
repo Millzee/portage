@@ -9,5 +9,5 @@ LICENSE=GPL-3 FDL-1.2
 RDEPEND=virtual/latex-base preview-latex? ( !dev-tex/preview-latex app-text/dvipng virtual/ghostscript ) >=virtual/emacs-21 virtual/latex-base
 SLOT=0
 SRC_URI=mirror://gnu/auctex/auctex-11.85.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	elisp	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	latex-package	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	elisp	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	latex-package	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373817

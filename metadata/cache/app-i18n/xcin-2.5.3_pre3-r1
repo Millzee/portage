@@ -9,5 +9,5 @@ LICENSE=XCIN
 RDEPEND=dev-libs/libchewing nls? ( sys-devel/gettext ) >=app-i18n/libtabe-0.2.5 unicode? ( media-fonts/hkscs-ming )
 SLOT=0
 SRC_URI=http://firefly.idv.tw/setfont-xft/Fedora/Core_1/SRPMS/xcin-2.5.3.pre3-20.10.firefly.src.rpm
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	rpm	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	rpm	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373818

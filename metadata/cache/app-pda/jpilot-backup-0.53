@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=x11-libs/gtk+-2.6.10-r1 >=app-pda/pilot-link-0.12.2 >=app-pda/jpilot-0.99.9 sys-libs/gdbm
 SLOT=0
 SRC_URI=http://jasonday.home.att.net/code/backup/jpilot-backup-0.53.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373819

@@ -9,5 +9,5 @@ LICENSE=public-domain
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://www12.ocn.ne.jp/~imamura/jiskan16-2004-1.bdf.gz http://www12.ocn.ne.jp/~imamura/jiskan16-2000-1.bdf.gz http://www12.ocn.ne.jp/~imamura/jiskan16-2000-2.bdf.gz http://www12.ocn.ne.jp/~imamura/K14-2004-1.bdf.gz http://www12.ocn.ne.jp/~imamura/K14-2000-1.bdf.gz http://www12.ocn.ne.jp/~imamura/K14-2000-2.bdf.gz http://www12.ocn.ne.jp/~imamura/K12-1.bdf.gz http://www12.ocn.ne.jp/~imamura/K12-2.bdf.gz http://www12.ocn.ne.jp/~imamura/A14.bdf.gz http://www12.ocn.ne.jp/~imamura/A12.bdf.gz http://gitatsu.hp.infoseek.co.jp/bdf/jiskan24-2000-1.bdf.gz http://gitatsu.hp.infoseek.co.jp/bdf/jiskan24-2000-2.bdf.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	font	/home/Funtoo/portage/eclass	1235373829	font-ebdftopcf	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	font	/home/Funtoo/portage/eclass	1235373829	font-ebdftopcf	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373838

@@ -9,5 +9,5 @@ LICENSE=Artistic
 RDEPEND=>=virtual/perl-Class-ISA-0.20 >=dev-perl/Email-Simple-1.91 >=virtual/perl-Module-Pluggable-1.5 virtual/perl-Scalar-List-Utils dev-lang/perl
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS//Email-Abstract-3.001.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373825

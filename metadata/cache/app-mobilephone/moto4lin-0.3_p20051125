@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/libusb =x11-libs/qt-3*
 SLOT=0
 SRC_URI=mirror://gentoo/moto4lin-0.3_p20051125.tar.bz2
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373818

@@ -8,5 +8,5 @@ LICENSE=BSD
 RDEPEND=>=sys-libs/ncurses-5.2 !net-misc/telnet-bsd
 SLOT=0
 SRC_URI=ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/netkit-telnet-0.17.tar.gz mirror://debian/pool/main/n/netkit-telnet/netkit-telnet_0.17-28.diff.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373879

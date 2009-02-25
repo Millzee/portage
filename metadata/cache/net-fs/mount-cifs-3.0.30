@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=!<net-fs/samba-3.0.25
 SLOT=0
 SRC_URI=mirror://gentoo/mount-cifs-3.0.30.tar.bz2
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373872

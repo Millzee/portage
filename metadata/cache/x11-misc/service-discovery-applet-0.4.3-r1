@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-lang/python-2.4 dev-python/libgnome-python dev-python/gconf-python dev-python/gnome-applets-python >=dev-python/pygtk-2.0 gnome-base/gconf dev-python/dbus-python net-dns/avahi
 SLOT=0
 SRC_URI=http://0pointer.de/~sebest/service-discovery-applet-0.4.3.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373894

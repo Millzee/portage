@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=sys-apps/hal >=net-libs/gnet-2.0.0 !app-pda/synce-dccm !app-pda/synce-vdccm !app-pda/synce-odccm =app-pda/synce-libsynce-0.13* =app-pda/synce-librapi2-0.13* =app-pda/synce-librra-0.13* =app-pda/synce-sync-engine-0.13* app-pda/synce-serial net-misc/dhcp
 SLOT=0
 SRC_URI=mirror://sourceforge/synce/synce-hal-0.13.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373819

@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=kernel_linux? ( >=sys-fs/e2fsprogs-1.19 ) ncurses? ( >=sys-libs/ncurses-5.2-r5 ) =dev-libs/glib-2* gpm? ( >=sys-libs/gpm-1.19.3 ) slang? ( >=sys-libs/slang-1.4 ) samba? ( >=net-fs/samba-3.0.0 ) X? ( x11-libs/libX11 x11-libs/libICE x11-libs/libXau x11-libs/libXdmcp x11-libs/libSM ) x86? ( 7zip? ( >=app-arch/p7zip-4.16 ) ) ppc? ( 7zip? ( >=app-arch/p7zip-4.16 ) ) amd64? ( 7zip? ( >=app-arch/p7zip-4.16 ) )
 SLOT=0
 SRC_URI=http://www.ibiblio.org/pub/Linux/utils/file/managers/mc/mc-4.6.1.tar.gz mirror://gentoo/mc-4.6.1-utf8-r2.patch.bz2 7zip? ( http://sgh-punk.narod.ru/files/u7z/u7z-4.29.tar.bz2 )
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373818

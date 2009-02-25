@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=sys-libs/ncurses aac? ( media-libs/faad2 ) alsa? ( >=media-libs/alsa-lib-1.0.11 ) ao? ( media-libs/libao ) arts? ( kde-base/arts ) flac? ( media-libs/flac ) mad? ( >=media-libs/libmad-0.14 ) mikmod? ( media-libs/libmikmod ) modplug? ( >=media-libs/libmodplug-0.7 ) mp3? ( >=media-libs/libmad-0.14 ) mp4? ( media-libs/libmp4v2 media-libs/faad2 ) musepack? ( >=media-libs/libmpcdec-1.2 ) vorbis? ( >=media-libs/libvorbis-1.0 ) wavpack? ( media-sound/wavpack ) wma? ( media-video/ffmpeg ) zsh-completion? ( app-shells/zsh ) pidgin? ( net-im/pidgin dev-python/dbus-python )
 SLOT=0
 SRC_URI=http://mirror.greaterscope.net/cmus/cmus-2.2.0.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373841

@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=x11-wm/windowmaker-0.70.0 truetype? ( x11-libs/libXft ) x11-libs/libXt x11-libs/libXpm pam? ( virtual/pam ) pam? ( >=sys-auth/pambase-20080219.1 )
 SLOT=0
 SRC_URI=http://voins.program.ru/wdm/wdm-1.28.tar.bz2
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	pam	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	pam	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373894

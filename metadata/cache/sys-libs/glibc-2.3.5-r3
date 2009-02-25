@@ -11,5 +11,5 @@ RDEPEND=nls? ( sys-devel/gettext ) selinux? ( !build? ( sys-libs/libselinux ) ) 
 RESTRICT=strip
 SLOT=2.2
 SRC_URI=mirror://gnu/glibc/glibc-2.3.5.tar.bz2 mirror://gnu/glibc/glibc-linuxthreads-2.3.5.tar.bz2 mirror://gnu/glibc/glibc-libidn-2.3.5.tar.bz2 mirror://gentoo/glibc-2.3.5-patches-1.16.tar.bz2 mirror://gentoo/glibc-manpages-2.3.5.tar.bz2 mirror://gentoo/glibc-infopages-2.3.5.tar.bz2 mirror://gentoo/glibc-fedora-20041219T2331.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	gnuconfig	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	gnuconfig	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373891

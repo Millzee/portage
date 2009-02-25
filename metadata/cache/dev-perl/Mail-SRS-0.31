@@ -9,5 +9,5 @@ LICENSE=Artistic GPL-2
 RDEPEND=>=dev-perl/Digest-HMAC-1.01-r1 >=dev-perl/MLDBM-2.01 >=virtual/perl-DB_File-1.807 >=virtual/perl-Digest-MD5-2.33 >=virtual/perl-Storable-2.04-r1 test? ( >=dev-perl/Test-Pod-1.00 >=dev-perl/Test-Pod-Coverage-0.02 )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/S/SH/SHEVEK/Mail-SRS-0.31.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373826

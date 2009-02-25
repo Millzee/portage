@@ -8,5 +8,5 @@ LICENSE=Artistic
 RDEPEND=>=dev-perl/libwww-perl-1.35 >=dev-perl/XML-LibXML-1.60 >=dev-perl/XML-DTDParser-2.00 virtual/perl-Test-Simple dev-perl/Test-Pod dev-perl/Test-Pod-Coverage dev-lang/perl
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/A/AM/AMBS/XML/XML-DT-0.51.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373826

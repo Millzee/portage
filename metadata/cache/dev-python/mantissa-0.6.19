@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=>=dev-lang/python-2.4 >=dev-python/twisted-2.4 dev-python/twisted-mail >=dev-python/nevow-0.9.5 >=dev-python/axiom-0.5.7 >=dev-python/vertex-0.2 >=dev-python/pytz-2005m
 SLOT=0
 SRC_URI=mirror://gentoo/Mantissa-0.6.19.tar.gz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	distutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	distutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373827

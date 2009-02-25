@@ -9,5 +9,5 @@ LICENSE=Mozart
 RDEPEND=dev-lang/perl dev-libs/gmp sys-libs/zlib emacs? ( virtual/emacs ) gdbm? ( sys-libs/gdbm ) tcl? ( tk? ( dev-lang/tk dev-lang/tcl ) )
 SLOT=0
 SRC_URI=http://www.mozart-oz.org/download/mozart-ftp/store/1.4.0-2008-07-02-tar/mozart-1.4.0.20080704-src.tar.gz doc? ( http://www.mozart-oz.org/download/mozart-ftp/store/1.4.0-2008-07-02-tar/mozart-1.4.0.20080704-doc.tar.gz )
-_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373823

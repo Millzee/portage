@@ -8,5 +8,5 @@ LICENSE=CPL-1.0
 RDEPEND=>=dev-util/eclipse-sdk-3.0.0 dev-lang/perl
 SLOT=0
 SRC_URI=http://e-p-i-c.sourceforge.net/downloads/org.epic.updatesite_0.3.0_20040711.zip
-_eclasses_=eclipse-ext	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eclipse-ext	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373829

@@ -8,5 +8,5 @@ LICENSE=as-is
 RDEPEND=|| ( games-fps/unreal-tournament games-fps/unreal-tournament-goty )
 SLOT=0
 SRC_URI=http://fileserver.talkware.net/ut/bonuspacks/UTBonusPack4.zip http://www.dices.de/dices/files/UTBonusPack4.zip
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830

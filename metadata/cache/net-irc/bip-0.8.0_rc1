@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/net-irc/bip-0.8.0_rc1
 DEFINED_PHASES=compile install postinst
 DEPEND=ssl? ( dev-libs/openssl )
 DESCRIPTION=Multiuser IRC proxy with ssl support
@@ -11,27 +10,3 @@ RDEPEND=ssl? ( dev-libs/openssl ) vim-syntax? ( || ( app-editors/vim app-editors
 SLOT=0
 SRC_URI=http://bip.t1r.net/downloads/bip-0.8.0-rc1.tar.gz
 _mtime_=1235462056
-=======
-ssl? ( dev-libs/openssl )
-ssl? ( dev-libs/openssl ) vim-syntax? ( || ( app-editors/vim app-editors/gvim ) ) oidentd? ( >=net-misc/oidentd-2.0 )
-0
-http://bip.t1r.net/downloads/bip-0.8.0-rc1.tar.gz
-
-http://bip.t1r.net/
-GPL-2
-Multiuser IRC proxy with ssl support
-~amd64 ~x86
-
-ssl vim-syntax oidentd
-
-
-
-0
-
-compile install postinst
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/net-irc/bip-0.8.0_rc1

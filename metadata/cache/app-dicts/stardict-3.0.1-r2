@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/app-dicts/stardict-3.0.1-r2
 DEFINED_PHASES=compile install postinst postrm preinst setup unpack
 DEPEND=gnome? ( >=gnome-base/libbonobo-2.2.0 >=gnome-base/libgnome-2.2.0 >=gnome-base/libgnomeui-2.2.0 >=gnome-base/gconf-2 >=gnome-base/orbit-2.6 app-text/scrollkeeper ) spell? ( app-text/enchant ) gucharmap? ( >=gnome-extra/gucharmap-1.4.0 ) >=sys-libs/zlib-1.1.4 >=x11-libs/gtk+-2.12 >=dev-util/intltool-0.22 dev-util/pkgconfig >=sys-apps/sed-4 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
 DESCRIPTION=A GNOME2 international dictionary supporting fuzzy and glob style matching
@@ -7,33 +6,9 @@ HOMEPAGE=http://stardict.sourceforge.net/
 IUSE=festival espeak gnome gucharmap qqwry pronounce spell debug
 KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
 LICENSE=GPL-2
-RDEPEND=gnome? ( >=gnome-base/libbonobo-2.2.0 >=gnome-base/libgnome-2.2.0 >=gnome-base/libgnomeui-2.2.0 >=gnome-base/gconf-2 >=gnome-base/orbit-2.6 app-text/scrollkeeper ) spell? ( app-text/enchant ) gucharmap? ( >=gnome-extra/gucharmap-1.4.0 ) >=sys-libs/zlib-1.1.4 >=x11-libs/gtk+-2.12 espeak? ( >=app-accessibility/espeak-1.29 ) festival? ( =app-accessibility/festival-1.96_beta )
+RDEPEND=gnome? ( >=gnome-base/libbonobo-2.2.0 >=gnome-base/libgnome-2.2.0 >=gnome-base/libgnomeui-2.2.0 >=gnome-base/gconf-2 >=gnome-base/orbit-2.6 app-text/scrollkeeper ) spell? ( app-text/enchant ) gucharmap? ( >=gnome-extra/gucharmap-1.4.0 ) >=sys-libs/zlib-1.1.4 >=x11-libs/gtk+-2.12 espeak? ( >=app-accessibility/espeak-1.29 ) festival? ( ~app-accessibility/festival-1.96_beta )
 RESTRICT=test
 SLOT=0
 SRC_URI=mirror://sourceforge/stardict/stardict-3.0.1.tar.bz2 qqwry? ( mirror://sourceforge/stardict/QQWry.Dat.bz2 ) pronounce? ( mirror://sourceforge/stardict/WyabdcRealPeopleTTS.tar.bz2 )
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235373816
-=======
-gnome? ( >=gnome-base/libbonobo-2.2.0 >=gnome-base/libgnome-2.2.0 >=gnome-base/libgnomeui-2.2.0 >=gnome-base/gconf-2 >=gnome-base/orbit-2.6 app-text/scrollkeeper ) spell? ( app-text/enchant ) gucharmap? ( >=gnome-extra/gucharmap-1.4.0 ) >=sys-libs/zlib-1.1.4 >=x11-libs/gtk+-2.12 >=dev-util/intltool-0.22 dev-util/pkgconfig >=sys-apps/sed-4 =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
-gnome? ( >=gnome-base/libbonobo-2.2.0 >=gnome-base/libgnome-2.2.0 >=gnome-base/libgnomeui-2.2.0 >=gnome-base/gconf-2 >=gnome-base/orbit-2.6 app-text/scrollkeeper ) spell? ( app-text/enchant ) gucharmap? ( >=gnome-extra/gucharmap-1.4.0 ) >=sys-libs/zlib-1.1.4 >=x11-libs/gtk+-2.12 espeak? ( >=app-accessibility/espeak-1.29 ) festival? ( ~app-accessibility/festival-1.96_beta )
-0
-mirror://sourceforge/stardict/stardict-3.0.1.tar.bz2 qqwry? ( mirror://sourceforge/stardict/QQWry.Dat.bz2 ) pronounce? ( mirror://sourceforge/stardict/WyabdcRealPeopleTTS.tar.bz2 )
-test
-http://stardict.sourceforge.net/
-GPL-2
-A GNOME2 international dictionary supporting fuzzy and glob style matching
-~amd64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs portability multilib gnome2-utils gnome2 gnome.org fdo-mime autotools libtool eutils
-festival espeak gnome gucharmap qqwry pronounce spell debug
-
-
-
-0
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/app-dicts/stardict-3.0.1-r2
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_mtime_=1235564433

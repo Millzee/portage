@@ -9,5 +9,5 @@ RDEPEND=!<sci-visualization/labplot-1.5.1.6
 RESTRICT=test
 SLOT=0
 SRC_URI=mirror://sourceforge/liborigin/liborigin-20080225.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373886

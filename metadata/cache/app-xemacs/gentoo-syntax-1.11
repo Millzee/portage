@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=app-editors/xemacs-21.4.20-r5 app-xemacs/sh-script
 SLOT=0
 SRC_URI=mirror://gentoo/gentoo-syntax-1.11.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	xemacs-elisp	/home/Funtoo/portage/eclass	1235373829	xemacs-elisp-common	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	xemacs-elisp	/home/Funtoo/portage/eclass	1235373829	xemacs-elisp-common	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235375253

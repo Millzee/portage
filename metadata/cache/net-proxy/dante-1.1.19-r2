@@ -9,5 +9,5 @@ LICENSE=BSD
 RDEPEND=virtual/libc pam? ( virtual/pam ) tcpd? ( sys-apps/tcp-wrappers ) selinux? ( sec-policy/selinux-dante ) userland_GNU? ( sys-apps/shadow )
 SLOT=0
 SRC_URI=ftp://ftp.inet.no/pub/socks/dante-1.1.19.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373882

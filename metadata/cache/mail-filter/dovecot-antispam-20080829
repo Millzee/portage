@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=net-mail/dovecot dspam? ( mail-filter/dspam ) crm114? ( app-text/crm114 )
 SLOT=0
 SRC_URI=mirror://gentoo/dovecot-antispam-20080829.tar.gz
-_eclasses_=confutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=confutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373838

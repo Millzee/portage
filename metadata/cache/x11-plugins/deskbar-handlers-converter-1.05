@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-lang/python-2.3 >=x11-libs/gtk+-2.6 >=dev-python/pygtk-2.6 >=gnome-extra/deskbar-applet-2.14.2 sci-calculators/units
 SLOT=0
 SRC_URI=http://svn.kryogenix.org/svn/deskbar-plugins/tags/1.05/converter.py
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373894

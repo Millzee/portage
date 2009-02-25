@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=!net-misc/putty !client-only? ( >=dev-python/paramiko-1.6.2 mysql? ( >=dev-python/mysql-python-1.2.0 ) ) net-misc/openssh
 SLOT=0
 SRC_URI=http://sshproxy-project.org/download/sshproxy-0.6.0_beta2.tar.gz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	distutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	distutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373882

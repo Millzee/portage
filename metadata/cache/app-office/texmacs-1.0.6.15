@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/latex-base virtual/ghostscript >=dev-scheme/guile-1.4 media-libs/freetype x11-libs/libXext imlib? ( media-libs/imlib2 ) jpeg? ( || ( media-gfx/imagemagick media-gfx/jpeg2ps ) ) svg? ( || ( media-gfx/inkscape gnome-base/librsvg ) ) netpbm? ( media-libs/netpbm ) spell? ( || ( >=app-text/ispell-3.2 >=app-text/aspell-0.5 ) )
 SLOT=0
 SRC_URI=ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-1.0.6.15-src.tar.gz ftp://ftp.texmacs.org/pub/TeXmacs/targz/TeXmacs-600dpi-fonts.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373819

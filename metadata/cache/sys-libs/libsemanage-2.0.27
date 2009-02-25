@@ -9,5 +9,5 @@ RDEPEND==sys-libs/libsepol-2.0* =sys-libs/libselinux-2.0* dev-libs/ustr
 RESTRICT=test
 SLOT=0
 SRC_URI=http://userspace.selinuxproject.org/releases/current/devel/libsemanage-2.0.27.tar.gz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373891

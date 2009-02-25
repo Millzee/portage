@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=x11-libs/gtk+-2.12 || ( >=www-client/mozilla-firefox-2 >=www-client/seamonkey-1 >=mail-client/mozilla-thunderbird-2 >=net-libs/xulrunner-1.8 ) ssl? ( >=net-libs/gnutls-1.2.0 ) ruby? ( dev-ruby/ruby-gtk2 dev-ruby/ruby-gettext ) hyperestraier? ( >=app-text/hyperestraier-1.2 ) migemo? ( app-text/migemo )
 SLOT=0
 SRC_URI=mirror://sourceforge.jp/kazehakase/32341/kazehakase-0.5.5.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373892

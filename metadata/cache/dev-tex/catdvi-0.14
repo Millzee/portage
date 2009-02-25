@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/tex-base
 SLOT=0
 SRC_URI=mirror://sourceforge/catdvi/catdvi-0.14.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373828

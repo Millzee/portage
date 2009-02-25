@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=dev-lang/perl sys-devel/automake-wrapper >=sys-devel/autoconf-2.59-r6 sys-devel/gnuconfig
 SLOT=1.4
 SRC_URI=mirror://gnu/automake/automake-1.4-p6.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373889

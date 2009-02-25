@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=dev-perl/XML-Parser =dev-python/gnome-python-2* =dev-python/pygtk-2* sys-apps/usermode sys-apps/kudzu dev-python/rhpl >=dev-python/pyparted-1.6
 SLOT=0
 SRC_URI=mirror://fedora/development/source/SRPMS/hwbrowser-0.27-2.src.rpm
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	rpm	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	rpm	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373815

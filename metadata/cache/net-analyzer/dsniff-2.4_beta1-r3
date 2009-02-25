@@ -9,5 +9,5 @@ LICENSE=DSNIFF
 RDEPEND=net-libs/libpcap >=net-libs/libnet-1.1.2.1-r1 =net-libs/libnids-1.18 >=dev-libs/openssl-0.9.6e >=sys-libs/db-4.2.52_p4 sys-apps/sed X? ( x11-libs/libXmu )
 SLOT=0
 SRC_URI=http://monkey.org/~dugsong/dsniff/beta/dsniff-2.4b1.tar.gz mirror://gentoo/dsniff-2.4_beta1-debian-r1.patch.bz2
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373868

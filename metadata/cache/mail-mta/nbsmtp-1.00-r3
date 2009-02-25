@@ -10,5 +10,5 @@ PROVIDE=virtual/mta
 RDEPEND=virtual/libc ssl? ( dev-libs/openssl ) mailwrapper? ( || ( net-mail/mailer-config app-admin/eselect ) >=net-mail/mailwrapper-0.2.1-r1 ) !mailwrapper? ( !virtual/mta )
 SLOT=0
 SRC_URI=http://www.gentoo-es.org/~ferdy/nbsmtp-1.00.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	mailer	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	mailer	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373838

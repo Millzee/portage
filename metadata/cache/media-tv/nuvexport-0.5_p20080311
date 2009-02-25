@@ -7,5 +7,5 @@ LICENSE=as-is
 RDEPEND=dev-perl/DBI dev-perl/DBD-mysql dev-perl/DateManip media-video/ffmpeg[aac,encode,threads,xvid] media-video/mjpegtools media-video/transcode[mjpeg] media-libs/id3lib media-video/mplayer =media-tv/mythtv-0.21*
 SLOT=0
 SRC_URI=http://www.forevermore.net/files/nuvexport/nuvexport-0.5-0.20080311.svn.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373842

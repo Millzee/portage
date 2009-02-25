@@ -10,5 +10,5 @@ RDEPEND=sys-libs/glibc dedicated? ( app-misc/screen ) amd64? ( app-emulation/emu
 RESTRICT=strip
 SLOT=0
 SRC_URI=mirror://idsoftware/quake4/demo/quake4-linux-1.0-demo.x86.run http://www.3ddownloads.com/Action/Quake%204/Demos/quake4-linux-1.0-demo.x86.run mirror://3dgamers/quake4/quake4-linux-1.0-demo.x86.run http://filebase.gmpf.de/quake4/quake4-linux-1.0-demo.x86.run http://www.holarse.de/mirror/quake4-linux-1.0-demo.x86.run http://sonic-lux.net/data/mirror/quake4/quake4-linux-1.0-demo.x86.run
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830

@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=nls? ( sys-devel/gettext ) emacs? ( virtual/emacs )
 SLOT=0
 SRC_URI=ftp://download.gnu.org.ua/pub/release/cflow/cflow-1.2.tar.bz2
-_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373829

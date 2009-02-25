@@ -9,5 +9,5 @@ RDEPEND=virtual/opengl amd64? ( app-emulation/emul-linux-x86-xlibs )
 RESTRICT=strip
 SLOT=0
 SRC_URI=mirror://lokigames/heretic2/heretic2-1.06b-unified-x86.run mirror://lokigames/heretic2/heretic2-1.06c-unified-x86.run mirror://lokigames/heretic2/heretic2-maps-1.0.run
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830

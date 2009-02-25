@@ -9,5 +9,5 @@ LICENSE=GPL-2 BitstreamVera
 RDEPEND=>=dev-games/physfs-1.0.0 opengl? ( virtual/opengl ) dev-libs/libxml2 media-libs/sdl-mixer[vorbis] media-libs/sdl-image[png] media-libs/sdl-net media-libs/sdl-ttf net-misc/curl sys-libs/zlib media-libs/libpng >=dev-games/guichan-0.8.1[sdl]
 SLOT=0
 SRC_URI=mirror://sourceforge/themanaworld/tmw-0.0.28.tar.gz mirror://sourceforge/themanaworld/tmwmusic-0.0.20.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373831

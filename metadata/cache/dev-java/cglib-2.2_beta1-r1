@@ -10,5 +10,5 @@ RDEPEND=>=virtual/jre-1.4 dev-java/asm:2.2 >=dev-java/ant-core-1.7.0 >=dev-java/
 RESTRICT=test
 SLOT=2.2
 SRC_URI=mirror://sourceforge/cglib/cglib-src-2.2_beta1.jar
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373821

@@ -9,5 +9,5 @@ LICENSE=Apache-1.1
 RDEPEND=>=virtual/jre-1.4 dev-java/commons-logging >=dev-java/java-config-2.1.6
 SLOT=0
 SRC_URI=mirror://apache/jakarta/struts/struts-legacy/struts-legacy-1.0-src.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373823

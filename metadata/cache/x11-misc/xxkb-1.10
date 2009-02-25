@@ -8,5 +8,5 @@ LICENSE=Artistic
 RDEPEND=x11-libs/libX11 x11-libs/libXt x11-libs/libXpm
 SLOT=0
 SRC_URI=mirror://sourceforge/xxkb/xxkb-1.10.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373894

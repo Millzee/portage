@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=png? ( media-libs/libpng ) tiff? ( media-libs/tiff ) jpeg? ( media-libs/jpeg ) fftw? ( >=sci-libs/fftw-3 )
 SLOT=0
 SRC_URI=http://kogs-www.informatik.uni-hamburg.de/~koethe/vigra/vigra1.6.0.tar.gz
-_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373840

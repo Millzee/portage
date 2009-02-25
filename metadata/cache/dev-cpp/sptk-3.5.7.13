@@ -9,5 +9,5 @@ LICENSE=|| ( BSD )
 RDEPEND=fltk? ( >=x11-libs/fltk-1.1.6:1.1 ) odbc? ( >=dev-db/unixODBC-2.2.6 ) sqlite? ( >=dev-db/sqlite-3 ) aspell? ( >=app-text/aspell-0.50 )
 SLOT=3
 SRC_URI=http://www.sptk.net/sptk-3.5.7.13.tbz2
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373820

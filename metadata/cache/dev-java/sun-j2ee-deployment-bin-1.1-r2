@@ -10,5 +10,5 @@ RDEPEND=>=virtual/jre-1.4 >=dev-java/java-config-2.1.6
 RESTRICT=fetch
 SLOT=1.1
 SRC_URI=j2ee_deployment-1_1-fr-class.zip doc? ( j2ee_deployment-1_1-fr-doc.zip )
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373823

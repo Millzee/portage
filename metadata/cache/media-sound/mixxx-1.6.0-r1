@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/mesa media-libs/libmad media-libs/libid3tag media-libs/libvorbis media-libs/libsndfile >=media-libs/portaudio-19_pre djconsole? ( media-libs/libdjconsole ) shout? ( media-libs/libshout ) ladspa? ( media-libs/ladspa-sdk ) virtual/glu || ( ( x11-libs/qt-core x11-libs/qt-gui x11-libs/qt-opengl ) =x11-libs/qt-4.3*:4[opengl,qt3support] )
 SLOT=0
 SRC_URI=http://downloads.mixxx.org/mixxx-1.6.0/mixxx-1.6.0-src.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373841

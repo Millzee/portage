@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/libdvdread >=media-gfx/imagemagick-5.5.7.14 >=dev-libs/libxml2-2.5.0 media-libs/libpng
 SLOT=0
 SRC_URI=mirror://sourceforge/dvdauthor/dvdauthor-0.6.11.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373842

@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/libsdl media-libs/sdl-net
 SLOT=0
 SRC_URI=mirror://gentoo/freecnc++-0.2.1.31072003-src.tar.bz2 nocd? ( ftp://ftp.westwood.com/pub/cc1/previews/demo/cc1demo1.zip ) nocd? ( ftp://ftp.westwood.com/pub/cc1/previews/demo/cc1demo2.zip )
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373831

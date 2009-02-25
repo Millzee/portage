@@ -10,5 +10,5 @@ RDEPEND=>=virtual/jre-1.4 =dev-java/jakarta-oro-2.0* readline? ( >=dev-java/libr
 RESTRICT=test
 SLOT=0
 SRC_URI=http://www.python.org/ftp/python/2.2.3/Python-2.2.3.tgz mirror://sourceforge/jython/jython_installer-2.2.1.jar
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373822

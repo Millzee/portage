@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND==dev-libs/glib-2* =x11-libs/gtk+-2* =gnome-base/libglade-2* sys-apps/attr x11-libs/libSM dev-util/desktop-file-utils sys-libs/system-config-base >=sys-libs/pam-0.75 sys-apps/shadow dev-perl/XML-Parser sys-libs/libuser
 SLOT=0
 SRC_URI=mirror://fedora-dev/development/source/SRPMS/usermode-1.93-1.fc8.src.rpm
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	rpm	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	rpm	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373888

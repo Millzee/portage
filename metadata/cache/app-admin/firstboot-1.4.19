@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND==dev-python/pygtk-2* dev-python/rhpl dev-python/rhpxl app-admin/system-config-display app-admin/system-config-language app-admin/system-config-soundcard app-admin/system-config-users app-admin/system-config-date app-admin/system-config-keyboard app-admin/authconfig sys-libs/libuser
 SLOT=0
 SRC_URI=mirror://fedora/development/source/SRPMS/firstboot-1.4.19-1.src.rpm
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	rpm	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	rpm	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373814

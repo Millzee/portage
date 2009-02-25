@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=x11-libs/gtk+-2.5.4 >=gnome-base/libglade-2 >=gnome-base/gconf-2 net-analyzer/traceroute net-dns/bind-tools userland_GNU? ( net-misc/netkit-fingerd net-misc/whois ) userland_BSD? ( net-misc/bsdwhois )
 SLOT=0
 SRC_URI=mirror://gnome/sources/gnome-nettool/2.20/gnome-nettool-2.20.0.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome.org	/home/Funtoo/portage/eclass	1235373829	gnome2	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373868

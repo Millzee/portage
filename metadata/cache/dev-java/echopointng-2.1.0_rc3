@@ -8,5 +8,5 @@ LICENSE=MPL-1.1 GPL-2 LGPL-2.1
 RDEPEND=>=virtual/jre-1.4 =dev-java/servletapi-2.4* >=dev-java/echo2-2.1.0_beta5 >=dev-java/java-config-2.1.6
 SLOT=0
 SRC_URI=mirror://sourceforge/echopoint/echopointng-src-2.1.0rc3.zip
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373822

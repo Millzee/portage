@@ -9,5 +9,5 @@ LICENSE=W3C
 RDEPEND=dev-lang/perl >=sys-libs/zlib-1.1.4 mysql? ( virtual/mysql ) ssl? ( >=dev-libs/openssl-0.9.6 )
 SLOT=0
 SRC_URI=http://www.w3.org/Library/Distribution/w3c-libwww-5.4.0.tgz mirror://gentoo/libwww-5.4.0-debian-autoconf-2.5.patch.bz2
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373873

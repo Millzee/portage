@@ -8,5 +8,5 @@ LICENSE=|| ( Artistic GPL-2 )
 RDEPEND=dev-perl/Snowball-Norwegian dev-perl/Snowball-Swedish dev-perl/Lingua-Stem-Snowball-Da dev-perl/Lingua-Stem-Fr dev-perl/Lingua-Stem-It dev-perl/Lingua-Stem-Ru dev-perl/Lingua-PT-Stemmer dev-perl/Text-German dev-lang/perl
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/S/SN/SNOWHARE//Lingua-Stem-0.83.tar.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	perl-module	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373826

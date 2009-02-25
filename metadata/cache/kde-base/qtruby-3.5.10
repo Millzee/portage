@@ -1,38 +1,13 @@
-<<<<<<< HEAD:metadata/cache/kde-base/qtruby-3.5.10
 DEFINED_PHASES=compile install postinst postrm preinst setup unpack
 DEPEND=dev-ruby/rubygems >=kde-base/smoke-3.5.10:3.5 >=virtual/ruby-1.8 =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdebindings-3.5*
 DESCRIPTION=Ruby bindings for QT
 EAPI=1
-HOMEPAGE=http://developer.kde.org/language-bindings/ruby/
+HOMEPAGE=http://techbase.kde.org/Development/Languages/Ruby
 IUSE=debug elibc_FreeBSD
 KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
 LICENSE=GPL-2
 RDEPEND=dev-ruby/rubygems >=kde-base/smoke-3.5.10:3.5 >=virtual/ruby-1.8 ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdebindings-3.5*
 SLOT=0
 SRC_URI=mirror://kde/stable/3.5.10/src/kdebindings-3.5.10.tar.bz2
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	kde	/home/Funtoo/portage/eclass	1235373829	kde-functions	/home/Funtoo/portage/eclass	1235373829	kde-meta	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt3	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829	versionator	/home/Funtoo/portage/eclass	1235373829
-_mtime_=1235373837
-=======
-dev-ruby/rubygems >=kde-base/smoke-3.5.10:3.5 >=virtual/ruby-1.8 =sys-devel/automake-1.9* >=sys-devel/autoconf-2.61 sys-devel/libtool sys-devel/make dev-util/pkgconfig dev-lang/perl ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdebindings-3.5*
-dev-ruby/rubygems >=kde-base/smoke-3.5.10:3.5 >=virtual/ruby-1.8 ~kde-base/kdelibs-3.5.10 =x11-libs/qt-3* !=kde-base/kdebindings-3.5*
-0
-mirror://kde/stable/3.5.10/src/kdebindings-3.5.10.tar.bz2
-
-http://techbase.kde.org/Development/Languages/Ruby
-GPL-2
-Ruby bindings for QT
-~amd64 ~ppc ~ppc64 ~sparc ~x86
-toolchain-funcs qt3 portability flag-o-matic kde versionator multilib kde-functions kde-meta base libtool autotools eutils
-debug elibc_FreeBSD
-
-
-
-1
-
-compile install postinst postrm preinst setup unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/kde-base/qtruby-3.5.10
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	kde	/home/Funtoo/portage/eclass	1235373829	kde-functions	/home/Funtoo/portage/eclass	1235373829	kde-meta	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt3	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_mtime_=1235564433

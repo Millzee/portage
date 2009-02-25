@@ -10,5 +10,5 @@ RDEPEND=>=media-libs/freetype-2 media-libs/libpng dev-libs/libxml2 arts? ( kde-b
 RESTRICT=test
 SLOT=0
 SRC_URI=ftp://alpha.gnu.org/gnu/gnubg/gnubg-0.14.3.tar.gz ftp://alpha.gnu.org/gnu/gnubg/gnubg.weights-0.14.gz ftp://alpha.gnu.org/gnu/gnubg/gnubg_os0.bd.gz ftp://alpha.gnu.org/gnu/gnubg/gnubg_ts0.bd.gz
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830

@@ -9,5 +9,5 @@ LICENSE=GPL-2 public-domain
 RDEPEND=hesiod? ( net-dns/hesiod ) ssl? ( >=dev-libs/openssl-0.9.6 ) kerberos? ( app-crypt/mit-krb5 ) nls? ( virtual/libintl ) elibc_FreeBSD? ( sys-libs/com_err )
 SLOT=0
 SRC_URI=http://download2.berlios.de/fetchmail/fetchmail-6.3.8.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373874

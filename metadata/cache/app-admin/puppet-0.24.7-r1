@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=emacs? ( virtual/emacs ) >=dev-ruby/facter-1.5.0 >=app-portage/eix-0.9.4 ldap? ( dev-ruby/ruby-ldap ) rrdtool? ( || ( >=net-analyzer/rrdtool-1.2.23 dev-ruby/ruby-rrd ) ) virtual/ruby
 SLOT=0
 SRC_URI=http://reductivelabs.com/downloads/puppet/puppet-0.24.7.tgz
-_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	ruby	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	ruby	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373815
