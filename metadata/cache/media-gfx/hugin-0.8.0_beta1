@@ -1,4 +1,3 @@
-<<<<<<< HEAD:metadata/cache/media-gfx/hugin-0.8.0_beta1
 DEFINED_PHASES=compile configure install prepare setup test
 DEPEND=app-arch/zip || ( >=dev-libs/boost-1.34 =dev-libs/boost-1.33*[threads] ) >=media-gfx/enblend-3.0_p20080807 media-gfx/exiv2 media-libs/jpeg media-libs/libpano13 media-libs/libpng media-libs/openexr media-libs/tiff sys-libs/zlib x11-libs/wxGTK:2.8 sift? ( media-gfx/autopano-sift-C ) >=dev-util/cmake-2.4.6
 DESCRIPTION=GUI for the creation & processing of panoramic images
@@ -12,27 +11,3 @@ SLOT=0
 SRC_URI=mirror://sourceforge/hugin/hugin-0.8.0_beta1.tar.gz
 _eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829	wxwidgets	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235587967
-=======
-app-arch/zip || ( >=dev-libs/boost-1.34 =dev-libs/boost-1.33*[threads] ) >=media-gfx/enblend-3.0_p20080807 media-gfx/exiv2 media-libs/jpeg media-libs/libpano13 media-libs/libpng media-libs/openexr media-libs/tiff sys-libs/zlib x11-libs/wxGTK:2.8 sift? ( media-gfx/autopano-sift-C ) >=dev-util/cmake-2.4.6
-app-arch/zip || ( >=dev-libs/boost-1.34 =dev-libs/boost-1.33*[threads] ) >=media-gfx/enblend-3.0_p20080807 media-gfx/exiv2 media-libs/jpeg media-libs/libpano13 media-libs/libpng media-libs/openexr media-libs/tiff sys-libs/zlib x11-libs/wxGTK:2.8 sift? ( media-gfx/autopano-sift-C )
-0
-mirror://sourceforge/hugin/hugin-0.8.0_beta1.tar.gz
-
-http://hugin.sf.net
-GPL-2 SIFT
-GUI for the creation & processing of panoramic images
-~amd64 ~ppc ~x86
-toolchain-funcs wxwidgets portability flag-o-matic versionator multilib cmake-utils eutils
-+sift
-
-
-
-2
-
-compile configure install prepare setup test
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/media-gfx/hugin-0.8.0_beta1
