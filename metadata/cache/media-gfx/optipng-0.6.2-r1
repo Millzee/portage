@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Compress PNG files without affecting image quality
+EAPI=0
+HOMEPAGE=http://optipng.sourceforge.net/
+KEYWORDS=~alpha amd64 ~ppc x86
+LICENSE=ZLIB
+SLOT=0
+SRC_URI=mirror://sourceforge/optipng/optipng-0.6.2.tar.gz mirror://sourceforge/optipng/optipng-0.6.2.1.diff
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_mtime_=1235637357
