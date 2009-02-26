@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-db/mysql-4.0.27-r1
 DEFINED_PHASES=compile config install postinst postrm preinst setup test unpack
 DEPEND=sys-devel/gnuconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool ssl? ( >=dev-libs/openssl-0.9.6d ) userland_GNU? ( sys-process/procps ) >=sys-apps/sed-4 >=sys-apps/texinfo-4.7-r1 >=sys-libs/readline-4.1 >=sys-libs/zlib-1.2.3 !dev-db/mysql-community berkdb? ( sys-apps/ed )
 DESCRIPTION=A fast, multi-threaded, multi-user SQL database server.
@@ -12,3 +13,27 @@ SLOT=0
 SRC_URI=mirror://mysql/Downloads/MySQL-4.0/mysql-4.0.27.tar.gz mirror://gentoo/mysql-extras-20070105.tar.bz2 http://g3nt8.org/patches/mysql-extras-20070105.tar.bz2 http://www.funtoo.org/distfiles/mysql-extras-20070105.tar.bz2
 _eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	gnuconfig	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	mysql	/home/Funtoo/portage/eclass	1235373829	mysql_fx	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373821
+=======
+sys-devel/gnuconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool ssl? ( >=dev-libs/openssl-0.9.6d ) userland_GNU? ( sys-process/procps ) >=sys-apps/sed-4 >=sys-apps/texinfo-4.7-r1 >=sys-libs/readline-4.1 >=sys-libs/zlib-1.2.3 !dev-db/mysql-community berkdb? ( sys-apps/ed )
+ssl? ( >=dev-libs/openssl-0.9.6d ) userland_GNU? ( sys-process/procps ) >=sys-apps/sed-4 >=sys-apps/texinfo-4.7-r1 >=sys-libs/readline-4.1 >=sys-libs/zlib-1.2.3 !dev-db/mysql-community !minimal? ( dev-db/mysql-init-scripts ) selinux? ( sec-policy/selinux-mysql )
+0
+mirror://mysql/Downloads/MySQL-4.0/mysql-4.0.27.tar.gz mirror://gentoo/mysql-extras-20070105.tar.bz2 http://regen2.googlecode.com/files/mysql-extras-20070105.tar.bz2 http://g3nt8.org/patches/mysql-extras-20070105.tar.bz2 http://www.funtoo.org/distfiles/mysql-extras-20070105.tar.bz2
+
+http://www.mysql.com/
+GPL-2
+A fast, multi-threaded, multi-user SQL database server.
+amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc x86
+versionator toolchain-funcs portability flag-o-matic mysql multilib mysql_fx libtool gnuconfig autotools eutils
+big-tables debug embedded minimal perl selinux ssl static raid berkdb
+
+perl? ( >=dev-perl/DBD-mysql-2.9004 ) =virtual/mysql-4.0
+
+0
+
+compile config install postinst postrm preinst setup test unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-db/mysql-4.0.27-r1

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-dicts/ispell-no-2.10
 DEFINED_PHASES=compile install
 DEPEND=app-text/ispell
 DESCRIPTION=A Norwegian dictionary for ispell
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://alioth.debian.org/frs/download.php/2359/spell-norwegian-2.10.tar.gz
 _eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373816
+=======
+app-text/ispell
+app-text/ispell
+0
+http://alioth.debian.org/frs/download.php/2359/spell-norwegian-2.10.tar.gz
+
+http://spell-norwegian.alioth.debian.org/
+GPL-2
+A Norwegian dictionary for ispell
+~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
+toolchain-funcs versionator multilib
+
+
+
+
+0
+
+compile install
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-dicts/ispell-no-2.10

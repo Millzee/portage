@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/x11-libs/qt-core-4.4.2-r2
 DEFINED_PHASES=compile install postinst postrm setup unpack
 DEPEND=sys-libs/zlib glib? ( dev-libs/glib ) ssl? ( dev-libs/openssl ) !<=x11-libs/qt-4.4.0_alpha:4 dev-util/pkgconfig
 DESCRIPTION=The Qt toolkit is a comprehensive C++ application development framework.
@@ -12,3 +13,27 @@ SLOT=4
 SRC_URI=ftp://ftp.trolltech.com/qt/source/qt-x11-opensource-src-4.4.2.tar.bz2 mirror://gentoo/qt-x11-opensource-src-4.4.2-headers.tar.bz2
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt4-build	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235587967
+=======
+sys-libs/zlib glib? ( dev-libs/glib ) ssl? ( dev-libs/openssl ) !<=x11-libs/qt-4.4.0_alpha:4 dev-util/pkgconfig
+sys-libs/zlib glib? ( dev-libs/glib ) ssl? ( dev-libs/openssl ) !<=x11-libs/qt-4.4.0_alpha:4
+4
+ftp://ftp.trolltech.com/qt/source/qt-x11-opensource-src-4.4.2.tar.bz2 mirror://gentoo/qt-x11-opensource-src-4.4.2-headers.tar.bz2
+
+http://www.trolltech.com/
+|| ( GPL-3 GPL-2 )
+The Qt toolkit is a comprehensive C++ application development framework.
+~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd
+toolchain-funcs portability flag-o-matic versionator multilib eutils qt4-build
+doc +glib +iconv +qt3support +ssl custom-cxxflags debug pch
+
+qt3support? ( ~x11-libs/qt-gui-4.4.2 )
+
+1
+
+compile install postinst postrm setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/x11-libs/qt-core-4.4.2-r2

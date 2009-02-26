@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/sys-devel/prelink-20071009
 DEFINED_PHASES=install postinst unpack
 DEPEND=>=dev-libs/elfutils-0.100 !dev-libs/libelf >=sys-libs/glibc-2.3.4
 DESCRIPTION=modifies ELFs so they load faster at runtime
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=mirror://gentoo/prelink-20071009.tar.bz2 ftp://people.redhat.com/jakub/prelink/prelink-20071009.tar.bz2
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373889
+=======
+>=dev-libs/elfutils-0.100 !dev-libs/libelf >=sys-libs/glibc-2.3.4
+>=dev-libs/elfutils-0.100 !dev-libs/libelf >=sys-libs/glibc-2.3.4 >=sys-devel/binutils-2.15.90.0.1
+0
+mirror://gentoo/prelink-20071009.tar.bz2 ftp://people.redhat.com/jakub/prelink/prelink-20071009.tar.bz2
+
+http://people.redhat.com/jakub/prelink
+GPL-2
+modifies ELFs so they load faster at runtime
+~alpha amd64 ~ppc ~ppc64 ~s390 sparc x86
+toolchain-funcs multilib portability eutils
+
+
+
+
+0
+
+install postinst unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/sys-devel/prelink-20071009

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-games/openscenegraph-2.8.0
 DEFINED_PHASES=compile configure install test
 DEPEND=virtual/opengl virtual/glu net-misc/curl net-libs/xulrunner gnome-base/librsvg media-libs/jpeg app-text/poppler-bindings app-arch/unzip >=dev-util/cmake-2.4.6
 DESCRIPTION=Open source high performance 3D graphics toolkit
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://www.openscenegraph.org/downloads/stable_releases/OpenSceneGraph-2.8/source/OpenSceneGraph-2.8.0.zip
 _eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235564433
+=======
+virtual/opengl virtual/glu net-misc/curl xulrunner? ( net-libs/xulrunner ) gnome-base/librsvg media-libs/jpeg media-libs/giflib media-libs/tiff app-text/poppler-bindings app-arch/unzip >=dev-util/cmake-2.4.6
+virtual/opengl virtual/glu net-misc/curl xulrunner? ( net-libs/xulrunner ) gnome-base/librsvg media-libs/jpeg media-libs/giflib media-libs/tiff app-text/poppler-bindings
+0
+http://www.openscenegraph.org/downloads/stable_releases/OpenSceneGraph-2.8/source/OpenSceneGraph-2.8.0.zip
+
+http://www.openscenegraph.org/projects/osg/
+wxWinLL-3 LGPL-2.1
+Open source high performance 3D graphics toolkit
+~x86
+toolchain-funcs portability flag-o-matic versionator multilib cmake-utils eutils
+xulrunner
+
+
+
+2
+
+compile configure install prepare test
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-games/openscenegraph-2.8.0

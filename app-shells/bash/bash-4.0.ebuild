@@ -70,6 +70,9 @@ src_unpack() {
 		epatch "${FILESDIR}"/${P}-comsub-backslash-metacharacters.patch
 		epatch "${FILESDIR}"/${P}-save-current-token.patch
 		epatch "${FILESDIR}"/${P}-exit-checkjobs.patch
+		epatch "${FILESDIR}"/${P}-declare-identifier.patch
+		epatch "${FILESDIR}"/${P}-reset-parser-current-token.patch
+		epatch "${FILESDIR}"/${P}-pipeline-reserved-word.patch
 		epatch "${FILESDIR}"/${PN}-4.0-negative-return.patch
 		# Log bash commands to syslog #91327
 		if use bashlogger ; then
@@ -170,12 +173,6 @@ pkg_preinst() {
 	if [[ -e ${ROOT}/etc/bashrc ]] && [[ ! -d ${ROOT}/etc/bash ]] ; then
 		mkdir -p "${ROOT}"/etc/bash
 		mv -f "${ROOT}"/etc/bashrc "${ROOT}"/etc/bash/
-	fi
-
-	# our bash_logout is just a place holder so dont
-	# force users to go through etc-update all the time
-	if [[ -e ${ROOT}/etc/bash/bash_logout ]] ; then
-		rm -f "${D}"/etc/bash/bash_logout
 	fi
 
 	if [[ -L ${ROOT}/bin/sh ]]; then

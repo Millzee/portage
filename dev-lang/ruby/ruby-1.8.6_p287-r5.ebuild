@@ -19,7 +19,7 @@ HOMEPAGE="http://www.ruby-lang.org/"
 SRC_URI="mirror://ruby/${SLOT}/${MY_P}.tar.bz2"
 
 LICENSE="Ruby"
-KEYWORDS="alpha amd64 ~arm hppa ~ia64 ~mips ~ppc ppc64 ~s390 ~sh ~sparc ~sparc-fbsd ~x86 ~x86-fbsd"
+KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc ~sparc-fbsd x86 ~x86-fbsd"
 IUSE="berkdb debug doc emacs examples gdbm ipv6 rubytests socks5 ssl threads tk xemacs"
 
 RDEPEND="

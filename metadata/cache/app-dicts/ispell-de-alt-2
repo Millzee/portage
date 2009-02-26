@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-dicts/ispell-de-alt-2
 DEFINED_PHASES=install unpack
 DEPEND=app-text/ispell
 DESCRIPTION=German dictionary (traditional orthography) for ispell
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=ftp://ftp.informatik.uni-kiel.de/pub/kiel/dicts/hk2-deutsch.tar.gz http://www.j3e.de/ispell/hk2/hkgerman_2-patch-bj1.diff.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373816
+=======
+app-text/ispell
+app-text/ispell
+0
+ftp://ftp.informatik.uni-kiel.de/pub/kiel/dicts/hk2-deutsch.tar.gz http://www.j3e.de/ispell/hk2/hkgerman_2-patch-bj1.diff.gz
+
+http://www.lasr.cs.ucla.edu/geoff/ispell-dictionaries.html
+GPL-2
+German dictionary (traditional orthography) for ispell
+~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
+toolchain-funcs multilib portability eutils
+
+
+
+
+0
+
+install unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-dicts/ispell-de-alt-2

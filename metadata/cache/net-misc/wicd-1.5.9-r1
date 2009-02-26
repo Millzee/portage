@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/net-misc/wicd-1.5.9-r1
 DEFINED_PHASES=compile install postinst postrm unpack
 DEPEND=virtual/python
 DESCRIPTION=A lightweight wired and wireless network manager for Linux
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/wicd/wicd-1.5.9.tar.gz
 _eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	distutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373879
+=======
+virtual/python
+dev-python/dbus-python dev-python/pygtk || ( net-misc/dhcpcd net-misc/dhcp net-misc/pump ) net-wireless/wireless-tools net-wireless/wpa_supplicant || ( sys-apps/net-tools sys-apps/ethtool ) || ( x11-misc/ktsuss x11-libs/gksu kde-base/kdesu ) >=sys-power/pm-utils-1.1.1
+0
+mirror://sourceforge/wicd/wicd-1.5.9.tar.gz
+
+http://wicd.sourceforge.net/
+GPL-2
+A lightweight wired and wireless network manager for Linux
+amd64 ppc x86
+toolchain-funcs distutils portability python alternatives multilib eutils
+
+
+
+
+0
+
+compile install postinst postrm unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/net-misc/wicd-1.5.9-r1

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-dicts/ispell-nl-1.00
 DEFINED_PHASES=compile install
 DEPEND=app-text/ispell
 DESCRIPTION=A dutch (spelling 2005) dictionary for ispell
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=mirror://gentoo/ispell-nl-1.00.tar.bz2
 _eclasses_=multilib	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373816
+=======
+app-text/ispell
+app-text/ispell
+0
+mirror://gentoo/ispell-nl-1.00.tar.bz2
+
+http://opentaal.nl
+LGPL-2.1
+A dutch (spelling 2005) dictionary for ispell
+~alpha amd64 ~hppa ~mips ~ppc ~sparc x86
+toolchain-funcs multilib
+
+
+
+
+0
+
+compile install
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-dicts/ispell-nl-1.00
