@@ -9,5 +9,5 @@ LICENSE=GPL-2-with-linking-exception
 RDEPEND=>=virtual/jre-1.4 =dev-java/gnu-jaf-1* =dev-java/gnu-classpath-inetlib-1.0* >=dev-java/java-config-2.1.6
 SLOT=1
 SRC_URI=mirror://gnu/classpathx/mail-1.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373822

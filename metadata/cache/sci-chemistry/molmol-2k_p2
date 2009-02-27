@@ -8,5 +8,5 @@ LICENSE=molmol
 RDEPEND=x11-libs/openmotif x11-libs/libXpm media-libs/mesa media-libs/jpeg media-libs/tiff media-libs/libpng sys-libs/zlib
 SLOT=0
 SRC_URI=ftp://ftp.mol.biol.ethz.ch/software/MOLMOL/unix-gzip/molmol-2k.2.0-src.tar.gz ftp://ftp.mol.biol.ethz.ch/software/MOLMOL/unix-gzip/molmol-2k.2.0-doc.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373884

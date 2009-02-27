@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=app-shells/bash-2.04-r3 >=sys-libs/ncurses-5.2-r5
 SLOT=0
 SRC_URI=ftp://invisible-island.net/dialog/dialog-1.1-20070930.tgz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373829

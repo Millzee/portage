@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/latex-base media-gfx/imagemagick doc? ( virtual/texi2dvi ) test? ( || ( ( dev-texlive/texlive-langgerman dev-texlive/texlive-fontsrecommended ) app-text/tetex app-text/ptex ) dev-tex/latex2html )
 SLOT=0
 SRC_URI=mirror://sourceforge/latex2rtf/latex2rtf-1.9.19.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373828

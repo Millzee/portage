@@ -10,5 +10,5 @@ RDEPEND=Xaw3d? ( x11-libs/Xaw3d ) x11-libs/libXaw x11-libs/libSM x11-libs/libX11
 RESTRICT=test
 SLOT=0
 SRC_URI=mirror://gnu/xboard/xboard-4.2.7.tar.gz mirror://gentoo/xboard.png http://dev.gentoo.org/~wolf31o2/sources/dump/xboard.png
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235735686	games	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830

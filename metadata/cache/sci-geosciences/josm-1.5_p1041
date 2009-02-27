@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=virtual/jre-1.6 >=dev-java/java-config-2.1.6
 SLOT=0
 SRC_URI=http://josm.openstreetmap.de/download/josm-snapshot-1041.jar linguas_de? ( mirror://gentoo/lang-de-20080705.jar ) linguas_en_GB? ( mirror://gentoo/lang-en_GB-20080207.jar ) linguas_fr? ( mirror://gentoo/lang-fr-20080207.jar ) linguas_ro? ( mirror://gentoo/lang-ro-20080207.jar )
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373884

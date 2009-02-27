@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=media-video/dvdauthor-0.6.11 >=media-gfx/imagemagick-6.1.8.8 >=media-video/mjpegtools-1.6.2 >=media-video/dvd-slideshow-0.7.2 xine? ( >=media-libs/xine-lib-1.1.0 ) mplayer? ( media-video/mplayer ) !xine? ( !mplayer? ( >=media-libs/xine-lib-1.1.0 ) ) x11-libs/qt:3 media-libs/netpbm app-cdr/dvdisaster media-video/dv2sub media-video/videotrans media-sound/toolame media-sound/lame media-sound/sox
 SLOT=0
 SRC_URI=mirror://sourceforge/qdvdauthor/qdvdauthor-1.2.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt3	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt3	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373842

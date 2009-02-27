@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=xfce-base/xfce4-panel
 SLOT=0
 SRC_URI=http://goodies.xfce.org/releases/xfce4-screenshooter/xfce4-screenshooter-1.5.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	xfce44	/home/Funtoo/portage/eclass	1235462056
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	fdo-mime	/home/Funtoo/portage/eclass	1235373829	gnome2-utils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	xfce44	/home/Funtoo/portage/eclass	1235462056
 _mtime_=1235462057

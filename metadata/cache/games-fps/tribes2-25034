@@ -9,5 +9,5 @@ RDEPEND=sys-libs/glibc games-util/loki_patch virtual/opengl
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=http://www.libsdl.org/projects/tribes2/release/tribes2-25034-cdrom-x86.run mirror://3dgamers/tribes2/tribes2-25034-cdrom-x86.run
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235735686	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830

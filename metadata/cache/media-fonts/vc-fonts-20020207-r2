@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://vico.kleinplanet.de/files/vc-fonts-20020207.tar.bz2 mirror://gentoo/bleed3.bdf.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	font	/home/Funtoo/portage/eclass	1235373829	font-ebdftopcf	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	font	/home/Funtoo/portage/eclass	1235373829	font-ebdftopcf	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373838

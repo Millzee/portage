@@ -8,5 +8,5 @@ LICENSE=CPL-1.0
 RDEPEND=>=virtual/jre-1.4 dev-java/apple-java-extensions-bin ~dev-java/jdom-1.0_beta10 >=dev-java/xerces-2.7 =dev-java/gnu-regexp-1* dev-java/bsh >=dev-java/java-config-2.1.6
 SLOT=0.13
 SRC_URI=mirror://sourceforge/abbot/abbot-0.13.1-src.jar
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373821

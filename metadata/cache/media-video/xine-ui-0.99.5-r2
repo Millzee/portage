@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=media-libs/libpng-1.2.8 >=media-libs/xine-lib-1.1.0[aalib?,libcaca?] lirc? ( app-misc/lirc ) aalib? ( media-libs/aalib ) libcaca? ( media-libs/libcaca ) curl? ( >=net-misc/curl-7.10.2 ) X? ( x11-libs/libX11 x11-libs/libXrender x11-libs/libICE x11-libs/libSM x11-libs/libXext x11-libs/libXxf86vm x11-libs/libXv x11-libs/libXtst x11-libs/libXft xinerama? ( x11-libs/libXinerama ) ) nls? ( virtual/libintl )
 SLOT=0
 SRC_URI=mirror://sourceforge/xine/xine-ui-0.99.5.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373842

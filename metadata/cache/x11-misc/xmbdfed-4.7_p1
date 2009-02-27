@@ -8,5 +8,5 @@ LICENSE=as-is
 RDEPEND=>=x11-libs/openmotif-2.3.0-r1 media-libs/freetype
 SLOT=0
 SRC_URI=http://clr.nmsu.edu/~mleisher/xmbdfed-4.7.tar.bz2 http://clr.nmsu.edu/~mleisher/xmbdfed-4.7-patch1
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373894

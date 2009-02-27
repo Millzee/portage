@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=virtual/opengl virtual/glu media-libs/libsdl media-libs/openal media-libs/freealut media-libs/libogg media-libs/libvorbis media-libs/jpeg
 SLOT=0
 SRC_URI=mirror://sourceforge/openastromenace/openamenace-src-1.2.0.tar.bz2 mirror://sourceforge/openastromenace/oamenace-data-1.2.0.tar.bz2 mirror://sourceforge/openastromenace/oamenace-lang-en-1.2.0.tar.bz2 linguas_de? ( mirror://sourceforge/openastromenace/oamenace-lang-de-1.2.0.tar.bz2 ) linguas_ru? ( mirror://sourceforge/openastromenace/oamenace-lang-ru-1.2.0.tar.bz2 ) mirror://gentoo/openastromenace.png
-_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235735686	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830

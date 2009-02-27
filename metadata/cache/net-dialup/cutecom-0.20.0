@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=x11-libs/qt:4 net-dialup/lrzsz
 SLOT=0
 SRC_URI=http://cutecom.sourceforge.net/cutecom-0.20.0.tar.gz
-_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt4	/home/Funtoo/portage/eclass	1235637357	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=cmake-utils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	qt4	/home/Funtoo/portage/eclass	1235637357	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373869

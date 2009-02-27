@@ -8,5 +8,5 @@ LICENSE=GPL-2 FDL-1.1
 RDEPEND=>=virtual/emacs-21
 SLOT=0
 SRC_URI=http://rtfm.etla.org/emacs/htmlfontify/htmlfontify_0.20+texinfo.tar.gz
-_eclasses_=elisp	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=elisp	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373817

@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/ocaml-3.10[ocamlopt?] >=dev-ml/camlp5-5.09[ocamlopt?] ide? ( 
 RESTRICT=strip installsources
 SLOT=0
 SRC_URI=ftp://ftp.inria.fr/INRIA/coq/V8.1pl3/coq-8.1pl3.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373887

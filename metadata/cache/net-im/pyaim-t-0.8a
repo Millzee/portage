@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=net-im/jabber-base >=dev-python/twisted-2.2.0 >=dev-python/twisted-words-0.1.0 >=dev-python/twisted-web-0.5.0 webinterface? ( >=dev-python/nevow-0.4.1 ) >=dev-python/imaging-1.1 >=dev-lang/python-2.3
 SLOT=0
 SRC_URI=http://pyaimt.googlecode.com/files/pyaim-t-0.8a.tar.gz
-_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373873

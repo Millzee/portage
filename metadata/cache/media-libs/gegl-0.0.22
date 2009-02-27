@@ -9,5 +9,5 @@ LICENSE=|| ( GPL-3 LGPL-3 )
 RDEPEND=>=media-libs/babl-0.0.20 >=dev-libs/glib-2.18.0 media-libs/libpng >=x11-libs/gtk+-2.14.0 x11-libs/pango cairo? ( x11-libs/cairo ) doc? ( app-text/asciidoc dev-lang/ruby >=dev-lang/lua-5.1.0 app-text/enscript media-gfx/graphviz media-gfx/imagemagick ) ffmpeg? ( >=media-video/ffmpeg-0.4.9_p20080326 ) jpeg? ( media-libs/jpeg ) openexr? ( media-libs/openexr ) raw? ( >=media-libs/libopenraw-0.0.5 ) sdl? ( media-libs/libsdl ) svg? ( >=gnome-base/librsvg-2.14.0 )
 SLOT=0
 SRC_URI=ftp://ftp.gimp.org/pub/gegl/0.0/gegl-0.0.22.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373839

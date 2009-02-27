@@ -9,5 +9,5 @@ RDEPEND=x11-libs/libXrender x11-libs/libXt x11-libs/libXmu x86? ( >=x11-libs/gtk
 RESTRICT=strip
 SLOT=0
 SRC_URI=http://releases.mozilla.org/pub/mozilla.org/seamonkey/releases/1.1.14/seamonkey-1.1.14.en-US.linux-i686.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	mozilla-launcher	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	nsplugins	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	mozilla-launcher	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	nsplugins	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373892

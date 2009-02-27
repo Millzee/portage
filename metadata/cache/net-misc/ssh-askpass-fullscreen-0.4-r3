@@ -1,37 +1,12 @@
-<<<<<<< HEAD:metadata/cache/net-misc/ssh-askpass-fullscreen-0.4-r2
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install prepare
 DEPEND=>=x11-libs/gtk+-2.0 !net-misc/gtk2-ssh-askpass dev-util/pkgconfig
 DESCRIPTION=A small SSH Askpass replacement written with GTK2.
-EAPI=0
+EAPI=2
 HOMEPAGE=https://www.cgabriel.org/software/wiki/SshAskpassFullscreen
 KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~sparc ~x86 ~x86-fbsd
 LICENSE=GPL-2
 RDEPEND=>=x11-libs/gtk+-2.0 !net-misc/gtk2-ssh-askpass
 SLOT=0
 SRC_URI=http://www.cgabriel.org/download/ssh-askpass-fullscreen/ssh-askpass-fullscreen-0.4.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
-_mtime_=1235637357
-=======
->=x11-libs/gtk+-2.0 !net-misc/gtk2-ssh-askpass dev-util/pkgconfig
->=x11-libs/gtk+-2.0 !net-misc/gtk2-ssh-askpass
-0
-http://www.cgabriel.org/download/ssh-askpass-fullscreen/ssh-askpass-fullscreen-0.4.tar.gz
-
-https://www.cgabriel.org/software/wiki/SshAskpassFullscreen
-GPL-2
-A small SSH Askpass replacement written with GTK2.
-~alpha ~amd64 ~ia64 ~ppc ~sparc ~x86 ~x86-fbsd
-toolchain-funcs multilib portability eutils
-
-
-
-
-2
-
-compile install prepare
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/net-misc/ssh-askpass-fullscreen-0.4-r3
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_mtime_=1235735686

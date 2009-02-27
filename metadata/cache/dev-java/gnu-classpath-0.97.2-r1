@@ -9,5 +9,5 @@ LICENSE=GPL-2-with-linking-exception
 RDEPEND=alsa? ( media-libs/alsa-lib ) doc? ( >=dev-java/gjdoc-0.7.9 ) dssi? ( >=media-libs/dssi-0.9 ) gconf? ( gnome-base/gconf ) gtk? ( >=x11-libs/gtk+-2.8 >=dev-libs/glib-2.0 || ( x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXtst ) ) nsplugin? ( >=x11-libs/gtk+-2.8 >=dev-libs/glib-2.0 || ( x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXtst ) || ( www-client/mozilla-firefox net-libs/xulrunner www-client/seamonkey ) ) qt4? ( >=x11-libs/qt-4.0 ) xml? ( >=dev-libs/libxml2-2.6.8 >=dev-libs/libxslt-1.1.11 )
 SLOT=0.97
 SRC_URI=mirror://gnu/classpath/classpath-0.97.2.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373822

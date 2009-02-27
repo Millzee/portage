@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=sys-apps/sed-4 virtual/libc mail-filter/procmail normalizemime? ( mail-filter/normalizemime ) mew? ( app-emacs/mew ) mimencode? ( net-mail/metamail ) !static? ( >=dev-libs/tre-0.7.2 )
 SLOT=0
 SRC_URI=http://crm114.sourceforge.net/crm114-20041231.BlameSanAndreas.src.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373819

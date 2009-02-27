@@ -8,5 +8,5 @@ LICENSE=BSD GPL-2
 RDEPEND=>=virtual/emacs-22 >=dev-tcltk/tclx-8.4
 SLOT=0
 SRC_URI=http://emacspeak.googlecode.com/files/emacspeak-29.0.tar.bz2 mirror://gentoo/emacspeak-29.0-patches.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373814

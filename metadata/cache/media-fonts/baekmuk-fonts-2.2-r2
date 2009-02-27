@@ -9,5 +9,5 @@ LICENSE=BSD
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://kldp.net/download.php/1429/baekmuk-ttf-2.2.tar.gz http://kldp.net/download.php/1428/baekmuk-bdf-2.2.tar.gz unicode? ( http://chem.skku.ac.kr/~wkpark/baekmuk/iso10646/20020418.tar.bz2 )
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	font	/home/Funtoo/portage/eclass	1235373829	font-ebdftopcf	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	font	/home/Funtoo/portage/eclass	1235373829	font-ebdftopcf	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373838

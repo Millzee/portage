@@ -9,5 +9,5 @@ LICENSE=GPL-2 FVWM
 RDEPEND=readline? ( sys-libs/readline sys-libs/ncurses ) gtk? ( =x11-libs/gtk+-1.2* imlib? ( media-libs/imlib ) ) rplay? ( media-sound/rplay ) bidi? ( dev-libs/fribidi ) png? ( media-libs/libpng ) stroke? ( dev-libs/libstroke ) perl? ( tk? ( dev-lang/tk dev-perl/perl-tk >=dev-perl/X11-Protocol-0.56 ) ) truetype? ( x11-libs/libXft media-libs/fontconfig ) userland_GNU? ( sys-apps/debianutils ) dev-lang/perl sys-libs/zlib x11-libs/libXpm x11-libs/libXft xinerama? ( x11-libs/libXinerama )
 SLOT=0
 SRC_URI=ftp://ftp.fvwm.org/pub/fvwm/version-2/fvwm-2.5.21.tar.bz2 mirror://gentoo/fvwm-2.5.21-translucent-menus.diff.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373895

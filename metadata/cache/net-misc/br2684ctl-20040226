@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=>=net-dialup/linux-atm-2.4.1
 SLOT=0
 SRC_URI=mirror://debian/pool/main/b/br2684ctl/br2684ctl_20040226.orig.tar.gz mirror://debian/pool/main/b/br2684ctl/br2684ctl_20040226-1.diff.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	linux-info	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	linux-info	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373877

@@ -1,38 +1,13 @@
-<<<<<<< HEAD:metadata/cache/mail-client/cone-0.74
 DEFINED_PHASES=install unpack
 DEPEND=>=dev-libs/openssl-0.9.6 dev-libs/libxml2 fam? ( virtual/fam ) crypt? ( >=app-crypt/gnupg-1.0.4 ) spell? ( virtual/aspell-dict ) dev-lang/perl
 DESCRIPTION=CONE: COnsole News reader and Emailer
 EAPI=0
 HOMEPAGE=http://www.courier-mta.org/cone/
 IUSE=crypt fam spell
-KEYWORDS=amd64 ~ppc ~sparc x86
+KEYWORDS=amd64 ppc ~sparc x86
 LICENSE=GPL-2
 RDEPEND=>=dev-libs/openssl-0.9.6 dev-libs/libxml2 fam? ( virtual/fam ) crypt? ( >=app-crypt/gnupg-1.0.4 ) spell? ( virtual/aspell-dict )
 SLOT=0
 SRC_URI=mirror://sourceforge/courier/cone-0.74.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
-_mtime_=1235373837
-=======
->=dev-libs/openssl-0.9.6 dev-libs/libxml2 fam? ( virtual/fam ) crypt? ( >=app-crypt/gnupg-1.0.4 ) spell? ( virtual/aspell-dict ) dev-lang/perl
->=dev-libs/openssl-0.9.6 dev-libs/libxml2 fam? ( virtual/fam ) crypt? ( >=app-crypt/gnupg-1.0.4 ) spell? ( virtual/aspell-dict )
-0
-mirror://sourceforge/courier/cone-0.74.tar.bz2
-
-http://www.courier-mta.org/cone/
-GPL-2
-CONE: COnsole News reader and Emailer
-amd64 ppc ~sparc x86
-toolchain-funcs multilib portability eutils
-crypt fam spell
-
-
-
-0
-
-install unpack
-
-
-
-
-
->>>>>>> regen2/regen2.org:metadata/cache/mail-client/cone-0.74
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_mtime_=1235735686

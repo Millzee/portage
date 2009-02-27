@@ -8,5 +8,5 @@ LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.4 =dev-java/commons-beanutils-1.6* dev-java/commons-collections dev-java/commons-digester dev-java/commons-logging dev-java/commons-validator =dev-java/dom4j-1* dev-java/dvsl =dev-java/jaxen-1.1* =dev-java/servletapi-2.3* =dev-java/struts-1.1* =dev-java/struts-sslext-1.1* dev-java/velocity dev-java/dvsl >=dev-java/java-config-2.1.6
 SLOT=0
 SRC_URI=http://archive.apache.org/dist/jakarta/velocity-tools/source/velocity-tools-1.1-src.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	java-ant-2	/home/Funtoo/portage/eclass	1235373829	java-pkg-2	/home/Funtoo/portage/eclass	1235373829	java-utils-2	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373823

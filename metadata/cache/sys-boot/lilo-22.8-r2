@@ -10,5 +10,5 @@ PROVIDE=virtual/bootloader
 RDEPEND=device-mapper? ( >=sys-fs/device-mapper-1.02.12 )
 SLOT=0
 SRC_URI=http://home.san.rr.com/johninsd/pub/linux/lilo/lilo-22.8.src.tar.gz ftp://metalab.unc.edu/pub/Linux/system/boot/lilo/lilo-22.8.src.tar.gz ftp://metalab.unc.edu/pub/Linux/system/boot/lilo/obsolete/lilo-22.8.src.tar.gz mirror://gentoo/dolilo-0.5.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373889

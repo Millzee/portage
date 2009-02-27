@@ -10,5 +10,5 @@ RDEPEND=!<app-editors/emacs-cvs-22.1 sys-libs/ncurses >=app-admin/eselect-emacs-
 RESTRICT=strip
 SLOT=22
 SRC_URI=mirror://gnu/emacs/emacs-22.3.tar.gz
-_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	elisp-common	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373816

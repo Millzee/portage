@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=sys-libs/ncurses-5.2-r1
 SLOT=0
 SRC_URI=ftp://iptraf.seul.org/pub/iptraf/iptraf-2.7.0.tar.gz http://dev.gentoo.org/~gmsoft/patches/iptraf-2.7.0-ipv6-alpha12.diff
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373868

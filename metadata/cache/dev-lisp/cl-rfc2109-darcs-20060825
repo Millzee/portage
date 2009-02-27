@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86 ~sparc ~ppc
 LICENSE=BSD
 RDEPEND=dev-lisp/cl-split-sequence
 SLOT=0
-_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235373829	common-lisp-common	/home/Funtoo/portage/eclass	1235373829	darcs	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=common-lisp	/home/Funtoo/portage/eclass	1235373829	common-lisp-common	/home/Funtoo/portage/eclass	1235373829	darcs	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373824

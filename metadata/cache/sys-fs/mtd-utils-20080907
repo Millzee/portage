@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=!sys-fs/mtd dev-libs/lzo sys-libs/zlib
 SLOT=0
 SRC_URI=mirror://gentoo/mtd-utils-snapshot-20080907-41c53b6f2d756ae995c3ffa4455576515427c5e0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373891

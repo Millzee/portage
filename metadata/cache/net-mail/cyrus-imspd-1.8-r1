@@ -9,5 +9,5 @@ LICENSE=as-is
 RDEPEND=>=sys-libs/db-3.2 >=dev-libs/cyrus-sasl-2.1.3 >=dev-libs/cyrus-imap-dev-2.1.14 kerberos? ( virtual/krb5 ) ldap? ( >=net-nds/openldap-2.0 ) ssl? ( >=net-misc/stunnel-4 )
 SLOT=0
 SRC_URI=ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/cyrus-imspd-v1.8.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	ssl-cert	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	ssl-cert	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373874

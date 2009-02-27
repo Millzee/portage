@@ -11,5 +11,5 @@ RDEPEND=sys-libs/zlib >=sys-apps/baselayout-1.12.7-r2 !virtual/modutils
 RESTRICT=test
 SLOT=0
 SRC_URI=mirror://kernel/linux/kernel/people/jcm/module-init-tools/module-init-tools-3.4.tar.bz2 old-linux? ( mirror://kernel/linux/utils/kernel/modutils/v2.4/modutils-2.4.27.tar.bz2 ) mirror://gentoo/module-init-tools-3.4-manpages.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	fixheadtails	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	fixheadtails	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373888

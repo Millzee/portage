@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=net-wireless/wireless-tools kernel_linux? ( virtual/modutils )
 SLOT=0
 SRC_URI=http://rt2x00.serialmonkey.com/rt2570-1.1.0-b1.tar.gz http://dev.gentoo.org/~steev/distfiles/rt2570-cvs-update.patch.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	linux-info	/home/Funtoo/portage/eclass	1235373829	linux-mod	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	linux-info	/home/Funtoo/portage/eclass	1235373829	linux-mod	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373883

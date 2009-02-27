@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=virtual/opengl media-libs/glew >=media-gfx/imagemagick-5.5.7 kde? ( || ( kde-base/kdeartwork-kscreensaver kde-base/kdeartwork ) ) !kde? ( >=x11-misc/xscreensaver-5 ) xscreensaver? ( >=x11-misc/xscreensaver-5 ) openal? ( media-libs/openal )
 SLOT=0
 SRC_URI=mirror://sourceforge/rss-glx/rss-glx_0.8.1.tar.bz2
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373894

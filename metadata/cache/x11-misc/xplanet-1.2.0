@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=X? ( x11-libs/libX11 x11-libs/libXScrnSaver x11-libs/libXt x11-libs/libXext ) gif? ( media-libs/giflib ) jpeg? ( media-libs/jpeg ) tiff? ( media-libs/tiff ) png? ( media-libs/libpng media-libs/netpbm ) truetype? ( =media-libs/freetype-2* x11-libs/pango )
 SLOT=0
 SRC_URI=mirror://sourceforge/xplanet/xplanet-1.2.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373894

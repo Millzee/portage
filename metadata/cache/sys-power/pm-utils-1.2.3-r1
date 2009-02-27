@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=sys-apps/hal-0.5.10 >=sys-apps/dbus-1.0.0 !sys-power/powermgmt-base >=sys-apps/util-linux-2.13 alsa? ( media-sound/alsa-utils ) networkmanager? ( net-misc/networkmanager ) ntp? ( net-misc/ntp ) !ppc? ( !video_cards_intel? ( sys-apps/vbetool ) video_cards_radeon? ( app-laptop/radeontool ) )
 SLOT=0
 SRC_URI=http://pm-utils.freedesktop.org/releases/pm-utils-1.2.3.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373892

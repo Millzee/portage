@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1 Apache-2.0
 RDEPEND=unicode? ( >=dev-libs/glib-2 ) xml? ( >=dev-libs/libxml2-2.6.8 ) !xml? ( dev-libs/expat ) curl? ( net-misc/curl ) dev-libs/libxslt
 SLOT=0
 SRC_URI=http://download.librdf.org/source/raptor-1.4.18.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373839

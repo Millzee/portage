@@ -9,5 +9,5 @@ LICENSE=GPL-2 public-domain
 RDEPEND=>=media-libs/jpeg-6b amd64? ( sys-libs/libieee1284 ) x86? ( sys-libs/libieee1284 ) usb? ( >=dev-libs/libusb-0.1.8 ) gphoto2? ( media-libs/libgphoto2 ) v4l? ( sys-kernel/linux-headers ) !<sys-fs/udev-114
 SLOT=0
 SRC_URI=http://alioth.debian.org/frs/download.php/2318/sane-backends-1.0.19.tar.gz ftp://ftp.sane-project.org/pub/sane/sane-backends-1.0.19/sane-backends-1.0.19.tar.gz ftp://ftp.sane-project.org/pub/sane/old-versions/sane-backends-1.0.19/sane-backends-1.0.19.tar.gz usb? ( mirror://gentoo/sane-1.0.19-brother-driver.diff.bz2 http://dev.gentoo.org/~phosphan/sane-1.0.19-brother-driver.diff.bz2 )
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373838

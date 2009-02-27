@@ -9,5 +9,5 @@ LICENSE=AMD GPL-2 QPL-1.0 as-is
 RDEPEND=x11-base/xorg-server !x11-apps/ati-drivers-extra >=app-admin/eselect-1.0.9 app-admin/eselect-opengl amd64? ( app-emulation/emul-linux-x86-xlibs ) acpi? ( x11-apps/xauth sys-power/acpid ) x11-libs/libXrandr >=sys-apps/portage-2.1.1-r1 kernel_linux? ( virtual/modutils )
 SLOT=0
 SRC_URI=https://a248.e.akamai.net/f/674/9206/0/www2.ati.com/drivers/linux//ati-driver-installer-8-5-x86.x86_64.run
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	linux-info	/home/Funtoo/portage/eclass	1235373829	linux-mod	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	linux-info	/home/Funtoo/portage/eclass	1235373829	linux-mod	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	versionator	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373893

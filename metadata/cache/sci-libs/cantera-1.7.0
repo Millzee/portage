@@ -9,5 +9,5 @@ LICENSE=BSD
 RDEPEND=blas? ( virtual/blas virtual/cblas virtual/lapack ) fortran? ( dev-lang/f2c ) python? ( dev-python/numeric )
 SLOT=0
 SRC_URI=mirror://sourceforge/cantera/cantera-1.7.0.tar.gz
-_eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
+_eclasses_=eutils	/home/Funtoo/portage/eclass	1235735686	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373885
