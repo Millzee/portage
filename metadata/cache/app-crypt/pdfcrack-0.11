@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/app-crypt/pdfcrack-0.11
 DEFINED_PHASES=install unpack
 DESCRIPTION=Tool for recovering passwords and content from PDF-files
 EAPI=0
@@ -8,3 +9,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/pdfcrack/pdfcrack-0.11.tar.gz
 _eclasses_=eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373816
+=======
+
+
+0
+mirror://sourceforge/pdfcrack/pdfcrack-0.11.tar.gz
+
+http://pdfcrack.sourceforge.net/
+GPL-2
+Tool for recovering passwords and content from PDF-files
+~amd64 ~ppc ~x86
+toolchain-funcs multilib portability eutils
+
+
+
+
+0
+
+install unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/app-crypt/pdfcrack-0.11

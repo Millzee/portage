@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/net-p2p/mldonkey-3.0.0
 DEFINED_PHASES=compile install postinst preinst setup unpack
 DEPEND=dev-lang/perl guionly? ( >=gnome-base/librsvg-2.4.0 >=dev-ml/lablgtk-2.6 ) gtk? ( >=gnome-base/librsvg-2.4.0 >=dev-ml/lablgtk-2.6 ) gd? ( >=media-libs/gd-2.0.28 ) magic? ( sys-apps/file ) >=dev-lang/ocaml-3.08.3 sys-apps/sed =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
 DESCRIPTION=MLDonkey is a multi-network P2P application written in Ocaml, coming with its own Gtk GUI, web and telnet interface.
@@ -11,3 +12,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/mldonkey/mldonkey-3.0.0.tar.bz2
 _eclasses_=autotools	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	flag-o-matic	/home/Funtoo/portage/eclass	1235373829	libtool	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235637357
+=======
+dev-lang/perl guionly? ( >=gnome-base/librsvg-2.4.0 >=dev-ml/lablgtk-2.6 ) gtk? ( >=gnome-base/librsvg-2.4.0 >=dev-ml/lablgtk-2.6 ) gd? ( >=media-libs/gd-2.0.28 ) magic? ( sys-apps/file ) >=dev-lang/ocaml-3.08.3 sys-apps/sed =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool
+dev-lang/perl guionly? ( >=gnome-base/librsvg-2.4.0 >=dev-ml/lablgtk-2.6 ) gtk? ( >=gnome-base/librsvg-2.4.0 >=dev-ml/lablgtk-2.6 ) gd? ( >=media-libs/gd-2.0.28 ) magic? ( sys-apps/file )
+0
+mirror://sourceforge/mldonkey/mldonkey-3.0.0.tar.bz2
+
+http://mldonkey.sourceforge.net/
+GPL-2
+MLDonkey is a multi-network P2P application written in Ocaml, coming with its own Gtk GUI, web and telnet interface.
+~alpha ~amd64 ~hppa ~ia64 ~ppc ~sparc x86 ~x86-fbsd
+toolchain-funcs portability flag-o-matic multilib libtool autotools eutils
+doc fasttrack gd gnutella gtk guionly magic +ocamlopt
+
+
+
+1
+
+compile install postinst preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/net-p2p/mldonkey-3.0.0

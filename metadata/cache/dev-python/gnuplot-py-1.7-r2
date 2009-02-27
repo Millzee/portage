@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/dev-python/gnuplot-py-1.7-r2
 DEFINED_PHASES=compile install postinst postrm unpack
 DEPEND=virtual/python sci-visualization/gnuplot dev-python/numpy virtual/python
 DESCRIPTION=A python wrapper for Gnuplot
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/gnuplot-py/gnuplot-py-1.7.tar.gz
 _eclasses_=alternatives	/home/Funtoo/portage/eclass	1235373829	distutils	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	python	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235656123
+=======
+virtual/python sci-visualization/gnuplot dev-python/numpy virtual/python
+virtual/python sci-visualization/gnuplot dev-python/numpy
+0
+mirror://sourceforge/gnuplot-py/gnuplot-py-1.7.tar.gz
+
+http://gnuplot-py.sourceforge.net/
+LGPL-2.1
+A python wrapper for Gnuplot
+amd64 ~ia64 ppc ~ppc64 s390 sparc x86 ~x86-fbsd
+toolchain-funcs distutils portability python alternatives multilib eutils
+
+
+
+
+0
+
+compile install postinst postrm unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/dev-python/gnuplot-py-1.7-r2

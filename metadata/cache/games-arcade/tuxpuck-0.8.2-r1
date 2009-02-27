@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/games-arcade/tuxpuck-0.8.2-r1
 DEFINED_PHASES=compile install postinst preinst setup unpack
 DEPEND=media-libs/libsdl media-libs/libpng media-libs/jpeg media-libs/libvorbis =media-libs/freetype-2*
 DESCRIPTION=Hover hockey
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=http://home.no.net/munsuun/tuxpuck/files/tuxpuck-0.8.2.tar.gz
 _eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433
 _mtime_=1235373830
+=======
+media-libs/libsdl media-libs/libpng media-libs/jpeg media-libs/libvorbis media-libs/freetype:2
+media-libs/libsdl media-libs/libpng media-libs/jpeg media-libs/libvorbis
+0
+http://home.no.net/munsuun/tuxpuck/files/tuxpuck-0.8.2.tar.gz
+
+http://home.no.net/munsuun/tuxpuck/
+GPL-2
+Hover hockey
+alpha amd64 ppc sparc x86 ~x86-fbsd
+toolchain-funcs portability multilib base games eutils
+
+
+
+
+2
+
+compile configure install postinst preinst prepare setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/games-arcade/tuxpuck-0.8.2-r1

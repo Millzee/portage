@@ -1,3 +1,4 @@
+<<<<<<< HEAD:metadata/cache/games-engines/scummvm-tools-0.12.0
 DEFINED_PHASES=compile install postinst preinst setup unpack
 DEPEND=media-libs/libpng media-libs/flac media-libs/libvorbis =x11-libs/wxGTK-2.8*
 DESCRIPTION=utilities for the SCUMM game engine
@@ -10,3 +11,27 @@ SLOT=0
 SRC_URI=mirror://sourceforge/scummvm/scummvm-tools-0.12.0.tar.bz2
 _eclasses_=base	/home/Funtoo/portage/eclass	1235373829	eutils	/home/Funtoo/portage/eclass	1235373829	games	/home/Funtoo/portage/eclass	1235373829	multilib	/home/Funtoo/portage/eclass	1235373829	portability	/home/Funtoo/portage/eclass	1235373829	toolchain-funcs	/home/Funtoo/portage/eclass	1235564433	wxwidgets	/home/Funtoo/portage/eclass	1235373829
 _mtime_=1235373830
+=======
+media-libs/libpng media-libs/flac media-libs/libvorbis =x11-libs/wxGTK-2.8*
+media-libs/libpng media-libs/flac media-libs/libvorbis =x11-libs/wxGTK-2.8*
+0
+mirror://sourceforge/scummvm/scummvm-tools-0.12.0.tar.bz2
+
+http://scummvm.sourceforge.net/
+GPL-2
+utilities for the SCUMM game engine
+amd64 ppc ~sparc x86 ~x86-fbsd
+toolchain-funcs wxwidgets portability multilib base games eutils
+
+
+
+
+0
+
+compile install postinst preinst setup unpack
+
+
+
+
+
+>>>>>>> regen2/regen2.org:metadata/cache/games-engines/scummvm-tools-0.12.0
